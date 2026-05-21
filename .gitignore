@@ -1,0 +1,67 @@
+# ── Python ──────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# uv
+.python-version
+
+# Alembic compiled
+backend/alembic/__pycache__/
+
+# ── Environment / secrets ────────────────────────────────
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# ── Node / Frontend ──────────────────────────────────────
+node_modules/
+frontend/dist/
+frontend/.vite/
+*.tsbuildinfo
+
+# ── Database ─────────────────────────────────────────────
+*.sqlite
+*.sqlite3
+*.db
+
+# ── Docker ───────────────────────────────────────────────
+# Keep docker-compose.yml but ignore override files
+docker-compose.override.yml
+
+# ── IDE / OS ─────────────────────────────────────────────
+.vscode/
+.idea/
+*.suo
+*.user
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Logs / temp ──────────────────────────────────────────
+*.log
+*.tmp
+*.bak
+excalidraw.log
+
+# ── Test artifacts ───────────────────────────────────────
+.pytest_cache/
+htmlcov/
+.coverage
+coverage.xml
+
+# ── Misc ─────────────────────────────────────────────────
+backend/test_gemini.py

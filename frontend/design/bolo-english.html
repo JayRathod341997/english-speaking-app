@@ -1,0 +1,833 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bolo English — Speaking Partner for Gujarati Speakers</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Hanken+Grotesk:wght@400;500;600;700&family=Noto+Sans+Gujarati:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #1c1714;
+    --ink-soft: #5a5048;
+    --paper: #f4ede1;
+    --paper-2: #ebe0cf;
+    --card: #fffaf2;
+    --saffron: #e8763a;
+    --saffron-deep: #c8551c;
+    --teal: #1f7a6b;
+    --teal-soft: #d3e8e2;
+    --amber: #d9a017;
+    --amber-soft: #f6e6bf;
+    --rose: #c0455e;
+    --rose-soft: #f3d8de;
+    --line: #d8cab2;
+    --shadow: rgba(60, 40, 20, 0.12);
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+  html, body { height: 100%; }
+  body {
+    font-family: 'Hanken Grotesk', sans-serif;
+    background: var(--paper);
+    color: var(--ink);
+    overflow: hidden;
+    background-image:
+      radial-gradient(circle at 12% 18%, rgba(232,118,58,0.07), transparent 38%),
+      radial-gradient(circle at 88% 82%, rgba(31,122,107,0.07), transparent 40%);
+  }
+  .guj { font-family: 'Noto Sans Gujarati', sans-serif; }
+  .app {
+    max-width: 460px; height: 100dvh; margin: 0 auto;
+    background: var(--paper);
+    display: flex; flex-direction: column; position: relative;
+    box-shadow: 0 0 60px var(--shadow);
+    overflow: hidden;
+  }
+
+  /* ===== Top bar ===== */
+  .topbar {
+    padding: 18px 22px 14px; display: flex; align-items: center; justify-content: space-between;
+    border-bottom: 1px solid var(--line); background: var(--card);
+    flex-shrink: 0;
+  }
+  .brand { display: flex; align-items: center; gap: 11px; }
+  .logo {
+    width: 38px; height: 38px; border-radius: 11px;
+    background: linear-gradient(140deg, var(--saffron), var(--saffron-deep));
+    display: grid; place-items: center; color: #fff; font-weight: 700;
+    font-family: 'Fraunces', serif; font-size: 20px;
+    box-shadow: 0 4px 12px rgba(200,85,28,0.3);
+  }
+  .brand h1 { font-family: 'Fraunces', serif; font-size: 19px; font-weight: 600; letter-spacing: -0.3px; }
+  .brand p { font-size: 11px; color: var(--ink-soft); margin-top: -2px; }
+  .streak {
+    display: flex; align-items: center; gap: 5px; background: var(--amber-soft);
+    padding: 6px 11px; border-radius: 20px; font-weight: 700; font-size: 13px; color: var(--saffron-deep);
+  }
+
+  /* ===== Screens ===== */
+  .screen { flex: 1; overflow-y: auto; display: none; flex-direction: column; }
+  .screen.active { display: flex; }
+  .screen::-webkit-scrollbar { width: 0; }
+
+  /* ===== Home ===== */
+  .home-pad { padding: 22px; }
+  .greet { font-family: 'Fraunces', serif; font-size: 25px; font-weight: 600; letter-spacing: -0.5px; line-height: 1.15; }
+  .greet .guj { display: block; font-size: 15px; color: var(--ink-soft); font-weight: 500; margin-top: 4px; }
+
+  .level-row { display: flex; gap: 9px; margin-top: 18px; }
+  .lvl {
+    flex: 1; border: 1.5px solid var(--line); background: var(--card); border-radius: 13px;
+    padding: 9px 6px; text-align: center; cursor: pointer; transition: all .18s;
+    font-size: 12.5px; font-weight: 600; color: var(--ink-soft);
+  }
+  .lvl.on { border-color: var(--teal); background: var(--teal-soft); color: var(--teal); }
+
+  .challenge {
+    margin-top: 20px; border-radius: 18px; padding: 20px; position: relative; overflow: hidden;
+    background: linear-gradient(135deg, var(--teal) 0%, #155f53 100%); color: #f4ede1;
+    box-shadow: 0 8px 22px rgba(31,122,107,0.28);
+  }
+  .challenge::after {
+    content: ''; position: absolute; right: -30px; top: -30px; width: 130px; height: 130px;
+    border-radius: 50%; background: rgba(255,255,255,0.06);
+  }
+  .challenge .tag { font-size: 10.5px; letter-spacing: 1.5px; text-transform: uppercase; opacity: .8; font-weight: 700; }
+  .challenge h3 { font-family: 'Fraunces', serif; font-size: 21px; margin-top: 7px; font-weight: 600; }
+  .challenge p { font-size: 13px; opacity: .88; margin-top: 5px; line-height: 1.45; }
+  .challenge button {
+    margin-top: 15px; background: var(--card); color: var(--teal); border: none; border-radius: 11px;
+    padding: 11px 20px; font-weight: 700; font-size: 14px; cursor: pointer; font-family: inherit;
+    transition: transform .15s; position: relative; z-index: 1;
+  }
+  .challenge button:active { transform: scale(.96); }
+
+  .section-h { margin-top: 26px; font-family: 'Fraunces', serif; font-size: 17px; font-weight: 600; display: flex; justify-content: space-between; align-items: baseline; }
+  .section-h span { font-size: 12px; color: var(--ink-soft); font-weight: 500; font-family: 'Hanken Grotesk'; }
+
+  .scn-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 11px; margin-top: 13px; }
+  .scn {
+    background: var(--card); border: 1px solid var(--line); border-radius: 15px; padding: 15px;
+    cursor: pointer; transition: all .18s; position: relative; overflow: hidden;
+  }
+  .scn:active { transform: scale(.97); }
+  .scn:hover { border-color: var(--saffron); box-shadow: 0 6px 16px var(--shadow); }
+  .scn .emoji { font-size: 26px; }
+  .scn h4 { font-size: 14px; font-weight: 700; margin-top: 9px; letter-spacing: -0.2px; }
+  .scn p { font-size: 11.5px; color: var(--ink-soft); margin-top: 3px; line-height: 1.35; }
+  .scn .badge { position: absolute; top: 12px; right: 12px; font-size: 9px; font-weight: 700; padding: 3px 7px; border-radius: 6px; text-transform: uppercase; letter-spacing: .5px; }
+  .b-beg { background: var(--teal-soft); color: var(--teal); }
+  .b-int { background: var(--amber-soft); color: var(--amber); }
+  .b-adv { background: var(--rose-soft); color: var(--rose); }
+
+  /* ===== Conversation ===== */
+  .conv-head {
+    padding: 14px 18px; display: flex; align-items: center; gap: 12px; border-bottom: 1px solid var(--line);
+    background: var(--card); flex-shrink: 0;
+  }
+  .back-btn { background: none; border: none; font-size: 22px; cursor: pointer; color: var(--ink); line-height: 1; padding: 4px; }
+  .conv-avatar { width: 40px; height: 40px; border-radius: 50%; display: grid; place-items: center; font-size: 21px; background: var(--saffron-deep); flex-shrink: 0; }
+  .conv-meta h3 { font-size: 15px; font-weight: 700; }
+  .conv-meta p { font-size: 11.5px; color: var(--ink-soft); }
+
+  .chat { flex: 1; overflow-y: auto; padding: 18px; display: flex; flex-direction: column; gap: 14px; }
+  .chat::-webkit-scrollbar { width: 0; }
+  .scene-card { background: var(--paper-2); border: 1px dashed var(--line); border-radius: 13px; padding: 13px 15px; font-size: 12.5px; color: var(--ink-soft); text-align: center; line-height: 1.5; }
+  .scene-card b { color: var(--ink); }
+
+  .bubble { max-width: 82%; padding: 12px 15px; border-radius: 17px; font-size: 14.5px; line-height: 1.5; position: relative; animation: pop .25s ease; }
+  @keyframes pop { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+  .b-ai { align-self: flex-start; background: var(--card); border: 1px solid var(--line); border-bottom-left-radius: 5px; }
+  .b-user { align-self: flex-end; background: linear-gradient(135deg, var(--saffron), var(--saffron-deep)); color: #fff; border-bottom-right-radius: 5px; }
+  .b-ai .speak { margin-top: 7px; font-size: 11px; color: var(--teal); font-weight: 700; cursor: pointer; display: inline-flex; align-items: center; gap: 4px; }
+
+  .fb {
+    align-self: flex-end; max-width: 88%; background: var(--amber-soft); border: 1px solid #ecd28a;
+    border-radius: 13px; padding: 11px 14px; font-size: 12.5px; animation: pop .3s ease;
+  }
+  .fb .fb-h { font-weight: 700; color: var(--saffron-deep); display: flex; align-items: center; gap: 5px; font-size: 12px; margin-bottom: 5px; }
+  .fb .corr { color: var(--ink); line-height: 1.5; }
+  .fb .corr .strike { color: var(--rose); text-decoration: line-through; }
+  .fb .corr .good { color: var(--teal); font-weight: 700; }
+  .fb .guj-exp { margin-top: 7px; padding-top: 7px; border-top: 1px dashed #ddc380; color: var(--ink-soft); font-size: 12px; line-height: 1.55; }
+  .fb.perfect { background: var(--teal-soft); border-color: #a9d2c8; }
+  .fb.perfect .fb-h { color: var(--teal); }
+
+  .thinking { align-self: flex-start; display: flex; gap: 5px; padding: 14px 16px; background: var(--card); border: 1px solid var(--line); border-radius: 17px; border-bottom-left-radius: 5px; }
+  .thinking span { width: 7px; height: 7px; border-radius: 50%; background: var(--ink-soft); animation: bounce 1.2s infinite; }
+  .thinking span:nth-child(2) { animation-delay: .15s; }
+  .thinking span:nth-child(3) { animation-delay: .3s; }
+  @keyframes bounce { 0%,60%,100% { transform: translateY(0); opacity: .4; } 30% { transform: translateY(-6px); opacity: 1; } }
+
+  /* ===== Mic dock ===== */
+  .dock { flex-shrink: 0; padding: 14px 18px 22px; background: var(--card); border-top: 1px solid var(--line); }
+  .transcript-live { font-size: 13px; color: var(--ink-soft); text-align: center; min-height: 18px; margin-bottom: 10px; font-style: italic; }
+  .mic-row { display: flex; align-items: center; justify-content: center; gap: 14px; }
+  .mic {
+    width: 72px; height: 72px; border-radius: 50%; border: none; cursor: pointer;
+    background: linear-gradient(135deg, var(--saffron), var(--saffron-deep)); color: #fff;
+    display: grid; place-items: center; box-shadow: 0 8px 22px rgba(200,85,28,0.4); transition: transform .15s;
+    position: relative;
+  }
+  .mic:active { transform: scale(.93); }
+  .mic svg { width: 30px; height: 30px; }
+  .mic.listening { animation: pulse 1.3s infinite; background: linear-gradient(135deg, var(--rose), #9c2f45); }
+  @keyframes pulse { 0% { box-shadow: 0 0 0 0 rgba(192,69,94,0.5); } 70% { box-shadow: 0 0 0 18px rgba(192,69,94,0); } 100% { box-shadow: 0 0 0 0 rgba(192,69,94,0); } }
+  .side-btn { width: 48px; height: 48px; border-radius: 50%; border: 1.5px solid var(--line); background: var(--paper); cursor: pointer; display: grid; place-items: center; font-size: 18px; transition: all .15s; }
+  .side-btn:active { transform: scale(.92); }
+  .mic-hint { text-align: center; font-size: 11.5px; color: var(--ink-soft); margin-top: 11px; }
+
+  /* type fallback */
+  .type-row { display: none; gap: 8px; margin-top: 12px; }
+  .type-row.show { display: flex; }
+  .type-row input { flex: 1; border: 1.5px solid var(--line); border-radius: 12px; padding: 11px 14px; font-size: 14px; font-family: inherit; background: var(--paper); outline: none; }
+  .type-row input:focus { border-color: var(--saffron); }
+  .type-row button { background: var(--teal); color: #fff; border: none; border-radius: 12px; padding: 0 18px; font-weight: 700; cursor: pointer; }
+
+  /* ===== Progress ===== */
+  .prog-pad { padding: 22px; }
+  .score-hero { background: var(--card); border: 1px solid var(--line); border-radius: 18px; padding: 22px; text-align: center; }
+  .ring { width: 120px; height: 120px; margin: 0 auto; position: relative; }
+  .ring svg { transform: rotate(-90deg); }
+  .ring .num { position: absolute; inset: 0; display: grid; place-items: center; flex-direction: column; }
+  .ring .num b { font-family: 'Fraunces', serif; font-size: 32px; }
+  .ring .num small { font-size: 10px; color: var(--ink-soft); text-transform: uppercase; letter-spacing: 1px; }
+  .metrics { display: grid; grid-template-columns: 1fr 1fr; gap: 11px; margin-top: 18px; }
+  .metric { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 14px; }
+  .metric .lbl { font-size: 11.5px; color: var(--ink-soft); font-weight: 600; }
+  .metric .val { font-family: 'Fraunces', serif; font-size: 23px; font-weight: 600; margin-top: 3px; }
+  .metric .bar { height: 6px; background: var(--paper-2); border-radius: 3px; margin-top: 8px; overflow: hidden; }
+  .metric .bar i { display: block; height: 100%; border-radius: 3px; }
+  .mistakes { margin-top: 22px; }
+  .mistake-card { background: var(--card); border: 1px solid var(--line); border-radius: 13px; padding: 13px 15px; margin-top: 10px; }
+  .mistake-card .mc-h { font-weight: 700; font-size: 13.5px; display: flex; justify-content: space-between; }
+  .mistake-card .mc-h .cnt { color: var(--rose); font-size: 12px; }
+  .mistake-card p { font-size: 12px; color: var(--ink-soft); margin-top: 5px; line-height: 1.45; }
+
+  /* ===== Nav ===== */
+  .nav { flex-shrink: 0; display: flex; border-top: 1px solid var(--line); background: var(--card); }
+  .nav button { flex: 1; background: none; border: none; padding: 11px 0 16px; cursor: pointer; color: var(--ink-soft); font-family: inherit; display: flex; flex-direction: column; align-items: center; gap: 3px; font-size: 10.5px; font-weight: 600; transition: color .15s; }
+  .nav button.on { color: var(--saffron-deep); }
+  .nav button svg { width: 22px; height: 22px; }
+
+  .toast { position: absolute; bottom: 90px; left: 50%; transform: translateX(-50%) translateY(20px); background: var(--ink); color: var(--paper); padding: 11px 18px; border-radius: 12px; font-size: 13px; opacity: 0; transition: all .3s; pointer-events: none; z-index: 50; max-width: 88%; text-align: center; }
+  .toast.show { opacity: 1; transform: translateX(-50%) translateY(0); }
+
+  /* ===== Auth / Login ===== */
+  .auth {
+    position: absolute; inset: 0; z-index: 100; background: var(--paper);
+    display: flex; flex-direction: column; padding: 40px 28px 30px; overflow-y: auto;
+    background-image:
+      radial-gradient(circle at 15% 12%, rgba(232,118,58,0.10), transparent 40%),
+      radial-gradient(circle at 85% 88%, rgba(31,122,107,0.10), transparent 42%);
+    animation: fadeIn .4s ease;
+  }
+  .auth.hide { display: none; }
+  @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+  .auth-brand { display: flex; flex-direction: column; align-items: center; text-align: center; margin-top: 18px; }
+  .auth-logo {
+    width: 76px; height: 76px; border-radius: 22px;
+    background: linear-gradient(140deg, var(--saffron), var(--saffron-deep));
+    display: grid; place-items: center; color: #fff; font-family: 'Fraunces', serif; font-size: 40px; font-weight: 700;
+    box-shadow: 0 12px 30px rgba(200,85,28,0.35); animation: floaty 4s ease-in-out infinite;
+  }
+  @keyframes floaty { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-7px); } }
+  .auth-brand h1 { font-family: 'Fraunces', serif; font-size: 32px; font-weight: 700; margin-top: 20px; letter-spacing: -0.6px; }
+  .auth-brand .tag { font-size: 14px; color: var(--ink-soft); margin-top: 6px; }
+  .auth-brand .tag-guj { font-size: 15px; color: var(--saffron-deep); margin-top: 3px; font-weight: 600; }
+
+  .auth-spacer { flex: 1; min-height: 24px; }
+  .auth-actions { display: flex; flex-direction: column; gap: 11px; }
+  .oauth {
+    display: flex; align-items: center; justify-content: center; gap: 11px;
+    border: 1.5px solid var(--line); background: var(--card); border-radius: 14px;
+    padding: 14px; font-size: 15px; font-weight: 600; cursor: pointer; font-family: inherit; color: var(--ink);
+    transition: all .15s;
+  }
+  .oauth:active { transform: scale(.97); }
+  .oauth:hover { border-color: var(--saffron); box-shadow: 0 5px 14px var(--shadow); }
+  .oauth svg, .oauth .ic { width: 22px; height: 22px; flex-shrink: 0; }
+  .oauth.apple { background: var(--ink); color: var(--paper); border-color: var(--ink); }
+  .oauth.apple:hover { box-shadow: 0 6px 16px rgba(28,23,20,0.3); }
+
+  .divider { display: flex; align-items: center; gap: 12px; margin: 6px 0; color: var(--ink-soft); font-size: 12px; }
+  .divider::before, .divider::after { content: ''; flex: 1; height: 1px; background: var(--line); }
+
+  .auth-field { display: flex; flex-direction: column; gap: 8px; }
+  .auth-field input {
+    border: 1.5px solid var(--line); background: var(--card); border-radius: 14px;
+    padding: 14px 16px; font-size: 15px; font-family: inherit; outline: none; color: var(--ink); width: 100%;
+    transition: border-color .15s;
+  }
+  .auth-field input:focus { border-color: var(--saffron); }
+  .auth-field input::placeholder { color: #a89878; }
+  .auth-primary {
+    border: none; border-radius: 14px; padding: 15px; font-size: 15px; font-weight: 700; cursor: pointer;
+    font-family: inherit; color: #fff; background: linear-gradient(135deg, var(--saffron), var(--saffron-deep));
+    box-shadow: 0 8px 20px rgba(200,85,28,0.3); transition: transform .15s;
+  }
+  .auth-primary:active { transform: scale(.98); }
+  .auth-switch { text-align: center; font-size: 13px; color: var(--ink-soft); margin-top: 4px; }
+  .auth-switch b { color: var(--saffron-deep); cursor: pointer; font-weight: 700; }
+  .guest { text-align: center; font-size: 13.5px; color: var(--ink-soft); margin-top: 16px; cursor: pointer; padding: 8px; }
+  .guest u { color: var(--teal); font-weight: 700; }
+  .legal { text-align: center; font-size: 10.5px; color: var(--ink-soft); margin-top: 18px; line-height: 1.5; }
+  .email-block { display: none; flex-direction: column; gap: 11px; }
+  .email-block.show { display: flex; }
+  .oauth-block.hide { display: none; }
+</style>
+</head>
+<body>
+<div class="app">
+
+  <!-- ============ LOGIN / AUTH ============ -->
+  <div class="auth" id="authScreen">
+    <div class="auth-brand">
+      <div class="auth-logo">બ</div>
+      <h1>Bolo English</h1>
+      <p class="tag">Your personal English speaking partner</p>
+      <p class="tag-guj guj">આત્મવિશ્વાસથી અંગ્રેજી બોલતા શીખો</p>
+    </div>
+
+    <div class="auth-spacer"></div>
+
+    <div class="auth-actions">
+      <!-- OAuth buttons -->
+      <div class="oauth-block" id="oauthBlock">
+        <button class="oauth" onclick="loginWith('Google')">
+          <svg viewBox="0 0 48 48"><path fill="#FFC107" d="M43.6 20.5H42V20H24v8h11.3c-1.6 4.7-6.1 8-11.3 8-6.6 0-12-5.4-12-12s5.4-12 12-12c3.1 0 5.9 1.2 8 3.1l5.7-5.7C34.5 4.5 29.5 2.5 24 2.5 12.1 2.5 2.5 12.1 2.5 24S12.1 45.5 24 45.5 45.5 35.9 45.5 24c0-1.2-.1-2.4-.4-3.5z"/><path fill="#FF3D00" d="M5.3 13.7l6.6 4.8C13.6 14.6 18.4 11.5 24 11.5c3.1 0 5.9 1.2 8 3.1l5.7-5.7C34.5 4.5 29.5 2.5 24 2.5 16.3 2.5 9.7 6.9 6.3 13.3l-1 .4z"/><path fill="#4CAF50" d="M24 45.5c5.4 0 10.3-2 13.9-5.3l-6.4-5.4c-2 1.5-4.6 2.4-7.5 2.4-5.2 0-9.6-3.3-11.2-7.9l-6.5 5C9.6 41 16.2 45.5 24 45.5z"/><path fill="#1976D2" d="M43.6 20.5H42V20H24v8h11.3c-.8 2.2-2.2 4.1-4 5.4l6.4 5.4c-.5.4 6.8-5 6.8-14.8 0-1.2-.1-2.4-.4-3.5z"/></svg>
+          Continue with Google
+        </button>
+        <button class="oauth apple" onclick="loginWith('Apple')">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.05 12.04c-.03-2.66 2.17-3.94 2.27-4-1.24-1.81-3.17-2.06-3.85-2.09-1.64-.16-3.2.96-4.03.96-.83 0-2.11-.94-3.47-.91-1.79.03-3.44 1.04-4.36 2.64-1.86 3.23-.48 8.01 1.33 10.63.88 1.28 1.93 2.72 3.31 2.67 1.33-.05 1.83-.86 3.44-.86 1.6 0 2.06.86 3.46.83 1.43-.02 2.34-1.31 3.21-2.6 1.01-1.49 1.43-2.93 1.46-3-.03-.02-2.8-1.08-2.83-4.27zM14.4 4.31c.73-.89 1.22-2.12 1.09-3.35-1.05.04-2.32.7-3.08 1.58-.68.78-1.27 2.03-1.11 3.23 1.17.09 2.37-.59 3.1-1.46z"/></svg>
+          Continue with Apple
+        </button>
+        <button class="oauth" onclick="loginWith('Phone')">
+          <span class="ic">📱</span> Continue with Phone (OTP)
+        </button>
+
+        <div class="divider">or</div>
+        <button class="oauth" onclick="showEmail()">
+          <span class="ic">✉️</span> Continue with Email
+        </button>
+      </div>
+
+      <!-- Email form -->
+      <div class="email-block" id="emailBlock">
+        <div class="auth-field">
+          <input type="email" id="emailInput" placeholder="Email address" autocomplete="email">
+          <input type="password" id="passInput" placeholder="Password" autocomplete="current-password">
+        </div>
+        <button class="auth-primary" onclick="loginWith('Email')"><span id="emailBtnTxt">Log in</span></button>
+        <div class="auth-switch">
+          <span id="switchTxt">New here?</span> <b id="switchBtn" onclick="toggleMode()">Create an account</b>
+        </div>
+        <div class="auth-switch"><b onclick="backToOAuth()">← Other options</b></div>
+      </div>
+    </div>
+
+    <div class="guest" onclick="loginWith('Guest')">Just exploring? <u>Continue as guest</u></div>
+    <p class="legal">By continuing you agree to our Terms of Service and Privacy Policy.<br>You can practice in English with explanations in Gujarati. 🙏</p>
+  </div>
+
+  <!-- TOP BAR -->
+  <div class="topbar">
+    <div class="brand">
+      <div class="logo">બ</div>
+      <div>
+        <h1>Bolo English</h1>
+        <p class="guj">તમારો અંગ્રેજી બોલવાનો સાથી</p>
+      </div>
+    </div>
+    <div class="streak">🔥 <span id="streakNum">4</span></div>
+  </div>
+
+  <!-- ============ HOME ============ -->
+  <div class="screen active" id="homeScreen">
+    <div class="home-pad">
+      <div class="greet"><span id="greetName">Ready to speak, Jay?</span><span class="guj">આજે કઈ પરિસ્થિતિની પ્રેક્ટિસ કરીએ?</span></div>
+
+      <div class="level-row">
+        <div class="lvl" data-lvl="Beginner">Beginner</div>
+        <div class="lvl on" data-lvl="Intermediate">Intermediate</div>
+        <div class="lvl" data-lvl="Advanced">Advanced</div>
+      </div>
+
+      <div class="challenge">
+        <div class="tag">Today's Challenge</div>
+        <h3>Order coffee like a local</h3>
+        <p>A 2-minute roleplay at a café. Practice polite requests and small talk.</p>
+        <button onclick="startScenario('cafe')">Start speaking →</button>
+      </div>
+
+      <div class="section-h">Practice Scenarios <span>13 categories</span></div>
+      <div class="scn-grid" id="scnGrid"></div>
+      <div style="height: 20px;"></div>
+    </div>
+  </div>
+
+  <!-- ============ CONVERSATION ============ -->
+  <div class="screen" id="convScreen">
+    <div class="conv-head">
+      <button class="back-btn" onclick="goHome()">‹</button>
+      <div class="conv-avatar" id="convAvatar">☕</div>
+      <div class="conv-meta">
+        <h3 id="convName">Maya · Barista</h3>
+        <p id="convSub">Café roleplay · Intermediate</p>
+      </div>
+    </div>
+    <div class="chat" id="chat"></div>
+    <div class="dock">
+      <div class="transcript-live" id="liveT"></div>
+      <div class="mic-row">
+        <button class="side-btn" id="typeToggle" title="Type instead">⌨️</button>
+        <button class="mic" id="micBtn" title="Hold to speak">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 14a3 3 0 0 0 3-3V5a3 3 0 0 0-6 0v6a3 3 0 0 0 3 3z"/><path d="M19 11a1 1 0 1 0-2 0 5 5 0 0 1-10 0 1 1 0 1 0-2 0 7 7 0 0 0 6 6.92V21a1 1 0 1 0 2 0v-3.08A7 7 0 0 0 19 11z"/></svg>
+        </button>
+        <button class="side-btn" id="slowBtn" title="Slower AI voice">🐢</button>
+      </div>
+      <div class="type-row" id="typeRow">
+        <input type="text" id="typeInput" placeholder="Type your reply in English…">
+        <button onclick="sendTyped()">Send</button>
+      </div>
+      <div class="mic-hint" id="micHint">Tap the mic and speak in English</div>
+    </div>
+  </div>
+
+  <!-- ============ PROGRESS ============ -->
+  <div class="screen" id="progScreen">
+    <div class="prog-pad">
+      <div class="greet" style="font-size:22px;">Your Progress<span class="guj">તમારી પ્રગતિ</span></div>
+      <div class="score-hero" style="margin-top:18px;">
+        <div class="ring">
+          <svg width="120" height="120">
+            <circle cx="60" cy="60" r="52" fill="none" stroke="#ebe0cf" stroke-width="10"/>
+            <circle cx="60" cy="60" r="52" fill="none" stroke="#1f7a6b" stroke-width="10" stroke-linecap="round" stroke-dasharray="327" stroke-dashoffset="105"/>
+          </svg>
+          <div class="num"><b>6.8</b><small>Band</small></div>
+        </div>
+        <p style="font-size:13px;color:var(--ink-soft);margin-top:8px;">Upper-intermediate · improving steadily</p>
+      </div>
+
+      <div class="metrics">
+        <div class="metric"><div class="lbl">Fluency</div><div class="val">72</div><div class="bar"><i style="width:72%;background:var(--teal)"></i></div></div>
+        <div class="metric"><div class="lbl">Pronunciation</div><div class="val">65</div><div class="bar"><i style="width:65%;background:var(--amber)"></i></div></div>
+        <div class="metric"><div class="lbl">Grammar</div><div class="val">78</div><div class="bar"><i style="width:78%;background:var(--teal)"></i></div></div>
+        <div class="metric"><div class="lbl">Vocabulary</div><div class="val">61</div><div class="bar"><i style="width:61%;background:var(--saffron)"></i></div></div>
+      </div>
+
+      <div class="mistakes">
+        <div class="section-h" style="margin-top:6px;">Your Common Mistakes<span>Gujarati speakers</span></div>
+        <div class="mistake-card">
+          <div class="mc-h"><span>"I am having a doubt"</span><span class="cnt">7×</span></div>
+          <p class="guj">સાચું: "I have a question." — અંગ્રેજીમાં doubt એટલે શંકા, question એટલે પ્રશ્ન.</p>
+        </div>
+        <div class="mistake-card">
+          <div class="mc-h"><span>Missing article "the"</span><span class="cnt">5×</span></div>
+          <p>You said "I went to <span style="color:var(--rose)">market</span>" → say "I went to <span style="color:var(--teal);font-weight:700">the</span> market".</p>
+        </div>
+        <div class="mistake-card">
+          <div class="mc-h"><span>V / W sound swap</span><span class="cnt">4×</span></div>
+          <p class="guj">"verry" → "very". W બોલતી વખતે હોઠ ગોળ કરો, V બોલતી વખતે દાંત હોઠ પર.</p>
+        </div>
+      </div>
+      <div style="height: 20px;"></div>
+    </div>
+  </div>
+
+  <!-- NAV -->
+  <div class="nav">
+    <button class="on" data-screen="homeScreen" onclick="nav('homeScreen')">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 11l9-8 9 8v9a2 2 0 0 1-2 2h-4v-6H9v6H5a2 2 0 0 1-2-2z"/></svg>
+      Home
+    </button>
+    <button data-screen="progScreen" onclick="nav('progScreen')">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3v18h18"/><path d="M7 14l3-4 4 3 5-7"/></svg>
+      Progress
+    </button>
+  </div>
+
+  <div class="toast" id="toast"></div>
+</div>
+
+<script>
+/* ============================================================
+   Bolo English — interactive prototype
+   Uses Web Speech API (real mic + voice) + Anthropic API tutor
+   ============================================================ */
+
+const LEVELS = ['Beginner','Intermediate','Advanced'];
+let currentLevel = 'Intermediate';
+let slowVoice = false;
+let user = null;
+
+/* ============================================================
+   Auth / Login (prototype — no real backend)
+   In production: swap loginWith() for Firebase Auth / Supabase
+   OAuth + a FastAPI /auth endpoint issuing a JWT.
+   ============================================================ */
+let signupMode = false;
+
+function showEmail() {
+  document.getElementById('oauthBlock').classList.add('hide');
+  document.getElementById('emailBlock').classList.add('show');
+}
+function backToOAuth() {
+  document.getElementById('oauthBlock').classList.remove('hide');
+  document.getElementById('emailBlock').classList.remove('show');
+}
+function toggleMode() {
+  signupMode = !signupMode;
+  document.getElementById('emailBtnTxt').textContent = signupMode ? 'Create account' : 'Log in';
+  document.getElementById('switchTxt').textContent = signupMode ? 'Already have an account?' : 'New here?';
+  document.getElementById('switchBtn').textContent = signupMode ? 'Log in' : 'Create an account';
+}
+
+function loginWith(provider) {
+  let name = 'Jay';
+  if (provider === 'Email') {
+    const email = document.getElementById('emailInput').value.trim();
+    if (!email || !document.getElementById('passInput').value.trim()) {
+      toast('Please enter email and password'); return;
+    }
+    name = email.split('@')[0].replace(/[._]/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+  } else if (provider === 'Guest') {
+    name = 'Guest';
+  }
+  user = { name, provider };
+
+  // personalize the greeting
+  const first = name.split(' ')[0];
+  document.getElementById('greetName').textContent = `Ready to speak, ${first}?`;
+
+  // dismiss login
+  const auth = document.getElementById('authScreen');
+  auth.classList.add('hide');
+  toast(provider === 'Guest' ? 'Welcome! Exploring as guest 👋' : `Welcome, ${first}! ${provider} sign-in ✓`);
+}
+
+const SCENARIOS = {
+  cafe:      { emoji:'☕', name:'Maya',   role:'Barista',           cat:'Café roleplay',        level:'Beginner',     setting:"You walk into a busy café. Maya is the friendly barista at the counter ready to take your order.", badge:'b-beg' },
+  interview: { emoji:'💼', name:'Mr. Shah', role:'HR Interviewer',  cat:'Job interview',        level:'Advanced',     setting:"You are in a job interview for an AI Engineer role. Mr. Shah is a friendly but sharp HR manager.", badge:'b-adv' },
+  bank:      { emoji:'🏦', name:'Priya',  role:'Bank Officer',      cat:'Asking for services',  level:'Intermediate', setting:"You are at a bank. Priya is the officer at the help desk. You want to open a savings account.", badge:'b-int' },
+  doctor:    { emoji:'🩺', name:'Dr. Lee', role:'Doctor',           cat:'Hospital visit',       level:'Intermediate', setting:"You are visiting a clinic. Dr. Lee asks about your symptoms. You have had a cough for 3 days.", badge:'b-int' },
+  airport:   { emoji:'✈️', name:'Sarah',  role:'Check-in Agent',    cat:'Travel',               level:'Intermediate', setting:"You are at the airport check-in counter. Sarah helps you check in for an international flight.", badge:'b-int' },
+  shop:      { emoji:'🛍️', name:'Tom',    role:'Shop Assistant',    cat:'Shopping',             level:'Beginner',     setting:"You are in a clothing store. Tom is a helpful shop assistant. You are looking for a shirt.", badge:'b-beg' },
+  colleague: { emoji:'👔', name:'Anjali', role:'Colleague',         cat:'Office conversation',  level:'Intermediate', setting:"It's Monday morning at the office. Anjali, your friendly colleague, starts a casual chat near the coffee machine.", badge:'b-int' },
+  friend:    { emoji:'🎉', name:'Rohan',  role:'Friend',            cat:'Casual chat',          level:'Beginner',     setting:"You meet your friend Rohan at a weekend get-together. He's catching up with you casually.", badge:'b-beg' },
+  complaint: { emoji:'📞', name:'Agent',  role:'Support Agent',     cat:'Difficult conversation',level:'Advanced',    setting:"Your internet has been down for 2 days. You call customer support. The agent is polite but slow to help.", badge:'b-adv' },
+  taxi:      { emoji:'🚕', name:'Driver', role:'Taxi Driver',       cat:'Travel',               level:'Beginner',     setting:"You get into a taxi. You need to reach the railway station and want to ask about the fare and time.", badge:'b-beg' },
+  restaurant:{ emoji:'🍽️', name:'Ravi',   role:'Waiter',            cat:'Ordering food',        level:'Beginner',     setting:"You are at a restaurant for dinner. Ravi is your waiter, ready to take your order.", badge:'b-beg' },
+  teacher:   { emoji:'📚', name:'Ms. Roy',role:'Mentor',            cat:'Asking questions',     level:'Intermediate', setting:"You are in a mentoring session. Ms. Roy is your teacher. You want to ask doubts about a topic you find difficult.", badge:'b-int' },
+  presentation:{emoji:'🎤',name:'Audience',role:'Meeting Room',     cat:'Presentation',         level:'Advanced',     setting:"You are presenting your project to a small team in a meeting. They will ask follow-up questions.", badge:'b-adv' },
+};
+
+/* ---- render scenario grid ---- */
+const grid = document.getElementById('scnGrid');
+Object.entries(SCENARIOS).forEach(([key, s]) => {
+  if (key === 'cafe') return; // featured already
+  const div = document.createElement('div');
+  div.className = 'scn';
+  div.onclick = () => startScenario(key);
+  div.innerHTML = `<span class="badge ${s.badge}">${s.level.slice(0,3)}</span>
+    <div class="emoji">${s.emoji}</div><h4>${s.role}</h4><p>${s.cat}</p>`;
+  grid.appendChild(div);
+});
+
+/* ---- level select ---- */
+document.querySelectorAll('.lvl').forEach(el => {
+  el.onclick = () => {
+    document.querySelectorAll('.lvl').forEach(x => x.classList.remove('on'));
+    el.classList.add('on');
+    currentLevel = el.dataset.lvl;
+  };
+});
+
+/* ---- navigation ---- */
+function nav(id) {
+  document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
+  document.getElementById(id).classList.add('active');
+  document.querySelectorAll('.nav button').forEach(b => b.classList.toggle('on', b.dataset.screen === id));
+}
+function goHome() { stopListening(); window.speechSynthesis.cancel(); nav('homeScreen'); }
+
+/* ---- toast ---- */
+let toastT;
+function toast(msg) {
+  const t = document.getElementById('toast');
+  t.textContent = msg; t.classList.add('show');
+  clearTimeout(toastT); toastT = setTimeout(() => t.classList.remove('show'), 2600);
+}
+
+/* ============================================================
+   Conversation state + Anthropic API tutor
+   ============================================================ */
+let history = [];       // {role, content} for the API
+let activeScenario = null;
+const chatEl = document.getElementById('chat');
+
+function startScenario(key) {
+  const s = SCENARIOS[key];
+  activeScenario = { key, ...s };
+  history = [];
+  chatEl.innerHTML = '';
+  document.getElementById('convAvatar').textContent = s.emoji;
+  document.getElementById('convName').textContent = `${s.name} · ${s.role}`;
+  document.getElementById('convSub').textContent = `${s.cat} · ${currentLevel}`;
+  nav('convScreen');
+
+  // scene card
+  const scene = document.createElement('div');
+  scene.className = 'scene-card';
+  scene.innerHTML = `<b>📍 The scene:</b> ${s.setting}`;
+  chatEl.appendChild(scene);
+
+  // AI opens the conversation
+  getAIReply(true);
+}
+
+function addBubble(text, who) {
+  const b = document.createElement('div');
+  b.className = `bubble b-${who}`;
+  if (who === 'ai') {
+    b.innerHTML = `<div class="btxt">${text}</div><div class="speak" onclick='speak(this.parentElement.querySelector(".btxt").textContent)'>🔊 Listen again</div>`;
+  } else {
+    b.textContent = text;
+  }
+  chatEl.appendChild(b);
+  chatEl.scrollTop = chatEl.scrollHeight;
+  return b;
+}
+
+function addThinking() {
+  const t = document.createElement('div');
+  t.className = 'thinking'; t.id = 'thinkingDots';
+  t.innerHTML = '<span></span><span></span><span></span>';
+  chatEl.appendChild(t);
+  chatEl.scrollTop = chatEl.scrollHeight;
+}
+function removeThinking() { const t = document.getElementById('thinkingDots'); if (t) t.remove(); }
+
+/* ---- the AI tutor: gets BOTH a roleplay reply AND feedback ---- */
+async function getAIReply(isOpening, userText) {
+  addThinking();
+
+  const sys = `You are an English-speaking practice partner inside an app called "Bolo English", built for native Gujarati speakers learning English.
+
+You are roleplaying as: ${activeScenario.name}, a ${activeScenario.role}.
+Scene: ${activeScenario.setting}
+Learner's English level: ${currentLevel}. Adjust your vocabulary and speed to this level.
+
+Your job each turn:
+1. Stay fully in character and continue the roleplay naturally. Keep your spoken reply SHORT (1-2 sentences) so it's easy to follow. Ask a question to keep the conversation going.
+2. Act as a supportive English tutor and analyse the learner's MOST RECENT message for grammar, word choice, and naturalness. Pay special attention to common Gujarati-speaker English mistakes (e.g. "I am having a doubt"→"I have a question", missing articles "the/a", "do the needful", "myself Jay"→"I'm Jay", present continuous overuse like "I am knowing", "good name", "out of station", V/W confusion, "only" misplacement).
+
+Respond ONLY with valid JSON, no markdown, in this exact shape:
+{
+  "reply": "your in-character spoken response",
+  "perfect": true/false,
+  "correction_html": "if not perfect: short HTML showing the fix. Use <span class='strike'>wrong</span> and <span class='good'>right</span>. If perfect, empty string.",
+  "natural": "if not perfect: one more natural/native way to say what they meant, plain text. Else empty.",
+  "gujarati": "a short, warm explanation of the mistake in simple Gujarati script (or simple English if no mistake). Always fill this."
+}
+${isOpening ? 'This is the FIRST turn. Just open the conversation in character to greet the learner and invite them to speak. Set perfect=true, empty corrections, and put a friendly Gujarati encouragement in the gujarati field.' : ''}`;
+
+  if (!isOpening && userText) {
+    history.push({ role: 'user', content: userText });
+  }
+
+  const messages = isOpening
+    ? [{ role: 'user', content: 'Begin the roleplay now.' }]
+    : history;
+
+  try {
+    const res = await fetch("https://api.anthropic.com/v1/messages", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        model: "claude-sonnet-4-20250514",
+        max_tokens: 1000,
+        system: sys,
+        messages
+      })
+    });
+    const data = await res.json();
+    let txt = data.content.filter(b => b.type === 'text').map(b => b.text).join('').trim();
+    txt = txt.replace(/```json|```/g, '').trim();
+    const out = JSON.parse(txt);
+
+    removeThinking();
+
+    // feedback first (on what user just said), unless it's the opening
+    if (!isOpening) {
+      if (out.perfect) {
+        const fb = document.createElement('div');
+        fb.className = 'fb perfect';
+        fb.innerHTML = `<div class="fb-h">✓ Well said!</div><div class="guj-exp guj">${out.gujarati || 'સરસ! એકદમ બરાબર.'}</div>`;
+        chatEl.appendChild(fb);
+      } else {
+        const fb = document.createElement('div');
+        fb.className = 'fb';
+        fb.innerHTML = `<div class="fb-h">💡 Small fix</div>
+          <div class="corr">${out.correction_html || ''}</div>
+          ${out.natural ? `<div class="corr" style="margin-top:6px;">🌟 More natural: <span class="good">${out.natural}</span></div>` : ''}
+          <div class="guj-exp guj">${out.gujarati || ''}</div>`;
+        chatEl.appendChild(fb);
+      }
+    }
+
+    // AI roleplay reply
+    addBubble(out.reply, 'ai');
+    history.push({ role: 'assistant', content: out.reply });
+    speak(out.reply);
+
+  } catch (e) {
+    removeThinking();
+    addBubble("Sorry, I had trouble responding. Please try again.", 'ai');
+    console.error(e);
+  }
+}
+
+/* ---- send a user message (from voice or typing) ---- */
+function submitUser(text) {
+  text = text.trim();
+  if (!text) return;
+  addBubble(text, 'user');
+  document.getElementById('liveT').textContent = '';
+  getAIReply(false, text);
+}
+
+/* ============================================================
+   Voice — Web Speech API (real microphone)
+   ============================================================ */
+const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+let recog = null, listening = false;
+const micBtn = document.getElementById('micBtn');
+const liveT = document.getElementById('liveT');
+const micHint = document.getElementById('micHint');
+
+function openKeyboardFallback(reason) {
+  typeRow.classList.add('show');
+  micHint.innerHTML = reason;
+  setTimeout(() => document.getElementById('typeInput').focus(), 100);
+}
+
+if (SR) {
+  recog = new SR();
+  recog.lang = 'en-IN';          // Indian English accent model
+  recog.interimResults = true;
+  recog.continuous = false;
+
+  recog.onresult = (e) => {
+    let interim = '', final = '';
+    for (let i = e.resultIndex; i < e.results.length; i++) {
+      if (e.results[i].isFinal) final += e.results[i][0].transcript;
+      else interim += e.results[i][0].transcript;
+    }
+    liveT.textContent = final || interim;
+    if (final) submitUser(final);
+  };
+  recog.onerror = (e) => {
+    stopListening();
+    if (e.error === 'not-allowed' || e.error === 'service-not-allowed') {
+      toast('🎙️ Microphone is blocked here');
+      openKeyboardFallback('Mic blocked in this preview. <b>Download &amp; open in Chrome</b>, or type below ↓');
+    } else if (e.error === 'no-speech') {
+      toast("Didn't catch that — try again");
+    } else if (e.error === 'audio-capture') {
+      toast('No microphone found');
+      openKeyboardFallback('No mic detected. Type your reply below ↓');
+    } else {
+      toast('Voice error: ' + e.error);
+      openKeyboardFallback('Voice unavailable. Type your reply below ↓');
+    }
+  };
+  recog.onend = () => stopListening();
+} else {
+  micBtn.style.opacity = '0.5';
+  openKeyboardFallback('Voice not supported in this browser. Type below ↓ (works in Chrome/Edge/Safari)');
+}
+
+function startListening() {
+  if (!recog) {
+    openKeyboardFallback('Voice not supported here. Type below ↓');
+    return;
+  }
+  if (listening) return;
+  window.speechSynthesis.cancel();
+  // Pre-check mic permission so we can give a clear message instead of failing silently
+  if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
+    navigator.mediaDevices.getUserMedia({ audio: true })
+      .then(stream => {
+        stream.getTracks().forEach(t => t.stop()); // release immediately; SR opens its own
+        beginRecog();
+      })
+      .catch(err => {
+        toast('🎙️ Microphone access denied');
+        openKeyboardFallback('Mic blocked in this preview. <b>Download &amp; open in Chrome</b>, or type below ↓');
+      });
+  } else {
+    beginRecog();
+  }
+}
+function beginRecog() {
+  try {
+    recog.start();
+    listening = true;
+    micBtn.classList.add('listening');
+    liveT.textContent = 'Listening…';
+    micHint.textContent = 'Tap again to stop';
+  } catch (e) {
+    listening = false;
+    toast('Could not start mic — try again');
+    openKeyboardFallback('Mic could not start. Type below ↓');
+  }
+}
+function stopListening() {
+  if (!recog) return;
+  try { recog.stop(); } catch (e) {}
+  listening = false; micBtn.classList.remove('listening');
+  if (!typeRow.classList.contains('show')) micHint.textContent = 'Tap the mic and speak in English';
+}
+micBtn.onclick = () => listening ? stopListening() : startListening();
+
+/* ---- text-to-speech (AI voice) ---- */
+let enVoice = null;
+function pickVoice() {
+  const voices = window.speechSynthesis.getVoices();
+  enVoice = voices.find(v => v.lang === 'en-IN') ||
+            voices.find(v => /en-GB/i.test(v.lang)) ||
+            voices.find(v => /^en/i.test(v.lang)) || voices[0];
+}
+window.speechSynthesis.onvoiceschanged = pickVoice; pickVoice();
+
+function speak(text) {
+  if (!window.speechSynthesis) return;
+  window.speechSynthesis.cancel();
+  const u = new SpeechSynthesisUtterance(text);
+  if (enVoice) u.voice = enVoice;
+  u.rate = slowVoice ? 0.72 : 0.95;
+  u.pitch = 1.02;
+  window.speechSynthesis.speak(u);
+}
+
+/* ---- controls ---- */
+document.getElementById('slowBtn').onclick = function() {
+  slowVoice = !slowVoice;
+  this.style.background = slowVoice ? 'var(--teal-soft)' : 'var(--paper)';
+  toast(slowVoice ? 'Slower voice on 🐢' : 'Normal speed');
+};
+const typeRow = document.getElementById('typeRow');
+document.getElementById('typeToggle').onclick = function() {
+  typeRow.classList.toggle('show');
+  if (typeRow.classList.contains('show')) document.getElementById('typeInput').focus();
+};
+function sendTyped() {
+  const inp = document.getElementById('typeInput');
+  if (inp.value.trim()) { submitUser(inp.value); inp.value = ''; }
+}
+document.getElementById('typeInput').addEventListener('keydown', e => { if (e.key === 'Enter') sendTyped(); });
+</script>
+</body>
+</html>

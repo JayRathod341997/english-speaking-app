@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm create *)",
+      "Bash(npm install *)",
+      "Bash(npx tsc *)",
+      "Bash(docker compose *)",
+      "Bash(netstat -ano)",
+      "Bash(findstr \":5432\")",
+      "Bash(tasklist /FI \"PID eq 8044\" /FO LIST)",
+      "Bash(tasklist /FI \"PID eq 28644\" /FO LIST)",
+      "Bash(powershell -Command \"Get-Process -Id 8044,28644 | Select-Object Id,ProcessName,Path\")",
+      "Bash(npm run *)",
+      "Bash(uv add *)",
+      "Bash(uv remove *)"
+    ]
+  }
+}
