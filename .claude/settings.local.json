@@ -18,7 +18,8 @@
       "Bash(e:/projects/english-speaking-app/backend/.venv/Scripts/python.exe -m pip install groq)",
       "Bash(uv pip *)",
       "Bash(.venv/Scripts/python.exe test_gemini.py)",
-      "Bash(xargs grep *)"
+      "Bash(xargs grep *)",
+      "Bash(uv run *)"
     ]
   }
 }

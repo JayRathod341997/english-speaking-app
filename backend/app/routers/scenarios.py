@@ -1,24 +1,19 @@
-from fastapi import APIRouter, Depends, HTTPException
-from sqlalchemy import select
-from sqlalchemy.ext.asyncio import AsyncSession
+from fastapi import APIRouter, HTTPException
 
-from app.database import get_db
-from app.models.scenario import Scenario
+from app import store
 from app.schemas.conversation import ScenarioResponse
 
 router = APIRouter(prefix="/api/scenarios", tags=["scenarios"])
 
 
 @router.get("", response_model=list[ScenarioResponse])
-async def list_scenarios(db: AsyncSession = Depends(get_db)):
-    result = await db.execute(select(Scenario).order_by(Scenario.category, Scenario.id))
-    return result.scalars().all()
+async def list_scenarios():
+    return sorted(store.SCENARIOS, key=lambda s: (s["category"], s["id"]))
 
 
 @router.get("/{scenario_id}", response_model=ScenarioResponse)
-async def get_scenario(scenario_id: int, db: AsyncSession = Depends(get_db)):
-    result = await db.execute(select(Scenario).where(Scenario.id == scenario_id))
-    scenario = result.scalar_one_or_none()
+async def get_scenario(scenario_id: int):
+    scenario = store.get_scenario(scenario_id)
     if not scenario:
         raise HTTPException(status_code=404, detail="Scenario not found")
     return scenario
