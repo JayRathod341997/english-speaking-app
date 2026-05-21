@@ -1,12 +1,12 @@
 import json
 import re
-from google import genai
-from google.genai import types
+from groq import AsyncGroq
 
 from app.config import settings
 from app.schemas.conversation import FeedbackSchema
 
-client = genai.Client(api_key=settings.gemini_api_key)
+client = AsyncGroq(api_key=settings.groq_api_key)
+MODEL = "llama-3.3-70b-versatile"
 
 SYSTEM_PROMPT_TEMPLATE = """You are {ai_role} in a real-life English conversation.
 The user is a native Gujarati speaker who is learning English. Their current level is {level}.
@@ -50,7 +50,7 @@ def build_system_prompt(ai_role: str, user_role: str, level: str) -> str:
     return SYSTEM_PROMPT_TEMPLATE.format(ai_role=ai_role, user_role=user_role, level=level)
 
 
-def parse_gemini_response(raw: str) -> dict:
+def parse_ai_response(raw: str) -> dict:
     raw = raw.strip()
     if raw.startswith("```"):
         raw = re.sub(r"^```(?:json)?\n?", "", raw)
@@ -64,35 +64,31 @@ async def get_ai_response(
     user_message: str,
     example_opener: str,
 ) -> tuple[str, FeedbackSchema]:
-    # Seed history: opener is always first model turn
     opener_json = json.dumps({"reply": example_opener, "feedback": {
         "has_errors": False, "corrected": "", "issues": [],
         "better_phrasing": "", "gujarati_note": "", "score": 100,
     }})
 
-    gemini_history: list[types.Content] = [
-        types.Content(role="model", parts=[types.Part(text=opener_json)])
-    ]
+    messages = [{"role": "system", "content": system_prompt}]
+    messages.append({"role": "assistant", "content": opener_json})
 
-    # Append saved turns, skipping the stored opener (first ai message)
     skip_first_ai = True
     for msg in conversation_history:
         if skip_first_ai and msg["role"] == "ai":
             skip_first_ai = False
             continue
-        role = "user" if msg["role"] == "user" else "model"
-        gemini_history.append(
-            types.Content(role=role, parts=[types.Part(text=msg["content"])])
-        )
+        role = "user" if msg["role"] == "user" else "assistant"
+        messages.append({"role": role, "content": msg["content"]})
 
-    chat = client.aio.chats.create(
-        model="gemini-2.0-flash",
-        history=gemini_history,
-        config=types.GenerateContentConfig(system_instruction=system_prompt),
+    messages.append({"role": "user", "content": user_message})
+
+    response = await client.chat.completions.create(
+        model=MODEL,
+        messages=messages,
+        temperature=0.7,
     )
-    response = await chat.send_message(user_message)
 
-    parsed = parse_gemini_response(response.text)
+    parsed = parse_ai_response(response.choices[0].message.content)
 
     feedback = FeedbackSchema(
         has_errors=parsed["feedback"]["has_errors"],
