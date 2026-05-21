@@ -16,30 +16,44 @@ export function useSpeechRecognition({ onResult, onInterim }: SpeechRecognitionO
   useEffect(() => { onResultRef.current = onResult; });
   useEffect(() => { onInterimRef.current = onInterim; });
 
+  // Accumulates all final transcript chunks across pauses while continuous=true
+  const accumulatedRef = useRef('');
+
   useEffect(() => {
     const SR = (window as any).SpeechRecognition || (window as any).webkitSpeechRecognition;
     if (!SR) return;
 
     setIsSupported(true);
     const recognition = new SR();
-    recognition.continuous     = false;
+    recognition.continuous     = true;  // keep listening through natural pauses
     recognition.interimResults = true;
     recognition.lang           = 'en-IN'; // Indian English accent model
 
     recognition.onresult = (event: any) => {
       let interim = '';
-      let final   = '';
       for (let i = event.resultIndex; i < event.results.length; i++) {
         const r = event.results[i];
-        if (r.isFinal) final   += r[0].transcript;
+        if (r.isFinal) accumulatedRef.current += r[0].transcript + ' ';
         else           interim += r[0].transcript;
       }
-      if (interim) onInterimRef.current?.(interim);
-      if (final)   onResultRef.current(final.trim());
+      // Show live preview: everything confirmed so far + what's being said now
+      const preview = accumulatedRef.current + interim;
+      if (preview) onInterimRef.current?.(preview);
     };
 
-    recognition.onend   = () => setIsListening(false);
-    recognition.onerror = () => setIsListening(false);
+    // Submit the full accumulated transcript only when recognition ends
+    // (triggered by user tapping Stop, or browser timeout)
+    recognition.onend = () => {
+      setIsListening(false);
+      const text = accumulatedRef.current.trim();
+      if (text) onResultRef.current(text);
+      accumulatedRef.current = '';
+    };
+
+    recognition.onerror = () => {
+      setIsListening(false);
+      accumulatedRef.current = '';
+    };
 
     recognitionRef.current = recognition;
 
@@ -48,6 +62,7 @@ export function useSpeechRecognition({ onResult, onInterim }: SpeechRecognitionO
 
   const startListening = useCallback(() => {
     if (!recognitionRef.current || isListening) return;
+    accumulatedRef.current = '';
     try {
       recognitionRef.current.start();
       setIsListening(true);
@@ -58,8 +73,8 @@ export function useSpeechRecognition({ onResult, onInterim }: SpeechRecognitionO
 
   const stopListening = useCallback(() => {
     if (!recognitionRef.current || !isListening) return;
+    // stop() triggers onend which will submit accumulated transcript
     recognitionRef.current.stop();
-    setIsListening(false);
   }, [isListening]);
 
   return { isListening, isSupported, startListening, stopListening };

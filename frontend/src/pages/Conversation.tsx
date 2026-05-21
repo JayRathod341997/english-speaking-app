@@ -117,11 +117,12 @@ export default function Conversation() {
   const handleEndSession = async () => {
     const s = sessionRef.current;
     if (!s) return;
+    if (!window.confirm('End session and see your report?')) return;
     if (timerRef.current) clearInterval(timerRef.current);
     cancelSpeech();
     try {
       const result = await sessionsApi.end(s.id);
-      navigate('/feedback', { state: { result, scenario } });
+      navigate('/feedback', { state: { result, scenario, messages } });
     } catch {
       navigate('/');
     }
