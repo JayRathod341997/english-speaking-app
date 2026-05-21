@@ -9,7 +9,7 @@ import type {
   SessionDetail,
 } from '../types';
 
-const api = axios.create({ baseURL: '/api' });
+const api = axios.create({ baseURL: import.meta.env.VITE_API_URL ?? '/api' });
 
 export const scenariosApi = {
   list: () => api.get<Scenario[]>('/scenarios').then(r => r.data),
