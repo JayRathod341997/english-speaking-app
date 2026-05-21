@@ -1,21 +1,9 @@
-from contextlib import asynccontextmanager
-
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-from app.database import AsyncSessionLocal
 from app.routers import progress, scenarios, sessions
-from app.services.seed import seed_scenarios
 
-
-@asynccontextmanager
-async def lifespan(app: FastAPI):
-    async with AsyncSessionLocal() as db:
-        await seed_scenarios(db)
-    yield
-
-
-app = FastAPI(title="English Speaking App API", version="1.0.0", lifespan=lifespan)
+app = FastAPI(title="English Speaking App API", version="1.0.0")
 
 app.add_middleware(
     CORSMiddleware,
