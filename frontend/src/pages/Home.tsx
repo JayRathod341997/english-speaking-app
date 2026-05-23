@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { progressApi, scenariosApi } from '../services/api';
-import type { DailyChallenge, Scenario } from '../types';
+import type { DailyChallenge, Scenario, Progress } from '../types';
 
 type Difficulty = 'all' | 'beginner' | 'intermediate' | 'advanced';
 
@@ -15,11 +15,98 @@ const DIFF_SHORT: Record<string, string> = {
   beginner: 'Beg', intermediate: 'Int', advanced: 'Adv',
 };
 
+function Sidebar({ active, streak, progress, navigate }: { active: 'home' | 'progress'; streak: number; progress: Progress | null; navigate: any }) {
+  return (
+    <aside className="hidden lg:flex flex-col w-[260px] border-r border-[var(--line)] bg-[var(--card)] p-6 flex-shrink-0 h-full justify-between">
+      <div className="space-y-8">
+        {/* Brand */}
+        <div className="flex items-center gap-3">
+          <div
+            className="w-10 h-10 rounded-[12px] grid place-items-center font-serif text-2xl font-bold text-white flex-shrink-0"
+            style={{ background: 'linear-gradient(140deg, var(--saffron), var(--saffron-deep))' }}
+          >
+            બ
+          </div>
+          <div>
+            <h1 className="font-serif text-[19px] font-bold leading-tight" style={{ color: 'var(--ink)' }}>
+              Bolo English
+            </h1>
+            <p className="text-[11px] font-guj" style={{ color: 'var(--ink-soft)' }}>
+              તમારે અંગ્રેજી બોલવાનો સાથ
+            </p>
+          </div>
+        </div>
+
+        {/* Navigation */}
+        <nav className="flex flex-col gap-2">
+          <button
+            onClick={() => navigate('/')}
+            className="flex items-center gap-3 px-4 py-3 rounded-xl text-sm font-semibold transition-all text-left w-full cursor-pointer"
+            style={
+              active === 'home'
+                ? { background: 'var(--paper-2)', color: 'var(--saffron-deep)' }
+                : { color: 'var(--ink-soft)' }
+            }
+          >
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" className="w-5 h-5">
+              <path d="M3 11l9-8 9 8v9a2 2 0 0 1-2 2h-4v-6H9v6H5a2 2 0 0 1-2-2z"/>
+            </svg>
+            Home
+          </button>
+          <button
+            onClick={() => navigate('/progress')}
+            className="flex items-center gap-3 px-4 py-3 rounded-xl text-sm font-semibold transition-all text-left w-full cursor-pointer"
+            style={
+              active === 'progress'
+                ? { background: 'var(--paper-2)', color: 'var(--saffron-deep)' }
+                : { color: 'var(--ink-soft)' }
+            }
+          >
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" className="w-5 h-5">
+              <path d="M3 3v18h18"/><path d="M7 14l3-4 4 3 5-7"/>
+            </svg>
+            Progress
+          </button>
+        </nav>
+      </div>
+
+      {/* Footer / Streak info */}
+      <div className="space-y-4 pt-4 border-t border-[var(--line)]">
+        <div className="flex items-center justify-between px-2">
+          <span className="text-xs font-bold" style={{ color: 'var(--ink-soft)' }}>Daily Streak</span>
+          <div
+            className="flex items-center gap-1 px-3 py-1 rounded-full text-xs font-black shadow-sm"
+            style={{ background: 'var(--amber-soft)', color: 'var(--saffron-deep)' }}
+          >
+            🔥 <span>{streak} d</span>
+          </div>
+        </div>
+
+        {progress && (
+          <div className="bg-[var(--paper)] rounded-xl p-3 text-xs space-y-2">
+            <div className="flex justify-between">
+              <span style={{ color: 'var(--ink-soft)' }}>Sessions:</span>
+              <span className="font-bold" style={{ color: 'var(--ink)' }}>{progress.total_sessions}</span>
+            </div>
+            <div className="flex justify-between">
+              <span style={{ color: 'var(--ink-soft)' }}>Avg Score:</span>
+              <span className="font-bold text-[var(--teal)]" style={{ color: 'var(--teal)' }}>
+                {progress.avg_score > 0 ? `${Math.round(progress.avg_score)}/100` : '—'}
+              </span>
+            </div>
+          </div>
+        )}
+      </div>
+    </aside>
+  );
+}
+
 export default function Home() {
   const [scenarios, setScenarios]   = useState<Scenario[]>([]);
   const [challenge, setChallenge]   = useState<DailyChallenge | null>(null);
   const [filter, setFilter]         = useState<Difficulty>('all');
   const [streak, setStreak]         = useState(0);
+  const [progress, setProgress]     = useState<Progress | null>(null);
   const [loading, setLoading]       = useState(true);
   const navigate = useNavigate();
 
@@ -32,6 +119,7 @@ export default function Home() {
       setScenarios(s);
       setChallenge(c);
       setStreak(p.current_streak);
+      setProgress(p);
     }).finally(() => setLoading(false));
   }, []);
 
@@ -42,163 +130,214 @@ export default function Home() {
     : null;
 
   return (
-    <div className="flex flex-col h-[100dvh]" style={{ background: 'var(--paper)' }}>
-      {/* Top bar */}
-      <header
-        className="flex items-center justify-between px-5 py-3 flex-shrink-0"
-        style={{ background: 'var(--card)', borderBottom: '1px solid var(--line)' }}
-      >
-        <div className="flex items-center gap-3">
-          <div
-            className="w-9 h-9 rounded-[11px] grid place-items-center font-serif text-xl font-bold text-white flex-shrink-0"
-            style={{ background: 'linear-gradient(140deg, var(--saffron), var(--saffron-deep))' }}
-          >
-            બ
-          </div>
-          <div>
-            <h1 className="font-serif text-[17px] font-semibold leading-tight" style={{ color: 'var(--ink)' }}>
-              Bolo English
-            </h1>
-            <p className="text-[11px] font-guj" style={{ color: 'var(--ink-soft)' }}>
-              તમારે અંગ્રેજી બોલવાનો સાથ
-            </p>
-          </div>
-        </div>
-        <div
-          className="flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-bold"
-          style={{ background: 'var(--amber-soft)', color: 'var(--saffron-deep)' }}
+    <div className="flex flex-col h-[100dvh] lg:flex-row lg:overflow-hidden" style={{ background: 'var(--paper)' }}>
+      {/* Desktop Left Sidebar */}
+      <Sidebar active="home" streak={streak} progress={progress} navigate={navigate} />
+
+      {/* Main Application Area */}
+      <div className="flex-1 flex flex-col h-full overflow-hidden">
+        {/* Top bar (Mobile only) */}
+        <header
+          className="flex items-center justify-between px-5 py-3 flex-shrink-0 lg:hidden"
+          style={{ background: 'var(--card)', borderBottom: '1px solid var(--line)' }}
         >
-          🔥 <span>{streak}</span>
-        </div>
-      </header>
-
-      {/* Scrollable body */}
-      <div className="flex-1 overflow-y-auto no-scrollbar px-5 pt-5 pb-2">
-        {/* Greeting */}
-        <div className="mb-5">
-          <h2 className="font-serif text-2xl font-semibold leading-tight" style={{ color: 'var(--ink)' }}>
-            Ready to speak?
-          </h2>
-          <p className="font-guj text-sm mt-1" style={{ color: 'var(--ink-soft)' }}>
-            આજે કઈ પરિસ્થિતિની પ્રૅક્ટિસ કરો?
-          </p>
-        </div>
-
-        {/* Level selector */}
-        <div className="flex gap-2 mb-5">
-          {(['all', 'beginner', 'intermediate', 'advanced'] as Difficulty[]).map(d => (
-            <button
-              key={d}
-              onClick={() => setFilter(d)}
-              className="flex-1 py-2 rounded-xl text-xs font-semibold capitalize transition-all"
-              style={
-                filter === d
-                  ? { background: 'var(--teal)', color: '#fff', border: '1.5px solid var(--teal)' }
-                  : { background: 'var(--card)', color: 'var(--ink-soft)', border: '1.5px solid var(--line)' }
-              }
+          <div className="flex items-center gap-3">
+            <div
+              className="w-9 h-9 rounded-[11px] grid place-items-center font-serif text-xl font-bold text-white flex-shrink-0"
+              style={{ background: 'linear-gradient(140deg, var(--saffron), var(--saffron-deep))' }}
             >
-              {d === 'all' ? 'All' : d === 'beginner' ? 'Beginner' : d === 'intermediate' ? 'Medium' : 'Advanced'}
-            </button>
-          ))}
-        </div>
-
-        {/* Daily Challenge */}
-        {challenge && (
-          <div
-            className="rounded-[18px] p-5 mb-5 relative overflow-hidden"
-            style={{ background: 'linear-gradient(135deg, var(--teal) 0%, #155f53 100%)' }}
-          >
-            <p className="text-[10.5px] font-bold uppercase tracking-widest mb-1 opacity-80 text-white">
-              Today's Challenge
-            </p>
-            <h3 className="font-serif text-xl font-semibold text-white mt-1 mb-1 leading-snug">
-              {challengeScenario?.title ?? 'Daily Practice'}
-            </h3>
-            <p className="text-[13px] text-white opacity-90 leading-relaxed mb-3">
-              {challenge.prompt}
-            </p>
-            <div className="flex flex-wrap gap-1.5 mb-4">
-              {challenge.target_phrases.map(p => (
-                <span key={p} className="text-[11px] px-2.5 py-1 rounded-full font-medium text-white"
-                  style={{ background: 'rgba(255,255,255,0.18)' }}>
-                  "{p}"
-                </span>
-              ))}
+              બ
             </div>
-            <button
-              onClick={() => challengeScenario && navigate(`/practice/${challengeScenario.id}`, { state: { scenario: challengeScenario } })}
-              className="relative z-10 text-sm font-bold px-4 py-2.5 rounded-xl transition-transform active:scale-95"
-              style={{ background: 'var(--card)', color: 'var(--teal)' }}
-            >
-              Start speaking →
-            </button>
+            <div>
+              <h1 className="font-serif text-[17px] font-semibold leading-tight" style={{ color: 'var(--ink)' }}>
+                Bolo English
+              </h1>
+              <p className="text-[11px] font-guj" style={{ color: 'var(--ink-soft)' }}>
+                તમારે અંગ્રેજી બોલવાનો સાથ
+              </p>
+            </div>
           </div>
-        )}
+          <div
+            className="flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-bold"
+            style={{ background: 'var(--amber-soft)', color: 'var(--saffron-deep)' }}
+          >
+            🔥 <span>{streak}</span>
+          </div>
+        </header>
 
-        {/* Scenarios */}
-        <div className="flex items-baseline justify-between mb-3">
-          <h3 className="font-serif text-[17px] font-semibold" style={{ color: 'var(--ink)' }}>
-            Practice Scenarios
-          </h3>
-          <span className="text-xs" style={{ color: 'var(--ink-soft)' }}>{filtered.length} scenarios</span>
+        {/* Scrollable body */}
+        <div className="flex-1 overflow-y-auto no-scrollbar px-5 pt-5 pb-16 lg:px-8 lg:py-8">
+          <div className="max-w-5xl mx-auto w-full space-y-6">
+            
+            {/* Header Greeting Section */}
+            <div>
+              <h2 className="font-serif text-2xl lg:text-3xl font-semibold leading-tight" style={{ color: 'var(--ink)' }}>
+                Ready to speak?
+              </h2>
+              <p className="font-guj text-sm lg:text-[15px] mt-1" style={{ color: 'var(--ink-soft)' }}>
+                આજે કઈ પરિસ્થિતિની પ્રૅક્ટિસ કરો?
+              </p>
+            </div>
+
+            {/* Desktop Dashboard Grid */}
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 lg:gap-8 items-start">
+              
+              {/* Left Column: Level selector + Scenarios (Col span 2 on desktop) */}
+              <div className="lg:col-span-2 space-y-6">
+                
+                {/* Level selector */}
+                <div className="flex gap-2">
+                  {(['all', 'beginner', 'intermediate', 'advanced'] as Difficulty[]).map(d => (
+                    <button
+                      key={d}
+                      onClick={() => setFilter(d)}
+                      className="flex-1 py-2 rounded-xl text-xs font-semibold capitalize transition-all cursor-pointer hover:shadow-sm"
+                      style={
+                        filter === d
+                          ? { background: 'var(--teal)', color: '#fff', border: '1.5px solid var(--teal)' }
+                          : { background: 'var(--card)', color: 'var(--ink-soft)', border: '1.5px solid var(--line)' }
+                      }
+                    >
+                      {d === 'all' ? 'All' : d === 'beginner' ? 'Beginner' : d === 'intermediate' ? 'Medium' : 'Advanced'}
+                    </button>
+                  ))}
+                </div>
+
+                {/* Scenarios Header */}
+                <div className="flex items-baseline justify-between pt-2">
+                  <h3 className="font-serif text-[17px] lg:text-[19px] font-semibold" style={{ color: 'var(--ink)' }}>
+                    Practice Scenarios
+                  </h3>
+                  <span className="text-xs" style={{ color: 'var(--ink-soft)' }}>{filtered.length} scenarios</span>
+                </div>
+
+                {/* Scenarios list */}
+                {loading ? (
+                  <div className="text-center py-16 text-sm" style={{ color: 'var(--ink-soft)' }}>
+                    Loading scenarios…
+                  </div>
+                ) : (
+                  <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-3.5 pb-5">
+                    {filtered.map(s => (
+                      <button
+                        key={s.id}
+                        onClick={() => navigate(`/practice/${s.id}`, { state: { scenario: s } })}
+                        className="text-left rounded-[15px] p-4 relative overflow-hidden transition-all hover:-translate-y-0.5 hover:shadow-sm active:scale-[.97] cursor-pointer"
+                        style={{ background: 'var(--card)', border: '1px solid var(--line)' }}
+                      >
+                        <span
+                          className={`absolute top-3 right-3 text-[9px] font-bold uppercase tracking-wide px-1.5 py-0.5 rounded-md ${DIFF_BADGE[s.difficulty]}`}
+                        >
+                          {DIFF_SHORT[s.difficulty]}
+                        </span>
+                        <div className="text-2xl mb-2">{s.icon}</div>
+                        <h4 className="text-[13px] font-bold leading-tight mb-1 pr-6" style={{ color: 'var(--ink)' }}>
+                          {s.title}
+                        </h4>
+                        <p className="text-[11px] leading-snug" style={{ color: 'var(--ink-soft)' }}>
+                          {s.category} · ~{s.estimated_minutes}m
+                        </p>
+                      </button>
+                    ))}
+                  </div>
+                )}
+              </div>
+
+              {/* Right Column: Daily Challenge + Performance Stats */}
+              <div className="space-y-6">
+                
+                {/* Daily Challenge Card */}
+                {challenge && (
+                  <div
+                    className="rounded-[18px] p-5 relative overflow-hidden shadow-sm"
+                    style={{ background: 'linear-gradient(135deg, var(--teal) 0%, #155f53 100%)' }}
+                  >
+                    <p className="text-[10.5px] font-bold uppercase tracking-widest mb-1 opacity-80 text-white">
+                      Today's Challenge
+                    </p>
+                    <h3 className="font-serif text-xl font-semibold text-white mt-1 mb-1 leading-snug">
+                      {challengeScenario?.title ?? 'Daily Practice'}
+                    </h3>
+                    <p className="text-[13px] text-white opacity-90 leading-relaxed mb-3">
+                      {challenge.prompt}
+                    </p>
+                    <div className="flex flex-wrap gap-1.5 mb-4">
+                      {challenge.target_phrases.map(p => (
+                        <span key={p} className="text-[11px] px-2.5 py-1 rounded-full font-medium text-white"
+                          style={{ background: 'rgba(255,255,255,0.18)' }}>
+                          "{p}"
+                        </span>
+                      ))}
+                    </div>
+                    <button
+                      onClick={() => challengeScenario && navigate(`/practice/${challengeScenario.id}`, { state: { scenario: challengeScenario } })}
+                      className="relative z-10 text-sm font-bold px-4 py-2.5 rounded-xl transition-transform active:scale-95 cursor-pointer hover:bg-opacity-90 shadow-sm"
+                      style={{ background: 'var(--card)', color: 'var(--teal)' }}
+                    >
+                      Start speaking →
+                    </button>
+                  </div>
+                )}
+
+                {/* Quick Performance Summary (Desktop only) */}
+                {progress && (
+                  <div className="hidden lg:block bg-[var(--card)] border border-[var(--line)] rounded-[18px] p-5 space-y-4">
+                    <h3 className="font-serif text-base font-semibold" style={{ color: 'var(--ink)' }}>
+                      Quick Stats
+                    </h3>
+                    <div className="grid grid-cols-2 gap-3">
+                      <div className="bg-[var(--paper)] rounded-[14px] p-3 text-center">
+                        <p className="text-[9.5px] uppercase font-bold tracking-wide" style={{ color: 'var(--ink-soft)' }}>Practice Time</p>
+                        <p className="text-xl font-bold font-serif mt-1" style={{ color: 'var(--ink)' }}>{progress.total_minutes} <span className="text-[11px] font-sans font-normal text-[var(--ink-soft)]">m</span></p>
+                      </div>
+                      <div className="bg-[var(--paper)] rounded-[14px] p-3 text-center">
+                        <p className="text-[9.5px] uppercase font-bold tracking-wide" style={{ color: 'var(--ink-soft)' }}>Vocabulary</p>
+                        <p className="text-xl font-bold font-serif mt-1" style={{ color: 'var(--ink)' }}>{progress.vocabulary_count} <span className="text-[10px] font-sans font-normal text-[var(--ink-soft)]">words</span></p>
+                      </div>
+                    </div>
+                    {/* Score gauge card */}
+                    <div className="bg-[var(--paper-2)] rounded-[14px] p-3 text-center">
+                      <p className="text-[10px] uppercase font-bold tracking-wider" style={{ color: 'var(--ink-soft)' }}>Average Level Score</p>
+                      <p className="text-2xl font-black font-serif my-1" style={{ color: 'var(--teal)' }}>
+                        {progress.avg_score > 0 ? Math.round(progress.avg_score) : '—'}
+                      </p>
+                      <div className="w-full bg-[var(--paper)] h-1.5 rounded-full overflow-hidden mt-1.5">
+                        <div className="bg-[var(--teal)] h-full rounded-full transition-all" style={{ width: `${progress.avg_score || 0}%` }} />
+                      </div>
+                    </div>
+                  </div>
+                )}
+              </div>
+            </div>
+          </div>
         </div>
 
-        {loading ? (
-          <div className="text-center py-16 text-sm" style={{ color: 'var(--ink-soft)' }}>
-            Loading scenarios…
-          </div>
-        ) : (
-          <div className="grid grid-cols-2 gap-3 pb-5">
-            {filtered.map(s => (
-              <button
-                key={s.id}
-                onClick={() => navigate(`/practice/${s.id}`, { state: { scenario: s } })}
-                className="text-left rounded-[15px] p-4 relative overflow-hidden transition-all active:scale-[.97]"
-                style={{ background: 'var(--card)', border: '1px solid var(--line)' }}
-              >
-                <span
-                  className={`absolute top-3 right-3 text-[9px] font-bold uppercase tracking-wide px-1.5 py-0.5 rounded-md ${DIFF_BADGE[s.difficulty]}`}
-                >
-                  {DIFF_SHORT[s.difficulty]}
-                </span>
-                <div className="text-2xl mb-2">{s.icon}</div>
-                <h4 className="text-[13px] font-bold leading-tight mb-1 pr-6" style={{ color: 'var(--ink)' }}>
-                  {s.title}
-                </h4>
-                <p className="text-[11px] leading-snug" style={{ color: 'var(--ink-soft)' }}>
-                  {s.category} · ~{s.estimated_minutes}m
-                </p>
-              </button>
-            ))}
-          </div>
-        )}
+        {/* Bottom nav (Mobile only) */}
+        <nav
+          className="flex flex-shrink-0 lg:hidden fixed bottom-0 left-0 right-0 z-40"
+          style={{ borderTop: '1px solid var(--line)', background: 'var(--card)' }}
+        >
+          <button
+            className="flex-1 flex flex-col items-center gap-1 pt-2.5 pb-4 text-[10.5px] font-semibold"
+            style={{ color: 'var(--saffron-deep)' }}
+          >
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="w-5 h-5">
+              <path d="M3 11l9-8 9 8v9a2 2 0 0 1-2 2h-4v-6H9v6H5a2 2 0 0 1-2-2z"/>
+            </svg>
+            Home
+          </button>
+          <button
+            onClick={() => navigate('/progress')}
+            className="flex-1 flex flex-col items-center gap-1 pt-2.5 pb-4 text-[10.5px] font-semibold"
+            style={{ color: 'var(--ink-soft)' }}
+          >
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="w-5 h-5">
+              <path d="M3 3v18h18"/><path d="M7 14l3-4 4 3 5-7"/>
+            </svg>
+            Progress
+          </button>
+        </nav>
       </div>
-
-      {/* Bottom nav */}
-      <nav
-        className="flex flex-shrink-0"
-        style={{ borderTop: '1px solid var(--line)', background: 'var(--card)' }}
-      >
-        <button
-          className="flex-1 flex flex-col items-center gap-1 pt-2.5 pb-4 text-[10.5px] font-semibold"
-          style={{ color: 'var(--saffron-deep)' }}
-        >
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="w-5 h-5">
-            <path d="M3 11l9-8 9 8v9a2 2 0 0 1-2 2h-4v-6H9v6H5a2 2 0 0 1-2-2z"/>
-          </svg>
-          Home
-        </button>
-        <button
-          onClick={() => navigate('/progress')}
-          className="flex-1 flex flex-col items-center gap-1 pt-2.5 pb-4 text-[10.5px] font-semibold"
-          style={{ color: 'var(--ink-soft)' }}
-        >
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="w-5 h-5">
-            <path d="M3 3v18h18"/><path d="M7 14l3-4 4 3 5-7"/>
-          </svg>
-          Progress
-        </button>
-      </nav>
     </div>
   );
 }

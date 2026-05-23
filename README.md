@@ -30,6 +30,8 @@ uv run alembic upgrade head
 
 # Start backend
 uv run uvicorn app.main:app --reload --port 8000
+
+uv run uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
 ```
 
 ### Frontend Setup
@@ -38,6 +40,8 @@ uv run uvicorn app.main:app --reload --port 8000
 cd frontend
 npm install
 npm run dev
+
+npm run dev -- --host 0.0.0.0
 ```
 
 Open http://localhost:5173 in Chrome or Edge (required for Web Speech API).

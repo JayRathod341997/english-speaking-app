@@ -33,6 +33,38 @@ body {
 #root {
   width: 100%;
   height: 100%;
+  margin: 0 auto;
+  transition: max-width 0.2s ease;
+}
+
+@media (max-width: 767px) {
+  #root {
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  body {
+    background: #ddd3c4;
+  }
+  #root {
+    max-width: 600px;
+    box-shadow: 0 0 60px rgba(60, 40, 20, 0.18);
+    border-left: 1px solid var(--line);
+    border-right: 1px solid var(--line);
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    background: #ebe0cf;
+  }
+  #root {
+    max-width: 1240px;
+    box-shadow: 0 0 80px rgba(60, 40, 20, 0.15);
+    border-left: 1px solid var(--line);
+    border-right: 1px solid var(--line);
+  }
 }
 
 /* Scrollbar hide */
