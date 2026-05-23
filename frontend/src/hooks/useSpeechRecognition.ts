@@ -1,7 +1,10 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
 
+const SILENCE_TIMEOUT  = 1500; // ms of silence → auto-submit utterance
+const INTERIM_SUPPRESS = 700;  // ms after restart to suppress interim (masks buffer replay)
+
 interface SpeechRecognitionOptions {
-  onResult: (transcript: string) => void;
+  onResult:  (transcript: string) => void;
   onInterim?: (transcript: string) => void;
 }
 
@@ -12,14 +15,56 @@ export function useSpeechRecognition({ onResult, onInterim }: SpeechRecognitionO
 
   const onResultRef  = useRef(onResult);
   const onInterimRef = useRef(onInterim);
-  useEffect(() => { onResultRef.current = onResult; });
+  useEffect(() => { onResultRef.current  = onResult;  });
   useEffect(() => { onInterimRef.current = onInterim; });
 
-  const accumulatedRef = useRef('');
-  // Mirrors isListening state inside event handlers (closure-safe).
-  const isListeningRef = useRef(false);
-  // Prevents double-submission when mobile Chrome fires onend twice in quick succession.
-  const isRestartingRef = useRef(false);
+  // Finals from CURRENT session only — reset to '' on every restart so
+  // buffer-replayed interims from the new session don't overlap pending text.
+  const sessionTextRef   = useRef('');
+  // Finals from ALL completed sessions — grows on each onend flush.
+  // Submitted to onResult when the silence timer fires.
+  const pendingTextRef   = useRef('');
+  // VAD silence timer handle.
+  const silenceTimerRef  = useRef<ReturnType<typeof setTimeout> | null>(null);
+  // Date.now() timestamp: interim display is suppressed until this moment
+  // (INTERIM_SUPPRESS ms post-restart) to hide buffer-replay flicker.
+  const suppressUntilRef = useRef(0);
+  // Closure-safe mirror of isListening state.
+  const isListeningRef   = useRef(false);
+  // True between recognition.start() call and the new session's first event —
+  // prevents a second concurrent start() when Chrome fires onend twice.
+  const isRestartingRef  = useRef(false);
+
+  const clearSilenceTimer = () => {
+    if (silenceTimerRef.current !== null) {
+      clearTimeout(silenceTimerRef.current);
+      silenceTimerRef.current = null;
+    }
+  };
+
+  const armSilenceTimer = () => {
+    clearSilenceTimer();
+    silenceTimerRef.current = setTimeout(() => {
+      const text = pendingTextRef.current.trim();
+      pendingTextRef.current = '';
+      sessionTextRef.current = '';
+      if (text) onResultRef.current(text);
+      onInterimRef.current?.('');
+    }, SILENCE_TIMEOUT);
+  };
+
+  const fullReset = (submitPending: boolean) => {
+    clearSilenceTimer();
+    const text = (pendingTextRef.current + sessionTextRef.current).trim();
+    pendingTextRef.current   = '';
+    sessionTextRef.current   = '';
+    suppressUntilRef.current = 0;
+    isListeningRef.current   = false;
+    isRestartingRef.current  = false;
+    setIsListening(false);
+    onInterimRef.current?.('');
+    if (submitPending && text) onResultRef.current(text);
+  };
 
   useEffect(() => {
     const SR = (window as any).SpeechRecognition || (window as any).webkitSpeechRecognition;
@@ -32,71 +77,86 @@ export function useSpeechRecognition({ onResult, onInterim }: SpeechRecognitionO
     recognition.lang           = 'en-IN';
 
     recognition.onresult = (event: any) => {
-      let newFinalText = '';
-      let interim      = '';
+      let newFinals = '';
+      let interim   = '';
 
-      // event.resultIndex points to the first NEW result in this event.
-      // On mobile Chrome each auto-restart begins a fresh results array at index 0,
-      // so using resultIndex (instead of counting from 0 every time) is the only
-      // reliable way to avoid re-processing previously finalized words.
       for (let i = event.resultIndex; i < event.results.length; i++) {
         const r = event.results[i];
         if (r.isFinal) {
-          newFinalText += r[0].transcript + ' ';
+          newFinals += r[0].transcript + ' ';
         } else {
           interim += r[0].transcript;
         }
       }
 
-      accumulatedRef.current += newFinalText;
-      const preview = accumulatedRef.current + interim;
-      if (preview) onInterimRef.current?.(preview);
+      if (newFinals) {
+        sessionTextRef.current += newFinals;
+        armSilenceTimer(); // new speech detected — push back the submission deadline
+      }
+
+      const suppressed = Date.now() < suppressUntilRef.current;
+      const preview = (
+        pendingTextRef.current +
+        sessionTextRef.current +
+        (suppressed ? '' : interim)
+      ).trimStart();
+
+      onInterimRef.current?.(preview);
     };
 
     recognition.onend = () => {
-      // On mobile Chrome recognition auto-stops on each brief silence.
-      // Guard with isRestartingRef so a rapid double-onend doesn't cause
-      // two concurrent start() calls or a premature submission.
-      if (isListeningRef.current && !isRestartingRef.current) {
-        isRestartingRef.current = true;
+      // Double-onend guard: Chrome mobile sometimes fires onend twice in quick
+      // succession after a single stop. The second one is spurious — ignore it.
+      if (isRestartingRef.current) return;
+
+      if (isListeningRef.current) {
+        // Flush this session's finals into the pending bucket.
+        pendingTextRef.current += sessionTextRef.current;
+        sessionTextRef.current  = '';
+
+        // Re-arm VAD timer. If the user truly stopped, this will fire and submit.
+        armSilenceTimer();
+
+        // Restart immediately so we don't miss the next utterance.
+        isRestartingRef.current  = true;
+        suppressUntilRef.current = Date.now() + INTERIM_SUPPRESS;
         try {
           recognition.start();
-          isRestartingRef.current = false;
-          return;
         } catch {
-          isRestartingRef.current = false;
-          // start() failed — fall through and submit what we have
+          // start() failed (e.g. recognition still transitioning).
+          // Don't restart — the silence timer will submit pending text.
+          isRestartingRef.current  = false;
+          suppressUntilRef.current = 0;
+          return;
         }
+        isRestartingRef.current = false;
+        return;
       }
-
-      if (isRestartingRef.current) return; // second onend during restart — ignore
-
-      setIsListening(false);
-      isListeningRef.current = false;
-      const text = accumulatedRef.current.trim();
-      accumulatedRef.current = '';
-      if (text) onResultRef.current(text);
+      // isListeningRef is false → user called stopListening(); fullReset already
+      // handled submission. Nothing more to do.
     };
 
     recognition.onerror = (event: any) => {
-      // 'no-speech' is non-fatal on mobile — onend will handle restart
+      // no-speech is non-fatal on mobile — onend always follows and handles restart.
       if (event.error === 'no-speech') return;
-      setIsListening(false);
-      isListeningRef.current    = false;
-      isRestartingRef.current   = false;
-      accumulatedRef.current    = '';
+      recognitionRef.current?.abort();
+      fullReset(true);
     };
 
     recognitionRef.current = recognition;
-
     return () => { recognitionRef.current?.abort(); };
   }, []);
 
   const startListening = useCallback(() => {
-    if (!recognitionRef.current || isListening) return;
-    accumulatedRef.current  = '';
-    isListeningRef.current  = true;
-    isRestartingRef.current = false;
+    if (!recognitionRef.current || isListeningRef.current) return;
+
+    clearSilenceTimer();
+    pendingTextRef.current   = '';
+    sessionTextRef.current   = '';
+    suppressUntilRef.current = Date.now() + INTERIM_SUPPRESS;
+    isListeningRef.current   = true;
+    isRestartingRef.current  = false;
+
     try {
       recognitionRef.current.start();
       setIsListening(true);
@@ -104,14 +164,17 @@ export function useSpeechRecognition({ onResult, onInterim }: SpeechRecognitionO
       isListeningRef.current = false;
       setIsListening(false);
     }
-  }, [isListening]);
+  }, []);
 
   const stopListening = useCallback(() => {
-    if (!recognitionRef.current || !isListening) return;
-    isListeningRef.current  = false;
-    isRestartingRef.current = false;
+    if (!recognitionRef.current || !isListeningRef.current) return;
+    // Capture text before fullReset clears the refs.
+    const text = (pendingTextRef.current + sessionTextRef.current).trim();
+    fullReset(false);
     recognitionRef.current.stop();
-  }, [isListening]);
+    // Submit immediately — don't wait for the silence timer.
+    if (text) onResultRef.current(text);
+  }, []);
 
   return { isListening, isSupported, startListening, stopListening };
 }
