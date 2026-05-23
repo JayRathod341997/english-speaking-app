@@ -7,7 +7,17 @@ app = FastAPI(title="English Speaking App API", version="1.0.0")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173", "http://localhost:3000","https://suhrad-english-app.netlify.app","http://192.168.1.2:5173","https://192.168.1.2:5173"],
+    allow_origins=[
+        "http://localhost:5173",
+        "https://localhost:5173",
+        "http://127.0.0.1:5173",
+        "https://127.0.0.1:5173",
+        "http://localhost:3000",
+        "https://suhrad-english-app.netlify.app",
+        "http://192.168.1.2:5173",
+        "https://192.168.1.2:5173",
+        "https://www.suhrad-english-app.dev"
+    ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],

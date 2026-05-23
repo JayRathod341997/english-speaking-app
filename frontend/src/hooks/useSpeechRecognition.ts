@@ -10,20 +10,16 @@ export function useSpeechRecognition({ onResult, onInterim }: SpeechRecognitionO
   const [isSupported, setIsSupported] = useState(false);
   const recognitionRef = useRef<any>(null);
 
-  // Use refs for callbacks so the SpeechRecognition object is only created once
   const onResultRef  = useRef(onResult);
   const onInterimRef = useRef(onInterim);
   useEffect(() => { onResultRef.current = onResult; });
   useEffect(() => { onInterimRef.current = onInterim; });
 
-  // Accumulates all final transcript chunks across pauses while continuous=true
-  const accumulatedRef    = useRef('');
-  // Tracks how many final results we've already processed — prevents mobile
-  // Chrome from re-processing finalized results when it internally restarts
-  // recognition after a brief silence (event.resultIndex can reset to 0).
-  const lastFinalCountRef = useRef(0);
+  const accumulatedRef = useRef('');
   // Mirrors isListening state inside event handlers (closure-safe).
-  const isListeningRef    = useRef(false);
+  const isListeningRef = useRef(false);
+  // Prevents double-submission when mobile Chrome fires onend twice in quick succession.
+  const isRestartingRef = useRef(false);
 
   useEffect(() => {
     const SR = (window as any).SpeechRecognition || (window as any).webkitSpeechRecognition;
@@ -36,62 +32,71 @@ export function useSpeechRecognition({ onResult, onInterim }: SpeechRecognitionO
     recognition.lang           = 'en-IN';
 
     recognition.onresult = (event: any) => {
-      let newFinalText    = '';
-      let currentFinalCount = 0;
-      let interim         = '';
+      let newFinalText = '';
+      let interim      = '';
 
-      for (let i = 0; i < event.results.length; i++) {
+      // event.resultIndex points to the first NEW result in this event.
+      // On mobile Chrome each auto-restart begins a fresh results array at index 0,
+      // so using resultIndex (instead of counting from 0 every time) is the only
+      // reliable way to avoid re-processing previously finalized words.
+      for (let i = event.resultIndex; i < event.results.length; i++) {
         const r = event.results[i];
         if (r.isFinal) {
-          currentFinalCount++;
-          if (currentFinalCount > lastFinalCountRef.current) {
-            newFinalText += r[0].transcript + ' ';
-          }
+          newFinalText += r[0].transcript + ' ';
         } else {
-          interim += r[0].transcript; // replace — only the latest interim matters
+          interim += r[0].transcript;
         }
       }
 
-      lastFinalCountRef.current = currentFinalCount;
-      accumulatedRef.current   += newFinalText;
-
+      accumulatedRef.current += newFinalText;
       const preview = accumulatedRef.current + interim;
       if (preview) onInterimRef.current?.(preview);
     };
 
     recognition.onend = () => {
-      // On mobile, the browser auto-stops recognition during natural pauses.
-      // If the user hasn't tapped Stop, restart so they can keep speaking.
-      if (isListeningRef.current) {
-        try { recognition.start(); return; } catch { /* fall through to submit */ }
+      // On mobile Chrome recognition auto-stops on each brief silence.
+      // Guard with isRestartingRef so a rapid double-onend doesn't cause
+      // two concurrent start() calls or a premature submission.
+      if (isListeningRef.current && !isRestartingRef.current) {
+        isRestartingRef.current = true;
+        try {
+          recognition.start();
+          isRestartingRef.current = false;
+          return;
+        } catch {
+          isRestartingRef.current = false;
+          // start() failed — fall through and submit what we have
+        }
       }
+
+      if (isRestartingRef.current) return; // second onend during restart — ignore
+
       setIsListening(false);
       isListeningRef.current = false;
       const text = accumulatedRef.current.trim();
+      accumulatedRef.current = '';
       if (text) onResultRef.current(text);
-      accumulatedRef.current    = '';
-      lastFinalCountRef.current = 0;
     };
 
     recognition.onerror = (event: any) => {
-      // 'no-speech' / 'audio-capture' are non-fatal on mobile — let onend handle restart
+      // 'no-speech' is non-fatal on mobile — onend will handle restart
       if (event.error === 'no-speech') return;
       setIsListening(false);
       isListeningRef.current    = false;
+      isRestartingRef.current   = false;
       accumulatedRef.current    = '';
-      lastFinalCountRef.current = 0;
     };
 
     recognitionRef.current = recognition;
 
     return () => { recognitionRef.current?.abort(); };
-  }, []); // runs once
+  }, []);
 
   const startListening = useCallback(() => {
     if (!recognitionRef.current || isListening) return;
-    accumulatedRef.current    = '';
-    lastFinalCountRef.current = 0;
-    isListeningRef.current    = true;
+    accumulatedRef.current  = '';
+    isListeningRef.current  = true;
+    isRestartingRef.current = false;
     try {
       recognitionRef.current.start();
       setIsListening(true);
@@ -103,8 +108,8 @@ export function useSpeechRecognition({ onResult, onInterim }: SpeechRecognitionO
 
   const stopListening = useCallback(() => {
     if (!recognitionRef.current || !isListening) return;
-    // Clear the flag first so onend knows the user intended to stop
-    isListeningRef.current = false;
+    isListeningRef.current  = false;
+    isRestartingRef.current = false;
     recognitionRef.current.stop();
   }, [isListening]);
 
