@@ -46,8 +46,9 @@ export default function Idioms() {
     );
   }, [lib, cat, diff]);
 
-  // reset pagination when filters change
-  useEffect(() => { setLimit(PAGE); }, [cat, diff]);
+  // reset pagination whenever a filter changes
+  const setCatFiltered = (c: string) => { setCat(c); setLimit(PAGE); };
+  const setDiffFiltered = (d: string) => { setDiff(d); setLimit(PAGE); };
 
   const visible = filtered.slice(0, limit);
   const bookmarks = new Set(progress.idiomBookmarks);
@@ -69,15 +70,15 @@ export default function Idioms() {
           {/* Difficulty filters */}
           <div className="flex gap-2 mb-2 overflow-x-auto no-scrollbar">
             {DIFFICULTIES.map(d => (
-              <Chip key={d} active={diff === d} onClick={() => setDiff(d)}>{d}</Chip>
+              <Chip key={d} active={diff === d} onClick={() => setDiffFiltered(d)}>{d}</Chip>
             ))}
           </div>
 
           {/* Category filters */}
           <div className="flex gap-2 mb-4 overflow-x-auto no-scrollbar">
-            <Chip active={cat === 'All'} onClick={() => setCat('All')}>All topics</Chip>
+            <Chip active={cat === 'All'} onClick={() => setCatFiltered('All')}>All topics</Chip>
             {lib?.categories.map(c => (
-              <Chip key={c} active={cat === c} onClick={() => setCat(c)}>{c}</Chip>
+              <Chip key={c} active={cat === c} onClick={() => setCatFiltered(c)}>{c}</Chip>
             ))}
           </div>
 

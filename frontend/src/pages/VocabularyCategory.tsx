@@ -18,8 +18,9 @@ export default function VocabularyCategory() {
   const navigate = useNavigate();
 
   useEffect(() => {
-    setLoading(true);
-    vocabularyApi.category(id).then(setCat).finally(() => setLoading(false));
+    let active = true;
+    vocabularyApi.category(id).then(c => { if (active) { setCat(c); setLoading(false); } });
+    return () => { active = false; };
   }, [id]);
 
   // group words by subcategory (= "batch") preserving order

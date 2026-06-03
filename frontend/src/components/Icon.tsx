@@ -1,3 +1,4 @@
+/* eslint-disable react-refresh/only-export-components -- pure icon barrel; built via a factory */
 /**
  * Inline SVG icons (stroke-based, currentColor) — matches the existing inline-SVG
  * style used in Home/Progress, avoiding an external icon dependency.

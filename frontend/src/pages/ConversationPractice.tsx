@@ -8,22 +8,26 @@ import type { MiniDialogue } from '../types';
 
 export default function ConversationPractice() {
   const { source, id } = useParams();
+  const valid = source === 'dialogue' && !!id;
   const [dialogue, setDialogue] = useState<MiniDialogue | null>(null);
   const [category, setCategory] = useState('');
-  const [loading, setLoading] = useState(true);
-  const [notFound, setNotFound] = useState(false);
+  const [loading, setLoading] = useState(valid);
+  const [notFound, setNotFound] = useState(!valid);
 
   useEffect(() => {
-    if (source !== 'dialogue' || !id) { setNotFound(true); setLoading(false); return; }
-    const [catId, dlgId] = id.split('.').map(Number);
+    if (!valid) return;
+    let active = true;
+    const [catId, dlgId] = id!.split('.').map(Number);
     vocabularyApi.category(catId)
       .then(c => {
+        if (!active) return;
         const d = c.mini_dialogues.find(x => x.id === dlgId);
         if (d) { setDialogue(d); setCategory(c.category); } else setNotFound(true);
       })
-      .catch(() => setNotFound(true))
-      .finally(() => setLoading(false));
-  }, [source, id]);
+      .catch(() => active && setNotFound(true))
+      .finally(() => active && setLoading(false));
+    return () => { active = false; };
+  }, [valid, id]);
 
   return (
     <div className="flex flex-col h-[100dvh]" style={{ background: 'var(--paper)' }}>
