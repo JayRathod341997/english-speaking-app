@@ -1,5 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import BottomNav from '../components/BottomNav';
+import { useLocalProgress } from '../hooks/useLocalProgress';
 import { progressApi } from '../services/api';
 import type { Progress } from '../types';
 
@@ -29,6 +31,12 @@ export default function ProgressPage() {
   const [progress, setProgress] = useState<Progress | null>(null);
   const [loading, setLoading]   = useState(true);
   const navigate = useNavigate();
+  const { progress: local } = useLocalProgress();
+
+  const wordsLearned = Object.values(local.vocab).filter(v => v.learned).length;
+  const idiomsSaved  = local.idiomBookmarks.length;
+  const quizTaken    = Object.keys(local.quizScores).length;
+  const bestQuiz     = quizTaken ? Math.max(...Object.values(local.quizScores)) : 0;
 
   useEffect(() => {
     progressApi.get().then(setProgress).finally(() => setLoading(false));
@@ -155,6 +163,35 @@ export default function ProgressPage() {
             </div>
           )}
 
+          {/* Learning stats (localStorage) */}
+          <div className="rounded-[18px] p-5" style={{ background: 'var(--card)', border: '1px solid var(--line)' }}>
+            <h2 className="font-serif text-[16px] font-semibold mb-4" style={{ color: 'var(--ink)' }}>
+              Learning
+            </h2>
+            <div className="grid grid-cols-2 gap-3">
+              <MetricCard label="Words learned" value={wordsLearned} bar={Math.min((wordsLearned / 160) * 100, 100)} barColor="var(--teal)" />
+              <MetricCard label="Idioms saved"  value={idiomsSaved} />
+              <MetricCard label="Quizzes taken" value={quizTaken} />
+              <MetricCard label="Best quiz"     value={`${bestQuiz}%`} bar={bestQuiz} barColor="var(--saffron)" />
+            </div>
+            <div className="flex gap-2 mt-4">
+              <button
+                onClick={() => navigate('/vocabulary')}
+                className="flex-1 py-2.5 rounded-xl text-xs font-semibold"
+                style={{ background: 'var(--teal-soft)', color: 'var(--teal)' }}
+              >
+                Study words
+              </button>
+              <button
+                onClick={() => navigate('/idioms')}
+                className="flex-1 py-2.5 rounded-xl text-xs font-semibold"
+                style={{ background: 'var(--amber-soft)', color: 'var(--saffron-deep)' }}
+              >
+                Browse idioms
+              </button>
+            </div>
+          </div>
+
           <button
             onClick={() => navigate('/')}
             className="w-full py-3.5 rounded-[14px] font-bold text-sm text-white"
@@ -165,31 +202,7 @@ export default function ProgressPage() {
         </div>
       )}
 
-      {/* Bottom nav */}
-      <nav
-        className="flex flex-shrink-0"
-        style={{ borderTop: '1px solid var(--line)', background: 'var(--card)' }}
-      >
-        <button
-          onClick={() => navigate('/')}
-          className="flex-1 flex flex-col items-center gap-1 pt-2.5 pb-4 text-[10.5px] font-semibold"
-          style={{ color: 'var(--ink-soft)' }}
-        >
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="w-5 h-5">
-            <path d="M3 11l9-8 9 8v9a2 2 0 0 1-2 2h-4v-6H9v6H5a2 2 0 0 1-2-2z"/>
-          </svg>
-          Home
-        </button>
-        <button
-          className="flex-1 flex flex-col items-center gap-1 pt-2.5 pb-4 text-[10.5px] font-semibold"
-          style={{ color: 'var(--saffron-deep)' }}
-        >
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="w-5 h-5">
-            <path d="M3 3v18h18"/><path d="M7 14l3-4 4 3 5-7"/>
-          </svg>
-          Progress
-        </button>
-      </nav>
+      <BottomNav active="progress" />
     </div>
   );
 }

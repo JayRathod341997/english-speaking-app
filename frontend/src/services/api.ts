@@ -2,11 +2,14 @@ import axios from 'axios';
 import type {
   DailyChallenge,
   EndSessionResponse,
+  IdiomsLibrary,
   Progress,
   Scenario,
   SendMessageResponse,
   Session,
   SessionDetail,
+  VocabCategoryDetail,
+  VocabIndex,
 } from '../types';
 
 const api = axios.create({ baseURL: '/api' });
@@ -35,4 +38,14 @@ export const sessionsApi = {
 export const progressApi = {
   get: () => api.get<Progress>('/progress').then(r => r.data),
   dailyChallenge: () => api.get<DailyChallenge>('/daily-challenge').then(r => r.data),
+};
+
+export const idiomsApi = {
+  list: () => api.get<IdiomsLibrary>('/idioms').then(r => r.data),
+};
+
+export const vocabularyApi = {
+  index: () => api.get<VocabIndex>('/vocabulary').then(r => r.data),
+  category: (id: number) =>
+    api.get<VocabCategoryDetail>(`/vocabulary/categories/${id}`).then(r => r.data),
 };

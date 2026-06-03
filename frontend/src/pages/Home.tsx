@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import BottomNav from '../components/BottomNav';
 import { progressApi, scenariosApi } from '../services/api';
 import type { DailyChallenge, Scenario } from '../types';
 
@@ -174,31 +175,7 @@ export default function Home() {
         )}
       </div>
 
-      {/* Bottom nav */}
-      <nav
-        className="flex flex-shrink-0"
-        style={{ borderTop: '1px solid var(--line)', background: 'var(--card)' }}
-      >
-        <button
-          className="flex-1 flex flex-col items-center gap-1 pt-2.5 pb-4 text-[10.5px] font-semibold"
-          style={{ color: 'var(--saffron-deep)' }}
-        >
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="w-5 h-5">
-            <path d="M3 11l9-8 9 8v9a2 2 0 0 1-2 2h-4v-6H9v6H5a2 2 0 0 1-2-2z"/>
-          </svg>
-          Home
-        </button>
-        <button
-          onClick={() => navigate('/progress')}
-          className="flex-1 flex flex-col items-center gap-1 pt-2.5 pb-4 text-[10.5px] font-semibold"
-          style={{ color: 'var(--ink-soft)' }}
-        >
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="w-5 h-5">
-            <path d="M3 3v18h18"/><path d="M7 14l3-4 4 3 5-7"/>
-          </svg>
-          Progress
-        </button>
-      </nav>
+      <BottomNav active="home" />
     </div>
   );
 }
