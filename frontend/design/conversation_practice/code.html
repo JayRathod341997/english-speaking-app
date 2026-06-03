@@ -1,0 +1,285 @@
+<!DOCTYPE html><html class="light" lang="en"><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>Bolo English - Conversation Practice</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700&amp;family=Source+Serif+4:wght@600;700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "on-secondary-container": "#783607",
+                        "surface-container": "#f6ece3",
+                        "secondary": "#924b1c",
+                        "background": "#fff8f3",
+                        "on-background": "#1f1b15",
+                        "tertiary-fixed": "#e8e2d6",
+                        "on-primary-fixed": "#00201b",
+                        "on-error": "#ffffff",
+                        "outline": "#6f7976",
+                        "on-tertiary-fixed": "#1e1b14",
+                        "inverse-on-surface": "#f8efe5",
+                        "secondary-fixed-dim": "#ffb68e",
+                        "on-primary": "#ffffff",
+                        "tertiary-container": "#615d54",
+                        "tertiary-fixed-dim": "#ccc6ba",
+                        "on-tertiary": "#ffffff",
+                        "surface-container-highest": "#eae1d7",
+                        "on-secondary-fixed-variant": "#753405",
+                        "outline-variant": "#bfc9c5",
+                        "surface-container-high": "#f0e7dd",
+                        "inverse-surface": "#343029",
+                        "on-secondary-fixed": "#331200",
+                        "secondary-fixed": "#ffdbc9",
+                        "primary": "#004f46",
+                        "surface-bright": "#fff8f3",
+                        "on-primary-fixed-variant": "#005046",
+                        "tertiary": "#49463d",
+                        "on-tertiary-container": "#ddd6cb",
+                        "primary-fixed-dim": "#90d3c6",
+                        "error-container": "#ffdad6",
+                        "on-error-container": "#93000a",
+                        "surface-container-lowest": "#ffffff",
+                        "primary-fixed": "#abf0e1",
+                        "on-tertiary-fixed-variant": "#4a463e",
+                        "surface": "#fff8f3",
+                        "on-primary-container": "#a0e4d6",
+                        "on-surface": "#1f1b15",
+                        "inverse-primary": "#90d3c6",
+                        "on-surface-variant": "#3f4946",
+                        "error": "#ba1a1a",
+                        "on-secondary": "#ffffff",
+                        "surface-container-low": "#fbf2e8",
+                        "surface-dim": "#e1d9cf",
+                        "surface-variant": "#eae1d7",
+                        "surface-tint": "#22695e",
+                        "primary-container": "#21685d",
+                        "secondary-container": "#ffa26c"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "margin-mobile": "16px",
+                        "xs": "4px",
+                        "base": "8px",
+                        "sm": "12px",
+                        "md": "24px",
+                        "lg": "40px",
+                        "margin-desktop": "48px",
+                        "xl": "64px",
+                        "gutter": "24px"
+                    },
+                    "fontFamily": {
+                        "headline-md": ["Source Serif 4"],
+                        "headline-lg-mobile": ["Source Serif 4"],
+                        "label-sm": ["Plus Jakarta Sans"],
+                        "label-md": ["Plus Jakarta Sans"],
+                        "headline-lg": ["Source Serif 4"],
+                        "body-lg": ["Plus Jakarta Sans"],
+                        "body-md": ["Plus Jakarta Sans"],
+                        "display-lg": ["Source Serif 4"]
+                    },
+                    "fontSize": {
+                        "headline-md": ["24px", {"lineHeight": "32px", "fontWeight": "600"}],
+                        "headline-lg-mobile": ["28px", {"lineHeight": "36px", "fontWeight": "700"}],
+                        "label-sm": ["12px", {"lineHeight": "16px", "letterSpacing": "0.05em", "fontWeight": "700"}],
+                        "label-md": ["14px", {"lineHeight": "20px", "letterSpacing": "0.02em", "fontWeight": "600"}],
+                        "headline-lg": ["32px", {"lineHeight": "40px", "fontWeight": "700"}],
+                        "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}],
+                        "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+                        "display-lg": ["48px", {"lineHeight": "56px", "fontWeight": "700"}]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+            display: inline-block;
+            line-height: 1;
+        }
+        .message-bubble {
+            transition: transform 0.2s ease;
+        }
+        .message-bubble:active {
+            transform: scale(0.98);
+        }
+    </style>
+</head>
+<body class="bg-background text-on-background min-h-screen font-body-md text-body-md overflow-x-hidden">
+<!-- TopAppBar -->
+<header class="bg-background dark:bg-background flex justify-between items-center w-full px-margin-mobile h-16 fixed top-0 z-50">
+<div class="flex items-center gap-4">
+<button class="hover:bg-surface-container-low dark:hover:bg-surface-container-highest transition-colors rounded-full p-2">
+<span class="material-symbols-outlined text-primary dark:text-primary-fixed-dim">arrow_back</span>
+</button>
+<h1 class="font-headline-md text-headline-md text-primary dark:text-primary-fixed-dim font-bold">Bolo English</h1>
+</div>
+<div class="flex items-center gap-3">
+<button id="mark-complete-btn" class="hover:bg-surface-container-low dark:hover:bg-surface-container-highest transition-colors rounded-full p-2 flex items-center justify-center" title="Mark as Complete">
+    <span class="material-symbols-outlined text-on-surface-variant">check_circle</span>
+</button><button class="hover:bg-surface-container-low dark:hover:bg-surface-container-highest transition-colors rounded-full p-2">
+<span class="material-symbols-outlined text-on-surface-variant">bookmark</span>
+</button>
+<div class="w-10 h-10 rounded-full bg-primary-container flex items-center justify-center overflow-hidden border-2 border-primary">
+<img alt="User Avatar" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD6_CtzilpA3xmnrDtIx1AT6jbmxDS2EtwbhSVppmKyPHfbTW4a2jFAgDXOGyZJJTW0UX3zShAEc4KojypBG7ZpFjfQo14rvweH2rAXaKhu8ixCrHnvanf3LP9I-iPX2nLC1PWyN2qYGfZzLNZwcNduWDrHicym7xzYe_dTM2HNquejO4fh1h6OdHSIhEs4jSpQx8GXTXUKnAIrDI_S8XINP_uVaX3io3-qxfivbMlBtuAJfp4S7AZLv5LBPCzSv9cj6hs301F-o2Y">
+</div>
+</div>
+</header>
+<main class="pt-20 pb-32 px-margin-mobile max-w-3xl mx-auto">
+<!-- Header Info -->
+<section class="mb-lg">
+<div class="flex items-center gap-2 mb-xs">
+<span class="bg-secondary-container text-on-secondary-container px-3 py-1 rounded-full font-label-sm text-label-sm">BEG</span>
+<span class="text-on-surface-variant font-label-md text-label-md">Education • ~10m</span>
+</div>
+<h2 class="font-headline-lg-mobile text-headline-lg-mobile md:font-headline-lg md:text-headline-lg text-on-background mb-1">Schoolwork and Weekend Plans</h2>
+<p class="text-on-surface-variant font-body-md text-body-md italic text-opacity-80">તમારા શાળાના અભ્યાસ અને સપ્તાહાંતના આયોજન વિશે વાતચીત કરો.</p>
+</section>
+<!-- Conversation Area -->
+<div class="space-y-md">
+<!-- Alice Message -->
+<div class="flex flex-col items-start">
+<div class="flex items-center gap-2 mb-1">
+<span class="font-label-md text-label-md text-secondary">Alice</span>
+</div>
+<div class="message-bubble bg-surface-container-high rounded-tr-2xl rounded-br-2xl rounded-bl-2xl p-md max-w-[85%] shadow-sm relative group">
+<p class="font-headline-md text-headline-md text-on-surface leading-snug">"Hey Tom! How is your schoolwork going this week?"</p>
+<p class="text-on-surface-variant font-body-md text-body-md mt-2 border-t border-outline-variant pt-2 border-opacity-20">"હેલો ટોમ! આ અઠવાડિયે તમારું હોમવર્ક કેવું ચાલી રહ્યું છે?"</p>
+<button class="absolute -right-12 top-0 bg-primary-container text-on-primary-container p-2 rounded-full shadow-md opacity-0 group-hover:opacity-100 transition-opacity active:scale-90">
+<span class="material-symbols-outlined">volume_up</span>
+</button>
+</div>
+</div>
+<!-- Tom Message -->
+<div class="flex flex-col items-end">
+<div class="flex items-center gap-2 mb-1">
+<span class="font-label-md text-label-md text-primary">Tom</span>
+</div>
+<div class="message-bubble bg-primary text-on-primary rounded-tl-2xl rounded-bl-2xl rounded-br-2xl p-md max-w-[85%] shadow-sm relative group">
+<p class="font-headline-md text-headline-md leading-snug">"It's quite busy. I have a lot of math exercises to finish."</p>
+<p class="text-primary-fixed-dim font-body-md text-body-md mt-2 border-t border-white/20 pt-2">"તે થોડું વ્યસ્ત છે. મારે ગણિતના ઘણા સ્વાધ્યાય પૂરા કરવાના છે."</p>
+<button class="absolute -left-12 top-0 bg-secondary-container text-on-secondary-container p-2 rounded-full shadow-md opacity-0 group-hover:opacity-100 transition-opacity active:scale-90">
+<span class="material-symbols-outlined">volume_up</span>
+</button>
+</div>
+</div>
+<!-- Alice Message -->
+<div class="flex flex-col items-start">
+<div class="flex items-center gap-2 mb-1">
+<span class="font-label-md text-label-md text-secondary">Alice</span>
+</div>
+<div class="message-bubble bg-surface-container-high rounded-tr-2xl rounded-br-2xl rounded-bl-2xl p-md max-w-[85%] shadow-sm relative group">
+<p class="font-headline-md text-headline-md text-on-surface leading-snug">"That sounds tough! Do you have any plans for the weekend?"</p>
+<p class="text-on-surface-variant font-body-md text-body-md mt-2 border-t border-outline-variant pt-2 border-opacity-20">"તે અઘરું લાગે છે! શું તમારી પાસે સપ્તાહાંત માટે કોઈ પ્લાન છે?"</p>
+<button class="absolute -right-12 top-0 bg-primary-container text-on-primary-container p-2 rounded-full shadow-md opacity-0 group-hover:opacity-100 transition-opacity active:scale-90">
+<span class="material-symbols-outlined">volume_up</span>
+</button>
+</div>
+</div>
+<!-- Tom Message -->
+<div class="flex flex-col items-end">
+<div class="flex items-center gap-2 mb-1">
+<span class="font-label-md text-label-md text-primary">Tom</span>
+</div>
+<div class="message-bubble bg-primary text-on-primary rounded-tl-2xl rounded-bl-2xl rounded-br-2xl p-md max-w-[85%] shadow-sm relative group">
+<p class="font-headline-md text-headline-md leading-snug">"I'm planning to go to the park and relax with my friends."</p>
+<p class="text-primary-fixed-dim font-body-md text-body-md mt-2 border-t border-white/20 pt-2">"હું બગીચામાં જવાનું અને મારા મિત્રો સાથે આરામ કરવાનું વિચારી રહ્યો છું."</p>
+<button class="absolute -left-12 top-0 bg-secondary-container text-on-secondary-container p-2 rounded-full shadow-md opacity-0 group-hover:opacity-100 transition-opacity active:scale-90">
+<span class="material-symbols-outlined">volume_up</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Call to Action -->
+<div class="mt-xl text-center space-y-md">
+<div class="bg-surface-container-low p-md rounded-xl border border-outline-variant border-opacity-30">
+<p class="font-label-md text-label-md text-on-surface-variant mb-base">PRACTICE KEY PHRASES</p>
+<div class="flex flex-wrap justify-center gap-2">
+<button class="bg-surface-bright border border-outline px-4 py-2 rounded-full text-primary font-label-md hover:bg-primary-container hover:text-on-primary-container transition-all">"How is your..."</button>
+<button class="bg-surface-bright border border-outline px-4 py-2 rounded-full text-primary font-label-md hover:bg-primary-container hover:text-on-primary-container transition-all">"I'm planning to..."</button>
+<button class="bg-surface-bright border border-outline px-4 py-2 rounded-full text-primary font-label-md hover:bg-primary-container hover:text-on-primary-container transition-all">"Any plans for..."</button>
+</div>
+</div>
+<button class="w-full bg-primary text-on-primary py-4 rounded-full font-headline-md text-headline-md flex items-center justify-center gap-2 shadow-lg active:scale-95 transition-all">
+<span class="material-symbols-outlined">mic</span>
+                Start Speaking Practice
+            </button>
+</div>
+</main>
+<!-- BottomNavBar -->
+<nav class="fixed bottom-0 left-0 w-full flex justify-around items-center px-4 py-3 pb-safe bg-surface-container dark:bg-surface-container-highest shadow-[0_-4px_6px_-1px_rgba(0,0,0,0.05)] rounded-t-xl z-50">
+<a class="flex flex-col items-center justify-center text-on-surface-variant dark:text-on-tertiary-fixed-variant px-4 py-1 hover:bg-surface-container-highest transition-colors" href="#">
+<span class="material-symbols-outlined">home</span>
+<span class="font-label-sm text-label-sm">Home</span>
+</a>
+<a class="flex flex-col items-center justify-center bg-primary-container dark:bg-primary-container text-on-primary-container dark:text-on-primary-container rounded-full px-4 py-1 scale-90 duration-150 ease-in-out" href="#">
+<span class="material-symbols-outlined">chat_bubble</span>
+<span class="font-label-sm text-label-sm">Conversations</span>
+</a>
+<a class="flex flex-col items-center justify-center text-on-surface-variant dark:text-on-tertiary-fixed-variant px-4 py-1 hover:bg-surface-container-highest transition-colors" href="#">
+<span class="material-symbols-outlined">auto_stories</span>
+<span class="font-label-sm text-label-sm">Idioms</span>
+</a>
+<a class="flex flex-col items-center justify-center text-on-surface-variant dark:text-on-tertiary-fixed-variant px-4 py-1 hover:bg-surface-container-highest transition-colors" href="#">
+<span class="material-symbols-outlined">trending_up</span>
+<span class="font-label-sm text-label-sm">Progress</span>
+</a>
+</nav>
+<script>
+        // Simple micro-interactions for speaker icons
+        document.querySelectorAll('button').forEach(btn => {
+            btn.addEventListener('click', function() {
+                const icon = this.querySelector('.material-symbols-outlined');
+                if (icon && (icon.innerText === 'volume_up' || icon.innerText === 'mic')) {
+                    icon.classList.add('animate-pulse');
+                    setTimeout(() => icon.classList.remove('animate-pulse'), 1000);
+                }
+            });
+        });
+
+        // Toggle bookmark state
+        const bookmarkBtn = document.querySelector('header .material-symbols-outlined:last-of-type');
+        bookmarkBtn.parentElement.addEventListener('click', function() {
+            if (bookmarkBtn.innerText === 'bookmark') {
+                bookmarkBtn.innerText = 'bookmark_added';
+                bookmarkBtn.style.fontVariationSettings = "'FILL' 1";
+                bookmarkBtn.classList.add('text-secondary');
+            } else {
+                bookmarkBtn.innerText = 'bookmark';
+                bookmarkBtn.style.fontVariationSettings = "'FILL' 0";
+                bookmarkBtn.classList.remove('text-secondary');
+            }
+        });
+    </script>
+
+
+<script>
+    const completeBtn = document.getElementById('mark-complete-btn');
+    const completeIcon = completeBtn.querySelector('.material-symbols-outlined');
+    
+    completeBtn.addEventListener('click', function() {
+        const isCompleted = completeIcon.innerText === 'check_circle' && completeIcon.classList.contains('text-primary');
+        
+        if (!isCompleted) {
+            completeIcon.innerText = 'check_circle';
+            completeIcon.style.fontVariationSettings = "'FILL' 1";
+            completeIcon.classList.remove('text-on-surface-variant');
+            completeIcon.classList.add('text-primary');
+        } else {
+            completeIcon.innerText = 'check_circle';
+            completeIcon.style.fontVariationSettings = "'FILL' 0";
+            completeIcon.classList.remove('text-primary');
+            completeIcon.classList.add('text-on-surface-variant');
+        }
+    });
+</script></body></html>

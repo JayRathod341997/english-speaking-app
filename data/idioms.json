@@ -1,0 +1,2227 @@
+{
+  "title": "Key English Idioms with Gujarati & English Meanings and Examples",
+  "description": "A curated collection of common English idioms. Each entry includes the idiom, its English meaning, its Gujarati meaning (ગુજરાતી અર્થ), and 3-5 example sentences showing real usage.",
+  "total_idioms": 156,
+  "categories": [
+    "Communication",
+    "Daily Life",
+    "Decisions & Choices",
+    "Difficulties & Problems",
+    "Emotions & Feelings",
+    "General Wisdom",
+    "Honesty & Secrets",
+    "Money & Finance",
+    "Relationships & Social",
+    "Time & Opportunity",
+    "Work & Effort"
+  ],
+  "difficulty_levels": [
+    "Beginner",
+    "Intermediate",
+    "Advanced"
+  ],
+  "category_counts": {
+    "Communication": 18,
+    "Daily Life": 5,
+    "Decisions & Choices": 10,
+    "Difficulties & Problems": 23,
+    "Emotions & Feelings": 13,
+    "General Wisdom": 28,
+    "Honesty & Secrets": 6,
+    "Money & Finance": 10,
+    "Relationships & Social": 16,
+    "Time & Opportunity": 8,
+    "Work & Effort": 19
+  },
+  "difficulty_counts": {
+    "Beginner": 47,
+    "Intermediate": 68,
+    "Advanced": 41
+  },
+  "idioms": [
+    {
+      "id": 1,
+      "idiom": "A blessing in disguise",
+      "category": "Difficulties & Problems",
+      "difficulty": "Intermediate",
+      "english_meaning": "Something that seems bad or unlucky at first but results in something good later.",
+      "gujarati_meaning": "છૂપો આશીર્વાદ; શરૂઆતમાં ખરાબ લાગતી પણ પાછળથી સારી સાબિત થતી ઘટના.",
+      "examples": [
+        "Losing that job turned out to be a blessing in disguise.",
+        "It pushed me to start my own business.",
+        "Within a year I was earning twice as much.",
+        "Sometimes a setback is really a blessing in disguise."
+      ]
+    },
+    {
+      "id": 2,
+      "idiom": "Bite the bullet",
+      "category": "Difficulties & Problems",
+      "difficulty": "Intermediate",
+      "english_meaning": "To endure a painful or unpleasant situation that is unavoidable.",
+      "gujarati_meaning": "મુશ્કેલ કે અપ્રિય પરિસ્થિતિને હિંમતથી સ્વીકારી લેવી; દાંત ભીંસીને સહન કરવું.",
+      "examples": [
+        "The dentist appointment was scary, but I decided to bite the bullet.",
+        "I had been avoiding it for months.",
+        "Finally I booked the slot and went in.",
+        "It hurt a little, but I felt relieved afterward."
+      ]
+    },
+    {
+      "id": 3,
+      "idiom": "Break the ice",
+      "category": "Communication",
+      "difficulty": "Beginner",
+      "english_meaning": "To do or say something to relieve tension and start a conversation in an awkward situation.",
+      "gujarati_meaning": "ઔપચારિકતા કે અસહજતા તોડીને વાતચીત શરૂ કરવી; પ્રથમ સંકોચ દૂર કરવો.",
+      "examples": [
+        "The party was silent when the guests arrived.",
+        "To break the ice, the host started a fun game.",
+        "Soon everyone was laughing and chatting.",
+        "A small joke can easily break the ice."
+      ]
+    },
+    {
+      "id": 4,
+      "idiom": "The ball is in your court",
+      "category": "Decisions & Choices",
+      "difficulty": "Intermediate",
+      "english_meaning": "It is your turn to make a decision or take the next action.",
+      "gujarati_meaning": "હવે નિર્ણય કે પગલું તમારે લેવાનું છે; દડો હવે તમારી બાજુ છે.",
+      "examples": [
+        "I have made my offer to you.",
+        "I explained all the terms clearly.",
+        "Now the ball is in your court.",
+        "Let me know your decision by tomorrow."
+      ]
+    },
+    {
+      "id": 5,
+      "idiom": "Hit the nail on the head",
+      "category": "Communication",
+      "difficulty": "Intermediate",
+      "english_meaning": "To describe exactly what is causing a situation or problem; to be precisely right.",
+      "gujarati_meaning": "બરાબર સાચી વાત કહેવી; નિશાન પર ચોટ મારવી.",
+      "examples": [
+        "Everyone was confused about why sales dropped.",
+        "Then Riya said it was a pricing problem.",
+        "She hit the nail on the head.",
+        "Once we fixed the price, sales recovered."
+      ]
+    },
+    {
+      "id": 6,
+      "idiom": "Once in a blue moon",
+      "category": "Time & Opportunity",
+      "difficulty": "Beginner",
+      "english_meaning": "Something that happens very rarely.",
+      "gujarati_meaning": "ખૂબ ભાગ્યે જ; ક્યારેક ક્યારેક જ બનતી દુર્લભ ઘટના.",
+      "examples": [
+        "My brother lives in another country.",
+        "He visits us only once in a blue moon.",
+        "So when he comes, we celebrate a lot.",
+        "Such rare visits feel very special."
+      ]
+    },
+    {
+      "id": 7,
+      "idiom": "Piece of cake",
+      "category": "Work & Effort",
+      "difficulty": "Beginner",
+      "english_meaning": "Something that is very easy to do.",
+      "gujarati_meaning": "ખૂબ સહેલું કામ; રમત-વાત જેવું સરળ.",
+      "examples": [
+        "I was nervous about the math test.",
+        "But the questions were very simple.",
+        "The whole exam was a piece of cake.",
+        "I finished it in half the time."
+      ]
+    },
+    {
+      "id": 8,
+      "idiom": "Let the cat out of the bag",
+      "category": "Honesty & Secrets",
+      "difficulty": "Intermediate",
+      "english_meaning": "To reveal a secret carelessly or by mistake.",
+      "gujarati_meaning": "અજાણતાં કે ભૂલથી રહસ્ય ખુલ્લું પાડી દેવું; ગુપ્ત વાત જાહેર કરી દેવી.",
+      "examples": [
+        "We were planning a surprise party for Mom.",
+        "But my little sister let the cat out of the bag.",
+        "She told Mom about the cake.",
+        "The surprise was ruined."
+      ]
+    },
+    {
+      "id": 9,
+      "idiom": "Cost an arm and a leg",
+      "category": "Money & Finance",
+      "difficulty": "Beginner",
+      "english_meaning": "To be very expensive.",
+      "gujarati_meaning": "ખૂબ મોંઘું હોવું; ભારે કિંમત ચૂકવવી પડે એવું.",
+      "examples": [
+        "I really wanted that new phone.",
+        "But it cost an arm and a leg.",
+        "I decided to wait for a discount.",
+        "Saving money is better than overspending."
+      ]
+    },
+    {
+      "id": 10,
+      "idiom": "Under the weather",
+      "category": "Emotions & Feelings",
+      "difficulty": "Beginner",
+      "english_meaning": "Feeling slightly ill or unwell.",
+      "gujarati_meaning": "તબિયત થોડી નરમ હોવી; બીમાર જેવું લાગવું.",
+      "examples": [
+        "I did not go to office today.",
+        "I was feeling under the weather.",
+        "My head was aching and I felt tired.",
+        "After some rest, I felt much better."
+      ]
+    },
+    {
+      "id": 11,
+      "idiom": "Spill the beans",
+      "category": "Honesty & Secrets",
+      "difficulty": "Beginner",
+      "english_meaning": "To reveal secret information, often unintentionally.",
+      "gujarati_meaning": "રહસ્ય ઉઘાડું પાડી દેવું; છૂપી વાત કહી દેવી.",
+      "examples": [
+        "Everyone wanted to know the trip plan.",
+        "Finally Arjun spilled the beans.",
+        "He told us we were going to Goa.",
+        "We all got excited immediately."
+      ]
+    },
+    {
+      "id": 12,
+      "idiom": "Burn the midnight oil",
+      "category": "Work & Effort",
+      "difficulty": "Intermediate",
+      "english_meaning": "To work or study late into the night.",
+      "gujarati_meaning": "મોડી રાત સુધી મહેનત કરવી કે ભણવું; રાત-દિવસ એક કરવો.",
+      "examples": [
+        "The exams were just a week away.",
+        "I had a lot of syllabus to cover.",
+        "So I burned the midnight oil every day.",
+        "My hard work paid off with good marks."
+      ]
+    },
+    {
+      "id": 13,
+      "idiom": "Cut corners",
+      "category": "Work & Effort",
+      "difficulty": "Intermediate",
+      "english_meaning": "To do something cheaply or quickly by skipping proper steps, often reducing quality.",
+      "gujarati_meaning": "ગુણવત્તાનો ભોગ આપીને ઝડપથી કે સસ્તામાં કામ પતાવવું; શોર્ટકટ મારવો.",
+      "examples": [
+        "The builder wanted to finish quickly.",
+        "So he cut corners on the construction.",
+        "Within months, the walls developed cracks.",
+        "Cutting corners often costs more later."
+      ]
+    },
+    {
+      "id": 14,
+      "idiom": "Get out of hand",
+      "category": "Difficulties & Problems",
+      "difficulty": "Intermediate",
+      "english_meaning": "To become difficult or impossible to control.",
+      "gujarati_meaning": "કાબૂ બહાર જવું; પરિસ્થિતિ બેકાબૂ બની જવી.",
+      "examples": [
+        "The argument started over a small matter.",
+        "But soon it got out of hand.",
+        "People began shouting at each other.",
+        "A teacher had to step in to calm everyone."
+      ]
+    },
+    {
+      "id": 15,
+      "idiom": "Hit the sack",
+      "category": "Daily Life",
+      "difficulty": "Beginner",
+      "english_meaning": "To go to bed; to go to sleep.",
+      "gujarati_meaning": "સૂવા જવું; પથારીમાં પડવું.",
+      "examples": [
+        "It was already past midnight.",
+        "I was extremely tired after the long day.",
+        "So I decided to hit the sack.",
+        "I fell asleep the moment I lay down."
+      ]
+    },
+    {
+      "id": 16,
+      "idiom": "Pull someone's leg",
+      "category": "Communication",
+      "difficulty": "Beginner",
+      "english_meaning": "To joke with someone by telling them something untrue in a playful way.",
+      "gujarati_meaning": "મજાક-મસ્તીમાં કોઈને બનાવવું; ગમ્મત કરવી.",
+      "examples": [
+        "My friend said I had won a lottery.",
+        "I got very excited for a moment.",
+        "Then I realised he was just pulling my leg.",
+        "We both laughed about it later."
+      ]
+    },
+    {
+      "id": 17,
+      "idiom": "The best of both worlds",
+      "category": "General Wisdom",
+      "difficulty": "Intermediate",
+      "english_meaning": "A situation where you can enjoy the advantages of two different things at the same time.",
+      "gujarati_meaning": "બે ફાયદાઓ એકસાથે મળવા; બંને બાજુનો લાભ.",
+      "examples": [
+        "She works from home three days a week.",
+        "She goes to the office on the other days.",
+        "So she gets the best of both worlds.",
+        "She enjoys both comfort and teamwork."
+      ]
+    },
+    {
+      "id": 18,
+      "idiom": "Speak of the devil",
+      "category": "Communication",
+      "difficulty": "Intermediate",
+      "english_meaning": "Said when a person appears just after you were talking about them.",
+      "gujarati_meaning": "જેની વાત ચાલતી હોય તે જ વ્યક્તિ આવી ચડે ત્યારે વપરાતું વાક્ય.",
+      "examples": [
+        "We were just talking about Rohan.",
+        "Suddenly he walked through the door.",
+        "Speak of the devil, we all said.",
+        "Everyone burst out laughing."
+      ]
+    },
+    {
+      "id": 19,
+      "idiom": "Add fuel to the fire",
+      "category": "Difficulties & Problems",
+      "difficulty": "Intermediate",
+      "english_meaning": "To make a bad situation worse by your words or actions.",
+      "gujarati_meaning": "આગમાં ઘી હોમવું; ખરાબ પરિસ્થિતિને વધુ બગાડવી.",
+      "examples": [
+        "The two friends were already arguing.",
+        "Then someone made a rude comment.",
+        "That just added fuel to the fire.",
+        "Their fight became much worse."
+      ]
+    },
+    {
+      "id": 20,
+      "idiom": "Beat around the bush",
+      "category": "Communication",
+      "difficulty": "Intermediate",
+      "english_meaning": "To avoid talking about the main point; to speak indirectly.",
+      "gujarati_meaning": "મુદ્દાની વાત ટાળીને આડી-અવળી વાત કરવી; આડ-વાટે વાત કરવી.",
+      "examples": [
+        "I asked him directly about the money.",
+        "But he kept beating around the bush.",
+        "He talked about everything except the loan.",
+        "Finally I asked him to be straightforward."
+      ]
+    },
+    {
+      "id": 21,
+      "idiom": "Call it a day",
+      "category": "Work & Effort",
+      "difficulty": "Beginner",
+      "english_meaning": "To stop working on something for the rest of the day.",
+      "gujarati_meaning": "દિવસનું કામ બંધ કરવું; આજ માટે કામ સમેટવું.",
+      "examples": [
+        "We had been painting since morning.",
+        "By evening we were completely exhausted.",
+        "So we decided to call it a day.",
+        "We planned to finish the rest tomorrow."
+      ]
+    },
+    {
+      "id": 22,
+      "idiom": "Cry over spilt milk",
+      "category": "General Wisdom",
+      "difficulty": "Intermediate",
+      "english_meaning": "To waste time worrying about something that has already happened and cannot be changed.",
+      "gujarati_meaning": "ભૂતકાળની ભૂલ માટે નકામો અફસોસ કરવો; ઢોળાયેલા દૂધ પર રડવું.",
+      "examples": [
+        "I broke my favourite watch by mistake.",
+        "I felt sad about it for days.",
+        "Then I realised there was no use crying over spilt milk.",
+        "I simply bought a new one."
+      ]
+    },
+    {
+      "id": 23,
+      "idiom": "Every cloud has a silver lining",
+      "category": "General Wisdom",
+      "difficulty": "Intermediate",
+      "english_meaning": "Every difficult situation has some positive aspect or hope.",
+      "gujarati_meaning": "દરેક મુશ્કેલીમાં કોઈક આશા છૂપાયેલી હોય છે; દુઃખ પછી સુખ.",
+      "examples": [
+        "He failed in his first business attempt.",
+        "But he learned many valuable lessons.",
+        "Every cloud has a silver lining.",
+        "His next venture became a big success."
+      ]
+    },
+    {
+      "id": 24,
+      "idiom": "Get cold feet",
+      "category": "Emotions & Feelings",
+      "difficulty": "Intermediate",
+      "english_meaning": "To suddenly become nervous or hesitant about doing something planned.",
+      "gujarati_meaning": "છેલ્લી ઘડીએ ગભરાઈ જવું કે હિંમત હારી જવી.",
+      "examples": [
+        "She was ready to give the speech.",
+        "But just before going on stage, she got cold feet.",
+        "Her hands started shaking.",
+        "With some encouragement, she finally spoke well."
+      ]
+    },
+    {
+      "id": 25,
+      "idiom": "Kill two birds with one stone",
+      "category": "Work & Effort",
+      "difficulty": "Intermediate",
+      "english_meaning": "To achieve two goals with a single action.",
+      "gujarati_meaning": "એક પંથ દો કાજ; એક જ ક્રિયાથી બે કામ પૂરા કરવા.",
+      "examples": [
+        "I went to the market for groceries.",
+        "On the way, I also paid the electricity bill.",
+        "I killed two birds with one stone.",
+        "It saved me an extra trip."
+      ]
+    },
+    {
+      "id": 26,
+      "idiom": "Out of the blue",
+      "category": "Time & Opportunity",
+      "difficulty": "Beginner",
+      "english_meaning": "Something that happens suddenly and unexpectedly.",
+      "gujarati_meaning": "અચાનક અને અણધાર્યું; એકાએક બની જતું.",
+      "examples": [
+        "I had not seen my old friend for years.",
+        "One day, out of the blue, he called me.",
+        "I was completely surprised to hear his voice.",
+        "We talked for hours like old times."
+      ]
+    },
+    {
+      "id": 27,
+      "idiom": "On the same page",
+      "category": "Communication",
+      "difficulty": "Beginner",
+      "english_meaning": "To have the same understanding or agreement about something.",
+      "gujarati_meaning": "એક જ વિચાર કે સમજ પર હોવું; સહમત હોવું.",
+      "examples": [
+        "Before starting the project, we had a meeting.",
+        "We discussed every detail carefully.",
+        "We wanted to be on the same page.",
+        "This avoided confusion later."
+      ]
+    },
+    {
+      "id": 28,
+      "idiom": "Throw in the towel",
+      "category": "Difficulties & Problems",
+      "difficulty": "Intermediate",
+      "english_meaning": "To give up or admit defeat.",
+      "gujarati_meaning": "હાર સ્વીકારી લેવી; પ્રયત્ન છોડી દેવો.",
+      "examples": [
+        "The team was losing badly.",
+        "Many players wanted to throw in the towel.",
+        "But the captain refused to give up.",
+        "Their persistence almost turned the game around."
+      ]
+    },
+    {
+      "id": 29,
+      "idiom": "A piece of mind",
+      "category": "Communication",
+      "difficulty": "Advanced",
+      "english_meaning": "To tell someone angrily what you think about their bad behaviour (to give someone a piece of your mind).",
+      "gujarati_meaning": "કોઈને ગુસ્સામાં ખરી-ખોટી સંભળાવવી; મનની વાત ઠપકા સાથે કહેવી.",
+      "examples": [
+        "The shopkeeper sold me a faulty product.",
+        "I went back and gave him a piece of my mind.",
+        "I told him never to cheat customers.",
+        "He apologised and refunded my money."
+      ]
+    },
+    {
+      "id": 30,
+      "idiom": "Back to the drawing board",
+      "category": "Work & Effort",
+      "difficulty": "Intermediate",
+      "english_meaning": "To start again from the beginning because the previous attempt failed.",
+      "gujarati_meaning": "ફરી શરૂઆતથી શરૂ કરવું; નવેસરથી યોજના બનાવવી.",
+      "examples": [
+        "Our first design was rejected by the client.",
+        "We had to go back to the drawing board.",
+        "We brainstormed completely new ideas.",
+        "The second design was finally approved."
+      ]
+    },
+    {
+      "id": 31,
+      "idiom": "Bend over backwards",
+      "category": "Work & Effort",
+      "difficulty": "Intermediate",
+      "english_meaning": "To try very hard, often more than expected, to help or please someone.",
+      "gujarati_meaning": "કોઈને મદદ કરવા માટે ખૂબ જ મહેનત કરવી; પૂરો પ્રયત્ન કરવો.",
+      "examples": [
+        "The hotel staff were very kind.",
+        "They bent over backwards to make us comfortable.",
+        "They arranged everything we asked for.",
+        "We had a wonderful stay there."
+      ]
+    },
+    {
+      "id": 32,
+      "idiom": "Burn bridges",
+      "category": "Relationships & Social",
+      "difficulty": "Advanced",
+      "english_meaning": "To destroy relationships or connections, making it impossible to go back.",
+      "gujarati_meaning": "સંબંધો કાયમ માટે તોડી નાખવા; પાછા ફરવાનો રસ્તો બંધ કરી દેવો.",
+      "examples": [
+        "He left his job in anger.",
+        "He insulted his manager on the way out.",
+        "He burned his bridges with the company.",
+        "Later he regretted not staying polite."
+      ]
+    },
+    {
+      "id": 33,
+      "idiom": "Cross that bridge when you come to it",
+      "category": "Decisions & Choices",
+      "difficulty": "Advanced",
+      "english_meaning": "To deal with a problem only when it actually happens, not before.",
+      "gujarati_meaning": "જે સમસ્યા આવે ત્યારે જ તેનો સામનો કરવો; અગાઉથી ચિંતા ન કરવી.",
+      "examples": [
+        "I was worried about the final round of interviews.",
+        "My friend told me not to stress yet.",
+        "We will cross that bridge when we come to it.",
+        "First, I should focus on the next round."
+      ]
+    },
+    {
+      "id": 34,
+      "idiom": "Cut to the chase",
+      "category": "Communication",
+      "difficulty": "Intermediate",
+      "english_meaning": "To get to the main point without wasting time.",
+      "gujarati_meaning": "આડ-વાત છોડીને સીધી મુદ્દાની વાત પર આવવું.",
+      "examples": [
+        "The meeting was running too long.",
+        "The manager asked everyone to cut to the chase.",
+        "We quickly discussed the main decisions.",
+        "The meeting ended on time after that."
+      ]
+    },
+    {
+      "id": 35,
+      "idiom": "Down to earth",
+      "category": "Relationships & Social",
+      "difficulty": "Beginner",
+      "english_meaning": "Practical, humble, and realistic; not proud.",
+      "gujarati_meaning": "જમીન સાથે જોડાયેલું; નમ્ર અને વ્યવહારુ સ્વભાવ.",
+      "examples": [
+        "Despite being very rich, he is very simple.",
+        "He talks to everyone politely.",
+        "He is a down to earth person.",
+        "Everyone respects him for his humility."
+      ]
+    },
+    {
+      "id": 36,
+      "idiom": "Face the music",
+      "category": "Difficulties & Problems",
+      "difficulty": "Intermediate",
+      "english_meaning": "To accept and deal with the unpleasant consequences of one's actions.",
+      "gujarati_meaning": "પોતાના કાર્યના પરિણામોનો સામનો કરવો; ભૂલની સજા સ્વીકારવી.",
+      "examples": [
+        "He had broken the school rules.",
+        "Now he had to face the music.",
+        "The principal called him to the office.",
+        "He accepted his punishment quietly."
+      ]
+    },
+    {
+      "id": 37,
+      "idiom": "Get the hang of it",
+      "category": "Work & Effort",
+      "difficulty": "Beginner",
+      "english_meaning": "To learn how to do something after some practice.",
+      "gujarati_meaning": "પ્રેક્ટિસથી કોઈ કામ શીખી જવું; ફાવટ આવી જવી.",
+      "examples": [
+        "Driving felt difficult on the first day.",
+        "I kept making small mistakes.",
+        "But after a week, I got the hang of it.",
+        "Now I can drive confidently."
+      ]
+    },
+    {
+      "id": 38,
+      "idiom": "Give the benefit of the doubt",
+      "category": "Relationships & Social",
+      "difficulty": "Advanced",
+      "english_meaning": "To believe something good about someone rather than something bad, when you are not sure.",
+      "gujarati_meaning": "શંકા હોવા છતાં કોઈ પર ભરોસો રાખવો; સારી રીતે માની લેવું.",
+      "examples": [
+        "He was late again for the meeting.",
+        "But he said his train was delayed.",
+        "I gave him the benefit of the doubt.",
+        "I chose to trust his explanation."
+      ]
+    },
+    {
+      "id": 39,
+      "idiom": "Go the extra mile",
+      "category": "Work & Effort",
+      "difficulty": "Intermediate",
+      "english_meaning": "To make more effort than is expected or required.",
+      "gujarati_meaning": "અપેક્ષા કરતાં વધારે મહેનત કરવી; એક ડગલું આગળ વધવું.",
+      "examples": [
+        "She always goes the extra mile at work.",
+        "She stays late to help her teammates.",
+        "Her dedication is admired by everyone.",
+        "That is why she got promoted quickly."
+      ]
+    },
+    {
+      "id": 40,
+      "idiom": "In the same boat",
+      "category": "Difficulties & Problems",
+      "difficulty": "Beginner",
+      "english_meaning": "To be in the same difficult situation as someone else.",
+      "gujarati_meaning": "એક જ મુશ્કેલ પરિસ્થિતિમાં હોવું; એક જ નાવમાં સવાર હોવું.",
+      "examples": [
+        "Many students failed the difficult test.",
+        "I was not the only one who struggled.",
+        "We were all in the same boat.",
+        "So we decided to study together next time."
+      ]
+    },
+    {
+      "id": 41,
+      "idiom": "Keep an eye on",
+      "category": "Daily Life",
+      "difficulty": "Beginner",
+      "english_meaning": "To watch someone or something carefully.",
+      "gujarati_meaning": "ધ્યાન રાખવું; નજર રાખવી.",
+      "examples": [
+        "I had to step out for a few minutes.",
+        "I asked my neighbour to keep an eye on my house.",
+        "She watched it carefully while I was away.",
+        "Everything was safe when I returned."
+      ]
+    },
+    {
+      "id": 42,
+      "idiom": "Let sleeping dogs lie",
+      "category": "General Wisdom",
+      "difficulty": "Advanced",
+      "english_meaning": "To avoid bringing up an old problem or conflict that could cause trouble.",
+      "gujarati_meaning": "જૂની વાત કે ઝઘડો ઉખેળવો નહિ; શાંત મામલાને છંછેડવો નહિ.",
+      "examples": [
+        "The two cousins had fought years ago.",
+        "Now they were finally friendly again.",
+        "We decided to let sleeping dogs lie.",
+        "No one mentioned the old argument."
+      ]
+    },
+    {
+      "id": 43,
+      "idiom": "Make ends meet",
+      "category": "Money & Finance",
+      "difficulty": "Intermediate",
+      "english_meaning": "To earn just enough money to cover one's basic needs.",
+      "gujarati_meaning": "મુશ્કેલીથી ઘરખર્ચ ચલાવવો; બે છેડા ભેગા કરવા.",
+      "examples": [
+        "After he lost his job, life became hard.",
+        "He took up two part-time jobs.",
+        "He worked hard just to make ends meet.",
+        "Slowly his situation began to improve."
+      ]
+    },
+    {
+      "id": 44,
+      "idiom": "Miss the boat",
+      "category": "Time & Opportunity",
+      "difficulty": "Intermediate",
+      "english_meaning": "To miss an opportunity because of being too slow to act.",
+      "gujarati_meaning": "મોડું થવાથી તક ગુમાવી દેવી; મોકો ચૂકી જવો.",
+      "examples": [
+        "The offer had a huge discount.",
+        "I kept thinking about it for too long.",
+        "By the time I decided, I had missed the boat.",
+        "The sale was already over."
+      ]
+    },
+    {
+      "id": 45,
+      "idiom": "No pain, no gain",
+      "category": "General Wisdom",
+      "difficulty": "Beginner",
+      "english_meaning": "You cannot achieve success without effort and hard work.",
+      "gujarati_meaning": "મહેનત વિના ફળ નથી; દુઃખ વેઠ્યા વિના સફળતા નથી.",
+      "examples": [
+        "Training for the marathon was very tough.",
+        "My muscles ached every single day.",
+        "But no pain, no gain, I reminded myself.",
+        "Finally I completed the race proudly."
+      ]
+    },
+    {
+      "id": 46,
+      "idiom": "On thin ice",
+      "category": "Difficulties & Problems",
+      "difficulty": "Intermediate",
+      "english_meaning": "In a risky or dangerous situation where one mistake could cause trouble.",
+      "gujarati_meaning": "જોખમભરી પરિસ્થિતિમાં હોવું; પાતળા બરફ પર ચાલવા જેવું.",
+      "examples": [
+        "He had already been warned twice at work.",
+        "Now he was on thin ice with his boss.",
+        "One more mistake could cost him his job.",
+        "So he started working very carefully."
+      ]
+    },
+    {
+      "id": 47,
+      "idiom": "Pull yourself together",
+      "category": "Emotions & Feelings",
+      "difficulty": "Intermediate",
+      "english_meaning": "To regain control of your emotions and become calm.",
+      "gujarati_meaning": "પોતાની જાતને સંભાળી લેવી; શાંત થઈ જવું.",
+      "examples": [
+        "She was crying after the bad news.",
+        "Her friend asked her to pull herself together.",
+        "She took a deep breath and calmed down.",
+        "Soon she was ready to face the situation."
+      ]
+    },
+    {
+      "id": 48,
+      "idiom": "Rain on someone's parade",
+      "category": "Emotions & Feelings",
+      "difficulty": "Advanced",
+      "english_meaning": "To spoil someone's happiness or plans.",
+      "gujarati_meaning": "કોઈની ખુશી કે યોજનામાં ભંગ પાડવો; આનંદ બગાડવો.",
+      "examples": [
+        "She was thrilled about her new idea.",
+        "I did not want to rain on her parade.",
+        "So I encouraged her instead of criticising.",
+        "She appreciated my support a lot."
+      ]
+    },
+    {
+      "id": 49,
+      "idiom": "See eye to eye",
+      "category": "Relationships & Social",
+      "difficulty": "Intermediate",
+      "english_meaning": "To agree completely with someone.",
+      "gujarati_meaning": "પૂરી રીતે સહમત હોવું; એકમત હોવું.",
+      "examples": [
+        "The two partners run a business together.",
+        "They do not always see eye to eye.",
+        "But they respect each other's opinions.",
+        "Their differences make the business stronger."
+      ]
+    },
+    {
+      "id": 50,
+      "idiom": "Sit on the fence",
+      "category": "Decisions & Choices",
+      "difficulty": "Intermediate",
+      "english_meaning": "To avoid making a decision or choosing a side.",
+      "gujarati_meaning": "નિર્ણય ન લેવો; બંને બાજુ રહીને કોઈ પક્ષ ન લેવો.",
+      "examples": [
+        "Everyone shared their opinion in the debate.",
+        "But he kept sitting on the fence.",
+        "He refused to support either side.",
+        "Finally we asked him to make a choice."
+      ]
+    },
+    {
+      "id": 51,
+      "idiom": "Steal someone's thunder",
+      "category": "Relationships & Social",
+      "difficulty": "Advanced",
+      "english_meaning": "To take attention or credit away from someone else.",
+      "gujarati_meaning": "કોઈની વાહવાહી કે શ્રેય છીનવી લેવો; કોઈનું ધ્યાન ખેંચી લેવું.",
+      "examples": [
+        "She had prepared the whole presentation.",
+        "But her colleague announced the results first.",
+        "He stole her thunder in front of the boss.",
+        "She felt upset about not getting credit."
+      ]
+    },
+    {
+      "id": 52,
+      "idiom": "Take it with a grain of salt",
+      "category": "General Wisdom",
+      "difficulty": "Advanced",
+      "english_meaning": "To not completely believe something; to be doubtful about it.",
+      "gujarati_meaning": "કોઈ વાત પૂરી રીતે માની ન લેવી; શંકા સાથે સ્વીકારવી.",
+      "examples": [
+        "He often exaggerates his stories.",
+        "So I take whatever he says with a grain of salt.",
+        "I never believe him completely.",
+        "It is wiser to check the facts myself."
+      ]
+    },
+    {
+      "id": 53,
+      "idiom": "The tip of the iceberg",
+      "category": "Difficulties & Problems",
+      "difficulty": "Intermediate",
+      "english_meaning": "A small, visible part of a much larger problem.",
+      "gujarati_meaning": "મોટી સમસ્યાનો માત્ર નાનો દેખાતો ભાગ; હિમશિલાનો છેડો.",
+      "examples": [
+        "The company found a few errors in the report.",
+        "But that was just the tip of the iceberg.",
+        "A deeper check revealed many more mistakes.",
+        "They had to redo the entire audit."
+      ]
+    },
+    {
+      "id": 54,
+      "idiom": "Through thick and thin",
+      "category": "Relationships & Social",
+      "difficulty": "Intermediate",
+      "english_meaning": "To stay loyal and supportive in both good and bad times.",
+      "gujarati_meaning": "સુખ-દુઃખ બંનેમાં સાથ આપવો; દરેક પરિસ્થિતિમાં વફાદાર રહેવું.",
+      "examples": [
+        "My best friend has always supported me.",
+        "She stood by me through thick and thin.",
+        "She helped me during my toughest days.",
+        "Such friends are very rare to find."
+      ]
+    },
+    {
+      "id": 55,
+      "idiom": "Turn a blind eye",
+      "category": "Honesty & Secrets",
+      "difficulty": "Intermediate",
+      "english_meaning": "To deliberately ignore something wrong.",
+      "gujarati_meaning": "જાણીજોઈને કોઈ ખોટી વાત તરફ આંખ આડા કાન કરવા; અવગણના કરવી.",
+      "examples": [
+        "The guard saw the boys breaking the rule.",
+        "But he turned a blind eye to it.",
+        "He did not want any trouble.",
+        "Later the manager scolded him for ignoring it."
+      ]
+    },
+    {
+      "id": 56,
+      "idiom": "Up in the air",
+      "category": "Decisions & Choices",
+      "difficulty": "Beginner",
+      "english_meaning": "Uncertain or not yet decided.",
+      "gujarati_meaning": "અનિશ્ચિત; હજુ નક્કી ન થયેલું.",
+      "examples": [
+        "We wanted to go on a holiday this month.",
+        "But our plans are still up in the air.",
+        "We have not booked anything yet.",
+        "We will decide once everyone is free."
+      ]
+    },
+    {
+      "id": 57,
+      "idiom": "When pigs fly",
+      "category": "Time & Opportunity",
+      "difficulty": "Beginner",
+      "english_meaning": "Something that will never happen.",
+      "gujarati_meaning": "ક્યારેય ન બને એવી વાત; અશક્ય બાબત.",
+      "examples": [
+        "He said he would clean his room daily.",
+        "His sister laughed and said, when pigs fly.",
+        "She knew he would never keep that promise.",
+        "Sure enough, the room stayed messy."
+      ]
+    },
+    {
+      "id": 58,
+      "idiom": "Bite off more than you can chew",
+      "category": "Work & Effort",
+      "difficulty": "Intermediate",
+      "english_meaning": "To take on more work or responsibility than you can handle.",
+      "gujarati_meaning": "પોતાની શક્તિ કરતાં વધારે કામ માથે લેવું; ગજા બહારનું કામ સ્વીકારવું.",
+      "examples": [
+        "He agreed to manage three projects at once.",
+        "Soon he realised he had bitten off more than he could chew.",
+        "He could not meet any of the deadlines.",
+        "He learned to take on less work next time."
+      ]
+    },
+    {
+      "id": 59,
+      "idiom": "Actions speak louder than words",
+      "category": "General Wisdom",
+      "difficulty": "Beginner",
+      "english_meaning": "What you do matters more than what you say.",
+      "gujarati_meaning": "વાતો કરતાં કાર્ય વધુ મહત્ત્વનું હોય છે; બોલવા કરતાં કરી બતાવવું.",
+      "examples": [
+        "He kept promising to help the poor.",
+        "But he never actually did anything.",
+        "Actions speak louder than words.",
+        "People believe deeds, not just speeches."
+      ]
+    },
+    {
+      "id": 60,
+      "idiom": "The early bird catches the worm",
+      "category": "General Wisdom",
+      "difficulty": "Beginner",
+      "english_meaning": "The person who acts first or arrives early gets the best opportunity.",
+      "gujarati_meaning": "વહેલા ઊઠનાર કે પહેલ કરનારને શ્રેષ્ઠ તક મળે છે; વહેલો તે પહેલો.",
+      "examples": [
+        "She reached the sale an hour before opening.",
+        "The early bird catches the worm.",
+        "She grabbed the best items at low prices.",
+        "Others arrived late and found empty shelves."
+      ]
+    },
+    {
+      "id": 61,
+      "idiom": "A dime a dozen",
+      "category": "General Wisdom",
+      "difficulty": "Intermediate",
+      "english_meaning": "Very common and easy to find; not special or valuable.",
+      "gujarati_meaning": "બહુ સામાન્ય અને સહેલાઈથી મળી રહે એવું; કોઈ ખાસ મૂલ્ય વગરનું.",
+      "examples": [
+        "Cheap plastic toys are a dime a dozen these days.",
+        "You can find them in every street shop.",
+        "That is why they cost almost nothing.",
+        "Good quality toys, however, are hard to find."
+      ]
+    },
+    {
+      "id": 62,
+      "idiom": "Barking up the wrong tree",
+      "category": "Difficulties & Problems",
+      "difficulty": "Advanced",
+      "english_meaning": "To pursue a mistaken or misguided course of action.",
+      "gujarati_meaning": "ખોટી દિશામાં પ્રયત્ન કરવો; ખોટા માણસ કે કારણ પાછળ પડવું.",
+      "examples": [
+        "The police suspected the neighbour at first.",
+        "But they were barking up the wrong tree.",
+        "The real thief was someone else entirely.",
+        "They had to restart the whole investigation."
+      ]
+    },
+    {
+      "id": 63,
+      "idiom": "Cut the mustard",
+      "category": "Work & Effort",
+      "difficulty": "Advanced",
+      "english_meaning": "To reach the required standard; to succeed or be good enough.",
+      "gujarati_meaning": "જરૂરી ધોરણ સુધી પહોંચવું; અપેક્ષા પ્રમાણે સફળ થવું.",
+      "examples": [
+        "The new player trained very hard.",
+        "Everyone wondered if he could cut the mustard.",
+        "In the final match, he scored the winning goal.",
+        "He proved that he was good enough."
+      ]
+    },
+    {
+      "id": 64,
+      "idiom": "Hit the road",
+      "category": "Daily Life",
+      "difficulty": "Beginner",
+      "english_meaning": "To leave a place or begin a journey.",
+      "gujarati_meaning": "નીકળી પડવું; પ્રવાસ શરૂ કરવો.",
+      "examples": [
+        "We packed our bags early in the morning.",
+        "It was time to hit the road.",
+        "We had a long drive ahead of us.",
+        "We reached the hills by evening."
+      ]
+    },
+    {
+      "id": 65,
+      "idiom": "Jump on the bandwagon",
+      "category": "Relationships & Social",
+      "difficulty": "Intermediate",
+      "english_meaning": "To join an activity or trend because it has become popular.",
+      "gujarati_meaning": "લોકપ્રિય બની ગયેલા વલણ કે પ્રવૃત્તિમાં જોડાઈ જવું; ભીડ પાછળ ચાલવું.",
+      "examples": [
+        "When the new app became famous, everyone downloaded it.",
+        "Many people jumped on the bandwagon overnight.",
+        "They used it only because others did.",
+        "A few months later, most of them stopped."
+      ]
+    },
+    {
+      "id": 66,
+      "idiom": "Let off steam",
+      "category": "Emotions & Feelings",
+      "difficulty": "Intermediate",
+      "english_meaning": "To release stress, anger, or strong emotion in a harmless way.",
+      "gujarati_meaning": "મનનો ઉભરો કે ગુસ્સો કાઢી નાખવો; તણાવ હળવો કરવો.",
+      "examples": [
+        "After a stressful week, he went for a long run.",
+        "Exercising helped him let off steam.",
+        "He came back feeling calm and fresh.",
+        "Everyone needs a healthy way to relax."
+      ]
+    },
+    {
+      "id": 67,
+      "idiom": "Off the top of my head",
+      "category": "Communication",
+      "difficulty": "Intermediate",
+      "english_meaning": "Saying something from memory, without checking or thinking carefully.",
+      "gujarati_meaning": "વિચાર્યા કે તપાસ્યા વગર સ્મૃતિના આધારે તરત કહેવું.",
+      "examples": [
+        "Someone asked me for the exact figures.",
+        "Off the top of my head, I said around fifty.",
+        "I told them I would confirm the real number later.",
+        "After checking, it was actually fifty-three."
+      ]
+    },
+    {
+      "id": 68,
+      "idiom": "Pull strings",
+      "category": "Relationships & Social",
+      "difficulty": "Advanced",
+      "english_meaning": "To use one's influence or connections to get an advantage.",
+      "gujarati_meaning": "પોતાની ઓળખાણ કે વગનો ઉપયોગ કરીને કામ કઢાવવું.",
+      "examples": [
+        "He got the appointment unusually quickly.",
+        "Clearly someone had pulled a few strings.",
+        "An ordinary person would have waited for weeks.",
+        "Connections often open doors faster."
+      ]
+    },
+    {
+      "id": 69,
+      "idiom": "The last straw",
+      "category": "Difficulties & Problems",
+      "difficulty": "Intermediate",
+      "english_meaning": "The final small problem that makes a situation unbearable.",
+      "gujarati_meaning": "સહનશક્તિ તોડી નાખતી છેલ્લી નાની ઘટના; હદ વટાવી દેતી વાત.",
+      "examples": [
+        "She had tolerated his rudeness for months.",
+        "His insult that day was the last straw.",
+        "She finally decided to quit the job.",
+        "Sometimes one small thing ends a lot of patience."
+      ]
+    },
+    {
+      "id": 70,
+      "idiom": "Throw caution to the wind",
+      "category": "Decisions & Choices",
+      "difficulty": "Advanced",
+      "english_meaning": "To take a big risk and stop worrying about the consequences.",
+      "gujarati_meaning": "પરિણામની ચિંતા છોડીને મોટું જોખમ ઉઠાવવું.",
+      "examples": [
+        "He had always played it safe with money.",
+        "One day he threw caution to the wind.",
+        "He invested his savings in a new idea.",
+        "Luckily, the gamble paid off well."
+      ]
+    },
+    {
+      "id": 71,
+      "idiom": "Bite your tongue",
+      "category": "Communication",
+      "difficulty": "Intermediate",
+      "english_meaning": "To stop yourself from saying something you really want to say.",
+      "gujarati_meaning": "મોઢે આવેલી વાત રોકી લેવી; બોલતાં બોલતાં અટકી જવું.",
+      "examples": [
+        "I strongly disagreed with my boss.",
+        "But I had to bite my tongue in the meeting.",
+        "Saying it openly could have caused trouble.",
+        "I shared my opinion politely afterwards."
+      ]
+    },
+    {
+      "id": 72,
+      "idiom": "By the skin of your teeth",
+      "category": "Difficulties & Problems",
+      "difficulty": "Advanced",
+      "english_meaning": "To succeed or escape by a very narrow margin.",
+      "gujarati_meaning": "માંડ માંડ; ખૂબ થોડા અંતરથી બચી જવું કે સફળ થવું.",
+      "examples": [
+        "I reached the airport very late.",
+        "I caught my flight by the skin of my teeth.",
+        "Another minute and I would have missed it.",
+        "I promised myself never to be late again."
+      ]
+    },
+    {
+      "id": 73,
+      "idiom": "Cost a pretty penny",
+      "category": "Money & Finance",
+      "difficulty": "Intermediate",
+      "english_meaning": "To be very expensive.",
+      "gujarati_meaning": "ઘણું મોંઘું પડવું; મોટી રકમ ખર્ચાવી.",
+      "examples": [
+        "The wedding decorations looked stunning.",
+        "But they must have cost a pretty penny.",
+        "The family had saved for years for this day.",
+        "Everyone agreed it was worth the money."
+      ]
+    },
+    {
+      "id": 74,
+      "idiom": "Get a taste of your own medicine",
+      "category": "General Wisdom",
+      "difficulty": "Advanced",
+      "english_meaning": "To receive the same bad treatment that you gave to others.",
+      "gujarati_meaning": "જેવું વર્તન બીજા સાથે કર્યું હોય તેવું જ વર્તન પોતાને ભોગવવું પડે; જેવા સાથે તેવા.",
+      "examples": [
+        "He always teased his classmates unkindly.",
+        "One day they all teased him back together.",
+        "He finally got a taste of his own medicine.",
+        "After that, he became more considerate."
+      ]
+    },
+    {
+      "id": 75,
+      "idiom": "Hit the books",
+      "category": "Work & Effort",
+      "difficulty": "Beginner",
+      "english_meaning": "To begin studying seriously.",
+      "gujarati_meaning": "મન લગાવીને ભણવા બેસવું; ચોપડીઓ ખોલવી.",
+      "examples": [
+        "The final exams were getting closer.",
+        "It was time to hit the books.",
+        "I made a timetable and studied daily.",
+        "My efforts showed in the results."
+      ]
+    },
+    {
+      "id": 76,
+      "idiom": "In hot water",
+      "category": "Difficulties & Problems",
+      "difficulty": "Intermediate",
+      "english_meaning": "In trouble or a difficult situation because of something you did.",
+      "gujarati_meaning": "મુશ્કેલીમાં મુકાવું; આફતમાં ફસાવું.",
+      "examples": [
+        "He forgot to submit the important report.",
+        "Now he was in hot water with his manager.",
+        "He had to explain the delay seriously.",
+        "He stayed late to fix the mistake."
+      ]
+    },
+    {
+      "id": 77,
+      "idiom": "Keep your chin up",
+      "category": "Emotions & Feelings",
+      "difficulty": "Beginner",
+      "english_meaning": "To stay cheerful and hopeful during a difficult time.",
+      "gujarati_meaning": "મુશ્કેલીમાં હિંમત રાખવી; હસતા રહેવું.",
+      "examples": [
+        "She was upset after failing the interview.",
+        "Her friend told her to keep her chin up.",
+        "Better opportunities were surely waiting.",
+        "She smiled and started preparing again."
+      ]
+    },
+    {
+      "id": 78,
+      "idiom": "Let the dust settle",
+      "category": "General Wisdom",
+      "difficulty": "Advanced",
+      "english_meaning": "To wait for a situation to become calm before acting.",
+      "gujarati_meaning": "પરિસ્થિતિ શાંત થાય ત્યાં સુધી રાહ જોવી; ધૂળ બેસવા દેવી.",
+      "examples": [
+        "There was a big argument in the office.",
+        "We decided to let the dust settle first.",
+        "After a few days, everyone was calmer.",
+        "Then we discussed the matter peacefully."
+      ]
+    },
+    {
+      "id": 79,
+      "idiom": "On cloud nine",
+      "category": "Emotions & Feelings",
+      "difficulty": "Beginner",
+      "english_meaning": "Extremely happy and joyful.",
+      "gujarati_meaning": "ખૂબ જ ખુશ; આનંદથી ઝૂમી ઊઠવું.",
+      "examples": [
+        "She received the job offer of her dreams.",
+        "She was on cloud nine all day.",
+        "She called everyone to share the news.",
+        "Her happiness was clear on her face."
+      ]
+    },
+    {
+      "id": 80,
+      "idiom": "Pay through the nose",
+      "category": "Money & Finance",
+      "difficulty": "Advanced",
+      "english_meaning": "To pay much more than something is worth.",
+      "gujarati_meaning": "કોઈ વસ્તુ માટે ભારે કિંમત ચૂકવવી; ગજા બહારની કિંમત આપવી.",
+      "examples": [
+        "The hotel during the festival was costly.",
+        "We had to pay through the nose for one night.",
+        "Prices doubled because of the crowd.",
+        "Next time we will book well in advance."
+      ]
+    },
+    {
+      "id": 81,
+      "idiom": "The whole nine yards",
+      "category": "General Wisdom",
+      "difficulty": "Advanced",
+      "english_meaning": "Everything that is possible or available; the full extent.",
+      "gujarati_meaning": "બધું જ; પૂરેપૂરું, કંઈ બાકી રાખ્યા વગર.",
+      "examples": [
+        "For her birthday, they planned everything.",
+        "Balloons, cake, music, gifts, the whole nine yards.",
+        "No detail was left out.",
+        "It turned out to be a grand celebration."
+      ]
+    },
+    {
+      "id": 82,
+      "idiom": "A penny for your thoughts",
+      "category": "Communication",
+      "difficulty": "Intermediate",
+      "english_meaning": "A way of asking what someone is quietly thinking about.",
+      "gujarati_meaning": "તું શું વિચારે છે એમ પ્રેમથી પૂછવાની રીત.",
+      "examples": [
+        "She sat by the window looking lost.",
+        "A penny for your thoughts, I asked gently.",
+        "She smiled and shared what was on her mind.",
+        "Sometimes people just need to talk."
+      ]
+    },
+    {
+      "id": 83,
+      "idiom": "Burn the candle at both ends",
+      "category": "Work & Effort",
+      "difficulty": "Advanced",
+      "english_meaning": "To exhaust yourself by being busy from early morning till late night.",
+      "gujarati_meaning": "આરામ વગર સવારથી રાત સુધી મહેનત કરીને થાકી જવું.",
+      "examples": [
+        "He worked all day and studied all night.",
+        "He was burning the candle at both ends.",
+        "Soon his health began to suffer.",
+        "He learned that rest is also important."
+      ]
+    },
+    {
+      "id": 84,
+      "idiom": "Cry wolf",
+      "category": "Honesty & Secrets",
+      "difficulty": "Intermediate",
+      "english_meaning": "To raise a false alarm so often that people stop believing you.",
+      "gujarati_meaning": "વારંવાર ખોટી ભડક ઊભી કરવી; એમ કે પછી સાચું કહો તોય કોઈ માને નહિ.",
+      "examples": [
+        "The boy joked about danger many times.",
+        "He had cried wolf too often.",
+        "When real trouble came, no one believed him.",
+        "False alarms destroy your credibility."
+      ]
+    },
+    {
+      "id": 85,
+      "idiom": "Get the ball rolling",
+      "category": "Work & Effort",
+      "difficulty": "Intermediate",
+      "english_meaning": "To start an activity or process.",
+      "gujarati_meaning": "કોઈ કામ કે પ્રક્રિયાની શરૂઆત કરવી.",
+      "examples": [
+        "The project had been delayed for too long.",
+        "We finally decided to get the ball rolling.",
+        "The first task was assigned to the team.",
+        "Once started, the work moved quickly."
+      ]
+    },
+    {
+      "id": 86,
+      "idiom": "Hold your horses",
+      "category": "Communication",
+      "difficulty": "Beginner",
+      "english_meaning": "To wait, slow down, or be more patient.",
+      "gujarati_meaning": "જરા થોભો; ઉતાવળ ન કરો.",
+      "examples": [
+        "He wanted to buy the car immediately.",
+        "Hold your horses, his father said.",
+        "They first checked the engine carefully.",
+        "Patience saved them from a bad deal."
+      ]
+    },
+    {
+      "id": 87,
+      "idiom": "Jump the gun",
+      "category": "Decisions & Choices",
+      "difficulty": "Intermediate",
+      "english_meaning": "To act too soon, before the right time.",
+      "gujarati_meaning": "સમય પહેલાં ઉતાવળે પગલું લેવું.",
+      "examples": [
+        "She announced the results before confirming them.",
+        "She had jumped the gun.",
+        "Later the figures turned out to be wrong.",
+        "It is better to wait for certainty."
+      ]
+    },
+    {
+      "id": 88,
+      "idiom": "Keep something at bay",
+      "category": "Difficulties & Problems",
+      "difficulty": "Advanced",
+      "english_meaning": "To prevent something unpleasant from coming too close.",
+      "gujarati_meaning": "કોઈ ખરાબ વસ્તુને દૂર રાખવી; નજીક આવવા ન દેવી.",
+      "examples": [
+        "A healthy diet helps keep illness at bay.",
+        "He ate well and exercised daily.",
+        "This kept many diseases at bay.",
+        "Prevention is always better than cure."
+      ]
+    },
+    {
+      "id": 89,
+      "idiom": "Like two peas in a pod",
+      "category": "Relationships & Social",
+      "difficulty": "Beginner",
+      "english_meaning": "Two people who are very similar or always together.",
+      "gujarati_meaning": "એકબીજાને ખૂબ મળતા આવતા કે હંમેશા સાથે રહેતા બે જણ.",
+      "examples": [
+        "The twin sisters do everything together.",
+        "They are like two peas in a pod.",
+        "They even dress in the same style.",
+        "It is hard to tell them apart."
+      ]
+    },
+    {
+      "id": 90,
+      "idiom": "Out of the frying pan into the fire",
+      "category": "Difficulties & Problems",
+      "difficulty": "Advanced",
+      "english_meaning": "To go from a bad situation to an even worse one.",
+      "gujarati_meaning": "એક મુશ્કેલીમાંથી નીકળીને બીજી મોટી મુશ્કેલીમાં પડવું.",
+      "examples": [
+        "He quit his stressful job in a hurry.",
+        "His new job was far more stressful.",
+        "He had jumped out of the frying pan into the fire.",
+        "He wished he had thought it through."
+      ]
+    },
+    {
+      "id": 91,
+      "idiom": "Put all your eggs in one basket",
+      "category": "Decisions & Choices",
+      "difficulty": "Intermediate",
+      "english_meaning": "To risk everything on a single plan or option.",
+      "gujarati_meaning": "બધું જોખમ એક જ જગ્યાએ લગાવી દેવું; બધા ઈંડા એક જ ટોપલીમાં મૂકવા.",
+      "examples": [
+        "He invested all his money in one company.",
+        "He had put all his eggs in one basket.",
+        "When the company failed, he lost everything.",
+        "Spreading risk is always wiser."
+      ]
+    },
+    {
+      "id": 92,
+      "idiom": "Read between the lines",
+      "category": "Communication",
+      "difficulty": "Advanced",
+      "english_meaning": "To understand a hidden or unstated meaning.",
+      "gujarati_meaning": "શબ્દોની પાછળનો છૂપો અર્થ સમજવો; બે લીટી વચ્ચેનું વાંચવું.",
+      "examples": [
+        "Her message sounded polite on the surface.",
+        "But if you read between the lines, she was upset.",
+        "I understood that she needed support.",
+        "I called her right away to talk."
+      ]
+    },
+    {
+      "id": 93,
+      "idiom": "Sell like hot cakes",
+      "category": "Money & Finance",
+      "difficulty": "Beginner",
+      "english_meaning": "To sell very quickly and in large numbers.",
+      "gujarati_meaning": "ધડાધડ વેચાઈ જવું; ખૂબ ઝડપથી વેચાવું.",
+      "examples": [
+        "The new phone was launched yesterday.",
+        "It is selling like hot cakes.",
+        "Most stores are already out of stock.",
+        "People are pre-booking the next batch."
+      ]
+    },
+    {
+      "id": 94,
+      "idiom": "Take the bull by the horns",
+      "category": "Difficulties & Problems",
+      "difficulty": "Advanced",
+      "english_meaning": "To deal with a difficult situation bravely and directly.",
+      "gujarati_meaning": "મુશ્કેલીનો હિંમતપૂર્વક અને સીધો સામનો કરવો.",
+      "examples": [
+        "The company was facing serious losses.",
+        "The new manager took the bull by the horns.",
+        "She made bold decisions to fix the problems.",
+        "Within a year, the company recovered."
+      ]
+    },
+    {
+      "id": 95,
+      "idiom": "The grass is always greener on the other side",
+      "category": "General Wisdom",
+      "difficulty": "Intermediate",
+      "english_meaning": "Other people's situations always seem better than your own.",
+      "gujarati_meaning": "બીજાની પરિસ્થિતિ હંમેશા સારી લાગે છે; પારકી થાળીમાં ઘી વધારે દેખાય.",
+      "examples": [
+        "He always envied his friend's job.",
+        "But the grass is always greener on the other side.",
+        "His friend actually had many problems too.",
+        "He learned to value what he had."
+      ]
+    },
+    {
+      "id": 96,
+      "idiom": "Under your nose",
+      "category": "General Wisdom",
+      "difficulty": "Intermediate",
+      "english_meaning": "Something right in front of you that you fail to notice.",
+      "gujarati_meaning": "નજર સામે હોવા છતાં ધ્યાનમાં ન આવવું.",
+      "examples": [
+        "I searched everywhere for my keys.",
+        "They were right under my nose on the table.",
+        "I had simply overlooked them.",
+        "We often miss what is closest to us."
+      ]
+    },
+    {
+      "id": 97,
+      "idiom": "A bird in the hand is worth two in the bush",
+      "category": "General Wisdom",
+      "difficulty": "Advanced",
+      "english_meaning": "It is better to keep what you have than to risk it for more.",
+      "gujarati_meaning": "હાથમાંનું એક પંખી ઝાડ પરના બેથી સારું; જે છે તે જાળવવું વધુ સારું.",
+      "examples": [
+        "He was offered a safe, steady salary.",
+        "Another company promised more but was uncertain.",
+        "A bird in the hand is worth two in the bush.",
+        "He wisely kept the secure job."
+      ]
+    },
+    {
+      "id": 98,
+      "idiom": "Beat the clock",
+      "category": "Time & Opportunity",
+      "difficulty": "Intermediate",
+      "english_meaning": "To finish something before the time runs out.",
+      "gujarati_meaning": "સમય પૂરો થાય તે પહેલાં કામ પતાવી દેવું.",
+      "examples": [
+        "We had only an hour to submit the form.",
+        "We rushed to beat the clock.",
+        "We uploaded it just in time.",
+        "It was a close but successful finish."
+      ]
+    },
+    {
+      "id": 99,
+      "idiom": "Bury the hatchet",
+      "category": "Relationships & Social",
+      "difficulty": "Intermediate",
+      "english_meaning": "To end a quarrel and make peace.",
+      "gujarati_meaning": "ઝઘડો ભૂલીને સમાધાન કરી લેવું; દુશ્મની ખતમ કરવી.",
+      "examples": [
+        "The two brothers had not spoken for years.",
+        "Their mother urged them to bury the hatchet.",
+        "They finally forgave each other.",
+        "The family was happy and united again."
+      ]
+    },
+    {
+      "id": 100,
+      "idiom": "Caught red-handed",
+      "category": "Honesty & Secrets",
+      "difficulty": "Beginner",
+      "english_meaning": "To be caught in the act of doing something wrong.",
+      "gujarati_meaning": "ખોટું કામ કરતાં રંગે હાથ પકડાઈ જવું.",
+      "examples": [
+        "The boy was taking sweets without asking.",
+        "His mother caught him red-handed.",
+        "He could not deny it at all.",
+        "He apologised and promised to ask next time."
+      ]
+    },
+    {
+      "id": 101,
+      "idiom": "Don't count your chickens before they hatch",
+      "category": "General Wisdom",
+      "difficulty": "Intermediate",
+      "english_meaning": "Do not assume success before it actually happens.",
+      "gujarati_meaning": "પરિણામ આવ્યા પહેલાં સફળતા માની ન લેવી; ઈંડા સેવાય તે પહેલાં મરઘી ગણવી નહિ.",
+      "examples": [
+        "He started spending the prize money in his mind.",
+        "But he had not even won yet.",
+        "Don't count your chickens before they hatch.",
+        "In the end, someone else won the prize."
+      ]
+    },
+    {
+      "id": 102,
+      "idiom": "Easier said than done",
+      "category": "General Wisdom",
+      "difficulty": "Beginner",
+      "english_meaning": "Something that is easy to suggest but hard to actually do.",
+      "gujarati_meaning": "કહેવું સહેલું પણ કરવું અઘરું.",
+      "examples": [
+        "Everyone told me to quit my bad habit.",
+        "But that is easier said than done.",
+        "Breaking an old habit takes real effort.",
+        "Slowly, with discipline, I managed it."
+      ]
+    },
+    {
+      "id": 103,
+      "idiom": "Fish out of water",
+      "category": "Emotions & Feelings",
+      "difficulty": "Intermediate",
+      "english_meaning": "To feel uncomfortable in an unfamiliar situation.",
+      "gujarati_meaning": "અજાણ્યા વાતાવરણમાં અસહજ લાગવું; પાણી બહારની માછલી જેવું.",
+      "examples": [
+        "At the formal party, he knew no one.",
+        "He felt like a fish out of water.",
+        "He did not know how to behave there.",
+        "Soon a kind guest helped him settle in."
+      ]
+    },
+    {
+      "id": 104,
+      "idiom": "Go down in flames",
+      "category": "Difficulties & Problems",
+      "difficulty": "Advanced",
+      "english_meaning": "To fail suddenly and completely.",
+      "gujarati_meaning": "સંપૂર્ણપણે અને ભારે રીતે નિષ્ફળ જવું.",
+      "examples": [
+        "The poorly planned event went down in flames.",
+        "Nothing happened the way it was supposed to.",
+        "The organisers were deeply embarrassed.",
+        "They promised to plan better next time."
+      ]
+    },
+    {
+      "id": 105,
+      "idiom": "Have a heart of gold",
+      "category": "Relationships & Social",
+      "difficulty": "Beginner",
+      "english_meaning": "To be extremely kind and generous.",
+      "gujarati_meaning": "ખૂબ દયાળુ અને ઉદાર સ્વભાવ હોવો; સોના જેવું હૃદય.",
+      "examples": [
+        "She always helps anyone in need.",
+        "She truly has a heart of gold.",
+        "She often donates to the poor quietly.",
+        "Everyone in the town loves her."
+      ]
+    },
+    {
+      "id": 106,
+      "idiom": "Keep your fingers crossed",
+      "category": "Emotions & Feelings",
+      "difficulty": "Beginner",
+      "english_meaning": "To hope strongly that something good will happen.",
+      "gujarati_meaning": "સારું થાય એવી આશા રાખવી; શુભ થવાની દુઆ કરવી.",
+      "examples": [
+        "My results are coming out tomorrow.",
+        "I am keeping my fingers crossed.",
+        "I have worked hard all year.",
+        "I just hope everything goes well."
+      ]
+    },
+    {
+      "id": 107,
+      "idiom": "Make a long story short",
+      "category": "Communication",
+      "difficulty": "Beginner",
+      "english_meaning": "To tell something briefly, leaving out the details.",
+      "gujarati_meaning": "ટૂંકમાં વાત કહેવી; લાંબી વાતનો સાર કહેવો.",
+      "examples": [
+        "He started narrating the whole incident.",
+        "To make a long story short, the car broke down.",
+        "We had to wait for two hours for help.",
+        "Finally we reached home safely."
+      ]
+    },
+    {
+      "id": 108,
+      "idiom": "Once bitten, twice shy",
+      "category": "General Wisdom",
+      "difficulty": "Advanced",
+      "english_meaning": "After a bad experience, one becomes very cautious next time.",
+      "gujarati_meaning": "એક વાર દઝાયા પછી માણસ બમણો સાવધ થઈ જાય છે; દૂધનો દાઝ્યો છાશ ફૂંકીને પીએ.",
+      "examples": [
+        "He once lost money in a fake scheme.",
+        "Now he checks everything twice before investing.",
+        "Once bitten, twice shy.",
+        "His caution protects him now."
+      ]
+    },
+    {
+      "id": 109,
+      "idiom": "Practice makes perfect",
+      "category": "General Wisdom",
+      "difficulty": "Beginner",
+      "english_meaning": "Regular practice leads to mastery and improvement.",
+      "gujarati_meaning": "સતત અભ્યાસથી માણસ નિપુણ બને છે; મહાવરો માણસને પૂર્ણ બનાવે છે.",
+      "examples": [
+        "At first she played the piano badly.",
+        "But she practised a little every day.",
+        "Practice makes perfect, after all.",
+        "Now she plays beautifully."
+      ]
+    },
+    {
+      "id": 110,
+      "idiom": "Put your foot in your mouth",
+      "category": "Communication",
+      "difficulty": "Advanced",
+      "english_meaning": "To say something embarrassing or tactless by mistake.",
+      "gujarati_meaning": "ભૂલથી અણઘટતું કે શરમજનક બોલી નાખવું.",
+      "examples": [
+        "He asked about her job without knowing she was fired.",
+        "He really put his foot in his mouth.",
+        "The room went awkwardly silent.",
+        "He quickly apologised for his mistake."
+      ]
+    },
+    {
+      "id": 111,
+      "idiom": "The apple of someone's eye",
+      "category": "Relationships & Social",
+      "difficulty": "Beginner",
+      "english_meaning": "A person who is loved and cherished above all others.",
+      "gujarati_meaning": "આંખનો તારો; સૌથી વ્હાલું વ્યક્તિ.",
+      "examples": [
+        "His little daughter is the apple of his eye.",
+        "He spends every free moment with her.",
+        "He cannot bear to see her sad.",
+        "She means the whole world to him."
+      ]
+    },
+    {
+      "id": 112,
+      "idiom": "A storm in a teacup",
+      "category": "Difficulties & Problems",
+      "difficulty": "Advanced",
+      "english_meaning": "A lot of unnecessary anger or worry about a very small matter.",
+      "gujarati_meaning": "નાની વાતનું મોટું તોફાન; વાતનું વતેસર કરવું.",
+      "examples": [
+        "The neighbours argued over a parked bicycle.",
+        "It was really a storm in a teacup.",
+        "By evening they had both forgotten about it.",
+        "Such small fights rarely matter."
+      ]
+    },
+    {
+      "id": 113,
+      "idiom": "Add insult to injury",
+      "category": "Difficulties & Problems",
+      "difficulty": "Advanced",
+      "english_meaning": "To make a bad situation even worse by doing something more hurtful.",
+      "gujarati_meaning": "ઘા પર મીઠું ભભરાવવું; દુઃખમાં ઓર વધારો કરવો.",
+      "examples": [
+        "He missed the bus and got drenched in the rain.",
+        "To add insult to injury, he had forgotten his wallet.",
+        "Nothing seemed to go right that day.",
+        "He just laughed at his own bad luck."
+      ]
+    },
+    {
+      "id": 114,
+      "idiom": "At the drop of a hat",
+      "category": "Time & Opportunity",
+      "difficulty": "Intermediate",
+      "english_meaning": "Immediately and without any hesitation.",
+      "gujarati_meaning": "તરત જ, વગર વિચાર્યે; પળભરમાં.",
+      "examples": [
+        "She loves travelling so much.",
+        "She will pack her bags at the drop of a hat.",
+        "Just one phone call and she is ready to go.",
+        "Her spontaneity makes trips exciting."
+      ]
+    },
+    {
+      "id": 115,
+      "idiom": "Beggars can't be choosers",
+      "category": "General Wisdom",
+      "difficulty": "Advanced",
+      "english_meaning": "When you are in need, you must accept whatever help you get.",
+      "gujarati_meaning": "જરૂરિયાતમંદ માણસ પસંદગી ન કરી શકે; જે મળે તે સ્વીકારવું પડે.",
+      "examples": [
+        "The shelter offered him an old but warm coat.",
+        "It was not his favourite colour.",
+        "But beggars can't be choosers.",
+        "He gratefully accepted the warm gift."
+      ]
+    },
+    {
+      "id": 116,
+      "idiom": "Bite the dust",
+      "category": "Difficulties & Problems",
+      "difficulty": "Advanced",
+      "english_meaning": "To fail, come to an end, or be defeated.",
+      "gujarati_meaning": "નિષ્ફળ જવું કે ખતમ થઈ જવું; ધૂળ ચાટવી.",
+      "examples": [
+        "The old computer finally bit the dust.",
+        "It would not switch on at all.",
+        "We had to buy a new one quickly.",
+        "Everything has its lifespan."
+      ]
+    },
+    {
+      "id": 117,
+      "idiom": "Blow your own trumpet",
+      "category": "Communication",
+      "difficulty": "Intermediate",
+      "english_meaning": "To boast or talk proudly about your own achievements.",
+      "gujarati_meaning": "પોતાનાં વખાણ પોતે કરવાં; બડાઈ હાંકવી.",
+      "examples": [
+        "He kept telling everyone how talented he was.",
+        "He loved to blow his own trumpet.",
+        "People soon got tired of his bragging.",
+        "True talent rarely needs advertising."
+      ]
+    },
+    {
+      "id": 118,
+      "idiom": "Break a leg",
+      "category": "Daily Life",
+      "difficulty": "Beginner",
+      "english_meaning": "A way of wishing someone good luck, especially before a performance.",
+      "gujarati_meaning": "શુભેચ્છા; સફળ થાઓ (ખાસ કરીને કોઈ પ્રદર્શન પહેલાં).",
+      "examples": [
+        "She was about to go on stage to sing.",
+        "Her friends told her to break a leg.",
+        "She smiled and felt more confident.",
+        "Her performance received loud applause."
+      ]
+    },
+    {
+      "id": 119,
+      "idiom": "A chip on your shoulder",
+      "category": "Emotions & Feelings",
+      "difficulty": "Advanced",
+      "english_meaning": "To hold a lasting grudge or feel resentful about something.",
+      "gujarati_meaning": "મનમાં કડવાશ કે રોષ રાખવો; દ્વેષ સંઘરી રાખવો.",
+      "examples": [
+        "He never got the praise he felt he deserved.",
+        "Since then he has had a chip on his shoulder.",
+        "He often speaks bitterly about the past.",
+        "Letting go would make him much happier."
+      ]
+    },
+    {
+      "id": 120,
+      "idiom": "Give the cold shoulder",
+      "category": "Relationships & Social",
+      "difficulty": "Intermediate",
+      "english_meaning": "To deliberately ignore someone or be unfriendly towards them.",
+      "gujarati_meaning": "જાણીજોઈને કોઈની અવગણના કરવી; ઠંડો વ્યવહાર કરવો.",
+      "examples": [
+        "After their argument, she gave him the cold shoulder.",
+        "She would not even look in his direction.",
+        "He realised he had hurt her feelings.",
+        "He apologised, and slowly things improved."
+      ]
+    },
+    {
+      "id": 121,
+      "idiom": "Curiosity killed the cat",
+      "category": "General Wisdom",
+      "difficulty": "Intermediate",
+      "english_meaning": "Being too inquisitive about others' affairs can lead to trouble.",
+      "gujarati_meaning": "વધારે પડતી જિજ્ઞાસા મુશ્કેલી નોતરે છે.",
+      "examples": [
+        "The boy kept opening the locked cupboard.",
+        "His mother warned that curiosity killed the cat.",
+        "Inside was a surprise gift he ruined early.",
+        "He learned to be patient after that."
+      ]
+    },
+    {
+      "id": 122,
+      "idiom": "Cut someone some slack",
+      "category": "Relationships & Social",
+      "difficulty": "Intermediate",
+      "english_meaning": "To be less strict or critical with someone.",
+      "gujarati_meaning": "કોઈ પ્રત્યે થોડી નરમાશ રાખવી; છૂટ આપવી.",
+      "examples": [
+        "The new employee made a small mistake.",
+        "The manager decided to cut him some slack.",
+        "He was still learning the job, after all.",
+        "A little patience helped him improve."
+      ]
+    },
+    {
+      "id": 123,
+      "idiom": "Play devil's advocate",
+      "category": "Communication",
+      "difficulty": "Advanced",
+      "english_meaning": "To argue the opposite side just to encourage discussion or test an idea.",
+      "gujarati_meaning": "ચર્ચા જગાવવા માટે જાણીજોઈને સામો પક્ષ રજૂ કરવો.",
+      "examples": [
+        "Everyone agreed the plan was perfect.",
+        "I decided to play devil's advocate.",
+        "I pointed out the risks no one had considered.",
+        "It led to a much stronger final plan."
+      ]
+    },
+    {
+      "id": 124,
+      "idiom": "Down the drain",
+      "category": "Money & Finance",
+      "difficulty": "Intermediate",
+      "english_meaning": "Wasted or lost completely.",
+      "gujarati_meaning": "પાણીમાં જવું; નકામું વેડફાઈ જવું.",
+      "examples": [
+        "He spent months on the project.",
+        "When it was cancelled, all his effort went down the drain.",
+        "He felt disappointed for a while.",
+        "But he used the lessons in his next work."
+      ]
+    },
+    {
+      "id": 125,
+      "idiom": "Draw the line",
+      "category": "Decisions & Choices",
+      "difficulty": "Intermediate",
+      "english_meaning": "To set a limit on what you are willing to accept or do.",
+      "gujarati_meaning": "મર્યાદા નક્કી કરવી; હદ બાંધવી.",
+      "examples": [
+        "She helped her friends with money many times.",
+        "But she had to draw the line somewhere.",
+        "She politely refused to lend any more.",
+        "Setting limits kept her friendships healthy."
+      ]
+    },
+    {
+      "id": 126,
+      "idiom": "Easy come, easy go",
+      "category": "General Wisdom",
+      "difficulty": "Beginner",
+      "english_meaning": "Things obtained easily are also lost easily, so don't worry too much.",
+      "gujarati_meaning": "સહેલાઈથી આવેલું સહેલાઈથી જાય છે.",
+      "examples": [
+        "He won some money in a small contest.",
+        "He spent it all the very next day.",
+        "Easy come, easy go, he shrugged.",
+        "He did not regret it at all."
+      ]
+    },
+    {
+      "id": 127,
+      "idiom": "Get something off your chest",
+      "category": "Emotions & Feelings",
+      "difficulty": "Intermediate",
+      "english_meaning": "To share a worry or confession to feel relieved.",
+      "gujarati_meaning": "મનનો ભાર હળવો કરવો; દિલની વાત કહી દેવી.",
+      "examples": [
+        "She had been hiding her worries for weeks.",
+        "Finally she got it off her chest.",
+        "She told her sister everything.",
+        "She felt much lighter afterwards."
+      ]
+    },
+    {
+      "id": 128,
+      "idiom": "Go with the flow",
+      "category": "General Wisdom",
+      "difficulty": "Beginner",
+      "english_meaning": "To relax and accept a situation as it happens, instead of resisting it.",
+      "gujarati_meaning": "પરિસ્થિતિ પ્રમાણે શાંતિથી ચાલવું; પ્રવાહ સાથે વહેવું.",
+      "examples": [
+        "Our travel plans changed at the last minute.",
+        "Instead of worrying, we decided to go with the flow.",
+        "We ended up discovering a beautiful new place.",
+        "Sometimes flexibility brings happy surprises."
+      ]
+    },
+    {
+      "id": 129,
+      "idiom": "Hands are tied",
+      "category": "Difficulties & Problems",
+      "difficulty": "Intermediate",
+      "english_meaning": "To be unable to help or act because of rules or circumstances.",
+      "gujarati_meaning": "મજબૂરીને કારણે કંઈ ન કરી શકવું; હાથ બંધાયેલા હોવા.",
+      "examples": [
+        "I wanted to approve his leave request.",
+        "But company rules left my hands tied.",
+        "I explained the policy to him honestly.",
+        "He understood it was beyond my control."
+      ]
+    },
+    {
+      "id": 130,
+      "idiom": "Have a lot on your plate",
+      "category": "Work & Effort",
+      "difficulty": "Intermediate",
+      "english_meaning": "To have a great deal of work or many responsibilities to deal with.",
+      "gujarati_meaning": "માથે ઘણું કામ હોવું; ઘણી જવાબદારીઓ હોવી.",
+      "examples": [
+        "She is managing two projects and a new baby.",
+        "She really has a lot on her plate.",
+        "Her family helps her whenever they can.",
+        "She handles it all with a smile."
+      ]
+    },
+    {
+      "id": 131,
+      "idiom": "Hit rock bottom",
+      "category": "Difficulties & Problems",
+      "difficulty": "Advanced",
+      "english_meaning": "To reach the lowest possible point in a difficult situation.",
+      "gujarati_meaning": "તળિયે પહોંચી જવું; સૌથી ખરાબ સ્થિતિએ આવવું.",
+      "examples": [
+        "After losing his job and savings, he hit rock bottom.",
+        "He felt there was no way forward.",
+        "But that low point became a fresh start.",
+        "Slowly he rebuilt his life step by step."
+      ]
+    },
+    {
+      "id": 132,
+      "idiom": "Hold the fort",
+      "category": "Work & Effort",
+      "difficulty": "Intermediate",
+      "english_meaning": "To take care of things while someone is away.",
+      "gujarati_meaning": "કોઈની ગેરહાજરીમાં કામકાજ સંભાળી લેવું.",
+      "examples": [
+        "The manager had to leave for an emergency.",
+        "He asked me to hold the fort.",
+        "I handled all the customers calmly.",
+        "Everything ran smoothly until he returned."
+      ]
+    },
+    {
+      "id": 133,
+      "idiom": "In a nutshell",
+      "category": "Communication",
+      "difficulty": "Beginner",
+      "english_meaning": "In a very brief and simple way; summarised.",
+      "gujarati_meaning": "ટૂંકમાં; સારરૂપે.",
+      "examples": [
+        "The report was long and detailed.",
+        "In a nutshell, the company made a good profit.",
+        "That was the main point everyone needed.",
+        "A short summary saved a lot of time."
+      ]
+    },
+    {
+      "id": 134,
+      "idiom": "It takes two to tango",
+      "category": "General Wisdom",
+      "difficulty": "Advanced",
+      "english_meaning": "Both people involved in a situation share the responsibility.",
+      "gujarati_meaning": "ઝઘડામાં બંને પક્ષ જવાબદાર હોય છે; તાળી એક હાથે ન પડે.",
+      "examples": [
+        "He blamed his partner for the failed deal.",
+        "But it takes two to tango.",
+        "Both of them had made mistakes.",
+        "They shared the responsibility equally."
+      ]
+    },
+    {
+      "id": 135,
+      "idiom": "Jump for joy",
+      "category": "Emotions & Feelings",
+      "difficulty": "Beginner",
+      "english_meaning": "To be extremely happy and excited.",
+      "gujarati_meaning": "ખુશીથી ઊછળી પડવું; ખૂબ આનંદિત થવું.",
+      "examples": [
+        "The children jumped for joy at the news.",
+        "Their summer holidays had finally begun.",
+        "They started planning fun activities at once.",
+        "The whole house was full of laughter."
+      ]
+    },
+    {
+      "id": 136,
+      "idiom": "Keep your word",
+      "category": "Honesty & Secrets",
+      "difficulty": "Beginner",
+      "english_meaning": "To do what you promised to do.",
+      "gujarati_meaning": "આપેલું વચન પાળવું.",
+      "examples": [
+        "He promised to return the book on time.",
+        "He always keeps his word.",
+        "He returned it exactly as promised.",
+        "People trust him because of this habit."
+      ]
+    },
+    {
+      "id": 137,
+      "idiom": "Kick the bucket",
+      "category": "Daily Life",
+      "difficulty": "Advanced",
+      "english_meaning": "An informal and humorous way to say someone has died.",
+      "gujarati_meaning": "મૃત્યુ પામવું (અનૌપચારિક); ઊકલી જવું.",
+      "examples": [
+        "The old film was about a man's last wish.",
+        "He wanted to travel before he kicked the bucket.",
+        "So he set off on one final adventure.",
+        "The story was both funny and touching."
+      ]
+    },
+    {
+      "id": 138,
+      "idiom": "Learn the ropes",
+      "category": "Work & Effort",
+      "difficulty": "Intermediate",
+      "english_meaning": "To learn how to do a particular job or task.",
+      "gujarati_meaning": "કોઈ કામની આંટીઘૂંટી શીખવી; કામ શીખી લેવું.",
+      "examples": [
+        "On her first week, everything felt confusing.",
+        "Her seniors helped her learn the ropes.",
+        "Within a month she worked confidently.",
+        "Now she trains new joiners herself."
+      ]
+    },
+    {
+      "id": 139,
+      "idiom": "Lend a hand",
+      "category": "Relationships & Social",
+      "difficulty": "Beginner",
+      "english_meaning": "To help someone with something.",
+      "gujarati_meaning": "મદદ કરવી; હાથ બટાવવો.",
+      "examples": [
+        "The family was shifting to a new house.",
+        "The neighbours came to lend a hand.",
+        "Together they finished the work quickly.",
+        "Kindness makes hard tasks easier."
+      ]
+    },
+    {
+      "id": 140,
+      "idiom": "Look before you leap",
+      "category": "General Wisdom",
+      "difficulty": "Beginner",
+      "english_meaning": "Think carefully about the risks before you act.",
+      "gujarati_meaning": "પગલું ભરતાં પહેલાં વિચારવું; આગળ-પાછળનો વિચાર કરવો.",
+      "examples": [
+        "He almost signed the deal in a hurry.",
+        "His friend reminded him to look before he leaped.",
+        "He read the terms carefully first.",
+        "He avoided a costly mistake that way."
+      ]
+    },
+    {
+      "id": 141,
+      "idiom": "Lose your touch",
+      "category": "Work & Effort",
+      "difficulty": "Advanced",
+      "english_meaning": "To no longer be as skilful at something as you used to be.",
+      "gujarati_meaning": "પહેલાંની આવડત ગુમાવી દેવી.",
+      "examples": [
+        "The famous chef burnt the dish twice.",
+        "People wondered if he had lost his touch.",
+        "He practised hard for the next contest.",
+        "His winning dish proved them wrong."
+      ]
+    },
+    {
+      "id": 142,
+      "idiom": "Make hay while the sun shines",
+      "category": "Time & Opportunity",
+      "difficulty": "Advanced",
+      "english_meaning": "To make good use of an opportunity while it lasts.",
+      "gujarati_meaning": "તક હોય ત્યારે તેનો પૂરો લાભ લેવો; લોઢું ગરમ હોય ત્યારે ઘા મારવો.",
+      "examples": [
+        "Business was booming during the festival.",
+        "The shopkeeper made hay while the sun shone.",
+        "He stocked extra goods and sold them fast.",
+        "His profits doubled that season."
+      ]
+    },
+    {
+      "id": 143,
+      "idiom": "Money doesn't grow on trees",
+      "category": "Money & Finance",
+      "difficulty": "Beginner",
+      "english_meaning": "Money is limited and should not be wasted.",
+      "gujarati_meaning": "પૈસા ઝાડ પર ઊગતા નથી; પૈસા સહેલાઈથી મળતા નથી.",
+      "examples": [
+        "The boy wanted a new toy every week.",
+        "His father reminded him that money doesn't grow on trees.",
+        "He explained how hard it is earned.",
+        "The boy started spending more wisely."
+      ]
+    },
+    {
+      "id": 144,
+      "idiom": "Nip it in the bud",
+      "category": "Difficulties & Problems",
+      "difficulty": "Advanced",
+      "english_meaning": "To stop a problem at an early stage before it grows.",
+      "gujarati_meaning": "સમસ્યાને શરૂઆતમાં જ ડામી દેવી; કળીમાં જ ચૂંટી નાખવી.",
+      "examples": [
+        "The teacher noticed a small group quarrel.",
+        "She nipped it in the bud at once.",
+        "She talked to the students before it spread.",
+        "Peace returned to the classroom quickly."
+      ]
+    },
+    {
+      "id": 145,
+      "idiom": "On the ball",
+      "category": "Work & Effort",
+      "difficulty": "Intermediate",
+      "english_meaning": "Alert, quick to understand, and good at one's job.",
+      "gujarati_meaning": "સજાગ અને હોશિયાર હોવું; ચપળ રહેવું.",
+      "examples": [
+        "The new assistant is really on the ball.",
+        "She finishes tasks before they are even asked.",
+        "She catches errors that others miss.",
+        "The whole team relies on her."
+      ]
+    },
+    {
+      "id": 146,
+      "idiom": "Out of the question",
+      "category": "Decisions & Choices",
+      "difficulty": "Intermediate",
+      "english_meaning": "Completely impossible or not allowed.",
+      "gujarati_meaning": "સાવ અશક્ય; વિચારવા જેવુંય નહિ.",
+      "examples": [
+        "The children asked to stay out all night.",
+        "Their parents said it was out of the question.",
+        "Safety came before everything else.",
+        "They agreed to come home by ten instead."
+      ]
+    },
+    {
+      "id": 147,
+      "idiom": "Penny wise, pound foolish",
+      "category": "Money & Finance",
+      "difficulty": "Advanced",
+      "english_meaning": "Careful with small amounts of money but wasteful with large ones.",
+      "gujarati_meaning": "નાની બાબતે કંજૂસ અને મોટી બાબતે ઉડાઉ.",
+      "examples": [
+        "He refused to spend on regular car servicing.",
+        "Later the engine failed and cost a fortune.",
+        "He was penny wise but pound foolish.",
+        "Small savings led to a big loss."
+      ]
+    },
+    {
+      "id": 148,
+      "idiom": "Play it by ear",
+      "category": "Decisions & Choices",
+      "difficulty": "Intermediate",
+      "english_meaning": "To decide how to act as a situation develops, without a fixed plan.",
+      "gujarati_meaning": "પરિસ્થિતિ પ્રમાણે નક્કી કરવું; આગોતરી યોજના વગર ચાલવું.",
+      "examples": [
+        "We had no fixed schedule for the trip.",
+        "We decided to play it by ear.",
+        "Each day we chose where to go next.",
+        "The freedom made the journey fun."
+      ]
+    },
+    {
+      "id": 149,
+      "idiom": "Rome wasn't built in a day",
+      "category": "General Wisdom",
+      "difficulty": "Beginner",
+      "english_meaning": "Important and great things take time to achieve.",
+      "gujarati_meaning": "મોટાં કાર્યો સમય માગે છે; ઉતાવળે આંબા ન પાકે.",
+      "examples": [
+        "She wanted to master painting in a week.",
+        "Her teacher said Rome wasn't built in a day.",
+        "She practised patiently for months.",
+        "Her skill improved beautifully over time."
+      ]
+    },
+    {
+      "id": 150,
+      "idiom": "Save for a rainy day",
+      "category": "Money & Finance",
+      "difficulty": "Intermediate",
+      "english_meaning": "To keep some money aside for a time of future need.",
+      "gujarati_meaning": "ભવિષ્યની મુશ્કેલી માટે બચત કરવી; ખરાબ દિવસ માટે સંઘરવું.",
+      "examples": [
+        "She put aside a little money every month.",
+        "She believed in saving for a rainy day.",
+        "When an emergency came, she was prepared.",
+        "Her habit gave her great peace of mind."
+      ]
+    },
+    {
+      "id": 151,
+      "idiom": "Sit tight",
+      "category": "Time & Opportunity",
+      "difficulty": "Beginner",
+      "english_meaning": "To wait patiently and not take any action yet.",
+      "gujarati_meaning": "ધીરજથી રાહ જોવી; શાંતિથી બેસી રહેવું.",
+      "examples": [
+        "The flight was delayed due to bad weather.",
+        "The staff asked us to sit tight.",
+        "We waited calmly in the lounge.",
+        "The plane took off after an hour."
+      ]
+    },
+    {
+      "id": 152,
+      "idiom": "Take it easy",
+      "category": "Emotions & Feelings",
+      "difficulty": "Beginner",
+      "english_meaning": "To relax and not worry or work too hard.",
+      "gujarati_meaning": "શાંત રહેવું; આરામ કરવો, ચિંતા ન કરવી.",
+      "examples": [
+        "He had been working without any break.",
+        "His doctor advised him to take it easy.",
+        "He took a short holiday to rest.",
+        "He returned feeling fresh and healthy."
+      ]
+    },
+    {
+      "id": 153,
+      "idiom": "Tighten your belt",
+      "category": "Money & Finance",
+      "difficulty": "Intermediate",
+      "english_meaning": "To spend less money because you have less of it.",
+      "gujarati_meaning": "ખર્ચમાં કાપ મૂકવો; કરકસર કરવી.",
+      "examples": [
+        "After the pay cut, the family had to tighten their belts.",
+        "They cut down on dining out.",
+        "They planned every expense carefully.",
+        "Within months their savings improved."
+      ]
+    },
+    {
+      "id": 154,
+      "idiom": "Two heads are better than one",
+      "category": "General Wisdom",
+      "difficulty": "Beginner",
+      "english_meaning": "Two people working together can solve a problem better than one alone.",
+      "gujarati_meaning": "બે માણસનો વિચાર એક કરતાં સારો; સંપથી કામ સારું થાય.",
+      "examples": [
+        "I was stuck on a difficult puzzle.",
+        "My friend joined me to help.",
+        "Two heads are better than one.",
+        "Together we solved it in minutes."
+      ]
+    },
+    {
+      "id": 155,
+      "idiom": "Walk on eggshells",
+      "category": "Relationships & Social",
+      "difficulty": "Advanced",
+      "english_meaning": "To be very careful not to upset or offend someone.",
+      "gujarati_meaning": "કોઈને નારાજ ન કરવા ખૂબ સંભાળીને વર્તવું.",
+      "examples": [
+        "After the argument, the mood was tense.",
+        "Everyone was walking on eggshells around him.",
+        "They chose their words very carefully.",
+        "Things eased once he calmed down."
+      ]
+    },
+    {
+      "id": 156,
+      "idiom": "When the going gets tough, the tough get going",
+      "category": "General Wisdom",
+      "difficulty": "Advanced",
+      "english_meaning": "Strong people work even harder when a situation becomes difficult.",
+      "gujarati_meaning": "મુશ્કેલ સમયમાં મજબૂત માણસો વધુ મહેનતથી આગળ વધે છે.",
+      "examples": [
+        "The team was far behind in the match.",
+        "But when the going gets tough, the tough get going.",
+        "They played with double the energy.",
+        "Their comeback stunned everyone."
+      ]
+    }
+  ]
+}

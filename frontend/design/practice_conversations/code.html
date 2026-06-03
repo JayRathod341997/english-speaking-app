@@ -1,0 +1,392 @@
+<!DOCTYPE html><html class="light" lang="en"><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>Bolo English | Conversations</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700&amp;family=Source+Serif+4:ital,opsz,wght@0,8..60,600;0,8..60,700;1,8..60,600&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "on-secondary-container": "#783607",
+                    "surface-container": "#f6ece3",
+                    "secondary": "#924b1c",
+                    "background": "#fff8f3",
+                    "on-background": "#1f1b15",
+                    "tertiary-fixed": "#e8e2d6",
+                    "on-primary-fixed": "#00201b",
+                    "on-error": "#ffffff",
+                    "outline": "#6f7976",
+                    "on-tertiary-fixed": "#1e1b14",
+                    "inverse-on-surface": "#f8efe5",
+                    "secondary-fixed-dim": "#ffb68e",
+                    "on-primary": "#ffffff",
+                    "tertiary-container": "#615d54",
+                    "tertiary-fixed-dim": "#ccc6ba",
+                    "on-tertiary": "#ffffff",
+                    "surface-container-highest": "#eae1d7",
+                    "on-secondary-fixed-variant": "#753405",
+                    "outline-variant": "#bfc9c5",
+                    "surface-container-high": "#f0e7dd",
+                    "inverse-surface": "#343029",
+                    "on-secondary-fixed": "#331200",
+                    "secondary-fixed": "#ffdbc9",
+                    "primary": "#004f46",
+                    "surface-bright": "#fff8f3",
+                    "on-primary-fixed-variant": "#005046",
+                    "tertiary": "#49463d",
+                    "on-tertiary-container": "#ddd6cb",
+                    "primary-fixed-dim": "#90d3c6",
+                    "error-container": "#ffdad6",
+                    "on-error-container": "#93000a",
+                    "surface-container-lowest": "#ffffff",
+                    "primary-fixed": "#abf0e1",
+                    "on-tertiary-fixed-variant": "#4a463e",
+                    "surface": "#fff8f3",
+                    "on-primary-container": "#a0e4d6",
+                    "on-surface": "#1f1b15",
+                    "inverse-primary": "#90d3c6",
+                    "on-surface-variant": "#3f4946",
+                    "error": "#ba1a1a",
+                    "on-secondary": "#ffffff",
+                    "surface-container-low": "#fbf2e8",
+                    "surface-dim": "#e1d9cf",
+                    "surface-variant": "#eae1d7",
+                    "surface-tint": "#22695e",
+                    "primary-container": "#21685d",
+                    "secondary-container": "#ffa26c"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.25rem",
+                    "lg": "0.5rem",
+                    "xl": "0.75rem",
+                    "full": "9999px"
+            },
+            "spacing": {
+                    "margin-mobile": "16px",
+                    "xs": "4px",
+                    "base": "8px",
+                    "sm": "12px",
+                    "md": "24px",
+                    "lg": "40px",
+                    "margin-desktop": "48px",
+                    "xl": "64px",
+                    "gutter": "24px"
+            },
+            "fontFamily": {
+                    "headline-md": ["Source Serif 4"],
+                    "headline-lg-mobile": ["Source Serif 4"],
+                    "label-sm": ["Plus Jakarta Sans"],
+                    "label-md": ["Plus Jakarta Sans"],
+                    "headline-lg": ["Source Serif 4"],
+                    "body-lg": ["Plus Jakarta Sans"],
+                    "body-md": ["Plus Jakarta Sans"],
+                    "display-lg": ["Source Serif 4"]
+            },
+            "fontSize": {
+                    "headline-md": ["24px", {"lineHeight": "32px", "fontWeight": "600"}],
+                    "headline-lg-mobile": ["28px", {"lineHeight": "36px", "fontWeight": "700"}],
+                    "label-sm": ["12px", {"lineHeight": "16px", "letterSpacing": "0.05em", "fontWeight": "700"}],
+                    "label-md": ["14px", {"lineHeight": "20px", "letterSpacing": "0.02em", "fontWeight": "600"}],
+                    "headline-lg": ["32px", {"lineHeight": "40px", "fontWeight": "700"}],
+                    "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}],
+                    "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+                    "display-lg": ["48px", {"lineHeight": "56px", "fontWeight": "700"}]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        body {
+            background-color: #F4EDE1; /* Level 0 base from style guidance */
+        }
+        .custom-shadow {
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+        }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(8px);
+        }
+    </style>
+</head>
+<body class="font-body-md text-on-surface mb-24 md:mb-0">
+<!-- TopAppBar from JSON -->
+<header class="bg-background dark:bg-background flex justify-between items-center w-full px-margin-mobile h-16 fixed top-0 z-50">
+<div class="flex items-center gap-4">
+<button class="hover:bg-surface-container-low dark:hover:bg-surface-container-highest transition-colors p-2 rounded-full active:opacity-80 active:scale-95 transition-all">
+<span class="material-symbols-outlined text-primary dark:text-primary-fixed-dim" data-icon="arrow_back">arrow_back</span>
+</button>
+<h1 class="font-headline-md text-headline-md text-primary dark:text-primary-fixed-dim font-bold">Bolo English</h1>
+</div>
+<div class="flex items-center gap-4">
+<div class="hidden md:flex gap-6 mr-6">
+<a class="text-on-surface-variant dark:text-on-surface-variant font-label-md text-label-md hover:text-primary transition-colors" href="#">Home</a>
+<a class="text-primary dark:text-primary-fixed-dim font-bold font-label-md text-label-md" href="#">Conversations</a>
+<a class="text-on-surface-variant dark:text-on-surface-variant font-label-md text-label-md hover:text-primary transition-colors" href="#">Idioms</a>
+<a class="text-on-surface-variant dark:text-on-surface-variant font-label-md text-label-md hover:text-primary transition-colors" href="#">Progress</a>
+</div>
+<div class="w-10 h-10 rounded-full bg-primary-container overflow-hidden border-2 border-primary">
+<img alt="User Profile" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDa3uj0BuChgyDfCKqBw4y4NBCpCBl2OeMxUkFFacEVBowa6C3Q5Y4GBHmxf8DvS6UYlPBLLUF0SR-yq0YwF_w3CEY26_GGV-_4UYCpGZHN-AGhhvu9Vgt61DVZo6wqzlXANnkCDXN1KTh0PqOKsruw8JbUSayU0IA8Mey1UYa2wdCjQuWPGg2VPLlTvhjxENpGi1928Yo6qAnmCWfz6apfsZ92smnHRl2Y0GAEHdCsfNUhtUrveQEZnKTL3C7sFbZ8pszVj7tS8h0">
+</div>
+</div>
+</header>
+<main class="mt-20 px-margin-mobile md:px-margin-desktop max-w-7xl mx-auto pb-12">
+<!-- Hero Section / Search -->
+<section class="py-lg">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-md mb-lg">
+<div>
+<h2 class="font-headline-lg-mobile md:font-headline-lg text-headline-lg-mobile md:text-headline-lg text-on-background mb-base">Ready to speak?</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant">આજે કઈ પરિસ્થિતિની પ્રેક્ટિસ કરો? (Which situation will you practice today?)</p>
+</div>
+<div class="relative w-full md:w-80 group">
+<input class="w-full h-12 pl-12 pr-4 rounded-xl border-none bg-surface-container-low focus:ring-2 focus:ring-primary transition-all font-body-md" placeholder="Search scenarios..." type="text">
+<span class="material-symbols-outlined absolute left-4 top-1/2 -translate-y-1/2 text-outline" data-icon="search">search</span>
+</div>
+</div>
+<!-- Filter Chips -->
+<div class="flex flex-wrap gap-sm">
+<button class="px-md py-2 rounded-full bg-primary text-on-primary font-label-md text-label-md active:scale-95 transition-all">All</button>
+<button class="px-md py-2 rounded-full bg-surface-container-high text-on-surface-variant font-label-md text-label-md hover:bg-primary-container hover:text-on-primary-container transition-all">Beginner</button>
+<button class="px-md py-2 rounded-full bg-surface-container-high text-on-surface-variant font-label-md text-label-md hover:bg-primary-container hover:text-on-primary-container transition-all">Medium</button>
+<button class="px-md py-2 rounded-full bg-surface-container-high text-on-surface-variant font-label-md text-label-md hover:bg-primary-container hover:text-on-primary-container transition-all">Advanced</button>
+</div>
+</section>
+<!-- Main Content Area -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-lg">
+<!-- Bento Grid of Scenarios -->
+<div class="lg:col-span-8 space-y-md">
+<div class="flex justify-between items-center mb-md">
+<h3 class="font-headline-md text-headline-md text-on-background">Practice Scenarios</h3>
+<span class="font-label-md text-label-md text-outline">14 scenarios available</span>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-gutter">
+<!-- Scenario Card 1 -->
+<div class="group relative bg-surface-container-lowest rounded-xl p-md border border-outline-variant/10 custom-shadow hover:bg-surface-container transition-all cursor-pointer">
+<div class="absolute top-4 right-4 flex items-center gap-2">
+<span class="px-2 py-0.5 rounded-md bg-secondary-fixed text-on-secondary-fixed-variant font-label-sm text-label-sm">INT</span>
+<span class="material-symbols-outlined text-outline group-hover:text-secondary transition-colors" data-icon="bookmark">bookmark</span>
+</div>
+<div class="w-12 h-12 rounded-full bg-primary-container/20 flex items-center justify-center mb-sm">
+<span class="material-symbols-outlined text-primary" data-icon="work" style="font-variation-settings: 'FILL' 1;">work</span>
+</div>
+<h4 class="font-headline-md text-headline-md text-on-surface mb-xs">HR Job Interview</h4>
+<p class="font-body-md text-on-surface-variant mb-4">Career • ~15m</p>
+<div class="flex justify-between items-center mb-2">
+  <button class="flex items-center gap-1 text-primary hover:text-primary-container transition-colors">
+    <span class="material-symbols-outlined text-[18px]">check_circle</span>
+    <span class="font-label-sm text-label-sm">Mark Complete</span>
+  </button>
+</div><div class="w-full bg-outline-variant/20 h-1 rounded-full overflow-hidden">
+<div class="bg-primary h-full w-[40%]"></div>
+</div>
+</div>
+<!-- Scenario Card 2 -->
+<div class="group relative bg-surface-container-lowest rounded-xl p-md border border-outline-variant/10 custom-shadow hover:bg-surface-container transition-all cursor-pointer">
+<div class="absolute top-4 right-4 flex items-center gap-2">
+<span class="px-2 py-0.5 rounded-md bg-primary-fixed text-on-primary-fixed-variant font-label-sm text-label-sm">BEG</span>
+<span class="material-symbols-outlined text-outline group-hover:text-secondary transition-colors" data-icon="bookmark">bookmark</span>
+</div>
+<div class="w-12 h-12 rounded-full bg-secondary-container/20 flex items-center justify-center mb-sm">
+<span class="material-symbols-outlined text-secondary" data-icon="restaurant" style="font-variation-settings: 'FILL' 1;">restaurant</span>
+</div>
+<h4 class="font-headline-md text-headline-md text-on-surface mb-xs">Ordering at a Cafe</h4>
+<p class="font-body-md text-on-surface-variant mb-4">Daily Life • ~8m</p>
+<div class="flex justify-between items-center mb-2">
+  <button class="flex items-center gap-1 text-primary hover:text-primary-container transition-colors">
+    <span class="material-symbols-outlined text-[18px]">check_circle</span>
+    <span class="font-label-sm text-label-sm">Mark Complete</span>
+  </button>
+</div><div class="w-full bg-outline-variant/20 h-1 rounded-full overflow-hidden">
+<div class="bg-primary h-full w-0"></div>
+</div>
+</div>
+<!-- Scenario Card 3 -->
+<div class="group relative bg-surface-container-lowest rounded-xl p-md border border-outline-variant/10 custom-shadow hover:bg-surface-container transition-all cursor-pointer">
+<div class="absolute top-4 right-4 flex items-center gap-2">
+<span class="px-2 py-0.5 rounded-md bg-on-error-container text-on-error font-label-sm text-label-sm">ADV</span>
+<span class="material-symbols-outlined text-outline group-hover:text-secondary transition-colors" data-icon="bookmark">bookmark</span>
+</div>
+<div class="w-12 h-12 rounded-full bg-tertiary-fixed/40 flex items-center justify-center mb-sm">
+<span class="material-symbols-outlined text-tertiary" data-icon="forum" style="font-variation-settings: 'FILL' 1;">forum</span>
+</div>
+<h4 class="font-headline-md text-headline-md text-on-surface mb-xs">Handling a Complaint</h4>
+<p class="font-body-md text-on-surface-variant mb-4">Conflict Resolution • ~12m</p>
+<div class="flex justify-between items-center mb-2">
+  <button class="flex items-center gap-1 text-primary hover:text-primary-container transition-colors">
+    <span class="material-symbols-outlined text-[18px]">check_circle</span>
+    <span class="font-label-sm text-label-sm">Mark Complete</span>
+  </button>
+</div><div class="w-full bg-outline-variant/20 h-1 rounded-full overflow-hidden">
+<div class="bg-primary h-full w-[85%]"></div>
+</div>
+</div>
+<!-- Scenario Card 4 -->
+<div class="group relative bg-surface-container-lowest rounded-xl p-md border border-outline-variant/10 custom-shadow hover:bg-surface-container transition-all cursor-pointer">
+<div class="absolute top-4 right-4 flex items-center gap-2">
+<span class="px-2 py-0.5 rounded-md bg-secondary-fixed text-on-secondary-fixed-variant font-label-sm text-label-sm">INT</span>
+<span class="material-symbols-outlined text-outline group-hover:text-secondary transition-colors" data-icon="bookmark">bookmark</span>
+</div>
+<div class="w-12 h-12 rounded-full bg-primary-container/20 flex items-center justify-center mb-sm">
+<span class="material-symbols-outlined text-primary" data-icon="school" style="font-variation-settings: 'FILL' 1;">school</span>
+</div>
+<h4 class="font-headline-md text-headline-md text-on-surface mb-xs">School Project Work</h4>
+<p class="font-body-md text-on-surface-variant mb-4">Education • ~10m</p>
+<div class="flex justify-between items-center mb-2">
+  <button class="flex items-center gap-1 text-primary hover:text-primary-container transition-colors">
+    <span class="material-symbols-outlined text-[18px]">check_circle</span>
+    <span class="font-label-sm text-label-sm">Mark Complete</span>
+  </button>
+</div><div class="w-full bg-outline-variant/20 h-1 rounded-full overflow-hidden">
+<div class="bg-primary h-full w-[15%]"></div>
+</div>
+</div>
+<!-- Scenario Card 5 -->
+<div class="group relative bg-surface-container-lowest rounded-xl p-md border border-outline-variant/10 custom-shadow hover:bg-surface-container transition-all cursor-pointer">
+<div class="absolute top-4 right-4 flex items-center gap-2">
+<span class="px-2 py-0.5 rounded-md bg-primary-fixed text-on-primary-fixed-variant font-label-sm text-label-sm">BEG</span>
+<span class="material-symbols-outlined text-outline group-hover:text-secondary transition-colors" data-icon="bookmark">bookmark</span>
+</div>
+<div class="w-12 h-12 rounded-full bg-secondary-container/20 flex items-center justify-center mb-sm">
+<span class="material-symbols-outlined text-secondary" data-icon="call" style="font-variation-settings: 'FILL' 1;">call</span>
+</div>
+<h4 class="font-headline-md text-headline-md text-on-surface mb-xs">Inquiry Call</h4>
+<p class="font-body-md text-on-surface-variant mb-4">Communication • ~8m</p>
+<div class="flex justify-between items-center mb-2">
+  <div class="flex items-center gap-1 text-primary font-bold">
+    <span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+    <span class="font-label-sm text-label-sm">Completed</span>
+  </div>
+</div><div class="w-full bg-outline-variant/20 h-1 rounded-full overflow-hidden">
+<div class="bg-primary h-full w-[100%]"></div>
+</div>
+</div>
+<!-- Scenario Card 6 -->
+<div class="group relative bg-surface-container-lowest rounded-xl p-md border border-outline-variant/10 custom-shadow hover:bg-surface-container transition-all cursor-pointer">
+<div class="absolute top-4 right-4 flex items-center gap-2">
+<span class="px-2 py-0.5 rounded-md bg-secondary-fixed text-on-secondary-fixed-variant font-label-sm text-label-sm">INT</span>
+<span class="material-symbols-outlined text-outline group-hover:text-secondary transition-colors" data-icon="bookmark">bookmark</span>
+</div>
+<div class="w-12 h-12 rounded-full bg-tertiary-fixed/40 flex items-center justify-center mb-sm">
+<span class="material-symbols-outlined text-tertiary" data-icon="local_hospital" style="font-variation-settings: 'FILL' 1;">local_hospital</span>
+</div>
+<h4 class="font-headline-md text-headline-md text-on-surface mb-xs">Medical Appointment</h4>
+<p class="font-body-md text-on-surface-variant mb-4">Health • ~12m</p>
+<div class="flex justify-between items-center mb-2">
+  <button class="flex items-center gap-1 text-primary hover:text-primary-container transition-colors">
+    <span class="material-symbols-outlined text-[18px]">check_circle</span>
+    <span class="font-label-sm text-label-sm">Mark Complete</span>
+  </button>
+</div><div class="w-full bg-outline-variant/20 h-1 rounded-full overflow-hidden">
+<div class="bg-primary h-full w-0"></div>
+</div>
+</div>
+</div>
+</div>
+<!-- Sidebar -->
+<div class="lg:col-span-4 space-y-lg">
+<!-- Today's Challenge -->
+<div class="bg-primary-container p-md rounded-2xl text-on-primary-container relative overflow-hidden">
+<div class="relative z-10">
+<span class="font-label-sm text-label-sm uppercase tracking-widest opacity-80 mb-base block">Today's Challenge</span>
+<h3 class="font-headline-md text-headline-md mb-sm">Introduce Yourself</h3>
+<p class="font-body-md mb-md opacity-90">Practice introducing yourself to a new colleague at work in under 60 seconds.</p>
+<button class="w-full bg-surface-container-lowest text-primary font-label-md text-label-md py-3 rounded-xl flex items-center justify-center gap-2 hover:bg-background transition-all">
+                            Start Challenge
+                            <span class="material-symbols-outlined text-[20px]" data-icon="arrow_forward">arrow_forward</span>
+</button>
+</div>
+<!-- Decorative Background Element -->
+<div class="absolute -right-8 -bottom-8 w-32 h-32 bg-primary opacity-20 rounded-full blur-xl"></div>
+</div>
+<!-- Stats Card -->
+<div class="bg-surface-container-high p-md rounded-2xl">
+<h3 class="font-headline-md text-headline-md text-on-surface mb-md">Daily Progress</h3>
+<div class="grid grid-cols-2 gap-sm mb-md">
+<div class="bg-background p-sm rounded-xl text-center">
+<span class="font-label-sm text-label-sm text-outline block mb-xs uppercase">Practice</span>
+<span class="font-headline-md text-headline-md text-secondary">24m</span>
+</div>
+<div class="bg-background p-sm rounded-xl text-center">
+<span class="font-label-sm text-label-sm text-outline block mb-xs uppercase">Vocabulary</span>
+<span class="font-headline-md text-headline-md text-primary">12</span>
+</div>
+</div>
+<div class="space-y-sm">
+<div class="flex justify-between text-label-md font-label-md">
+<span class="">Weekly Goal</span>
+<span class="text-primary">85%</span>
+</div>
+<div class="w-full bg-surface-dim h-2 rounded-full overflow-hidden">
+<div class="bg-primary h-full w-[85%]"></div>
+</div>
+</div>
+</div>
+<!-- Learning Tip Card -->
+<div class="border-2 border-dashed border-outline-variant p-md rounded-2xl">
+<div class="flex gap-4">
+<div class="flex-shrink-0">
+<span class="material-symbols-outlined text-secondary text-[32px]" data-icon="lightbulb">lightbulb</span>
+</div>
+<div>
+<h4 class="font-label-md text-label-md text-secondary mb-xs">Bolo Tip</h4>
+<p class="font-body-md text-on-surface-variant">Try mirroring the tone and speed of the AI speaker for better fluency.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</main>
+<!-- BottomNavBar from JSON -->
+<nav class="md:hidden fixed bottom-0 left-0 w-full bg-surface-container dark:bg-surface-container-highest shadow-[0_-4px_6px_-1px_rgba(0,0,0,0.05)] z-50 rounded-t-xl flex justify-around items-center px-4 py-3 pb-safe">
+<a class="flex flex-col items-center justify-center text-on-surface-variant dark:text-on-tertiary-fixed-variant px-4 py-1 hover:bg-surface-container-highest dark:hover:bg-surface-dim transition-colors" href="#">
+<span class="material-symbols-outlined" data-icon="home">home</span>
+<span class="font-label-sm text-label-sm mt-1">Home</span>
+</a>
+<a class="flex flex-col items-center justify-center bg-primary-container dark:bg-primary-container text-on-primary-container dark:text-on-primary-container rounded-full px-4 py-1 scale-90 duration-150 ease-in-out" href="#">
+<span class="material-symbols-outlined" data-icon="chat_bubble" style="font-variation-settings: 'FILL' 1;">chat_bubble</span>
+<span class="font-label-sm text-label-sm mt-1">Conversations</span>
+</a>
+<a class="flex flex-col items-center justify-center text-on-surface-variant dark:text-on-tertiary-fixed-variant px-4 py-1 hover:bg-surface-container-highest dark:hover:bg-surface-dim transition-colors" href="#">
+<span class="material-symbols-outlined" data-icon="auto_stories">auto_stories</span>
+<span class="font-label-sm text-label-sm mt-1">Idioms</span>
+</a>
+<a class="flex flex-col items-center justify-center text-on-surface-variant dark:text-on-tertiary-fixed-variant px-4 py-1 hover:bg-surface-container-highest dark:hover:bg-surface-dim transition-colors" href="#">
+<span class="material-symbols-outlined" data-icon="trending_up">trending_up</span>
+<span class="font-label-sm text-label-sm mt-1">Progress</span>
+</a>
+</nav>
+<!-- Floating Action Button (FAB) - Optional for Start -->
+<button class="fixed bottom-24 right-6 md:bottom-12 md:right-12 w-14 h-14 bg-secondary-container text-on-secondary-container rounded-2xl shadow-lg flex items-center justify-center active:scale-90 transition-all z-40 group">
+<span class="material-symbols-outlined text-[28px]" data-icon="mic" style="font-variation-settings: 'FILL' 1;">mic</span>
+<span class="absolute right-full mr-4 bg-on-background text-background px-3 py-1 rounded-lg text-sm whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none">Free Practice</span>
+</button>
+<script>
+        // Micro-interactions
+        document.querySelectorAll('input').forEach(input => {
+            input.addEventListener('focus', () => {
+                input.parentElement.classList.add('scale-[1.02]');
+            });
+            input.addEventListener('blur', () => {
+                input.parentElement.classList.remove('scale-[1.02]');
+            });
+        });
+
+        // Scenario card click effect
+        document.querySelectorAll('.group.cursor-pointer').forEach(card => {
+            card.addEventListener('click', function() {
+                this.classList.add('scale-95');
+                setTimeout(() => this.classList.remove('scale-95'), 150);
+            });
+        });
+    </script>
+
+
+</body></html>
