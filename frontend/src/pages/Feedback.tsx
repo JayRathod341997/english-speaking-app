@@ -140,7 +140,7 @@ export default function Feedback() {
   const { emoji, text, guj } = getMessage(result.overall_score);
 
   return (
-    <div className="min-h-[100dvh] flex items-center justify-center p-5"
+    <div className="min-h-[100dvh] overflow-x-hidden w-full flex items-center justify-center p-5"
       style={{ background: 'var(--paper)' }}>
       <div
         className="rounded-[24px] p-7 max-w-sm w-full"

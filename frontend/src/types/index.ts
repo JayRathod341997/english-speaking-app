@@ -75,3 +75,142 @@ export interface DailyChallenge {
   target_phrases: string[];
   date: string;
 }
+
+// ── Idioms ────────────────────────────────────────────────────────────────
+export interface Idiom {
+  id: number;
+  idiom: string;
+  category: string;
+  difficulty: 'Beginner' | 'Intermediate' | 'Advanced';
+  english_meaning: string;
+  gujarati_meaning: string;
+  examples: string[];
+}
+
+export interface IdiomsLibrary {
+  title?: string;
+  description?: string;
+  total_idioms: number;
+  categories: string[];
+  difficulty_levels: string[];
+  category_counts: Record<string, number>;
+  difficulty_counts: Record<string, number>;
+  idioms: Idiom[];
+}
+
+// ── Vocabulary ──────────────────────────────────────────────────────────────
+export interface VocabWord {
+  id: number;
+  word: string;
+  category: string;
+  subcategory: string;
+  part_of_speech: string;
+  difficulty: string;
+  frequency?: string;
+  gujarati_pronunciation: string;
+  english_meaning: string;
+  gujarati_meaning: string;
+  synonyms?: string[];
+  antonyms?: string[];
+  collocations?: string[];
+  word_forms?: string[];
+  usage_note?: string;
+  memory_tip?: string;
+  examples: string[];
+}
+
+export interface DialogueTurn {
+  speaker: string;
+  text: string;
+}
+
+export interface MiniDialogue {
+  id: number;
+  title: string;
+  situation: string;
+  turns: DialogueTurn[];
+  words_used: string[];
+}
+
+export interface QuizQuestion {
+  id: number;
+  type: string;
+  word_id: number;
+  question: string;
+  options: string[];
+  answer: string;
+}
+
+export interface Quiz {
+  title: string;
+  category: string;
+  level: string;
+  instructions: string;
+  total_questions: number;
+  questions: QuizQuestion[];
+}
+
+export interface VocabCategorySummary {
+  id: number;
+  category: string;
+  total_words: number;
+  subcategories?: number;
+}
+
+export interface VocabIndex {
+  title?: string;
+  description?: string;
+  language_pair?: string;
+  level?: string;
+  total_categories?: number;
+  total_words?: number;
+  category_summary: VocabCategorySummary[];
+}
+
+export interface VocabCategoryDetail {
+  id: number;
+  category: string;
+  level: string;
+  total_words: number;
+  subcategories: string[];
+  words: VocabWord[];
+  mini_dialogues: MiniDialogue[];
+  quiz: Quiz;
+}
+
+// ── Conversations (scripted dialogues) ──────────────────────────────────────
+export interface ConversationTurn {
+  order: number;
+  speaker: string;
+  text: string;
+}
+
+export interface ConversationSummary {
+  id: string;
+  title: string;
+  speakers: string[];
+  turn_count: number;
+}
+
+export interface ConversationDetail extends ConversationSummary {
+  turns: ConversationTurn[];
+}
+
+// ── Flashcards ──────────────────────────────────────────────────────────────
+export interface Flashcard {
+  id: number;
+  category: string;
+  front: string;
+  back: string;
+  pronunciation: string;
+  part_of_speech: string;
+  difficulty: string;
+  example: string;
+  tags: string[];
+}
+
+export interface FlashcardDeck {
+  category: string;
+  total: number;
+  cards: Flashcard[];
+}
