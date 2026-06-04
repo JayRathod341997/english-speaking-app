@@ -30,7 +30,7 @@ export default function Home() {
       progressApi.dailyChallenge(),
       progressApi.get(),
     ]).then(([s, c, p]) => {
-      setScenarios(s);
+      setScenarios(Array.isArray(s) ? s : []);
       setChallenge(c);
       setStreak(p.current_streak);
     }).finally(() => setLoading(false));

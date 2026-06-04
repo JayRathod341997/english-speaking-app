@@ -15,7 +15,10 @@ import type {
   VocabIndex,
 } from '../types';
 
-const api = axios.create({ baseURL: '/api' });
+// In dev, Vite proxies "/api" → localhost:8000 (see vite.config.ts).
+// In production set VITE_API_BASE_URL to the deployed backend, e.g.
+// "https://english-speaking-app-backend.onrender.com/api".
+const api = axios.create({ baseURL: import.meta.env.VITE_API_BASE_URL ?? '/api' });
 
 export const scenariosApi = {
   list: () => api.get<Scenario[]>('/scenarios').then(r => r.data),
