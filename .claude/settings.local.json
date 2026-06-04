@@ -21,7 +21,9 @@
       "Bash(xargs grep *)",
       "Bash(uv sync *)",
       "Bash(python -c \"from app.main import app; from app.store import SCENARIOS; print\\(f'OK — {len\\(SCENARIOS\\)} scenarios loaded'\\)\")",
-      "Bash(uv run *)"
+      "Bash(uv run *)",
+      "Bash(rm -rf dist)",
+      "Bash(echo \"exit: $?\")"
     ]
   }
 }
