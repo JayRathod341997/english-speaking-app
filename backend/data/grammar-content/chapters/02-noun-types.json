@@ -1,0 +1,312 @@
+{
+  "id": "ch-02-noun-types",
+  "slug": "noun-types",
+  "order": 2,
+  "title": {
+    "en": "Noun Types",
+    "gu": "સંજ્ઞાના પ્રકાર",
+    "guMT": true
+  },
+  "summary": {
+    "en": "The five types of nouns — common, proper, abstract, collective and material — and the distinction between countable and non-countable nouns.",
+    "gu": "પાંચ પ્રકારની સંજ્ઞાઓ — સામાન્ય, યોગ્ય, અમૂર્ત, સામૂહિક અને સામગ્રી — અને ગણવાપાત્ર અને બિન-ગણતરી સંજ્ઞાઓ વચ્ચેનો ભેદ.",
+    "guMT": true
+  },
+  "sources": [
+    "motion",
+    "anamika"
+  ],
+  "explanations": [
+    {
+      "block": "prose",
+      "id": "ch-02-noun-types/exp-1",
+      "text": {
+        "en": "A noun is the name of a person, place, thing or idea. Every noun belongs to one or more of the five types below.",
+        "gu": "સંજ્ઞા એ વ્યક્તિ, સ્થળ, વસ્તુ અથવા વિચારનું નામ છે. દરેક સંજ્ઞા નીચેના પાંચ પ્રકારોમાંથી એક અથવા વધુ સાથે સંબંધિત છે.",
+        "guMT": true
+      }
+    },
+    {
+      "block": "table",
+      "id": "ch-02-noun-types/exp-2",
+      "caption": {
+        "en": "The five types of nouns",
+        "gu": "સંજ્ઞાઓના પાંચ પ્રકાર",
+        "guMT": true
+      },
+      "headers": [
+        {
+          "key": "type",
+          "label": {
+            "en": "Type",
+            "gu": "પ્રકાર",
+            "guMT": true
+          }
+        },
+        {
+          "key": "def",
+          "label": {
+            "en": "Definition",
+            "gu": "વ્યાખ્યા",
+            "guMT": true
+          }
+        },
+        {
+          "key": "examples",
+          "label": {
+            "en": "Examples",
+            "gu": "ઉદાહરણો",
+            "guMT": true
+          }
+        }
+      ],
+      "rows": [
+        {
+          "type": "Common Noun",
+          "def": "General name shared by all of the same kind",
+          "examples": "teacher, country, city"
+        },
+        {
+          "type": "Proper Noun",
+          "def": "Specific name of one particular person/place/thing; always capitalised",
+          "examples": "Maulik, Canada, Ahmedabad"
+        },
+        {
+          "type": "Abstract Noun",
+          "def": "Name of a quality, feeling or idea that cannot be seen or touched",
+          "examples": "love, anger, truth, happiness"
+        },
+        {
+          "type": "Collective Noun",
+          "def": "Name of a group of persons or things taken together",
+          "examples": "herd, bench, batch, panel, jury, army"
+        },
+        {
+          "type": "Material (Mass) Noun",
+          "def": "Name of a substance or material; usually uncountable",
+          "examples": "gold, silver, milk, coffee, rice"
+        }
+      ]
+    },
+    {
+      "block": "rules",
+      "id": "ch-02-noun-types/exp-3",
+      "title": {
+        "en": "Countable vs Non-countable nouns",
+        "gu": "ગણવાયોગ્ય વિ બિન-ગણતરી સંજ્ઞાઓ",
+        "guMT": true
+      },
+      "items": [
+        {
+          "text": {
+            "en": "Countable nouns can be counted (they have a singular and plural form). Common nouns and collective nouns are countable.",
+            "gu": "ગણી શકાય તેવી સંજ્ઞાઓ ગણી શકાય (તેઓ એકવચન અને બહુવચન સ્વરૂપ ધરાવે છે). સામાન્ય સંજ્ઞાઓ અને સામૂહિક સંજ્ઞાઓ ગણતરીપાત્ર છે.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "one teacher / two teachers; one team / two teams",
+              "gu": "એક શિક્ષક / બે શિક્ષકો; એક ટીમ / બે ટીમો",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "Non-countable nouns cannot be counted individually. Proper, material and abstract nouns are generally non-countable.",
+            "gu": "બિન-ગણતી સંજ્ઞાઓ વ્યક્તિગત રીતે ગણી શકાતી નથી. યોગ્ય, સામગ્રી અને અમૂર્ત સંજ્ઞાઓ સામાન્ય રીતે બિન-ગણતરીય હોય છે.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "water (not 'waters'), gold, honesty",
+              "gu": "પાણી ('પાણી' નહીં), સોનું, પ્રામાણિકતા",
+              "guMT": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "ch-02-noun-types/q-1",
+      "type": "mcq",
+      "prompt": {
+        "en": "What type of noun is 'jury'?",
+        "gu": "'જ્યુરી' કયા પ્રકારની સંજ્ઞા છે?",
+        "guMT": true
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Proper noun",
+            "gu": "યોગ્ય સંજ્ઞા",
+            "guMT": true
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Collective noun",
+            "gu": "સામૂહિક સંજ્ઞા",
+            "guMT": true
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Abstract noun",
+            "gu": "અમૂર્ત સંજ્ઞા",
+            "guMT": true
+          }
+        }
+      ],
+      "answer": "b",
+      "solution": {
+        "en": "'Jury' names a group of people — that is a collective noun.",
+        "gu": "'જ્યુરી' લોકોના જૂથને નામ આપે છે - તે એક સામૂહિક સંજ્ઞા છે.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-02-noun-types/q-2",
+      "type": "mcq",
+      "prompt": {
+        "en": "Which of the following is a proper noun?",
+        "gu": "નીચેનામાંથી કયું યોગ્ય સંજ્ઞા છે?",
+        "guMT": true
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "city",
+            "gu": "શહેર",
+            "guMT": true
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Ahmedabad",
+            "gu": "અમદાવાદ",
+            "guMT": true
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "love",
+            "gu": "પ્રેમ",
+            "guMT": true
+          }
+        }
+      ],
+      "answer": "b",
+      "solution": {
+        "en": "'Ahmedabad' is the specific name of a particular city — a proper noun.",
+        "gu": "'અમદાવાદ' એ ચોક્કસ શહેરનું વિશિષ્ટ નામ છે - એક યોગ્ય સંજ્ઞા.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-02-noun-types/q-3",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "'Gold' is a ____ noun because it names a substance.",
+        "gu": "'ગોલ્ડ' એ ____ નામ છે કારણ કે તે પદાર્થનું નામ આપે છે.",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "common",
+          "gu": "સામાન્ય",
+          "guMT": true
+        },
+        {
+          "en": "collective",
+          "gu": "સામૂહિક",
+          "guMT": true
+        },
+        {
+          "en": "material",
+          "gu": "સામગ્રી",
+          "guMT": true
+        },
+        {
+          "en": "abstract",
+          "gu": "અમૂર્ત",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "material",
+        "gu": "સામગ્રી",
+        "guMT": true
+      },
+      "hint": {
+        "en": "Material nouns name substances or materials.",
+        "gu": "સામગ્રી સંજ્ઞાઓ નામ પદાર્થો અથવા સામગ્રી.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-02-noun-types/q-4",
+      "type": "mcq",
+      "prompt": {
+        "en": "Which noun is non-countable?",
+        "gu": "કઈ સંજ્ઞા બિન-ગણતરી છે?",
+        "guMT": true
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "teacher",
+            "gu": "શિક્ષક",
+            "guMT": true
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "milk",
+            "gu": "દૂધ",
+            "guMT": true
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "army",
+            "gu": "લશ્કર",
+            "guMT": true
+          }
+        }
+      ],
+      "answer": "b",
+      "solution": {
+        "en": "'Milk' is a material noun and cannot be counted (we can't say 'two milks').",
+        "gu": "'દૂધ' એ ભૌતિક સંજ્ઞા છે અને તેની ગણતરી કરી શકાતી નથી (આપણે 'બે દૂધ' કહી શકતા નથી).",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-02-noun-types/q-5",
+      "type": "translation",
+      "direction": "en_to_gu",
+      "prompt": {
+        "en": "Maulik is a teacher in Canada.",
+        "gu": "મૌલિક કેનેડામાં શિક્ષક છે.",
+        "guMT": true
+      },
+      "answer": {
+        "en": "Maulik is a teacher in Canada.",
+        "gu": "મૌલિક કેનેડામાં શિક્ષક છે.",
+        "guMT": true
+      }
+    }
+  ]
+}

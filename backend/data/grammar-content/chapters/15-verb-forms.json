@@ -1,0 +1,355 @@
+{
+  "id": "ch-15-verb-forms",
+  "slug": "verb-forms",
+  "order": 16,
+  "title": {
+    "en": "Verb Forms",
+    "gu": "ક્રિયાપદ સ્વરૂપો",
+    "guMT": true
+  },
+  "summary": {
+    "en": "The four non-finite verb forms — infinitive (to + V1), present participle (-ing), past participle (V3), and perfect participle (having + V3) — and when to use each.",
+    "gu": "ચાર બિન-મર્યાદિત ક્રિયાપદ સ્વરૂપો - અનંત (થી + V1), વર્તમાન પાર્ટિસિપલ (-ing), પાસ્ટ પાર્ટિસિપલ (V3), અને સંપૂર્ણ પાર્ટિસિપલ (હોવિંગ + V3) — અને દરેકનો ક્યારે ઉપયોગ કરવો.",
+    "guMT": true
+  },
+  "sources": [
+    "motion"
+  ],
+  "explanations": [
+    {
+      "block": "table",
+      "id": "ch-15-verb-forms/exp-1",
+      "caption": {
+        "en": "The four non-finite verb forms",
+        "gu": "ચાર બિન-મર્યાદિત ક્રિયાપદ સ્વરૂપો",
+        "guMT": true
+      },
+      "headers": [
+        {
+          "key": "form",
+          "label": {
+            "en": "Form",
+            "gu": "ફોર્મ",
+            "guMT": true
+          }
+        },
+        {
+          "key": "structure",
+          "label": {
+            "en": "Structure",
+            "gu": "માળખું",
+            "guMT": true
+          }
+        },
+        {
+          "key": "uses",
+          "label": {
+            "en": "Typical uses",
+            "gu": "લાક્ષણિક ઉપયોગો",
+            "guMT": true
+          }
+        },
+        {
+          "key": "example",
+          "label": {
+            "en": "Example",
+            "gu": "ઉદાહરણ",
+            "guMT": true
+          }
+        }
+      ],
+      "rows": [
+        {
+          "form": "Infinitive",
+          "structure": "to + base verb",
+          "uses": "subject, object, after want/like/try",
+          "example": "To get up early is a good habit. I want to learn English."
+        },
+        {
+          "form": "Present Participle",
+          "structure": "base verb + -ing",
+          "uses": "continuous tenses; describing ongoing action; after see/hear",
+          "example": "I am writing. We see passengers sleeping at the station."
+        },
+        {
+          "form": "Past Participle",
+          "structure": "V3 (ed / irregular)",
+          "uses": "perfect tenses; passive voice; adjective",
+          "example": "I have done my homework. Look at the decorated temple."
+        },
+        {
+          "form": "Perfect Participle",
+          "structure": "having + V3",
+          "uses": "completed action before the main action",
+          "example": "Having done his homework, he went to school."
+        }
+      ]
+    },
+    {
+      "block": "rules",
+      "id": "ch-15-verb-forms/exp-2",
+      "title": {
+        "en": "Spelling rules for -ing (Present Participle)",
+        "gu": "-ing (વર્તમાન પાર્ટિસિપલ) માટે જોડણીના નિયમો",
+        "guMT": true
+      },
+      "items": [
+        {
+          "text": {
+            "en": "If the verb ends in -e, drop the -e before adding -ing.",
+            "gu": "જો ક્રિયાપદ -e માં સમાપ્ત થાય છે, તો -ing ઉમેરતા પહેલા -e છોડો.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "dance → dancing, write → writing",
+              "gu": "નૃત્ય → નૃત્ય, લખો → લેખન",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "Short vowel + single consonant: double the consonant.",
+            "gu": "લઘુ સ્વર + એક વ્યંજન: વ્યંજન બમણું.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "get → getting, sit → sitting, run → running",
+              "gu": "મેળવો → મેળવો, બેસો → બેઠક, દોડો → દોડો",
+              "guMT": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "block": "rules",
+      "id": "ch-15-verb-forms/exp-3",
+      "title": {
+        "en": "Infinitive without 'to'",
+        "gu": "'થી' વિના અનંત",
+        "guMT": true
+      },
+      "items": [
+        {
+          "text": {
+            "en": "After modal verbs (can, will, may, must, should, etc.), use the base form without 'to'.",
+            "gu": "મોડલ ક્રિયાપદો (can, will, may, must, should, વગેરે) પછી, 'to' વગર આધાર સ્વરૂપનો ઉપયોગ કરો.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "I can speak English. You must go.",
+              "gu": "હું અંગ્રેજી બોલી શકું છું. તમારે જવું જ જોઈએ.",
+              "guMT": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "ch-15-verb-forms/q-1",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "____ dog seldom bites. (bark)",
+        "gu": "____ કૂતરો ભાગ્યે જ કરડે છે. (છાલ)",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "Bark",
+          "gu": "છાલ",
+          "guMT": true
+        },
+        {
+          "en": "Barking",
+          "gu": "ભસતા",
+          "guMT": true
+        },
+        {
+          "en": "To bark",
+          "gu": "ભસવું",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "Barking",
+        "gu": "ભસતા",
+        "guMT": true
+      },
+      "hint": {
+        "en": "The present participle acts as an adjective here: 'a barking dog'.",
+        "gu": "વર્તમાન પાર્ટિસિપલ અહીં વિશેષણ તરીકે કામ કરે છે: 'ભસતો કૂતરો'.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-15-verb-forms/q-2",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "The servant removed the ____ glass. (break)",
+        "gu": "નોકરે ____ કાચ કાઢી નાખ્યો. (વિરામ)",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "breaking",
+          "gu": "ભંગ",
+          "guMT": true
+        },
+        {
+          "en": "broke",
+          "gu": "તૂટી",
+          "guMT": true
+        },
+        {
+          "en": "broken",
+          "gu": "તૂટેલા",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "broken",
+        "gu": "તૂટેલા",
+        "guMT": true
+      },
+      "hint": {
+        "en": "A past participle used as an adjective.",
+        "gu": "વિશેષણ તરીકે વપરાયેલ ભૂતકાળનો પાર્ટિસિપલ.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-15-verb-forms/q-3",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "____ the H.S.C. exam, he joined a college. (have + pass)",
+        "gu": "____ H.S.C. પરીક્ષા આપી, તે કોલેજમાં જોડાયો. (હો + પાસ)",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "Passing",
+          "gu": "પસાર થાય છે",
+          "guMT": true
+        },
+        {
+          "en": "Having passed",
+          "gu": "પાસ કર્યા",
+          "guMT": true
+        },
+        {
+          "en": "To pass",
+          "gu": "પાસ કરવા માટે",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "Having passed",
+        "gu": "પાસ કર્યા",
+        "guMT": true
+      },
+      "hint": {
+        "en": "The action was completed before joining college — use perfect participle.",
+        "gu": "કૉલેજમાં જોડાતા પહેલા ક્રિયા પૂર્ણ થઈ ગઈ હતી — પરફેક્ટ પાર્ટીસિપલનો ઉપયોગ કરો.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-15-verb-forms/q-4",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "She is trying ____ her work. (finish)",
+        "gu": "તેણી ____ તેના કામનો પ્રયાસ કરી રહી છે. (સમાપ્ત)",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "finish",
+          "gu": "સમાપ્ત",
+          "guMT": true
+        },
+        {
+          "en": "finishing",
+          "gu": "સમાપ્ત",
+          "guMT": true
+        },
+        {
+          "en": "to finish",
+          "gu": "સમાપ્ત કરવા માટે",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "to finish",
+        "gu": "સમાપ્ત કરવા માટે",
+        "guMT": true
+      },
+      "hint": {
+        "en": "After 'try', use the infinitive with 'to'.",
+        "gu": "'પ્રયત્ન' પછી, 'to' સાથે infinitive નો ઉપયોગ કરો.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-15-verb-forms/q-5",
+      "type": "mcq",
+      "prompt": {
+        "en": "What is the present participle of 'dance'?",
+        "gu": "'નૃત્ય'નું વર્તમાન પાર્ટિસિપલ શું છે?",
+        "guMT": true
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "danceing",
+            "gu": "નૃત્ય",
+            "guMT": true
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "dancing",
+            "gu": "નૃત્ય",
+            "guMT": true
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "danced",
+            "gu": "નૃત્ય કર્યું",
+            "guMT": true
+          }
+        }
+      ],
+      "answer": "b",
+      "solution": {
+        "en": "Drop the final -e before adding -ing: dance → dancing.",
+        "gu": "-ing ઉમેરતા પહેલા અંતિમ -e છોડો: નૃત્ય → નૃત્ય.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-15-verb-forms/q-6",
+      "type": "translation",
+      "direction": "en_to_gu",
+      "prompt": {
+        "en": "Having done his homework, he went to school.",
+        "gu": "તેનું હોમવર્ક કરીને તે શાળાએ ગયો.",
+        "guMT": true
+      },
+      "answer": {
+        "en": "Having done his homework, he went to school.",
+        "gu": "તેનું હોમવર્ક કરીને તે શાળાએ ગયો.",
+        "guMT": true
+      }
+    }
+  ]
+}

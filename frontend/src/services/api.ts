@@ -5,6 +5,8 @@ import type {
   DailyChallenge,
   EndSessionResponse,
   FlashcardDeck,
+  GrammarChapter,
+  GrammarIndex,
   IdiomsLibrary,
   Progress,
   Scenario,
@@ -64,4 +66,10 @@ export const conversationsApi = {
 
 export const flashcardsApi = {
   decks: () => api.get<FlashcardDeck[]>('/flashcards').then(r => r.data),
+};
+
+export const grammarApi = {
+  index: () => api.get<GrammarIndex>('/grammar').then(r => r.data),
+  chapter: (slug: string) =>
+    api.get<GrammarChapter>(`/grammar/${slug}`).then(r => r.data),
 };

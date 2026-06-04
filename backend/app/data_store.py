@@ -9,10 +9,16 @@ import json
 from pathlib import Path
 
 DATA_DIR = Path(__file__).resolve().parents[1] / "data"
+GRAMMAR_DIR = DATA_DIR / "grammar-content"
 
 
 def _load(filename: str) -> dict:
     with open(DATA_DIR / filename, encoding="utf-8") as f:
+        return json.load(f)
+
+
+def _load_grammar(filename: str) -> dict:
+    with open(GRAMMAR_DIR / filename, encoding="utf-8") as f:
         return json.load(f)
 
 
@@ -45,6 +51,13 @@ IDIOMS: dict = _load("idioms.json")
 VOCABULARY: dict = _load("vocabulary_index.json")
 CONVERSATIONS: list = _load_list("conversations.json")
 FLASHCARDS: list = _load_flashcards("vocabulary_flashcards_all.csv")
+
+GRAMMAR_INDEX: dict = _load_grammar("index.json")
+# Eagerly load every chapter body, keyed by slug (20 small files).
+GRAMMAR_CHAPTERS: dict = {
+    ch["slug"]: _load_grammar(ch["file"])
+    for ch in GRAMMAR_INDEX.get("chapters", [])
+}
 
 
 def get_idiom(idiom_id: int) -> dict | None:
@@ -100,3 +113,41 @@ def flashcard_decks() -> list[dict]:
         {"category": category, "total": len(cards), "cards": cards}
         for category, cards in decks.items()
     ]
+
+
+def _grammar_level(order: int) -> str:
+    """Derive a difficulty band from chapter order (no level field in the data)."""
+    if order <= 7:
+        return "Beginner"
+    if order <= 14:
+        return "Intermediate"
+    return "Advanced"
+
+
+def grammar_index() -> dict:
+    """Lightweight payload: collection meta + chapter summaries (no bodies)."""
+    chapters = []
+    for ch in GRAMMAR_INDEX.get("chapters", []):
+        body = GRAMMAR_CHAPTERS.get(ch["slug"], {})
+        chapters.append(
+            {
+                "id": ch["id"],
+                "slug": ch["slug"],
+                "order": ch["order"],
+                "title": ch["title"],
+                "summary": body.get("summary"),
+                "level": _grammar_level(ch["order"]),
+                "explanation_count": len(body.get("explanations", [])),
+                "practice_count": len(body.get("practice", [])),
+            }
+        )
+    chapters.sort(key=lambda c: c["order"])
+    return {
+        "collection": GRAMMAR_INDEX.get("collection"),
+        "total_chapters": len(chapters),
+        "chapters": chapters,
+    }
+
+
+def get_grammar_chapter(slug: str) -> dict | None:
+    return GRAMMAR_CHAPTERS.get(slug)

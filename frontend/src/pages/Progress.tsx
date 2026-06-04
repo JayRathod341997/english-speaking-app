@@ -1,6 +1,7 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import BottomNav from '../components/BottomNav';
+import ScrollToTop from '../components/ScrollToTop';
 import { useLocalProgress } from '../hooks/useLocalProgress';
 import { progressApi } from '../services/api';
 import type { Progress } from '../types';
@@ -32,11 +33,15 @@ export default function ProgressPage() {
   const [loading, setLoading]   = useState(true);
   const navigate = useNavigate();
   const { progress: local } = useLocalProgress();
+  const scrollRef = useRef<HTMLDivElement>(null);
 
   const wordsLearned = Object.values(local.vocab).filter(v => v.learned).length;
+  const idiomsLearned = local.learnedIdioms?.length ?? 0;
   const idiomsSaved  = local.idiomBookmarks.length;
   const quizTaken    = Object.keys(local.quizScores).length;
   const bestQuiz     = quizTaken ? Math.max(...Object.values(local.quizScores)) : 0;
+  const grammarDone  = local.grammarCompleted?.length ?? 0;
+  const GRAMMAR_TOTAL = 20;
 
   useEffect(() => {
     progressApi.get().then(setProgress).finally(() => setLoading(false));
@@ -51,7 +56,7 @@ export default function ProgressPage() {
   const lvlStyle = LEVEL_STYLE[stats.level] ?? LEVEL_STYLE.beginner;
 
   return (
-    <div className="flex flex-col h-[100dvh] overflow-x-hidden w-full" style={{ background: 'var(--paper)' }}>
+    <div className="relative flex flex-col h-[100dvh] overflow-x-hidden w-full" style={{ background: 'var(--paper)' }}>
       {/* Header */}
       <div
         className="flex items-center gap-3 px-5 py-3.5 flex-shrink-0"
@@ -77,7 +82,7 @@ export default function ProgressPage() {
           Loading…
         </div>
       ) : (
-        <div className="flex-1 overflow-y-auto overflow-x-hidden no-scrollbar px-5 pt-5 pb-6 space-y-4">
+        <div ref={scrollRef} className="flex-1 overflow-y-auto overflow-x-hidden no-scrollbar px-5 pt-5 pb-6 space-y-4">
           {/* Score hero */}
           <div
             className="rounded-[18px] p-5 text-center"
@@ -170,24 +175,32 @@ export default function ProgressPage() {
             </h2>
             <div className="grid grid-cols-2 gap-3">
               <MetricCard label="Words learned" value={wordsLearned} bar={Math.min((wordsLearned / 160) * 100, 100)} barColor="var(--teal)" />
-              <MetricCard label="Idioms saved"  value={idiomsSaved} />
-              <MetricCard label="Quizzes taken" value={quizTaken} />
+              <MetricCard label="Idioms learned" value={idiomsLearned} bar={Math.min((idiomsLearned / 156) * 100, 100)} barColor="var(--teal)" />
+              <MetricCard label="Grammar chapters" value={`${grammarDone}/${GRAMMAR_TOTAL}`} bar={Math.min((grammarDone / GRAMMAR_TOTAL) * 100, 100)} barColor="var(--teal)" />
               <MetricCard label="Best quiz"     value={`${bestQuiz}%`} bar={bestQuiz} barColor="var(--saffron)" />
+              <MetricCard label="Idioms saved"  value={idiomsSaved} />
             </div>
-            <div className="flex gap-2 mt-4">
+            <div className="grid grid-cols-3 gap-2 mt-4">
               <button
                 onClick={() => navigate('/vocabulary')}
-                className="flex-1 py-2.5 rounded-xl text-xs font-semibold"
+                className="py-2.5 rounded-xl text-xs font-semibold"
                 style={{ background: 'var(--teal-soft)', color: 'var(--teal)' }}
               >
                 Study words
               </button>
               <button
                 onClick={() => navigate('/idioms')}
-                className="flex-1 py-2.5 rounded-xl text-xs font-semibold"
+                className="py-2.5 rounded-xl text-xs font-semibold"
                 style={{ background: 'var(--amber-soft)', color: 'var(--saffron-deep)' }}
               >
                 Browse idioms
+              </button>
+              <button
+                onClick={() => navigate('/grammar')}
+                className="py-2.5 rounded-xl text-xs font-semibold"
+                style={{ background: 'var(--rose-soft)', color: 'var(--rose)' }}
+              >
+                Study grammar
               </button>
             </div>
           </div>
@@ -202,6 +215,7 @@ export default function ProgressPage() {
         </div>
       )}
 
+      {!loading && <ScrollToTop targetRef={scrollRef} />}
       <BottomNav active="progress" />
     </div>
   );

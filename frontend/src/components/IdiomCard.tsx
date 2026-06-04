@@ -1,11 +1,13 @@
 import type { Idiom } from '../types';
-import { BookmarkIcon } from './Icon';
+import { BookmarkIcon, CheckIcon } from './Icon';
 import PronounceButton from './PronounceButton';
 
 interface Props {
   idiom: Idiom;
   bookmarked: boolean;
+  learned?: boolean;
   onToggleBookmark: () => void;
+  onToggleLearned?: () => void;
 }
 
 const DIFF_STYLE: Record<string, React.CSSProperties> = {
@@ -14,20 +16,30 @@ const DIFF_STYLE: Record<string, React.CSSProperties> = {
   Advanced:     { background: 'var(--rose-soft)', color: 'var(--rose)' },
 };
 
-/** Bold the idiom phrase within an example sentence. */
-function highlight(example: string, idiom: string) {
-  const idx = example.toLowerCase().indexOf(idiom.toLowerCase());
-  if (idx === -1) return example;
+/** Escape regex special characters. */
+function escapeRegExp(str: string) {
+  return str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+
+/** Bold all occurrences of the idiom phrase within a text. */
+function highlight(text: string, idiom: string) {
+  if (!idiom) return text;
+  const regex = new RegExp(`(${escapeRegExp(idiom)})`, 'gi');
+  const parts = text.split(regex);
   return (
     <>
-      {example.slice(0, idx)}
-      <strong style={{ color: 'var(--ink)' }}>{example.slice(idx, idx + idiom.length)}</strong>
-      {example.slice(idx + idiom.length)}
+      {parts.map((part, i) =>
+        part.toLowerCase() === idiom.toLowerCase() ? (
+          <strong key={i} style={{ color: 'var(--ink)' }}>{part}</strong>
+        ) : (
+          part
+        )
+      )}
     </>
   );
 }
 
-export default function IdiomCard({ idiom, bookmarked, onToggleBookmark }: Props) {
+export default function IdiomCard({ idiom, bookmarked, learned, onToggleBookmark, onToggleLearned }: Props) {
   return (
     <div
       className="rounded-[15px] p-4 flex flex-col"
@@ -40,15 +52,32 @@ export default function IdiomCard({ idiom, bookmarked, onToggleBookmark }: Props
         >
           {idiom.difficulty}
         </span>
-        <button
-          type="button"
-          onClick={onToggleBookmark}
-          aria-label="Bookmark"
-          className="transition-transform active:scale-90"
-          style={{ color: bookmarked ? 'var(--saffron-deep)' : 'var(--ink-soft)' }}
-        >
-          <BookmarkIcon className="w-5 h-5" filled={bookmarked} />
-        </button>
+        <div className="flex items-center gap-1.5">
+          <button
+            type="button"
+            onClick={onToggleBookmark}
+            aria-label="Bookmark"
+            className="w-7 h-7 rounded-full grid place-items-center transition-transform active:scale-90"
+            style={{ color: bookmarked ? 'var(--saffron-deep)' : 'var(--ink-soft)', background: 'var(--paper-2)', border: 'none', cursor: 'pointer' }}
+          >
+            <BookmarkIcon className="w-4 h-4" filled={bookmarked} />
+          </button>
+          {onToggleLearned && (
+            <button
+              type="button"
+              onClick={onToggleLearned}
+              aria-label="Mark learned"
+              className="w-7 h-7 rounded-full grid place-items-center transition-transform active:scale-90"
+              style={
+                learned
+                  ? { background: 'var(--teal)', color: '#fff', border: 'none', cursor: 'pointer' }
+                  : { background: 'var(--paper-2)', color: 'var(--ink-soft)', border: 'none', cursor: 'pointer' }
+              }
+            >
+              <CheckIcon className="w-4 h-4" />
+            </button>
+          )}
+        </div>
       </div>
 
       <h3 className="font-serif text-lg font-semibold leading-snug" style={{ color: 'var(--ink)' }}>
@@ -65,9 +94,9 @@ export default function IdiomCard({ idiom, bookmarked, onToggleBookmark }: Props
         {idiom.english_meaning}
       </div>
 
-      {idiom.examples?.[0] && (
-        <p className="text-[12px] italic mt-2" style={{ color: 'var(--ink-soft)' }}>
-          {highlight(idiom.examples[0], idiom.idiom)}
+      {idiom.examples && idiom.examples.length > 0 && (
+        <p className="text-[12px] italic leading-relaxed mt-2" style={{ color: 'var(--ink-soft)' }}>
+          {highlight(idiom.examples.join(' '), idiom.idiom)}
         </p>
       )}
 

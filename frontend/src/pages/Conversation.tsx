@@ -133,6 +133,8 @@ export default function Conversation() {
   const formatTime = (s: number) =>
     `${String(Math.floor(s / 60)).padStart(2, '0')}:${String(s % 60).padStart(2, '0')}`;
 
+  const micDisabled = isProcessing || isSpeaking;
+
   const handleMicClick = () => {
     if (isProcessing || isSpeaking) return;
     cancelSpeech();
@@ -328,16 +330,16 @@ export default function Conversation() {
           {isSupported ? (
             <button
               onClick={handleMicClick}
-              disabled={isProcessing}
+              disabled={micDisabled}
               className={`w-[68px] h-[68px] rounded-full grid place-items-center border-none cursor-pointer transition-transform active:scale-[.93] ${isListening ? 'mic-pulse' : ''}`}
               style={{
                 background: isListening
                   ? 'linear-gradient(135deg, var(--rose), #9c2f45)'
-                  : isProcessing
+                  : micDisabled
                     ? 'var(--paper-2)'
                     : 'linear-gradient(135deg, var(--saffron), var(--saffron-deep))',
                 boxShadow: isListening ? 'none' : '0 8px 22px rgba(200,85,28,0.35)',
-                opacity: isProcessing ? 0.6 : 1,
+                opacity: micDisabled ? 0.6 : 1,
               }}
             >
               <svg viewBox="0 0 24 24" fill="white" className="w-7 h-7">

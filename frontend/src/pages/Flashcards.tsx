@@ -1,8 +1,10 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import BottomNav from '../components/BottomNav';
 import PageHeader from '../components/PageHeader';
 import PronounceButton from '../components/PronounceButton';
+import ScrollToTop from '../components/ScrollToTop';
 import { FlipIcon } from '../components/Icon';
+import { usePersistentState } from '../hooks/usePersistentState';
 import { flashcardsApi } from '../services/api';
 import type { Flashcard, FlashcardDeck } from '../types';
 
@@ -83,17 +85,20 @@ function FlashcardItem({ card }: { card: Flashcard }) {
 
 export default function Flashcards() {
   const [decks, setDecks] = useState<FlashcardDeck[]>([]);
-  const [active, setActive] = useState(0);
+  const [active, setActive] = usePersistentState('flashcards.active', 0);
   const [loading, setLoading] = useState(true);
+  const scrollRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     flashcardsApi.decks().then(setDecks).finally(() => setLoading(false));
   }, []);
 
-  const deck = decks[active];
+  // Guard against a stale persisted index when the deck list shrinks/changes.
+  const activeIndex = decks.length ? Math.min(active, decks.length - 1) : 0;
+  const deck = decks[activeIndex];
 
   return (
-    <div className="flex flex-col h-[100dvh] overflow-x-hidden w-full" style={{ background: 'var(--paper)' }}>
+    <div className="relative flex flex-col h-[100dvh] overflow-x-hidden w-full" style={{ background: 'var(--paper)' }}>
       <PageHeader title="Flashcards" subtitle="શબ્દ કાર્ડ" back="/" />
 
       {loading ? (
@@ -101,7 +106,7 @@ export default function Flashcards() {
           Loading…
         </div>
       ) : (
-        <div className="flex-1 overflow-y-auto overflow-x-hidden no-scrollbar px-5 pt-4 pb-6">
+        <div ref={scrollRef} className="flex-1 overflow-y-auto overflow-x-hidden no-scrollbar px-5 pt-4 pb-6">
           {/* Deck (category) chips */}
           <div className="flex flex-wrap gap-2 mb-5">
             {decks.map((d, i) => (
@@ -110,7 +115,7 @@ export default function Flashcards() {
                 onClick={() => setActive(i)}
                 className="px-3 py-1.5 rounded-full text-xs font-semibold transition-all"
                 style={
-                  i === active
+                  i === activeIndex
                     ? { background: 'var(--teal)', color: '#fff', border: '1.5px solid var(--teal)' }
                     : { background: 'var(--card)', color: 'var(--ink-soft)', border: '1.5px solid var(--line)' }
                 }
@@ -130,6 +135,7 @@ export default function Flashcards() {
         </div>
       )}
 
+      {!loading && <ScrollToTop targetRef={scrollRef} />}
       <BottomNav active="vocabulary" />
     </div>
   );

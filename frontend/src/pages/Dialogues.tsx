@@ -1,7 +1,8 @@
-import { useEffect, useMemo, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import BottomNav from '../components/BottomNav';
 import PageHeader from '../components/PageHeader';
+import ScrollToTop from '../components/ScrollToTop';
 import { SearchIcon } from '../components/Icon';
 import { conversationsApi } from '../services/api';
 import type { ConversationSummary } from '../types';
@@ -11,6 +12,7 @@ export default function Dialogues() {
   const [loading, setLoading] = useState(true);
   const [search, setSearch] = useState('');
   const navigate = useNavigate();
+  const scrollRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     conversationsApi.list().then(setConversations).finally(() => setLoading(false));
@@ -22,7 +24,7 @@ export default function Dialogues() {
   );
 
   return (
-    <div className="flex flex-col h-[100dvh] overflow-x-hidden w-full" style={{ background: 'var(--paper)' }}>
+    <div className="relative flex flex-col h-[100dvh] overflow-x-hidden w-full" style={{ background: 'var(--paper)' }}>
       <PageHeader title="Dialogues" subtitle="વાર્તાલાપ વાંચો" back="/" />
 
       {loading ? (
@@ -30,7 +32,7 @@ export default function Dialogues() {
           Loading…
         </div>
       ) : (
-        <div className="flex-1 overflow-y-auto overflow-x-hidden no-scrollbar px-5 pt-4 pb-6">
+        <div ref={scrollRef} className="flex-1 overflow-y-auto overflow-x-hidden no-scrollbar px-5 pt-4 pb-6">
           {/* search */}
           <div
             className="flex items-center gap-2 px-3 py-2.5 rounded-[13px] mb-5"
@@ -77,6 +79,7 @@ export default function Dialogues() {
         </div>
       )}
 
+      {!loading && <ScrollToTop targetRef={scrollRef} />}
       <BottomNav active="conversations" />
     </div>
   );

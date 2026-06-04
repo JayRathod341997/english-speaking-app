@@ -1,8 +1,9 @@
-import { useEffect, useMemo, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import BottomNav from '../components/BottomNav';
 import PageHeader from '../components/PageHeader';
 import PronounceButton from '../components/PronounceButton';
+import ScrollToTop from '../components/ScrollToTop';
 import { conversationsApi } from '../services/api';
 import type { ConversationDetail } from '../types';
 
@@ -20,6 +21,7 @@ export default function DialoguePractice() {
   const [conversation, setConversation] = useState<ConversationDetail | null>(null);
   const [loading, setLoading] = useState(true);
   const [notFound, setNotFound] = useState(false);
+  const scrollRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     if (!id) return;
@@ -41,7 +43,7 @@ export default function DialoguePractice() {
   }, [conversation]);
 
   return (
-    <div className="flex flex-col h-[100dvh] overflow-x-hidden w-full" style={{ background: 'var(--paper)' }}>
+    <div className="relative flex flex-col h-[100dvh] overflow-x-hidden w-full" style={{ background: 'var(--paper)' }}>
       <PageHeader title={conversation?.title ?? 'Dialogue'} subtitle="વાર્તાલાપ વાંચો" back="/dialogues" />
 
       {loading ? (
@@ -53,7 +55,7 @@ export default function DialoguePractice() {
           Dialogue not found.
         </div>
       ) : (
-        <div className="flex-1 overflow-y-auto overflow-x-hidden no-scrollbar px-5 pt-4 pb-6">
+        <div ref={scrollRef} className="flex-1 overflow-y-auto overflow-x-hidden no-scrollbar px-5 pt-4 pb-6">
           <p className="text-[12px] mb-4" style={{ color: 'var(--ink-soft)' }}>
             {conversation.speakers.join(' · ')} · {conversation.turn_count} turns
           </p>
@@ -77,6 +79,7 @@ export default function DialoguePractice() {
         </div>
       )}
 
+      {!loading && !notFound && conversation && <ScrollToTop targetRef={scrollRef} />}
       <BottomNav active="conversations" />
     </div>
   );
