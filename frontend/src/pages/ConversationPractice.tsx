@@ -1,8 +1,9 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import BottomNav from '../components/BottomNav';
 import PageHeader from '../components/PageHeader';
 import PronounceButton from '../components/PronounceButton';
+import ScrollToTop from '../components/ScrollToTop';
 import { vocabularyApi } from '../services/api';
 import type { MiniDialogue } from '../types';
 
@@ -13,6 +14,7 @@ export default function ConversationPractice() {
   const [category, setCategory] = useState('');
   const [loading, setLoading] = useState(valid);
   const [notFound, setNotFound] = useState(!valid);
+  const scrollRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     if (!valid) return;
@@ -30,7 +32,7 @@ export default function ConversationPractice() {
   }, [valid, id]);
 
   return (
-    <div className="flex flex-col h-[100dvh] overflow-x-hidden w-full" style={{ background: 'var(--paper)' }}>
+    <div className="relative flex flex-col h-[100dvh] overflow-x-hidden w-full" style={{ background: 'var(--paper)' }}>
       <PageHeader title={dialogue?.title ?? 'Practice'} subtitle={category} back="/conversations" />
 
       {loading ? (
@@ -42,7 +44,7 @@ export default function ConversationPractice() {
           Dialogue not found.
         </div>
       ) : (
-        <div className="flex-1 overflow-y-auto overflow-x-hidden no-scrollbar px-5 pt-4 pb-6">
+        <div ref={scrollRef} className="flex-1 overflow-y-auto overflow-x-hidden no-scrollbar px-5 pt-4 pb-6">
           <p className="text-[13px] mb-4" style={{ color: 'var(--ink-soft)' }}>{dialogue.situation}</p>
 
           <div className="space-y-3">
@@ -87,6 +89,7 @@ export default function ConversationPractice() {
         </div>
       )}
 
+      {!loading && !notFound && dialogue && <ScrollToTop targetRef={scrollRef} />}
       <BottomNav active="conversations" />
     </div>
   );

@@ -1,7 +1,8 @@
-import { useEffect, useMemo, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import BottomNav from '../components/BottomNav';
 import PageHeader from '../components/PageHeader';
+import ScrollToTop from '../components/ScrollToTop';
 import { SearchIcon } from '../components/Icon';
 import { scenariosApi, vocabularyApi } from '../services/api';
 import type { Scenario } from '../types';
@@ -24,6 +25,7 @@ export default function Conversations() {
   const [loading, setLoading] = useState(true);
   const [search, setSearch] = useState('');
   const navigate = useNavigate();
+  const scrollRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     Promise.all([scenariosApi.list(), vocabularyApi.index()])
@@ -54,7 +56,7 @@ export default function Conversations() {
   );
 
   return (
-    <div className="flex flex-col h-[100dvh] overflow-x-hidden w-full" style={{ background: 'var(--paper)' }}>
+    <div className="relative flex flex-col h-[100dvh] overflow-x-hidden w-full" style={{ background: 'var(--paper)' }}>
       <PageHeader title="Conversations" subtitle="વાર્તાલાપ પ્રૅક્ટિસ" back="/" />
 
       {loading ? (
@@ -62,7 +64,7 @@ export default function Conversations() {
           Loading…
         </div>
       ) : (
-        <div className="flex-1 overflow-y-auto overflow-x-hidden no-scrollbar px-5 pt-4 pb-6">
+        <div ref={scrollRef} className="flex-1 overflow-y-auto overflow-x-hidden no-scrollbar px-5 pt-4 pb-6">
           {/* search */}
           <div
             className="flex items-center gap-2 px-3 py-2.5 rounded-[13px] mb-5"
@@ -133,6 +135,7 @@ export default function Conversations() {
         </div>
       )}
 
+      {!loading && <ScrollToTop targetRef={scrollRef} />}
       <BottomNav active="conversations" />
     </div>
   );

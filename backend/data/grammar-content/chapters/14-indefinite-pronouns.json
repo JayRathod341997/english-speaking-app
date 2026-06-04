@@ -1,0 +1,409 @@
+{
+  "id": "ch-14-indefinite-pronouns",
+  "slug": "indefinite-pronouns",
+  "order": 15,
+  "title": {
+    "en": "Indefinite Pronouns",
+    "gu": "અનિશ્ચિત સર્વનામ",
+    "guMT": true
+  },
+  "summary": {
+    "en": "Pronouns that refer to non-specific persons or things — each, every, all, both, any, some, none — including their compounds (everyone, something, nowhere) and agreement rules.",
+    "gu": "સર્વનામ કે જે બિન-વિશિષ્ટ વ્યક્તિઓ અથવા વસ્તુઓનો સંદર્ભ આપે છે — દરેક, દરેક, બધા, બંને, કોઈપણ, કેટલાક, કોઈ નહીં — તેમના સંયોજનો (દરેક વ્યક્તિ, કંઈક, ક્યાંય) અને કરાર નિયમો સહિત.",
+    "guMT": true
+  },
+  "sources": [
+    "motion"
+  ],
+  "explanations": [
+    {
+      "block": "rules",
+      "id": "ch-14-indefinite-pronouns/exp-1",
+      "title": {
+        "en": "Key indefinite pronouns",
+        "gu": "મુખ્ય અનિશ્ચિત સર્વનામો",
+        "guMT": true
+      },
+      "items": [
+        {
+          "text": {
+            "en": "'Each' — refers to every individual separately (two or more); always singular.",
+            "gu": "'દરેક' - દરેક વ્યક્તિનો અલગથી ઉલ્લેખ કરે છે (બે અથવા વધુ); હંમેશા એકવચન.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "Each of the students is regular.",
+              "gu": "દરેક વિદ્યાર્થી નિયમિત છે.",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "'Every' — like 'each' but emphasises all members without exception; always singular.",
+            "gu": "'દરેક' — 'દરેક'ની જેમ પરંતુ અપવાદ વિના તમામ સભ્યો પર ભાર મૂકે છે; હંમેશા એકવચન.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "Every student is present today.",
+              "gu": "દરેક વિદ્યાર્થી આજે હાજર છે.",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "'All' — refers to the entire group; plural verb when referring to people.",
+            "gu": "'બધા' - સમગ્ર જૂથનો ઉલ્લેખ કરે છે; લોકોનો ઉલ્લેખ કરતી વખતે બહુવચન ક્રિયાપદ.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "All the questions are easy.",
+              "gu": "બધા પ્રશ્નો સરળ છે.",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "'Both' — refers to two persons/things together; plural verb.",
+            "gu": "'બંને' - એકસાથે બે વ્યક્તિઓ/વસ્તુઓનો ઉલ્લેખ કરે છે; બહુવચન ક્રિયાપદ",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "Both the pens are blue.",
+              "gu": "બંને પેન વાદળી છે.",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "'Any' — one or more of several; used in questions and negatives.",
+            "gu": "'કોઈપણ' — અનેકમાંથી એક અથવા વધુ; પ્રશ્નો અને નકારાત્મકમાં વપરાય છે.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "Is there any water in the pot?",
+              "gu": "શું વાસણમાં પાણી છે?",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "'Some' — an unspecified number or amount; used in affirmative sentences.",
+            "gu": "'કેટલાક' — એક અસ્પષ્ટ સંખ્યા અથવા રકમ; હકારાત્મક વાક્યોમાં વપરાય છે.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "Some teachers are reading in the library.",
+              "gu": "કેટલાક શિક્ષકો પુસ્તકાલયમાં વાંચી રહ્યા છે.",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "'None' — not any; can take a singular or plural verb depending on context.",
+            "gu": "'કોઈ નહીં' — કોઈ નહીં; સંદર્ભના આધારે એકવચન અથવા બહુવચન ક્રિયાપદ લઈ શકે છે.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "None of the students is regular.",
+              "gu": "એકપણ વિદ્યાર્થી નિયમિત નથી.",
+              "guMT": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "block": "rules",
+      "id": "ch-14-indefinite-pronouns/exp-2",
+      "title": {
+        "en": "Compounds: every/some/any/no + body/one/thing/where/time",
+        "gu": "સંયોજનો: દરેક/કેટલાક/કોઈ/ના + શરીર/એક/વસ્તુ/જ્યાં/સમય",
+        "guMT": true
+      },
+      "items": [
+        {
+          "text": {
+            "en": "every + body/one/thing/where/time → everybody, everything, everywhere, every time (always singular).",
+            "gu": "દરેક + શરીર/એક/વસ્તુ/જ્યાં/સમય → દરેક વ્યક્તિ, દરેક વસ્તુ, દરેક જગ્યાએ, દરેક વખતે (હંમેશા એકવચન).",
+            "guMT": true
+          }
+        },
+        {
+          "text": {
+            "en": "some + body/one/thing/where/times → somebody, something, somewhere, sometimes.",
+            "gu": "અમુક + શરીર/એક/વસ્તુ/જ્યાં/સમય → કોઈક, કંઈક, ક્યાંક, ક્યારેક.",
+            "guMT": true
+          }
+        },
+        {
+          "text": {
+            "en": "any + body/one/thing/where/time → anybody, anything, anywhere, anytime.",
+            "gu": "કોઈપણ + શરીર/એક/વસ્તુ/જ્યાં/સમય → કોઈપણ, કંઈપણ, ગમે ત્યાં, કોઈપણ સમયે.",
+            "guMT": true
+          }
+        },
+        {
+          "text": {
+            "en": "any + not = no: anyone + not = no one; anything + not = nothing; anywhere + not = nowhere; anytime + not = never.",
+            "gu": "any + not = no: any + not = no one; કંઈપણ + નથી = કંઈ નથી; ગમે ત્યાં + નહીં = ક્યાંય; કોઈપણ સમયે + નહીં = ક્યારેય નહીં.",
+            "guMT": true
+          }
+        }
+      ]
+    },
+    {
+      "block": "rules",
+      "id": "ch-14-indefinite-pronouns/exp-3",
+      "title": {
+        "en": "Agreement rule with 'of'",
+        "gu": "'of' સાથે કરારનો નિયમ",
+        "guMT": true
+      },
+      "items": [
+        {
+          "text": {
+            "en": "Each / One / Either / Neither + of + plural noun → singular verb.",
+            "gu": "દરેક / એક / ક્યાં તો / બેમાંથી + + બહુવચન સંજ્ઞા → એકવચન ક્રિયાપદ.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "Each of the students is regular.",
+              "gu": "દરેક વિદ્યાર્થી નિયમિત છે.",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "All / Some / Many / Both / A few + of + plural noun → plural verb.",
+            "gu": "બધા / કેટલાક / ઘણા / બંને / થોડા + ના + બહુવચન સંજ્ઞા → બહુવચન ક્રિયાપદ.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "All of the students are regular.",
+              "gu": "તમામ વિદ્યાર્થીઓ નિયમિત છે.",
+              "guMT": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "ch-14-indefinite-pronouns/q-1",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "Every boy ____ a book in his hand.",
+        "gu": "દરેક છોકરો ____ તેના હાથમાં એક પુસ્તક.",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "have",
+          "gu": "પાસે",
+          "guMT": true
+        },
+        {
+          "en": "has",
+          "gu": "ધરાવે છે",
+          "guMT": true
+        },
+        {
+          "en": "are",
+          "gu": "છે",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "has",
+        "gu": "ધરાવે છે",
+        "guMT": true
+      },
+      "hint": {
+        "en": "'Every' is always singular — use 'has'.",
+        "gu": "'દરેક' હંમેશા એકવચન હોય છે - 'has' નો ઉપયોગ કરો.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-14-indefinite-pronouns/q-2",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "Is there ____ tea in the kettle?",
+        "gu": "કીટલીમાં ____ ચા છે?",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "any",
+          "gu": "કોઈપણ",
+          "guMT": true
+        },
+        {
+          "en": "some",
+          "gu": "કેટલાક",
+          "guMT": true
+        },
+        {
+          "en": "none",
+          "gu": "કોઈ નહીં",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "any",
+        "gu": "કોઈપણ",
+        "guMT": true
+      },
+      "hint": {
+        "en": "Use 'any' in questions.",
+        "gu": "પ્રશ્નોમાં 'કોઈપણ' નો ઉપયોગ કરો.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-14-indefinite-pronouns/q-3",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "Yes, there is ____ tea in it.",
+        "gu": "હા, તેમાં ____ ચા છે.",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "any",
+          "gu": "કોઈપણ",
+          "guMT": true
+        },
+        {
+          "en": "some",
+          "gu": "કેટલાક",
+          "guMT": true
+        },
+        {
+          "en": "none",
+          "gu": "કોઈ નહીં",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "some",
+        "gu": "કેટલાક",
+        "guMT": true
+      },
+      "hint": {
+        "en": "Use 'some' in affirmative sentences.",
+        "gu": "હકારાત્મક વાક્યોમાં 'કેટલાક' નો ઉપયોગ કરો.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-14-indefinite-pronouns/q-4",
+      "type": "mcq",
+      "prompt": {
+        "en": "Which sentence is grammatically correct?",
+        "gu": "કયું વાક્ય વ્યાકરણની દૃષ્ટિએ સાચું છે?",
+        "guMT": true
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Each of the students are regular.",
+            "gu": "દરેક વિદ્યાર્થીઓ નિયમિત છે.",
+            "guMT": true
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Each of the students is regular.",
+            "gu": "દરેક વિદ્યાર્થી નિયમિત છે.",
+            "guMT": true
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Each of the students were regular.",
+            "gu": "દરેક વિદ્યાર્થીઓ નિયમિત હતા.",
+            "guMT": true
+          }
+        }
+      ],
+      "answer": "b",
+      "solution": {
+        "en": "'Each of' + plural noun always takes a singular verb.",
+        "gu": "'પ્રત્યેક' + બહુવચન સંજ્ઞા હંમેશા એકવચન ક્રિયાપદ લે છે.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-14-indefinite-pronouns/q-5",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "He did not take ____ from his parents.",
+        "gu": "તેણે તેના માતાપિતા પાસેથી ____ લીધું ન હતું.",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "anything",
+          "gu": "કંઈપણ",
+          "guMT": true
+        },
+        {
+          "en": "something",
+          "gu": "કંઈક",
+          "guMT": true
+        },
+        {
+          "en": "everything",
+          "gu": "બધું",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "anything",
+        "gu": "કંઈપણ",
+        "guMT": true
+      },
+      "hint": {
+        "en": "Use 'anything' in negative sentences.",
+        "gu": "નકારાત્મક વાક્યોમાં 'કંઈપણ' નો ઉપયોગ કરો.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-14-indefinite-pronouns/q-6",
+      "type": "translation",
+      "direction": "en_to_gu",
+      "prompt": {
+        "en": "Nobody will fail in this exam.",
+        "gu": "આ પરીક્ષામાં કોઈ નાપાસ થશે નહીં.",
+        "guMT": true
+      },
+      "answer": {
+        "en": "Nobody will fail in this exam.",
+        "gu": "આ પરીક્ષામાં કોઈ નાપાસ થશે નહીં.",
+        "guMT": true
+      }
+    }
+  ]
+}

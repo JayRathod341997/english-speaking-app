@@ -16,15 +16,25 @@ const DIFF_STYLE: Record<string, React.CSSProperties> = {
   Advanced:     { background: 'var(--rose-soft)', color: 'var(--rose)' },
 };
 
-/** Bold the idiom phrase within an example sentence. */
-function highlight(example: string, idiom: string) {
-  const idx = example.toLowerCase().indexOf(idiom.toLowerCase());
-  if (idx === -1) return example;
+/** Escape regex special characters. */
+function escapeRegExp(str: string) {
+  return str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+
+/** Bold all occurrences of the idiom phrase within a text. */
+function highlight(text: string, idiom: string) {
+  if (!idiom) return text;
+  const regex = new RegExp(`(${escapeRegExp(idiom)})`, 'gi');
+  const parts = text.split(regex);
   return (
     <>
-      {example.slice(0, idx)}
-      <strong style={{ color: 'var(--ink)' }}>{example.slice(idx, idx + idiom.length)}</strong>
-      {example.slice(idx + idiom.length)}
+      {parts.map((part, i) =>
+        part.toLowerCase() === idiom.toLowerCase() ? (
+          <strong key={i} style={{ color: 'var(--ink)' }}>{part}</strong>
+        ) : (
+          part
+        )
+      )}
     </>
   );
 }
@@ -84,9 +94,9 @@ export default function IdiomCard({ idiom, bookmarked, learned, onToggleBookmark
         {idiom.english_meaning}
       </div>
 
-      {idiom.examples?.[0] && (
-        <p className="text-[12px] italic mt-2" style={{ color: 'var(--ink-soft)' }}>
-          {highlight(idiom.examples[0], idiom.idiom)}
+      {idiom.examples && idiom.examples.length > 0 && (
+        <p className="text-[12px] italic leading-relaxed mt-2" style={{ color: 'var(--ink-soft)' }}>
+          {highlight(idiom.examples.join(' '), idiom.idiom)}
         </p>
       )}
 

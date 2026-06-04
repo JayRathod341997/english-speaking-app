@@ -23,7 +23,9 @@
       "Bash(python -c \"from app.main import app; from app.store import SCENARIOS; print\\(f'OK — {len\\(SCENARIOS\\)} scenarios loaded'\\)\")",
       "Bash(uv run *)",
       "Bash(rm -rf dist)",
-      "Bash(echo \"exit: $?\")"
+      "Bash(echo \"exit: $?\")",
+      "Bash(python -c \"import json,sys; print\\(json.load\\(sys.stdin\\).get\\('scripts'\\)\\)\")",
+      "Read(//tmp/**)"
     ]
   }
 }

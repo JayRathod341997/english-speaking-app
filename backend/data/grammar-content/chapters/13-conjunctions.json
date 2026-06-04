@@ -1,0 +1,447 @@
+{
+  "id": "ch-13-conjunctions",
+  "slug": "conjunctions",
+  "order": 14,
+  "title": {
+    "en": "Conjunctions",
+    "gu": "જોડાણો",
+    "guMT": true
+  },
+  "summary": {
+    "en": "Words that join clauses or sentences — coordinating (and, or, but), subordinating (because, though, if, until), and paired conjunctions (either…or, neither…nor, not only…but also).",
+    "gu": "શબ્દો કે જે કલમો અથવા વાક્યોને જોડે છે — સંકલન (અને, અથવા, પરંતુ), ગૌણ (કારણ કે, જોકે, જો, ત્યાં સુધી), અને જોડી કરેલ જોડાણો (ક્યાં તો…અથવા, ન તો…ન તો, માત્ર…પણ).",
+    "guMT": true
+  },
+  "sources": [
+    "motion",
+    "anamika"
+  ],
+  "explanations": [
+    {
+      "block": "prose",
+      "id": "ch-13-conjunctions/exp-1",
+      "text": {
+        "en": "A conjunction is a word that joins two words, phrases or clauses together. There are coordinating conjunctions (joining equals), subordinating conjunctions (joining a main and dependent clause), and paired conjunctions.",
+        "gu": "જોડાણ એ એક એવો શબ્દ છે જે બે શબ્દો, શબ્દસમૂહો અથવા કલમોને એકસાથે જોડે છે. ત્યાં સમન્વયાત્મક જોડાણો (જોડાવું સમાન), ગૌણ જોડાણો (મુખ્ય અને આશ્રિત કલમમાં જોડાવું), અને જોડી કરેલ જોડાણો છે.",
+        "guMT": true
+      }
+    },
+    {
+      "block": "rules",
+      "id": "ch-13-conjunctions/exp-2",
+      "title": {
+        "en": "Coordinating conjunctions",
+        "gu": "સંકલન સંયોજનો",
+        "guMT": true
+      },
+      "items": [
+        {
+          "text": {
+            "en": "'And' — adds one idea to another.",
+            "gu": "'અને' - એક વિચાર બીજામાં ઉમેરે છે.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "This is a black and white television.",
+              "gu": "આ બ્લેક એન્ડ વ્હાઇટ ટેલિવિઝન છે.",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "'Or' — presents an alternative.",
+            "gu": "'અથવા' — એક વિકલ્પ રજૂ કરે છે.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "What will you take? Tea or coffee?",
+              "gu": "તમે શું લેશો? ચા કે કોફી?",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "'But' — shows contrast.",
+            "gu": "'પરંતુ' - વિરોધાભાસ દર્શાવે છે.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "I can read English but I cannot speak well.",
+              "gu": "હું અંગ્રેજી વાંચી શકું છું પણ સારી રીતે બોલી શકતો નથી.",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "'So / Therefore' — shows result.",
+            "gu": "'તેથી/તેથી' - પરિણામ બતાવે છે.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "English is useful so I am learning it.",
+              "gu": "અંગ્રેજી ઉપયોગી છે તેથી હું તે શીખી રહ્યો છું.",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "'Also / Too / Even' — add information. 'Also' and 'Too' are similar; 'Even' stresses an unexpected addition.",
+            "gu": "'પણ / ખૂબ / પણ' - માહિતી ઉમેરો. 'પણ' અને 'ટૂ' સમાન છે; 'Even' એક અણધાર્યા વધારા પર ભાર મૂકે છે.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "I, too, understand English. Even you are not regular.",
+              "gu": "હું પણ અંગ્રેજી સમજું છું. તમે પણ નિયમિત નથી.",
+              "guMT": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "block": "rules",
+      "id": "ch-13-conjunctions/exp-3",
+      "title": {
+        "en": "Subordinating conjunctions",
+        "gu": "ગૌણ જોડાણો",
+        "guMT": true
+      },
+      "items": [
+        {
+          "text": {
+            "en": "'Because / As / Since' — show reason.",
+            "gu": "'કારણ કે / કારણકે / ત્યારથી' — કારણ બતાવો.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "I am learning English because it is useful.",
+              "gu": "હું અંગ્રેજી શીખી રહ્યો છું કારણ કે તે ઉપયોગી છે.",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "'Though / Although' — show contrast; often followed by 'but', 'yet' or 'still'.",
+            "gu": "'જોકે/જોકે' — કોન્ટ્રાસ્ટ બતાવો; ઘણીવાર 'but', 'yet' અથવા 'still' દ્વારા અનુસરવામાં આવે છે.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "Though he is clever, he does not pass the exam.",
+              "gu": "તે હોશિયાર હોવા છતાં પરીક્ષામાં પાસ થતો નથી.",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "'Otherwise' — shows consequence if condition not met.",
+            "gu": "'અન્યથા' — જો શરત પૂરી ન થાય તો પરિણામ બતાવે છે.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "Work hard otherwise you will fail.",
+              "gu": "સખત મહેનત કરો નહીંતર નિષ્ફળ જશો.",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "'If / Unless' — condition. 'Unless' = 'if not'.",
+            "gu": "'જો / સિવાય' — શરત. 'અનલેસ' = 'જો નહીં'.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "If you read, you will pass. Unless you read, you will not pass.",
+              "gu": "વાંચશો તો પાસ થઈ જશો. જ્યાં સુધી તમે વાંચશો નહીં ત્યાં સુધી તમે પાસ થશો નહીં.",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "'Till / Until' — up to a point in time.",
+            "gu": "'Till / Until' — સમયના એક બિંદુ સુધી.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "We shall stay here till Monday.",
+              "gu": "અમે સોમવાર સુધી અહીં રહીશું.",
+              "guMT": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "block": "rules",
+      "id": "ch-13-conjunctions/exp-4",
+      "title": {
+        "en": "Paired conjunctions",
+        "gu": "જોડી કરેલ જોડાણો",
+        "guMT": true
+      },
+      "items": [
+        {
+          "text": {
+            "en": "'Either … or' — one of two possibilities.",
+            "gu": "'ક્યાં તો ... અથવા' - બે શક્યતાઓમાંથી એક.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "Either Jadeja or Ganguly will become captain.",
+              "gu": "જાડેજા અથવા ગાંગુલી બંનેમાંથી એક કેપ્ટન બનશે.",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "'Neither … nor' — negative for both.",
+            "gu": "'ન તો ... કે ન' — બંને માટે નકારાત્મક.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "He is neither able to write nor to speak English.",
+              "gu": "તે ન તો અંગ્રેજી લખી શકે છે કે ન તો બોલી શકે છે.",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "'Not only … but also' — emphasises that both apply.",
+            "gu": "'માત્ર નહીં ... પણ' — ભાર મૂકે છે કે બંને લાગુ પડે છે.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "Not only Lata but Asha also sang well.",
+              "gu": "માત્ર લતા જ નહીં આશાએ પણ સારું ગાયું.",
+              "guMT": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "ch-13-conjunctions/q-1",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "Our teacher is kind ____ I like him.",
+        "gu": "અમારા શિક્ષક દયાળુ છે ____ મને તે ગમે છે.",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "and",
+          "gu": "અને",
+          "guMT": true
+        },
+        {
+          "en": "because",
+          "gu": "કારણ કે",
+          "guMT": true
+        },
+        {
+          "en": "so",
+          "gu": "તેથી",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "so",
+        "gu": "તેથી",
+        "guMT": true
+      },
+      "hint": {
+        "en": "The second clause is the result of the first — use 'so'.",
+        "gu": "બીજી કલમ પ્રથમનું પરિણામ છે — 'so' નો ઉપયોગ કરો.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-13-conjunctions/q-2",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "She is weak ____ she walks fast.",
+        "gu": "તેણી નબળી છે ____ તે ઝડપથી ચાલે છે.",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "and",
+          "gu": "અને",
+          "guMT": true
+        },
+        {
+          "en": "or",
+          "gu": "અથવા",
+          "guMT": true
+        },
+        {
+          "en": "but",
+          "gu": "પરંતુ",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "but",
+        "gu": "પરંતુ",
+        "guMT": true
+      },
+      "hint": {
+        "en": "Contrast — weakness vs walking fast.",
+        "gu": "કોન્ટ્રાસ્ટ — નબળાઈ વિ ઝડપી ચાલવું.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-13-conjunctions/q-3",
+      "type": "mcq",
+      "prompt": {
+        "en": "He got ____ prize ____ praise.",
+        "gu": "તેને ____ ઇનામ ____ પ્રશંસા મળી.",
+        "guMT": true
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "either…or",
+            "gu": "ક્યાં તો…અથવા",
+            "guMT": true
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "neither…nor",
+            "gu": "ન તો…ન તો",
+            "guMT": true
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "not only…but also",
+            "gu": "માત્ર…પણ",
+            "guMT": true
+          }
+        }
+      ],
+      "answer": "b",
+      "solution": {
+        "en": "'Neither … nor' shows that he got neither of the two things.",
+        "gu": "'ન તો ... કે ન' બતાવે છે કે તેને બેમાંથી કોઈ વસ્તુ મળી નથી.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-13-conjunctions/q-4",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "Don't go ____ I tell you.",
+        "gu": "ન જાવ ____ હું તમને કહું છું.",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "until",
+          "gu": "સુધી",
+          "guMT": true
+        },
+        {
+          "en": "before",
+          "gu": "પહેલાં",
+          "guMT": true
+        },
+        {
+          "en": "so",
+          "gu": "તેથી",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "until",
+        "gu": "સુધી",
+        "guMT": true
+      },
+      "hint": {
+        "en": "'Until' means 'up to the time that'.",
+        "gu": "'જ્યાં સુધી' નો અર્થ થાય છે 'સમય સુધી'.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-13-conjunctions/q-5",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "Work hard ____ you will fail.",
+        "gu": "સખત મહેનત કરો ____ તમે નિષ્ફળ થશો.",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "because",
+          "gu": "કારણ કે",
+          "guMT": true
+        },
+        {
+          "en": "otherwise",
+          "gu": "અન્યથા",
+          "guMT": true
+        },
+        {
+          "en": "until",
+          "gu": "સુધી",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "otherwise",
+        "gu": "અન્યથા",
+        "guMT": true
+      },
+      "hint": {
+        "en": "'Otherwise' signals a negative consequence.",
+        "gu": "'અન્યથા' નકારાત્મક પરિણામનો સંકેત આપે છે.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-13-conjunctions/q-6",
+      "type": "translation",
+      "direction": "en_to_gu",
+      "prompt": {
+        "en": "Though he is poor, he is honest.",
+        "gu": "તે ગરીબ હોવા છતાં પ્રમાણિક છે.",
+        "guMT": true
+      },
+      "answer": {
+        "en": "Though he is poor, he is honest.",
+        "gu": "તે ગરીબ હોવા છતાં પ્રમાણિક છે.",
+        "guMT": true
+      }
+    }
+  ]
+}

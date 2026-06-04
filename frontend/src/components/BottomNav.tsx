@@ -1,13 +1,14 @@
 import { useNavigate } from 'react-router-dom';
-import { BookIcon, CardsIcon, ChatIcon, HomeIcon } from './Icon';
+import { BookIcon, CardsIcon, ChatIcon, GrammarIcon, HomeIcon } from './Icon';
 
-export type NavTab = 'home' | 'conversations' | 'idioms' | 'vocabulary';
+export type NavTab = 'home' | 'conversations' | 'idioms' | 'vocabulary' | 'grammar';
 
 const TABS: { key: NavTab; label: string; path: string; Icon: typeof HomeIcon }[] = [
   { key: 'home',          label: 'Home',     path: '/',              Icon: HomeIcon },
   { key: 'conversations', label: 'Talk',     path: '/conversations', Icon: ChatIcon },
   { key: 'idioms',        label: 'Idioms',   path: '/idioms',        Icon: BookIcon },
   { key: 'vocabulary',    label: 'Words',    path: '/vocabulary',    Icon: CardsIcon },
+  { key: 'grammar',       label: 'Grammar',  path: '/grammar',       Icon: GrammarIcon },
 ];
 
 export default function BottomNav({ active }: { active?: NavTab | 'progress' }) {

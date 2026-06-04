@@ -79,3 +79,6 @@ export const SparkleIcon = base(
 );
 
 export const SearchIcon = base(<><circle cx="11" cy="11" r="7" /><line x1="21" y1="21" x2="16.65" y2="16.65" /></>);
+
+// "T" text-formatting glyph — reads as grammar/writing.
+export const GrammarIcon = base(<><path d="M4 7V5h16v2" /><path d="M9 19h6" /><path d="M12 5v14" /></>);

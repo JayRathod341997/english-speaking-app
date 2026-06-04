@@ -1,9 +1,10 @@
-import { useEffect, useMemo, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import BottomNav from '../components/BottomNav';
 import Flashcard from '../components/Flashcard';
 import PageHeader from '../components/PageHeader';
 import PronounceButton from '../components/PronounceButton';
+import ScrollToTop from '../components/ScrollToTop';
 import { useLocalProgress } from '../hooks/useLocalProgress';
 import { vocabularyApi } from '../services/api';
 import type { MiniDialogue, VocabCategoryDetail, VocabWord } from '../types';
@@ -16,6 +17,7 @@ export default function VocabularyCategory() {
   const [tab, setTab] = useState<'words' | 'dialogues'>('words');
   const { progress, setWord } = useLocalProgress();
   const navigate = useNavigate();
+  const scrollRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     let active = true;
@@ -40,7 +42,7 @@ export default function VocabularyCategory() {
     : 0;
 
   return (
-    <div className="flex flex-col h-[100dvh] overflow-x-hidden w-full" style={{ background: 'var(--paper)' }}>
+    <div className="relative flex flex-col h-[100dvh] overflow-x-hidden w-full" style={{ background: 'var(--paper)' }}>
       <PageHeader title={cat?.category ?? 'Vocabulary'} subtitle={cat?.level} back="/vocabulary" />
 
       {loading || !cat ? (
@@ -48,7 +50,7 @@ export default function VocabularyCategory() {
           Loading…
         </div>
       ) : (
-        <div className="flex-1 overflow-y-auto overflow-x-hidden no-scrollbar px-5 pt-4 pb-6">
+        <div ref={scrollRef} className="flex-1 overflow-y-auto overflow-x-hidden no-scrollbar px-5 pt-4 pb-6">
           {/* progress + quiz CTA */}
           <div className="flex items-center justify-between mb-4">
             <p className="text-sm font-semibold" style={{ color: 'var(--ink)' }}>
@@ -116,6 +118,7 @@ export default function VocabularyCategory() {
         </div>
       )}
 
+      {!loading && cat && <ScrollToTop targetRef={scrollRef} />}
       <BottomNav active="vocabulary" />
     </div>
   );

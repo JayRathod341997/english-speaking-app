@@ -1,7 +1,8 @@
-import { useEffect, useMemo, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import BottomNav from '../components/BottomNav';
 import IdiomCard from '../components/IdiomCard';
 import PageHeader from '../components/PageHeader';
+import ScrollToTop from '../components/ScrollToTop';
 import { useLocalProgress } from '../hooks/useLocalProgress';
 import { idiomsApi } from '../services/api';
 import type { IdiomsLibrary } from '../types';
@@ -17,8 +18,9 @@ export default function Idioms() {
   const [cat, setCat] = useState('All');
   const [diff, setDiff] = useState('All');
   const [limit, setLimit] = useState(PAGE);
-  const [showSaved, setShowSaved] = useState(false);
+  const [filter, setFilter] = useState<'all' | 'unread' | 'saved'>('all');
   const { progress, toggleIdiomBookmark, toggleIdiomLearned } = useLocalProgress();
+  const scrollRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     idiomsApi.list().then(setLib).finally(() => setLoading(false));
@@ -27,6 +29,7 @@ export default function Idioms() {
   const totalIdioms = lib?.total_idioms ?? 0;
   const learnedSet = useMemo(() => new Set(progress.learnedIdioms ?? []), [progress.learnedIdioms]);
   const learnedCount = useMemo(() => lib?.idioms.filter(i => learnedSet.has(i.id)).length ?? 0, [lib, learnedSet]);
+  const unreadCount = useMemo(() => lib?.idioms.filter(i => !learnedSet.has(i.id)).length ?? 0, [lib, learnedSet]);
   const pct = useMemo(() => totalIdioms ? Math.round((learnedCount / totalIdioms) * 100) : 0, [totalIdioms, learnedCount]);
 
   const filtered = useMemo(() => {
@@ -34,22 +37,23 @@ export default function Idioms() {
     const bookmarks = new Set(progress.idiomBookmarks);
     return lib.idioms.filter(
       i =>
-        (!showSaved || bookmarks.has(i.id)) &&
+        (filter === 'all' ||
+         (filter === 'saved' && bookmarks.has(i.id)) ||
+         (filter === 'unread' && !learnedSet.has(i.id))) &&
         (cat === 'All' || i.category === cat) &&
         (diff === 'All' || i.difficulty === diff)
     );
-  }, [lib, cat, diff, showSaved, progress.idiomBookmarks]);
+  }, [lib, cat, diff, filter, progress.idiomBookmarks, learnedSet]);
 
   // reset pagination whenever a filter changes
   const setCatFiltered = (c: string) => { setCat(c); setLimit(PAGE); };
   const setDiffFiltered = (d: string) => { setDiff(d); setLimit(PAGE); };
-  const setShowSavedFiltered = (val: boolean) => { setShowSaved(val); setLimit(PAGE); };
-
+  const setFilterFiltered = (f: 'all' | 'unread' | 'saved') => { setFilter(f); setLimit(PAGE); };
   const visible = filtered.slice(0, limit);
   const bookmarks = new Set(progress.idiomBookmarks);
 
   return (
-    <div className="flex flex-col h-[100dvh] overflow-x-hidden w-full" style={{ background: 'var(--paper)' }}>
+    <div className="relative flex flex-col h-[100dvh] overflow-x-hidden w-full" style={{ background: 'var(--paper)' }}>
       <PageHeader title="Idioms Library" subtitle="રૂઢિપ્રયોગો" back="/" />
 
       {loading ? (
@@ -57,7 +61,7 @@ export default function Idioms() {
           Loading idioms…
         </div>
       ) : (
-        <div className="flex-1 overflow-y-auto overflow-x-hidden no-scrollbar px-5 pt-4 pb-6">
+        <div ref={scrollRef} className="flex-1 overflow-y-auto overflow-x-hidden no-scrollbar px-5 pt-4 pb-6">
           <p className="text-sm mb-3" style={{ color: 'var(--ink-soft)' }}>
             {lib?.total_idioms} idioms with meanings, examples & pronunciation. Tap 🔊 to hear, 🎙 to practise.
           </p>
@@ -77,13 +81,13 @@ export default function Idioms() {
             </div>
           </div>
 
-          {/* Main Tab Switcher: All vs Saved */}
+          {/* Main Tab Switcher: All vs Unread vs Saved */}
           <div className="flex gap-2 mb-4 p-1 rounded-xl" style={{ background: 'var(--paper-2)' }}>
             <button
-              onClick={() => setShowSavedFiltered(false)}
+              onClick={() => setFilterFiltered('all')}
               className="flex-grow flex-shrink-0 flex-1 py-2 text-xs font-bold rounded-lg transition-all"
               style={
-                !showSaved
+                filter === 'all'
                   ? { background: 'var(--card)', color: 'var(--teal)', boxShadow: '0 2px 4px rgba(0,0,0,0.05)', border: 'none', cursor: 'pointer' }
                   : { color: 'var(--ink-soft)', border: 'none', cursor: 'pointer' }
               }
@@ -91,10 +95,21 @@ export default function Idioms() {
               All Idioms
             </button>
             <button
-              onClick={() => setShowSavedFiltered(true)}
+              onClick={() => setFilterFiltered('unread')}
+              className="flex-grow flex-shrink-0 flex-1 py-2 text-xs font-bold rounded-lg transition-all flex items-center justify-center gap-1"
+              style={
+                filter === 'unread'
+                  ? { background: 'var(--card)', color: 'var(--teal)', boxShadow: '0 2px 4px rgba(0,0,0,0.05)', border: 'none', cursor: 'pointer' }
+                  : { color: 'var(--ink-soft)', border: 'none', cursor: 'pointer' }
+              }
+            >
+              📖 Unread ({unreadCount})
+            </button>
+            <button
+              onClick={() => setFilterFiltered('saved')}
               className="flex-grow flex-shrink-0 flex-1 py-2 text-xs font-bold rounded-lg transition-all flex items-center justify-center gap-1.5"
               style={
-                showSaved
+                filter === 'saved'
                   ? { background: 'var(--card)', color: 'var(--teal)', boxShadow: '0 2px 4px rgba(0,0,0,0.05)', border: 'none', cursor: 'pointer' }
                   : { color: 'var(--ink-soft)', border: 'none', cursor: 'pointer' }
               }
@@ -204,13 +219,21 @@ export default function Idioms() {
 
           {visible.length === 0 && (
             <div className="text-center py-16 px-4">
-              <div className="text-4xl mb-3">🔖</div>
+              <div className="text-4xl mb-3">
+                {filter === 'saved' ? '🔖' : filter === 'unread' ? '📖' : '🔍'}
+              </div>
               <p className="text-sm font-semibold" style={{ color: 'var(--ink)' }}>
-                {showSaved ? "No saved idioms yet" : "No idioms match these filters"}
+                {filter === 'saved'
+                  ? "No saved idioms yet"
+                  : filter === 'unread'
+                  ? "All idioms completed!"
+                  : "No idioms match these filters"}
               </p>
               <p className="text-xs mt-1 max-w-[240px] mx-auto" style={{ color: 'var(--ink-soft)' }}>
-                {showSaved
+                {filter === 'saved'
                   ? "Tap the bookmark icon on any idiom card to save it here for quick practice."
+                  : filter === 'unread'
+                  ? "Great job! You have marked all idioms as learned."
                   : "Try clearing some filters to see more idioms."}
               </p>
             </div>
@@ -228,6 +251,7 @@ export default function Idioms() {
         </div>
       )}
 
+      {!loading && <ScrollToTop targetRef={scrollRef} />}
       <BottomNav active="idioms" />
     </div>
   );

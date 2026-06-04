@@ -1,7 +1,8 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import BottomNav from '../components/BottomNav';
 import PageHeader from '../components/PageHeader';
 import PronounceButton from '../components/PronounceButton';
+import ScrollToTop from '../components/ScrollToTop';
 import { FlipIcon } from '../components/Icon';
 import { flashcardsApi } from '../services/api';
 import type { Flashcard, FlashcardDeck } from '../types';
@@ -85,6 +86,7 @@ export default function Flashcards() {
   const [decks, setDecks] = useState<FlashcardDeck[]>([]);
   const [active, setActive] = useState(0);
   const [loading, setLoading] = useState(true);
+  const scrollRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     flashcardsApi.decks().then(setDecks).finally(() => setLoading(false));
@@ -93,7 +95,7 @@ export default function Flashcards() {
   const deck = decks[active];
 
   return (
-    <div className="flex flex-col h-[100dvh] overflow-x-hidden w-full" style={{ background: 'var(--paper)' }}>
+    <div className="relative flex flex-col h-[100dvh] overflow-x-hidden w-full" style={{ background: 'var(--paper)' }}>
       <PageHeader title="Flashcards" subtitle="શબ્દ કાર્ડ" back="/" />
 
       {loading ? (
@@ -101,7 +103,7 @@ export default function Flashcards() {
           Loading…
         </div>
       ) : (
-        <div className="flex-1 overflow-y-auto overflow-x-hidden no-scrollbar px-5 pt-4 pb-6">
+        <div ref={scrollRef} className="flex-1 overflow-y-auto overflow-x-hidden no-scrollbar px-5 pt-4 pb-6">
           {/* Deck (category) chips */}
           <div className="flex flex-wrap gap-2 mb-5">
             {decks.map((d, i) => (
@@ -130,6 +132,7 @@ export default function Flashcards() {
         </div>
       )}
 
+      {!loading && <ScrollToTop targetRef={scrollRef} />}
       <BottomNav active="vocabulary" />
     </div>
   );

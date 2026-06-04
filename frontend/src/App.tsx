@@ -6,6 +6,8 @@ import DialoguePractice from './pages/DialoguePractice';
 import Dialogues from './pages/Dialogues';
 import Feedback from './pages/Feedback';
 import Flashcards from './pages/Flashcards';
+import Grammar from './pages/Grammar';
+import GrammarChapter from './pages/GrammarChapter';
 import Home from './pages/Home';
 import Idioms from './pages/Idioms';
 import Progress from './pages/Progress';
@@ -35,6 +37,9 @@ export default function App() {
         <Route path="/dialogues/:id" element={<DialoguePractice />} />
 
         <Route path="/flashcards" element={<Flashcards />} />
+
+        <Route path="/grammar" element={<Grammar />} />
+        <Route path="/grammar/:slug" element={<GrammarChapter />} />
       </Routes>
     </BrowserRouter>
   );

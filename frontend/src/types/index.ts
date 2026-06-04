@@ -214,3 +214,128 @@ export interface FlashcardDeck {
   total: number;
   cards: Flashcard[];
 }
+
+// ── Grammar ──────────────────────────────────────────────────────────────
+export type GrammarLevel = 'Beginner' | 'Intermediate' | 'Advanced';
+
+/** Bilingual text node. `gu` may be machine-translated (guMT). */
+export interface GrammarT {
+  en: string;
+  gu: string;
+  guMT?: boolean;
+}
+
+// Explanation blocks — discriminated on `block`.
+export interface ProseBlock {
+  block: 'prose';
+  id?: string;
+  text: GrammarT;
+}
+export interface RuleItem {
+  text: GrammarT;
+  examples?: GrammarT[];
+}
+export interface RulesBlock {
+  block: 'rules';
+  id?: string;
+  title: GrammarT;
+  items: RuleItem[];
+}
+export interface ExamplesBlock {
+  block: 'examples';
+  id?: string;
+  items: GrammarT[];
+}
+export interface TableHeader {
+  key: string;
+  label: GrammarT;
+}
+export interface TableBlock {
+  block: 'table';
+  id?: string;
+  caption: GrammarT;
+  headers: TableHeader[];
+  rows: Record<string, string>[];
+}
+export type ExplanationBlock = ProseBlock | RulesBlock | ExamplesBlock | TableBlock;
+
+// Practice items — discriminated on `type`.
+export interface McqOption {
+  id: string;
+  text: GrammarT;
+}
+export interface McqItem {
+  id: string;
+  type: 'mcq';
+  prompt: GrammarT;
+  options: McqOption[];
+  answer: string; // references an option id
+  solution?: GrammarT;
+}
+export interface FillBlankItem {
+  id: string;
+  type: 'fill_blank';
+  prompt: GrammarT; // contains the literal "____"
+  options?: GrammarT[]; // optional word-bank
+  answer: GrammarT;
+  hint?: GrammarT;
+}
+export interface TranslationItem {
+  id: string;
+  type: 'translation';
+  direction: 'en_to_gu' | 'gu_to_en';
+  prompt: GrammarT;
+  answer: GrammarT;
+}
+export interface TransformationItem {
+  id: string;
+  type: 'transformation';
+  transform: string; // voice | speech | degrees_of_comparison | ...
+  given: string;
+  ask: string;
+  forms: Record<string, GrammarT>;
+  answer: GrammarT;
+  solution?: GrammarT;
+}
+export type PracticeItem =
+  | McqItem
+  | FillBlankItem
+  | TranslationItem
+  | TransformationItem;
+
+export interface GrammarSource {
+  id: string;
+  title: string;
+  pages: number;
+}
+export interface GrammarCollection {
+  id: string;
+  title: GrammarT;
+  languages: string[];
+  sources: GrammarSource[];
+}
+export interface GrammarChapterSummary {
+  id: string;
+  slug: string;
+  order: number;
+  title: GrammarT;
+  summary?: GrammarT;
+  level: GrammarLevel;
+  explanation_count: number;
+  practice_count: number;
+}
+export interface GrammarIndex {
+  collection: GrammarCollection;
+  total_chapters: number;
+  chapters: GrammarChapterSummary[];
+}
+export interface GrammarChapter {
+  id: string;
+  slug: string;
+  order: number;
+  title: GrammarT;
+  summary: GrammarT;
+  sources: string[];
+  explanations: ExplanationBlock[];
+  practice: PracticeItem[];
+}

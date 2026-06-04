@@ -5,6 +5,7 @@ from app.config import settings
 from app.routers import (
     conversations,
     flashcards,
+    grammar,
     idioms,
     progress,
     scenarios,
@@ -29,6 +30,7 @@ app.include_router(idioms.router)
 app.include_router(vocabulary.router)
 app.include_router(conversations.router)
 app.include_router(flashcards.router)
+app.include_router(grammar.router)
 
 
 @app.get("/health")

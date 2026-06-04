@@ -1,0 +1,413 @@
+{
+  "id": "ch-03-singular-plural",
+  "slug": "singular-plural",
+  "order": 3,
+  "title": {
+    "en": "Singular and Plural",
+    "gu": "એકવચન અને બહુવચન",
+    "guMT": true
+  },
+  "summary": {
+    "en": "The rules for changing a singular noun to its plural form, including regular endings, irregular changes and nouns that stay the same.",
+    "gu": "એકવચન સંજ્ઞાને તેના બહુવચન સ્વરૂપમાં બદલવાના નિયમો, જેમાં નિયમિત અંત, અનિયમિત ફેરફારો અને સંજ્ઞાઓ સમાન રહે છે.",
+    "guMT": true
+  },
+  "sources": [
+    "motion",
+    "anamika"
+  ],
+  "explanations": [
+    {
+      "block": "prose",
+      "id": "ch-03-singular-plural/exp-1",
+      "text": {
+        "en": "A singular noun names one person, place or thing. A plural noun names more than one. Most plurals are formed by adding -s or -es, but many nouns follow special rules.",
+        "gu": "એકવચન નામ એક વ્યક્તિ, સ્થળ અથવા વસ્તુનું નામ આપે છે. બહુવચન સંજ્ઞા એક કરતાં વધુ નામો. મોટાભાગના બહુવચન -s અથવા -es ઉમેરીને રચાય છે, પરંતુ ઘણી સંજ્ઞાઓ વિશેષ નિયમોનું પાલન કરે છે.",
+        "guMT": true
+      }
+    },
+    {
+      "block": "rules",
+      "id": "ch-03-singular-plural/exp-2",
+      "title": {
+        "en": "Regular plural rules",
+        "gu": "નિયમિત બહુવચન નિયમો",
+        "guMT": true
+      },
+      "items": [
+        {
+          "text": {
+            "en": "Most nouns: add -s.",
+            "gu": "સૌથી વધુ સંજ્ઞાઓ: ઉમેરો -s.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "letter → letters, wall → walls, day → days",
+              "gu": "અક્ષર → અક્ષરો, દિવાલ → દિવાલો, દિવસ → દિવસો",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "Nouns ending in -o, -x, -sh, -ch, -s, -ss: add -es.",
+            "gu": "-o, -x, -sh, -ch, -s, -ss માં સમાપ્ત થતી સંજ્ઞાઓ: ઉમેરો -es.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "mango → mangoes, box → boxes, dish → dishes, bench → benches, class → classes",
+              "gu": "કેરી → કેરી, બોક્સ → બોક્સ, વાનગી → વાનગીઓ, બેંચ → બેન્ચ, વર્ગ → વર્ગો",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "Exception — some -o words just add -s (musical/shortened words).",
+            "gu": "અપવાદ — કેટલાક -o શબ્દો ફક્ત -s (સંગીત/ટૂંકા શબ્દો) ઉમેરે છે.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "kilo → kilos, photo → photos, logo → logos, stereo → stereos",
+              "gu": "કિલો → કિલો, ફોટો → ફોટા, લોગો → લોગો, સ્ટીરિયો → સ્ટીરિયો",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "Nouns ending in consonant + y: change y → i and add -es.",
+            "gu": "વ્યંજન + y માં સમાપ્ત થતી સંજ્ઞાઓ: y → i અને ઉમેરો -es બદલો.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "city → cities, lady → ladies, story → stories, baby → babies",
+              "gu": "શહેર → શહેરો, મહિલા → મહિલાઓ, વાર્તા → વાર્તાઓ, બાળક → બાળકો",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "Nouns ending in vowel + y: just add -s.",
+            "gu": "સ્વર + y માં સમાપ્ત થતી સંજ્ઞાઓ: ફક્ત -s ઉમેરો.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "boy → boys, key → keys, toy → toys, day → days",
+              "gu": "છોકરો → છોકરાઓ, કી → ચાવીઓ, રમકડા → રમકડાં, દિવસ → દિવસો",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "Nouns ending in -f or -fe: change f/fe → v and add -es.",
+            "gu": "-f અથવા -fe માં સમાપ્ત થતી સંજ્ઞાઓ: f/fe → v બદલો અને -es ઉમેરો.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "leaf → leaves, knife → knives, wife → wives, thief → thieves",
+              "gu": "પાંદડા → પાંદડા, છરી → છરીઓ, પત્ની → પત્નીઓ, ચોર → ચોર",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "Exception — some -f nouns just add -s.",
+            "gu": "અપવાદ — કેટલીક -f સંજ્ઞાઓ ફક્ત -s ઉમેરે છે.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "roof → roofs, chief → chiefs, proof → proofs, brief → briefs",
+              "gu": "છત → છત, મુખ્ય → વડાઓ, સાબિતી → પુરાવાઓ, સંક્ષિપ્ત → સંક્ષિપ્ત",
+              "guMT": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "block": "rules",
+      "id": "ch-03-singular-plural/exp-3",
+      "title": {
+        "en": "Irregular plurals",
+        "gu": "અનિયમિત બહુવચન",
+        "guMT": true
+      },
+      "items": [
+        {
+          "text": {
+            "en": "Some nouns change their vowel in the plural.",
+            "gu": "કેટલીક સંજ્ઞાઓ તેમના સ્વરને બહુવચનમાં બદલે છે.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "man → men, woman → women, foot → feet, tooth → teeth, mouse → mice",
+              "gu": "પુરુષ → પુરુષો, સ્ત્રી → સ્ત્રીઓ, પગ → પગ, દાંત → દાંત, ઉંદર → ઉંદર",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "Some nouns add a special ending.",
+            "gu": "કેટલીક સંજ્ઞાઓ ખાસ અંત ઉમેરે છે.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "child → children, ox → oxen",
+              "gu": "બાળક → બાળકો, બળદ → બળદ",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "Some nouns have the same form in singular and plural.",
+            "gu": "કેટલીક સંજ્ઞાઓ એકવચન અને બહુવચનમાં સમાન સ્વરૂપ ધરાવે છે.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "sheep, deer, fish, series, means, species",
+              "gu": "ઘેટાં, હરણ, માછલી, શ્રેણી, અર્થ, પ્રજાતિઓ",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "Some nouns are always plural (no singular form).",
+            "gu": "કેટલીક સંજ્ઞાઓ હંમેશા બહુવચન હોય છે (કોઈ એકવચન સ્વરૂપ નથી).",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "scissors, trousers, spectacles, mathematics, news",
+              "gu": "કાતર, ટ્રાઉઝર, ચશ્મા, ગણિત, સમાચાર",
+              "guMT": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "ch-03-singular-plural/q-1",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "The plural of 'baby' is ____.",
+        "gu": "'બાળક' નું બહુવચન ____ છે.",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "babys",
+          "gu": "બાળકો",
+          "guMT": true
+        },
+        {
+          "en": "babies",
+          "gu": "બાળકો",
+          "guMT": true
+        },
+        {
+          "en": "babes",
+          "gu": "બાળકો",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "babies",
+        "gu": "બાળકો",
+        "guMT": true
+      },
+      "hint": {
+        "en": "Consonant + y → change y to i and add -es.",
+        "gu": "વ્યંજન + y → y ને i માં બદલો અને -es ઉમેરો.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-03-singular-plural/q-2",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "The plural of 'knife' is ____.",
+        "gu": "'છરી' નું બહુવચન ____ છે.",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "knifes",
+          "gu": "છરીઓ",
+          "guMT": true
+        },
+        {
+          "en": "knives",
+          "gu": "છરીઓ",
+          "guMT": true
+        },
+        {
+          "en": "knieves",
+          "gu": "છરીઓ",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "knives",
+        "gu": "છરીઓ",
+        "guMT": true
+      },
+      "hint": {
+        "en": "-fe words change f/fe → v and add -es.",
+        "gu": "-fe શબ્દો બદલાય છે f/fe → v અને ઉમેરો -es.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-03-singular-plural/q-3",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "The plural of 'photo' is ____.",
+        "gu": "'ફોટો' નું બહુવચન ____ છે.",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "photoes",
+          "gu": "ફોટા",
+          "guMT": true
+        },
+        {
+          "en": "photos",
+          "gu": "ફોટા",
+          "guMT": true
+        },
+        {
+          "en": "photoss",
+          "gu": "ફોટા",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "photos",
+        "gu": "ફોટા",
+        "guMT": true
+      },
+      "hint": {
+        "en": "Shortened/musical -o words just add -s.",
+        "gu": "ટૂંકા/સંગીત-ઓ શબ્દો ફક્ત -s ઉમેરો.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-03-singular-plural/q-4",
+      "type": "mcq",
+      "prompt": {
+        "en": "Which of these is an irregular plural?",
+        "gu": "આમાંથી કયું અનિયમિત બહુવચન છે?",
+        "guMT": true
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "cats",
+            "gu": "બિલાડી",
+            "guMT": true
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "children",
+            "gu": "બાળકો",
+            "guMT": true
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "boxes",
+            "gu": "બોક્સ",
+            "guMT": true
+          }
+        }
+      ],
+      "answer": "b",
+      "solution": {
+        "en": "'children' is the irregular plural of 'child' (not 'childs').",
+        "gu": "'children' એ 'child' ('childs' નહીં) નું અનિયમિત બહુવચન છે.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-03-singular-plural/q-5",
+      "type": "mcq",
+      "prompt": {
+        "en": "Which noun has the same singular and plural form?",
+        "gu": "કઈ સંજ્ઞાનું એકવચન અને બહુવચન સમાન છે?",
+        "guMT": true
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "sheep",
+            "gu": "ઘેટાં",
+            "guMT": true
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "leaf",
+            "gu": "પર્ણ",
+            "guMT": true
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "child",
+            "gu": "બાળક",
+            "guMT": true
+          }
+        }
+      ],
+      "answer": "a",
+      "solution": {
+        "en": "'Sheep' is the same in both singular and plural — one sheep, two sheep.",
+        "gu": "'ઘેટાં' એકવચન અને બહુવચન બંનેમાં સમાન છે - એક ઘેટું, બે ઘેટાં.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-03-singular-plural/q-6",
+      "type": "translation",
+      "direction": "en_to_gu",
+      "prompt": {
+        "en": "The children are playing in the garden.",
+        "gu": "બાળકો બગીચામાં રમી રહ્યા છે.",
+        "guMT": true
+      },
+      "answer": {
+        "en": "The children are playing in the garden.",
+        "gu": "બાળકો બગીચામાં રમી રહ્યા છે.",
+        "guMT": true
+      }
+    }
+  ]
+}

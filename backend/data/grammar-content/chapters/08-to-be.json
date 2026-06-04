@@ -1,0 +1,367 @@
+{
+  "id": "ch-08-to-be",
+  "slug": "to-be",
+  "order": 8,
+  "title": {
+    "en": "To Be",
+    "gu": "ટુ બી",
+    "guMT": true
+  },
+  "summary": {
+    "en": "How to use the verb 'to be' (am / is / are / was / were / shall be / will be) in affirmative, negative and interrogative sentences.",
+    "gu": "હકારાત્મક, નકારાત્મક અને પ્રશ્નાર્થ વાક્યોમાં ક્રિયાપદ 'to be' (am/is/are/was/hall be/will be) નો ઉપયોગ કેવી રીતે કરવો.",
+    "guMT": true
+  },
+  "sources": [
+    "motion"
+  ],
+  "explanations": [
+    {
+      "block": "prose",
+      "id": "ch-08-to-be/exp-1",
+      "text": {
+        "en": "The verb 'to be' is the most common verb in English. It is used to describe states, identities, qualities and positions. Its forms change depending on the subject (person) and time (tense).",
+        "gu": "ક્રિયાપદ 'to be' અંગ્રેજીમાં સૌથી સામાન્ય ક્રિયાપદ છે. તેનો ઉપયોગ રાજ્યો, ઓળખ, ગુણો અને સ્થિતિનું વર્ણન કરવા માટે થાય છે. તેના સ્વરૂપો વિષય (વ્યક્તિ) અને સમય (તંગ) ના આધારે બદલાય છે.",
+        "guMT": true
+      }
+    },
+    {
+      "block": "table",
+      "id": "ch-08-to-be/exp-2",
+      "caption": {
+        "en": "Present, past and future forms of 'to be'",
+        "gu": "'to be' ના વર્તમાન, ભૂતકાળ અને ભાવિ સ્વરૂપો",
+        "guMT": true
+      },
+      "headers": [
+        {
+          "key": "subject",
+          "label": {
+            "en": "Subject",
+            "gu": "વિષય",
+            "guMT": true
+          }
+        },
+        {
+          "key": "present",
+          "label": {
+            "en": "Present (am/is/are)",
+            "gu": "હાજર (am/છે/છે)",
+            "guMT": true
+          }
+        },
+        {
+          "key": "past",
+          "label": {
+            "en": "Past (was/were)",
+            "gu": "ભૂતકાળ (હતો/હતો)",
+            "guMT": true
+          }
+        },
+        {
+          "key": "future",
+          "label": {
+            "en": "Future (shall/will be)",
+            "gu": "ભવિષ્ય (હશે/હશે)",
+            "guMT": true
+          }
+        }
+      ],
+      "rows": [
+        {
+          "subject": "I",
+          "present": "am",
+          "past": "was",
+          "future": "shall be"
+        },
+        {
+          "subject": "We",
+          "present": "are",
+          "past": "were",
+          "future": "shall be"
+        },
+        {
+          "subject": "You",
+          "present": "are",
+          "past": "were",
+          "future": "will be"
+        },
+        {
+          "subject": "He / She / It",
+          "present": "is",
+          "past": "was",
+          "future": "will be"
+        },
+        {
+          "subject": "They",
+          "present": "are",
+          "past": "were",
+          "future": "will be"
+        }
+      ]
+    },
+    {
+      "block": "rules",
+      "id": "ch-08-to-be/exp-3",
+      "title": {
+        "en": "Making questions and negatives",
+        "gu": "પ્રશ્નો અને નકારાત્મક બનાવો",
+        "guMT": true
+      },
+      "items": [
+        {
+          "text": {
+            "en": "To make a question, move the 'to be' verb before the subject.",
+            "gu": "પ્રશ્ન બનાવવા માટે, વિષય પહેલા 'to be' ક્રિયાપદને ખસેડો.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "This sentence is false. → Is this sentence false?",
+              "gu": "આ વાક્ય ખોટું છે. → શું આ વાક્ય ખોટું છે?",
+              "guMT": true
+            },
+            {
+              "en": "The lunch was delicious. → Was the lunch delicious?",
+              "gu": "બપોરનું ભોજન સ્વાદિષ્ટ હતું. → શું બપોરનું ભોજન સ્વાદિષ્ટ હતું?",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "To make a negative, add 'not' after the 'to be' verb.",
+            "gu": "નકારાત્મક બનાવવા માટે, 'to be' ક્રિયાપદ પછી 'not' ઉમેરો.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "Pintu is fat. → Pintu is not fat.",
+              "gu": "પિન્ટુ જાડો છે. → પિન્ટુ જાડો નથી.",
+              "guMT": true
+            },
+            {
+              "en": "It was difficult. → It was not difficult.",
+              "gu": "તે મુશ્કેલ હતું. → તે મુશ્કેલ ન હતું.",
+              "guMT": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "block": "examples",
+      "id": "ch-08-to-be/exp-4",
+      "items": [
+        {
+          "en": "I am happy.",
+          "gu": "હું ખુશ છું.",
+          "guMT": true
+        },
+        {
+          "en": "We were free on Sunday.",
+          "gu": "અમે રવિવારે ફ્રી હતા.",
+          "guMT": true
+        },
+        {
+          "en": "Patel will not be a minister.",
+          "gu": "પટેલ મંત્રી નહીં બને.",
+          "guMT": true
+        },
+        {
+          "en": "Will the paper be easy?",
+          "gu": "પેપર સરળ હશે?",
+          "guMT": true
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "ch-08-to-be/q-1",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "I ____ happy yesterday.",
+        "gu": "ગઈકાલે હું ____ ખુશ હતો.",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "am",
+          "gu": "છું",
+          "guMT": true
+        },
+        {
+          "en": "was",
+          "gu": "હતી",
+          "guMT": true
+        },
+        {
+          "en": "were",
+          "gu": "હતા",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "was",
+        "gu": "હતી",
+        "guMT": true
+      },
+      "hint": {
+        "en": "'Yesterday' signals the past tense; 'I' uses 'was'.",
+        "gu": "'ગઈકાલ' ભૂતકાળનો સંકેત આપે છે; 'હું' 'was' વાપરે છે.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-08-to-be/q-2",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "They ____ honest.",
+        "gu": "તેઓ ____ પ્રમાણિક છે.",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "is",
+          "gu": "છે",
+          "guMT": true
+        },
+        {
+          "en": "am",
+          "gu": "છું",
+          "guMT": true
+        },
+        {
+          "en": "are",
+          "gu": "છે",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "are",
+        "gu": "છે",
+        "guMT": true
+      },
+      "hint": {
+        "en": "'They' always uses 'are' in the present.",
+        "gu": "'તેઓ' હંમેશા વર્તમાનમાં 'are' નો ઉપયોગ કરે છે.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-08-to-be/q-3",
+      "type": "transformation",
+      "transform": "to_be_question",
+      "given": "affirmative",
+      "ask": "question",
+      "forms": {
+        "affirmative": {
+          "en": "The lunch was delicious.",
+          "gu": "બપોરનું ભોજન સ્વાદિષ્ટ હતું.",
+          "guMT": true
+        },
+        "question": {
+          "en": "Was the lunch delicious?",
+          "gu": "શું બપોરનું ભોજન સ્વાદિષ્ટ હતું?",
+          "guMT": true
+        }
+      },
+      "answer": {
+        "en": "Was the lunch delicious?",
+        "gu": "શું બપોરનું ભોજન સ્વાદિષ્ટ હતું?",
+        "guMT": true
+      },
+      "solution": {
+        "en": "Move 'was' before the subject 'the lunch'.",
+        "gu": "'બપોરના ભોજન' વિષય પહેલાં ચાલ 'was'.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-08-to-be/q-4",
+      "type": "transformation",
+      "transform": "to_be_negative",
+      "given": "affirmative",
+      "ask": "negative",
+      "forms": {
+        "affirmative": {
+          "en": "Pintu is fat.",
+          "gu": "પિન્ટુ જાડો છે.",
+          "guMT": true
+        },
+        "negative": {
+          "en": "Pintu is not fat.",
+          "gu": "પિન્ટુ જાડો નથી.",
+          "guMT": true
+        }
+      },
+      "answer": {
+        "en": "Pintu is not fat.",
+        "gu": "પિન્ટુ જાડો નથી.",
+        "guMT": true
+      },
+      "solution": {
+        "en": "Add 'not' after 'is'.",
+        "gu": "'is' પછી 'not' ઉમેરો.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-08-to-be/q-5",
+      "type": "mcq",
+      "prompt": {
+        "en": "Which sentence is correct?",
+        "gu": "કયું વાક્ય સાચું છે?",
+        "guMT": true
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "She were absent.",
+            "gu": "તેણી ગેરહાજર હતી.",
+            "guMT": true
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "She was absent.",
+            "gu": "તેણી ગેરહાજર હતી.",
+            "guMT": true
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "She are absent.",
+            "gu": "તેણી ગેરહાજર છે.",
+            "guMT": true
+          }
+        }
+      ],
+      "answer": "b",
+      "solution": {
+        "en": "'She' is singular third person — past form is 'was'.",
+        "gu": "'She' એ એકવચન ત્રીજી વ્યક્તિ છે - ભૂતકાળનું સ્વરૂપ 'was' છે.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-08-to-be/q-6",
+      "type": "translation",
+      "direction": "en_to_gu",
+      "prompt": {
+        "en": "We shall be clever.",
+        "gu": "આપણે હોશિયાર હોઈશું.",
+        "guMT": true
+      },
+      "answer": {
+        "en": "We shall be clever.",
+        "gu": "આપણે હોશિયાર હોઈશું.",
+        "guMT": true
+      }
+    }
+  ]
+}
