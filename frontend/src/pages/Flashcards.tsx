@@ -4,6 +4,7 @@ import PageHeader from '../components/PageHeader';
 import PronounceButton from '../components/PronounceButton';
 import ScrollToTop from '../components/ScrollToTop';
 import { FlipIcon } from '../components/Icon';
+import { usePersistentState } from '../hooks/usePersistentState';
 import { flashcardsApi } from '../services/api';
 import type { Flashcard, FlashcardDeck } from '../types';
 
@@ -84,7 +85,7 @@ function FlashcardItem({ card }: { card: Flashcard }) {
 
 export default function Flashcards() {
   const [decks, setDecks] = useState<FlashcardDeck[]>([]);
-  const [active, setActive] = useState(0);
+  const [active, setActive] = usePersistentState('flashcards.active', 0);
   const [loading, setLoading] = useState(true);
   const scrollRef = useRef<HTMLDivElement>(null);
 
@@ -92,7 +93,9 @@ export default function Flashcards() {
     flashcardsApi.decks().then(setDecks).finally(() => setLoading(false));
   }, []);
 
-  const deck = decks[active];
+  // Guard against a stale persisted index when the deck list shrinks/changes.
+  const activeIndex = decks.length ? Math.min(active, decks.length - 1) : 0;
+  const deck = decks[activeIndex];
 
   return (
     <div className="relative flex flex-col h-[100dvh] overflow-x-hidden w-full" style={{ background: 'var(--paper)' }}>
@@ -112,7 +115,7 @@ export default function Flashcards() {
                 onClick={() => setActive(i)}
                 className="px-3 py-1.5 rounded-full text-xs font-semibold transition-all"
                 style={
-                  i === active
+                  i === activeIndex
                     ? { background: 'var(--teal)', color: '#fff', border: '1.5px solid var(--teal)' }
                     : { background: 'var(--card)', color: 'var(--ink-soft)', border: '1.5px solid var(--line)' }
                 }

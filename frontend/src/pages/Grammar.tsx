@@ -5,6 +5,7 @@ import ChapterCard from '../components/ChapterCard';
 import PageHeader from '../components/PageHeader';
 import ScrollToTop from '../components/ScrollToTop';
 import { useLocalProgress } from '../hooks/useLocalProgress';
+import { usePersistentState } from '../hooks/usePersistentState';
 import { grammarApi } from '../services/api';
 import type { GrammarChapterSummary, GrammarIndex, GrammarLevel } from '../types';
 
@@ -26,13 +27,44 @@ const LEVEL_HEADER: Record<GrammarLevel, string> = {
   Advanced: 'var(--rose)',
 };
 
+const ToggleIndicator = ({ className = 'w-4 h-4', expanded = true, style }: { className?: string; expanded?: boolean; style?: React.CSSProperties }) => (
+  <svg
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth={3}
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    className={`${className}`}
+    style={style}
+  >
+    {expanded ? (
+      <line x1="5" y1="12" x2="19" y2="12" />
+    ) : (
+      <>
+        <line x1="5" y1="12" x2="19" y2="12" />
+        <line x1="12" y1="5" x2="12" y2="19" />
+      </>
+    )}
+  </svg>
+);
+
 export default function Grammar() {
   const [index, setIndex] = useState<GrammarIndex | null>(null);
   const [loading, setLoading] = useState(true);
-  const [level, setLevel] = useState<LevelFilter>('All');
+  const [level, setLevel] = usePersistentState<LevelFilter>('grammar.level', 'All');
+  // Persisted as an array (Set is not JSON-serialisable); rebuilt into a Set for lookups.
+  const [collapsedList, setCollapsedList] = usePersistentState<GrammarLevel[]>('grammar.collapsed', []);
+  const collapsedLevels = useMemo(() => new Set(collapsedList), [collapsedList]);
   const navigate = useNavigate();
   const { progress, toggleGrammarComplete } = useLocalProgress();
   const scrollRef = useRef<HTMLDivElement>(null);
+
+  const toggleLevelCollapse = (lvl: GrammarLevel) => {
+    setCollapsedList(prev =>
+      prev.includes(lvl) ? prev.filter(l => l !== lvl) : [...prev, lvl]
+    );
+  };
 
   useEffect(() => {
     grammarApi.index().then(setIndex).finally(() => setLoading(false));
@@ -117,7 +149,12 @@ export default function Grammar() {
               return (
                 <button
                   key={f}
-                  onClick={() => setLevel(f)}
+                  onClick={() => {
+                    setLevel(f);
+                    if (f !== 'All') {
+                      setCollapsedList(prev => prev.filter(l => l !== (f as GrammarLevel)));
+                    }
+                  }}
                   className="whitespace-nowrap px-3.5 py-2 rounded-xl text-xs font-bold transition-all active:scale-95 text-center cursor-pointer"
                   style={
                     isActive
@@ -136,14 +173,23 @@ export default function Grammar() {
             const chapters = grouped[lvl];
             if (chapters.length === 0) return null;
             const lc = levelCounts[lvl];
+            const isCollapsed = collapsedLevels.has(lvl);
             return (
               <div key={lvl} className="mb-6">
-                <div className="flex items-center justify-between mb-3">
-                  <h2 className="font-serif text-[16px] font-semibold" style={{ color: LEVEL_HEADER[lvl] }}>
-                    {lvl}
-                  </h2>
+                <button
+                  type="button"
+                  onClick={() => toggleLevelCollapse(lvl)}
+                  className="w-full flex items-center justify-between mb-3 text-left focus:outline-none group cursor-pointer"
+                  style={{ background: 'none', border: 'none', padding: 0 }}
+                >
+                  <div className="flex items-center gap-2">
+                    <h2 className="font-serif text-[16px] font-semibold transition-colors group-hover:opacity-80" style={{ color: LEVEL_HEADER[lvl] }}>
+                      {lvl}
+                    </h2>
+                    <ToggleIndicator expanded={!isCollapsed} className="opacity-60 group-hover:opacity-100" style={{ color: LEVEL_HEADER[lvl] }} />
+                  </div>
                   <span
-                    className="text-[11px] font-bold px-2 py-0.5 rounded-full"
+                    className="text-[11px] font-bold px-2 py-0.5 rounded-full transition-opacity group-hover:opacity-80"
                     style={{
                       background: 'var(--paper-2)',
                       color: lc.done === lc.total && lc.total > 0 ? 'var(--teal)' : 'var(--ink-soft)',
@@ -151,19 +197,21 @@ export default function Grammar() {
                   >
                     {lc.done}/{lc.total}
                   </span>
-                </div>
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                  {chapters.map(ch => (
-                    <ChapterCard
-                      key={ch.slug}
-                      chapter={ch}
-                      completed={completedSet.has(ch.slug)}
-                      score={progress.grammarScores?.[ch.slug]}
-                      onOpen={() => navigate(`/grammar/${ch.slug}`)}
-                      onToggleComplete={() => toggleGrammarComplete(ch.slug)}
-                    />
-                  ))}
-                </div>
+                </button>
+                {!isCollapsed && (
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 transition-all duration-300">
+                    {chapters.map(ch => (
+                      <ChapterCard
+                        key={ch.slug}
+                        chapter={ch}
+                        completed={completedSet.has(ch.slug)}
+                        score={progress.grammarScores?.[ch.slug]}
+                        onOpen={() => navigate(`/grammar/${ch.slug}`)}
+                        onToggleComplete={() => toggleGrammarComplete(ch.slug)}
+                      />
+                    ))}
+                  </div>
+                )}
               </div>
             );
           })}

@@ -9,6 +9,7 @@ import PageHeader from '../components/PageHeader';
 import PracticeItem from '../components/PracticeItem';
 import ScrollToTop from '../components/ScrollToTop';
 import { useLocalProgress } from '../hooks/useLocalProgress';
+import { usePersistentState } from '../hooks/usePersistentState';
 import { grammarApi } from '../services/api';
 import type { GrammarChapter as Chapter, GrammarChapterSummary, GrammarLevel } from '../types';
 
@@ -24,7 +25,7 @@ export default function GrammarChapter() {
   const [chapter, setChapter] = useState<Chapter | null>(null);
   const [chapterList, setChapterList] = useState<GrammarChapterSummary[]>([]);
   const [loading, setLoading] = useState(true);
-  const [tab, setTab] = useState<'learn' | 'practice'>('learn');
+  const [tab, setTab] = usePersistentState<'learn' | 'practice'>('grammarChapter.tab', 'learn');
   const { progress, toggleGrammarComplete, setGrammarScore } = useLocalProgress();
 
   // Track auto-graded answers (mcq + fill_blank) for the live score.
@@ -33,7 +34,6 @@ export default function GrammarChapter() {
 
   useEffect(() => {
     setLoading(true);
-    setTab('learn');
     setAnswered({});
     grammarApi.chapter(slug).then(setChapter).finally(() => setLoading(false));
   }, [slug]);

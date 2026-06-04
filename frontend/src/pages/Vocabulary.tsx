@@ -5,6 +5,7 @@ import Flashcard from '../components/Flashcard';
 import PageHeader from '../components/PageHeader';
 import ScrollToTop from '../components/ScrollToTop';
 import { useLocalProgress } from '../hooks/useLocalProgress';
+import { usePersistentState } from '../hooks/usePersistentState';
 import { vocabularyApi } from '../services/api';
 import type { VocabIndex, VocabWord } from '../types';
 
@@ -14,7 +15,7 @@ export default function Vocabulary() {
   const [index, setIndex] = useState<VocabIndex | null>(null);
   const [allWords, setAllWords] = useState<VocabWord[]>([]);
   const [loading, setLoading] = useState(true);
-  const [tab, setTab] = useState<'categories' | 'saved'>('categories');
+  const [tab, setTab] = usePersistentState<'categories' | 'unread' | 'saved'>('vocab.tab', 'categories');
   const { progress, setWord } = useLocalProgress();
   const navigate = useNavigate();
   const scrollRef = useRef<HTMLDivElement>(null);
@@ -63,6 +64,15 @@ export default function Vocabulary() {
     });
   }, [allWords, catNameToId, progress.vocab]);
 
+  const unreadWords = useMemo(() => {
+    return allWords.filter(w => {
+      const catId = catNameToId[w.category];
+      if (!catId) return false;
+      const wordKey = `${catId}-${w.id}`;
+      return !progress.vocab[wordKey]?.learned;
+    });
+  }, [allWords, catNameToId, progress.vocab]);
+
   /** Words learned within a category = progress keys prefixed `${categoryId}-`. */
   const learnedIn = (categoryId: number) =>
     Object.entries(progress.vocab).filter(
@@ -88,7 +98,7 @@ export default function Vocabulary() {
             </p>
           </div>
 
-          {/* Main Tab Switcher: Categories vs Saved */}
+          {/* Main Tab Switcher: Categories vs Unread vs Saved */}
           <div className="flex gap-2 mb-4 p-1 rounded-xl" style={{ background: 'var(--paper-2)' }}>
             <button
               onClick={() => setTab('categories')}
@@ -102,15 +112,26 @@ export default function Vocabulary() {
               Categories
             </button>
             <button
+              onClick={() => setTab('unread')}
+              className="flex-grow flex-shrink-0 flex-1 py-2 text-xs font-bold rounded-lg transition-all flex items-center justify-center gap-1"
+              style={
+                tab === 'unread'
+                  ? { background: 'var(--card)', color: 'var(--teal)', boxShadow: '0 2px 4px rgba(0,0,0,0.05)', border: 'none', cursor: 'pointer' }
+                  : { color: 'var(--ink-soft)', border: 'none', cursor: 'pointer' }
+              }
+            >
+              📖 Unread ({unreadWords.length})
+            </button>
+            <button
               onClick={() => setTab('saved')}
-              className="flex-grow flex-shrink-0 flex-1 py-2 text-xs font-bold rounded-lg transition-all flex items-center justify-center gap-1.5"
+              className="flex-grow flex-shrink-0 flex-1 py-2 text-xs font-bold rounded-lg transition-all flex items-center justify-center gap-1"
               style={
                 tab === 'saved'
                   ? { background: 'var(--card)', color: 'var(--teal)', boxShadow: '0 2px 4px rgba(0,0,0,0.05)', border: 'none', cursor: 'pointer' }
                   : { color: 'var(--ink-soft)', border: 'none', cursor: 'pointer' }
               }
             >
-              🔖 Saved Words ({savedWords.length})
+              🔖 Saved ({savedWords.length})
             </button>
           </div>
 
@@ -153,6 +174,40 @@ export default function Vocabulary() {
                   </button>
                 );
               })}
+            </div>
+          ) : tab === 'unread' ? (
+            <div className="space-y-4">
+              {unreadWords.length > 0 ? (
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                  {unreadWords.map(w => {
+                    const catId = catNameToId[w.category];
+                    const wordKey = `${catId}-${w.id}`;
+                    const wp = progress.vocab[wordKey] ?? {};
+                    return (
+                      <Flashcard
+                        key={w.id}
+                        word={w}
+                        learned={wp.learned}
+                        spoken={wp.spoken}
+                        bookmarked={wp.bookmarked}
+                        onToggleLearned={() => setWord(wordKey, { learned: !wp.learned })}
+                        onSpoken={() => setWord(wordKey, { spoken: true })}
+                        onToggleBookmark={() => setWord(wordKey, { bookmarked: !wp.bookmarked })}
+                      />
+                    );
+                  })}
+                </div>
+              ) : (
+                <div className="text-center py-16 px-4">
+                  <div className="text-4xl mb-3">🎉</div>
+                  <p className="text-sm font-semibold" style={{ color: 'var(--ink)' }}>
+                    All words completed!
+                  </p>
+                  <p className="text-xs mt-1 max-w-[240px] mx-auto" style={{ color: 'var(--ink-soft)' }}>
+                    Great job! You have marked all words in the library as learned.
+                  </p>
+                </div>
+              )}
             </div>
           ) : (
             <div className="space-y-4">

@@ -4,6 +4,7 @@ import IdiomCard from '../components/IdiomCard';
 import PageHeader from '../components/PageHeader';
 import ScrollToTop from '../components/ScrollToTop';
 import { useLocalProgress } from '../hooks/useLocalProgress';
+import { usePersistentState } from '../hooks/usePersistentState';
 import { idiomsApi } from '../services/api';
 import type { IdiomsLibrary } from '../types';
 
@@ -15,10 +16,11 @@ const DIFFICULTIES = ['All', 'Beginner', 'Intermediate', 'Advanced'];
 export default function Idioms() {
   const [lib, setLib] = useState<IdiomsLibrary | null>(null);
   const [loading, setLoading] = useState(true);
-  const [cat, setCat] = useState('All');
-  const [diff, setDiff] = useState('All');
+  const [cat, setCat] = usePersistentState('idioms.cat', 'All');
+  const [diff, setDiff] = usePersistentState('idioms.diff', 'All');
   const [limit, setLimit] = useState(PAGE);
-  const [filter, setFilter] = useState<'all' | 'unread' | 'saved'>('all');
+  const [filter, setFilter] = usePersistentState<'all' | 'unread' | 'saved'>('idioms.filter', 'all');
+  const [isCategoriesExpanded, setIsCategoriesExpanded] = usePersistentState('idioms.catExpanded', false);
   const { progress, toggleIdiomBookmark, toggleIdiomLearned } = useLocalProgress();
   const scrollRef = useRef<HTMLDivElement>(null);
 
@@ -31,6 +33,21 @@ export default function Idioms() {
   const learnedCount = useMemo(() => lib?.idioms.filter(i => learnedSet.has(i.id)).length ?? 0, [lib, learnedSet]);
   const unreadCount = useMemo(() => lib?.idioms.filter(i => !learnedSet.has(i.id)).length ?? 0, [lib, learnedSet]);
   const pct = useMemo(() => totalIdioms ? Math.round((learnedCount / totalIdioms) * 100) : 0, [totalIdioms, learnedCount]);
+
+  const displayedCategories = useMemo(() => {
+    if (!lib) return [];
+    if (isCategoriesExpanded) return lib.categories;
+    const firstThree = lib.categories.slice(0, 3);
+    if (cat !== 'All' && !firstThree.includes(cat)) {
+      return [...firstThree, cat];
+    }
+    return firstThree;
+  }, [lib, isCategoriesExpanded, cat]);
+
+  const hiddenCount = useMemo(() => {
+    if (!lib) return 0;
+    return lib.categories.length - displayedCategories.length;
+  }, [lib, displayedCategories]);
 
   const filtered = useMemo(() => {
     if (!lib) return [];
@@ -183,7 +200,7 @@ export default function Idioms() {
                 >
                   All Topics
                 </button>
-                {lib?.categories.map(c => {
+                {displayedCategories.map(c => {
                   const isActive = cat === c;
                   return (
                     <button
@@ -200,6 +217,24 @@ export default function Idioms() {
                     </button>
                   );
                 })}
+                {hiddenCount > 0 && (
+                  <button
+                    onClick={() => setIsCategoriesExpanded(true)}
+                    className="whitespace-nowrap px-3.5 py-1.5 rounded-full text-xs font-bold transition-all active:scale-95 cursor-pointer"
+                    style={{ background: 'var(--paper-2)', color: 'var(--teal)', border: '1.5px solid transparent' }}
+                  >
+                    + {hiddenCount} More
+                  </button>
+                )}
+                {isCategoriesExpanded && (
+                  <button
+                    onClick={() => setIsCategoriesExpanded(false)}
+                    className="whitespace-nowrap px-3.5 py-1.5 rounded-full text-xs font-bold transition-all active:scale-95 cursor-pointer"
+                    style={{ background: 'var(--paper-2)', color: 'var(--teal)', border: '1.5px solid transparent' }}
+                  >
+                    Show Less
+                  </button>
+                )}
               </div>
             </div>
           </div>
