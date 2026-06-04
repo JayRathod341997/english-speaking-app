@@ -4,7 +4,7 @@ from pydantic_settings import BaseSettings
 class Settings(BaseSettings):
     groq_api_key: str
     # Comma-separated list of allowed CORS origins (frontend URLs).
-    cors_origins: str = "http://localhost:5173,http://localhost:3000"
+    cors_origins: str = "http://localhost:5173,http://localhost:3000,http://172.23.144.180:5174"
 
     class Config:
         env_file = ".env"

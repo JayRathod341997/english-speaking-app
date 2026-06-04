@@ -65,13 +65,15 @@ export default function PronounceButton({ target, size = 'md', hideResult, onRes
         {isSupported ? (
           <button
             type="button"
+            disabled={isSpeaking}
             onClick={() => {
+              if (isSpeaking) return; // don't open the mic while TTS is playing
               if (isListening) { stopListening(); return; }
               setHeard(null); setMatch(null);
               startListening();
             }}
             aria-label={isListening ? 'Stop' : 'Speak'}
-            className={`${btn} rounded-full grid place-items-center text-white transition-transform active:scale-90 ${isListening ? 'mic-pulse' : ''}`}
+            className={`${btn} rounded-full grid place-items-center text-white transition-transform active:scale-90 disabled:opacity-50 ${isListening ? 'mic-pulse' : ''}`}
             style={{
               background: isListening
                 ? 'linear-gradient(140deg, var(--rose), #9e2f45)'
