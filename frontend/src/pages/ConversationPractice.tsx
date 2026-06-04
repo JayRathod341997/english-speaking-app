@@ -30,7 +30,7 @@ export default function ConversationPractice() {
   }, [valid, id]);
 
   return (
-    <div className="flex flex-col h-[100dvh]" style={{ background: 'var(--paper)' }}>
+    <div className="flex flex-col h-[100dvh] overflow-x-hidden w-full" style={{ background: 'var(--paper)' }}>
       <PageHeader title={dialogue?.title ?? 'Practice'} subtitle={category} back="/conversations" />
 
       {loading ? (
@@ -42,7 +42,7 @@ export default function ConversationPractice() {
           Dialogue not found.
         </div>
       ) : (
-        <div className="flex-1 overflow-y-auto no-scrollbar px-5 pt-4 pb-6">
+        <div className="flex-1 overflow-y-auto overflow-x-hidden no-scrollbar px-5 pt-4 pb-6">
           <p className="text-[13px] mb-4" style={{ color: 'var(--ink-soft)' }}>{dialogue.situation}</p>
 
           <div className="space-y-3">

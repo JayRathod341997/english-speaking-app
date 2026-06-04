@@ -196,7 +196,7 @@ export default function Conversation() {
           )}
 
           <p className="text-xs mb-2" style={{ color: 'var(--ink-soft)' }}>Select your level:</p>
-          <div className="flex gap-2 justify-center mb-6">
+          <div className="flex flex-wrap gap-2 justify-center mb-6">
             {(['beginner', 'intermediate', 'advanced'] as const).map(d => (
               <button
                 key={d}
@@ -234,8 +234,8 @@ export default function Conversation() {
 
   /* ── Active conversation ── */
   return (
-    <div className="flex flex-col h-[100dvh]" style={{ background: 'var(--paper)' }}>
-      {/* Conversation header */}
+    <div className="flex flex-col h-[100dvh] overflow-x-hidden w-full" style={{ background: 'var(--paper)' }}>
+      {/* ... header ... */}
       <div
         className="flex items-center gap-3 px-4 py-3 flex-shrink-0"
         style={{ background: 'var(--card)', borderBottom: '1px solid var(--line)' }}
@@ -271,7 +271,7 @@ export default function Conversation() {
       </div>
 
       {/* Chat messages */}
-      <div className="flex-1 overflow-y-auto no-scrollbar px-4 pt-4">
+      <div className="flex-1 overflow-y-auto overflow-x-hidden no-scrollbar px-4 pt-4">
         {/* Scene card */}
         <div
           className="rounded-[13px] px-4 py-3 text-[12.5px] text-center mb-4 leading-relaxed"

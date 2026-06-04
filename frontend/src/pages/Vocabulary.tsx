@@ -25,7 +25,7 @@ export default function Vocabulary() {
     ).length;
 
   return (
-    <div className="flex flex-col h-[100dvh]" style={{ background: 'var(--paper)' }}>
+    <div className="flex flex-col h-[100dvh] overflow-x-hidden w-full" style={{ background: 'var(--paper)' }}>
       <PageHeader title="Vocabulary" subtitle="શબ્દભંડોળ" back="/" />
 
       {loading ? (
@@ -33,7 +33,7 @@ export default function Vocabulary() {
           Loading…
         </div>
       ) : (
-        <div className="flex-1 overflow-y-auto no-scrollbar px-5 pt-4 pb-6">
+        <div className="flex-1 overflow-y-auto overflow-x-hidden no-scrollbar px-5 pt-4 pb-6">
           <div className="mb-4">
             <h2 className="font-serif text-2xl font-semibold leading-tight" style={{ color: 'var(--ink)' }}>
               {index?.total_words} words to master

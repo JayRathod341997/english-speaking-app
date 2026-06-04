@@ -1,7 +1,10 @@
 import axios from 'axios';
 import type {
+  ConversationDetail,
+  ConversationSummary,
   DailyChallenge,
   EndSessionResponse,
+  FlashcardDeck,
   IdiomsLibrary,
   Progress,
   Scenario,
@@ -48,4 +51,14 @@ export const vocabularyApi = {
   index: () => api.get<VocabIndex>('/vocabulary').then(r => r.data),
   category: (id: number) =>
     api.get<VocabCategoryDetail>(`/vocabulary/categories/${id}`).then(r => r.data),
+};
+
+export const conversationsApi = {
+  list: () => api.get<ConversationSummary[]>('/conversations').then(r => r.data),
+  get: (id: string) =>
+    api.get<ConversationDetail>(`/conversations/${id}`).then(r => r.data),
+};
+
+export const flashcardsApi = {
+  decks: () => api.get<FlashcardDeck[]>('/flashcards').then(r => r.data),
 };

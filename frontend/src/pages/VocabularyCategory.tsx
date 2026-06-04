@@ -40,7 +40,7 @@ export default function VocabularyCategory() {
     : 0;
 
   return (
-    <div className="flex flex-col h-[100dvh]" style={{ background: 'var(--paper)' }}>
+    <div className="flex flex-col h-[100dvh] overflow-x-hidden w-full" style={{ background: 'var(--paper)' }}>
       <PageHeader title={cat?.category ?? 'Vocabulary'} subtitle={cat?.level} back="/vocabulary" />
 
       {loading || !cat ? (
@@ -48,7 +48,7 @@ export default function VocabularyCategory() {
           Loading…
         </div>
       ) : (
-        <div className="flex-1 overflow-y-auto no-scrollbar px-5 pt-4 pb-6">
+        <div className="flex-1 overflow-y-auto overflow-x-hidden no-scrollbar px-5 pt-4 pb-6">
           {/* progress + quiz CTA */}
           <div className="flex items-center justify-between mb-4">
             <p className="text-sm font-semibold" style={{ color: 'var(--ink)' }}>

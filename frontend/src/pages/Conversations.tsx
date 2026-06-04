@@ -54,7 +54,7 @@ export default function Conversations() {
   );
 
   return (
-    <div className="flex flex-col h-[100dvh]" style={{ background: 'var(--paper)' }}>
+    <div className="flex flex-col h-[100dvh] overflow-x-hidden w-full" style={{ background: 'var(--paper)' }}>
       <PageHeader title="Conversations" subtitle="વાર્તાલાપ પ્રૅક્ટિસ" back="/" />
 
       {loading ? (
@@ -62,7 +62,7 @@ export default function Conversations() {
           Loading…
         </div>
       ) : (
-        <div className="flex-1 overflow-y-auto no-scrollbar px-5 pt-4 pb-6">
+        <div className="flex-1 overflow-y-auto overflow-x-hidden no-scrollbar px-5 pt-4 pb-6">
           {/* search */}
           <div
             className="flex items-center gap-2 px-3 py-2.5 rounded-[13px] mb-5"
@@ -82,7 +82,7 @@ export default function Conversations() {
           <h3 className="font-serif text-[16px] font-semibold mb-3" style={{ color: 'var(--ink)' }}>
             Live AI Practice
           </h3>
-          <div className="grid grid-cols-2 gap-3 mb-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 mb-6">
             {filteredScenarios.map(s => (
               <button
                 key={s.id}

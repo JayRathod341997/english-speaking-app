@@ -51,7 +51,7 @@ export default function ProgressPage() {
   const lvlStyle = LEVEL_STYLE[stats.level] ?? LEVEL_STYLE.beginner;
 
   return (
-    <div className="flex flex-col h-[100dvh]" style={{ background: 'var(--paper)' }}>
+    <div className="flex flex-col h-[100dvh] overflow-x-hidden w-full" style={{ background: 'var(--paper)' }}>
       {/* Header */}
       <div
         className="flex items-center gap-3 px-5 py-3.5 flex-shrink-0"
@@ -77,7 +77,7 @@ export default function ProgressPage() {
           Loading…
         </div>
       ) : (
-        <div className="flex-1 overflow-y-auto no-scrollbar px-5 pt-5 pb-6 space-y-4">
+        <div className="flex-1 overflow-y-auto overflow-x-hidden no-scrollbar px-5 pt-5 pb-6 space-y-4">
           {/* Score hero */}
           <div
             className="rounded-[18px] p-5 text-center"

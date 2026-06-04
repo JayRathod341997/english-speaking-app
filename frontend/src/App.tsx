@@ -2,7 +2,10 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Conversation from './pages/Conversation';
 import ConversationPractice from './pages/ConversationPractice';
 import Conversations from './pages/Conversations';
+import DialoguePractice from './pages/DialoguePractice';
+import Dialogues from './pages/Dialogues';
 import Feedback from './pages/Feedback';
+import Flashcards from './pages/Flashcards';
 import Home from './pages/Home';
 import Idioms from './pages/Idioms';
 import Progress from './pages/Progress';
@@ -27,6 +30,11 @@ export default function App() {
 
         <Route path="/conversations" element={<Conversations />} />
         <Route path="/conversations/:source/:id" element={<ConversationPractice />} />
+
+        <Route path="/dialogues" element={<Dialogues />} />
+        <Route path="/dialogues/:id" element={<DialoguePractice />} />
+
+        <Route path="/flashcards" element={<Flashcards />} />
       </Routes>
     </BrowserRouter>
   );

@@ -9,13 +9,13 @@ import type { IdiomsLibrary } from '../types';
 const PAGE = 12;
 const DIFFICULTIES = ['All', 'Beginner', 'Intermediate', 'Advanced'];
 
-function Chip({ active, onClick, children }: {
-  active: boolean; onClick: () => void; children: React.ReactNode;
+function Chip({ active, onClick, children, className }: {
+  active: boolean; onClick: () => void; children: React.ReactNode; className?: string;
 }) {
   return (
     <button
       onClick={onClick}
-      className="whitespace-nowrap px-3.5 py-1.5 rounded-full text-xs font-semibold transition-all flex-shrink-0"
+      className={`whitespace-nowrap px-3.5 py-1.5 rounded-full text-xs font-semibold transition-all ${className ?? ""}`}
       style={
         active
           ? { background: 'var(--teal)', color: '#fff', border: '1.5px solid var(--teal)' }
@@ -54,7 +54,7 @@ export default function Idioms() {
   const bookmarks = new Set(progress.idiomBookmarks);
 
   return (
-    <div className="flex flex-col h-[100dvh]" style={{ background: 'var(--paper)' }}>
+    <div className="flex flex-col h-[100dvh] overflow-x-hidden w-full" style={{ background: 'var(--paper)' }}>
       <PageHeader title="Idioms Library" subtitle="રૂઢિપ્રયોગો" back="/" />
 
       {loading ? (
@@ -62,23 +62,23 @@ export default function Idioms() {
           Loading idioms…
         </div>
       ) : (
-        <div className="flex-1 overflow-y-auto no-scrollbar px-5 pt-4 pb-6">
+        <div className="flex-1 overflow-y-auto overflow-x-hidden no-scrollbar px-5 pt-4 pb-6">
           <p className="text-sm mb-3" style={{ color: 'var(--ink-soft)' }}>
             {lib?.total_idioms} idioms with meanings, examples & pronunciation. Tap 🔊 to hear, 🎙 to practise.
           </p>
 
           {/* Difficulty filters */}
-          <div className="flex gap-2 mb-2 overflow-x-auto no-scrollbar">
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 mb-2">
             {DIFFICULTIES.map(d => (
-              <Chip key={d} active={diff === d} onClick={() => setDiffFiltered(d)}>{d}</Chip>
+              <Chip key={d} active={diff === d} onClick={() => setDiffFiltered(d)} className="w-full text-center">{d}</Chip>
             ))}
           </div>
 
           {/* Category filters */}
-          <div className="flex gap-2 mb-4 overflow-x-auto no-scrollbar">
-            <Chip active={cat === 'All'} onClick={() => setCatFiltered('All')}>All topics</Chip>
+          <div className="flex flex-wrap gap-2 mb-4">
+            <Chip active={cat === 'All'} onClick={() => setCatFiltered('All')} className="w-auto flex-shrink-0">All topics</Chip>
             {lib?.categories.map(c => (
-              <Chip key={c} active={cat === c} onClick={() => setCatFiltered(c)}>{c}</Chip>
+              <Chip key={c} active={cat === c} onClick={() => setCatFiltered(c)} className="w-auto flex-shrink-0">{c}</Chip>
             ))}
           </div>
 

@@ -177,3 +177,40 @@ export interface VocabCategoryDetail {
   mini_dialogues: MiniDialogue[];
   quiz: Quiz;
 }
+
+// ── Conversations (scripted dialogues) ──────────────────────────────────────
+export interface ConversationTurn {
+  order: number;
+  speaker: string;
+  text: string;
+}
+
+export interface ConversationSummary {
+  id: string;
+  title: string;
+  speakers: string[];
+  turn_count: number;
+}
+
+export interface ConversationDetail extends ConversationSummary {
+  turns: ConversationTurn[];
+}
+
+// ── Flashcards ──────────────────────────────────────────────────────────────
+export interface Flashcard {
+  id: number;
+  category: string;
+  front: string;
+  back: string;
+  pronunciation: string;
+  part_of_speech: string;
+  difficulty: string;
+  example: string;
+  tags: string[];
+}
+
+export interface FlashcardDeck {
+  category: string;
+  total: number;
+  cards: Flashcard[];
+}

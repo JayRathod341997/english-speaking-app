@@ -55,10 +55,10 @@ export default function VocabularyQuiz() {
   };
 
   return (
-    <div className="flex flex-col h-[100dvh]" style={{ background: 'var(--paper)' }}>
+    <div className="flex flex-col h-[100dvh] overflow-x-hidden w-full" style={{ background: 'var(--paper)' }}>
       <PageHeader title={quiz.category} subtitle="ક્વિઝ" back={`/vocabulary/${id}`} />
 
-      <div className="flex-1 overflow-y-auto no-scrollbar px-5 pt-4 pb-6">
+      <div className="flex-1 overflow-y-auto overflow-x-hidden no-scrollbar px-5 pt-4 pb-6">
         {done ? (
           <div className="rounded-[18px] p-6 text-center mt-6" style={{ background: 'var(--card)', border: '1px solid var(--line)' }}>
             <div className="text-5xl mb-3">{pct >= 90 ? '🎉' : pct >= 60 ? '👍' : '💪'}</div>
