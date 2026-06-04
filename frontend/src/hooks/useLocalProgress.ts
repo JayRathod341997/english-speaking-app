@@ -11,12 +11,14 @@ const KEY = 'bolo_progress_v1';
 export interface WordProgress {
   learned?: boolean;
   spoken?: boolean;
+  bookmarked?: boolean;
 }
 
 export interface LocalProgress {
   vocab: Record<string, WordProgress>;          // keyed by word id
   quizScores: Record<string, number>;           // categoryId -> best percent (0–100)
   idiomBookmarks: number[];
+  learnedIdioms: number[];                      // IDs of mastered idioms
   convoBookmarks: string[];                      // e.g. "dialogue-3", "scenario-1"
   streak: number;
   lastActiveDate: string;                        // YYYY-MM-DD
@@ -26,6 +28,7 @@ const EMPTY: LocalProgress = {
   vocab: {},
   quizScores: {},
   idiomBookmarks: [],
+  learnedIdioms: [],
   convoBookmarks: [],
   streak: 0,
   lastActiveDate: '',
@@ -108,6 +111,15 @@ export function useLocalProgress() {
     }));
   }, []);
 
+  const toggleIdiomLearned = useCallback((idiomId: number) => {
+    update(p => ({
+      ...p,
+      learnedIdioms: (p.learnedIdioms ?? []).includes(idiomId)
+        ? p.learnedIdioms.filter(i => i !== idiomId)
+        : [...(p.learnedIdioms ?? []), idiomId],
+    }));
+  }, []);
+
   const toggleConvoBookmark = useCallback((key: string) => {
     update(p => ({
       ...p,
@@ -122,6 +134,7 @@ export function useLocalProgress() {
     setWord,
     setQuizScore,
     toggleIdiomBookmark,
+    toggleIdiomLearned,
     toggleConvoBookmark,
   };
 }

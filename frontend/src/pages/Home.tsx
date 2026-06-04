@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import BottomNav from '../components/BottomNav';
+import { ProgressIcon } from '../components/Icon';
 import { progressApi, scenariosApi } from '../services/api';
 import type { DailyChallenge, Scenario } from '../types';
 
@@ -65,11 +66,21 @@ export default function Home() {
             </p>
           </div>
         </div>
-        <div
-          className="flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-bold"
-          style={{ background: 'var(--amber-soft)', color: 'var(--saffron-deep)' }}
-        >
-          🔥 <span>{streak}</span>
+        <div className="flex items-center gap-2">
+          <button
+            onClick={() => navigate('/progress')}
+            className="flex items-center gap-1 px-3 py-1.5 rounded-full text-xs font-bold bg-[var(--teal-soft)] text-[var(--teal)] transition-all active:scale-95 hover:opacity-90"
+            style={{ border: 'none', cursor: 'pointer' }}
+          >
+            <ProgressIcon className="w-3.5 h-3.5" />
+            <span>Progress</span>
+          </button>
+          <div
+            className="flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-bold"
+            style={{ background: 'var(--amber-soft)', color: 'var(--saffron-deep)' }}
+          >
+            🔥 <span>{streak}</span>
+          </div>
         </div>
       </header>
 

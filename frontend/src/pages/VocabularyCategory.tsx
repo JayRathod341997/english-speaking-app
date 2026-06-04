@@ -97,8 +97,10 @@ export default function VocabularyCategory() {
                           word={w}
                           learned={wp.learned}
                           spoken={wp.spoken}
+                          bookmarked={wp.bookmarked}
                           onToggleLearned={() => setWord(key(w.id), { learned: !wp.learned })}
                           onSpoken={() => setWord(key(w.id), { spoken: true })}
+                          onToggleBookmark={() => setWord(key(w.id), { bookmarked: !wp.bookmarked })}
                         />
                       );
                     })}

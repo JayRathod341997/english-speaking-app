@@ -9,23 +9,7 @@ import type { IdiomsLibrary } from '../types';
 const PAGE = 12;
 const DIFFICULTIES = ['All', 'Beginner', 'Intermediate', 'Advanced'];
 
-function Chip({ active, onClick, children, className }: {
-  active: boolean; onClick: () => void; children: React.ReactNode; className?: string;
-}) {
-  return (
-    <button
-      onClick={onClick}
-      className={`whitespace-nowrap px-3.5 py-1.5 rounded-full text-xs font-semibold transition-all ${className ?? ""}`}
-      style={
-        active
-          ? { background: 'var(--teal)', color: '#fff', border: '1.5px solid var(--teal)' }
-          : { background: 'var(--card)', color: 'var(--ink-soft)', border: '1.5px solid var(--line)' }
-      }
-    >
-      {children}
-    </button>
-  );
-}
+
 
 export default function Idioms() {
   const [lib, setLib] = useState<IdiomsLibrary | null>(null);
@@ -33,22 +17,33 @@ export default function Idioms() {
   const [cat, setCat] = useState('All');
   const [diff, setDiff] = useState('All');
   const [limit, setLimit] = useState(PAGE);
-  const { progress, toggleIdiomBookmark } = useLocalProgress();
+  const [showSaved, setShowSaved] = useState(false);
+  const { progress, toggleIdiomBookmark, toggleIdiomLearned } = useLocalProgress();
 
   useEffect(() => {
     idiomsApi.list().then(setLib).finally(() => setLoading(false));
   }, []);
 
+  const totalIdioms = lib?.total_idioms ?? 0;
+  const learnedSet = useMemo(() => new Set(progress.learnedIdioms ?? []), [progress.learnedIdioms]);
+  const learnedCount = useMemo(() => lib?.idioms.filter(i => learnedSet.has(i.id)).length ?? 0, [lib, learnedSet]);
+  const pct = useMemo(() => totalIdioms ? Math.round((learnedCount / totalIdioms) * 100) : 0, [totalIdioms, learnedCount]);
+
   const filtered = useMemo(() => {
     if (!lib) return [];
+    const bookmarks = new Set(progress.idiomBookmarks);
     return lib.idioms.filter(
-      i => (cat === 'All' || i.category === cat) && (diff === 'All' || i.difficulty === diff)
+      i =>
+        (!showSaved || bookmarks.has(i.id)) &&
+        (cat === 'All' || i.category === cat) &&
+        (diff === 'All' || i.difficulty === diff)
     );
-  }, [lib, cat, diff]);
+  }, [lib, cat, diff, showSaved, progress.idiomBookmarks]);
 
   // reset pagination whenever a filter changes
   const setCatFiltered = (c: string) => { setCat(c); setLimit(PAGE); };
   const setDiffFiltered = (d: string) => { setDiff(d); setLimit(PAGE); };
+  const setShowSavedFiltered = (val: boolean) => { setShowSaved(val); setLimit(PAGE); };
 
   const visible = filtered.slice(0, limit);
   const bookmarks = new Set(progress.idiomBookmarks);
@@ -67,19 +62,131 @@ export default function Idioms() {
             {lib?.total_idioms} idioms with meanings, examples & pronunciation. Tap 🔊 to hear, 🎙 to practise.
           </p>
 
-          {/* Difficulty filters */}
-          <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 mb-2">
-            {DIFFICULTIES.map(d => (
-              <Chip key={d} active={diff === d} onClick={() => setDiffFiltered(d)} className="w-full text-center">{d}</Chip>
-            ))}
+          {/* Progress Bar */}
+          <div className="mb-4 rounded-[16px] p-3.5" style={{ background: 'var(--card)', border: '1px solid var(--line)' }}>
+            <div className="flex items-center justify-between mb-1.5">
+              <span className="text-xs font-semibold" style={{ color: 'var(--ink)' }}>
+                Idioms Mastered
+              </span>
+              <span className="font-serif text-xs font-bold" style={{ color: 'var(--teal)' }}>
+                {learnedCount} / {totalIdioms} ({pct}%)
+              </span>
+            </div>
+            <div className="h-2 rounded-full overflow-hidden" style={{ background: 'var(--paper-2)' }}>
+              <div className="h-full rounded-full transition-all" style={{ width: `${pct}%`, background: 'var(--teal)' }} />
+            </div>
           </div>
 
-          {/* Category filters */}
-          <div className="flex flex-wrap gap-2 mb-4">
-            <Chip active={cat === 'All'} onClick={() => setCatFiltered('All')} className="w-auto flex-shrink-0">All topics</Chip>
-            {lib?.categories.map(c => (
-              <Chip key={c} active={cat === c} onClick={() => setCatFiltered(c)} className="w-auto flex-shrink-0">{c}</Chip>
-            ))}
+          {/* Main Tab Switcher: All vs Saved */}
+          <div className="flex gap-2 mb-4 p-1 rounded-xl" style={{ background: 'var(--paper-2)' }}>
+            <button
+              onClick={() => setShowSavedFiltered(false)}
+              className="flex-grow flex-shrink-0 flex-1 py-2 text-xs font-bold rounded-lg transition-all"
+              style={
+                !showSaved
+                  ? { background: 'var(--card)', color: 'var(--teal)', boxShadow: '0 2px 4px rgba(0,0,0,0.05)', border: 'none', cursor: 'pointer' }
+                  : { color: 'var(--ink-soft)', border: 'none', cursor: 'pointer' }
+              }
+            >
+              All Idioms
+            </button>
+            <button
+              onClick={() => setShowSavedFiltered(true)}
+              className="flex-grow flex-shrink-0 flex-1 py-2 text-xs font-bold rounded-lg transition-all flex items-center justify-center gap-1.5"
+              style={
+                showSaved
+                  ? { background: 'var(--card)', color: 'var(--teal)', boxShadow: '0 2px 4px rgba(0,0,0,0.05)', border: 'none', cursor: 'pointer' }
+                  : { color: 'var(--ink-soft)', border: 'none', cursor: 'pointer' }
+              }
+            >
+              🔖 Saved ({bookmarks.size})
+            </button>
+          </div>
+
+          {/* Filters Panel */}
+          <div className="rounded-[18px] p-4 mb-4 space-y-4" style={{ background: 'var(--card)', border: '1px solid var(--line)' }}>
+            {/* Difficulty Group */}
+            <div>
+              <div className="flex items-center gap-1.5 mb-2.5">
+                <span className="text-sm">📊</span>
+                <h3 className="text-[10px] font-bold uppercase tracking-wider text-[var(--ink-soft)] opacity-70">
+                  Difficulty Level
+                </h3>
+              </div>
+              <div className="grid grid-cols-2 sm:grid-cols-4 gap-2">
+                {DIFFICULTIES.map(d => {
+                  const isActive = diff === d;
+                  let activeStyle = { background: 'var(--teal)', color: '#fff', border: '1.5px solid var(--teal)' };
+                  if (d === 'All') {
+                    activeStyle = { background: 'var(--ink)', color: '#fff', border: '1.5px solid var(--ink)' };
+                  } else if (d === 'Beginner') {
+                    activeStyle = { background: 'var(--teal)', color: '#fff', border: '1.5px solid var(--teal)' };
+                  } else if (d === 'Intermediate') {
+                    activeStyle = { background: 'var(--amber)', color: '#fff', border: '1.5px solid var(--amber)' };
+                  } else if (d === 'Advanced') {
+                    activeStyle = { background: 'var(--rose)', color: '#fff', border: '1.5px solid var(--rose)' };
+                  }
+
+                  return (
+                    <button
+                      key={d}
+                      onClick={() => setDiffFiltered(d)}
+                      className="whitespace-nowrap px-3.5 py-2 rounded-xl text-xs font-bold transition-all active:scale-95 text-center cursor-pointer"
+                      style={
+                        isActive
+                          ? activeStyle
+                          : { background: 'var(--paper)', color: 'var(--ink-soft)', border: '1.5px solid transparent' }
+                      }
+                    >
+                      {d}
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
+
+            {/* Divider line */}
+            <div style={{ borderTop: '1px solid var(--line)', opacity: 0.5 }} />
+
+            {/* Topic Group */}
+            <div>
+              <div className="flex items-center gap-1.5 mb-2.5">
+                <span className="text-sm">🏷️</span>
+                <h3 className="text-[10px] font-bold uppercase tracking-wider text-[var(--ink-soft)] opacity-70">
+                  Topic / Category
+                </h3>
+              </div>
+              <div className="flex flex-wrap gap-2">
+                <button
+                  onClick={() => setCatFiltered('All')}
+                  className="whitespace-nowrap px-3.5 py-1.5 rounded-full text-xs font-bold transition-all active:scale-95 cursor-pointer"
+                  style={
+                    cat === 'All'
+                      ? { background: 'var(--teal)', color: '#fff', border: '1.5px solid var(--teal)' }
+                      : { background: 'var(--paper)', color: 'var(--ink-soft)', border: '1.5px solid transparent' }
+                  }
+                >
+                  All Topics
+                </button>
+                {lib?.categories.map(c => {
+                  const isActive = cat === c;
+                  return (
+                    <button
+                      key={c}
+                      onClick={() => setCatFiltered(c)}
+                      className="whitespace-nowrap px-3.5 py-1.5 rounded-full text-xs font-bold transition-all active:scale-95 cursor-pointer"
+                      style={
+                        isActive
+                          ? { background: 'var(--teal)', color: '#fff', border: '1.5px solid var(--teal)' }
+                          : { background: 'var(--paper)', color: 'var(--ink-soft)', border: '1.5px solid transparent' }
+                      }
+                    >
+                      {c}
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
@@ -88,15 +195,25 @@ export default function Idioms() {
                 key={idiom.id}
                 idiom={idiom}
                 bookmarked={bookmarks.has(idiom.id)}
+                learned={learnedSet.has(idiom.id)}
                 onToggleBookmark={() => toggleIdiomBookmark(idiom.id)}
+                onToggleLearned={() => toggleIdiomLearned(idiom.id)}
               />
             ))}
           </div>
 
           {visible.length === 0 && (
-            <p className="text-center py-12 text-sm" style={{ color: 'var(--ink-soft)' }}>
-              No idioms match these filters.
-            </p>
+            <div className="text-center py-16 px-4">
+              <div className="text-4xl mb-3">🔖</div>
+              <p className="text-sm font-semibold" style={{ color: 'var(--ink)' }}>
+                {showSaved ? "No saved idioms yet" : "No idioms match these filters"}
+              </p>
+              <p className="text-xs mt-1 max-w-[240px] mx-auto" style={{ color: 'var(--ink-soft)' }}>
+                {showSaved
+                  ? "Tap the bookmark icon on any idiom card to save it here for quick practice."
+                  : "Try clearing some filters to see more idioms."}
+              </p>
+            </div>
           )}
 
           {limit < filtered.length && (

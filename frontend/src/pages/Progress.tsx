@@ -34,6 +34,7 @@ export default function ProgressPage() {
   const { progress: local } = useLocalProgress();
 
   const wordsLearned = Object.values(local.vocab).filter(v => v.learned).length;
+  const idiomsLearned = local.learnedIdioms?.length ?? 0;
   const idiomsSaved  = local.idiomBookmarks.length;
   const quizTaken    = Object.keys(local.quizScores).length;
   const bestQuiz     = quizTaken ? Math.max(...Object.values(local.quizScores)) : 0;
@@ -170,8 +171,8 @@ export default function ProgressPage() {
             </h2>
             <div className="grid grid-cols-2 gap-3">
               <MetricCard label="Words learned" value={wordsLearned} bar={Math.min((wordsLearned / 160) * 100, 100)} barColor="var(--teal)" />
+              <MetricCard label="Idioms learned" value={idiomsLearned} bar={Math.min((idiomsLearned / 156) * 100, 100)} barColor="var(--teal)" />
               <MetricCard label="Idioms saved"  value={idiomsSaved} />
-              <MetricCard label="Quizzes taken" value={quizTaken} />
               <MetricCard label="Best quiz"     value={`${bestQuiz}%`} bar={bestQuiz} barColor="var(--saffron)" />
             </div>
             <div className="flex gap-2 mt-4">

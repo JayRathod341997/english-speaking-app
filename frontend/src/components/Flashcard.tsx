@@ -1,17 +1,19 @@
 import { useState } from 'react';
 import type { VocabWord } from '../types';
-import { CheckIcon, FlipIcon } from './Icon';
+import { BookmarkIcon, CheckIcon, FlipIcon } from './Icon';
 import PronounceButton from './PronounceButton';
 
 interface Props {
   word: VocabWord;
   learned?: boolean;
   spoken?: boolean;
+  bookmarked?: boolean;
   onToggleLearned?: () => void;
   onSpoken?: () => void;
+  onToggleBookmark?: () => void;
 }
 
-export default function Flashcard({ word, learned, spoken, onToggleLearned, onSpoken }: Props) {
+export default function Flashcard({ word, learned, spoken, bookmarked, onToggleLearned, onSpoken, onToggleBookmark }: Props) {
   const [flipped, setFlipped] = useState(false);
 
   return (
@@ -31,19 +33,32 @@ export default function Flashcard({ word, learned, spoken, onToggleLearned, onSp
         >
           {word.difficulty}
         </span>
-        <button
-          type="button"
-          onClick={onToggleLearned}
-          aria-label="Mark learned"
-          className="w-7 h-7 rounded-full grid place-items-center transition-transform active:scale-90"
-          style={
-            learned
-              ? { background: 'var(--teal)', color: '#fff' }
-              : { background: 'var(--paper-2)', color: 'var(--ink-soft)' }
-          }
-        >
-          <CheckIcon className="w-4 h-4" />
-        </button>
+        <div className="flex items-center gap-1.5">
+          {onToggleBookmark && (
+            <button
+              type="button"
+              onClick={onToggleBookmark}
+              aria-label="Bookmark word"
+              className="w-7 h-7 rounded-full grid place-items-center transition-transform active:scale-90"
+              style={{ color: bookmarked ? 'var(--saffron-deep)' : 'var(--ink-soft)', border: 'none', cursor: 'pointer' }}
+            >
+              <BookmarkIcon className="w-4 h-4" filled={bookmarked} />
+            </button>
+          )}
+          <button
+            type="button"
+            onClick={onToggleLearned}
+            aria-label="Mark learned"
+            className="w-7 h-7 rounded-full grid place-items-center transition-transform active:scale-90"
+            style={
+              learned
+                ? { background: 'var(--teal)', color: '#fff' }
+                : { background: 'var(--paper-2)', color: 'var(--ink-soft)' }
+            }
+          >
+            <CheckIcon className="w-4 h-4" />
+          </button>
+        </div>
       </div>
 
       {/* Front: word */}
@@ -58,15 +73,16 @@ export default function Flashcard({ word, learned, spoken, onToggleLearned, onSp
 
       {/* Back: meaning + details (revealed on flip) */}
       {flipped && (
-        <div className="mt-3 space-y-2 bubble-pop">
+        <div className="mt-3 space-y-2.5 bubble-pop">
           <p className="text-[13px] leading-relaxed" style={{ color: 'var(--ink)' }}>
             {word.english_meaning}
           </p>
           <p className="text-[13px] font-guj leading-relaxed" style={{ color: 'var(--teal)' }}>
             {word.gujarati_meaning}
           </p>
+
           {word.collocations && word.collocations.length > 0 && (
-            <div className="flex flex-wrap gap-1.5">
+            <div className="flex flex-wrap gap-1.5 pt-0.5">
               {word.collocations.map(c => (
                 <span
                   key={c}
@@ -78,15 +94,89 @@ export default function Flashcard({ word, learned, spoken, onToggleLearned, onSp
               ))}
             </div>
           )}
+
+          {/* Synonyms & Antonyms */}
+          {((word.synonyms && word.synonyms.length > 0) || (word.antonyms && word.antonyms.length > 0)) && (
+            <div className="space-y-1.5 pt-0.5">
+              {word.synonyms && word.synonyms.length > 0 && (
+                <div className="text-[11px] flex flex-wrap items-center gap-1.5">
+                  <span className="font-semibold text-[10px]" style={{ color: 'var(--ink-soft)' }}>Synonyms:</span>
+                  {word.synonyms.map(syn => (
+                    <span
+                      key={syn}
+                      className="px-2 py-0.5 rounded-md text-[10px] font-medium"
+                      style={{ background: 'var(--teal-soft)', color: 'var(--teal)' }}
+                    >
+                      {syn}
+                    </span>
+                  ))}
+                </div>
+              )}
+              {word.antonyms && word.antonyms.length > 0 && (
+                <div className="text-[11px] flex flex-wrap items-center gap-1.5">
+                  <span className="font-semibold text-[10px]" style={{ color: 'var(--ink-soft)' }}>Antonyms:</span>
+                  {word.antonyms.map(ant => (
+                    <span
+                      key={ant}
+                      className="px-2 py-0.5 rounded-md text-[10px] font-medium"
+                      style={{ background: 'var(--rose-soft)', color: 'var(--rose)' }}
+                    >
+                      {ant}
+                    </span>
+                  ))}
+                </div>
+              )}
+            </div>
+          )}
+
           {word.examples?.[0] && (
-            <p className="text-[12px] italic" style={{ color: 'var(--ink-soft)' }}>
+            <p className="text-[12px] italic leading-relaxed pt-0.5" style={{ color: 'var(--ink-soft)' }}>
               “{word.examples[0]}”
             </p>
           )}
+
+          {/* More Examples */}
+          {word.examples && word.examples.length > 1 && (
+            <div className="space-y-1 pt-0.5">
+              <span className="text-[11px] font-bold" style={{ color: 'var(--ink-soft)' }}>More Examples:</span>
+              <div className="space-y-1 pl-2.5 border-l border-dashed" style={{ borderColor: 'var(--line)' }}>
+                {word.examples.slice(1).map((ex, idx) => (
+                  <p key={idx} className="text-[11px] italic leading-snug" style={{ color: 'var(--ink-soft)' }}>
+                    • “{ex}”
+                  </p>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {/* Usage Note */}
           {word.usage_note && (
-            <p className="text-[11px]" style={{ color: 'var(--ink-soft)' }}>
-              💡 {word.usage_note}
-            </p>
+            <div
+              className="rounded-lg p-2 text-[11px] leading-snug mt-2"
+              style={{
+                background: 'var(--amber-soft)',
+                color: 'var(--ink-soft)',
+                borderLeft: '3px solid var(--amber)'
+              }}
+            >
+              <span className="font-bold mr-1">💡 Usage:</span>
+              {word.usage_note}
+            </div>
+          )}
+
+          {/* Memory Tip */}
+          {word.memory_tip && (
+            <div
+              className="rounded-lg p-2 text-[11px] leading-snug mt-1"
+              style={{
+                background: 'rgba(232, 118, 58, 0.08)',
+                color: 'var(--ink-soft)',
+                borderLeft: '3px solid var(--saffron)'
+              }}
+            >
+              <span className="font-bold mr-1">🔑 Memory Tip:</span>
+              <span className="font-guj">{word.memory_tip}</span>
+            </div>
           )}
         </div>
       )}
