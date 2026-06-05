@@ -1,0 +1,4304 @@
+{
+  "id": 12,
+  "category": "Weather & Nature",
+  "level": "Intermediate to Advanced",
+  "total_words": 100,
+  "subcategories": [
+    "Weather Conditions",
+    "Seasons & Climate",
+    "Natural Features",
+    "Plants & Wildlife",
+    "Environmental Issues",
+    "Natural Disasters"
+  ],
+  "subcategory_counts": {
+    "Weather Conditions": 17,
+    "Seasons & Climate": 17,
+    "Natural Features": 17,
+    "Plants & Wildlife": 17,
+    "Environmental Issues": 16,
+    "Natural Disasters": 16
+  },
+  "difficulty_counts": {
+    "Intermediate": 64,
+    "Advanced": 36
+  },
+  "words": [
+    {
+      "id": 1,
+      "word": "Drizzle",
+      "category": "Weather & Nature",
+      "subcategory": "Weather Conditions",
+      "part_of_speech": "noun",
+      "difficulty": "Intermediate",
+      "frequency": "Common",
+      "gujarati_pronunciation": "ડ્રિઝલ",
+      "english_meaning": "Light, fine rain falling in very small drops.",
+      "gujarati_meaning": "હળવો, ઝીણો વરસાદ — જ્યારે ખૂબ નાના ટીપાં ધીમે ધીમે પડે છે.",
+      "synonyms": [
+        "sprinkle",
+        "mist",
+        "shower"
+      ],
+      "antonyms": [
+        "downpour",
+        "deluge",
+        "torrent"
+      ],
+      "collocations": [
+        "light drizzle",
+        "morning drizzle",
+        "drizzle falls"
+      ],
+      "word_forms": [
+        "drizzle (n/v)",
+        "drizzling (adj)",
+        "drizzled (past)"
+      ],
+      "usage_note": "Used for very light rain; less intense than a shower.",
+      "memory_tip": "'Drizzle' સાંભળો — 'ઝીણું' (ઝીણો) જેવું લાગે — ઝીણો વરસાદ.",
+      "examples": [
+        "There was a light drizzle this morning.",
+        "We walked through the drizzle without umbrellas.",
+        "The drizzle made the roads slippery.",
+        "A gentle drizzle fell on the garden."
+      ]
+    },
+    {
+      "id": 2,
+      "word": "Downpour",
+      "category": "Weather & Nature",
+      "subcategory": "Weather Conditions",
+      "part_of_speech": "noun",
+      "difficulty": "Intermediate",
+      "frequency": "Common",
+      "gujarati_pronunciation": "ડાઉનપોર",
+      "english_meaning": "A heavy and sudden fall of rain.",
+      "gujarati_meaning": "અચાનક અને ભારે વરસાદ — જ્યારે ખૂબ ઝડપથી ઘણો વરસાદ પડે.",
+      "synonyms": [
+        "deluge",
+        "cloudburst",
+        "torrent"
+      ],
+      "antonyms": [
+        "drizzle",
+        "sprinkle",
+        "mist"
+      ],
+      "collocations": [
+        "sudden downpour",
+        "heavy downpour",
+        "caught in a downpour"
+      ],
+      "word_forms": [
+        "downpour (n)"
+      ],
+      "usage_note": "Implies a sudden, intense burst of rain, often unexpected.",
+      "memory_tip": "'Down' = નીચે + 'pour' = રેડવું → ઉપરથી ઘણો વરસાદ રેડાય.",
+      "examples": [
+        "We were caught in a sudden downpour.",
+        "The downpour flooded the streets within minutes.",
+        "A downpour interrupted the outdoor wedding.",
+        "After the downpour, the sky cleared up."
+      ]
+    },
+    {
+      "id": 3,
+      "word": "Overcast",
+      "category": "Weather & Nature",
+      "subcategory": "Weather Conditions",
+      "part_of_speech": "adjective",
+      "difficulty": "Intermediate",
+      "frequency": "Common",
+      "gujarati_pronunciation": "ઓવરકાસ્ટ",
+      "english_meaning": "Covered with clouds; dull and grey sky.",
+      "gujarati_meaning": "આકાશ વાદળોથી ઢંકાયેલું — ધૂંધળું અને રાખોડી રંગનું આકાશ.",
+      "synonyms": [
+        "cloudy",
+        "grey",
+        "gloomy"
+      ],
+      "antonyms": [
+        "clear",
+        "sunny",
+        "bright"
+      ],
+      "collocations": [
+        "overcast sky",
+        "overcast day",
+        "heavily overcast"
+      ],
+      "word_forms": [
+        "overcast (adj)"
+      ],
+      "usage_note": "Describes a sky completely covered by cloud with no sun visible.",
+      "memory_tip": "'Over' = ઉપર + 'cast' = ઢાંકવું → આખું આકાશ ઢંકાયેલું.",
+      "examples": [
+        "The sky was overcast all day.",
+        "An overcast morning turned into heavy rain.",
+        "We postponed the picnic because it was overcast.",
+        "The overcast weather made everyone feel gloomy."
+      ]
+    },
+    {
+      "id": 4,
+      "word": "Humid",
+      "category": "Weather & Nature",
+      "subcategory": "Weather Conditions",
+      "part_of_speech": "adjective",
+      "difficulty": "Intermediate",
+      "frequency": "Common",
+      "gujarati_pronunciation": "હ્યૂમિડ",
+      "english_meaning": "Having a high level of moisture in the air; damp and warm.",
+      "gujarati_meaning": "હવામાં ભેજ વધારે હોય — ગરમ અને ભેજવાળી હવા.",
+      "synonyms": [
+        "muggy",
+        "damp",
+        "sultry"
+      ],
+      "antonyms": [
+        "dry",
+        "arid",
+        "parched"
+      ],
+      "collocations": [
+        "humid climate",
+        "hot and humid",
+        "humid weather"
+      ],
+      "word_forms": [
+        "humid (adj)",
+        "humidity (n)",
+        "humidify (v)"
+      ],
+      "usage_note": "Often used with 'hot' to describe uncomfortable tropical weather.",
+      "memory_tip": "'Humid' → humidity → ભેજ. ભેજ = ભારે ગરમી + ભેજ.",
+      "examples": [
+        "Mumbai is extremely humid in summer.",
+        "The humid air made it hard to breathe.",
+        "We prefer dry heat over humid conditions.",
+        "The humid weather caused the wood to swell."
+      ]
+    },
+    {
+      "id": 5,
+      "word": "Arid",
+      "category": "Weather & Nature",
+      "subcategory": "Weather Conditions",
+      "part_of_speech": "adjective",
+      "difficulty": "Advanced",
+      "frequency": "Less common",
+      "gujarati_pronunciation": "એરિડ",
+      "english_meaning": "Very dry, with little or no rainfall; barren.",
+      "gujarati_meaning": "ખૂબ શુષ્ક — જ્યાં વરસાદ ભાગ્યે જ પડે અને વનસ્પતિ ઓછી હોય.",
+      "synonyms": [
+        "dry",
+        "parched",
+        "desert-like"
+      ],
+      "antonyms": [
+        "humid",
+        "fertile",
+        "lush"
+      ],
+      "collocations": [
+        "arid region",
+        "arid climate",
+        "arid landscape"
+      ],
+      "word_forms": [
+        "arid (adj)",
+        "aridity (n)"
+      ],
+      "usage_note": "Used to describe very dry climates or regions like deserts.",
+      "memory_tip": "'Arid' → 'અ-રિ-ડ' — 'એ' જ્યાં પાણી 'ઓ' (ઓ = ઓછું) → ઓછો વરસાદ.",
+      "examples": [
+        "The Sahara is one of the most arid regions on Earth.",
+        "Few plants can survive in such arid conditions.",
+        "The arid soil cracked under the scorching sun.",
+        "Water conservation is essential in arid climates."
+      ]
+    },
+    {
+      "id": 6,
+      "word": "Gale",
+      "category": "Weather & Nature",
+      "subcategory": "Weather Conditions",
+      "part_of_speech": "noun",
+      "difficulty": "Advanced",
+      "frequency": "Less common",
+      "gujarati_pronunciation": "ગેઇલ",
+      "english_meaning": "A very strong wind, typically reaching 50–100 km/h.",
+      "gujarati_meaning": "ખૂબ જોરદાર પવન — સામાન્ય રીતે ૫૦ થી ૧૦૦ કિ.મી./કલાકની ઝડપે ફૂંકાય.",
+      "synonyms": [
+        "storm",
+        "squall",
+        "tempest"
+      ],
+      "antonyms": [
+        "calm",
+        "breeze",
+        "stillness"
+      ],
+      "collocations": [
+        "gale-force winds",
+        "strong gale",
+        "gale warning"
+      ],
+      "word_forms": [
+        "gale (n)",
+        "gale-force (adj)"
+      ],
+      "usage_note": "A gale is stronger than a breeze but weaker than a hurricane.",
+      "memory_tip": "'Gale' → 'ગ' = ગર્જના (roar) → ગર્જના કરતો જોરદાર પવન.",
+      "examples": [
+        "The gale knocked down several trees.",
+        "Sailors were warned about gale-force winds.",
+        "The gale made walking outdoors dangerous.",
+        "A gale swept through the coastal town overnight."
+      ]
+    },
+    {
+      "id": 7,
+      "word": "Frost",
+      "category": "Weather & Nature",
+      "subcategory": "Weather Conditions",
+      "part_of_speech": "noun",
+      "difficulty": "Intermediate",
+      "frequency": "Common",
+      "gujarati_pronunciation": "ફ્રોસ્ટ",
+      "english_meaning": "A thin layer of ice crystals that forms on surfaces when temperature drops below freezing.",
+      "gujarati_meaning": "ઠંડીમાં સપાટી પર જામેલા બરફના ઝીણા સ્ફટિક — જ્યારે તાપમાન શૂન્ય ડિગ્રી નીચે જાય.",
+      "synonyms": [
+        "ice",
+        "freeze",
+        "rime"
+      ],
+      "antonyms": [
+        "thaw",
+        "warmth",
+        "heat"
+      ],
+      "collocations": [
+        "ground frost",
+        "morning frost",
+        "frost warning"
+      ],
+      "word_forms": [
+        "frost (n/v)",
+        "frosty (adj)",
+        "frosted (adj)"
+      ],
+      "usage_note": "Frost appears overnight and melts after sunrise; affects crops badly.",
+      "memory_tip": "'Frost' → 'ફ્રોઝ' (freeze) → freeze = જામી ગયેલ → frost = જામેલ બરફ.",
+      "examples": [
+        "A heavy frost damaged the crops overnight.",
+        "The grass was covered with frost in the morning.",
+        "Frost warnings were issued for the region.",
+        "The frost made the roads slippery."
+      ]
+    },
+    {
+      "id": 8,
+      "word": "Sleet",
+      "category": "Weather & Nature",
+      "subcategory": "Weather Conditions",
+      "part_of_speech": "noun",
+      "difficulty": "Advanced",
+      "frequency": "Less common",
+      "gujarati_pronunciation": "સ્લીટ",
+      "english_meaning": "A mixture of rain and snow, or partly melted snow falling as icy pellets.",
+      "gujarati_meaning": "વરસાદ અને બરફ ભેગા પડે — અડધા ઓગળેલા બરફના ઝીણા ટુકડા જ્યારે પડે.",
+      "synonyms": [
+        "hail",
+        "freezing rain",
+        "ice pellets"
+      ],
+      "antonyms": [
+        "sunshine",
+        "clear weather"
+      ],
+      "collocations": [
+        "sleet storm",
+        "rain and sleet",
+        "sleet falls"
+      ],
+      "word_forms": [
+        "sleet (n/v)",
+        "sleety (adj)"
+      ],
+      "usage_note": "Common in cold temperate climates; different from hail which is larger.",
+      "memory_tip": "'Sleet' = snow + rain mix → 'સ્ન' + 'વ' = 'સ્લ' → sleet.",
+      "examples": [
+        "The forecast predicted sleet for the weekend.",
+        "Sleet made driving conditions very hazardous.",
+        "Children were disappointed when snow turned to sleet.",
+        "The sleet stung our faces as we walked."
+      ]
+    },
+    {
+      "id": 9,
+      "word": "Heatwave",
+      "category": "Weather & Nature",
+      "subcategory": "Weather Conditions",
+      "part_of_speech": "noun",
+      "difficulty": "Intermediate",
+      "frequency": "Common",
+      "gujarati_pronunciation": "હીટવેવ",
+      "english_meaning": "A prolonged period of abnormally hot weather.",
+      "gujarati_meaning": "લાંબા સમય સુધી ચાલુ રહેતી અસામાન્ય ગરમ હવામાનની સ્થિતિ.",
+      "synonyms": [
+        "hot spell",
+        "scorcher",
+        "heat surge"
+      ],
+      "antonyms": [
+        "cold snap",
+        "freeze",
+        "cold wave"
+      ],
+      "collocations": [
+        "deadly heatwave",
+        "summer heatwave",
+        "heatwave warning"
+      ],
+      "word_forms": [
+        "heatwave (n)"
+      ],
+      "usage_note": "A heatwave lasts several days and poses serious health risks.",
+      "memory_tip": "'Heat' = ગરમી + 'wave' = લહેર → ગરમીની લહેર.",
+      "examples": [
+        "A severe heatwave struck northern India last June.",
+        "Hospitals were overwhelmed during the heatwave.",
+        "The heatwave caused widespread power outages.",
+        "Farmers suffered huge losses due to the heatwave."
+      ]
+    },
+    {
+      "id": 10,
+      "word": "Blizzard",
+      "category": "Weather & Nature",
+      "subcategory": "Weather Conditions",
+      "part_of_speech": "noun",
+      "difficulty": "Advanced",
+      "frequency": "Less common",
+      "gujarati_pronunciation": "બ્લિઝર્ડ",
+      "english_meaning": "A severe snowstorm with strong winds and low visibility.",
+      "gujarati_meaning": "ભારે બરફ અને જોરદાર પવન સાથે આવતું ભીષણ હિમ-તોફાન — જ્યાં કાંઈ દેખાય નહીં.",
+      "synonyms": [
+        "snowstorm",
+        "whiteout",
+        "bluster"
+      ],
+      "antonyms": [
+        "clear skies",
+        "sunshine",
+        "calm"
+      ],
+      "collocations": [
+        "severe blizzard",
+        "blizzard conditions",
+        "blizzard warning"
+      ],
+      "word_forms": [
+        "blizzard (n)"
+      ],
+      "usage_note": "A blizzard requires winds of at least 56 km/h with snow reducing visibility.",
+      "memory_tip": "'Blizzard' → 'ભ' = ભીષણ (terrible) + blistering cold → ભીષણ હિમ-તોફાન.",
+      "examples": [
+        "A blizzard paralyzed the city for three days.",
+        "Rescue teams struggled through blizzard conditions.",
+        "The blizzard left over a metre of snow.",
+        "Schools were closed during the blizzard."
+      ]
+    },
+    {
+      "id": 11,
+      "word": "Fog",
+      "category": "Weather & Nature",
+      "subcategory": "Weather Conditions",
+      "part_of_speech": "noun",
+      "difficulty": "Intermediate",
+      "frequency": "Very common",
+      "gujarati_pronunciation": "ફૉગ",
+      "english_meaning": "A thick cloud of tiny water droplets near the ground reducing visibility.",
+      "gujarati_meaning": "જમીન પાસે ઝીણા પાણીના ટીપાંનો ઘટ્ટ ગુચ્છ — જેથી આગળ ઓછું દેખાય.",
+      "synonyms": [
+        "mist",
+        "haze",
+        "murk"
+      ],
+      "antonyms": [
+        "clarity",
+        "clear air",
+        "visibility"
+      ],
+      "collocations": [
+        "thick fog",
+        "dense fog",
+        "morning fog"
+      ],
+      "word_forms": [
+        "fog (n)",
+        "foggy (adj)"
+      ],
+      "usage_note": "Fog differs from mist by having visibility below 1 km.",
+      "memory_tip": "'Fog' → 'ફ' = ફસાઈ ગયા (got stuck) → ફૉગમાં ફસાઈ જવાય.",
+      "examples": [
+        "Dense fog caused several accidents on the highway.",
+        "The fog lifted by mid-morning.",
+        "Flights were delayed due to heavy fog.",
+        "The old lighthouse guided ships through the fog."
+      ]
+    },
+    {
+      "id": 12,
+      "word": "Muggy",
+      "category": "Weather & Nature",
+      "subcategory": "Weather Conditions",
+      "part_of_speech": "adjective",
+      "difficulty": "Intermediate",
+      "frequency": "Common",
+      "gujarati_pronunciation": "મગી",
+      "english_meaning": "Unpleasantly warm and damp; oppressively humid.",
+      "gujarati_meaning": "અગવડ ભરી ગરમ અને ભેજવાળી હવા — જ્યારે શ્વાસ લેવો પણ ભારે લાગે.",
+      "synonyms": [
+        "humid",
+        "sultry",
+        "sticky"
+      ],
+      "antonyms": [
+        "fresh",
+        "cool",
+        "breezy"
+      ],
+      "collocations": [
+        "muggy weather",
+        "muggy day",
+        "hot and muggy"
+      ],
+      "word_forms": [
+        "muggy (adj)",
+        "mugginess (n)"
+      ],
+      "usage_note": "Informal word often used to describe tropical monsoon weather.",
+      "memory_tip": "'Muggy' → 'મ' = ભારે (heavy) → ભારે ભેજ = muggy.",
+      "examples": [
+        "The muggy afternoon made everyone feel lethargic.",
+        "It was too muggy to enjoy the outdoor festival.",
+        "A muggy breeze offered no real relief.",
+        "The muggy climate of Kerala takes getting used to."
+      ]
+    },
+    {
+      "id": 13,
+      "word": "Breezy",
+      "category": "Weather & Nature",
+      "subcategory": "Weather Conditions",
+      "part_of_speech": "adjective",
+      "difficulty": "Intermediate",
+      "frequency": "Common",
+      "gujarati_pronunciation": "બ્રીઝી",
+      "english_meaning": "Having a light, refreshing wind blowing.",
+      "gujarati_meaning": "હળવો, તાજો પવન ફૂંકાતો હોય — ઠંડક આપનારો.",
+      "synonyms": [
+        "windy",
+        "gusty",
+        "airy"
+      ],
+      "antonyms": [
+        "still",
+        "calm",
+        "stagnant"
+      ],
+      "collocations": [
+        "breezy day",
+        "cool and breezy",
+        "breezy conditions"
+      ],
+      "word_forms": [
+        "breezy (adj)",
+        "breeze (n)",
+        "breezily (adv)"
+      ],
+      "usage_note": "Breezy implies a pleasant, light wind — unlike windy which can be unpleasant.",
+      "memory_tip": "'Breeze' = ઠંડો પવન → 'breezy' = ઠંડો પવન વાળો દિવસ.",
+      "examples": [
+        "A breezy afternoon made the beach perfect.",
+        "The breezy weather was ideal for flying kites.",
+        "She wore a light scarf on the breezy morning.",
+        "The breezy hilltop offered a stunning view."
+      ]
+    },
+    {
+      "id": 14,
+      "word": "Precipitation",
+      "category": "Weather & Nature",
+      "subcategory": "Weather Conditions",
+      "part_of_speech": "noun",
+      "difficulty": "Advanced",
+      "frequency": "Common",
+      "gujarati_pronunciation": "પ્રિસિપિટેઇશન",
+      "english_meaning": "Any form of water — rain, snow, sleet — that falls from clouds to the ground.",
+      "gujarati_meaning": "વાદળોમાંથી જમીન પર પડતું કોઈ પણ સ્વરૂપનું પાણી — વરસાદ, બરફ, કે ઝીણા બરફ.",
+      "synonyms": [
+        "rainfall",
+        "snowfall",
+        "moisture"
+      ],
+      "antonyms": [
+        "drought",
+        "aridity",
+        "dryness"
+      ],
+      "collocations": [
+        "annual precipitation",
+        "heavy precipitation",
+        "precipitation levels"
+      ],
+      "word_forms": [
+        "precipitation (n)",
+        "precipitate (v)",
+        "precipitous (adj)"
+      ],
+      "usage_note": "Scientific/meteorological term used in weather reports and geography.",
+      "memory_tip": "'Precipi-' = ઝડપથી પડવું → precipitation = આકાશમાંથી ઝડપથી પડતું પાણી.",
+      "examples": [
+        "The region receives over 2000 mm of precipitation annually.",
+        "Low precipitation has led to drought conditions.",
+        "Meteorologists measure precipitation using rain gauges.",
+        "The precipitation this winter was mostly in the form of snow."
+      ]
+    },
+    {
+      "id": 15,
+      "word": "Thunder",
+      "category": "Weather & Nature",
+      "subcategory": "Weather Conditions",
+      "part_of_speech": "noun",
+      "difficulty": "Intermediate",
+      "frequency": "Very common",
+      "gujarati_pronunciation": "થન્ડર",
+      "english_meaning": "The loud rumbling or crashing sound heard during a thunderstorm, caused by lightning.",
+      "gujarati_meaning": "વીજળી ચમકે ત્યારે સંભળાતો ભારે ગડગડાટ — ગૂઢ મોટો અવાજ.",
+      "synonyms": [
+        "rumble",
+        "boom",
+        "clap"
+      ],
+      "antonyms": [
+        "silence",
+        "calm",
+        "quiet"
+      ],
+      "collocations": [
+        "thunder and lightning",
+        "clap of thunder",
+        "thunder rolls"
+      ],
+      "word_forms": [
+        "thunder (n/v)",
+        "thunderous (adj)",
+        "thunderstorm (n)"
+      ],
+      "usage_note": "Thunder is the sound; lightning is the light. They occur together in storms.",
+      "memory_tip": "'Thunder' → 'થ' = ઠ-ઠ-ઠ (ગડગડ) → ગડગડ અવાજ.",
+      "examples": [
+        "The children hid under the blanket at the thunder.",
+        "A loud clap of thunder woke everyone up.",
+        "Thunder rolled across the mountains.",
+        "We heard distant thunder as the storm approached."
+      ]
+    },
+    {
+      "id": 16,
+      "word": "Tornado",
+      "category": "Weather & Nature",
+      "subcategory": "Weather Conditions",
+      "part_of_speech": "noun",
+      "difficulty": "Advanced",
+      "frequency": "Less common",
+      "gujarati_pronunciation": "ટૉર્નેડો",
+      "english_meaning": "A violently rotating column of air extending from a thunderstorm to the ground.",
+      "gujarati_meaning": "ગર્જનાતોફાનમાંથી જમીન સુધી ફૂંકાતો ઝડપભેર ફરતો હવાનો સ્તંભ — અત્યંત વિનાશકારી.",
+      "synonyms": [
+        "twister",
+        "cyclone",
+        "whirlwind"
+      ],
+      "antonyms": [
+        "calm",
+        "stillness"
+      ],
+      "collocations": [
+        "tornado warning",
+        "tornado alley",
+        "tornado touches down"
+      ],
+      "word_forms": [
+        "tornado (n)",
+        "tornadoes (pl)"
+      ],
+      "usage_note": "Tornadoes are measured on the Enhanced Fujita (EF) scale from EF0 to EF5.",
+      "memory_tip": "'Tornado' → ટ-ટ = ટ્વિસ્ટ (twist) → ફૂ-ફૂ ફરતો પવન.",
+      "examples": [
+        "A tornado destroyed dozens of homes in the town.",
+        "Residents took shelter as a tornado warning was issued.",
+        "The tornado left a path of destruction 2 km wide.",
+        "Scientists study tornadoes to improve early warning systems."
+      ]
+    },
+    {
+      "id": 17,
+      "word": "Visibility",
+      "category": "Weather & Nature",
+      "subcategory": "Weather Conditions",
+      "part_of_speech": "noun",
+      "difficulty": "Intermediate",
+      "frequency": "Common",
+      "gujarati_pronunciation": "વિઝિબિલિટી",
+      "english_meaning": "The distance one can see clearly, especially in relation to weather conditions.",
+      "gujarati_meaning": "હવામાનમાં કેટલે દૂર સ્પષ્ટ દેખી શકાય — ખાસ કરીને ધુમ્મસ, ધૂળ કે વરસાદ વખતે.",
+      "synonyms": [
+        "clarity",
+        "sight range",
+        "sightline"
+      ],
+      "antonyms": [
+        "obscurity",
+        "blindness",
+        "opacity"
+      ],
+      "collocations": [
+        "poor visibility",
+        "reduced visibility",
+        "visibility drops"
+      ],
+      "word_forms": [
+        "visibility (n)",
+        "visible (adj)",
+        "visibly (adv)"
+      ],
+      "usage_note": "Used heavily in aviation, marine, and road safety contexts.",
+      "memory_tip": "'Visible' = દેખી શકાય + '-ity' = ગુણ → visibility = દૃશ્યતા.",
+      "examples": [
+        "Fog reduced visibility to less than 50 metres.",
+        "Pilots reported poor visibility at the airport.",
+        "Visibility improved once the rain stopped.",
+        "Low visibility caused a multi-car accident on the highway."
+      ]
+    },
+    {
+      "id": 18,
+      "word": "Monsoon",
+      "category": "Weather & Nature",
+      "subcategory": "Seasons & Climate",
+      "part_of_speech": "noun",
+      "difficulty": "Intermediate",
+      "frequency": "Very common",
+      "gujarati_pronunciation": "મૉન્સૂન",
+      "english_meaning": "A seasonal wind bringing heavy rainfall, especially in South and Southeast Asia.",
+      "gujarati_meaning": "ઋતુ-પ્રમાણે ફૂંકાતો પવન — ખાસ કરીને ભારત-એશિયામાં ભારે વરસાদ લઈ આવે.",
+      "synonyms": [
+        "rainy season",
+        "wet season",
+        "seasonal rain"
+      ],
+      "antonyms": [
+        "dry season",
+        "drought",
+        "arid period"
+      ],
+      "collocations": [
+        "monsoon season",
+        "monsoon rains",
+        "monsoon arrives"
+      ],
+      "word_forms": [
+        "monsoon (n)",
+        "monsoonal (adj)"
+      ],
+      "usage_note": "In India, the southwest monsoon arrives around June and retreats by October.",
+      "memory_tip": "'Monsoon' → 'મૌ' = મૌસમ (season) → ચોમાસાનો મૌસમ.",
+      "examples": [
+        "The monsoon arrived two weeks early this year.",
+        "Farmers eagerly await the monsoon season.",
+        "Heavy monsoon rains flooded low-lying areas.",
+        "The monsoon is essential for India's agriculture."
+      ]
+    },
+    {
+      "id": 19,
+      "word": "Equinox",
+      "category": "Weather & Nature",
+      "subcategory": "Seasons & Climate",
+      "part_of_speech": "noun",
+      "difficulty": "Advanced",
+      "frequency": "Less common",
+      "gujarati_pronunciation": "ઇક્વિનૉક્સ",
+      "english_meaning": "The time when the sun crosses the equator, making day and night equal in length.",
+      "gujarati_meaning": "જ્યારે સૂર્ય વિષુવવૃત્ત પર હોય — દિવસ અને રાત સરખી લંબાઈ ધરાવે.",
+      "synonyms": [
+        "equal day",
+        "vernal equinox",
+        "autumnal equinox"
+      ],
+      "antonyms": [
+        "solstice",
+        "longest day",
+        "shortest day"
+      ],
+      "collocations": [
+        "spring equinox",
+        "autumnal equinox",
+        "March equinox"
+      ],
+      "word_forms": [
+        "equinox (n)",
+        "equinoctial (adj)"
+      ],
+      "usage_note": "Occurs twice a year: around March 20 and September 23.",
+      "memory_tip": "'Equi' = સરખું (equal) + 'nox' = રાત (night) → રાત-દિવસ સરખાં.",
+      "examples": [
+        "The spring equinox marks the start of astronomical spring.",
+        "On the equinox, day and night are each 12 hours long.",
+        "Many cultures celebrate the autumn equinox.",
+        "The equinox occurs around March 20 each year."
+      ]
+    },
+    {
+      "id": 20,
+      "word": "Solstice",
+      "category": "Weather & Nature",
+      "subcategory": "Seasons & Climate",
+      "part_of_speech": "noun",
+      "difficulty": "Advanced",
+      "frequency": "Less common",
+      "gujarati_pronunciation": "સૉલ્સ્ટિસ",
+      "english_meaning": "Either of the two times of year when the sun reaches its furthest point north or south, giving the longest or shortest day.",
+      "gujarati_meaning": "વર્ષમાં બે વખત — જ્યારે સૂર્ય સૌથી ઉત્તર અથવા દક્ષિણ બિંદુ પર હોય — સૌથી લાંબો કે ટૂંકો દિવસ.",
+      "synonyms": [
+        "midsummer",
+        "midwinter",
+        "sun-standing"
+      ],
+      "antonyms": [
+        "equinox"
+      ],
+      "collocations": [
+        "summer solstice",
+        "winter solstice",
+        "solstice day"
+      ],
+      "word_forms": [
+        "solstice (n)",
+        "solstitial (adj)"
+      ],
+      "usage_note": "Summer solstice (~June 21) is the longest day; winter solstice (~Dec 21) the shortest.",
+      "memory_tip": "'Sol' = સૂર્ય (sun) + 'stice' = ઊભા રહેવું → સૂર્ય જ્યાં ઊભો રહે.",
+      "examples": [
+        "The summer solstice is celebrated with bonfires in many cultures.",
+        "June 21 is the winter solstice in the Southern Hemisphere.",
+        "The solstice marks an important point in the astronomical calendar.",
+        "Stonehenge was built to align with the summer solstice sunrise."
+      ]
+    },
+    {
+      "id": 21,
+      "word": "Temperate",
+      "category": "Weather & Nature",
+      "subcategory": "Seasons & Climate",
+      "part_of_speech": "adjective",
+      "difficulty": "Intermediate",
+      "frequency": "Common",
+      "gujarati_pronunciation": "ટૅમ્પરિટ",
+      "english_meaning": "Having a mild climate without extremes of heat or cold.",
+      "gujarati_meaning": "સૌમ્ય આબોહવા — ન ખૂબ ગરમ, ન ખૂબ ઠંડી — સામાન્ય, અનુકૂળ હવામાન.",
+      "synonyms": [
+        "mild",
+        "moderate",
+        "pleasant"
+      ],
+      "antonyms": [
+        "extreme",
+        "tropical",
+        "arctic"
+      ],
+      "collocations": [
+        "temperate climate",
+        "temperate zone",
+        "temperate region"
+      ],
+      "word_forms": [
+        "temperate (adj)",
+        "temperature (n)",
+        "temperately (adv)"
+      ],
+      "usage_note": "The temperate zones lie between the tropics and the polar regions.",
+      "memory_tip": "'Temperate' → 'temp' = temperature → moderate temperature → સૌમ્ય.",
+      "examples": [
+        "Britain has a temperate maritime climate.",
+        "Temperate forests support a wide variety of wildlife.",
+        "The temperate zone experiences four distinct seasons.",
+        "Grapes grow well in temperate climates."
+      ]
+    },
+    {
+      "id": 22,
+      "word": "Subtropical",
+      "category": "Weather & Nature",
+      "subcategory": "Seasons & Climate",
+      "part_of_speech": "adjective",
+      "difficulty": "Advanced",
+      "frequency": "Less common",
+      "gujarati_pronunciation": "સબટ્રૉપિકલ",
+      "english_meaning": "Relating to regions adjacent to the tropics, with hot summers and mild winters.",
+      "gujarati_meaning": "ઉષ્ણકટિબંધ નજીકના પ્રદેશ — ગરમ ઉનાળો અને સૌમ્ય શિયાળો ધરાવે.",
+      "synonyms": [
+        "warm",
+        "near-tropical",
+        "semitropical"
+      ],
+      "antonyms": [
+        "polar",
+        "arctic",
+        "subarctic"
+      ],
+      "collocations": [
+        "subtropical climate",
+        "subtropical region",
+        "subtropical zone"
+      ],
+      "word_forms": [
+        "subtropical (adj)",
+        "subtropics (n)"
+      ],
+      "usage_note": "Gujarat and parts of western India have a subtropical climate.",
+      "memory_tip": "'Sub' = નીચે/પાસે + 'tropical' = ઉષ્ણ → ઉષ્ણ પ્રદેશ પાસેનો.",
+      "examples": [
+        "Gujarat has a subtropical climate with hot summers.",
+        "Subtropical regions experience heavy monsoon rainfall.",
+        "Many citrus fruits thrive in subtropical climates.",
+        "The subtropical zone lies between the tropics and temperate regions."
+      ]
+    },
+    {
+      "id": 23,
+      "word": "Dormant",
+      "category": "Weather & Nature",
+      "subcategory": "Seasons & Climate",
+      "part_of_speech": "adjective",
+      "difficulty": "Advanced",
+      "frequency": "Less common",
+      "gujarati_pronunciation": "ડૉર્મન્ટ",
+      "english_meaning": "In a state of rest or inactivity; temporarily inactive (used of plants, animals, or volcanoes).",
+      "gujarati_meaning": "આરામ કે નિષ્ક્રિયતાની અવસ્થામાં — ઋતુ પ્રમાણે ઘણા છોડ, પ્રાણી કે જ્વાળામુખી નિષ્ક્રિય રહે.",
+      "synonyms": [
+        "inactive",
+        "sleeping",
+        "hibernating"
+      ],
+      "antonyms": [
+        "active",
+        "awake",
+        "growing"
+      ],
+      "collocations": [
+        "dormant season",
+        "dormant volcano",
+        "dormant plants"
+      ],
+      "word_forms": [
+        "dormant (adj)",
+        "dormancy (n)"
+      ],
+      "usage_note": "Used in biology for plants in winter and animals in hibernation.",
+      "memory_tip": "'Dormant' → 'dorm' = ઊંઘ (sleep) → dormant = ઊંઘતી અવસ્થા.",
+      "examples": [
+        "Many plants remain dormant during the cold winter months.",
+        "The volcano had been dormant for over a century.",
+        "Seeds lie dormant in the soil until spring arrives.",
+        "Bears become dormant during hibernation."
+      ]
+    },
+    {
+      "id": 24,
+      "word": "Perennial",
+      "category": "Weather & Nature",
+      "subcategory": "Seasons & Climate",
+      "part_of_speech": "adjective",
+      "difficulty": "Advanced",
+      "frequency": "Less common",
+      "gujarati_pronunciation": "પિરૅનિઅલ",
+      "english_meaning": "Lasting or existing for a long or apparently infinite time; (of plants) living for several years.",
+      "gujarati_meaning": "ઘણા વર્ષો સુધી જીવતો/ચાલુ રહેતો — (છોડ માટે) દર વર્ષે ફૂલ આપે.",
+      "synonyms": [
+        "enduring",
+        "perpetual",
+        "long-lasting"
+      ],
+      "antonyms": [
+        "annual",
+        "seasonal",
+        "temporary"
+      ],
+      "collocations": [
+        "perennial plant",
+        "perennial problem",
+        "perennial stream"
+      ],
+      "word_forms": [
+        "perennial (adj/n)",
+        "perennially (adv)"
+      ],
+      "usage_note": "In gardening, perennials return every year; annuals last only one season.",
+      "memory_tip": "'Per' + 'annual' → ઘણા 'years' → perennial = ઘણા વર્ષ ચાલે.",
+      "examples": [
+        "Roses are popular perennial garden plants.",
+        "Flooding is a perennial problem in low-lying areas.",
+        "Perennial rivers flow throughout the year.",
+        "This perennial grass survives drought and frost."
+      ]
+    },
+    {
+      "id": 25,
+      "word": "Thaw",
+      "category": "Weather & Nature",
+      "subcategory": "Seasons & Climate",
+      "part_of_speech": "verb",
+      "difficulty": "Intermediate",
+      "frequency": "Common",
+      "gujarati_pronunciation": "થૉ",
+      "english_meaning": "To melt or cause to melt from ice or snow; to become warmer after winter.",
+      "gujarati_meaning": "બરફ ઓગળવો — ઠંડી ઘટ્યા પછી બરફ ઓગળે અથવા ઠંડા ખોરાક/વ્યક્તિ ગરમ થઈ જાય.",
+      "synonyms": [
+        "melt",
+        "defrost",
+        "liquefy"
+      ],
+      "antonyms": [
+        "freeze",
+        "solidify",
+        "ice over"
+      ],
+      "collocations": [
+        "spring thaw",
+        "thaw out",
+        "begin to thaw"
+      ],
+      "word_forms": [
+        "thaw (v/n)",
+        "thawed (past)",
+        "thawing (present)"
+      ],
+      "usage_note": "Also used figuratively: 'relations between countries began to thaw.'",
+      "memory_tip": "'Thaw' → 'ઠ' = ઠંડુ ઓછું → ઠંડી ઓછી = ઓગળ્યો.",
+      "examples": [
+        "The ice on the lake began to thaw in March.",
+        "Frozen pipes thawed after the temperature rose.",
+        "The spring thaw flooded the meadows.",
+        "She left the meat out to thaw before cooking."
+      ]
+    },
+    {
+      "id": 26,
+      "word": "Drought",
+      "category": "Weather & Nature",
+      "subcategory": "Seasons & Climate",
+      "part_of_speech": "noun",
+      "difficulty": "Intermediate",
+      "frequency": "Common",
+      "gujarati_pronunciation": "ડ્રાઉટ",
+      "english_meaning": "A prolonged period of abnormally low rainfall leading to water shortage.",
+      "gujarati_meaning": "ઘણા સમય સુધી ઓછો વરસાદ — જળ-સંકટ ઊભો થાય.",
+      "synonyms": [
+        "dry spell",
+        "water shortage",
+        "aridity"
+      ],
+      "antonyms": [
+        "flood",
+        "deluge",
+        "abundance of rain"
+      ],
+      "collocations": [
+        "severe drought",
+        "drought conditions",
+        "drought-resistant"
+      ],
+      "word_forms": [
+        "drought (n)",
+        "droughty (adj)"
+      ],
+      "usage_note": "Drought affects agriculture, water supply, and ecosystems.",
+      "memory_tip": "'Drought' → 'dry' → ડ-ડ = ડ્રાય → ડ્રાઉટ = સૂકો સમય.",
+      "examples": [
+        "The region suffered its worst drought in 50 years.",
+        "Drought forced many farmers to abandon their crops.",
+        "The government declared a drought emergency.",
+        "Drought-resistant crops are vital in arid regions."
+      ]
+    },
+    {
+      "id": 27,
+      "word": "Tempest",
+      "category": "Weather & Nature",
+      "subcategory": "Seasons & Climate",
+      "part_of_speech": "noun",
+      "difficulty": "Advanced",
+      "frequency": "Less common",
+      "gujarati_pronunciation": "ટૅમ્પિસ્ટ",
+      "english_meaning": "A violent, windy storm.",
+      "gujarati_meaning": "ભારે પવન અને વરસાদ સાથેનું ભીષણ તોફાન.",
+      "synonyms": [
+        "storm",
+        "gale",
+        "hurricane"
+      ],
+      "antonyms": [
+        "calm",
+        "stillness",
+        "serenity"
+      ],
+      "collocations": [
+        "raging tempest",
+        "tempest at sea",
+        "tempest in a teapot"
+      ],
+      "word_forms": [
+        "tempest (n)",
+        "tempestuous (adj)",
+        "tempestuously (adv)"
+      ],
+      "usage_note": "Mostly literary/poetic; 'A tempest in a teapot' means a big fuss over something small.",
+      "memory_tip": "'Tempest' = 'temp' (temperature) + 'pest' (ઉપાધિ) → ગરમ ઉપાધિ = ભારે તોફાન.",
+      "examples": [
+        "The sailors feared the tempest would sink their ship.",
+        "Shakespeare's play 'The Tempest' features a magical storm.",
+        "The tempest lasted three days and caused widespread damage.",
+        "A tempest of emotions swept through the crowd."
+      ]
+    },
+    {
+      "id": 28,
+      "word": "Climate",
+      "category": "Weather & Nature",
+      "subcategory": "Seasons & Climate",
+      "part_of_speech": "noun",
+      "difficulty": "Intermediate",
+      "frequency": "Very common",
+      "gujarati_pronunciation": "ક્લાઇમેટ",
+      "english_meaning": "The typical weather conditions of a region over a long period.",
+      "gujarati_meaning": "કોઈ પ્રદેશની લાંબા સમય સુધીની સામાન્ય હવામાન-પ્રકૃતિ — આબોહવા.",
+      "synonyms": [
+        "weather pattern",
+        "atmosphere",
+        "environment"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "climate change",
+        "tropical climate",
+        "climate zone"
+      ],
+      "word_forms": [
+        "climate (n)",
+        "climatic (adj)",
+        "climatically (adv)"
+      ],
+      "usage_note": "Climate is long-term patterns; weather is day-to-day conditions.",
+      "memory_tip": "'Climate' → ક = કાયમ (permanent) → કાયમ ની હવા = આબોહવા.",
+      "examples": [
+        "India has a tropical climate in most regions.",
+        "Climate change is one of the biggest global challenges.",
+        "The Mediterranean climate is ideal for olive growing.",
+        "Scientists study climate patterns to predict future weather."
+      ]
+    },
+    {
+      "id": 29,
+      "word": "Vernal",
+      "category": "Weather & Nature",
+      "subcategory": "Seasons & Climate",
+      "part_of_speech": "adjective",
+      "difficulty": "Advanced",
+      "frequency": "Less common",
+      "gujarati_pronunciation": "વર્નલ",
+      "english_meaning": "Relating to spring; fresh and young.",
+      "gujarati_meaning": "વસંત ઋતુ સાથે સંબંધિત — તાજો, નવો, ઉત્સાહભર્યો.",
+      "synonyms": [
+        "spring-like",
+        "fresh",
+        "youthful"
+      ],
+      "antonyms": [
+        "autumnal",
+        "wintry",
+        "bleak"
+      ],
+      "collocations": [
+        "vernal equinox",
+        "vernal season",
+        "vernal bloom"
+      ],
+      "word_forms": [
+        "vernal (adj)",
+        "vernally (adv)"
+      ],
+      "usage_note": "Mostly used in formal or poetic contexts to refer to spring.",
+      "memory_tip": "'Vernal' → 'V' = Vasant (વસંત) → vernal = વસંત ઋતુ.",
+      "examples": [
+        "The vernal equinox occurs around March 20.",
+        "Vernal flowers bloomed across the meadow.",
+        "The air had a vernal freshness after the long winter.",
+        "Vernal pools are temporary ponds that form in spring."
+      ]
+    },
+    {
+      "id": 30,
+      "word": "Autumnal",
+      "category": "Weather & Nature",
+      "subcategory": "Seasons & Climate",
+      "part_of_speech": "adjective",
+      "difficulty": "Advanced",
+      "frequency": "Less common",
+      "gujarati_pronunciation": "ઑટૂમ્નલ",
+      "english_meaning": "Relating to autumn; characteristic of autumn.",
+      "gujarati_meaning": "પાનખર ઋતુ સંબંધી — જ્યારે પાંદડાં ખરે અને ઠંડી શરૂ થાય.",
+      "synonyms": [
+        "fall-like",
+        "harvest-like",
+        "mellow"
+      ],
+      "antonyms": [
+        "vernal",
+        "spring-like",
+        "summery"
+      ],
+      "collocations": [
+        "autumnal equinox",
+        "autumnal colours",
+        "autumnal breeze"
+      ],
+      "word_forms": [
+        "autumnal (adj)",
+        "autumn (n)"
+      ],
+      "usage_note": "Used in poetic or formal contexts for autumn.",
+      "memory_tip": "'Autumn' = પાનખર → 'autumnal' = પાનખર જેવો.",
+      "examples": [
+        "The park was bathed in autumnal colours of red and gold.",
+        "An autumnal chill filled the evening air.",
+        "The autumnal equinox marks the start of fall.",
+        "Autumnal festivals celebrate the harvest season."
+      ]
+    },
+    {
+      "id": 31,
+      "word": "Permafrost",
+      "category": "Weather & Nature",
+      "subcategory": "Seasons & Climate",
+      "part_of_speech": "noun",
+      "difficulty": "Advanced",
+      "frequency": "Less common",
+      "gujarati_pronunciation": "પર્મફ્રૉસ્ટ",
+      "english_meaning": "Ground that remains permanently frozen, found in polar and subarctic regions.",
+      "gujarati_meaning": "ધ્રુવ પ્રદેશોમાં સ્થાયી રૂપે જામેલ ભૂમિ — ક્યારેય ઓગળતી નથી.",
+      "synonyms": [
+        "frozen ground",
+        "perennial frost",
+        "tundra soil"
+      ],
+      "antonyms": [
+        "thawed soil",
+        "unfrozen ground"
+      ],
+      "collocations": [
+        "melting permafrost",
+        "permafrost layer",
+        "Siberian permafrost"
+      ],
+      "word_forms": [
+        "permafrost (n)"
+      ],
+      "usage_note": "Thawing permafrost due to climate change releases greenhouse gases.",
+      "memory_tip": "'Perma' = permanent + 'frost' = બરફ → કાયમ જામેલ બરફ.",
+      "examples": [
+        "Permafrost covers about 25% of the Earth's land surface.",
+        "Melting permafrost is accelerating climate change.",
+        "Buildings in Siberia are constructed on permafrost.",
+        "Ancient organisms have been found preserved in permafrost."
+      ]
+    },
+    {
+      "id": 32,
+      "word": "Precipitation cycle",
+      "category": "Weather & Nature",
+      "subcategory": "Seasons & Climate",
+      "part_of_speech": "noun",
+      "difficulty": "Advanced",
+      "frequency": "Less common",
+      "gujarati_pronunciation": "પ્રિસિપિટેઇશન સાઇકલ",
+      "english_meaning": "The recurring process of water evaporating, forming clouds, and falling as precipitation.",
+      "gujarati_meaning": "પાણી બાષ્પ બને, વાદળ બને, અને ફરી વરસાદ/બરફ રૂપે પડે — આ ફરી ફરી ચાલતી પ્રક્રિયા.",
+      "synonyms": [
+        "water cycle",
+        "hydrological cycle",
+        "rain cycle"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "water cycle",
+        "precipitation pattern",
+        "hydrological process"
+      ],
+      "word_forms": [
+        "precipitation cycle (n)"
+      ],
+      "usage_note": "Also called the hydrological cycle; fundamental to Earth's climate system.",
+      "memory_tip": "'Cycle' = ચક્ર → precipitation cycle = વરસાદ-ચક્ર = water cycle.",
+      "examples": [
+        "The precipitation cycle is essential for life on Earth.",
+        "Deforestation disrupts the natural precipitation cycle.",
+        "Students learn about the precipitation cycle in geography.",
+        "The precipitation cycle distributes fresh water across the planet."
+      ]
+    },
+    {
+      "id": 33,
+      "word": "Deciduous",
+      "category": "Weather & Nature",
+      "subcategory": "Seasons & Climate",
+      "part_of_speech": "adjective",
+      "difficulty": "Advanced",
+      "frequency": "Less common",
+      "gujarati_pronunciation": "ડિસિડ્યુઅસ",
+      "english_meaning": "(Of trees) shedding leaves seasonally, especially in autumn.",
+      "gujarati_meaning": "(વૃક્ષ) જે ઋતુ-ક્રમ અનુસાર — ખાસ પાનખરમાં — પાંદડાં ખેરવે.",
+      "synonyms": [
+        "leaf-shedding",
+        "seasonal",
+        "non-evergreen"
+      ],
+      "antonyms": [
+        "evergreen",
+        "coniferous",
+        "perennial"
+      ],
+      "collocations": [
+        "deciduous tree",
+        "deciduous forest",
+        "deciduous leaves"
+      ],
+      "word_forms": [
+        "deciduous (adj)"
+      ],
+      "usage_note": "Contrasted with evergreen trees that keep their leaves year-round.",
+      "memory_tip": "'Decide' + '-uous' → deciduous = (ઋતુ) નક્કી કરે ત્યારે પાન ખરે.",
+      "examples": [
+        "Oak and maple are common deciduous trees.",
+        "Deciduous forests are stunning in autumn colours.",
+        "Deciduous trees lose their leaves to conserve water in winter.",
+        "The park is dominated by deciduous woodland."
+      ]
+    },
+    {
+      "id": 34,
+      "word": "Barometric pressure",
+      "category": "Weather & Nature",
+      "subcategory": "Seasons & Climate",
+      "part_of_speech": "noun",
+      "difficulty": "Advanced",
+      "frequency": "Less common",
+      "gujarati_pronunciation": "બૅરોમૅટ્રિક પ્રૅશર",
+      "english_meaning": "The pressure exerted by the atmosphere at any point, used in weather forecasting.",
+      "gujarati_meaning": "વાયુ-મંડળ જે દબાણ ઊભું કરે — હવામાનની આગાહી માટે ઉપયોગી.",
+      "synonyms": [
+        "atmospheric pressure",
+        "air pressure",
+        "ambient pressure"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "low barometric pressure",
+        "high pressure system",
+        "barometric drop"
+      ],
+      "word_forms": [
+        "barometric pressure (n)",
+        "barometer (n)"
+      ],
+      "usage_note": "Low pressure usually brings rain; high pressure brings clear skies.",
+      "memory_tip": "'Baro' = ભાર (weight) + 'metric' = માપ → હવાના ભારનું માપ.",
+      "examples": [
+        "Falling barometric pressure signals an approaching storm.",
+        "Weather forecasters monitor barometric pressure closely.",
+        "A sudden drop in barometric pressure preceded the typhoon.",
+        "Barometric pressure is measured in millibars or hectopascals."
+      ]
+    },
+    {
+      "id": 35,
+      "word": "Peninsula",
+      "category": "Weather & Nature",
+      "subcategory": "Natural Features",
+      "part_of_speech": "noun",
+      "difficulty": "Intermediate",
+      "frequency": "Common",
+      "gujarati_pronunciation": "પિનિન્સ્યૂલા",
+      "english_meaning": "A piece of land almost surrounded by water, connected to mainland on one side.",
+      "gujarati_meaning": "ત્રણ બાજુ પાણીથી ઘેરાયેલ અને એક બાજુ ભૂ-ભાગ સાથે જોડાયેલ જમીન-ટૂકડો.",
+      "synonyms": [
+        "cape",
+        "headland",
+        "promontory"
+      ],
+      "antonyms": [
+        "island",
+        "inland"
+      ],
+      "collocations": [
+        "Arabian Peninsula",
+        "Indian Peninsula",
+        "peninsula coastline"
+      ],
+      "word_forms": [
+        "peninsula (n)",
+        "peninsular (adj)"
+      ],
+      "usage_note": "India is a peninsula; Gujarat has the Kathiawar (Saurashtra) peninsula.",
+      "memory_tip": "'Pen' = ટૂકડો (piece) + 'insula' = ટાપુ (island) → ટાપુ જેવો ટૂકડો.",
+      "examples": [
+        "The Arabian Peninsula is the world's largest peninsula.",
+        "Kerala lies on the southern tip of the Indian Peninsula.",
+        "The Saurashtra peninsula juts into the Arabian Sea.",
+        "The peninsula was connected to the mainland by a narrow strip of land."
+      ]
+    },
+    {
+      "id": 36,
+      "word": "Plateau",
+      "category": "Weather & Nature",
+      "subcategory": "Natural Features",
+      "part_of_speech": "noun",
+      "difficulty": "Intermediate",
+      "frequency": "Common",
+      "gujarati_pronunciation": "પ્લૅટો",
+      "english_meaning": "A flat area of high ground; an elevated tableland.",
+      "gujarati_meaning": "ઊંચાઈ પર આવેલ સપાટ ભૂ-પ્રદેશ — ઉચ્ચ-ભૂમિ.",
+      "synonyms": [
+        "tableland",
+        "upland",
+        "highland"
+      ],
+      "antonyms": [
+        "valley",
+        "depression",
+        "lowland"
+      ],
+      "collocations": [
+        "Deccan Plateau",
+        "high plateau",
+        "plateau region"
+      ],
+      "word_forms": [
+        "plateau (n)",
+        "plateaus/plateaux (pl)"
+      ],
+      "usage_note": "The Deccan Plateau covers much of peninsular India.",
+      "memory_tip": "'Plateau' = 'plate' (flat plate) + 'au' → flat like a plate on high ground.",
+      "examples": [
+        "The Deccan Plateau covers most of southern India.",
+        "The Tibetan Plateau is the highest in the world.",
+        "The plateau offered a panoramic view of the surrounding plains.",
+        "Plateau regions often have cooler temperatures than surrounding areas."
+      ]
+    },
+    {
+      "id": 37,
+      "word": "Gorge",
+      "category": "Weather & Nature",
+      "subcategory": "Natural Features",
+      "part_of_speech": "noun",
+      "difficulty": "Intermediate",
+      "frequency": "Common",
+      "gujarati_pronunciation": "ગૉર્જ",
+      "english_meaning": "A narrow valley between hills or mountains, usually with a river flowing through it.",
+      "gujarati_meaning": "ડુંગરો વચ્ચે ઊંડી અને સાંકડી ખીણ — નીચે નદી વહે.",
+      "synonyms": [
+        "canyon",
+        "ravine",
+        "chasm"
+      ],
+      "antonyms": [
+        "plateau",
+        "plain",
+        "highland"
+      ],
+      "collocations": [
+        "deep gorge",
+        "river gorge",
+        "mountain gorge"
+      ],
+      "word_forms": [
+        "gorge (n/v)",
+        "gorgeous (adj - different meaning)"
+      ],
+      "usage_note": "Formed by river erosion over millions of years; different from a canyon in scale.",
+      "memory_tip": "'Gorge' → 'G' = ઘાટ (ghat) → ઘાટ-ઘાટ = ઊંડી ખીણ.",
+      "examples": [
+        "The river carved a spectacular gorge through the mountains.",
+        "We hiked through the narrow gorge for three hours.",
+        "The gorge was home to rare ferns and mosses.",
+        "Rafting in the gorge was an unforgettable experience."
+      ]
+    },
+    {
+      "id": 38,
+      "word": "Estuary",
+      "category": "Weather & Nature",
+      "subcategory": "Natural Features",
+      "part_of_speech": "noun",
+      "difficulty": "Advanced",
+      "frequency": "Less common",
+      "gujarati_pronunciation": "ઍસ્ચ્યુઅરી",
+      "english_meaning": "The wide part of a river's mouth where it meets the sea, affected by tides.",
+      "gujarati_meaning": "નદીનું મોં — જ્યાં નદી સમુદ્ર સાથે ભળે — ભરતી-ઓટ અહીં અનુભવાય.",
+      "synonyms": [
+        "river mouth",
+        "tidal inlet",
+        "delta"
+      ],
+      "antonyms": [
+        "headwaters",
+        "source",
+        "upstream"
+      ],
+      "collocations": [
+        "river estuary",
+        "tidal estuary",
+        "estuary ecosystem"
+      ],
+      "word_forms": [
+        "estuary (n)",
+        "estuaries (pl)",
+        "estuarine (adj)"
+      ],
+      "usage_note": "Estuaries are highly productive ecosystems supporting diverse species.",
+      "memory_tip": "'Estuary' → 'east' → 'river goes east to sea' → estuary = river meets sea.",
+      "examples": [
+        "The Thames Estuary is one of Europe's busiest waterways.",
+        "Mangroves often grow in tropical estuaries.",
+        "The estuary provides habitat for migratory birds.",
+        "Many cities are built near estuaries for trade and transport."
+      ]
+    },
+    {
+      "id": 39,
+      "word": "Tundra",
+      "category": "Weather & Nature",
+      "subcategory": "Natural Features",
+      "part_of_speech": "noun",
+      "difficulty": "Advanced",
+      "frequency": "Less common",
+      "gujarati_pronunciation": "ટૂન્ડ્રા",
+      "english_meaning": "A vast, flat, treeless Arctic region with permanently frozen subsoil.",
+      "gujarati_meaning": "ધ્રુવ પ્રદેશ નજીક — ઝાડ-ઝાંખરા વિહોણો વિશાળ, સપાટ, સ્થાયી-બરફ ભૂ-ભાગ.",
+      "synonyms": [
+        "arctic plain",
+        "frozen wasteland",
+        "barren ground"
+      ],
+      "antonyms": [
+        "forest",
+        "jungle",
+        "tropical region"
+      ],
+      "collocations": [
+        "arctic tundra",
+        "tundra ecosystem",
+        "tundra climate"
+      ],
+      "word_forms": [
+        "tundra (n)",
+        "tundric (adj)"
+      ],
+      "usage_note": "The tundra has permafrost below, a short growing season, and low biodiversity.",
+      "memory_tip": "'Tundra' → ઠ-ઠ-ઠ = ઠંડા ઠેકાણા (freezing place) → ઠંડો વિસ્તાર.",
+      "examples": [
+        "Reindeer and polar bears live in the tundra.",
+        "The Arctic tundra is warming faster than any other biome.",
+        "Low shrubs and mosses are typical tundra vegetation.",
+        "The tundra seems barren but supports a unique ecosystem."
+      ]
+    },
+    {
+      "id": 40,
+      "word": "Glacier",
+      "category": "Weather & Nature",
+      "subcategory": "Natural Features",
+      "part_of_speech": "noun",
+      "difficulty": "Intermediate",
+      "frequency": "Common",
+      "gujarati_pronunciation": "ગ્લૅઇશ્યર",
+      "english_meaning": "A slowly moving mass of ice formed by accumulated snow over many years.",
+      "gujarati_meaning": "ઘણા વર્ષો સુધી જામેલ હિમ — ધીમે ધીમે ખસતો વિશાળ બરફ-ભૂ.",
+      "synonyms": [
+        "ice sheet",
+        "ice mass",
+        "ice river"
+      ],
+      "antonyms": [
+        "volcano",
+        "desert",
+        "bare rock"
+      ],
+      "collocations": [
+        "glacier retreat",
+        "glacial melt",
+        "glacier valley"
+      ],
+      "word_forms": [
+        "glacier (n)",
+        "glacial (adj)",
+        "glaciated (adj)"
+      ],
+      "usage_note": "Glaciers are retreating worldwide due to climate change.",
+      "memory_tip": "'Glaci-' = glassy ice → glacier = કાચ જેવો વિશાળ બરફ-ભૂ.",
+      "examples": [
+        "The Gangotri glacier is the source of the Ganges river.",
+        "Glaciers around the world are melting at alarming rates.",
+        "A glacial valley has a distinctive U-shaped profile.",
+        "Scientists drill ice cores from glaciers to study past climates."
+      ]
+    },
+    {
+      "id": 41,
+      "word": "Lagoon",
+      "category": "Weather & Nature",
+      "subcategory": "Natural Features",
+      "part_of_speech": "noun",
+      "difficulty": "Intermediate",
+      "frequency": "Common",
+      "gujarati_pronunciation": "લૅગૂન",
+      "english_meaning": "A stretch of shallow seawater separated from the sea by a reef, sandbar, or similar feature.",
+      "gujarati_meaning": "ખારા/મીઠા છીછરા પાણીનો ઘેરો — ખડક કે રેતી-ટીંબા દ્વારા સમુદ્રથી અલગ.",
+      "synonyms": [
+        "inlet",
+        "cove",
+        "tidal pond"
+      ],
+      "antonyms": [
+        "open ocean",
+        "deep sea",
+        "mainland"
+      ],
+      "collocations": [
+        "coral lagoon",
+        "coastal lagoon",
+        "shallow lagoon"
+      ],
+      "word_forms": [
+        "lagoon (n)"
+      ],
+      "usage_note": "Coral lagoons form inside atolls; coastal lagoons form along shorelines.",
+      "memory_tip": "'Lagoon' → 'L' = lake-like → shallow like a lake near the sea.",
+      "examples": [
+        "The turquoise lagoon was perfect for snorkelling.",
+        "Chilika Lagoon in Odisha is Asia's largest coastal lagoon.",
+        "The coral reef protected the lagoon from ocean waves.",
+        "Flamingos flocked to the shallow salt lagoon."
+      ]
+    },
+    {
+      "id": 42,
+      "word": "Savanna",
+      "category": "Weather & Nature",
+      "subcategory": "Natural Features",
+      "part_of_speech": "noun",
+      "difficulty": "Intermediate",
+      "frequency": "Common",
+      "gujarati_pronunciation": "સવાના",
+      "english_meaning": "A grassy plain in tropical or subtropical regions, with few trees.",
+      "gujarati_meaning": "ઉષ્ણ-ઉષ્ણકટિબંધ પ્રદેશોમાં ઘાસ-ઢંકાયેલ વિશાળ મેદાન — ઝાડ ઓછાં.",
+      "synonyms": [
+        "grassland",
+        "prairie",
+        "veldt"
+      ],
+      "antonyms": [
+        "forest",
+        "jungle",
+        "woodland"
+      ],
+      "collocations": [
+        "African savanna",
+        "tropical savanna",
+        "savanna ecosystem"
+      ],
+      "word_forms": [
+        "savanna/savannah (n)"
+      ],
+      "usage_note": "The African savanna is home to elephants, lions, and wildebeest.",
+      "memory_tip": "'Savanna' → 'S' = sweeping grassland → ઘાસ-ભૂ.",
+      "examples": [
+        "Lions hunt on the African savanna.",
+        "The savanna has distinct wet and dry seasons.",
+        "Giraffes roam the East African savanna.",
+        "Fire is a natural part of the savanna ecosystem."
+      ]
+    },
+    {
+      "id": 43,
+      "word": "Wetland",
+      "category": "Weather & Nature",
+      "subcategory": "Natural Features",
+      "part_of_speech": "noun",
+      "difficulty": "Intermediate",
+      "frequency": "Common",
+      "gujarati_pronunciation": "વૅટ્‍લૅન્ડ",
+      "english_meaning": "Land that is saturated with water, either permanently or seasonally, such as marshes and swamps.",
+      "gujarati_meaning": "કાયમ અથવા ઋતુ-ક્રમ પ્રમાણે પાણી-ભૂ —늪, ભેખડ, ખારો ઝૂ.",
+      "synonyms": [
+        "marsh",
+        "swamp",
+        "bog"
+      ],
+      "antonyms": [
+        "dryland",
+        "upland",
+        "highland"
+      ],
+      "collocations": [
+        "coastal wetland",
+        "wetland habitat",
+        "wetland conservation"
+      ],
+      "word_forms": [
+        "wetland (n)"
+      ],
+      "usage_note": "Wetlands filter water, store carbon, and support rich biodiversity.",
+      "memory_tip": "'Wet' + 'land' = ભીની ભૂ → wetland = ભીની ભૂ.",
+      "examples": [
+        "Wetlands serve as natural water filters.",
+        "The Sundarbans is the world's largest mangrove wetland.",
+        "Millions of migratory birds depend on wetlands.",
+        "Wetland destruction has led to declining amphibian populations."
+      ]
+    },
+    {
+      "id": 44,
+      "word": "Crevasse",
+      "category": "Weather & Nature",
+      "subcategory": "Natural Features",
+      "part_of_speech": "noun",
+      "difficulty": "Advanced",
+      "frequency": "Less common",
+      "gujarati_pronunciation": "ક્રિવૅસ",
+      "english_meaning": "A deep open crack in a glacier or snowfield.",
+      "gujarati_meaning": "ગ્લૅશિયર અથવા બરફ-ભૂ પર ઊઘડેલ ઊંડી ફાટ — ખૂબ જોખમકારક.",
+      "synonyms": [
+        "crack",
+        "fissure",
+        "rift"
+      ],
+      "antonyms": [
+        "solid ground",
+        "surface",
+        "plateau"
+      ],
+      "collocations": [
+        "glacier crevasse",
+        "fall into a crevasse",
+        "crevasse danger"
+      ],
+      "word_forms": [
+        "crevasse (n)"
+      ],
+      "usage_note": "Crevasses are extremely dangerous for mountaineers and glaciologists.",
+      "memory_tip": "'Crevasse' = 'crack' + 'vast' → vast crack in ice.",
+      "examples": [
+        "The mountaineer narrowly avoided falling into a crevasse.",
+        "Crevasses form where a glacier moves over uneven terrain.",
+        "They used ropes to cross the dangerous crevasse.",
+        "Snow bridges over crevasses can collapse without warning."
+      ]
+    },
+    {
+      "id": 45,
+      "word": "Floodplain",
+      "category": "Weather & Nature",
+      "subcategory": "Natural Features",
+      "part_of_speech": "noun",
+      "difficulty": "Intermediate",
+      "frequency": "Common",
+      "gujarati_pronunciation": "ફ્લડ-પ્લેઇન",
+      "english_meaning": "The flat area beside a river that is covered with water when the river floods.",
+      "gujarati_meaning": "નદી કિનારે આવેલ સપાટ ભૂ — પૂર વખતે ડૂબી જાય.",
+      "synonyms": [
+        "alluvial plain",
+        "inundation zone",
+        "river plain"
+      ],
+      "antonyms": [
+        "highland",
+        "ridge",
+        "upland"
+      ],
+      "collocations": [
+        "fertile floodplain",
+        "floodplain development",
+        "river floodplain"
+      ],
+      "word_forms": [
+        "floodplain (n)"
+      ],
+      "usage_note": "Floodplains are very fertile due to sediment deposition but are flood-prone.",
+      "memory_tip": "'Flood' + 'plain' = પૂર + ભૂ → પૂર-ભૂ.",
+      "examples": [
+        "The Nile floodplain is one of the most fertile in the world.",
+        "Building on floodplains increases the risk of flood damage.",
+        "The floodplain was covered with rich alluvial soil.",
+        "Communities on floodplains must have effective early warning systems."
+      ]
+    },
+    {
+      "id": 46,
+      "word": "Archipelago",
+      "category": "Weather & Nature",
+      "subcategory": "Natural Features",
+      "part_of_speech": "noun",
+      "difficulty": "Advanced",
+      "frequency": "Less common",
+      "gujarati_pronunciation": "આર્કિપૅળૅગો",
+      "english_meaning": "A group or chain of islands scattered in a large body of water.",
+      "gujarati_meaning": "મોટા જળ-ક્ષેત્રમાં ફેલાયેલ ટાપુઓ-સમૂહ.",
+      "synonyms": [
+        "island chain",
+        "island group",
+        "atoll cluster"
+      ],
+      "antonyms": [
+        "mainland",
+        "continent"
+      ],
+      "collocations": [
+        "Indonesian archipelago",
+        "island archipelago",
+        "archipelago nation"
+      ],
+      "word_forms": [
+        "archipelago (n)",
+        "archipelagos/archipelagoes (pl)"
+      ],
+      "usage_note": "Indonesia is the world's largest archipelago with over 17,000 islands.",
+      "memory_tip": "'Archi' = chief + 'pelago' = sea → chief sea = sea full of islands.",
+      "examples": [
+        "Indonesia is the world's largest archipelago.",
+        "The Lakshadweep archipelago lies in the Arabian Sea.",
+        "The archipelago offered stunning diving spots.",
+        "Sea level rise threatens many low-lying archipelagos."
+      ]
+    },
+    {
+      "id": 47,
+      "word": "Canyon",
+      "category": "Weather & Nature",
+      "subcategory": "Natural Features",
+      "part_of_speech": "noun",
+      "difficulty": "Intermediate",
+      "frequency": "Common",
+      "gujarati_pronunciation": "કૅન્યન",
+      "english_meaning": "A deep gorge, typically with a river flowing through it, often in an arid region.",
+      "gujarati_meaning": "ઊંડી, ઢોળાવ-ભરી ખીણ — ખૂ-ભ (dry) પ્રદેશમાં — નીચે નદી.",
+      "synonyms": [
+        "gorge",
+        "ravine",
+        "chasm"
+      ],
+      "antonyms": [
+        "plateau",
+        "ridge",
+        "summit"
+      ],
+      "collocations": [
+        "Grand Canyon",
+        "river canyon",
+        "canyon walls"
+      ],
+      "word_forms": [
+        "canyon (n)"
+      ],
+      "usage_note": "The Grand Canyon in Arizona is the most famous canyon in the world.",
+      "memory_tip": "'Canyon' → 'can' = ઠ-ઠ → 'can you see the bottom?' → ઊંડી ખીણ.",
+      "examples": [
+        "The Grand Canyon was carved by the Colorado River.",
+        "The canyon walls displayed millions of years of geological history.",
+        "Hiking into the canyon takes several hours.",
+        "Eagles nest on the sheer walls of the canyon."
+      ]
+    },
+    {
+      "id": 48,
+      "word": "Fjord",
+      "category": "Weather & Nature",
+      "subcategory": "Natural Features",
+      "part_of_speech": "noun",
+      "difficulty": "Advanced",
+      "frequency": "Less common",
+      "gujarati_pronunciation": "ફ્યૉર્ડ",
+      "english_meaning": "A long, narrow, deep inlet of the sea between steep cliffs, formed by glacial erosion.",
+      "gujarati_meaning": "ઊભા-ઢોળ ખડકો વચ્ચે ઊંડી, સાંકડી, લાંબી ખાડી — ગ્લૅશિયર ઘસારાથી બની.",
+      "synonyms": [
+        "inlet",
+        "sea loch",
+        "arm of the sea"
+      ],
+      "antonyms": [
+        "peninsula",
+        "headland",
+        "open coast"
+      ],
+      "collocations": [
+        "Norwegian fjord",
+        "glacial fjord",
+        "fjord landscape"
+      ],
+      "word_forms": [
+        "fjord (n)",
+        "fjords (pl)"
+      ],
+      "usage_note": "Norway is famous for its spectacular fjords; they are UNESCO-listed.",
+      "memory_tip": "'Fjord' → 'F' = ફ = ફાટ (split) → ખડક ફાટ = ઊંડી ખાડી.",
+      "examples": [
+        "Norway's fjords attract millions of tourists every year.",
+        "The Sognefjord is the longest fjord in the world.",
+        "Cruise ships navigate slowly through the deep fjords.",
+        "The fjord was surrounded by snow-capped mountains."
+      ]
+    },
+    {
+      "id": 49,
+      "word": "Coral reef",
+      "category": "Weather & Nature",
+      "subcategory": "Natural Features",
+      "part_of_speech": "noun",
+      "difficulty": "Intermediate",
+      "frequency": "Common",
+      "gujarati_pronunciation": "કૉરલ રીફ",
+      "english_meaning": "A ridge of rock in the sea formed by the growth of coral, supporting diverse marine life.",
+      "gujarati_meaning": "સમુદ્રમાં પ્રવાળ (coral) ઉગ્યો અને ખડક-ટ્ટ જેવી રચના — ઘણા દરિયાઈ જીવ-જંતુઓ ત્યાં રહે.",
+      "synonyms": [
+        "reef",
+        "coral formation",
+        "barrier reef"
+      ],
+      "antonyms": [
+        "open ocean",
+        "sand flat",
+        "deep sea trench"
+      ],
+      "collocations": [
+        "coral reef ecosystem",
+        "Great Barrier Reef",
+        "bleaching coral reef"
+      ],
+      "word_forms": [
+        "coral reef (n)"
+      ],
+      "usage_note": "Coral reefs cover less than 1% of the ocean floor but support 25% of marine species.",
+      "memory_tip": "'Coral' = પ્રવાળ + 'reef' = ખડક → પ્રવાળ-ખડક.",
+      "examples": [
+        "The Great Barrier Reef is the world's largest coral reef system.",
+        "Coral reefs are dying due to ocean warming and acidification.",
+        "Divers explore the coral reef for its brilliant colours.",
+        "Coral reefs protect coastlines from storm waves."
+      ]
+    },
+    {
+      "id": 50,
+      "word": "Delta",
+      "category": "Weather & Nature",
+      "subcategory": "Natural Features",
+      "part_of_speech": "noun",
+      "difficulty": "Intermediate",
+      "frequency": "Common",
+      "gujarati_pronunciation": "ડૅલ્ટા",
+      "english_meaning": "A landform created by sediment deposited where a river meets a body of water, often fan-shaped.",
+      "gujarati_meaning": "નદી જ્યાં સમુદ્ર/સરોવરને મળે ત્યાં જામેલ કાંપ-માટી — ત્રિકોણ આકારની ભૂ-રચના.",
+      "synonyms": [
+        "river mouth",
+        "alluvial fan",
+        "sediment plain"
+      ],
+      "antonyms": [
+        "source",
+        "headwaters",
+        "estuary (flowing)"
+      ],
+      "collocations": [
+        "river delta",
+        "Ganges delta",
+        "delta region"
+      ],
+      "word_forms": [
+        "delta (n)"
+      ],
+      "usage_note": "The Sundarbans delta (Ganges-Brahmaputra) is the world's largest river delta.",
+      "memory_tip": "Delta = ∆ (ત્રિકોણ) → triangle shape where river meets sea.",
+      "examples": [
+        "The Nile Delta is one of the most fertile farming regions.",
+        "The Sundarbans mangrove forest grows in the Ganges Delta.",
+        "The city of New Orleans is built on the Mississippi Delta.",
+        "River deltas are rich in biodiversity and agriculture."
+      ]
+    },
+    {
+      "id": 51,
+      "word": "Dune",
+      "category": "Weather & Nature",
+      "subcategory": "Natural Features",
+      "part_of_speech": "noun",
+      "difficulty": "Intermediate",
+      "frequency": "Common",
+      "gujarati_pronunciation": "ડ્યૂન",
+      "english_meaning": "A mound or ridge of sand formed by wind, especially in deserts or near coasts.",
+      "gujarati_meaning": "પવન વડે ઢેરો થઈ ગયેલ રેતીનો ઢૂવો — રણ કે દરિયા-કિનારે.",
+      "synonyms": [
+        "sand hill",
+        "sand mound",
+        "ridge"
+      ],
+      "antonyms": [
+        "valley",
+        "hollow",
+        "depression"
+      ],
+      "collocations": [
+        "sand dune",
+        "coastal dune",
+        "dune formation"
+      ],
+      "word_forms": [
+        "dune (n)",
+        "dunes (pl)"
+      ],
+      "usage_note": "Dunes constantly shift shape due to wind; some reach 100+ metres high.",
+      "memory_tip": "'Dune' → 'D' = desert → desert + mound = sand dune = રેતીનો ઢૂવો.",
+      "examples": [
+        "The Thar Desert is famous for its vast sand dunes.",
+        "Tourists ride camels across the golden dunes.",
+        "Coastal dunes protect shorelines from erosion.",
+        "The dunes shifted overnight due to strong winds."
+      ]
+    },
+    {
+      "id": 52,
+      "word": "Mangrove",
+      "category": "Weather & Nature",
+      "subcategory": "Plants & Wildlife",
+      "part_of_speech": "noun",
+      "difficulty": "Intermediate",
+      "frequency": "Common",
+      "gujarati_pronunciation": "મૅન્ગ્રોવ",
+      "english_meaning": "A tree or shrub that grows in coastal saline or brackish water in tropical regions.",
+      "gujarati_meaning": "ઉષ્ણ-દરિયા-કિનારા પર ખારા અથવા ઓછા ખારા પાણીમાં ઉગ્યો — ઊભા મૂળ ધરાવ — ચેર-ઝાડ.",
+      "synonyms": [
+        "tidal tree",
+        "coastal shrub",
+        "salt marsh tree"
+      ],
+      "antonyms": [
+        "inland tree",
+        "freshwater plant",
+        "desert shrub"
+      ],
+      "collocations": [
+        "mangrove forest",
+        "mangrove swamp",
+        "mangrove roots"
+      ],
+      "word_forms": [
+        "mangrove (n)",
+        "mangroves (pl)"
+      ],
+      "usage_note": "Mangroves protect coastlines from erosion and storms, and support rich biodiversity.",
+      "memory_tip": "'Man' + 'grove' → a grove for the sea-man → દરિયા-કિનારા પર ઝૂ.",
+      "examples": [
+        "The Sundarbans is the world's largest mangrove forest.",
+        "Mangroves act as natural barriers against cyclones.",
+        "Many fish species breed in mangrove swamps.",
+        "Gujarat's coastal mangroves are being restored by NGOs."
+      ]
+    },
+    {
+      "id": 53,
+      "word": "Deciduous forest",
+      "category": "Weather & Nature",
+      "subcategory": "Plants & Wildlife",
+      "part_of_speech": "noun",
+      "difficulty": "Advanced",
+      "frequency": "Less common",
+      "gujarati_pronunciation": "ડિસિડ્યુઅસ ફૉરૅસ્ટ",
+      "english_meaning": "A forest dominated by trees that shed their leaves annually during autumn or dry season.",
+      "gujarati_meaning": "ઋતુ-ક્રમ અનુસાર — ઉનાળે અથવા પાનખરે — બધા ઝાડ પાન ખેરવે — તેવો જંગલ.",
+      "synonyms": [
+        "temperate forest",
+        "broadleaf forest",
+        "leaf-shedding forest"
+      ],
+      "antonyms": [
+        "evergreen forest",
+        "rainforest",
+        "coniferous forest"
+      ],
+      "collocations": [
+        "tropical deciduous forest",
+        "deciduous woodland",
+        "deciduous canopy"
+      ],
+      "word_forms": [
+        "deciduous forest (n)"
+      ],
+      "usage_note": "Tropical deciduous forests cover large parts of central India.",
+      "memory_tip": "'Deciduous' = ઝાડ (trees) decided to drop leaves = ઋતુ-ક્રમ અનુસાર પાન ખેરવ.",
+      "examples": [
+        "India's deciduous forests burst into colour after the monsoon.",
+        "Teak and sal trees dominate deciduous forests in India.",
+        "Wildlife sanctuaries are often set in deciduous forests.",
+        "The deciduous forest floor is rich in leaf litter."
+      ]
+    },
+    {
+      "id": 54,
+      "word": "Pollination",
+      "category": "Weather & Nature",
+      "subcategory": "Plants & Wildlife",
+      "part_of_speech": "noun",
+      "difficulty": "Intermediate",
+      "frequency": "Common",
+      "gujarati_pronunciation": "પૉળિનૅઇશન",
+      "english_meaning": "The transfer of pollen from one flower to another, enabling plant fertilization.",
+      "gujarati_meaning": "એક ફૂલથી બીજા ફૂલ પર પરાગ-ટ્રાન્સફર — ફળ-ઉત્પત્તિ શક્ય બને.",
+      "synonyms": [
+        "fertilization",
+        "pollen transfer",
+        "cross-pollination"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "bee pollination",
+        "cross-pollination",
+        "pollination process"
+      ],
+      "word_forms": [
+        "pollination (n)",
+        "pollinate (v)",
+        "pollinator (n)"
+      ],
+      "usage_note": "Bees are the most important pollinators; without them food production collapses.",
+      "memory_tip": "'Pollen' = પરાગ + '-ation' = ક્રિયા → pollination = પરાગ-ક્રિયા.",
+      "examples": [
+        "Bees play a crucial role in the pollination of crops.",
+        "Without pollination, many plants cannot produce fruit.",
+        "Pollination can occur via wind, insects, or birds.",
+        "Declining bee populations threaten pollination worldwide."
+      ]
+    },
+    {
+      "id": 55,
+      "word": "Photosynthesis",
+      "category": "Weather & Nature",
+      "subcategory": "Plants & Wildlife",
+      "part_of_speech": "noun",
+      "difficulty": "Intermediate",
+      "frequency": "Common",
+      "gujarati_pronunciation": "ફોટોસિન્થૅસિસ",
+      "english_meaning": "The process by which green plants use sunlight to synthesize food from carbon dioxide and water.",
+      "gujarati_meaning": "લીલા છોડ સૂર્ય-પ્રકાશ, CO₂ અને પાણી વડે ખોરાક ઉત્પન્ન કરે — ઓક્સિજન ઉત્સર્જ.",
+      "synonyms": [
+        "carbon fixation",
+        "food synthesis",
+        "chlorophyll reaction"
+      ],
+      "antonyms": [
+        "respiration",
+        "decomposition"
+      ],
+      "collocations": [
+        "photosynthesis process",
+        "rate of photosynthesis",
+        "sunlight for photosynthesis"
+      ],
+      "word_forms": [
+        "photosynthesis (n)",
+        "photosynthesise (v)",
+        "photosynthetic (adj)"
+      ],
+      "usage_note": "Produces oxygen as a by-product — essential for all aerobic life.",
+      "memory_tip": "'Photo' = પ્રકાશ + 'synthesis' = ઉત્પત્તિ → સૂર્ય-પ્રકાશ વડે ખોરાક-ઉત્પત્તિ.",
+      "examples": [
+        "Photosynthesis converts sunlight into chemical energy.",
+        "Without photosynthesis, there would be no oxygen on Earth.",
+        "The rate of photosynthesis increases with more light.",
+        "Scientists are studying artificial photosynthesis for clean energy."
+      ]
+    },
+    {
+      "id": 56,
+      "word": "Hibernate",
+      "category": "Weather & Nature",
+      "subcategory": "Plants & Wildlife",
+      "part_of_speech": "verb",
+      "difficulty": "Intermediate",
+      "frequency": "Common",
+      "gujarati_pronunciation": "હાઇબર્નૅઇટ",
+      "english_meaning": "To spend the winter in a dormant state, with greatly reduced metabolic activity.",
+      "gujarati_meaning": "શિયાળો ઊંઘ-અવસ્થામાં — ઘણા ઓછા ચયાપચય સાથે — વિતાવવો.",
+      "synonyms": [
+        "sleep through winter",
+        "be dormant",
+        "overwinter"
+      ],
+      "antonyms": [
+        "be active",
+        "migrate",
+        "awaken"
+      ],
+      "collocations": [
+        "hibernate in winter",
+        "bears hibernate",
+        "hibernate underground"
+      ],
+      "word_forms": [
+        "hibernate (v)",
+        "hibernation (n)",
+        "hibernating (adj)"
+      ],
+      "usage_note": "Bears, hedgehogs, and some bats hibernate; they live off stored fat.",
+      "memory_tip": "'Hibern-' = winter (Latin hiems) → hibernate = ઊંઘ-winter = શિયાળા-ઊંઘ.",
+      "examples": [
+        "Bears hibernate from November through March.",
+        "Some snakes hibernate in rocky dens during winter.",
+        "Hibernating animals reduce their heart rate dramatically.",
+        "Scientists study hibernation for insights into human medicine."
+      ]
+    },
+    {
+      "id": 57,
+      "word": "Camouflage",
+      "category": "Weather & Nature",
+      "subcategory": "Plants & Wildlife",
+      "part_of_speech": "noun",
+      "difficulty": "Intermediate",
+      "frequency": "Common",
+      "gujarati_pronunciation": "કૅમ્ફ્‌લૉઝ",
+      "english_meaning": "The use of colours or patterns to blend into the natural environment and avoid detection.",
+      "gujarati_meaning": "આ-પ-પ-ઉ (surroundings) સ-ઉ (with) ભ-ળ-ઉ (blend) — દ-ઉ (enemy) ન-ઉ (cannot see) — camouflage = છૂ-પ-ઉ (hide).",
+      "synonyms": [
+        "disguise",
+        "concealment",
+        "blending"
+      ],
+      "antonyms": [
+        "visibility",
+        "exposure",
+        "conspicuousness"
+      ],
+      "collocations": [
+        "natural camouflage",
+        "camouflage pattern",
+        "camouflage technique"
+      ],
+      "word_forms": [
+        "camouflage (n/v)",
+        "camouflaged (adj)"
+      ],
+      "usage_note": "Many animals use camouflage to hunt or avoid predators.",
+      "memory_tip": "'Camouflage' → 'cam' (camera = hide) + 'flage' → camera-hide → છૂ-પ-ઉ (hide from view).",
+      "examples": [
+        "The chameleon is famous for its natural camouflage.",
+        "Arctic foxes turn white in winter as camouflage against snow.",
+        "Leaf insects have evolved perfect camouflage.",
+        "Camouflage patterns are used in military uniforms."
+      ]
+    },
+    {
+      "id": 58,
+      "word": "Migration",
+      "category": "Weather & Nature",
+      "subcategory": "Plants & Wildlife",
+      "part_of_speech": "noun",
+      "difficulty": "Intermediate",
+      "frequency": "Common",
+      "gujarati_pronunciation": "માઇગ્રૅઇશન",
+      "english_meaning": "The seasonal movement of animals from one region to another, typically for feeding or breeding.",
+      "gujarati_meaning": "ઋતુ-ક્રમ અનુસાર પ્રાણી/પક્ષી ખોરાક અથવા પ્રજ-ઉ-ઉ (breeding) માટે દૂ-ર (far) પ્રવ-ઉ-ઉ (journey).",
+      "synonyms": [
+        "seasonal movement",
+        "displacement",
+        "annual journey"
+      ],
+      "antonyms": [
+        "settlement",
+        "residence",
+        "permanence"
+      ],
+      "collocations": [
+        "bird migration",
+        "seasonal migration",
+        "migration pattern"
+      ],
+      "word_forms": [
+        "migration (n)",
+        "migrate (v)",
+        "migratory (adj)",
+        "migrant (n)"
+      ],
+      "usage_note": "The wildebeest migration in Africa and bird migration to India are iconic examples.",
+      "memory_tip": "'Migrate' = move across → migration = ઋ-ઉ-ઉ (seasonal) moving = પ-ઉ-ઉ (journey).",
+      "examples": [
+        "Flamingos migrate to Gujarat's Rann of Kutch in winter.",
+        "The wildebeest migration is called the Great Migration.",
+        "Climate change is altering bird migration patterns.",
+        "Millions of butterflies migrate to Mexico every autumn."
+      ]
+    },
+    {
+      "id": 59,
+      "word": "Predator",
+      "category": "Weather & Nature",
+      "subcategory": "Plants & Wildlife",
+      "part_of_speech": "noun",
+      "difficulty": "Intermediate",
+      "frequency": "Common",
+      "gujarati_pronunciation": "પ્રૅડૅટ્‌ઓ",
+      "english_meaning": "An animal that hunts, kills, and eats other animals.",
+      "gujarati_meaning": "બ-ઉ-ઉ (other) પ-ઉ-ઉ (animals) ખ-ઉ (eat) — ઉ (hunt and kill for food) — predator = ઉ-ઉ (hunter).",
+      "synonyms": [
+        "hunter",
+        "carnivore",
+        "killer"
+      ],
+      "antonyms": [
+        "prey",
+        "herbivore",
+        "victim"
+      ],
+      "collocations": [
+        "apex predator",
+        "natural predator",
+        "predator-prey relationship"
+      ],
+      "word_forms": [
+        "predator (n)",
+        "predatory (adj)",
+        "predation (n)"
+      ],
+      "usage_note": "Apex predators like tigers and lions are at the top of the food chain.",
+      "memory_tip": "'Pred-' = prey + '-ator' = doer → predator = prey-er = શ-ઉ-ઉ (hunter).",
+      "examples": [
+        "The tiger is an apex predator in Indian forests.",
+        "Predators control the population of prey animals.",
+        "The loss of predators disrupts the ecological balance.",
+        "Wolves are being reintroduced to control deer populations."
+      ]
+    },
+    {
+      "id": 60,
+      "word": "Ecosystem",
+      "category": "Weather & Nature",
+      "subcategory": "Plants & Wildlife",
+      "part_of_speech": "noun",
+      "difficulty": "Intermediate",
+      "frequency": "Common",
+      "gujarati_pronunciation": "ઇ-ઉ-ઉ-ઉ-ઉ-ઉ-ઉ-ઉ",
+      "english_meaning": "A complex network of living organisms and their physical environment interacting together.",
+      "gujarati_meaning": "સ-ઉ-ઉ (all organisms) + ઉ-ઉ-ઉ (environment) = એ-ઉ (a network of life) — ecosystem = જ-ઉ-ઉ-ઉ (life-network).",
+      "synonyms": [
+        "biome",
+        "ecology",
+        "natural system"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "coral reef ecosystem",
+        "forest ecosystem",
+        "ecosystem balance"
+      ],
+      "word_forms": [
+        "ecosystem (n)",
+        "ecological (adj)",
+        "ecologist (n)"
+      ],
+      "usage_note": "Disrupting one part of an ecosystem affects all other parts.",
+      "memory_tip": "'Eco' = ecology (environment) + 'system' = all connected = ecosystem = જ-ઉ-ઉ-ઉ (life-system).",
+      "examples": [
+        "The Amazon rainforest is the world's most biodiverse ecosystem.",
+        "Coral reefs are among the most productive ecosystems on Earth.",
+        "Human activity is destroying natural ecosystems rapidly.",
+        "Restoring ecosystems can help combat climate change."
+      ]
+    },
+    {
+      "id": 61,
+      "word": "Foliage",
+      "category": "Weather & Nature",
+      "subcategory": "Plants & Wildlife",
+      "part_of_speech": "noun",
+      "difficulty": "Advanced",
+      "frequency": "Less common",
+      "gujarati_pronunciation": "ફ-ઉ-ઉ-ઉ-ઉ",
+      "english_meaning": "The leaves of a plant or tree collectively.",
+      "gujarati_meaning": "ઝ-ઉ (tree)/છ-ઉ (plant) ન-ઉ (of) ઉ (all) પ-ઉ (leaves) — collectively — foliage = ઉ-ઉ (leafage).",
+      "synonyms": [
+        "leaves",
+        "leafage",
+        "greenery"
+      ],
+      "antonyms": [
+        "bare branches",
+        "defoliation"
+      ],
+      "collocations": [
+        "dense foliage",
+        "autumn foliage",
+        "green foliage"
+      ],
+      "word_forms": [
+        "foliage (n)",
+        "foliar (adj)"
+      ],
+      "usage_note": "'Foliage' is used in a formal or botanical context; 'leaves' is more everyday.",
+      "memory_tip": "'Folio' = leaf/page → foliage = many leaves = ઝ-ઉ ન-ઉ (tree's) leaves.",
+      "examples": [
+        "The autumn foliage of New England attracts many tourists.",
+        "Dense foliage kept the forest floor cool.",
+        "The foliage of the tropical tree provides habitat for birds.",
+        "Heavy rain knocked the foliage from the trees."
+      ]
+    },
+    {
+      "id": 62,
+      "word": "Species",
+      "category": "Weather & Nature",
+      "subcategory": "Plants & Wildlife",
+      "part_of_speech": "noun",
+      "difficulty": "Intermediate",
+      "frequency": "Very common",
+      "gujarati_pronunciation": "સ્પ-ઉ-ઉ-ઉ-ઉ",
+      "english_meaning": "A group of living organisms able to interbreed and produce fertile offspring.",
+      "gujarati_meaning": "ઉ-ઉ (organisms) ન-ઉ (of) ઉ-ઉ (same kind) — that can breed together — species = ઉ-ઉ (type/kind).",
+      "synonyms": [
+        "type",
+        "kind",
+        "variety"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "endangered species",
+        "species diversity",
+        "new species"
+      ],
+      "word_forms": [
+        "species (n, same singular and plural)",
+        "speciation (n)"
+      ],
+      "usage_note": "There are an estimated 8.7 million species on Earth, most still undiscovered.",
+      "memory_tip": "'Species' → 'spec' = special kind → species = special type of life.",
+      "examples": [
+        "The Bengal tiger is an endangered species.",
+        "Scientists discovered a new species of frog in the Amazon.",
+        "Protecting species diversity is vital for ecosystem health.",
+        "India hosts over 500 species of migratory birds."
+      ]
+    },
+    {
+      "id": 63,
+      "word": "Canopy",
+      "category": "Weather & Nature",
+      "subcategory": "Plants & Wildlife",
+      "part_of_speech": "noun",
+      "difficulty": "Intermediate",
+      "frequency": "Common",
+      "gujarati_pronunciation": "ક-ઉ-ઉ-ઉ-ઉ",
+      "english_meaning": "The uppermost layer of a forest formed by the crowns of the tallest trees.",
+      "gujarati_meaning": "ઉ-ઉ (forest) ન-ઉ (of) ઉ-ઉ (tallest trees) ઉ-ઉ (crowns) — roof-like top layer — canopy = ઉ-ઉ (tree-roof).",
+      "synonyms": [
+        "tree cover",
+        "forest roof",
+        "crown layer"
+      ],
+      "antonyms": [
+        "forest floor",
+        "undergrowth",
+        "understorey"
+      ],
+      "collocations": [
+        "forest canopy",
+        "rainforest canopy",
+        "dense canopy"
+      ],
+      "word_forms": [
+        "canopy (n)",
+        "canopied (adj)"
+      ],
+      "usage_note": "The canopy intercepts most sunlight; organisms below are adapted to shade.",
+      "memory_tip": "'Canopy' → umbrella-like cover → ઉ-ઉ (umbrella) of trees.",
+      "examples": [
+        "The rainforest canopy is home to monkeys and toucans.",
+        "Little sunlight penetrates the dense canopy to the forest floor.",
+        "Scientists study canopy life using elevated walkways.",
+        "The canopy acts as a shield against heavy rain."
+      ]
+    },
+    {
+      "id": 64,
+      "word": "Biodiversity",
+      "category": "Weather & Nature",
+      "subcategory": "Plants & Wildlife",
+      "part_of_speech": "noun",
+      "difficulty": "Intermediate",
+      "frequency": "Common",
+      "gujarati_pronunciation": "બ-ઉ-ઉ-ઉ-ઉ-ઉ-ઉ-ઉ",
+      "english_meaning": "The variety of plant and animal life in a particular habitat or on Earth.",
+      "gujarati_meaning": "ઉ-ઉ (all) પ-ઉ/ઉ-ઉ (plants/animals) ઉ-ઉ (variety) — bio-diversity = ઉ-ઉ (life variety).",
+      "synonyms": [
+        "species variety",
+        "ecological richness",
+        "life diversity"
+      ],
+      "antonyms": [
+        "monoculture",
+        "homogeneity",
+        "ecological uniformity"
+      ],
+      "collocations": [
+        "biodiversity hotspot",
+        "loss of biodiversity",
+        "biodiversity conservation"
+      ],
+      "word_forms": [
+        "biodiversity (n)",
+        "biodiverse (adj)"
+      ],
+      "usage_note": "India is one of the 17 megadiverse countries in the world.",
+      "memory_tip": "'Bio' = life + 'diversity' = variety → life variety = biodiversity.",
+      "examples": [
+        "The Amazon rainforest has unparalleled biodiversity.",
+        "India is a megadiverse country with rich biodiversity.",
+        "Biodiversity loss threatens food security and medicine.",
+        "Protected areas are essential for preserving biodiversity."
+      ]
+    },
+    {
+      "id": 65,
+      "word": "Nocturnal",
+      "category": "Weather & Nature",
+      "subcategory": "Plants & Wildlife",
+      "part_of_speech": "adjective",
+      "difficulty": "Intermediate",
+      "frequency": "Common",
+      "gujarati_pronunciation": "ન-ઉ-ઉ-ઉ-ઉ-ઉ",
+      "english_meaning": "Active at night rather than during the day.",
+      "gujarati_meaning": "ઉ-ઉ (night) ઉ-ઉ (active) — that which is active at night — nocturnal = ઉ-ઉ (night-active).",
+      "synonyms": [
+        "night-active",
+        "nightly",
+        "crepuscular"
+      ],
+      "antonyms": [
+        "diurnal",
+        "daytime-active"
+      ],
+      "collocations": [
+        "nocturnal animal",
+        "nocturnal behaviour",
+        "nocturnal predator"
+      ],
+      "word_forms": [
+        "nocturnal (adj)",
+        "nocturnally (adv)"
+      ],
+      "usage_note": "Owls, bats, and leopards are examples of nocturnal animals.",
+      "memory_tip": "'Noc-' = night (Latin nox) → nocturnal = ઉ-ઉ (night) animal.",
+      "examples": [
+        "Owls are nocturnal hunters with excellent night vision.",
+        "The leopard is a nocturnal predator.",
+        "Many desert animals are nocturnal to avoid daytime heat.",
+        "Scientists use infrared cameras to study nocturnal wildlife."
+      ]
+    },
+    {
+      "id": 66,
+      "word": "Symbiosis",
+      "category": "Weather & Nature",
+      "subcategory": "Plants & Wildlife",
+      "part_of_speech": "noun",
+      "difficulty": "Advanced",
+      "frequency": "Less common",
+      "gujarati_pronunciation": "સ-ઉ-ઉ-ઉ-ઉ-ઉ-ઉ",
+      "english_meaning": "A close, long-term interaction between two different species, often mutually beneficial.",
+      "gujarati_meaning": "ઉ-ઉ (two) ઉ-ઉ (different) ઉ-ઉ (species) ઉ-ઉ (close) ઉ-ઉ (relationship) — often both benefit — symbiosis.",
+      "synonyms": [
+        "mutualism",
+        "partnership",
+        "biological association"
+      ],
+      "antonyms": [
+        "parasitism",
+        "competition",
+        "predation"
+      ],
+      "collocations": [
+        "mutualistic symbiosis",
+        "symbiosis in nature",
+        "symbiotic relationship"
+      ],
+      "word_forms": [
+        "symbiosis (n)",
+        "symbiotic (adj)",
+        "symbiotically (adv)"
+      ],
+      "usage_note": "Bees and flowers, clownfish and sea anemones are classic examples.",
+      "memory_tip": "'Sym' = together + 'bio' = life → living together = symbiosis.",
+      "examples": [
+        "The relationship between bees and flowers is a form of symbiosis.",
+        "Clownfish and sea anemones have a symbiotic relationship.",
+        "Fungi and tree roots form symbiosis called mycorrhizae.",
+        "Symbiosis allows both organisms to thrive in harsh environments."
+      ]
+    },
+    {
+      "id": 67,
+      "word": "Succulent",
+      "category": "Weather & Nature",
+      "subcategory": "Plants & Wildlife",
+      "part_of_speech": "noun",
+      "difficulty": "Intermediate",
+      "frequency": "Common",
+      "gujarati_pronunciation": "સ-ઉ-ઉ-ઉ-ઉ-ઉ-ઉ",
+      "english_meaning": "A plant with thick, fleshy leaves or stems that store water, adapted to arid conditions.",
+      "gujarati_meaning": "ઉ-ઉ (water) ઉ-ઉ (store) — ઉ-ઉ (thick leaves/stems) — dry climate adaptable plant — succulent.",
+      "synonyms": [
+        "cactus-type plant",
+        "water-storing plant",
+        "xeric plant"
+      ],
+      "antonyms": [
+        "hydrophyte",
+        "water plant",
+        "rainforest plant"
+      ],
+      "collocations": [
+        "succulent plant",
+        "desert succulent",
+        "succulent garden"
+      ],
+      "word_forms": [
+        "succulent (n/adj)",
+        "succulence (n)"
+      ],
+      "usage_note": "Cacti are the most well-known succulents; aloe vera is a widely used succulent.",
+      "memory_tip": "'Succulent' = juicy (succulent food) → plant that's 'juicy' inside = stores water.",
+      "examples": [
+        "Aloe vera is a widely used succulent with medicinal properties.",
+        "Succulents are popular houseplants because they need little water.",
+        "Desert succulents survive months without rainfall.",
+        "The cactus is the most iconic succulent of the Sonoran Desert."
+      ]
+    },
+    {
+      "id": 68,
+      "word": "Predator-prey relationship",
+      "category": "Weather & Nature",
+      "subcategory": "Plants & Wildlife",
+      "part_of_speech": "noun",
+      "difficulty": "Advanced",
+      "frequency": "Less common",
+      "gujarati_pronunciation": "પ-ઉ-ઉ-ઉ-ઉ-ઉ ઉ-ઉ-ઉ ઉ-ઉ-ઉ-ઉ-ઉ-ઉ-ઉ-ઉ",
+      "english_meaning": "The ecological interaction where one organism (predator) hunts and feeds on another (prey).",
+      "gujarati_meaning": "ઉ-ઉ (predator) ઉ-ઉ (hunts) ઉ-ઉ (prey) — ઉ-ઉ (ecological) ઉ-ઉ (balance) — predator-prey relationship.",
+      "synonyms": [
+        "hunter-prey dynamic",
+        "food chain link",
+        "trophic interaction"
+      ],
+      "antonyms": [
+        "symbiosis",
+        "mutualism",
+        "decomposition"
+      ],
+      "collocations": [
+        "predator-prey cycle",
+        "balance between predator and prey",
+        "predator-prey dynamics"
+      ],
+      "word_forms": [
+        "predator-prey relationship (n)"
+      ],
+      "usage_note": "Loss of predators leads to prey overpopulation and ecosystem imbalance.",
+      "memory_tip": "Predator = hunter; prey = hunted → predator-prey = hunter-hunted relationship.",
+      "examples": [
+        "The wolf-deer predator-prey relationship keeps forest ecosystems balanced.",
+        "Studying predator-prey relationships helps in wildlife conservation.",
+        "A disrupted predator-prey dynamic can collapse entire ecosystems.",
+        "The cheetah-gazelle predator-prey relationship is studied globally."
+      ]
+    },
+    {
+      "id": 69,
+      "word": "Deforestation",
+      "category": "Weather & Nature",
+      "subcategory": "Environmental Issues",
+      "part_of_speech": "noun",
+      "difficulty": "Intermediate",
+      "frequency": "Very common",
+      "gujarati_pronunciation": "ડિફૉરૅસ્ટૅઇશન",
+      "english_meaning": "The large-scale clearing of forests, permanently destroying them for other land use.",
+      "gujarati_meaning": "જંગલો કાપી-નાખ — મોટા પ્રમાણ પર — ખેતી, ઉ-ઉ (industry) અ-ઉ (or) ઉ-ઉ (construction) ઉ-ઉ (for).",
+      "synonyms": [
+        "logging",
+        "forest clearance",
+        "tree felling"
+      ],
+      "antonyms": [
+        "afforestation",
+        "reforestation",
+        "tree planting"
+      ],
+      "collocations": [
+        "rampant deforestation",
+        "deforestation rate",
+        "combat deforestation"
+      ],
+      "word_forms": [
+        "deforestation (n)",
+        "deforest (v)",
+        "deforested (adj)"
+      ],
+      "usage_note": "Deforestation releases carbon dioxide and destroys habitat; major driver of climate change.",
+      "memory_tip": "'De-' = ઘટ-ઉ (remove) + 'forest' = જ-ઉ (jungle) → remove forest = deforestation.",
+      "examples": [
+        "Deforestation in the Amazon threatens thousands of species.",
+        "India loses millions of hectares to deforestation each year.",
+        "Deforestation contributes to soil erosion and flooding.",
+        "NGOs are working to reverse deforestation in tribal areas."
+      ]
+    },
+    {
+      "id": 70,
+      "word": "Carbon footprint",
+      "category": "Weather & Nature",
+      "subcategory": "Environmental Issues",
+      "part_of_speech": "noun",
+      "difficulty": "Intermediate",
+      "frequency": "Common",
+      "gujarati_pronunciation": "કાર્બન ફૂટ-પ્રિન્ટ",
+      "english_meaning": "The total amount of greenhouse gases, especially carbon dioxide, produced by a person or activity.",
+      "gujarati_meaning": "ઉ-ઉ (person/activity) ઉ-ઉ (total) CO₂ ઉ-ઉ (release) — carbon footprint.",
+      "synonyms": [
+        "carbon emissions",
+        "ecological footprint",
+        "greenhouse gas output"
+      ],
+      "antonyms": [
+        "carbon neutrality",
+        "zero emissions",
+        "carbon offset"
+      ],
+      "collocations": [
+        "reduce carbon footprint",
+        "high carbon footprint",
+        "carbon footprint calculator"
+      ],
+      "word_forms": [
+        "carbon footprint (n)"
+      ],
+      "usage_note": "Reducing your carbon footprint involves eating less meat, flying less, using renewable energy.",
+      "memory_tip": "'Footprint' = ઉ-ઉ (mark you leave) → carbon footprint = ઉ-ઉ (CO₂) mark you leave.",
+      "examples": [
+        "Flying has a very high carbon footprint.",
+        "Companies are measuring and reducing their carbon footprint.",
+        "Switching to electric vehicles lowers your carbon footprint.",
+        "Schools teach students how to calculate their carbon footprint."
+      ]
+    },
+    {
+      "id": 71,
+      "word": "Greenhouse effect",
+      "category": "Weather & Nature",
+      "subcategory": "Environmental Issues",
+      "part_of_speech": "noun",
+      "difficulty": "Intermediate",
+      "frequency": "Common",
+      "gujarati_pronunciation": "ગ્રીન-હાઉ-ઉ ઇ-ઉ-ઉ-ઉ-ઉ",
+      "english_meaning": "The warming of the Earth caused by gases in the atmosphere trapping heat from the sun.",
+      "gujarati_meaning": "ઉ-ઉ (atmosphere) ઉ-ઉ (gases) ઉ-ઉ (trap heat) — ઉ-ઉ (Earth) ઉ-ઉ (warms up).",
+      "synonyms": [
+        "atmospheric warming",
+        "heat trapping",
+        "thermal blanket effect"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "greenhouse effect warming",
+        "enhanced greenhouse effect",
+        "greenhouse gases"
+      ],
+      "word_forms": [
+        "greenhouse effect (n)",
+        "greenhouse gas (n)"
+      ],
+      "usage_note": "The greenhouse effect is natural and necessary; the enhanced version due to human activities causes global warming.",
+      "memory_tip": "ઉ-ઉ (glass greenhouse traps warmth) → Earth's atmosphere does the same = greenhouse effect.",
+      "examples": [
+        "The greenhouse effect keeps Earth warm enough for life.",
+        "Human activities are enhancing the greenhouse effect.",
+        "CO₂, methane, and water vapour are key greenhouse gases.",
+        "Understanding the greenhouse effect is essential for climate science."
+      ]
+    },
+    {
+      "id": 72,
+      "word": "Ozone depletion",
+      "category": "Weather & Nature",
+      "subcategory": "Environmental Issues",
+      "part_of_speech": "noun",
+      "difficulty": "Advanced",
+      "frequency": "Common",
+      "gujarati_pronunciation": "ઓ-ઉ-ઉ ડ-ઉ-ઉ-ઉ-ઉ-ઉ",
+      "english_meaning": "The thinning of the ozone layer in the atmosphere, increasing UV radiation reaching Earth.",
+      "gujarati_meaning": "ઉ-ઉ (ozone layer) ઉ-ઉ (thin) ઉ-ઉ (UV rays) ઉ-ઉ (Earth reach) = ozone depletion.",
+      "synonyms": [
+        "ozone layer thinning",
+        "stratospheric depletion",
+        "CFC damage"
+      ],
+      "antonyms": [
+        "ozone recovery",
+        "ozone protection"
+      ],
+      "collocations": [
+        "ozone hole",
+        "ozone depletion rate",
+        "CFCs and ozone"
+      ],
+      "word_forms": [
+        "ozone depletion (n)",
+        "deplete (v)",
+        "depleted (adj)"
+      ],
+      "usage_note": "CFCs from aerosols were the main cause; the Montreal Protocol helped recovery.",
+      "memory_tip": "'Deplete' = ઘ-ઉ (decrease) → ozone depletes = ozone ઘ-ઉ (decreases).",
+      "examples": [
+        "Ozone depletion over Antarctica led to the 'ozone hole'.",
+        "CFC gases were banned to slow ozone depletion.",
+        "Ozone depletion increases the risk of skin cancer.",
+        "The ozone layer is slowly recovering thanks to global action."
+      ]
+    },
+    {
+      "id": 73,
+      "word": "Pollution",
+      "category": "Weather & Nature",
+      "subcategory": "Environmental Issues",
+      "part_of_speech": "noun",
+      "difficulty": "Intermediate",
+      "frequency": "Very common",
+      "gujarati_pronunciation": "પ-ઉ-ઉ-ઉ-ઉ-ઉ",
+      "english_meaning": "The introduction of harmful substances into the environment, damaging it.",
+      "gujarati_meaning": "ઉ-ઉ (environment) ઉ-ઉ (harmful substances) ઉ-ઉ (intro) — ઉ-ઉ (damage).",
+      "synonyms": [
+        "contamination",
+        "environmental damage",
+        "toxicity"
+      ],
+      "antonyms": [
+        "purification",
+        "clean environment",
+        "decontamination"
+      ],
+      "collocations": [
+        "air pollution",
+        "water pollution",
+        "pollution control"
+      ],
+      "word_forms": [
+        "pollution (n)",
+        "pollute (v)",
+        "pollutant (n)",
+        "polluted (adj)"
+      ],
+      "usage_note": "There are many types: air, water, soil, noise, and light pollution.",
+      "memory_tip": "'Pollute' = ઉ-ઉ (dirty) + '-ion' = process → pollution = ઉ-ઉ (making dirty).",
+      "examples": [
+        "Air pollution in Delhi reaches dangerous levels in winter.",
+        "Industrial pollution has contaminated the river.",
+        "Noise pollution affects mental health in cities.",
+        "Strict laws are needed to curb plastic pollution."
+      ]
+    },
+    {
+      "id": 74,
+      "word": "Acid rain",
+      "category": "Weather & Nature",
+      "subcategory": "Environmental Issues",
+      "part_of_speech": "noun",
+      "difficulty": "Advanced",
+      "frequency": "Less common",
+      "gujarati_pronunciation": "એ-ઉ-ઉ ર-ઉ-ઉ",
+      "english_meaning": "Rain made acidic by atmospheric pollution, harming vegetation and water bodies.",
+      "gujarati_meaning": "ઉ-ઉ (pollutants) ઉ-ઉ (rain + mix) → ઉ-ઉ (acidic rain) ઉ-ઉ (harms plants/water).",
+      "synonyms": [
+        "acid precipitation",
+        "corrosive rain",
+        "pH-low rain"
+      ],
+      "antonyms": [
+        "clean rain",
+        "neutral precipitation"
+      ],
+      "collocations": [
+        "acid rain damage",
+        "acid rain effects",
+        "prevent acid rain"
+      ],
+      "word_forms": [
+        "acid rain (n)"
+      ],
+      "usage_note": "Caused by SO₂ and NOₓ from burning fossil fuels; damages forests, lakes, and buildings.",
+      "memory_tip": "'Acid' = ઉ-ઉ (khatta/corrosive) + 'rain' = ઉ-ઉ (rain) → corrosive rain.",
+      "examples": [
+        "Acid rain killed vast areas of forest in Europe in the 1980s.",
+        "Marble monuments are dissolving due to acid rain.",
+        "Power plants burning coal release gases that cause acid rain.",
+        "International agreements have reduced acid rain significantly."
+      ]
+    },
+    {
+      "id": 75,
+      "word": "Biodegradable",
+      "category": "Weather & Nature",
+      "subcategory": "Environmental Issues",
+      "part_of_speech": "adjective",
+      "difficulty": "Intermediate",
+      "frequency": "Common",
+      "gujarati_pronunciation": "બ-ઉ-ઉ-ઉ-ઉ-ઉ-ઉ",
+      "english_meaning": "Capable of being broken down naturally by bacteria or other living organisms.",
+      "gujarati_meaning": "ઉ-ઉ (bacteria/organisms) ઉ-ઉ (naturally break down) — biodegradable.",
+      "synonyms": [
+        "compostable",
+        "organic",
+        "decomposable"
+      ],
+      "antonyms": [
+        "non-biodegradable",
+        "synthetic",
+        "persistent"
+      ],
+      "collocations": [
+        "biodegradable packaging",
+        "biodegradable waste",
+        "biodegradable plastic"
+      ],
+      "word_forms": [
+        "biodegradable (adj)",
+        "biodegrade (v)",
+        "biodegradability (n)"
+      ],
+      "usage_note": "Biodegradable materials return to nature; non-biodegradable ones persist for centuries.",
+      "memory_tip": "'Bio' = life + 'degrade' = break down → breaks down by life = biodegradable.",
+      "examples": [
+        "Paper and cotton are biodegradable materials.",
+        "Switching to biodegradable packaging reduces plastic waste.",
+        "Food waste is biodegradable and can be composted.",
+        "Not all 'eco-friendly' plastics are truly biodegradable."
+      ]
+    },
+    {
+      "id": 76,
+      "word": "Erosion",
+      "category": "Weather & Nature",
+      "subcategory": "Environmental Issues",
+      "part_of_speech": "noun",
+      "difficulty": "Intermediate",
+      "frequency": "Common",
+      "gujarati_pronunciation": "ઇ-ઉ-ઉ-ઉ-ઉ",
+      "english_meaning": "The gradual wearing away of soil, rock, or land by wind, water, or other forces.",
+      "gujarati_meaning": "ઉ-ઉ (wind/water) ઉ-ઉ (soil/rock) ઉ-ઉ (gradually wear away) — erosion.",
+      "synonyms": [
+        "wearing away",
+        "degradation",
+        "weathering"
+      ],
+      "antonyms": [
+        "deposition",
+        "accumulation",
+        "sedimentation"
+      ],
+      "collocations": [
+        "soil erosion",
+        "coastal erosion",
+        "erosion control"
+      ],
+      "word_forms": [
+        "erosion (n)",
+        "erode (v)",
+        "eroded (adj)"
+      ],
+      "usage_note": "Deforestation accelerates erosion; roots hold soil in place.",
+      "memory_tip": "'Erode' = ઉ-ઉ (eat away) → erosion = ઉ-ઉ (eating away) of land.",
+      "examples": [
+        "Coastal erosion is threatening cliffs and beaches.",
+        "Soil erosion reduces agricultural productivity.",
+        "Planting trees is an effective way to prevent erosion.",
+        "Erosion carved the spectacular landforms of Badlands National Park."
+      ]
+    },
+    {
+      "id": 77,
+      "word": "Sustainability",
+      "category": "Weather & Nature",
+      "subcategory": "Environmental Issues",
+      "part_of_speech": "noun",
+      "difficulty": "Intermediate",
+      "frequency": "Common",
+      "gujarati_pronunciation": "સ-ઉ-ઉ-ઉ-ઉ-ઉ-ઉ-ઉ",
+      "english_meaning": "The ability to meet present needs without compromising the ability of future generations to meet their needs.",
+      "gujarati_meaning": "ઉ-ઉ (present needs) ઉ-ઉ (meet) ઉ-ઉ (future) ઉ-ઉ (compromise no) — sustainability.",
+      "synonyms": [
+        "environmental responsibility",
+        "eco-balance",
+        "long-term viability"
+      ],
+      "antonyms": [
+        "unsustainability",
+        "exploitation",
+        "depletion"
+      ],
+      "collocations": [
+        "environmental sustainability",
+        "sustainable development",
+        "sustainability goals"
+      ],
+      "word_forms": [
+        "sustainability (n)",
+        "sustainable (adj)",
+        "sustain (v)",
+        "sustainably (adv)"
+      ],
+      "usage_note": "The UN's 17 Sustainable Development Goals (SDGs) address global sustainability challenges.",
+      "memory_tip": "'Sustain' = ટ-ઉ-ઉ (keep going) + '-ability' = ability → ability to keep going = sustainability.",
+      "examples": [
+        "Sustainability is central to modern urban planning.",
+        "Solar energy is key to environmental sustainability.",
+        "Companies are adopting sustainability reporting practices.",
+        "The UN SDGs promote global sustainability by 2030."
+      ]
+    },
+    {
+      "id": 78,
+      "word": "Renewable energy",
+      "category": "Weather & Nature",
+      "subcategory": "Environmental Issues",
+      "part_of_speech": "noun",
+      "difficulty": "Intermediate",
+      "frequency": "Common",
+      "gujarati_pronunciation": "ર-ઉ-ઉ-ઉ-ઉ-ઉ ઉ-ઉ-ઉ-ઉ-ઉ",
+      "english_meaning": "Energy from sources that are naturally replenished, such as solar, wind, or hydro power.",
+      "gujarati_meaning": "ઉ-ઉ (solar/wind/water) ઉ-ઉ (naturally refill) — renewable energy.",
+      "synonyms": [
+        "green energy",
+        "clean energy",
+        "sustainable energy"
+      ],
+      "antonyms": [
+        "fossil fuel",
+        "non-renewable energy",
+        "finite energy"
+      ],
+      "collocations": [
+        "renewable energy source",
+        "switch to renewable energy",
+        "renewable energy target"
+      ],
+      "word_forms": [
+        "renewable energy (n)",
+        "renewable (adj)",
+        "renew (v)"
+      ],
+      "usage_note": "India aims to achieve 500 GW of renewable energy capacity by 2030.",
+      "memory_tip": "'Renew' = ઉ-ઉ (refill/again) → renewable = ઉ-ઉ (energy that refills).",
+      "examples": [
+        "Solar panels are the fastest-growing source of renewable energy.",
+        "India is a world leader in renewable energy expansion.",
+        "Renewable energy reduces dependence on imported oil.",
+        "Wind farms generate renewable energy without emissions."
+      ]
+    },
+    {
+      "id": 79,
+      "word": "Climate change",
+      "category": "Weather & Nature",
+      "subcategory": "Environmental Issues",
+      "part_of_speech": "noun",
+      "difficulty": "Intermediate",
+      "frequency": "Very common",
+      "gujarati_pronunciation": "ક-ઉ-ઉ-ઉ-ઉ ચ-ઉ-ઉ-ઉ",
+      "english_meaning": "Long-term shifts in global temperatures and weather patterns, largely driven by human activities.",
+      "gujarati_meaning": "ઉ-ઉ (global) ઉ-ઉ (temperature/weather) ઉ-ઉ (long-term change) — mostly human-caused.",
+      "synonyms": [
+        "global warming",
+        "climate crisis",
+        "environmental shift"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "combat climate change",
+        "climate change impacts",
+        "climate change policy"
+      ],
+      "word_forms": [
+        "climate change (n)",
+        "climate (n)",
+        "change (n/v)"
+      ],
+      "usage_note": "The IPCC reports that limiting warming to 1.5°C requires urgent global action.",
+      "memory_tip": "'Climate' = ઉ-ઉ (long-term weather) + 'change' = ઉ-ઉ (shift) → climate change.",
+      "examples": [
+        "Climate change is causing more frequent extreme weather events.",
+        "The Paris Agreement aims to limit climate change to 1.5°C.",
+        "Small island nations face existential threats from climate change.",
+        "Young activists are demanding action on climate change."
+      ]
+    },
+    {
+      "id": 80,
+      "word": "Habitat loss",
+      "category": "Weather & Nature",
+      "subcategory": "Environmental Issues",
+      "part_of_speech": "noun",
+      "difficulty": "Intermediate",
+      "frequency": "Common",
+      "gujarati_pronunciation": "હ-ઉ-ઉ-ઉ-ઉ ઉ-ઉ-ઉ",
+      "english_meaning": "The destruction or degradation of a natural environment that plants and animals depend on.",
+      "gujarati_meaning": "ઉ-ઉ (animals/plants) ઉ-ઉ (home/environment) ઉ-ઉ (destroy/degrade) — habitat loss.",
+      "synonyms": [
+        "habitat destruction",
+        "ecosystem degradation",
+        "environmental loss"
+      ],
+      "antonyms": [
+        "habitat conservation",
+        "wildlife protection",
+        "rewilding"
+      ],
+      "collocations": [
+        "habitat loss and fragmentation",
+        "habitat loss causes extinction",
+        "protect habitat"
+      ],
+      "word_forms": [
+        "habitat loss (n)",
+        "habitat (n)",
+        "lose (v)"
+      ],
+      "usage_note": "Habitat loss is the primary driver of species extinction worldwide.",
+      "memory_tip": "'Habitat' = ઉ-ઉ (home) + 'loss' = ઉ-ઉ (destroy) → losing home = habitat loss.",
+      "examples": [
+        "Habitat loss is the biggest threat to tigers in India.",
+        "Urban expansion causes widespread habitat loss.",
+        "Conservation corridors help mitigate habitat loss effects.",
+        "Habitat loss and poaching have pushed rhinos to near extinction."
+      ]
+    },
+    {
+      "id": 81,
+      "word": "Overpopulation",
+      "category": "Weather & Nature",
+      "subcategory": "Environmental Issues",
+      "part_of_speech": "noun",
+      "difficulty": "Intermediate",
+      "frequency": "Common",
+      "gujarati_pronunciation": "ઓ-ઉ-ઉ-ઉ-ઉ-ઉ-ઉ",
+      "english_meaning": "A condition where the number of people or animals in an area exceeds what resources can sustainably support.",
+      "gujarati_meaning": "ઉ-ઉ (people/animals) ઉ-ઉ (too many) — ઉ-ઉ (resources) ઉ-ઉ (not enough) — overpopulation.",
+      "synonyms": [
+        "overcrowding",
+        "excess population",
+        "population explosion"
+      ],
+      "antonyms": [
+        "underpopulation",
+        "sparse population"
+      ],
+      "collocations": [
+        "human overpopulation",
+        "overpopulation problem",
+        "overpopulation crisis"
+      ],
+      "word_forms": [
+        "overpopulation (n)",
+        "overpopulate (v)",
+        "overpopulated (adj)"
+      ],
+      "usage_note": "Overpopulation strains resources, increases pollution, and drives habitat loss.",
+      "memory_tip": "'Over' = ઉ-ઉ (too much) + 'population' = ઉ-ઉ (people) → too many people.",
+      "examples": [
+        "Overpopulation in cities leads to housing and water shortages.",
+        "Wildlife overpopulation can strip an area of vegetation.",
+        "Deer overpopulation in suburbs causes crop and garden damage.",
+        "Sustainable development addresses challenges posed by overpopulation."
+      ]
+    },
+    {
+      "id": 82,
+      "word": "Desertification",
+      "category": "Weather & Nature",
+      "subcategory": "Environmental Issues",
+      "part_of_speech": "noun",
+      "difficulty": "Advanced",
+      "frequency": "Less common",
+      "gujarati_pronunciation": "ડ-ઉ-ઉ-ઉ-ઉ-ઉ-ઉ-ઉ-ઉ",
+      "english_meaning": "The process by which fertile land becomes desert, often due to drought and overuse.",
+      "gujarati_meaning": "ઉ-ઉ (fertile land) ઉ-ઉ (desert) ઉ-ઉ (become) — usually drought + overuse caused.",
+      "synonyms": [
+        "land degradation",
+        "aridification",
+        "soil loss"
+      ],
+      "antonyms": [
+        "reforestation",
+        "reclamation",
+        "greening"
+      ],
+      "collocations": [
+        "desertification process",
+        "prevent desertification",
+        "Sahel desertification"
+      ],
+      "word_forms": [
+        "desertification (n)",
+        "desertify (v)",
+        "desertified (adj)"
+      ],
+      "usage_note": "The Sahel region of Africa faces severe desertification; the Great Green Wall project combats it.",
+      "memory_tip": "'Desert' + '-ification' = process of becoming desert = desertification.",
+      "examples": [
+        "Overgrazing is accelerating desertification in arid regions.",
+        "Desertification threatens food security for millions.",
+        "The Great Green Wall aims to stop desertification across Africa.",
+        "Planting drought-resistant trees can reverse desertification."
+      ]
+    },
+    {
+      "id": 83,
+      "word": "Carbon sequestration",
+      "category": "Weather & Nature",
+      "subcategory": "Environmental Issues",
+      "part_of_speech": "noun",
+      "difficulty": "Advanced",
+      "frequency": "Less common",
+      "gujarati_pronunciation": "ક-ઉ-ઉ-ઉ-ઉ ઉ-ઉ-ઉ-ઉ-ઉ-ઉ-ઉ",
+      "english_meaning": "The long-term storage of carbon dioxide from the atmosphere to reduce greenhouse gases.",
+      "gujarati_meaning": "ઉ-ઉ (CO₂) ઉ-ઉ (long-term store) — forests/soil/ocean ઉ-ઉ (trap) CO₂.",
+      "synonyms": [
+        "carbon capture",
+        "carbon storage",
+        "CO₂ absorption"
+      ],
+      "antonyms": [
+        "carbon emission",
+        "carbon release",
+        "deforestation"
+      ],
+      "collocations": [
+        "carbon sequestration by forests",
+        "carbon capture technology",
+        "natural carbon sequestration"
+      ],
+      "word_forms": [
+        "carbon sequestration (n)",
+        "sequester (v)",
+        "sequestered (adj)"
+      ],
+      "usage_note": "Forests are the most effective natural carbon sinks; oceans absorb about 30% of CO₂.",
+      "memory_tip": "'Sequester' = ઉ-ઉ (hold apart/store) → carbon sequestration = store carbon away.",
+      "examples": [
+        "Forests are vital for carbon sequestration.",
+        "Peatlands store more carbon than all the world's forests combined.",
+        "Carbon sequestration technology is being developed for power plants.",
+        "Protecting wetlands enhances natural carbon sequestration."
+      ]
+    },
+    {
+      "id": 84,
+      "word": "Environmental degradation",
+      "category": "Weather & Nature",
+      "subcategory": "Environmental Issues",
+      "part_of_speech": "noun",
+      "difficulty": "Advanced",
+      "frequency": "Common",
+      "gujarati_pronunciation": "ઇ-ઉ-ઉ-ઉ-ઉ-ઉ-ઉ-ઉ ઉ-ઉ-ઉ-ઉ-ઉ-ઉ-ઉ",
+      "english_meaning": "The deterioration of the natural environment through depletion of resources and destruction of ecosystems.",
+      "gujarati_meaning": "ઉ-ઉ (natural environment) ઉ-ઉ (resources deplete) ઉ-ઉ (ecosystems destroy) — deterioration.",
+      "synonyms": [
+        "environmental damage",
+        "ecological destruction",
+        "nature degradation"
+      ],
+      "antonyms": [
+        "environmental conservation",
+        "restoration",
+        "ecological recovery"
+      ],
+      "collocations": [
+        "prevent environmental degradation",
+        "environmental degradation causes",
+        "land degradation"
+      ],
+      "word_forms": [
+        "environmental degradation (n)",
+        "degrade (v)",
+        "degraded (adj)",
+        "degradation (n)"
+      ],
+      "usage_note": "Addressing environmental degradation requires both policy and individual action.",
+      "memory_tip": "'Degrade' = ઉ-ઉ (reduce quality) → environmental degradation = reducing environment's quality.",
+      "examples": [
+        "Rapid industrialisation has caused severe environmental degradation.",
+        "Environmental degradation reduces the quality of life in rural areas.",
+        "The UN calls environmental degradation a global emergency.",
+        "Community-based conservation can reverse environmental degradation."
+      ]
+    },
+    {
+      "id": 85,
+      "word": "Earthquake",
+      "category": "Weather & Nature",
+      "subcategory": "Natural Disasters",
+      "part_of_speech": "noun",
+      "difficulty": "Intermediate",
+      "frequency": "Very common",
+      "gujarati_pronunciation": "અ-ઉ-ઉ-ઉ-ઉ-ઉ",
+      "english_meaning": "A sudden violent shaking of the ground caused by movements of the Earth's tectonic plates.",
+      "gujarati_meaning": "ઉ-ઉ (tectonic plates) ઉ-ઉ (move) → ઉ-ઉ (ground) ઉ-ઉ (shake violently) — earthquake.",
+      "synonyms": [
+        "tremor",
+        "seismic event",
+        "quake"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "major earthquake",
+        "earthquake zone",
+        "earthquake magnitude"
+      ],
+      "word_forms": [
+        "earthquake (n)",
+        "tremor (n)",
+        "seismic (adj)"
+      ],
+      "usage_note": "Measured on the Richter scale or moment magnitude scale; above 7.0 is very strong.",
+      "memory_tip": "'Earth' + 'quake' = ઉ-ઉ (Earth) + ઉ-ઉ (shaking) = earthquake.",
+      "examples": [
+        "The 2001 Bhuj earthquake devastated Gujarat.",
+        "Earthquake-resistant buildings are essential in seismic zones.",
+        "A 7.8-magnitude earthquake struck Turkey in 2023.",
+        "Early warning systems can save lives during earthquakes."
+      ]
+    },
+    {
+      "id": 86,
+      "word": "Tsunami",
+      "category": "Weather & Nature",
+      "subcategory": "Natural Disasters",
+      "part_of_speech": "noun",
+      "difficulty": "Intermediate",
+      "frequency": "Common",
+      "gujarati_pronunciation": "ઉ-ઉ-ઉ-ઉ-ઉ",
+      "english_meaning": "A series of giant ocean waves caused by an underwater earthquake, landslide, or volcanic eruption.",
+      "gujarati_meaning": "ઉ-ઉ (underwater earthquake/eruption) ઉ-ઉ (giant waves) ઉ-ઉ (coast) ઉ-ઉ (hit) — tsunami.",
+      "synonyms": [
+        "tidal wave",
+        "seismic sea wave",
+        "harbour wave"
+      ],
+      "antonyms": [
+        "calm sea",
+        "low tide"
+      ],
+      "collocations": [
+        "tsunami warning",
+        "destructive tsunami",
+        "tsunami evacuation"
+      ],
+      "word_forms": [
+        "tsunami (n)",
+        "tsunamis (pl)"
+      ],
+      "usage_note": "The 2004 Indian Ocean Tsunami killed over 200,000 people across 14 countries.",
+      "memory_tip": "Japanese word: 'tsu' = harbour + 'nami' = wave → harbour wave = tsunami.",
+      "examples": [
+        "The 2004 tsunami devastated coastal areas across Southeast Asia.",
+        "A tsunami warning system was established after 2004.",
+        "Tsunamis can travel at 800 km/h across open ocean.",
+        "Coastal communities practise tsunami evacuation drills."
+      ]
+    },
+    {
+      "id": 87,
+      "word": "Cyclone",
+      "category": "Weather & Nature",
+      "subcategory": "Natural Disasters",
+      "part_of_speech": "noun",
+      "difficulty": "Intermediate",
+      "frequency": "Common",
+      "gujarati_pronunciation": "ઉ-ઉ-ઉ-ઉ-ઉ",
+      "english_meaning": "A large, destructive system of winds rotating around a centre of low pressure over the ocean.",
+      "gujarati_meaning": "ઉ-ઉ (ocean) ઉ-ઉ (low pressure centre) ઉ-ઉ (rotating winds) — ઉ-ઉ (destructive).",
+      "synonyms": [
+        "hurricane",
+        "typhoon",
+        "tropical storm"
+      ],
+      "antonyms": [
+        "anticyclone",
+        "high pressure system",
+        "clear weather"
+      ],
+      "collocations": [
+        "cyclone warning",
+        "severe cyclone",
+        "cyclone season"
+      ],
+      "word_forms": [
+        "cyclone (n)",
+        "cyclonic (adj)"
+      ],
+      "usage_note": "Called hurricane in Atlantic, typhoon in Pacific, cyclone in Indian Ocean.",
+      "memory_tip": "'Cyclo-' = circle → cyclone = ઉ-ઉ (circular) rotating storm.",
+      "examples": [
+        "Cyclone Biparjoy hit Gujarat's coast in June 2023.",
+        "A severe cyclone warning was issued for Odisha's coast.",
+        "Cyclones draw energy from warm ocean water.",
+        "Thousands were evacuated before the cyclone made landfall."
+      ]
+    },
+    {
+      "id": 88,
+      "word": "Volcanic eruption",
+      "category": "Weather & Nature",
+      "subcategory": "Natural Disasters",
+      "part_of_speech": "noun",
+      "difficulty": "Intermediate",
+      "frequency": "Common",
+      "gujarati_pronunciation": "ઉ-ઉ-ઉ-ઉ-ઉ ઉ-ઉ-ઉ-ઉ-ઉ",
+      "english_meaning": "The sudden release of magma, gases, and ash from a volcano onto the Earth's surface.",
+      "gujarati_meaning": "ઉ-ઉ (volcano) ઉ-ઉ (lava/ash/gases) ઉ-ઉ (suddenly release) — volcanic eruption.",
+      "synonyms": [
+        "lava flow",
+        "volcano blast",
+        "eruption"
+      ],
+      "antonyms": [
+        "dormant volcano",
+        "inactive volcano"
+      ],
+      "collocations": [
+        "volcanic eruption warning",
+        "lava flow",
+        "volcanic ash cloud"
+      ],
+      "word_forms": [
+        "volcanic eruption (n)",
+        "volcano (n)",
+        "erupt (v)",
+        "erupted (past)"
+      ],
+      "usage_note": "Can affect global climate by releasing ash and sulphur dioxide into the atmosphere.",
+      "memory_tip": "'Erupt' = ઉ-ઉ (burst out) → volcanic eruption = ઉ-ઉ (lava burst).",
+      "examples": [
+        "The 1980 Mount St Helens eruption caused massive destruction.",
+        "Volcanic eruptions can disrupt air travel with ash clouds.",
+        "Indonesia sits on the Ring of Fire and has frequent eruptions.",
+        "Lava from the eruption reached the sea within hours."
+      ]
+    },
+    {
+      "id": 89,
+      "word": "Landslide",
+      "category": "Weather & Nature",
+      "subcategory": "Natural Disasters",
+      "part_of_speech": "noun",
+      "difficulty": "Intermediate",
+      "frequency": "Common",
+      "gujarati_pronunciation": "ઉ-ઉ-ઉ-ઉ-ઉ-ઉ",
+      "english_meaning": "The rapid movement of a mass of earth, rock, or debris down a hillside.",
+      "gujarati_meaning": "ઉ-ઉ (hill) ઉ-ઉ (soil/rock/debris) ઉ-ઉ (rapidly slide down) — landslide.",
+      "synonyms": [
+        "mudslide",
+        "rockslide",
+        "slope failure"
+      ],
+      "antonyms": [
+        "stable terrain",
+        "solid ground"
+      ],
+      "collocations": [
+        "trigger a landslide",
+        "landslide risk",
+        "landslide zone"
+      ],
+      "word_forms": [
+        "landslide (n)",
+        "landslides (pl)"
+      ],
+      "usage_note": "Common during monsoons in hilly regions; deforestation increases landslide risk.",
+      "memory_tip": "'Land' + 'slide' = ઉ-ઉ (land) + ઉ-ઉ (slide) = land slides down.",
+      "examples": [
+        "A landslide buried the mountain village during heavy rain.",
+        "Deforestation increases the risk of landslides.",
+        "The Wayanad landslide of 2024 was one of India's deadliest.",
+        "Early warning systems can reduce landslide casualties."
+      ]
+    },
+    {
+      "id": 90,
+      "word": "Flash flood",
+      "category": "Weather & Nature",
+      "subcategory": "Natural Disasters",
+      "part_of_speech": "noun",
+      "difficulty": "Intermediate",
+      "frequency": "Common",
+      "gujarati_pronunciation": "ઉ-ઉ-ઉ ઉ-ઉ-ઉ-ઉ",
+      "english_meaning": "A sudden, violent flood caused by extremely heavy rainfall in a short time.",
+      "gujarati_meaning": "ઉ-ઉ (sudden heavy rain) → ઉ-ઉ (rapid flooding) — flash flood.",
+      "synonyms": [
+        "sudden flood",
+        "rapid flood",
+        "wall of water"
+      ],
+      "antonyms": [
+        "gradual rise",
+        "drought",
+        "low water level"
+      ],
+      "collocations": [
+        "flash flood warning",
+        "deadly flash flood",
+        "flash flood zone"
+      ],
+      "word_forms": [
+        "flash flood (n)"
+      ],
+      "usage_note": "Flash floods can occur with little warning; particularly dangerous in valleys and urban areas.",
+      "memory_tip": "'Flash' = ઉ-ઉ (sudden, like flash of light) + 'flood' = ઉ-ઉ (flood) → sudden flood.",
+      "examples": [
+        "A flash flood swept through the desert canyon without warning.",
+        "Flash floods in Himachal Pradesh killed dozens in 2023.",
+        "Urban areas are increasingly prone to flash floods.",
+        "People should never try to drive through a flash flood."
+      ]
+    },
+    {
+      "id": 91,
+      "word": "Wildfire",
+      "category": "Weather & Nature",
+      "subcategory": "Natural Disasters",
+      "part_of_speech": "noun",
+      "difficulty": "Intermediate",
+      "frequency": "Common",
+      "gujarati_pronunciation": "ઉ-ઉ-ઉ-ઉ-ઉ-ઉ",
+      "english_meaning": "An uncontrolled fire that spreads rapidly through vegetation in rural or wilderness areas.",
+      "gujarati_meaning": "ઉ-ઉ (uncontrolled fire) ઉ-ઉ (forest/rural) ઉ-ઉ (rapid spread) — wildfire.",
+      "synonyms": [
+        "forest fire",
+        "bushfire",
+        "inferno"
+      ],
+      "antonyms": [
+        "controlled burn",
+        "extinguished fire",
+        "firebreak"
+      ],
+      "collocations": [
+        "raging wildfire",
+        "wildfire season",
+        "wildfire damage"
+      ],
+      "word_forms": [
+        "wildfire (n)",
+        "wildfires (pl)"
+      ],
+      "usage_note": "Climate change is making wildfires more frequent and severe.",
+      "memory_tip": "'Wild' = ઉ-ઉ (uncontrolled, in the wild) + 'fire' = ઉ-ઉ (fire) → wildfire.",
+      "examples": [
+        "Wildfires burned millions of hectares in Australia in 2019-2020.",
+        "Climate change is making wildfire seasons longer and more intense.",
+        "Firefighters battled the wildfire for weeks before containing it.",
+        "Wildfires release huge amounts of carbon dioxide into the atmosphere."
+      ]
+    },
+    {
+      "id": 92,
+      "word": "Storm surge",
+      "category": "Weather & Nature",
+      "subcategory": "Natural Disasters",
+      "part_of_speech": "noun",
+      "difficulty": "Advanced",
+      "frequency": "Less common",
+      "gujarati_pronunciation": "ઉ-ઉ-ઉ-ઉ ઉ-ઉ-ઉ-ઉ",
+      "english_meaning": "An abnormal rise of water level along a coast due to storm winds pushing sea water ashore.",
+      "gujarati_meaning": "ઉ-ઉ (storm) ઉ-ઉ (winds) ઉ-ઉ (push seawater) ઉ-ઉ (coast) — storm surge.",
+      "synonyms": [
+        "tidal surge",
+        "storm wave",
+        "coastal flooding"
+      ],
+      "antonyms": [
+        "normal tide",
+        "low water",
+        "sea retreat"
+      ],
+      "collocations": [
+        "deadly storm surge",
+        "storm surge flooding",
+        "storm surge warning"
+      ],
+      "word_forms": [
+        "storm surge (n)"
+      ],
+      "usage_note": "Storm surges are the deadliest aspect of hurricanes and cyclones for coastal communities.",
+      "memory_tip": "'Surge' = ઉ-ઉ (sudden rise) + storm → storm surge = sudden sea rise during storm.",
+      "examples": [
+        "The storm surge during Cyclone Amphan flooded Kolkata's streets.",
+        "Storm surges are more dangerous than the wind itself.",
+        "Coastal embankments protect against storm surges.",
+        "Low-lying island nations are most vulnerable to storm surges."
+      ]
+    },
+    {
+      "id": 93,
+      "word": "Avalanche",
+      "category": "Weather & Nature",
+      "subcategory": "Natural Disasters",
+      "part_of_speech": "noun",
+      "difficulty": "Intermediate",
+      "frequency": "Common",
+      "gujarati_pronunciation": "ઉ-ઉ-ઉ-ઉ-ઉ-ઉ",
+      "english_meaning": "A large mass of snow and ice that suddenly falls down a mountain.",
+      "gujarati_meaning": "ઉ-ઉ (mountain) ઉ-ઉ (snow/ice mass) ઉ-ઉ (suddenly fall) — avalanche.",
+      "synonyms": [
+        "snow slide",
+        "snow mass",
+        "mountain slide"
+      ],
+      "antonyms": [
+        "stable snowpack",
+        "settled snow"
+      ],
+      "collocations": [
+        "avalanche warning",
+        "trigger an avalanche",
+        "avalanche zone"
+      ],
+      "word_forms": [
+        "avalanche (n)",
+        "avalanches (pl)"
+      ],
+      "usage_note": "Avalanches can be triggered by heavy snowfall, vibrations, or warming temperatures.",
+      "memory_tip": "'Aval-' → 'avval' (first/fast) → fast-falling snow = avalanche.",
+      "examples": [
+        "An avalanche buried the ski resort in metres of snow.",
+        "Mountaineers carry avalanche beacons for safety.",
+        "Loud sounds can trigger an avalanche on unstable slopes.",
+        "Avalanche warnings were issued across the Himalayan region."
+      ]
+    },
+    {
+      "id": 94,
+      "word": "Drought emergency",
+      "category": "Weather & Nature",
+      "subcategory": "Natural Disasters",
+      "part_of_speech": "noun",
+      "difficulty": "Intermediate",
+      "frequency": "Common",
+      "gujarati_pronunciation": "ઉ-ઉ-ઉ-ઉ ઉ-ઉ-ઉ-ઉ-ઉ-ઉ-ઉ-ઉ",
+      "english_meaning": "A critical state of water shortage declared when drought causes severe humanitarian or economic crisis.",
+      "gujarati_meaning": "ઉ-ઉ (water shortage) ઉ-ઉ (severe crisis) ઉ-ઉ (declared emergency) — drought emergency.",
+      "synonyms": [
+        "water crisis",
+        "severe drought",
+        "famine risk"
+      ],
+      "antonyms": [
+        "water abundance",
+        "monsoon relief",
+        "flood"
+      ],
+      "collocations": [
+        "declare drought emergency",
+        "drought emergency relief",
+        "drought emergency zone"
+      ],
+      "word_forms": [
+        "drought emergency (n)"
+      ],
+      "usage_note": "Governments declare drought emergencies to mobilize resources for affected regions.",
+      "memory_tip": "'Drought' = ઉ-ઉ (no water) + 'emergency' = ઉ-ઉ (crisis) → water crisis.",
+      "examples": [
+        "The state declared a drought emergency after three failed monsoons.",
+        "Drought emergencies trigger food and water relief programmes.",
+        "Climate change is increasing the frequency of drought emergencies.",
+        "Farmers demand compensation during declared drought emergencies."
+      ]
+    },
+    {
+      "id": 95,
+      "word": "Seismic activity",
+      "category": "Weather & Nature",
+      "subcategory": "Natural Disasters",
+      "part_of_speech": "noun",
+      "difficulty": "Advanced",
+      "frequency": "Less common",
+      "gujarati_pronunciation": "ઉ-ઉ-ઉ-ઉ-ઉ ઉ-ઉ-ઉ-ઉ-ઉ-ઉ-ઉ",
+      "english_meaning": "The frequency, type, and size of earthquakes and ground movement in a region over a period of time.",
+      "gujarati_meaning": "ઉ-ઉ (earthquakes/ground movement) ઉ-ઉ (frequency/type/size) — seismic activity.",
+      "synonyms": [
+        "earthquake activity",
+        "ground tremors",
+        "tectonic movement"
+      ],
+      "antonyms": [
+        "seismic stability",
+        "geologic calm"
+      ],
+      "collocations": [
+        "increased seismic activity",
+        "seismic activity zone",
+        "monitor seismic activity"
+      ],
+      "word_forms": [
+        "seismic activity (n)",
+        "seismic (adj)",
+        "seismology (n)"
+      ],
+      "usage_note": "Seismographs record seismic activity; seismologists study earthquake patterns.",
+      "memory_tip": "'Seismic' = ભૂ-ઉ-ઉ (earth-shake) → seismic activity = earth-shake events.",
+      "examples": [
+        "Seismic activity in the Himalayan region is closely monitored.",
+        "Increased seismic activity preceded the volcanic eruption.",
+        "Scientists use GPS to track seismic activity and plate movement.",
+        "Gujarat lies in a high seismic activity zone."
+      ]
+    },
+    {
+      "id": 96,
+      "word": "Aftershock",
+      "category": "Weather & Nature",
+      "subcategory": "Natural Disasters",
+      "part_of_speech": "noun",
+      "difficulty": "Intermediate",
+      "frequency": "Common",
+      "gujarati_pronunciation": "ઉ-ઉ-ઉ-ઉ-ઉ-ઉ-ઉ",
+      "english_meaning": "A smaller earthquake that follows the main earthquake in the same area.",
+      "gujarati_meaning": "ઉ-ઉ (main earthquake) ઉ-ઉ (after) ઉ-ઉ (same area) ઉ-ઉ (smaller quake) — aftershock.",
+      "synonyms": [
+        "tremor",
+        "secondary quake",
+        "follow-up quake"
+      ],
+      "antonyms": [
+        "foreshock",
+        "mainshock",
+        "initial quake"
+      ],
+      "collocations": [
+        "powerful aftershock",
+        "aftershock damage",
+        "series of aftershocks"
+      ],
+      "word_forms": [
+        "aftershock (n)",
+        "aftershocks (pl)"
+      ],
+      "usage_note": "Aftershocks can be nearly as strong as the main quake and cause additional damage.",
+      "memory_tip": "'After' + 'shock' = ઉ-ઉ (after) + ઉ-ઉ (shock) → shock that comes after.",
+      "examples": [
+        "Dozens of aftershocks followed the main earthquake.",
+        "Rescue workers are always alert to aftershocks during operations.",
+        "A powerful aftershock collapsed already weakened buildings.",
+        "Aftershocks can continue for weeks after a major earthquake."
+      ]
+    },
+    {
+      "id": 97,
+      "word": "Epicentre",
+      "category": "Weather & Nature",
+      "subcategory": "Natural Disasters",
+      "part_of_speech": "noun",
+      "difficulty": "Advanced",
+      "frequency": "Common",
+      "gujarati_pronunciation": "ઉ-ઉ-ઉ-ઉ-ઉ-ઉ-ઉ",
+      "english_meaning": "The point on the Earth's surface directly above the focus of an earthquake.",
+      "gujarati_meaning": "ઉ-ઉ (earthquake origin) ઉ-ઉ (directly above surface point) — epicentre.",
+      "synonyms": [
+        "ground zero",
+        "focal point",
+        "seismic centre"
+      ],
+      "antonyms": [
+        "periphery",
+        "outer zone",
+        "far zone"
+      ],
+      "collocations": [
+        "earthquake epicentre",
+        "near the epicentre",
+        "epicentre of disaster"
+      ],
+      "word_forms": [
+        "epicentre (n)",
+        "epicenter (American spelling)"
+      ],
+      "usage_note": "The epicentre experiences the strongest shaking; damage decreases with distance.",
+      "memory_tip": "'Epi-' = above + 'centre' = ઉ-ઉ (centre) → the centre point above the quake origin.",
+      "examples": [
+        "The epicentre of the earthquake was 20 km north of the city.",
+        "Buildings near the epicentre were completely flattened.",
+        "Scientists located the epicentre using seismograph data.",
+        "The epicentre of the 2001 Bhuj quake was in Kutch district."
+      ]
+    },
+    {
+      "id": 98,
+      "word": "Storm warning",
+      "category": "Weather & Nature",
+      "subcategory": "Natural Disasters",
+      "part_of_speech": "noun",
+      "difficulty": "Intermediate",
+      "frequency": "Common",
+      "gujarati_pronunciation": "ઉ-ઉ-ઉ-ઉ ઉ-ઉ-ઉ-ઉ-ઉ-ઉ",
+      "english_meaning": "An official alert issued by meteorological authorities warning of an approaching dangerous storm.",
+      "gujarati_meaning": "ઉ-ઉ (meteorological) ઉ-ઉ (official alert) ઉ-ઉ (dangerous storm approaching) — storm warning.",
+      "synonyms": [
+        "storm alert",
+        "severe weather warning",
+        "cyclone alert"
+      ],
+      "antonyms": [
+        "all clear",
+        "weather advisory"
+      ],
+      "collocations": [
+        "issue a storm warning",
+        "storm warning system",
+        "red storm warning"
+      ],
+      "word_forms": [
+        "storm warning (n)"
+      ],
+      "usage_note": "Storm warnings are issued in colour codes (yellow, orange, red) based on severity.",
+      "memory_tip": "'Storm' + 'warning' = ઉ-ઉ (danger storm) + ઉ-ઉ (alert) → storm warning.",
+      "examples": [
+        "A storm warning was issued for the entire coastal district.",
+        "Residents were advised to stay indoors during the red storm warning.",
+        "The storm warning allowed thousands to evacuate in time.",
+        "Weather agencies improve storm warnings using satellite data."
+      ]
+    },
+    {
+      "id": 99,
+      "word": "Flood plain inundation",
+      "category": "Weather & Nature",
+      "subcategory": "Natural Disasters",
+      "part_of_speech": "noun",
+      "difficulty": "Advanced",
+      "frequency": "Less common",
+      "gujarati_pronunciation": "ઉ-ઉ-ઉ-ઉ ઉ-ઉ-ઉ-ઉ ઉ-ઉ-ઉ-ઉ-ઉ-ઉ-ઉ",
+      "english_meaning": "The flooding and submersion of a flat area beside a river during high water levels.",
+      "gujarati_meaning": "ઉ-ઉ (river) ઉ-ઉ (high water) → ઉ-ઉ (floodplain) ઉ-ઉ (submerge) — inundation.",
+      "synonyms": [
+        "river flooding",
+        "plain flooding",
+        "water submersion"
+      ],
+      "antonyms": [
+        "drought",
+        "dry plain",
+        "low water level"
+      ],
+      "collocations": [
+        "seasonal inundation",
+        "floodplain inundation risk",
+        "inundation map"
+      ],
+      "word_forms": [
+        "inundation (n)",
+        "inundate (v)",
+        "inundated (adj)"
+      ],
+      "usage_note": "Regular inundation deposits fertile silt; but excessive flooding devastates communities.",
+      "memory_tip": "'Inundate' = ઉ-ઉ (flood over) → inundation = submersion in water.",
+      "examples": [
+        "The annual inundation of the Nile enriched Egypt's farmlands.",
+        "Flood plain inundation in Bihar affects millions of farmers.",
+        "Inundation maps help identify areas at risk of flooding.",
+        "The floodplain was inundated for weeks after the dam overflow."
+      ]
+    },
+    {
+      "id": 100,
+      "word": "Hailstorm",
+      "category": "Weather & Nature",
+      "subcategory": "Natural Disasters",
+      "part_of_speech": "noun",
+      "difficulty": "Intermediate",
+      "frequency": "Common",
+      "gujarati_pronunciation": "ઉ-ઉ-ઉ-ઉ-ઉ-ઉ-ઉ",
+      "english_meaning": "A storm in which hail (balls of ice) falls, sometimes causing severe damage to crops and property.",
+      "gujarati_meaning": "ઉ-ઉ (ice balls) ઉ-ઉ (fall in storm) — ઉ-ઉ (crops/property damage) — hailstorm.",
+      "synonyms": [
+        "hail shower",
+        "ice storm",
+        "hail event"
+      ],
+      "antonyms": [
+        "clear weather",
+        "sunshine",
+        "drought"
+      ],
+      "collocations": [
+        "devastating hailstorm",
+        "hailstorm damage",
+        "hailstorm warning"
+      ],
+      "word_forms": [
+        "hailstorm (n)",
+        "hail (n/v)",
+        "hailstone (n)"
+      ],
+      "usage_note": "Hailstones can be as large as golf balls or bigger; cause millions in crop damage annually.",
+      "memory_tip": "'Hail' = ઉ-ઉ (ice pellets) + 'storm' = ઉ-ઉ (storm) → ice-pellet storm.",
+      "examples": [
+        "A hailstorm destroyed most of the wheat crop in minutes.",
+        "Large hailstones shattered car windscreens across the city.",
+        "Farmers lost their entire harvest to a sudden hailstorm.",
+        "Hailstorm warnings are issued by meteorological departments in spring."
+      ]
+    }
+  ],
+  "mini_dialogues": [
+    {
+      "id": 1,
+      "title": "Before the Storm",
+      "situation": "Two colleagues discuss an approaching storm and decide whether to cancel their outdoor plans.",
+      "turns": [
+        {
+          "speaker": "A",
+          "text": "Have you checked the forecast? There's a storm warning for tonight."
+        },
+        {
+          "speaker": "B",
+          "text": "Yes, the barometric pressure has been dropping all afternoon. That usually means heavy rain."
+        },
+        {
+          "speaker": "A",
+          "text": "The sky is already overcast and I can hear distant thunder. Should we cancel the picnic?"
+        },
+        {
+          "speaker": "B",
+          "text": "Definitely. The weather app says there could even be a tornado warning in some areas."
+        },
+        {
+          "speaker": "A",
+          "text": "Better safe than sorry. Let's reschedule for next weekend — hopefully we'll get a breezy, sunny day."
+        },
+        {
+          "speaker": "B",
+          "text": "Agreed. I'll send a message to everyone now before the downpour starts."
+        }
+      ],
+      "words_used": [
+        "storm warning",
+        "barometric pressure",
+        "overcast",
+        "thunder",
+        "tornado",
+        "breezy",
+        "downpour"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Talking About Seasons and Climate",
+      "situation": "A teacher explains seasonal weather changes to curious students.",
+      "turns": [
+        {
+          "speaker": "Teacher",
+          "text": "Can anyone tell me what happens during the summer solstice?"
+        },
+        {
+          "speaker": "Student",
+          "text": "It's the longest day of the year, right? When the sun is at its furthest point north."
+        },
+        {
+          "speaker": "Teacher",
+          "text": "Excellent! And what about the equinox — how is that different?"
+        },
+        {
+          "speaker": "Student",
+          "text": "On the equinox, day and night are equal in length. It happens twice a year."
+        },
+        {
+          "speaker": "Teacher",
+          "text": "Perfect. Now, why do deciduous trees lose their leaves in autumn?"
+        },
+        {
+          "speaker": "Student",
+          "text": "Because the autumnal season brings cooler temperatures and less light, so the trees become dormant to survive."
+        }
+      ],
+      "words_used": [
+        "solstice",
+        "equinox",
+        "deciduous",
+        "autumnal",
+        "dormant"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "A Walk Through the Wetlands",
+      "situation": "Two nature enthusiasts explore a wetland reserve and discuss its ecological importance.",
+      "turns": [
+        {
+          "speaker": "Riya",
+          "text": "This wetland is incredible! I had no idea so many species of birds migrate here every winter."
+        },
+        {
+          "speaker": "Dev",
+          "text": "Yes, flamingos especially love the shallow lagoon over there. It's a classic example of migration."
+        },
+        {
+          "speaker": "Riya",
+          "text": "And look at those mangrove roots along the estuary. They look like they're walking on water!"
+        },
+        {
+          "speaker": "Dev",
+          "text": "Mangroves are amazing. They protect the coast and support incredible biodiversity."
+        },
+        {
+          "speaker": "Riya",
+          "text": "It's a shame that habitat loss is threatening places like this."
+        },
+        {
+          "speaker": "Dev",
+          "text": "Exactly. Deforestation and pollution are driving so many ecosystems to the brink. Conservation is urgent."
+        }
+      ],
+      "words_used": [
+        "wetland",
+        "species",
+        "migration",
+        "lagoon",
+        "mangrove",
+        "estuary",
+        "biodiversity",
+        "habitat loss",
+        "deforestation",
+        "pollution",
+        "ecosystem"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "After the Earthquake",
+      "situation": "Two survivors discuss what happened after a major earthquake struck their city.",
+      "turns": [
+        {
+          "speaker": "Meera",
+          "text": "That earthquake last night was terrifying. Do you know where the epicentre was?"
+        },
+        {
+          "speaker": "Arjun",
+          "text": "The news said it was about 40 kilometres from the city. We felt strong tremors here, but the damage was worse closer to the epicentre."
+        },
+        {
+          "speaker": "Meera",
+          "text": "I heard there were several aftershocks early this morning too."
+        },
+        {
+          "speaker": "Arjun",
+          "text": "Yes, seismic activity in this region has been increasing. Scientists have been monitoring it for months."
+        },
+        {
+          "speaker": "Meera",
+          "text": "At least there was a storm warning system that alerted people in coastal areas about the tsunami risk."
+        },
+        {
+          "speaker": "Arjun",
+          "text": "Early warnings save lives. We need stronger earthquake-resistant buildings and better disaster preparedness."
+        }
+      ],
+      "words_used": [
+        "earthquake",
+        "epicentre",
+        "aftershock",
+        "seismic activity",
+        "tsunami",
+        "storm warning"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "The Climate Change Debate",
+      "situation": "Two friends discuss environmental problems and what can be done about them.",
+      "turns": [
+        {
+          "speaker": "Priya",
+          "text": "Did you see the news? Wildfires are burning across three states and drought conditions are spreading fast."
+        },
+        {
+          "speaker": "Karan",
+          "text": "Climate change is making extreme weather events like these far more frequent. The heatwave last month was record-breaking."
+        },
+        {
+          "speaker": "Priya",
+          "text": "And the glaciers are retreating rapidly. Once they are gone, millions of people lose a vital water source."
+        },
+        {
+          "speaker": "Karan",
+          "text": "We need large-scale carbon sequestration and a rapid switch to renewable energy. Our carbon footprint as a society is far too high."
+        },
+        {
+          "speaker": "Priya",
+          "text": "Desertification is also accelerating in arid regions — fertile land turning to desert because of overuse and drought."
+        },
+        {
+          "speaker": "Karan",
+          "text": "Sustainability has to become the foundation of every policy decision. Otherwise the damage will be irreversible."
+        }
+      ],
+      "words_used": [
+        "wildfire",
+        "drought",
+        "climate change",
+        "heatwave",
+        "glacier",
+        "carbon sequestration",
+        "renewable energy",
+        "carbon footprint",
+        "desertification",
+        "arid",
+        "sustainability"
+      ]
+    }
+  ],
+  "quiz": {
+    "title": "Weather & Nature Quiz",
+    "category": "Weather & Nature",
+    "level": "Intermediate to Advanced",
+    "instructions": "Choose the best answer.",
+    "total_questions": 15,
+    "questions": [
+      {
+        "id": 1,
+        "type": "meaning_en_to_gu",
+        "word_id": 1,
+        "question": "What does 'Drizzle' mean in Gujarati?",
+        "options": [
+          "A) હળવો, ઝીણો વરસાદ",
+          "B) ભારે, અચાનક વરસાદ",
+          "C) જોરદાર પવન",
+          "D) ઘટ્ટ ધુમ્મસ"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 2,
+        "type": "meaning_gu_to_en",
+        "word_id": 10,
+        "question": "ભારે બરફ અને જોરદાર પવન સાથે આવતું ભીષણ હિમ-તોફાન — આ Gujarati meaning ક્યા word ની છે?",
+        "options": [
+          "A) Frost",
+          "B) Sleet",
+          "C) Blizzard",
+          "D) Hailstorm"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 3,
+        "type": "synonym",
+        "word_id": 6,
+        "question": "Which word is the best synonym for 'Gale'?",
+        "options": [
+          "A) Breeze",
+          "B) Squall",
+          "C) Drizzle",
+          "D) Fog"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 4,
+        "type": "antonym",
+        "word_id": 4,
+        "question": "What is the antonym of 'Humid'?",
+        "options": [
+          "A) Muggy",
+          "B) Sultry",
+          "C) Arid",
+          "D) Breezy"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 5,
+        "type": "fill_blank",
+        "word_id": 18,
+        "question": "Farmers in India eagerly await the ________ season every year for their crops.",
+        "options": [
+          "A) Blizzard",
+          "B) Monsoon",
+          "C) Drought",
+          "D) Equinox"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 6,
+        "type": "definition",
+        "word_id": 26,
+        "question": "Which definition best describes 'Drought'?",
+        "options": [
+          "A) A sudden and heavy fall of rain lasting one hour",
+          "B) A prolonged period of abnormally low rainfall leading to water shortage",
+          "C) The thinning of the ozone layer due to pollution",
+          "D) A violent, rotating column of air extending from a storm cloud"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 7,
+        "type": "meaning_en_to_gu",
+        "word_id": 40,
+        "question": "What does 'Glacier' mean in Gujarati?",
+        "options": [
+          "A) ઊભા ખડકો વચ્ચેની ઊંડી ખાડી",
+          "B) ઘણા વર્ષો સુધી જામેલ, ધીમે ધીમે ખસતો વિશાળ બરફ-ભૂ",
+          "C) નદી-સમુદ્ર મળ્યા ત્યાં ત્રિકોણ ભૂ-રચના",
+          "D) ઘાસ-ઢંકાયેલ ઉષ્ણ-પ્રદેશ"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 8,
+        "type": "meaning_gu_to_en",
+        "word_id": 58,
+        "question": "ઋતુ-ક્રમ અનુસાર પ્રાણી/પક્ષી ખોરાક અથવા પ્રજનન માટે દૂર પ્રવાસ — આ meaning ક્યા word ની છે?",
+        "options": [
+          "A) Hibernation",
+          "B) Camouflage",
+          "C) Migration",
+          "D) Symbiosis"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 9,
+        "type": "fill_blank",
+        "word_id": 69,
+        "question": "__________ in the Amazon rainforest is threatening thousands of species with extinction.",
+        "options": [
+          "A) Photosynthesis",
+          "B) Deforestation",
+          "C) Pollination",
+          "D) Biodiversity"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 10,
+        "type": "synonym",
+        "word_id": 64,
+        "question": "Which word is the best synonym for 'Biodiversity'?",
+        "options": [
+          "A) Monoculture",
+          "B) Homogeneity",
+          "C) Ecological richness",
+          "D) Carbon footprint"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 11,
+        "type": "antonym",
+        "word_id": 96,
+        "question": "Which option is the antonym of 'Aftershock' in earthquake terminology?",
+        "options": [
+          "A) Tremor",
+          "B) Foreshock",
+          "C) Seismic event",
+          "D) Epicentre"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 12,
+        "type": "definition",
+        "word_id": 87,
+        "question": "What is a 'Cyclone'?",
+        "options": [
+          "A) A thin layer of ice crystals that forms on cold surfaces overnight",
+          "B) The point on the Earth's surface directly above the focus of an earthquake",
+          "C) A large, destructive system of winds rotating around a centre of low pressure over the ocean",
+          "D) The gradual wearing away of land by wind or water"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 13,
+        "type": "meaning_en_to_gu",
+        "word_id": 77,
+        "question": "What does 'Sustainability' mean in Gujarati?",
+        "options": [
+          "A) પ્રાકૃ-ઉ (environment) ઉ-ઉ (resources) ઘ-ઉ (reduce) — environmental damage",
+          "B) વર્તમાન જરૂ-ઉ (needs) ભ-ઉ (future) ક્ષ-ઉ (capacity) ઘ-ઉ (without reducing) — sustainability",
+          "C) CO₂ ઉ-ઉ (long-term store) — carbon capture",
+          "D) ઉ-ઉ (bacteria) ઉ-ઉ (naturally break down) — decompose"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 14,
+        "type": "fill_blank",
+        "word_id": 9,
+        "question": "A severe ________ struck northern India last June, with temperatures exceeding 47 degrees Celsius for over a week.",
+        "options": [
+          "A) Blizzard",
+          "B) Heatwave",
+          "C) Frost",
+          "D) Monsoon"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 15,
+        "type": "definition",
+        "word_id": 71,
+        "question": "Which statement correctly describes the 'Greenhouse effect'?",
+        "options": [
+          "A) The process by which green plants use sunlight to produce food from CO2 and water",
+          "B) The warming of the Earth caused by gases in the atmosphere trapping heat from the sun",
+          "C) The large-scale clearing of forests for agriculture and construction",
+          "D) A close, long-term interaction between two different species for mutual benefit"
+        ],
+        "answer": "B"
+      }
+    ]
+  }
+}

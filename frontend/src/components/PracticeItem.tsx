@@ -253,7 +253,7 @@ function Reveal({ item, index }: { item: Extract<Item, { type: 'translation' | '
             </div>
             {item.answer.en && (
               <div className="flex-shrink-0">
-                <PronounceButton target={item.answer.en} size="sm" hideResult />
+                <PronounceButton target={item.answer.en} size="sm" hideResult hideMic />
               </div>
             )}
           </div>

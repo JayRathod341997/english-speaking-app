@@ -204,6 +204,147 @@
           ]
         }
       ]
+    },
+    {
+      "block": "rules",
+      "id": "ch-19-direct-indirect-speech/exp-5",
+      "title": {
+        "en": "Exclamations in indirect speech",
+        "gu": "પરોક્ષ ભાષણમાં ઉદ્ગાર",
+        "guMT": true
+      },
+      "items": [
+        {
+          "text": {
+            "en": "Change the reporting verb to 'exclaimed' or 'cried'; remove the exclamation mark; add 'that'.",
+            "gu": "રિપોર્ટિંગ ક્રિયાપદને 'ઉત્સાહિત' અથવા 'ક્રાઇડ'માં બદલો; ઉદ્ગારવાચક ચિહ્ન દૂર કરો; 'તે' ઉમેરો.",
+            "guMT": true
+          }
+        },
+        {
+          "text": {
+            "en": "'How + adjective!' → 'exclaimed that it/he/she was very + adjective'.",
+            "gu": "'કેવી + વિશેષણ!' → 'ઉત્સાહ કર્યો કે તે/તે/તેણી ખૂબ + વિશેષણ હતી'.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "She said, 'How beautiful this place is!' → She exclaimed that that place was very beautiful.",
+              "gu": "તેણે કહ્યું, 'આ જગ્યા કેટલી સુંદર છે!' → તેણીએ કહ્યું કે તે સ્થળ ખૂબ જ સુંદર છે.",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "'What a + noun!' → 'exclaimed that it was a very + adjective + noun'.",
+            "gu": "'શું એ + સંજ્ઞા!' → 'ઉત્સાહપૂર્વક કહ્યું કે તે ખૂબ જ + વિશેષણ + સંજ્ઞા' છે.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "He said, 'What a lovely day!' → He exclaimed that it was a very lovely day.",
+              "gu": "તેણે કહ્યું, 'કેવો સુંદર દિવસ!' → તેણે કહ્યું કે તે ખૂબ જ સુંદર દિવસ હતો.",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "'Alas!' (sorrow) → 'exclaimed sorrowfully that'; 'Hurrah!' (joy) → 'exclaimed joyfully that'.",
+            "gu": "'કાશ!' (દુ:ખ) → 'દુઃખપૂર્વક ઉદ્ગાર કર્યો કે'; 'હુર્રાહ!' (આનંદ) → 'આનંદપૂર્વક ઉદ્ગાર કર્યો કે'.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "He said, 'Alas! I have failed.' → He exclaimed sorrowfully that he had failed.",
+              "gu": "તેણે કહ્યું, 'કાશ! હું નિષ્ફળ ગયો છું.' → તેણે ઉદાસીથી કહ્યું કે તે નિષ્ફળ ગયો છે.",
+              "guMT": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "block": "rules",
+      "id": "ch-19-direct-indirect-speech/exp-6",
+      "title": {
+        "en": "Reporting verbs beyond 'say' and 'tell'",
+        "gu": "'કહો' અને 'કહો' ઉપરાંત ક્રિયાપદોની જાણ કરવી",
+        "guMT": true
+      },
+      "items": [
+        {
+          "text": {
+            "en": "ASKED — used for reporting questions (yes/no or wh-questions).",
+            "gu": "ASKED — પ્રશ્નોની જાણ કરવા માટે વપરાય છે (હા/ના અથવા wh-પ્રશ્નો).",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "She asked if I had finished my work.",
+              "gu": "તેણીએ પૂછ્યું કે શું મેં મારું કામ પૂરું કર્યું છે.",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "ORDERED / COMMANDED — used for commands and imperatives.",
+            "gu": "ઓર્ડર કરેલ / કમાન્ડેડ — આદેશો અને આવશ્યકતાઓ માટે વપરાય છે.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "The officer commanded the soldiers to stand at ease.",
+              "gu": "અધિકારીએ સૈનિકોને આરામથી ઊભા રહેવાનો આદેશ આપ્યો.",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "REQUESTED — used for polite requests ('please' in direct speech).",
+            "gu": "વિનંતી કરેલ — નમ્ર વિનંતીઓ માટે વપરાય છે (સીધી ભાષણમાં 'કૃપા કરીને').",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "She requested him to lend her his pen.",
+              "gu": "તેણીએ તેને તેની પેન ઉછીના આપવા વિનંતી કરી.",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "EXCLAIMED / CRIED — used for strong emotion or surprise.",
+            "gu": "ઉદ્ગારવાળો / રડ્યો — મજબૂત લાગણી અથવા આશ્ચર્ય માટે વપરાય છે.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "He exclaimed that the view was very wonderful.",
+              "gu": "તેણે કહ્યું કે દૃશ્ય ખૂબ જ અદ્ભુત હતું.",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "ADVISED — for advice; SUGGESTED — for suggestions.",
+            "gu": "સલાહ આપી — સલાહ માટે; સૂચવેલ — સૂચનો માટે.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "He advised me to consult a doctor. She suggested that they should try a new route.",
+              "gu": "તેણે મને ડૉક્ટરની સલાહ લેવાની સલાહ આપી. તેણીએ સૂચવ્યું કે તેઓએ નવો માર્ગ અજમાવવો જોઈએ.",
+              "guMT": true
+            }
+          ]
+        }
+      ]
     }
   ],
   "practice": [
@@ -388,6 +529,178 @@
       "answer": {
         "en": "He said that he was playing cricket.",
         "gu": "તેણે કહ્યું કે તે ક્રિકેટ રમી રહ્યો છે.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-19-direct-indirect-speech/q-7",
+      "type": "transformation",
+      "transform": "speech",
+      "given": "direct",
+      "ask": "indirect",
+      "forms": {
+        "direct": {
+          "en": "He said to her, 'Go away.'",
+          "gu": "તેણે તેણીને કહ્યું, 'જઈ જા.'",
+          "guMT": true
+        },
+        "indirect": {
+          "en": "He ordered her to go away.",
+          "gu": "તેણે તેણીને દૂર જવાનો આદેશ આપ્યો.",
+          "guMT": true
+        }
+      },
+      "answer": {
+        "en": "He ordered her to go away.",
+        "gu": "તેણે તેણીને દૂર જવાનો આદેશ આપ્યો.",
+        "guMT": true
+      },
+      "solution": {
+        "en": "Command → 'ordered + object + to + V1'. Remove quotation marks.",
+        "gu": "આદેશ → 'ordered + object + to + V1'. અવતરણ ચિહ્નો દૂર કરો.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-19-direct-indirect-speech/q-8",
+      "type": "transformation",
+      "transform": "speech",
+      "given": "direct",
+      "ask": "indirect",
+      "forms": {
+        "direct": {
+          "en": "She said to him, 'Please help me.'",
+          "gu": "તેણીએ તેને કહ્યું, 'કૃપા કરીને મને મદદ કરો.'",
+          "guMT": true
+        },
+        "indirect": {
+          "en": "She requested him to help her.",
+          "gu": "તેણીએ તેને મદદ કરવા વિનંતી કરી.",
+          "guMT": true
+        }
+      },
+      "answer": {
+        "en": "She requested him to help her.",
+        "gu": "તેણીએ તેને મદદ કરવા વિનંતી કરી.",
+        "guMT": true
+      },
+      "solution": {
+        "en": "Polite request → 'requested + object + to + V1'. 'me' → 'her'.",
+        "gu": "નમ્ર વિનંતી → 'requested + object + to + V1'. 'હું' → 'તેણી'.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-19-direct-indirect-speech/q-9",
+      "type": "transformation",
+      "transform": "speech",
+      "given": "direct",
+      "ask": "indirect",
+      "forms": {
+        "direct": {
+          "en": "He said, 'How clever you are!'",
+          "gu": "તેણે કહ્યું, 'તમે કેટલા હોશિયાર છો!'",
+          "guMT": true
+        },
+        "indirect": {
+          "en": "He exclaimed that I was very clever.",
+          "gu": "તેણે કહ્યું કે હું બહુ હોશિયાર છું.",
+          "guMT": true
+        }
+      },
+      "answer": {
+        "en": "He exclaimed that I was very clever.",
+        "gu": "તેણે કહ્યું કે હું બહુ હોશિયાર છું.",
+        "guMT": true
+      },
+      "solution": {
+        "en": "Exclamation with 'How': 'exclaimed that + subject + was very + adjective'. 'will' → 'would'; 'you' → 'I'.",
+        "gu": "'કેવી રીતે' સાથે ઉદ્ગાર: 'ઉદગાર કર્યો કે + વિષય + ખૂબ + વિશેષણ' હતું. 'would' → 'would'; 'તમે' → 'હું'.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-19-direct-indirect-speech/q-10",
+      "type": "transformation",
+      "transform": "speech",
+      "given": "direct",
+      "ask": "indirect",
+      "forms": {
+        "direct": {
+          "en": "She asked, 'Where do you live?'",
+          "gu": "તેણીએ પૂછ્યું, 'તમે ક્યાં રહો છો?'",
+          "guMT": true
+        },
+        "indirect": {
+          "en": "She asked where I lived.",
+          "gu": "તેણીએ પૂછ્યું કે હું ક્યાં રહું છું.",
+          "guMT": true
+        }
+      },
+      "answer": {
+        "en": "She asked where I lived.",
+        "gu": "તેણીએ પૂછ્યું કે હું ક્યાં રહું છું.",
+        "guMT": true
+      },
+      "solution": {
+        "en": "Wh-question: keep 'where'; change to statement word order; backshift present → past.",
+        "gu": "Wh-પ્રશ્ન: 'ક્યાં' રાખો; નિવેદન શબ્દ ક્રમમાં ફેરફાર; બેકશિફ્ટ વર્તમાન → ભૂતકાળ.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-19-direct-indirect-speech/q-11",
+      "type": "mcq",
+      "prompt": {
+        "en": "What reporting verb is used for a command?",
+        "gu": "કમાન્ડ માટે કયા રિપોર્ટિંગ ક્રિયાપદનો ઉપયોગ થાય છે?",
+        "guMT": true
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "asked",
+            "gu": "પૂછ્યું",
+            "guMT": true
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "ordered",
+            "gu": "આદેશ આપ્યો",
+            "guMT": true
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "exclaimed",
+            "gu": "ઉદ્ગાર",
+            "guMT": true
+          }
+        }
+      ],
+      "answer": "b",
+      "solution": {
+        "en": "'Ordered' or 'commanded' is used for commands. 'Asked' is for questions; 'exclaimed' is for strong emotions.",
+        "gu": "આદેશો માટે 'ઓર્ડર્ડ' અથવા 'કમાન્ડેડ' વપરાય છે. 'પૂછ્યું' પ્રશ્નો માટે છે; 'ઉદગાર' મજબૂત લાગણીઓ માટે છે.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-19-direct-indirect-speech/q-12",
+      "type": "translation",
+      "direction": "en_to_gu",
+      "prompt": {
+        "en": "She told him that she had finished her work.",
+        "gu": "તેણીએ તેને કહ્યું કે તેણીએ તેનું કામ પૂર્ણ કરી લીધું છે.",
+        "guMT": true
+      },
+      "answer": {
+        "en": "She told him that she had finished her work.",
+        "gu": "તેણીએ તેને કહ્યું કે તેણીએ તેનું કામ પૂર્ણ કરી લીધું છે.",
         "guMT": true
       }
     }

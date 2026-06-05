@@ -1,0 +1,25 @@
+word: Acquaintance
+pronunciation: એક્વેઇન્ટન્સ
+meaning: ઓળખીતું વ્યક્તિ — જેને થોડું ઓળખો છો પણ ગાઢ મિત્ર નથી.
+memory_tip: 'acquaint' = ઓળખાણ કરાવવી → acquaintance = ઓળખીતું.
+---
+word: Catch up
+pronunciation: કેચ અપ
+meaning: ફરી મળીને એકબીજાના સમાચાર જાણવા; પાછળ રહી ગયેલું પૂરું કરી લેવું.
+memory_tip: પાછળ રહી ગયેલાને પકડી લેવું = catch up.
+---
+word: Drop by
+pronunciation: ડ્રોપ બાય
+meaning: અચાનક કે અનૌપચારિક રીતે કોઈને ત્યાં થોડી વાર માટે જવું.
+memory_tip: રસ્તામાં થઈને થોડી વાર 'ડ્રોપ બાય'.
+---
+word: Mingle
+pronunciation: મિંગલ
+meaning: સમારંભમાં જુદા જુદા લોકો સાથે હળીમળીને વાતચીત કરવી.
+memory_tip: ભીડમાં ભળી જવું = mingle.
+---
+word: Cordial
+pronunciation: કોર્ડિયલ
+meaning: ઉષ્માભર્યું, મૈત્રીપૂર્ણ અને નિખાલસ.
+memory_tip: દિલથી (cor- = heart) ઉષ્માભર્યું = cordial.
+---

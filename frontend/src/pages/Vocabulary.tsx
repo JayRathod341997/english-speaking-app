@@ -185,7 +185,7 @@ export default function Vocabulary() {
                     const wp = progress.vocab[wordKey] ?? {};
                     return (
                       <Flashcard
-                        key={w.id}
+                        key={wordKey}
                         word={w}
                         learned={wp.learned}
                         spoken={wp.spoken}
@@ -219,7 +219,7 @@ export default function Vocabulary() {
                     const wp = progress.vocab[wordKey] ?? {};
                     return (
                       <Flashcard
-                        key={w.id}
+                        key={wordKey}
                         word={w}
                         learned={wp.learned}
                         spoken={wp.spoken}

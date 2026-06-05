@@ -240,6 +240,165 @@
           ]
         }
       ]
+    },
+    {
+      "block": "rules",
+      "id": "ch-13-conjunctions/exp-5",
+      "title": {
+        "en": "Also, Too, Even, As well — position rules",
+        "gu": "ઉપરાંત, ખૂબ, પણ, તેમજ - સ્થિતિ નિયમો",
+        "guMT": true
+      },
+      "items": [
+        {
+          "text": {
+            "en": "'Also' — usually placed before the main verb or after 'to be'. It adds information.",
+            "gu": "'પણ' — સામાન્ય રીતે મુખ્ય ક્રિયાપદ પહેલાં અથવા 'to be' પછી મૂકવામાં આવે છે. તે માહિતી ઉમેરે છે.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "I also play guitar. | She is also a doctor.",
+              "gu": "હું ગિટાર પણ વગાડું છું. | તે ડોક્ટર પણ છે.",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "'Too' — usually placed at the end of a clause. Means 'as well' or 'also'.",
+            "gu": "'ટૂ' — સામાન્ય રીતે કલમના અંતે મૂકવામાં આવે છે. અર્થ થાય છે 'તેમજ' અથવા 'પણ'.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "I like cricket too. | She can sing and dance too.",
+              "gu": "મને ક્રિકેટ પણ ગમે છે. | તે ગાઈ શકે છે અને ડાન્સ પણ કરી શકે છે.",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "'Even' — placed immediately before the word it emphasises. Stresses an unexpected or extreme case.",
+            "gu": "'Even' — તે જે શબ્દ પર ભાર મૂકે છે તેની પહેલાં તરત જ મૂકવામાં આવે છે. અણધાર્યા અથવા આત્યંતિક કેસ પર ભાર મૂકે છે.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "Even he made a mistake. (surprising — he is usually correct) | She didn't even say goodbye.",
+              "gu": "તેણે પણ ભૂલ કરી. (આશ્ચર્યજનક - તે સામાન્ય રીતે સાચો હોય છે) | તેણીએ ગુડબાય પણ કહ્યું નહીં.",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "'As well' — placed at the end; slightly more formal than 'too'.",
+            "gu": "'તેમજ' — અંતમાં મૂકેલું; 'પણ' કરતાં સહેજ વધુ ઔપચારિક.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "She speaks French and German as well.",
+              "gu": "તે ફ્રેન્ચ અને જર્મન પણ બોલે છે.",
+              "guMT": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "block": "rules",
+      "id": "ch-13-conjunctions/exp-6",
+      "title": {
+        "en": "If vs Unless — conditional patterns",
+        "gu": "જો vs સિવાય — શરતી પેટર્ન",
+        "guMT": true
+      },
+      "items": [
+        {
+          "text": {
+            "en": "'If + affirmative' and 'Unless + negative' express the same condition.",
+            "gu": "'જો + હકારાત્મક' અને 'અનલેસ + નેગેટિવ' સમાન સ્થિતિ વ્યક્ત કરે છે.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "If you study, you will pass. = Unless you study, you will not pass.",
+              "gu": "ભણશો તો પાસ થઈ જશો. = જ્યાં સુધી તમે અભ્યાસ કરશો, ત્યાં સુધી તમે પાસ થશો નહીં.",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "For an unreal/hypothetical present condition, use 'were' (not 'was') for all subjects after 'if'.",
+            "gu": "અવાસ્તવિક/કાલ્પનિક વર્તમાન સ્થિતિ માટે, 'જો' પછીના બધા વિષયો માટે 'were' (નહીં 'was') નો ઉપયોગ કરો.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "If I were a bird, I would fly away. | If she were here, she would help.",
+              "gu": "જો હું પક્ષી હોત, તો હું ઉડી જતો. | જો તેણી અહીં હોત, તો તે મદદ કરશે.",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "For a third conditional (unreal past), use: If + subject + had + V3, subject + would have + V3. This can also be inverted: Had + subject + V3, subject + would have + V3.",
+            "gu": "ત્રીજા શરતી (અવાસ્તવિક ભૂતકાળ) માટે, ઉપયોગ કરો: જો + વિષય + પાસે + V3, વિષય + પાસે + V3 હશે. આને ઊંધું પણ કરી શકાય છે: Had + subject + V3, subject + would have + V3.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "If he had studied, he would have passed. = Had he studied, he would have passed.",
+              "gu": "ભણ્યો હોત તો પાસ થાત. = જો તેણે અભ્યાસ કર્યો હોત, તો તે પાસ થઈ ગયો હોત.",
+              "guMT": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "block": "rules",
+      "id": "ch-13-conjunctions/exp-7",
+      "title": {
+        "en": "Till vs Until",
+        "gu": "સુધી વિ ત્યાં સુધી",
+        "guMT": true
+      },
+      "items": [
+        {
+          "text": {
+            "en": "Both 'till' and 'until' mean 'up to the time that'. They are largely interchangeable, but 'until' is more formal and more common at the start of a sentence.",
+            "gu": "'ટિલ' અને 'ટિલ' બંનેનો અર્થ 'સમય સુધી' થાય છે. તેઓ મોટે ભાગે વિનિમયક્ષમ હોય છે, પરંતુ 'ત્યાં સુધી' વાક્યની શરૂઆતમાં વધુ ઔપચારિક અને વધુ સામાન્ય છે.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "Wait here till I come back. | Until the rain stops, we cannot leave.",
+              "gu": "હું પાછો આવું ત્યાં સુધી અહીં રાહ જુઓ. | જ્યાં સુધી વરસાદ બંધ ન થાય ત્યાં સુધી અમે નીકળી શકતા નથી.",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "'Until' is used for negative emphasis: 'Until [condition], [negative result]'.",
+            "gu": "'જ્યાં સુધી' નકારાત્મક ભાર માટે વપરાય છે: 'જ્યાં સુધી [સ્થિતિ], [નકારાત્મક પરિણામ]'.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "Until I asked her, she did not speak. | Until you apologise, I will not forgive you.",
+              "gu": "મેં તેને પૂછ્યું ત્યાં સુધી તે બોલ્યો નહીં. | જ્યાં સુધી તમે માફી નહીં માગો ત્યાં સુધી હું તમને માફ નહીં કરું.",
+              "guMT": true
+            }
+          ]
+        }
+      ]
     }
   ],
   "practice": [
@@ -440,6 +599,242 @@
       "answer": {
         "en": "Though he is poor, he is honest.",
         "gu": "તે ગરીબ હોવા છતાં પ્રમાણિક છે.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-13-conjunctions/q-7",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "____ you study hard, you will pass the exam.",
+        "gu": "____ તમે સખત અભ્યાસ કરો, તમે પરીક્ષા પાસ કરશો.",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "Unless",
+          "gu": "સિવાય",
+          "guMT": true
+        },
+        {
+          "en": "If",
+          "gu": "જો",
+          "guMT": true
+        },
+        {
+          "en": "Until",
+          "gu": "સુધી",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "If",
+        "gu": "જો",
+        "guMT": true
+      },
+      "hint": {
+        "en": "Positive condition + positive result uses 'If'.",
+        "gu": "હકારાત્મક સ્થિતિ + હકારાત્મક પરિણામ 'If' નો ઉપયોગ કરે છે.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-13-conjunctions/q-8",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "____ you apologise, she will not forgive you.",
+        "gu": "____ તમે માફી માગો, તે તમને માફ કરશે નહીં.",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "If",
+          "gu": "જો",
+          "guMT": true
+        },
+        {
+          "en": "Unless",
+          "gu": "સિવાય",
+          "guMT": true
+        },
+        {
+          "en": "Until",
+          "gu": "સુધી",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "Unless",
+        "gu": "સિવાય",
+        "guMT": true
+      },
+      "hint": {
+        "en": "'Unless' = 'if not' — negative condition, negative result.",
+        "gu": "'અનલેસ' = 'જો નહીં' — નકારાત્મક સ્થિતિ, નકારાત્મક પરિણામ.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-13-conjunctions/q-9",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "She is not only a dancer ____ also a singer.",
+        "gu": "તે માત્ર નૃત્યાંગના જ નથી ____ ગાયિકા પણ છે.",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "and",
+          "gu": "અને",
+          "guMT": true
+        },
+        {
+          "en": "but",
+          "gu": "પરંતુ",
+          "guMT": true
+        },
+        {
+          "en": "or",
+          "gu": "અથવા",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "but",
+        "gu": "પરંતુ",
+        "guMT": true
+      },
+      "hint": {
+        "en": "The paired conjunction is 'not only ... but also'.",
+        "gu": "જોડી કરેલ જોડાણ 'માત્ર... પણ' છે.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-13-conjunctions/q-10",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "Wait here ____ I come back.",
+        "gu": "અહીં રાહ જુઓ ____ હું પાછો આવું છું.",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "since",
+          "gu": "ત્યારથી",
+          "guMT": true
+        },
+        {
+          "en": "till",
+          "gu": "સુધી",
+          "guMT": true
+        },
+        {
+          "en": "after",
+          "gu": "પછી",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "till",
+        "gu": "સુધી",
+        "guMT": true
+      },
+      "hint": {
+        "en": "'Till/until' = up to the time that.",
+        "gu": "'જ્યાં સુધી/જ્યાં સુધી' = તે સમય સુધી.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-13-conjunctions/q-11",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "If I ____ a bird, I would fly away.",
+        "gu": "જો હું ____ પક્ષી હોઉં, તો હું ઉડી જઈશ.",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "was",
+          "gu": "હતી",
+          "guMT": true
+        },
+        {
+          "en": "am",
+          "gu": "છું",
+          "guMT": true
+        },
+        {
+          "en": "were",
+          "gu": "હતા",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "were",
+        "gu": "હતા",
+        "guMT": true
+      },
+      "hint": {
+        "en": "Unreal/hypothetical condition: use 'were' for all subjects after 'if'.",
+        "gu": "અવાસ્તવિક/કાલ્પનિક સ્થિતિ: 'if' પછી બધા વિષયો માટે 'were' નો ઉપયોગ કરો.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-13-conjunctions/q-12",
+      "type": "mcq",
+      "prompt": {
+        "en": "Which sentence is correct?",
+        "gu": "કયું વાક્ય સાચું છે?",
+        "guMT": true
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Unless you work hard, you will pass.",
+            "gu": "જો તમે સખત મહેનત કરશો તો તમે પાસ થશો.",
+            "guMT": true
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Unless you work hard, you will not pass.",
+            "gu": "જ્યાં સુધી તમે સખત મહેનત કરશો, ત્યાં સુધી તમે પાસ થશો નહીં.",
+            "guMT": true
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Unless you don't work hard, you will not pass.",
+            "gu": "જ્યાં સુધી તમે સખત મહેનત નહીં કરો ત્યાં સુધી તમે પાસ થશો નહીં.",
+            "guMT": true
+          }
+        }
+      ],
+      "answer": "b",
+      "solution": {
+        "en": "'Unless' already contains the negative idea ('if not'), so the result clause should be negative: 'you will not pass'.",
+        "gu": "'સિવાય કે' પહેલેથી નકારાત્મક વિચાર ધરાવે છે ('જો નહીં'), તેથી પરિણામ કલમ નકારાત્મક હોવી જોઈએ: 'તમે પાસ નહીં થશો'.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-13-conjunctions/q-13",
+      "type": "translation",
+      "direction": "en_to_gu",
+      "prompt": {
+        "en": "Not only Lata but Asha also sang well.",
+        "gu": "માત્ર લતા જ નહીં આશાએ પણ સારું ગાયું.",
+        "guMT": true
+      },
+      "answer": {
+        "en": "Not only Lata but Asha also sang well.",
+        "gu": "માત્ર લતા જ નહીં આશાએ પણ સારું ગાયું.",
         "guMT": true
       }
     }

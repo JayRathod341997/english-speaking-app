@@ -118,6 +118,133 @@
           "guMT": true
         }
       ]
+    },
+    {
+      "block": "rules",
+      "id": "ch-17-causal-verbs/exp-4",
+      "title": {
+        "en": "Get — detailed patterns",
+        "gu": "મેળવો — વિગતવાર દાખલાઓ",
+        "guMT": true
+      },
+      "items": [
+        {
+          "text": {
+            "en": "GET + person + TO + V1 (Active): the subject persuades or arranges for someone to do something.",
+            "gu": "GET + વ્યક્તિ + TO + V1 (સક્રિય): વિષય કોઈને કંઈક કરવા માટે સમજાવે છે અથવા ગોઠવે છે.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "She got the driver to carry her bags inside.",
+              "gu": "તેણીએ ડ્રાઈવરને તેની બેગ અંદર લઈ જવા મળ્યો.",
+              "guMT": true
+            },
+            {
+              "en": "He got his friend to lend him some money.",
+              "gu": "તેણે તેના મિત્રને થોડા પૈસા ઉછીના આપવા માટે મેળવ્યા.",
+              "guMT": true
+            },
+            {
+              "en": "Mother got me to clean my room.",
+              "gu": "માતાએ મને મારો રૂમ સાફ કરવા માટે લીધો.",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "GET + object + V3 (Passive): the subject arranges for something to be done by someone else.",
+            "gu": "GET + object + V3 (નિષ્ક્રિય): વિષય કોઈ બીજા દ્વારા કંઈક કરવા માટે ગોઠવે છે.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "I got my watch repaired at the shop.",
+              "gu": "મેં દુકાન પર મારી ઘડિયાળ રીપેર કરાવી.",
+              "guMT": true
+            },
+            {
+              "en": "She got her hair cut at the salon.",
+              "gu": "તેણીએ સલૂનમાં તેના વાળ કાપ્યા.",
+              "guMT": true
+            },
+            {
+              "en": "I got this application written by my teacher.",
+              "gu": "મને આ અરજી મારા શિક્ષક દ્વારા લખવામાં આવી છે.",
+              "guMT": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "block": "rules",
+      "id": "ch-17-causal-verbs/exp-5",
+      "title": {
+        "en": "Have and Make — detailed patterns",
+        "gu": "હોય અને બનાવો — વિગતવાર પેટર્ન",
+        "guMT": true
+      },
+      "items": [
+        {
+          "text": {
+            "en": "HAVE + person + V1 (Active): the subject arranges for a person to provide a service.",
+            "gu": "HAVE + વ્યક્તિ + V1 (સક્રિય): વિષય વ્યક્તિને સેવા આપવા માટે ગોઠવે છે.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "We have the cook prepare fresh food every day.",
+              "gu": "અમારી પાસે રસોઈયા દરરોજ તાજો ખોરાક તૈયાર કરે છે.",
+              "guMT": true
+            },
+            {
+              "en": "The manager had the secretary type all the letters.",
+              "gu": "મેનેજર પાસે સેક્રેટરી ટાઈપના તમામ પત્રો હતા.",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "HAVE + object + V3 (Passive): the subject arranges for something to be done.",
+            "gu": "HAVE + object + V3 (નિષ્ક્રિય): વિષય કંઈક કરવા માટે ગોઠવે છે.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "We have our clothes washed at the laundry.",
+              "gu": "અમે અમારા કપડાં લોન્ડ્રી પર ધોઈએ છીએ.",
+              "guMT": true
+            },
+            {
+              "en": "Mr. Patel had his house painted last year.",
+              "gu": "શ્રી પટેલે ગયા વર્ષે તેમના ઘરને કલર કરાવ્યો હતો.",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "MAKE + person + V1 (no 'to'): the subject forces or compels someone to do something. Note: make passive is rare in English.",
+            "gu": "MAKE + વ્યક્તિ + V1 (ના 'થી'): વિષય કોઈને કંઈક કરવા દબાણ કરે છે અથવા ફરજ પાડે છે. નોંધ: મેક પેસિવ અંગ્રેજીમાં દુર્લભ છે.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "She makes her children do homework before dinner.",
+              "gu": "તે તેના બાળકોને ડિનર પહેલા હોમવર્ક કરાવે છે.",
+              "guMT": true
+            },
+            {
+              "en": "The teacher made the pupils stay after class.",
+              "gu": "શિક્ષકે વિદ્યાર્થીઓને વર્ગ પછી રહેવાની ફરજ પાડી.",
+              "guMT": true
+            }
+          ]
+        }
+      ]
     }
   ],
   "practice": [
@@ -282,6 +409,184 @@
       "answer": {
         "en": "We have our clothes washed at the laundry.",
         "gu": "અમે અમારા કપડાં લોન્ડ્રી પર ધોઈએ છીએ.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-17-causal-verbs/q-6",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "She got her mother ____ a new dress for her. (sew)",
+        "gu": "તેણીએ તેની માતાને ____ તેના માટે એક નવો ડ્રેસ આપ્યો. (સીવવું)",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "sew",
+          "gu": "સીવવું",
+          "guMT": true
+        },
+        {
+          "en": "to sew",
+          "gu": "સીવવા માટે",
+          "guMT": true
+        },
+        {
+          "en": "sewn",
+          "gu": "સીવેલું",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "to sew",
+        "gu": "સીવવા માટે",
+        "guMT": true
+      },
+      "hint": {
+        "en": "Get active pattern: get + person + to + V1.",
+        "gu": "સક્રિય પેટર્ન મેળવો: + વ્યક્તિ + થી + V1 મેળવો.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-17-causal-verbs/q-7",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "He had his bicycle ____ at the repair shop. (fix)",
+        "gu": "તેની પાસે તેની સાયકલ ____ સમારકામની દુકાન પર હતી. (સુધારો)",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "fix",
+          "gu": "ઠીક",
+          "guMT": true
+        },
+        {
+          "en": "to fix",
+          "gu": "ઠીક કરવા માટે",
+          "guMT": true
+        },
+        {
+          "en": "fixed",
+          "gu": "નિશ્ચિત",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "fixed",
+        "gu": "નિશ્ચિત",
+        "guMT": true
+      },
+      "hint": {
+        "en": "Have passive pattern: have + object + V3 (past participle).",
+        "gu": "નિષ્ક્રિય પેટર્ન રાખો: પાસે + ઑબ્જેક્ટ + V3 (ભૂતકાળના પાર્ટિસિપલ).",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-17-causal-verbs/q-8",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "The prefect made the latecomers ____ outside the classroom. (stand)",
+        "gu": "પ્રીફેક્ટે મોડેથી આવનારને ____ વર્ગખંડની બહાર બનાવ્યા. (સ્ટેન્ડ)",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "to stand",
+          "gu": "ઊભા રહેવું",
+          "guMT": true
+        },
+        {
+          "en": "stand",
+          "gu": "સ્ટેન્ડ",
+          "guMT": true
+        },
+        {
+          "en": "standing",
+          "gu": "સ્થાયી",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "stand",
+        "gu": "સ્ટેન્ડ",
+        "guMT": true
+      },
+      "hint": {
+        "en": "Make pattern: make + person + bare infinitive (no 'to').",
+        "gu": "પેટર્ન બનાવો: + વ્યક્તિ + એકદમ અનંત બનાવો (કોઈ 'થી').",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-17-causal-verbs/q-9",
+      "type": "mcq",
+      "prompt": {
+        "en": "Which sentence uses 'get' (causative active) correctly?",
+        "gu": "કયું વાક્ય 'ગેટ' (કારણાત્મક સક્રિય) નો યોગ્ય રીતે ઉપયોગ કરે છે?",
+        "guMT": true
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "She got him carry the suitcase.",
+            "gu": "તેણીએ તેને સૂટકેસ લઈ જવી.",
+            "guMT": true
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "She got him to carry the suitcase.",
+            "gu": "તેણીએ તેને સૂટકેસ લઈ જવા માટે લીધો.",
+            "guMT": true
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "She got him carrying the suitcase.",
+            "gu": "તેણીએ તેને સૂટકેસ લઈ ગયો.",
+            "guMT": true
+          }
+        }
+      ],
+      "answer": "b",
+      "solution": {
+        "en": "Get causative active = get + person + to + V1. 'To carry' is the correct form.",
+        "gu": "કારણભૂત સક્રિય મેળવો = મેળવો + વ્યક્તિ + થી + V1. 'વહન કરવું' એ સાચું સ્વરૂપ છે.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-17-causal-verbs/q-10",
+      "type": "transformation",
+      "transform": "causative",
+      "given": "active",
+      "ask": "passive",
+      "forms": {
+        "active": {
+          "en": "I got the mechanic to repair the car.",
+          "gu": "મને કાર રિપેર કરવા માટે મિકેનિક મળ્યો.",
+          "guMT": true
+        },
+        "passive": {
+          "en": "I got the car repaired by the mechanic.",
+          "gu": "મેં મિકેનિક દ્વારા કાર રિપેર કરાવી.",
+          "guMT": true
+        }
+      },
+      "answer": {
+        "en": "I got the car repaired by the mechanic.",
+        "gu": "મેં મિકેનિક દ્વારા કાર રિપેર કરાવી.",
+        "guMT": true
+      },
+      "solution": {
+        "en": "Get active (get + person + to+V1) → Get passive (get + object + V3 + by + agent).",
+        "gu": "સક્રિય થાઓ (+ વ્યક્તિ + થી+V1 મેળવો) → નિષ્ક્રિય મેળવો (ગેટ + ઑબ્જેક્ટ + V3 + + એજન્ટ દ્વારા).",
         "guMT": true
       }
     }

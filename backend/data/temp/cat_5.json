@@ -1,0 +1,4040 @@
+{
+  "id": 5,
+  "category": "Work & Office",
+  "level": "Intermediate to Advanced",
+  "total_words": 100,
+  "subcategories": [
+    "Professional Communication",
+    "Office Environment",
+    "Meetings & Presentations",
+    "Career & Employment",
+    "Deadlines & Productivity",
+    "Workplace Relationships"
+  ],
+  "subcategory_counts": {
+    "Professional Communication": 17,
+    "Office Environment": 17,
+    "Meetings & Presentations": 17,
+    "Career & Employment": 17,
+    "Deadlines & Productivity": 16,
+    "Workplace Relationships": 16
+  },
+  "difficulty_counts": {
+    "Intermediate": 69,
+    "Advanced": 31
+  },
+  "words": [
+    {
+      "id": 1,
+      "word": "Communicate",
+      "category": "Work & Office",
+      "subcategory": "Professional Communication",
+      "part_of_speech": "verb",
+      "difficulty": "Intermediate",
+      "frequency": "Very common",
+      "gujarati_pronunciation": "કમ્યુનિકેટ",
+      "english_meaning": "To share or exchange information, ideas, or feelings with others.",
+      "gujarati_meaning": "માહિતી, વિચારો અથવા ભાવનાઓ બીજા સાથે શેર કરવી અથવા આપ-લે કરવી.",
+      "synonyms": [
+        "convey",
+        "express",
+        "relay"
+      ],
+      "antonyms": [
+        "conceal",
+        "withhold"
+      ],
+      "collocations": [
+        "communicate clearly",
+        "communicate effectively",
+        "communicate with clients"
+      ],
+      "word_forms": [
+        "communicates",
+        "communicated",
+        "communicating",
+        "communication"
+      ],
+      "usage_note": "Used in professional contexts to stress clarity and effectiveness of information exchange.",
+      "memory_tip": "'communicate' = com + municate → 'common' + 'connect' → બધાને જોડવું.",
+      "examples": [
+        "She communicates very clearly with her team.",
+        "He failed to communicate the deadline properly.",
+        "We need to communicate the changes to all departments.",
+        "It is important to communicate professionally via email."
+      ]
+    },
+    {
+      "id": 2,
+      "word": "Correspondence",
+      "category": "Work & Office",
+      "subcategory": "Professional Communication",
+      "part_of_speech": "noun",
+      "difficulty": "Advanced",
+      "frequency": "Common",
+      "gujarati_pronunciation": "કૉરિસ્પૉન્ડન્સ",
+      "english_meaning": "Written communication, especially letters or emails exchanged between people or organizations.",
+      "gujarati_meaning": "પત્ર અથવા ઈ-મેઇલ દ્વારા થતો સત્તાવાર સંવાદ.",
+      "synonyms": [
+        "communication",
+        "letters",
+        "exchange"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "business correspondence",
+        "official correspondence",
+        "handle correspondence"
+      ],
+      "word_forms": [
+        "correspondences",
+        "correspond",
+        "corresponding"
+      ],
+      "usage_note": "Often refers to formal written exchange in business or legal settings.",
+      "memory_tip": "'correspond' = co + respond → સાથે જવાબ આપવો → correspondence = letter exchange.",
+      "examples": [
+        "All official correspondence must be filed.",
+        "She handles the correspondence with overseas clients.",
+        "The lawyer reviewed the correspondence before the trial.",
+        "Business correspondence should always be polite and professional."
+      ]
+    },
+    {
+      "id": 3,
+      "word": "Memo",
+      "category": "Work & Office",
+      "subcategory": "Professional Communication",
+      "part_of_speech": "noun",
+      "difficulty": "Intermediate",
+      "frequency": "Common",
+      "gujarati_pronunciation": "મૅમો",
+      "english_meaning": "A short official written message sent within an organization.",
+      "gujarati_meaning": "સંસ્થામાં આંતરિક રીતે મોકલવામાં આવતો ટૂંકો સત્તાવાર સંદેશ.",
+      "synonyms": [
+        "note",
+        "circular",
+        "bulletin"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "send a memo",
+        "internal memo",
+        "office memo"
+      ],
+      "word_forms": [
+        "memos"
+      ],
+      "usage_note": "Short for 'memorandum'; commonly used in offices for quick internal announcements.",
+      "memory_tip": "'memo' = memory + note → યાદ અપાવવા માટેની ચિઠ્ઠી.",
+      "examples": [
+        "The manager sent a memo about the new policy.",
+        "Please circulate this memo to all staff.",
+        "I received a memo regarding tomorrow's meeting.",
+        "Write a memo to the HR department about the holiday schedule."
+      ]
+    },
+    {
+      "id": 4,
+      "word": "Proposal",
+      "category": "Work & Office",
+      "subcategory": "Professional Communication",
+      "part_of_speech": "noun",
+      "difficulty": "Intermediate",
+      "frequency": "Very common",
+      "gujarati_pronunciation": "પ્રપોઝલ",
+      "english_meaning": "A formal plan or suggestion put forward for consideration.",
+      "gujarati_meaning": "વિચારણા માટે રજૂ કરવામાં આવેલ ઔપચારિક યોજના અથવા સૂચન.",
+      "synonyms": [
+        "suggestion",
+        "plan",
+        "recommendation"
+      ],
+      "antonyms": [
+        "rejection",
+        "refusal"
+      ],
+      "collocations": [
+        "submit a proposal",
+        "business proposal",
+        "project proposal"
+      ],
+      "word_forms": [
+        "proposals",
+        "propose",
+        "proposed"
+      ],
+      "usage_note": "A 'proposal' is more formal than a suggestion and usually includes supporting details.",
+      "memory_tip": "'proposal' = pro + pose → 'આગળ' + 'મૂકવું' → proposal = આગળ મૂકવામાં આવેલ વિચાર.",
+      "examples": [
+        "She submitted a proposal for the new project.",
+        "The board approved the business proposal.",
+        "His proposal was rejected due to budget constraints.",
+        "We need a detailed proposal before moving forward."
+      ]
+    },
+    {
+      "id": 5,
+      "word": "Briefing",
+      "category": "Work & Office",
+      "subcategory": "Professional Communication",
+      "part_of_speech": "noun",
+      "difficulty": "Intermediate",
+      "frequency": "Common",
+      "gujarati_pronunciation": "બ્રીફિંગ",
+      "english_meaning": "A meeting where information or instructions are given to a group.",
+      "gujarati_meaning": "જૂથને માહિતી અથવા સૂચનાઓ આપવામાં આવે તેવી બેઠક.",
+      "synonyms": [
+        "summary",
+        "orientation",
+        "rundown"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "press briefing",
+        "morning briefing",
+        "security briefing"
+      ],
+      "word_forms": [
+        "briefings",
+        "brief",
+        "briefed"
+      ],
+      "usage_note": "Often used in military, government, or corporate settings before an event or action.",
+      "memory_tip": "'brief' = ટૂંક → briefing = ટૂંકી માહિતી આપવી.",
+      "examples": [
+        "The team had a briefing before the client visit.",
+        "The manager conducted a morning briefing.",
+        "She gave a briefing on the new safety procedures.",
+        "Attend the media briefing at 10 AM."
+      ]
+    },
+    {
+      "id": 6,
+      "word": "Feedback",
+      "category": "Work & Office",
+      "subcategory": "Professional Communication",
+      "part_of_speech": "noun",
+      "difficulty": "Intermediate",
+      "frequency": "Very common",
+      "gujarati_pronunciation": "ફીડબૅક",
+      "english_meaning": "Information given to someone about their performance or work to help them improve.",
+      "gujarati_meaning": "કોઈ વ્યક્તિને તેના કામ અથવા પ્રદર્શન વિશે આપવામાં આવેલ સૂચન અથવા અભિપ્રાય.",
+      "synonyms": [
+        "response",
+        "evaluation",
+        "critique"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "give feedback",
+        "receive feedback",
+        "constructive feedback"
+      ],
+      "word_forms": [
+        "feedbacks"
+      ],
+      "usage_note": "'Constructive feedback' is positive and helpful; 'negative feedback' points out faults.",
+      "memory_tip": "'feed' + 'back' → પાછું ખવડાવવું → feedback = response back to improve.",
+      "examples": [
+        "The manager gave positive feedback on the report.",
+        "Please share your feedback after the session.",
+        "Constructive feedback helps employees grow.",
+        "She was nervous about receiving feedback on her presentation."
+      ]
+    },
+    {
+      "id": 7,
+      "word": "Agenda",
+      "category": "Work & Office",
+      "subcategory": "Professional Communication",
+      "part_of_speech": "noun",
+      "difficulty": "Intermediate",
+      "frequency": "Very common",
+      "gujarati_pronunciation": "એજૅન્ડા",
+      "english_meaning": "A list of topics or items to be discussed or acted upon.",
+      "gujarati_meaning": "ચર્ચા અથવા કાર્ય માટેની બાબતોની યાદી.",
+      "synonyms": [
+        "schedule",
+        "programme",
+        "plan"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "set the agenda",
+        "agenda item",
+        "hidden agenda"
+      ],
+      "word_forms": [
+        "agendas"
+      ],
+      "usage_note": "Also used figuratively: 'What's your agenda?' means what are your hidden motives.",
+      "memory_tip": "'agenda' = 'a genda' → Latin: 'things to be done' → કરવાની વાતોની યાદી.",
+      "examples": [
+        "The agenda for today's meeting includes budget review.",
+        "She set the agenda before the conference.",
+        "There was no hidden agenda in his proposal.",
+        "The chairman distributed the agenda in advance."
+      ]
+    },
+    {
+      "id": 8,
+      "word": "Negotiate",
+      "category": "Work & Office",
+      "subcategory": "Professional Communication",
+      "part_of_speech": "verb",
+      "difficulty": "Advanced",
+      "frequency": "Common",
+      "gujarati_pronunciation": "નિગોશિએટ",
+      "english_meaning": "To discuss something in order to reach an agreement.",
+      "gujarati_meaning": "કોઈ બાબત પર સહમત થવા માટે ચર્ચા કરવી.",
+      "synonyms": [
+        "bargain",
+        "discuss",
+        "mediate"
+      ],
+      "antonyms": [
+        "dictate",
+        "impose"
+      ],
+      "collocations": [
+        "negotiate a deal",
+        "negotiate terms",
+        "negotiate salary"
+      ],
+      "word_forms": [
+        "negotiates",
+        "negotiated",
+        "negotiating",
+        "negotiation"
+      ],
+      "usage_note": "Negotiation requires compromise from both sides.",
+      "memory_tip": "'negotiate' = ne + go + tiate → 'ના' + 'જાઓ' → ના-ના કરીને agreement → negotiate.",
+      "examples": [
+        "They negotiated the contract terms for three hours.",
+        "She is skilled at negotiating salary packages.",
+        "Both companies agreed to negotiate a new deal.",
+        "The union and management negotiated a fair wage increase."
+      ]
+    },
+    {
+      "id": 9,
+      "word": "Presentation",
+      "category": "Work & Office",
+      "subcategory": "Professional Communication",
+      "part_of_speech": "noun",
+      "difficulty": "Intermediate",
+      "frequency": "Very common",
+      "gujarati_pronunciation": "પ્રૅઝૅન્ટેશન",
+      "english_meaning": "A formal talk or display of information to an audience.",
+      "gujarati_meaning": "પ્રેક્ષકો સમક્ષ માહિતી રજૂ કરવાની ઔપચારિક રીત.",
+      "synonyms": [
+        "talk",
+        "lecture",
+        "demonstration"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "give a presentation",
+        "PowerPoint presentation",
+        "sales presentation"
+      ],
+      "word_forms": [
+        "presentations",
+        "present",
+        "presenting"
+      ],
+      "usage_note": "Can be oral, visual, or both; often includes slides in a corporate setting.",
+      "memory_tip": "'present' = રજૂ કરવું → presentation = રજૂઆત.",
+      "examples": [
+        "He gave an impressive presentation on market trends.",
+        "She prepared slides for her presentation.",
+        "The presentation lasted forty-five minutes.",
+        "Our team's presentation won the client's approval."
+      ]
+    },
+    {
+      "id": 10,
+      "word": "Report",
+      "category": "Work & Office",
+      "subcategory": "Professional Communication",
+      "part_of_speech": "noun",
+      "difficulty": "Intermediate",
+      "frequency": "Very common",
+      "gujarati_pronunciation": "રિપૉર્ટ",
+      "english_meaning": "A formal document that presents findings, information, or analysis.",
+      "gujarati_meaning": "તારણો, માહિતી અથવા વિશ્લેષણ રજૂ કરતો ઔપચારિક દસ્તાવેજ.",
+      "synonyms": [
+        "document",
+        "account",
+        "summary"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "annual report",
+        "progress report",
+        "submit a report"
+      ],
+      "word_forms": [
+        "reports",
+        "reported",
+        "reporting"
+      ],
+      "usage_note": "Reports can be written or verbal; written reports are more common in offices.",
+      "memory_tip": "'report' = re + port → 'ફરી' + 'લઈ જવું' → report = information carried back.",
+      "examples": [
+        "The quarterly report was submitted on time.",
+        "She wrote a detailed report on the incident.",
+        "He reported the findings to the board.",
+        "The annual report showed strong financial growth."
+      ]
+    },
+    {
+      "id": 11,
+      "word": "Deadline",
+      "category": "Work & Office",
+      "subcategory": "Professional Communication",
+      "part_of_speech": "noun",
+      "difficulty": "Intermediate",
+      "frequency": "Very common",
+      "gujarati_pronunciation": "ડૅડલાઇન",
+      "english_meaning": "The latest time or date by which something must be completed.",
+      "gujarati_meaning": "કોઈ કામ પૂર્ણ કરવા માટેની છેલ્લી તારીખ અથવા સમય.",
+      "synonyms": [
+        "due date",
+        "cutoff",
+        "time limit"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "meet a deadline",
+        "miss a deadline",
+        "tight deadline"
+      ],
+      "word_forms": [
+        "deadlines"
+      ],
+      "usage_note": "Missing a deadline in professional settings can have serious consequences.",
+      "memory_tip": "'deadline' = dead + line → 'dead' = ખતમ → deadline = ખતમ થવાની line = છેલ્લો સમય.",
+      "examples": [
+        "We must meet the project deadline by Friday.",
+        "She always delivers her work before the deadline.",
+        "The team missed the deadline due to technical issues.",
+        "Set realistic deadlines to avoid burnout."
+      ]
+    },
+    {
+      "id": 12,
+      "word": "Clarify",
+      "category": "Work & Office",
+      "subcategory": "Professional Communication",
+      "part_of_speech": "verb",
+      "difficulty": "Intermediate",
+      "frequency": "Common",
+      "gujarati_pronunciation": "ક્લૅરિફાઇ",
+      "english_meaning": "To make something clearer and easier to understand.",
+      "gujarati_meaning": "કોઈ બાબત વધુ સ્પષ્ટ અને સમજવા સરળ બનાવવી.",
+      "synonyms": [
+        "explain",
+        "elaborate",
+        "simplify"
+      ],
+      "antonyms": [
+        "confuse",
+        "obscure"
+      ],
+      "collocations": [
+        "clarify a point",
+        "clarify doubts",
+        "clarify instructions"
+      ],
+      "word_forms": [
+        "clarifies",
+        "clarified",
+        "clarifying",
+        "clarification"
+      ],
+      "usage_note": "Often used to politely request more information: 'Can you clarify that?'",
+      "memory_tip": "'clarify' = clarity + fy → clarity = સ્પષ્ટતા → clarify = સ્પષ્ટ કરવું.",
+      "examples": [
+        "Can you clarify what you mean by that?",
+        "She clarified the instructions for the new staff.",
+        "Please clarify your role in the project.",
+        "He asked for a moment to clarify his thoughts."
+      ]
+    },
+    {
+      "id": 13,
+      "word": "Summarize",
+      "category": "Work & Office",
+      "subcategory": "Professional Communication",
+      "part_of_speech": "verb",
+      "difficulty": "Intermediate",
+      "frequency": "Common",
+      "gujarati_pronunciation": "સમ્મરાઇઝ",
+      "english_meaning": "To give a brief statement of the main points of something.",
+      "gujarati_meaning": "કોઈ બાબતના મુખ્ય મુદ્દા ટૂંકમાં રજૂ કરવા.",
+      "synonyms": [
+        "recap",
+        "outline",
+        "condense"
+      ],
+      "antonyms": [
+        "elaborate",
+        "expand"
+      ],
+      "collocations": [
+        "summarize the report",
+        "summarize key points",
+        "summarize findings"
+      ],
+      "word_forms": [
+        "summarizes",
+        "summarized",
+        "summarizing",
+        "summary"
+      ],
+      "usage_note": "Often used at the end of meetings or reports to review main points.",
+      "memory_tip": "'summarize' = summary + ize → summary = સારાંશ → summarize = સારાંશ આપવો.",
+      "examples": [
+        "Can you summarize the main points of the meeting?",
+        "She summarized the report in three bullet points.",
+        "He summarized the client's concerns for the team.",
+        "Please summarize the discussion in the minutes."
+      ]
+    },
+    {
+      "id": 14,
+      "word": "Inquiry",
+      "category": "Work & Office",
+      "subcategory": "Professional Communication",
+      "part_of_speech": "noun",
+      "difficulty": "Intermediate",
+      "frequency": "Common",
+      "gujarati_pronunciation": "ઇન્ક્વાઇરી",
+      "english_meaning": "A formal request for information or an investigation into something.",
+      "gujarati_meaning": "માહિતી માટે ઔપચારિક વિનંતી અથવા કોઈ બાબત અંગેની તપાસ.",
+      "synonyms": [
+        "query",
+        "investigation",
+        "question"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "make an inquiry",
+        "customer inquiry",
+        "formal inquiry"
+      ],
+      "word_forms": [
+        "inquiries",
+        "inquire",
+        "inquired"
+      ],
+      "usage_note": "In British English often spelled 'enquiry'; 'inquiry' is more common in American English.",
+      "memory_tip": "'inquire' = in + quire → 'અંદર' + 'પૂછવું' → inquiry = formal question.",
+      "examples": [
+        "She made an inquiry about the job opening.",
+        "All customer inquiries must be answered within 24 hours.",
+        "The company launched a formal inquiry into the incident.",
+        "He sent an email inquiry to the supplier."
+      ]
+    },
+    {
+      "id": 15,
+      "word": "Acknowledge",
+      "category": "Work & Office",
+      "subcategory": "Professional Communication",
+      "part_of_speech": "verb",
+      "difficulty": "Advanced",
+      "frequency": "Common",
+      "gujarati_pronunciation": "એક્નૉલૅજ",
+      "english_meaning": "To confirm receipt of something or recognize someone's contribution.",
+      "gujarati_meaning": "કોઈ વસ્તુ મળ્યાની પુષ્ટિ કરવી અથવા કોઈ વ્યક્તિના યોગદાનને સ્વીકારવું.",
+      "synonyms": [
+        "confirm",
+        "recognize",
+        "admit"
+      ],
+      "antonyms": [
+        "ignore",
+        "deny"
+      ],
+      "collocations": [
+        "acknowledge receipt",
+        "acknowledge efforts",
+        "acknowledge an email"
+      ],
+      "word_forms": [
+        "acknowledges",
+        "acknowledged",
+        "acknowledging",
+        "acknowledgement"
+      ],
+      "usage_note": "In emails: 'I acknowledge receipt of your message' confirms you received it.",
+      "memory_tip": "'acknowledge' = ac + know + ledge → 'know' = જાણવું → acknowledge = જાણ્યાનો સ્વીકાર.",
+      "examples": [
+        "Please acknowledge receipt of this email.",
+        "The manager acknowledged the team's hard work.",
+        "She acknowledged the mistake and corrected it.",
+        "He acknowledged the client's concerns during the meeting."
+      ]
+    },
+    {
+      "id": 16,
+      "word": "Delegation",
+      "category": "Work & Office",
+      "subcategory": "Professional Communication",
+      "part_of_speech": "noun",
+      "difficulty": "Advanced",
+      "frequency": "Common",
+      "gujarati_pronunciation": "ડૅલિગેશન",
+      "english_meaning": "The act of assigning responsibility or authority to another person.",
+      "gujarati_meaning": "બીજ વ્યક્તિને જવાબદારી અથવা અધિકાર સોંપવાની ક્રિયા.",
+      "synonyms": [
+        "assignment",
+        "entrustment",
+        "authorization"
+      ],
+      "antonyms": [
+        "retention",
+        "centralization"
+      ],
+      "collocations": [
+        "delegation of authority",
+        "effective delegation",
+        "task delegation"
+      ],
+      "word_forms": [
+        "delegations",
+        "delegate",
+        "delegated"
+      ],
+      "usage_note": "Good managers use delegation to empower their teams and manage time effectively.",
+      "memory_tip": "'delegate' = de + legate → legate = 'ambassador' → delegation = sending someone else to act.",
+      "examples": [
+        "Effective delegation improves team productivity.",
+        "She used delegation to manage her heavy workload.",
+        "The CEO relied on delegation to run the company.",
+        "Poor delegation leads to confusion in responsibilities."
+      ]
+    },
+    {
+      "id": 17,
+      "word": "Confidential",
+      "category": "Work & Office",
+      "subcategory": "Professional Communication",
+      "part_of_speech": "adjective",
+      "difficulty": "Intermediate",
+      "frequency": "Common",
+      "gujarati_pronunciation": "કૉન્ફિડૅન્શલ",
+      "english_meaning": "Intended to be kept secret and not shared with others.",
+      "gujarati_meaning": "ગુપ્ત રાખવા માટે અભિપ્રેત; જે અન્ય સાથે શેર ન કરવી.",
+      "synonyms": [
+        "private",
+        "secret",
+        "classified"
+      ],
+      "antonyms": [
+        "public",
+        "open",
+        "disclosed"
+      ],
+      "collocations": [
+        "confidential information",
+        "confidential document",
+        "strictly confidential"
+      ],
+      "word_forms": [
+        "confidentiality"
+      ],
+      "usage_note": "Documents marked 'confidential' should not be shared outside the organization.",
+      "memory_tip": "'confidential' = confidence + ial → confidence = વિશ્વાસ → confidential = વિશ્વાસઘાત ન કરો.",
+      "examples": [
+        "The report is strictly confidential.",
+        "All employee records are kept confidential.",
+        "Do not share confidential information with third parties.",
+        "She signed a confidential agreement before starting the project."
+      ]
+    },
+    {
+      "id": 18,
+      "word": "Cubicle",
+      "category": "Work & Office",
+      "subcategory": "Office Environment",
+      "part_of_speech": "noun",
+      "difficulty": "Intermediate",
+      "frequency": "Common",
+      "gujarati_pronunciation": "ક્યૂબિકલ",
+      "english_meaning": "A small, enclosed workspace within a larger open office area.",
+      "gujarati_meaning": "મોટા ઓફિસ વિસ્તારની અંદર નાની, અર્ધ-ઘેરાયેલ કામ કરવાની જગ્યા.",
+      "synonyms": [
+        "booth",
+        "partition",
+        "workstation"
+      ],
+      "antonyms": [
+        "open space",
+        "private office"
+      ],
+      "collocations": [
+        "office cubicle",
+        "cubicle wall",
+        "cubicle farm"
+      ],
+      "word_forms": [
+        "cubicles"
+      ],
+      "usage_note": "Common in large corporate offices; gives semi-privacy in an open layout.",
+      "memory_tip": "'cubicle' = cube + icle → cube = ઘન → cubicle = cube જેવી નાની જગ્યા.",
+      "examples": [
+        "She decorated her cubicle with family photos.",
+        "He worked in a cubicle on the third floor.",
+        "The open office replaced cubicles with shared desks.",
+        "A cubicle provides some privacy in a large office."
+      ]
+    },
+    {
+      "id": 19,
+      "word": "Workstation",
+      "category": "Work & Office",
+      "subcategory": "Office Environment",
+      "part_of_speech": "noun",
+      "difficulty": "Intermediate",
+      "frequency": "Common",
+      "gujarati_pronunciation": "વર્કસ્ટેશન",
+      "english_meaning": "A desk or area equipped with a computer and accessories for one person to work.",
+      "gujarati_meaning": "એક વ્યક્તિ માટે કમ્પ્યૂટર અને સાધનો સાથે સજ્જ ડેસ્ક અથવા કાર્ય-વિસ્તાર.",
+      "synonyms": [
+        "desk",
+        "terminal",
+        "workspace"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "set up a workstation",
+        "shared workstation",
+        "ergonomic workstation"
+      ],
+      "word_forms": [
+        "workstations"
+      ],
+      "usage_note": "In IT, a workstation can also refer to a powerful desktop computer.",
+      "memory_tip": "'workstation' = work + station → work = કામ + station = સ્ટૉપ → workstation = કામ કરવાની જગ્યા.",
+      "examples": [
+        "Each employee has their own workstation.",
+        "He set up a new workstation for the intern.",
+        "The workstation was equipped with dual monitors.",
+        "An ergonomic workstation reduces back pain."
+      ]
+    },
+    {
+      "id": 20,
+      "word": "Reception",
+      "category": "Work & Office",
+      "subcategory": "Office Environment",
+      "part_of_speech": "noun",
+      "difficulty": "Intermediate",
+      "frequency": "Common",
+      "gujarati_pronunciation": "રિસૅપ્શન",
+      "english_meaning": "The area at the entrance of an office where visitors are greeted.",
+      "gujarati_meaning": "ઑફિસના પ્રવેશ પર આવેલ વિસ્તાર જ્યાં મુલાકાતીઓનું સ્વાગત થાય છે.",
+      "synonyms": [
+        "front desk",
+        "lobby",
+        "foyer"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "reception area",
+        "reception desk",
+        "at reception"
+      ],
+      "word_forms": [
+        "receptions",
+        "receptionist"
+      ],
+      "usage_note": "A 'receptionist' works at the reception and manages visitors and calls.",
+      "memory_tip": "'reception' = receive + tion → receive = સ્વીકારવું → reception = સ્વાગત-ક્ષેત્ર.",
+      "examples": [
+        "Please wait at the reception until someone comes.",
+        "The receptionist greeted all visitors warmly.",
+        "All guests must sign in at the reception desk.",
+        "The reception area was redesigned to look more professional."
+      ]
+    },
+    {
+      "id": 21,
+      "word": "Conference Room",
+      "category": "Work & Office",
+      "subcategory": "Office Environment",
+      "part_of_speech": "noun",
+      "difficulty": "Intermediate",
+      "frequency": "Very common",
+      "gujarati_pronunciation": "કૉન્ફ્રન્સ રૂમ",
+      "english_meaning": "A room in an office used for meetings and group discussions.",
+      "gujarati_meaning": "ઑફિસમાં બેઠકો અને ગ્રૂપ ચર્ચા માટે ઉપયોગમાં લેવાતો ઓરડો.",
+      "synonyms": [
+        "meeting room",
+        "boardroom",
+        "seminar room"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "book a conference room",
+        "large conference room",
+        "conference room facilities"
+      ],
+      "word_forms": [
+        "conference rooms"
+      ],
+      "usage_note": "Usually equipped with a large table, chairs, projector, and whiteboard.",
+      "memory_tip": "'conference' = together + talk → conference room = સૌ સાથે મળીને વાત કરે ત્યાં.",
+      "examples": [
+        "Book the conference room for the 3 PM meeting.",
+        "The conference room seats up to twenty people.",
+        "She presented her findings in the conference room.",
+        "The conference room is equipped with video call facilities."
+      ]
+    },
+    {
+      "id": 22,
+      "word": "Stationery",
+      "category": "Work & Office",
+      "subcategory": "Office Environment",
+      "part_of_speech": "noun",
+      "difficulty": "Intermediate",
+      "frequency": "Common",
+      "gujarati_pronunciation": "સ્ટેશનરી",
+      "english_meaning": "Writing and office materials such as pens, paper, and envelopes.",
+      "gujarati_meaning": "કલમ, કાગળ, કવર જેવી લેખન અને ઑફિસ સામગ્રી.",
+      "synonyms": [
+        "office supplies",
+        "writing materials"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "office stationery",
+        "stationery supplies",
+        "order stationery"
+      ],
+      "word_forms": [],
+      "usage_note": "Do not confuse with 'stationary' (not moving); stationery = office supplies.",
+      "memory_tip": "'stationery' → remember 'e' for 'envelope' → stationery = envelope + writing things.",
+      "examples": [
+        "The office stationery was ordered last week.",
+        "She picked up stationery from the supply room.",
+        "We need to restock the stationery cabinet.",
+        "Branded stationery gives a professional impression."
+      ]
+    },
+    {
+      "id": 23,
+      "word": "Printer",
+      "category": "Work & Office",
+      "subcategory": "Office Environment",
+      "part_of_speech": "noun",
+      "difficulty": "Intermediate",
+      "frequency": "Very common",
+      "gujarati_pronunciation": "પ્રિન્ટર",
+      "english_meaning": "A machine that produces printed copies of digital documents.",
+      "gujarati_meaning": "ડિજિટલ દસ્તાવેજોની છાપેલ નકલ બનાવતું ઉપકરણ.",
+      "synonyms": [
+        "copier",
+        "laser printer"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "office printer",
+        "laser printer",
+        "printer jam"
+      ],
+      "word_forms": [
+        "printers",
+        "print",
+        "printed"
+      ],
+      "usage_note": "Common office issue: 'printer jam' means paper is stuck inside the printer.",
+      "memory_tip": "'printer' = print + er → print = છાપવું → printer = છાપનાર મશીન.",
+      "examples": [
+        "The printer ran out of ink during the presentation.",
+        "Please print the report on the office printer.",
+        "The printer is on the second floor near the kitchen.",
+        "He fixed the printer jam before the meeting."
+      ]
+    },
+    {
+      "id": 24,
+      "word": "Whiteboard",
+      "category": "Work & Office",
+      "subcategory": "Office Environment",
+      "part_of_speech": "noun",
+      "difficulty": "Intermediate",
+      "frequency": "Common",
+      "gujarati_pronunciation": "વ્હાઇટ્બૉર્ડ",
+      "english_meaning": "A white surface used for writing with markers during meetings or training.",
+      "gujarati_meaning": "બેઠક અથવા તાલીમ દરમિયાન માર્કરથી લખવા માટે ઉપયોગમાં લેવાતી સફેદ સપાટી.",
+      "synonyms": [
+        "dry-erase board",
+        "marker board"
+      ],
+      "antonyms": [
+        "blackboard"
+      ],
+      "collocations": [
+        "write on the whiteboard",
+        "whiteboard session",
+        "interactive whiteboard"
+      ],
+      "word_forms": [
+        "whiteboards"
+      ],
+      "usage_note": "Used widely in brainstorming sessions and training rooms.",
+      "memory_tip": "'whiteboard' = white + board → સફેદ + ફળિયું → whiteboard = white writing board.",
+      "examples": [
+        "She drew the process diagram on the whiteboard.",
+        "The trainer used the whiteboard to explain concepts.",
+        "Erase the whiteboard before the next meeting.",
+        "An interactive whiteboard is connected to the computer."
+      ]
+    },
+    {
+      "id": 25,
+      "word": "Projector",
+      "category": "Work & Office",
+      "subcategory": "Office Environment",
+      "part_of_speech": "noun",
+      "difficulty": "Intermediate",
+      "frequency": "Common",
+      "gujarati_pronunciation": "પ્રજૅક્ટર",
+      "english_meaning": "A device that projects images or slides onto a screen.",
+      "gujarati_meaning": "સ્ક્રીન પર ચિત્રો અથવા સ્લાઇડ્સ દર્શાવતું ઉપકરણ.",
+      "synonyms": [
+        "display device",
+        "overhead projector"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "set up the projector",
+        "projector screen",
+        "connect to projector"
+      ],
+      "word_forms": [
+        "projectors"
+      ],
+      "usage_note": "Common in boardrooms and classrooms for displaying presentations.",
+      "memory_tip": "'projector' = project + or → project = ફેંકવું → projector = image ફેંકે.",
+      "examples": [
+        "Connect the laptop to the projector before the meeting.",
+        "The projector bulb needs to be replaced.",
+        "She used the projector to display the sales charts.",
+        "Make sure the projector is working before the presentation."
+      ]
+    },
+    {
+      "id": 26,
+      "word": "Pantry",
+      "category": "Work & Office",
+      "subcategory": "Office Environment",
+      "part_of_speech": "noun",
+      "difficulty": "Intermediate",
+      "frequency": "Common",
+      "gujarati_pronunciation": "પૅન્ટ્રી",
+      "english_meaning": "A small room or area in an office where food, drinks, and kitchen supplies are kept.",
+      "gujarati_meaning": "ઑફિસમાં ખોરાક, પીણાં અને રસોઈ-સામગ્રી રાખવા માટેનો નાનો ઓરડો.",
+      "synonyms": [
+        "kitchenette",
+        "break room",
+        "kitchen area"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "office pantry",
+        "pantry supplies",
+        "pantry break"
+      ],
+      "word_forms": [
+        "pantries"
+      ],
+      "usage_note": "Often a social space where colleagues gather during breaks.",
+      "memory_tip": "'pantry' = pan + try → pan = વાસણ → pantry = pan and food store.",
+      "examples": [
+        "She had her coffee break in the office pantry.",
+        "The pantry was stocked with snacks and beverages.",
+        "Please keep the pantry clean after use.",
+        "They held a quick discussion in the pantry."
+      ]
+    },
+    {
+      "id": 27,
+      "word": "Filing Cabinet",
+      "category": "Work & Office",
+      "subcategory": "Office Environment",
+      "part_of_speech": "noun",
+      "difficulty": "Intermediate",
+      "frequency": "Common",
+      "gujarati_pronunciation": "ફાઇલિંગ કૅબિનૅટ",
+      "english_meaning": "A piece of furniture with drawers for storing files and documents.",
+      "gujarati_meaning": "ફાઇલો અને દસ્તાવેજો સંગ્રહ કરવા માટે ખાના ધરાવતો ફર્નિચરનો ટુકડો.",
+      "synonyms": [
+        "document cabinet",
+        "storage cabinet"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "filing cabinet drawer",
+        "locked filing cabinet",
+        "office filing cabinet"
+      ],
+      "word_forms": [
+        "filing cabinets"
+      ],
+      "usage_note": "Important documents are often kept in locked filing cabinets for security.",
+      "memory_tip": "'filing' = file + ing → file = ફાઇલ → filing cabinet = ફાઇલ સ્ટોર.",
+      "examples": [
+        "The contract is in the filing cabinet.",
+        "She organized all documents into the filing cabinet.",
+        "Lock the filing cabinet before leaving the office.",
+        "The filing cabinet is overflowing with old records."
+      ]
+    },
+    {
+      "id": 28,
+      "word": "Ergonomic",
+      "category": "Work & Office",
+      "subcategory": "Office Environment",
+      "part_of_speech": "adjective",
+      "difficulty": "Advanced",
+      "frequency": "Common",
+      "gujarati_pronunciation": "અૅર્ગૉનૉમિક",
+      "english_meaning": "Designed for comfort and efficiency in the working environment.",
+      "gujarati_meaning": "કામ કરવાના વાતાવરણમાં આરામ અને કાર્યક્ષમતા માટે ડિઝાઇન કરેલ.",
+      "synonyms": [
+        "comfortable",
+        "efficient",
+        "well-designed"
+      ],
+      "antonyms": [
+        "uncomfortable",
+        "straining"
+      ],
+      "collocations": [
+        "ergonomic chair",
+        "ergonomic keyboard",
+        "ergonomic workstation"
+      ],
+      "word_forms": [
+        "ergonomically",
+        "ergonomics"
+      ],
+      "usage_note": "Ergonomic design helps prevent repetitive strain injuries and back pain.",
+      "memory_tip": "'ergonomic' = ergo (work) + nomic (law) → worklaw → work comfort design.",
+      "examples": [
+        "She invested in an ergonomic chair to avoid back pain.",
+        "The company provided ergonomic keyboards to all staff.",
+        "An ergonomic setup increases productivity.",
+        "Ergonomic furniture is essential in modern offices."
+      ]
+    },
+    {
+      "id": 29,
+      "word": "Bulletin Board",
+      "category": "Work & Office",
+      "subcategory": "Office Environment",
+      "part_of_speech": "noun",
+      "difficulty": "Intermediate",
+      "frequency": "Common",
+      "gujarati_pronunciation": "બુલૅટિન બૉર્ડ",
+      "english_meaning": "A board on a wall where notices and announcements are posted.",
+      "gujarati_meaning": "દિવાલ પર લગાડેલ બૉર્ડ જ્યાં નોટિસ અને જાહેરાતો લગાડવામાં આવે છે.",
+      "synonyms": [
+        "notice board",
+        "announcement board"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "office bulletin board",
+        "pin to bulletin board",
+        "bulletin board notice"
+      ],
+      "word_forms": [
+        "bulletin boards"
+      ],
+      "usage_note": "Used in offices, schools, and communities to share general information.",
+      "memory_tip": "'bulletin' = bullet + in → bulletin board = notices 'fired' at the public.",
+      "examples": [
+        "She pinned the schedule to the bulletin board.",
+        "Check the bulletin board for the latest announcements.",
+        "The event notice was posted on the bulletin board.",
+        "They used the bulletin board to share motivational quotes."
+      ]
+    },
+    {
+      "id": 30,
+      "word": "Open-plan",
+      "category": "Work & Office",
+      "subcategory": "Office Environment",
+      "part_of_speech": "adjective",
+      "difficulty": "Intermediate",
+      "frequency": "Common",
+      "gujarati_pronunciation": "ઓપન-પ્લૅન",
+      "english_meaning": "Describing an office layout with few or no walls, encouraging collaboration.",
+      "gujarati_meaning": "ઑફિસ ડિઝાઇન જ્યાં ઓછી અથવા ન જ ઓ walls હોય, teamwork ને પ્રોત્સાહ આપે.",
+      "synonyms": [
+        "open office",
+        "open layout"
+      ],
+      "antonyms": [
+        "closed office",
+        "partitioned office"
+      ],
+      "collocations": [
+        "open-plan office",
+        "open-plan design",
+        "open-plan workspace"
+      ],
+      "word_forms": [],
+      "usage_note": "Open-plan offices encourage collaboration but can reduce individual privacy.",
+      "memory_tip": "'open-plan' = open + plan → ખુલ્લી + ગોઠવણ → open-plan = ખુલ્લી ઑફિસ.",
+      "examples": [
+        "The company moved to an open-plan office to boost teamwork.",
+        "Many employees prefer private offices over open-plan layouts.",
+        "The open-plan design allows easy communication.",
+        "An open-plan office reduces noise barriers."
+      ]
+    },
+    {
+      "id": 31,
+      "word": "Hot-desking",
+      "category": "Work & Office",
+      "subcategory": "Office Environment",
+      "part_of_speech": "noun",
+      "difficulty": "Advanced",
+      "frequency": "Common",
+      "gujarati_pronunciation": "હૉટ-ડૅસ્કિંગ",
+      "english_meaning": "A system where employees use any available desk rather than having a fixed one.",
+      "gujarati_meaning": "એ પ્રણાલી જ્યાં કર્મચારીઓ ગમે ત્યારે ઉપલબ્ધ ડેસ્ક ઉપયોગ કરે, નિશ્ચિત ડેસ્ક ન હોય.",
+      "synonyms": [
+        "flexible seating",
+        "desk sharing"
+      ],
+      "antonyms": [
+        "assigned desk",
+        "fixed workstation"
+      ],
+      "collocations": [
+        "hot-desking policy",
+        "hot-desking system",
+        "implement hot-desking"
+      ],
+      "word_forms": [],
+      "usage_note": "Common in companies with hybrid work models where not everyone is in the office every day.",
+      "memory_tip": "'hot-desking' = hot + desk → 'hot' = popular/in demand → grab any available desk.",
+      "examples": [
+        "The company introduced hot-desking to save space.",
+        "Hot-desking requires employees to clear their desk daily.",
+        "She didn't enjoy hot-desking as she missed her own space.",
+        "Hot-desking is common in companies with remote-first policies."
+      ]
+    },
+    {
+      "id": 32,
+      "word": "Intranet",
+      "category": "Work & Office",
+      "subcategory": "Office Environment",
+      "part_of_speech": "noun",
+      "difficulty": "Advanced",
+      "frequency": "Common",
+      "gujarati_pronunciation": "ઇન્ટ્રૅનૅટ",
+      "english_meaning": "A private internal network used within an organization for sharing information.",
+      "gujarati_meaning": "સંસ્થામાં આંતરિક રીતે માહિતી શેર કરવા માટે ઉપયોગમાં લેવાતું ખાનગી નેટવર્ક.",
+      "synonyms": [
+        "internal network",
+        "corporate network"
+      ],
+      "antonyms": [
+        "internet",
+        "extranet"
+      ],
+      "collocations": [
+        "company intranet",
+        "access the intranet",
+        "intranet portal"
+      ],
+      "word_forms": [],
+      "usage_note": "Unlike the internet, the intranet is accessible only to employees of the organization.",
+      "memory_tip": "'intranet' = intra (inside) + net → inside network → ઑફિસ અંદરનું internet.",
+      "examples": [
+        "All policies are available on the company intranet.",
+        "Log in to the intranet to access HR forms.",
+        "The intranet was updated with the new office guidelines.",
+        "She posted the newsletter on the intranet."
+      ]
+    },
+    {
+      "id": 33,
+      "word": "Supply Room",
+      "category": "Work & Office",
+      "subcategory": "Office Environment",
+      "part_of_speech": "noun",
+      "difficulty": "Intermediate",
+      "frequency": "Common",
+      "gujarati_pronunciation": "સ્પ્લાઇ રૂમ",
+      "english_meaning": "A room in an office where stationery and other supplies are stored.",
+      "gujarati_meaning": "ઑફિસ સ્ટેશનરી અને અન્ય સામગ્રી સ્ટોર કરવા માટેનો ઓરડો.",
+      "synonyms": [
+        "stock room",
+        "storage room",
+        "stationery room"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "office supply room",
+        "supply room key",
+        "restock the supply room"
+      ],
+      "word_forms": [
+        "supply rooms"
+      ],
+      "usage_note": "Employees usually sign out items taken from the supply room to manage inventory.",
+      "memory_tip": "'supply room' = supply + room → supply = સામગ્રી → supply room = સામગ્રી ઓરડો.",
+      "examples": [
+        "Get extra pens from the supply room.",
+        "The supply room is locked after 6 PM.",
+        "She restocked the supply room with printer paper.",
+        "All office supplies are kept in the supply room."
+      ]
+    },
+    {
+      "id": 34,
+      "word": "Badge",
+      "category": "Work & Office",
+      "subcategory": "Office Environment",
+      "part_of_speech": "noun",
+      "difficulty": "Intermediate",
+      "frequency": "Common",
+      "gujarati_pronunciation": "બૅજ",
+      "english_meaning": "An ID card worn by employees to identify themselves and access office areas.",
+      "gujarati_meaning": "કર્મચારીઓ દ્વારા ઓળખ અને ઑફિસ વિસ્તારોમાં પ્રવેશ માટે પહેરવામાં આવતું ID કાર્ડ.",
+      "synonyms": [
+        "ID card",
+        "access card",
+        "pass"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "employee badge",
+        "swipe your badge",
+        "access badge"
+      ],
+      "word_forms": [
+        "badges"
+      ],
+      "usage_note": "In secure offices, employees swipe their badge to enter restricted areas.",
+      "memory_tip": "'badge' = ઓળખ-ચિહ્ન → badge = your identity at work.",
+      "examples": [
+        "Always wear your badge while in the office.",
+        "She forgot her badge and couldn't enter the building.",
+        "Swipe your badge at the entrance gate.",
+        "The security guard checked everyone's badge."
+      ]
+    },
+    {
+      "id": 35,
+      "word": "Minutes",
+      "category": "Work & Office",
+      "subcategory": "Meetings & Presentations",
+      "part_of_speech": "noun",
+      "difficulty": "Intermediate",
+      "frequency": "Common",
+      "gujarati_pronunciation": "મિનિટ્સ",
+      "english_meaning": "The official written record of what was discussed and decided in a meeting.",
+      "gujarati_meaning": "બેઠકમાં શું ચર્ચ્યું અને શું નક્કી થ્યું તેનો સત્તાવાર લેખિત રેકૉર્ડ.",
+      "synonyms": [
+        "notes",
+        "records",
+        "proceedings"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "take the minutes",
+        "meeting minutes",
+        "approve the minutes"
+      ],
+      "word_forms": [],
+      "usage_note": "Minutes are usually written by a secretary or designated note-taker.",
+      "memory_tip": "'minutes' = minute + s → small notes → meeting ની ટૂંકી નોંધ.",
+      "examples": [
+        "She was asked to take the minutes at the board meeting.",
+        "The minutes were circulated to all attendees.",
+        "Please refer to last week's minutes for the decision.",
+        "The minutes were approved at the start of the meeting."
+      ]
+    },
+    {
+      "id": 36,
+      "word": "Quorum",
+      "category": "Work & Office",
+      "subcategory": "Meetings & Presentations",
+      "part_of_speech": "noun",
+      "difficulty": "Advanced",
+      "frequency": "Common",
+      "gujarati_pronunciation": "ક્વૉરમ",
+      "english_meaning": "The minimum number of members required to be present to make a meeting valid.",
+      "gujarati_meaning": "બેઠકને માન્ય ઠરાવવા માટે ઉપસ્થિત હોવા જ જોઈએ તેવા ન્યૂ nतम સભ્યોની સંખ્યા.",
+      "synonyms": [
+        "minimum attendance",
+        "required number"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "establish a quorum",
+        "lack of quorum",
+        "quorum not met"
+      ],
+      "word_forms": [],
+      "usage_note": "If a quorum is not reached, the meeting cannot officially proceed.",
+      "memory_tip": "'quorum' = Latin 'of whom' → quorum = 'of whom enough must be present'.",
+      "examples": [
+        "The meeting was postponed because there was no quorum.",
+        "A quorum of ten members is required for voting.",
+        "We need to confirm the quorum before starting.",
+        "The chairperson declared that the quorum was met."
+      ]
+    },
+    {
+      "id": 37,
+      "word": "Chairperson",
+      "category": "Work & Office",
+      "subcategory": "Meetings & Presentations",
+      "part_of_speech": "noun",
+      "difficulty": "Intermediate",
+      "frequency": "Common",
+      "gujarati_pronunciation": "ચૅરપર્સન",
+      "english_meaning": "The person who leads or presides over a meeting.",
+      "gujarati_meaning": "બેઠકની અધ્યક્ષતા કરનાર વ્યક્તિ.",
+      "synonyms": [
+        "chair",
+        "moderator",
+        "president"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "act as chairperson",
+        "elect a chairperson",
+        "chairperson's report"
+      ],
+      "word_forms": [
+        "chairpersons",
+        "chair"
+      ],
+      "usage_note": "Gender-neutral term replacing 'chairman'; 'chair' is also widely used.",
+      "memory_tip": "'chairperson' = chair + person → chair = ખુરશી → chairperson = ખુરશી વળો = leader.",
+      "examples": [
+        "The chairperson opened the meeting at 9 AM.",
+        "She was elected chairperson of the committee.",
+        "The chairperson called for a vote on the proposal.",
+        "The chairperson ensured all voices were heard."
+      ]
+    },
+    {
+      "id": 38,
+      "word": "Action Points",
+      "category": "Work & Office",
+      "subcategory": "Meetings & Presentations",
+      "part_of_speech": "noun",
+      "difficulty": "Intermediate",
+      "frequency": "Common",
+      "gujarati_pronunciation": "ઍક્શન પૉઇન્ટ્સ",
+      "english_meaning": "Tasks or decisions assigned to individuals at the end of a meeting.",
+      "gujarati_meaning": "બેઠકના અંતે વ્યક્તિઓને સોંપવામાં આવેલ કાર્ય અથવા નિર્ણય.",
+      "synonyms": [
+        "tasks",
+        "to-do items",
+        "follow-up actions"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "list action points",
+        "follow up on action points",
+        "assign action points"
+      ],
+      "word_forms": [],
+      "usage_note": "Action points ensure accountability; each item should have an owner and a deadline.",
+      "memory_tip": "'action points' = action + points → action = ક્રિયા → action points = કામ કરવાની યાદી.",
+      "examples": [
+        "The meeting ended with a list of action points.",
+        "She followed up on all action points from last week.",
+        "Each action point was assigned to a team member.",
+        "Review the action points before the next meeting."
+      ]
+    },
+    {
+      "id": 39,
+      "word": "Brainstorm",
+      "category": "Work & Office",
+      "subcategory": "Meetings & Presentations",
+      "part_of_speech": "verb",
+      "difficulty": "Intermediate",
+      "frequency": "Very common",
+      "gujarati_pronunciation": "બ્રૅઇનસ્ટૉર્મ",
+      "english_meaning": "To generate many ideas spontaneously in a group discussion.",
+      "gujarati_meaning": "ગ્રૂપ ચર્ચામાં સ્વ-ચ-સ્ફૂર્ત ઘણા વિચારો ઉત્પન્ન કરવા.",
+      "synonyms": [
+        "ideate",
+        "think up",
+        "generate ideas"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "brainstorm ideas",
+        "brainstorming session",
+        "brainstorm solutions"
+      ],
+      "word_forms": [
+        "brainstorms",
+        "brainstormed",
+        "brainstorming"
+      ],
+      "usage_note": "In brainstorming, no idea is rejected initially; all suggestions are welcome.",
+      "memory_tip": "'brainstorm' = brain + storm → brain = મગજ + storm = તોફान → ideas ની વંટોળ.",
+      "examples": [
+        "Let's brainstorm ideas for the new marketing campaign.",
+        "The team held a brainstorming session on Friday.",
+        "They brainstormed solutions to the customer complaint.",
+        "Brainstorming helps uncover creative approaches."
+      ]
+    },
+    {
+      "id": 40,
+      "word": "Facilitate",
+      "category": "Work & Office",
+      "subcategory": "Meetings & Presentations",
+      "part_of_speech": "verb",
+      "difficulty": "Advanced",
+      "frequency": "Common",
+      "gujarati_pronunciation": "ફૅસિલિટેટ",
+      "english_meaning": "To make a process or meeting easier to run or manage.",
+      "gujarati_meaning": "કોઈ પ્રક્રિયા અથવા બેઠક સરળ અને સ્ઝ્ = manage કરવા-લાયક બનાવવી.",
+      "synonyms": [
+        "enable",
+        "assist",
+        "guide"
+      ],
+      "antonyms": [
+        "hinder",
+        "obstruct"
+      ],
+      "collocations": [
+        "facilitate a meeting",
+        "facilitate discussion",
+        "facilitate learning"
+      ],
+      "word_forms": [
+        "facilitates",
+        "facilitated",
+        "facilitating",
+        "facilitator"
+      ],
+      "usage_note": "A facilitator guides a group discussion without leading it from a position of authority.",
+      "memory_tip": "'facilitate' = facil (easy) + itate → make easy → facilitate = સરળ બનાવવું.",
+      "examples": [
+        "She was asked to facilitate the workshop.",
+        "A neutral person should facilitate the negotiation.",
+        "He facilitated the discussion between the two departments.",
+        "Good facilitators keep meetings on track."
+      ]
+    },
+    {
+      "id": 41,
+      "word": "Adjourn",
+      "category": "Work & Office",
+      "subcategory": "Meetings & Presentations",
+      "part_of_speech": "verb",
+      "difficulty": "Advanced",
+      "frequency": "Common",
+      "gujarati_pronunciation": "અૅડ્જર્ન",
+      "english_meaning": "To formally bring a meeting to an end or to postpone it to another time.",
+      "gujarati_meaning": "બેઠક ઔપચારિક રીતે સ્થગિત કરવી અથવા બીજા સમય પર ટ�ળવી.",
+      "synonyms": [
+        "suspend",
+        "postpone",
+        "break up"
+      ],
+      "antonyms": [
+        "convene",
+        "begin",
+        "open"
+      ],
+      "collocations": [
+        "adjourn the meeting",
+        "meeting adjourned",
+        "adjourn until tomorrow"
+      ],
+      "word_forms": [
+        "adjourns",
+        "adjourned",
+        "adjourning",
+        "adjournment"
+      ],
+      "usage_note": "The chairperson typically adjourns a meeting after all agenda items are covered.",
+      "memory_tip": "'adjourn' = ad + jour (day) → to another day → adjourn = ભવિષ્ય સુધી ટ�ળવું.",
+      "examples": [
+        "The meeting was adjourned at 5 PM.",
+        "The chairperson adjourned the session due to lack of quorum.",
+        "We will adjourn and meet again next Monday.",
+        "The committee adjourned after three hours of discussion."
+      ]
+    },
+    {
+      "id": 42,
+      "word": "Consensus",
+      "category": "Work & Office",
+      "subcategory": "Meetings & Presentations",
+      "part_of_speech": "noun",
+      "difficulty": "Advanced",
+      "frequency": "Common",
+      "gujarati_pronunciation": "કન્સૅન્સસ",
+      "english_meaning": "General agreement among all members of a group.",
+      "gujarati_meaning": "ગ્રૂ pના તમામ સભ્ysomena ની સામાન્ય સહમtiv.",
+      "synonyms": [
+        "agreement",
+        "unanimity",
+        "accord"
+      ],
+      "antonyms": [
+        "disagreement",
+        "dissent"
+      ],
+      "collocations": [
+        "reach consensus",
+        "build consensus",
+        "by consensus"
+      ],
+      "word_forms": [],
+      "usage_note": "Consensus means everyone agrees; it is different from a majority vote.",
+      "memory_tip": "'consensus' = con (together) + sensus (feeling) → same feeling together → consensus = agreement.",
+      "examples": [
+        "The team reached a consensus on the new strategy.",
+        "Consensus was difficult to achieve on the budget cut.",
+        "The decision was made by consensus, not by vote.",
+        "Building consensus takes time but ensures commitment."
+      ]
+    },
+    {
+      "id": 43,
+      "word": "Flipchart",
+      "category": "Work & Office",
+      "subcategory": "Meetings & Presentations",
+      "part_of_speech": "noun",
+      "difficulty": "Intermediate",
+      "frequency": "Common",
+      "gujarati_pronunciation": "ફ્લિપ-ચાર્ટ",
+      "english_meaning": "A pad of large paper on a stand used to display information during meetings.",
+      "gujarati_meaning": "Stands ઉ ola pe mota kagaznun pad jo meeting ma mahiti dakahvava vaperay.",
+      "synonyms": [
+        "easel pad",
+        "presentation pad"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "use a flipchart",
+        "flipchart stand",
+        "write on the flipchart"
+      ],
+      "word_forms": [
+        "flipcharts"
+      ],
+      "usage_note": "Used in training sessions and workshops for interactive group activities.",
+      "memory_tip": "'flipchart' = flip + chart → flip = ઊ tn → flipchart = ઊ tn chart.",
+      "examples": [
+        "She wrote the key points on the flipchart.",
+        "The trainer used a flipchart instead of a projector.",
+        "Notes from the flipchart were photographed after the session.",
+        "Bring a flipchart to the training room."
+      ]
+    },
+    {
+      "id": 44,
+      "word": "Resolution",
+      "category": "Work & Office",
+      "subcategory": "Meetings & Presentations",
+      "part_of_speech": "noun",
+      "difficulty": "Advanced",
+      "frequency": "Common",
+      "gujarati_pronunciation": "રૅઝ-ોલ્યૂ-શન",
+      "english_meaning": "A formal decision made by a group, committee, or meeting.",
+      "gujarati_meaning": "ગ્રૂp, સoalmity અoalthવl meeting દ્વারા કloylayel aut formal nIrnay.",
+      "synonyms": [
+        "decision",
+        "motion",
+        "determination"
+      ],
+      "antonyms": [
+        "indecision",
+        "deadlock"
+      ],
+      "collocations": [
+        "pass a resolution",
+        "board resolution",
+        "resolution adopted"
+      ],
+      "word_forms": [
+        "resolutions",
+        "resolve",
+        "resolved"
+      ],
+      "usage_note": "In corporate law, resolutions are legally binding decisions of the board.",
+      "memory_tip": "'resolution' = resolve + tion → resolve = ઉ lv → resolution = final solution decided.",
+      "examples": [
+        "The board passed a resolution to increase the budget.",
+        "A resolution was adopted by all committee members.",
+        "The conflict was resolved with a mutual resolution.",
+        "She drafted the resolution for the shareholders' meeting."
+      ]
+    },
+    {
+      "id": 45,
+      "word": "Agenda Item",
+      "category": "Work & Office",
+      "subcategory": "Meetings & Presentations",
+      "part_of_speech": "noun",
+      "difficulty": "Intermediate",
+      "frequency": "Common",
+      "gujarati_pronunciation": "એજૅન્ડા આઇ-ટૅમ",
+      "english_meaning": "A single topic or point listed for discussion on a meeting agenda.",
+      "gujarati_meaning": "meeting agendama charchava mate nondhelay ek mukko athava vishay.",
+      "synonyms": [
+        "topic",
+        "point",
+        "discussion item"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "agenda item number",
+        "next agenda item",
+        "add an agenda item"
+      ],
+      "word_forms": [
+        "agenda items"
+      ],
+      "usage_note": "Each agenda item should have an estimated time allocated for discussion.",
+      "memory_tip": "'agenda item' = agenda + item → agenda = list → agenda item = yadima ek vastu.",
+      "examples": [
+        "The first agenda item was the financial report.",
+        "Can we add a new agenda item before the meeting?",
+        "Each agenda item was given fifteen minutes.",
+        "The agenda item on staffing was deferred to next week."
+      ]
+    },
+    {
+      "id": 46,
+      "word": "Follow-up",
+      "category": "Work & Office",
+      "subcategory": "Meetings & Presentations",
+      "part_of_speech": "noun",
+      "difficulty": "Intermediate",
+      "frequency": "Very common",
+      "gujarati_pronunciation": "ફૉ-લો-અp",
+      "english_meaning": "An action taken after a meeting or event to check on progress or complete a task.",
+      "gujarati_meaning": "meeting ba baad progress tapasava athava kam purun karava leval action.",
+      "synonyms": [
+        "check-in",
+        "review",
+        "update"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "follow-up email",
+        "follow-up meeting",
+        "follow-up action"
+      ],
+      "word_forms": [
+        "follow-ups",
+        "follow up"
+      ],
+      "usage_note": "Always send a follow-up email after an important meeting to confirm decisions.",
+      "memory_tip": "'follow-up' = follow + up → follow = pichu → follow-up = pichu follow karvanu.",
+      "examples": [
+        "She sent a follow-up email after the client meeting.",
+        "A follow-up meeting was scheduled for next Tuesday.",
+        "He completed all follow-up tasks within the day.",
+        "Don't forget the follow-up after the presentation."
+      ]
+    },
+    {
+      "id": 47,
+      "word": "Q&A Session",
+      "category": "Work & Office",
+      "subcategory": "Meetings & Presentations",
+      "part_of_speech": "noun",
+      "difficulty": "Intermediate",
+      "frequency": "Common",
+      "gujarati_pronunciation": "ક્યૂ ઍન્ડ એ સૅ-શ-ન",
+      "english_meaning": "A period of time after a presentation when the audience can ask questions.",
+      "gujarati_meaning": "presentation baad no time period jyare audience prashno puchhi shake.",
+      "synonyms": [
+        "question time",
+        "open floor",
+        "discussion time"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "open Q&A",
+        "Q&A session at the end",
+        "host a Q&A"
+      ],
+      "word_forms": [],
+      "usage_note": "Q&A stands for Questions and Answers; often held at the end of a talk or webinar.",
+      "memory_tip": "'Q&A' = questions and answers → prashno ane uttar → Q&A session = prachna vaishesik samay.",
+      "examples": [
+        "The presentation was followed by a Q&A session.",
+        "She handled the Q&A session very confidently.",
+        "Please save your questions for the Q&A at the end.",
+        "The Q&A session lasted thirty minutes."
+      ]
+    },
+    {
+      "id": 48,
+      "word": "Moderator",
+      "category": "Work & Office",
+      "subcategory": "Meetings & Presentations",
+      "part_of_speech": "noun",
+      "difficulty": "Advanced",
+      "frequency": "Common",
+      "gujarati_pronunciation": "મૉ-ડ-રે-ટ-ર",
+      "english_meaning": "A person who manages the discussion in a meeting or debate.",
+      "gujarati_meaning": "meeting athava charcha na sanchaalan karnaar vayakti.",
+      "synonyms": [
+        "facilitator",
+        "chairperson",
+        "host"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "meeting moderator",
+        "online moderator",
+        "act as moderator"
+      ],
+      "word_forms": [
+        "moderators",
+        "moderate",
+        "moderated"
+      ],
+      "usage_note": "In online meetings, a moderator controls who speaks and manages technical issues.",
+      "memory_tip": "'moderator' = moderate + or → moderate = saamany → moderator = jo saamanytaa rakhey.",
+      "examples": [
+        "The moderator kept the debate on track.",
+        "She acted as moderator for the panel discussion.",
+        "The online meeting had a dedicated moderator.",
+        "A good moderator ensures balanced participation."
+      ]
+    },
+    {
+      "id": 49,
+      "word": "Slide Deck",
+      "category": "Work & Office",
+      "subcategory": "Meetings & Presentations",
+      "part_of_speech": "noun",
+      "difficulty": "Intermediate",
+      "frequency": "Common",
+      "gujarati_pronunciation": "સ્લાઇડ ડૅક",
+      "english_meaning": "A set of slides used in a presentation, typically made in PowerPoint or similar software.",
+      "gujarati_meaning": "PowerPoint jeva software ma banel slides no set, jo presentation ma vaperay.",
+      "synonyms": [
+        "presentation",
+        "slideshow",
+        "PowerPoint"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "prepare a slide deck",
+        "share the slide deck",
+        "slide deck template"
+      ],
+      "word_forms": [
+        "slide decks"
+      ],
+      "usage_note": "'Slide deck' is the informal name for a set of presentation slides.",
+      "memory_tip": "'slide deck' = slide + deck → deck = set → slide deck = slides no set.",
+      "examples": [
+        "Please send me your slide deck before the meeting.",
+        "She designed a professional slide deck for the investor pitch.",
+        "The slide deck was shared via email after the presentation.",
+        "Keep your slide deck simple and visual."
+      ]
+    },
+    {
+      "id": 50,
+      "word": "Virtual Meeting",
+      "category": "Work & Office",
+      "subcategory": "Meetings & Presentations",
+      "part_of_speech": "noun",
+      "difficulty": "Intermediate",
+      "frequency": "Very common",
+      "gujarati_pronunciation": "વર્ચ્યૂ-અl મી-ટિ-ન-ગ",
+      "english_meaning": "A meeting conducted online using video or audio conferencing tools.",
+      "gujarati_meaning": "video athava audio conferencing tools vadhe online chalti meeting.",
+      "synonyms": [
+        "online meeting",
+        "video call",
+        "remote meeting"
+      ],
+      "antonyms": [
+        "in-person meeting",
+        "face-to-face meeting"
+      ],
+      "collocations": [
+        "join a virtual meeting",
+        "virtual meeting platform",
+        "host a virtual meeting"
+      ],
+      "word_forms": [
+        "virtual meetings"
+      ],
+      "usage_note": "Became common after the COVID-19 pandemic; uses platforms like Zoom or Teams.",
+      "memory_tip": "'virtual' = digital + real → virtual meeting = digital duniyama real meeting.",
+      "examples": [
+        "The team held a virtual meeting every Monday morning.",
+        "She joined the virtual meeting from her home office.",
+        "Virtual meetings save travel time and costs.",
+        "Always mute your microphone when not speaking in a virtual meeting."
+      ]
+    },
+    {
+      "id": 51,
+      "word": "Teleconference",
+      "category": "Work & Office",
+      "subcategory": "Meetings & Presentations",
+      "part_of_speech": "noun",
+      "difficulty": "Intermediate",
+      "frequency": "Common",
+      "gujarati_pronunciation": "ટૅ-લિ-કૉ-ન-ફ-રન-સ",
+      "english_meaning": "A meeting conducted by telephone or video between people in different locations.",
+      "gujarati_meaning": "Alag alag sthanoe reheta lokono phone athava video vadhe thaato sampark.",
+      "synonyms": [
+        "conference call",
+        "video conference",
+        "remote meeting"
+      ],
+      "antonyms": [
+        "in-person meeting"
+      ],
+      "collocations": [
+        "host a teleconference",
+        "teleconference call",
+        "join a teleconference"
+      ],
+      "word_forms": [
+        "teleconferences",
+        "teleconference"
+      ],
+      "usage_note": "Teleconferences can be audio-only or include video; common in multinational companies.",
+      "memory_tip": "'teleconference' = tele (far) + conference → dur thi conference → teleconference.",
+      "examples": [
+        "The international team held a weekly teleconference.",
+        "She dialed into the teleconference from the airport.",
+        "A teleconference was arranged to avoid travel costs.",
+        "The teleconference included participants from five countries."
+      ]
+    },
+    {
+      "id": 52,
+      "word": "Recruitment",
+      "category": "Work & Office",
+      "subcategory": "Career & Employment",
+      "part_of_speech": "noun",
+      "difficulty": "Intermediate",
+      "frequency": "Very common",
+      "gujarati_pronunciation": "રિ-ક્રૂ-ટ-મૅ-ન-ટ",
+      "english_meaning": "The process of finding and hiring new employees for a company.",
+      "gujarati_meaning": "Company mate nava karmachario shoadhava ane rakva ni prakriya.",
+      "synonyms": [
+        "hiring",
+        "staffing",
+        "talent acquisition"
+      ],
+      "antonyms": [
+        "dismissal",
+        "layoff"
+      ],
+      "collocations": [
+        "recruitment process",
+        "recruitment agency",
+        "online recruitment"
+      ],
+      "word_forms": [
+        "recruitments",
+        "recruit",
+        "recruited",
+        "recruiter"
+      ],
+      "usage_note": "Recruitment includes job posting, interviewing, and on-boarding new staff.",
+      "memory_tip": "'recruit' = re + cruit → 'navaa' + 'laavao' → recruitment = naav aavao prakriya.",
+      "examples": [
+        "The recruitment process takes about three weeks.",
+        "She works at a recruitment agency.",
+        "Online recruitment has replaced newspaper job ads.",
+        "The company launched a recruitment drive for engineers."
+      ]
+    },
+    {
+      "id": 53,
+      "word": "Appraisal",
+      "category": "Work & Office",
+      "subcategory": "Career & Employment",
+      "part_of_speech": "noun",
+      "difficulty": "Advanced",
+      "frequency": "Common",
+      "gujarati_pronunciation": "અ-પ્રૅ-ઝ-લ",
+      "english_meaning": "A formal assessment of an employee's performance, usually done annually.",
+      "gujarati_meaning": "Karmacharina kaama ni aukaat karvatho sarvangallu maapan, samaanya rite varshik.",
+      "synonyms": [
+        "evaluation",
+        "review",
+        "assessment"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "annual appraisal",
+        "performance appraisal",
+        "appraisal meeting"
+      ],
+      "word_forms": [
+        "appraisals",
+        "appraise",
+        "appraised"
+      ],
+      "usage_note": "Appraisals are linked to salary increments, promotions, or training needs.",
+      "memory_tip": "'appraisal' = appraise + al → appraise = mulyankan → appraisal = kaama ni samiksha.",
+      "examples": [
+        "Her appraisal was scheduled for December.",
+        "The manager conducted annual appraisals for all staff.",
+        "He received a positive appraisal and a pay raise.",
+        "Appraisals help identify training needs."
+      ]
+    },
+    {
+      "id": 54,
+      "word": "Promotion",
+      "category": "Work & Office",
+      "subcategory": "Career & Employment",
+      "part_of_speech": "noun",
+      "difficulty": "Intermediate",
+      "frequency": "Very common",
+      "gujarati_pronunciation": "પ્ર-મો-શ-ન",
+      "english_meaning": "An advancement to a higher position or rank within an organization.",
+      "gujarati_meaning": "Sangathhan ma oochu pad athava drajjo malvo.",
+      "synonyms": [
+        "advancement",
+        "elevation",
+        "upgrade"
+      ],
+      "antonyms": [
+        "demotion",
+        "downgrade"
+      ],
+      "collocations": [
+        "get a promotion",
+        "job promotion",
+        "promotion criteria"
+      ],
+      "word_forms": [
+        "promotions",
+        "promote",
+        "promoted"
+      ],
+      "usage_note": "Promotions usually come with a higher salary, more responsibilities, and a new title.",
+      "memory_tip": "'promotion' = pro + motion → 'aage' + 'jaavanu' → promotion = aaage vadho.",
+      "examples": [
+        "She received a promotion after three years of hard work.",
+        "He applied for a promotion to senior manager.",
+        "Promotions are based on performance and experience.",
+        "The company announced promotions at the year-end event."
+      ]
+    },
+    {
+      "id": 55,
+      "word": "Resignation",
+      "category": "Work & Office",
+      "subcategory": "Career & Employment",
+      "part_of_speech": "noun",
+      "difficulty": "Intermediate",
+      "frequency": "Common",
+      "gujarati_pronunciation": "રૅ-ઝિ-ગ-ના-શ-ન",
+      "english_meaning": "The formal act of leaving a job voluntarily.",
+      "gujarati_meaning": "Naukri chhodavani swechhik ane sattaavar kriya.",
+      "synonyms": [
+        "quitting",
+        "stepping down",
+        "withdrawal"
+      ],
+      "antonyms": [
+        "appointment",
+        "hiring"
+      ],
+      "collocations": [
+        "submit a resignation",
+        "letter of resignation",
+        "resignation notice"
+      ],
+      "word_forms": [
+        "resignations",
+        "resign",
+        "resigned"
+      ],
+      "usage_note": "Usually requires submitting a written resignation letter with a notice period.",
+      "memory_tip": "'resignation' = re + sign → 'paachi' + 'sign' → resignation = naam kadi lavvu.",
+      "examples": [
+        "She submitted her resignation letter last Monday.",
+        "His resignation came as a surprise to the team.",
+        "A one-month notice period follows resignation.",
+        "The manager accepted the resignation gracefully."
+      ]
+    },
+    {
+      "id": 56,
+      "word": "Contract",
+      "category": "Work & Office",
+      "subcategory": "Career & Employment",
+      "part_of_speech": "noun",
+      "difficulty": "Intermediate",
+      "frequency": "Very common",
+      "gujarati_pronunciation": "કૉ-ન-ટ્રૅ-ક-ટ",
+      "english_meaning": "A legally binding agreement between an employer and an employee.",
+      "gujarati_meaning": "Niyojakta ane karmachari vacche ni kanoon-baddh samajuti.",
+      "synonyms": [
+        "agreement",
+        "deed",
+        "treaty"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "sign a contract",
+        "employment contract",
+        "breach of contract"
+      ],
+      "word_forms": [
+        "contracts",
+        "contractual"
+      ],
+      "usage_note": "Read a contract carefully before signing; it includes terms of employment, salary, and duties.",
+      "memory_tip": "'contract' = con + tract → con = sathe + tract = khenchan → contract = sathe baddhata.",
+      "examples": [
+        "She signed a one-year employment contract.",
+        "Read the contract carefully before agreeing.",
+        "He was on a short-term contract for six months.",
+        "The company offered a permanent contract after the probation period."
+      ]
+    },
+    {
+      "id": 57,
+      "word": "Probation",
+      "category": "Work & Office",
+      "subcategory": "Career & Employment",
+      "part_of_speech": "noun",
+      "difficulty": "Advanced",
+      "frequency": "Common",
+      "gujarati_pronunciation": "પ્ર-બે-શ-ન",
+      "english_meaning": "A trial period at the start of employment to assess suitability.",
+      "gujarati_meaning": "Naukri ni shuruatma aavatho kasoti-gaaalo jyare karmacharini yogyata tapasay.",
+      "synonyms": [
+        "trial period",
+        "observation period"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "probation period",
+        "on probation",
+        "pass probation"
+      ],
+      "word_forms": [
+        "probations",
+        "probationary"
+      ],
+      "usage_note": "Usually lasts three to six months; the company can terminate employment during probation.",
+      "memory_tip": "'probation' = probe + ation → probe = tapasavu → probation = kasoti-kaalo.",
+      "examples": [
+        "He passed his probation period successfully.",
+        "Employees on probation have fewer benefits.",
+        "The company extended her probation by one month.",
+        "During probation, performance is closely monitored."
+      ]
+    },
+    {
+      "id": 58,
+      "word": "Redundancy",
+      "category": "Work & Office",
+      "subcategory": "Career & Employment",
+      "part_of_speech": "noun",
+      "difficulty": "Advanced",
+      "frequency": "Common",
+      "gujarati_pronunciation": "રિ-ડ-ન-ડ-ન-સી",
+      "english_meaning": "The situation where a job is no longer needed, leading to an employee's dismissal.",
+      "gujarati_meaning": "E sthiti jyare naukri ni jarurat raheti nathi ane karmachine chhadvamanyo aave.",
+      "synonyms": [
+        "layoff",
+        "job loss",
+        "retrenchment"
+      ],
+      "antonyms": [
+        "employment",
+        "hiring"
+      ],
+      "collocations": [
+        "made redundant",
+        "voluntary redundancy",
+        "redundancy package"
+      ],
+      "word_forms": [
+        "redundancies",
+        "redundant"
+      ],
+      "usage_note": "Redundancy is not the same as being fired; it relates to the job becoming unnecessary.",
+      "memory_tip": "'redundant' = re + dun + dant → 'vadhara ma' + 'kaam' → redundancy = extra job no more.",
+      "examples": [
+        "Twenty employees were made redundant last month.",
+        "She accepted a voluntary redundancy package.",
+        "The restructuring led to widespread redundancy.",
+        "A redundancy payment was offered to affected staff."
+      ]
+    },
+    {
+      "id": 59,
+      "word": "Internship",
+      "category": "Work & Office",
+      "subcategory": "Career & Employment",
+      "part_of_speech": "noun",
+      "difficulty": "Intermediate",
+      "frequency": "Very common",
+      "gujarati_pronunciation": "ઇ-ન-ટ-ર-ન-શ-ઇ-પ",
+      "english_meaning": "A temporary work experience position, usually for students or recent graduates.",
+      "gujarati_meaning": "Vidyarthio athava nava graduate mate aavatho kamucharit kaam no anubhav.",
+      "synonyms": [
+        "placement",
+        "traineeship",
+        "work experience"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "summer internship",
+        "paid internship",
+        "intern program"
+      ],
+      "word_forms": [
+        "internships",
+        "intern"
+      ],
+      "usage_note": "Internships can be paid or unpaid and typically last one to six months.",
+      "memory_tip": "'internship' = intern + ship → intern = andar aavelu → internship = company ni andar practice.",
+      "examples": [
+        "She completed a three-month internship at a law firm.",
+        "The internship gave him valuable industry experience.",
+        "Many companies convert internships into full-time jobs.",
+        "He applied for a summer internship at the tech company."
+      ]
+    },
+    {
+      "id": 60,
+      "word": "Payroll",
+      "category": "Work & Office",
+      "subcategory": "Career & Employment",
+      "part_of_speech": "noun",
+      "difficulty": "Advanced",
+      "frequency": "Common",
+      "gujarati_pronunciation": "પૅ-રોl",
+      "english_meaning": "The system or process by which a company pays its employees.",
+      "gujarati_meaning": "Company je system vadhe karmacharine vetan aape tevi prakriya.",
+      "synonyms": [
+        "salary system",
+        "wage payment",
+        "compensation"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "process payroll",
+        "payroll department",
+        "payroll system"
+      ],
+      "word_forms": [
+        "payrolls"
+      ],
+      "usage_note": "The payroll department manages salaries, deductions, and tax filings.",
+      "memory_tip": "'payroll' = pay + roll → roll = list → payroll = payment list for all employees.",
+      "examples": [
+        "All new employees are added to the payroll.",
+        "The payroll is processed at the end of every month.",
+        "She works in the payroll department.",
+        "Errors in the payroll must be corrected immediately."
+      ]
+    },
+    {
+      "id": 61,
+      "word": "Job Description",
+      "category": "Work & Office",
+      "subcategory": "Career & Employment",
+      "part_of_speech": "noun",
+      "difficulty": "Intermediate",
+      "frequency": "Very common",
+      "gujarati_pronunciation": "જૉ-બ ડ-સ-ક-રિ-પ-શ-ન",
+      "english_meaning": "A written statement outlining the duties, responsibilities, and qualifications required for a job.",
+      "gujarati_meaning": "Naukri ni faraj, jimmedari ane layakati darshavta likhit statement.",
+      "synonyms": [
+        "job spec",
+        "role profile",
+        "position description"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "read the job description",
+        "write a job description",
+        "match the job description"
+      ],
+      "word_forms": [
+        "job descriptions"
+      ],
+      "usage_note": "Always read the job description carefully before applying to see if you are qualified.",
+      "memory_tip": "'job description' = job + description → job = naukri + description = vivaran → naukri nu vivaran.",
+      "examples": [
+        "The job description listed five essential qualifications.",
+        "She wrote a clear job description for the vacancy.",
+        "His tasks went beyond the job description.",
+        "Review the job description before attending the interview."
+      ]
+    },
+    {
+      "id": 62,
+      "word": "Onboarding",
+      "category": "Work & Office",
+      "subcategory": "Career & Employment",
+      "part_of_speech": "noun",
+      "difficulty": "Advanced",
+      "frequency": "Common",
+      "gujarati_pronunciation": "ઓ-ન-બૉ-ર-ડ-ઇ-ન-ગ",
+      "english_meaning": "The process of integrating a new employee into an organization.",
+      "gujarati_meaning": "Nava karmacharine company ma samavesh karva ni prakriya.",
+      "synonyms": [
+        "induction",
+        "orientation",
+        "integration"
+      ],
+      "antonyms": [
+        "offboarding"
+      ],
+      "collocations": [
+        "employee onboarding",
+        "onboarding program",
+        "onboarding process"
+      ],
+      "word_forms": [
+        "onboard",
+        "onboarded"
+      ],
+      "usage_note": "Good onboarding helps new employees feel welcome and prepared for their role.",
+      "memory_tip": "'onboarding' = on + board → 'chadhvu' + 'board' → onboarding = company ma chadhvu.",
+      "examples": [
+        "The onboarding process lasted two weeks.",
+        "She completed the onboarding training successfully.",
+        "Good onboarding reduces staff turnover.",
+        "The HR team designed a new onboarding program."
+      ]
+    },
+    {
+      "id": 63,
+      "word": "Candidate",
+      "category": "Work & Office",
+      "subcategory": "Career & Employment",
+      "part_of_speech": "noun",
+      "difficulty": "Intermediate",
+      "frequency": "Very common",
+      "gujarati_pronunciation": "કૅ-ન-ડ-ડૅ-ટ",
+      "english_meaning": "A person applying for a job or being considered for a position.",
+      "gujarati_meaning": "Naukri mate apply kartu athava vicharavatu vayakti.",
+      "synonyms": [
+        "applicant",
+        "interviewee",
+        "nominee"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "shortlist a candidate",
+        "qualified candidate",
+        "job candidate"
+      ],
+      "word_forms": [
+        "candidates"
+      ],
+      "usage_note": "In job hunting, a strong candidate matches all the job description requirements.",
+      "memory_tip": "'candidate' = candi + date → candi = ujjal (Latin) → candidate = ujjal vayakti = yogya uchhedvaar.",
+      "examples": [
+        "Three candidates were shortlisted for the final interview.",
+        "The ideal candidate must have five years of experience.",
+        "She was the strongest candidate for the marketing role.",
+        "Each candidate was given twenty minutes for the interview."
+      ]
+    },
+    {
+      "id": 64,
+      "word": "Performance Review",
+      "category": "Work & Office",
+      "subcategory": "Career & Employment",
+      "part_of_speech": "noun",
+      "difficulty": "Intermediate",
+      "frequency": "Very common",
+      "gujarati_pronunciation": "પ-ર-ફૉ-ર-મ-ન-સ રિ-વ-ઉ",
+      "english_meaning": "A periodic evaluation of an employee's work quality and achievements.",
+      "gujarati_meaning": "Karmacharina kaamni guna ane uplabdhi ni niymit samiksha.",
+      "synonyms": [
+        "appraisal",
+        "evaluation",
+        "assessment"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "annual performance review",
+        "performance review meeting",
+        "conduct a review"
+      ],
+      "word_forms": [
+        "performance reviews"
+      ],
+      "usage_note": "Used to determine promotions, pay rises, and training needs.",
+      "memory_tip": "'performance review' = performance + review → kaama ni punah-sameeksha.",
+      "examples": [
+        "Her performance review highlighted strong communication skills.",
+        "Performance reviews are held every six months.",
+        "He prepared for his performance review by listing his achievements.",
+        "The manager gave honest feedback during the performance review."
+      ]
+    },
+    {
+      "id": 65,
+      "word": "Reference",
+      "category": "Work & Office",
+      "subcategory": "Career & Employment",
+      "part_of_speech": "noun",
+      "difficulty": "Intermediate",
+      "frequency": "Common",
+      "gujarati_pronunciation": "રૅ-ફ-ર-ન-સ",
+      "english_meaning": "A person who provides information about a job applicant's character or skills.",
+      "gujarati_meaning": "Job apply karnara vyaktina charitra athava kalao vise mahiti aapnara vyakti.",
+      "synonyms": [
+        "referee",
+        "recommendation",
+        "testimonial"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "provide a reference",
+        "reference letter",
+        "character reference"
+      ],
+      "word_forms": [
+        "references",
+        "refer"
+      ],
+      "usage_note": "Employers contact references to verify information provided by a candidate.",
+      "memory_tip": "'reference' = refer + ence → refer = badhal → reference = jo badhale tamaro record.",
+      "examples": [
+        "Please provide two professional references.",
+        "Her reference confirmed her excellent work ethic.",
+        "He listed his previous manager as a reference.",
+        "A strong reference can make a difference in hiring."
+      ]
+    },
+    {
+      "id": 66,
+      "word": "Curriculum Vitae",
+      "category": "Work & Office",
+      "subcategory": "Career & Employment",
+      "part_of_speech": "noun",
+      "difficulty": "Advanced",
+      "frequency": "Very common",
+      "gujarati_pronunciation": "ક-રિ-ક-ઉ-લ-મ વ-ટ-એ",
+      "english_meaning": "A detailed document listing a person's education, work experience, and skills, used when applying for jobs.",
+      "gujarati_meaning": "Naukri mate apply karata vakhate vaperati shikshan, anubhav ane kalao ni vigatvaar yadi.",
+      "synonyms": [
+        "CV",
+        "resume",
+        "bio-data"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "update your CV",
+        "submit a CV",
+        "tailor your CV"
+      ],
+      "word_forms": [
+        "CVs"
+      ],
+      "usage_note": "In the UK and India, 'CV' is preferred; in the USA, 'resume' is more common.",
+      "memory_tip": "'curriculum vitae' = Latin for 'course of life' → life journey document.",
+      "examples": [
+        "She updated her curriculum vitae before the job application.",
+        "Please attach your CV to the application form.",
+        "His CV was impressive with ten years of experience.",
+        "Tailor your CV for each job you apply for."
+      ]
+    },
+    {
+      "id": 67,
+      "word": "Headhunter",
+      "category": "Work & Office",
+      "subcategory": "Career & Employment",
+      "part_of_speech": "noun",
+      "difficulty": "Advanced",
+      "frequency": "Common",
+      "gujarati_pronunciation": "હૅ-ડ-હ-ન-ટ-ર",
+      "english_meaning": "A person or agency that finds and recruits talented professionals for senior positions.",
+      "gujarati_meaning": "Uchcha padviyo mate pratibhavan vyaktio shoadhva ane bhartiya karavnaar vayakti ya agency.",
+      "synonyms": [
+        "recruiter",
+        "talent scout",
+        "executive recruiter"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "contacted by a headhunter",
+        "headhunter agency",
+        "headhunting firm"
+      ],
+      "word_forms": [
+        "headhunters",
+        "headhunt",
+        "headhunted"
+      ],
+      "usage_note": "Headhunters approach professionals who are not actively job searching.",
+      "memory_tip": "'headhunter' = head (top) + hunter → top talent dhundhnaar → headhunter.",
+      "examples": [
+        "She was approached by a headhunter for the CEO role.",
+        "The company used a headhunter to find a new CFO.",
+        "A headhunter contacted him via LinkedIn.",
+        "Headhunting is common for senior executive positions."
+      ]
+    },
+    {
+      "id": 68,
+      "word": "Salary Increment",
+      "category": "Work & Office",
+      "subcategory": "Career & Employment",
+      "part_of_speech": "noun",
+      "difficulty": "Intermediate",
+      "frequency": "Common",
+      "gujarati_pronunciation": "સૅ-લ-રી ઇ-ન-ક-ર-મ-ન-ટ",
+      "english_meaning": "An increase in an employee's regular pay, usually given annually.",
+      "gujarati_meaning": "Karmacharina niymit vetanma vadharo, samaanya rite varshik apayo.",
+      "synonyms": [
+        "pay raise",
+        "salary hike",
+        "wage increase"
+      ],
+      "antonyms": [
+        "pay cut",
+        "salary reduction"
+      ],
+      "collocations": [
+        "annual salary increment",
+        "merit-based increment",
+        "negotiate an increment"
+      ],
+      "word_forms": [
+        "salary increments",
+        "increment"
+      ],
+      "usage_note": "Salary increments are often tied to performance appraisals.",
+      "memory_tip": "'increment' = in + crease → vadhavanu → salary increment = pagar vadharo.",
+      "examples": [
+        "She received a 10% salary increment after her appraisal.",
+        "The salary increment was announced at the year-end meeting.",
+        "Performance-based increments motivate employees.",
+        "He negotiated a higher salary increment than offered."
+      ]
+    },
+    {
+      "id": 69,
+      "word": "Prioritize",
+      "category": "Work & Office",
+      "subcategory": "Deadlines & Productivity",
+      "part_of_speech": "verb",
+      "difficulty": "Intermediate",
+      "frequency": "Very common",
+      "gujarati_pronunciation": "પ-ઇ-ઓ-ર-ઇ-ટ-ઇ-ઝ",
+      "english_meaning": "To decide what is most important and deal with it first.",
+      "gujarati_meaning": "Sauthi muhtvapurnu shu chhe te nakkhi karvu ane pahela tene karvanu.",
+      "synonyms": [
+        "rank",
+        "order",
+        "sort by importance"
+      ],
+      "antonyms": [
+        "ignore",
+        "deprioritize"
+      ],
+      "collocations": [
+        "prioritize tasks",
+        "prioritize work",
+        "prioritize effectively"
+      ],
+      "word_forms": [
+        "prioritizes",
+        "prioritized",
+        "prioritizing",
+        "prioritization"
+      ],
+      "usage_note": "Effective prioritization improves time management and prevents burnout.",
+      "memory_tip": "'prioritize' = priority + ize → priority = mukhyata → prioritize = mukhyata aapvu.",
+      "examples": [
+        "You must prioritize your tasks at the start of the day.",
+        "She learned to prioritize urgent work over routine tasks.",
+        "The manager asked him to prioritize client deliverables.",
+        "Prioritizing helps meet deadlines efficiently."
+      ]
+    },
+    {
+      "id": 70,
+      "word": "Backlog",
+      "category": "Work & Office",
+      "subcategory": "Deadlines & Productivity",
+      "part_of_speech": "noun",
+      "difficulty": "Intermediate",
+      "frequency": "Common",
+      "gujarati_pronunciation": "બૅ-ક-લૉ-ગ",
+      "english_meaning": "An accumulation of unfinished work that needs to be completed.",
+      "gujarati_meaning": "Padeli reheli adhuri kami ni yor.",
+      "synonyms": [
+        "pile-up",
+        "outstanding work",
+        "queue"
+      ],
+      "antonyms": [
+        "completion",
+        "clearance"
+      ],
+      "collocations": [
+        "clear the backlog",
+        "work backlog",
+        "growing backlog"
+      ],
+      "word_forms": [
+        "backlogs"
+      ],
+      "usage_note": "Backlogs are common after holidays, illness, or when short-staffed.",
+      "memory_tip": "'backlog' = back + log → behind + record → backlog = piachad padelu kaam.",
+      "examples": [
+        "She worked overtime to clear the backlog.",
+        "The backlog grew after the team was reduced.",
+        "There is a huge backlog of customer orders.",
+        "They hired temporary staff to handle the backlog."
+      ]
+    },
+    {
+      "id": 71,
+      "word": "Efficiency",
+      "category": "Work & Office",
+      "subcategory": "Deadlines & Productivity",
+      "part_of_speech": "noun",
+      "difficulty": "Intermediate",
+      "frequency": "Very common",
+      "gujarati_pronunciation": "ઇ-ફ-શ-ન-સ-ઇ",
+      "english_meaning": "The ability to do tasks well with minimum wasted time or resources.",
+      "gujarati_meaning": "Unchha praman ni quality saathe ochhi mehnat ane samay vastava saathe kaam karva ni kshamata.",
+      "synonyms": [
+        "productivity",
+        "effectiveness",
+        "output"
+      ],
+      "antonyms": [
+        "inefficiency",
+        "waste"
+      ],
+      "collocations": [
+        "improve efficiency",
+        "operational efficiency",
+        "work efficiency"
+      ],
+      "word_forms": [
+        "efficiencies",
+        "efficient",
+        "efficiently"
+      ],
+      "usage_note": "Efficiency is about doing things right; effectiveness is about doing the right things.",
+      "memory_tip": "'efficiency' = effect + ency → same root as 'effect' → efficiency = best effect for least effort.",
+      "examples": [
+        "New software improved the team's efficiency.",
+        "Efficiency in the workplace reduces costs.",
+        "She completed the task with impressive efficiency.",
+        "Training programs help increase employee efficiency."
+      ]
+    },
+    {
+      "id": 72,
+      "word": "Multitask",
+      "category": "Work & Office",
+      "subcategory": "Deadlines & Productivity",
+      "part_of_speech": "verb",
+      "difficulty": "Intermediate",
+      "frequency": "Common",
+      "gujarati_pronunciation": "મ-લ-ટ-ઇ-ટ-એ-સ-ક",
+      "english_meaning": "To handle more than one task at the same time.",
+      "gujarati_meaning": "Ek sathe ekaathi vadhu kaam sambhadvanu.",
+      "synonyms": [
+        "juggle tasks",
+        "work simultaneously"
+      ],
+      "antonyms": [
+        "focus",
+        "single-task"
+      ],
+      "collocations": [
+        "ability to multitask",
+        "multitask effectively",
+        "multitask in a busy environment"
+      ],
+      "word_forms": [
+        "multitasks",
+        "multitasked",
+        "multitasking"
+      ],
+      "usage_note": "Research suggests multitasking can reduce quality; focus improves results.",
+      "memory_tip": "'multitask' = multi (many) + task → aneka kaam → multitask = aneka kaam ek sathe.",
+      "examples": [
+        "She can multitask efficiently in a busy office.",
+        "He multitasked by answering emails during the call.",
+        "Not everyone can multitask effectively.",
+        "Multitasking is listed as a key skill in many job descriptions."
+      ]
+    },
+    {
+      "id": 73,
+      "word": "Procrastinate",
+      "category": "Work & Office",
+      "subcategory": "Deadlines & Productivity",
+      "part_of_speech": "verb",
+      "difficulty": "Advanced",
+      "frequency": "Common",
+      "gujarati_pronunciation": "પ-ર-ક-ર-એ-સ-ટ-ઇ-ન-એ-ટ",
+      "english_meaning": "To delay or postpone doing a task, usually because it is unpleasant.",
+      "gujarati_meaning": "Kaam ne, samaanya rite tenu gamatun na hova thi, mundi kadhvu ya talavvu.",
+      "synonyms": [
+        "delay",
+        "postpone",
+        "dawdle"
+      ],
+      "antonyms": [
+        "act",
+        "begin",
+        "execute"
+      ],
+      "collocations": [
+        "stop procrastinating",
+        "tend to procrastinate",
+        "procrastinate on tasks"
+      ],
+      "word_forms": [
+        "procrastinates",
+        "procrastinated",
+        "procrastinating",
+        "procrastination"
+      ],
+      "usage_note": "Procrastination is a common productivity killer; use time-blocking to combat it.",
+      "memory_tip": "'procrastinate' = pro + cras (tomorrow in Latin) → to move to tomorrow → procrastinate = kaal par dhakvanu.",
+      "examples": [
+        "Stop procrastinating and start the report now.",
+        "She tends to procrastinate when facing difficult tasks.",
+        "Procrastination led to missing the deadline.",
+        "Use a timer to avoid procrastinating."
+      ]
+    },
+    {
+      "id": 74,
+      "word": "Milestone",
+      "category": "Work & Office",
+      "subcategory": "Deadlines & Productivity",
+      "part_of_speech": "noun",
+      "difficulty": "Intermediate",
+      "frequency": "Common",
+      "gujarati_pronunciation": "માઇ-l스-ટો-ન",
+      "english_meaning": "A significant event or stage in the progress of a project.",
+      "gujarati_meaning": "Project ni pragati ma ek muhtvapurna ghatana ya tatto.",
+      "synonyms": [
+        "checkpoint",
+        "landmark",
+        "achievement"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "reach a milestone",
+        "project milestone",
+        "key milestone"
+      ],
+      "word_forms": [
+        "milestones"
+      ],
+      "usage_note": "Milestones help teams track progress and celebrate achievements along the way.",
+      "memory_tip": "'milestone' = mile + stone → safar ma pathar → milestone = project safar ma mukhya tatto.",
+      "examples": [
+        "The team celebrated reaching the first milestone.",
+        "Each milestone was marked on the project timeline.",
+        "Completing the prototype was a major milestone.",
+        "Milestones keep the project on schedule."
+      ]
+    },
+    {
+      "id": 75,
+      "word": "Workload",
+      "category": "Work & Office",
+      "subcategory": "Deadlines & Productivity",
+      "part_of_speech": "noun",
+      "difficulty": "Intermediate",
+      "frequency": "Very common",
+      "gujarati_pronunciation": "વ-ર-ક-લો-ડ",
+      "english_meaning": "The amount of work a person or organization has to do.",
+      "gujarati_meaning": "Ek vayakti athava sangathhan ne karavanu hoy teva kaama nu praman.",
+      "synonyms": [
+        "tasks",
+        "duties",
+        "assignments"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "heavy workload",
+        "manage workload",
+        "reduce workload"
+      ],
+      "word_forms": [
+        "workloads"
+      ],
+      "usage_note": "An excessive workload without support leads to employee burnout.",
+      "memory_tip": "'workload' = work + load → load = bojh → workload = kaama no bojh.",
+      "examples": [
+        "She struggled to manage her heavy workload.",
+        "The team's workload increased after two members left.",
+        "He distributed the workload evenly among the team.",
+        "Discuss your workload with your manager if it is unmanageable."
+      ]
+    },
+    {
+      "id": 76,
+      "word": "Time Management",
+      "category": "Work & Office",
+      "subcategory": "Deadlines & Productivity",
+      "part_of_speech": "noun",
+      "difficulty": "Intermediate",
+      "frequency": "Very common",
+      "gujarati_pronunciation": "ટ-ઇ-મ મૅ-ન-ઇ-જ-મ-ન-ટ",
+      "english_meaning": "The ability to use one's time productively and efficiently.",
+      "gujarati_meaning": "Potana samay ne upyogita ritu ane kushalatathi vaprava ni kshamata.",
+      "synonyms": [
+        "scheduling",
+        "planning",
+        "organisation"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "good time management",
+        "time management skills",
+        "effective time management"
+      ],
+      "word_forms": [],
+      "usage_note": "Good time management reduces stress and helps meet deadlines consistently.",
+      "memory_tip": "'time management' = samay no niyantran → samay nu yoygya upyog.",
+      "examples": [
+        "Good time management is key to success at work.",
+        "She attended a course on time management.",
+        "Poor time management led to missed deadlines.",
+        "Time management tools like planners help stay organised."
+      ]
+    },
+    {
+      "id": 77,
+      "word": "Bottleneck",
+      "category": "Work & Office",
+      "subcategory": "Deadlines & Productivity",
+      "part_of_speech": "noun",
+      "difficulty": "Advanced",
+      "frequency": "Common",
+      "gujarati_pronunciation": "બૉ-ટ-l-ન-ૅ-ક",
+      "english_meaning": "A point in a process where the flow is slowed or blocked, causing delays.",
+      "gujarati_meaning": "Process ma evi jagya jyae pravah dheemo pade athava rokay ane vilamba thay.",
+      "synonyms": [
+        "obstruction",
+        "hold-up",
+        "constraint"
+      ],
+      "antonyms": [
+        "smooth flow",
+        "efficiency"
+      ],
+      "collocations": [
+        "identify the bottleneck",
+        "create a bottleneck",
+        "resolve a bottleneck"
+      ],
+      "word_forms": [
+        "bottlenecks"
+      ],
+      "usage_note": "Identifying and removing bottlenecks is key to improving workflow efficiency.",
+      "memory_tip": "'bottleneck' = bottle + neck → botal ni gardan jevi tangi jaga → slow point in flow.",
+      "examples": [
+        "The approval process was a bottleneck in the workflow.",
+        "Identify the bottleneck before redesigning the process.",
+        "The new software eliminated the bottleneck.",
+        "Team bottlenecks slow down the whole project."
+      ]
+    },
+    {
+      "id": 78,
+      "word": "Deliverable",
+      "category": "Work & Office",
+      "subcategory": "Deadlines & Productivity",
+      "part_of_speech": "noun",
+      "difficulty": "Advanced",
+      "frequency": "Common",
+      "gujarati_pronunciation": "ડ-ઇ-l-ઇ-વ-ર-ૅ-bl",
+      "english_meaning": "A product, result, or item that must be completed and delivered as part of a project.",
+      "gujarati_meaning": "Project na bhag tareka pura karva ane saupva na output athava result.",
+      "synonyms": [
+        "output",
+        "result",
+        "product"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "project deliverable",
+        "key deliverables",
+        "submit deliverables"
+      ],
+      "word_forms": [
+        "deliverables"
+      ],
+      "usage_note": "Each deliverable should have a clear deadline and a person responsible.",
+      "memory_tip": "'deliverable' = deliver + able → jo deliver thay shake → deliverable = kaam nu result.",
+      "examples": [
+        "The project has five key deliverables.",
+        "She submitted all deliverables on time.",
+        "Each team member is responsible for their own deliverable.",
+        "List the deliverables in the project plan."
+      ]
+    },
+    {
+      "id": 79,
+      "word": "Burnout",
+      "category": "Work & Office",
+      "subcategory": "Deadlines & Productivity",
+      "part_of_speech": "noun",
+      "difficulty": "Intermediate",
+      "frequency": "Common",
+      "gujarati_pronunciation": "બ-ર-ન-આઉ-ટ",
+      "english_meaning": "A state of physical or mental exhaustion caused by excessive and prolonged stress.",
+      "gujarati_meaning": "Vadhare pad thi ane lambaa samay sudhi ni tanav thi aavatho sharirik athava mansik thak.",
+      "synonyms": [
+        "exhaustion",
+        "fatigue",
+        "overwork"
+      ],
+      "antonyms": [
+        "motivation",
+        "energy",
+        "enthusiasm"
+      ],
+      "collocations": [
+        "experience burnout",
+        "prevent burnout",
+        "work burnout"
+      ],
+      "word_forms": [
+        "burn out"
+      ],
+      "usage_note": "Burnout is recognized by the WHO as a workplace phenomenon; it affects health and performance.",
+      "memory_tip": "'burnout' = burn + out → poorepuri baali javanu → burnout = shaktino nas thavai javano.",
+      "examples": [
+        "She took a leave of absence to recover from burnout.",
+        "Burnout is common in high-pressure jobs.",
+        "Companies invest in wellness programs to prevent burnout.",
+        "Taking regular breaks helps avoid burnout."
+      ]
+    },
+    {
+      "id": 80,
+      "word": "Deadline Extension",
+      "category": "Work & Office",
+      "subcategory": "Deadlines & Productivity",
+      "part_of_speech": "noun",
+      "difficulty": "Intermediate",
+      "frequency": "Common",
+      "gujarati_pronunciation": "ડ-ૅ-ડ-l-ઇ-ન ઇ-ks-ટ-ૅ-n-sh-n",
+      "english_meaning": "An official grant of extra time to complete a task beyond the original deadline.",
+      "gujarati_meaning": "Mool deadline thi vadhu samay aapvo kaam pura karava mate.",
+      "synonyms": [
+        "time extension",
+        "extra time",
+        "postponement"
+      ],
+      "antonyms": [
+        "early deadline",
+        "advance submission"
+      ],
+      "collocations": [
+        "request a deadline extension",
+        "grant an extension",
+        "extension request"
+      ],
+      "word_forms": [
+        "deadline extensions"
+      ],
+      "usage_note": "Always request a deadline extension in advance, not after the deadline has passed.",
+      "memory_tip": "'extension' = extend + tion → extend = lambavvu → extension = samay lambavvo.",
+      "examples": [
+        "She requested a deadline extension due to illness.",
+        "The client agreed to a one-week deadline extension.",
+        "Always justify your request for a deadline extension.",
+        "Extensions are granted only in exceptional circumstances."
+      ]
+    },
+    {
+      "id": 81,
+      "word": "Overdue",
+      "category": "Work & Office",
+      "subcategory": "Deadlines & Productivity",
+      "part_of_speech": "adjective",
+      "difficulty": "Intermediate",
+      "frequency": "Common",
+      "gujarati_pronunciation": "ઓ-વ-ર-ડ-ઉ",
+      "english_meaning": "Not done or paid by the required or expected time.",
+      "gujarati_meaning": "Nakkhi thayel samay tak na thayel athava na bharelo.",
+      "synonyms": [
+        "late",
+        "delayed",
+        "past due"
+      ],
+      "antonyms": [
+        "on time",
+        "punctual",
+        "early"
+      ],
+      "collocations": [
+        "overdue payment",
+        "overdue task",
+        "long overdue"
+      ],
+      "word_forms": [],
+      "usage_note": "An overdue task needs immediate attention; an overdue payment can attract penalties.",
+      "memory_tip": "'overdue' = over + due → 'vadhi gayel' + 'baaki' → overdue = mudat vadhi gai chhe.",
+      "examples": [
+        "The payment is two weeks overdue.",
+        "He submitted the overdue report with an apology.",
+        "Several tasks are overdue and need immediate attention.",
+        "Avoid overdue invoices by setting payment reminders."
+      ]
+    },
+    {
+      "id": 82,
+      "word": "Targets",
+      "category": "Work & Office",
+      "subcategory": "Deadlines & Productivity",
+      "part_of_speech": "noun",
+      "difficulty": "Intermediate",
+      "frequency": "Very common",
+      "gujarati_pronunciation": "ટ-ૅ-ર-ગ-ૅ-ટ-s",
+      "english_meaning": "Specific goals or results that employees or teams are expected to achieve.",
+      "gujarati_meaning": "Karmachario athava team ne padhava na nakkhi karyel lakshya ya parinaam.",
+      "synonyms": [
+        "goals",
+        "objectives",
+        "quotas"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "meet targets",
+        "sales targets",
+        "set targets"
+      ],
+      "word_forms": [
+        "target"
+      ],
+      "usage_note": "Targets should be SMART: Specific, Measurable, Achievable, Relevant, and Time-bound.",
+      "memory_tip": "'target' = lakshya → target = teer kya lagne chhe teva → goal.",
+      "examples": [
+        "She exceeded her sales targets for the quarter.",
+        "The team set ambitious targets for the new year.",
+        "Failing to meet targets can affect your appraisal.",
+        "Targets should be realistic and clearly communicated."
+      ]
+    },
+    {
+      "id": 83,
+      "word": "Roster",
+      "category": "Work & Office",
+      "subcategory": "Deadlines & Productivity",
+      "part_of_speech": "noun",
+      "difficulty": "Intermediate",
+      "frequency": "Common",
+      "gujarati_pronunciation": "ρόσ-ટ-ૅ-ρ",
+      "english_meaning": "A schedule showing when each employee is expected to work.",
+      "gujarati_meaning": "Kya karmachari kyare kaam karshe te darshavtu schedule.",
+      "synonyms": [
+        "schedule",
+        "rota",
+        "duty chart"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "work roster",
+        "post the roster",
+        "update the roster"
+      ],
+      "word_forms": [
+        "rosters"
+      ],
+      "usage_note": "In shift-based jobs, a roster tells employees their working hours for the week or month.",
+      "memory_tip": "'roster' = ro + ster → rotating + star → fera badlati duty → roster = duty schedule.",
+      "examples": [
+        "The roster for next month has been posted.",
+        "She checked the roster before planning her holiday.",
+        "Managers prepare the roster every Sunday.",
+        "The roster was updated to cover for the absent staff."
+      ]
+    },
+    {
+      "id": 84,
+      "word": "Turnaround Time",
+      "category": "Work & Office",
+      "subcategory": "Deadlines & Productivity",
+      "part_of_speech": "noun",
+      "difficulty": "Advanced",
+      "frequency": "Common",
+      "gujarati_pronunciation": "ટ-ૅ-ρ-ν-ə-ρ-ə-ν-ड-ट-ə-ε-μ",
+      "english_meaning": "The amount of time taken to complete a task or process from start to finish.",
+      "gujarati_meaning": "Koi kaam ya prakriya shurua thi puri thava sudhi nu samay praman.",
+      "synonyms": [
+        "processing time",
+        "lead time",
+        "completion time"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "fast turnaround time",
+        "reduce turnaround time",
+        "standard turnaround time"
+      ],
+      "word_forms": [
+        "turnaround times"
+      ],
+      "usage_note": "Clients often specify a turnaround time when placing orders or requests.",
+      "memory_tip": "'turnaround' = turn + around → farvanu → turnaround time = faravano samay.",
+      "examples": [
+        "The turnaround time for this order is 48 hours.",
+        "Clients expect a fast turnaround time on quotes.",
+        "Automating the process reduced turnaround time.",
+        "The agency guaranteed a 24-hour turnaround time."
+      ]
+    },
+    {
+      "id": 85,
+      "word": "Colleague",
+      "category": "Work & Office",
+      "subcategory": "Workplace Relationships",
+      "part_of_speech": "noun",
+      "difficulty": "Intermediate",
+      "frequency": "Very common",
+      "gujarati_pronunciation": "કૉ-lઇ-ગ",
+      "english_meaning": "A person you work with, especially in a professional or office environment.",
+      "gujarati_meaning": "Saath kaam kartu vayakti, khaaskarake vayavsayik athava office vatavaranma.",
+      "synonyms": [
+        "coworker",
+        "associate",
+        "peer"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "work colleague",
+        "trusted colleague",
+        "support a colleague"
+      ],
+      "word_forms": [
+        "colleagues"
+      ],
+      "usage_note": "'Colleague' implies a professional relationship; 'friend' is more personal.",
+      "memory_tip": "'colleague' = col + league → league = sangh → colleague = same sangh ma kaam karnaar.",
+      "examples": [
+        "She discussed the project with her colleagues.",
+        "He helped a struggling colleague meet the deadline.",
+        "My colleague gave me useful advice on the report.",
+        "Always treat your colleagues with respect."
+      ]
+    },
+    {
+      "id": 86,
+      "word": "Mentor",
+      "category": "Work & Office",
+      "subcategory": "Workplace Relationships",
+      "part_of_speech": "noun",
+      "difficulty": "Intermediate",
+      "frequency": "Common",
+      "gujarati_pronunciation": "મ-ૅ-n-ト-ρ",
+      "english_meaning": "An experienced person who guides and advises someone less experienced.",
+      "gujarati_meaning": "Anubhavi vayakti jo ochha anubhavi ne margdarshan ane salah aape.",
+      "synonyms": [
+        "guide",
+        "advisor",
+        "coach"
+      ],
+      "antonyms": [
+        "mentee",
+        "trainee"
+      ],
+      "collocations": [
+        "find a mentor",
+        "act as a mentor",
+        "mentorship program"
+      ],
+      "word_forms": [
+        "mentors",
+        "mentoring",
+        "mentorship"
+      ],
+      "usage_note": "A mentor provides career guidance, not just technical knowledge.",
+      "memory_tip": "'mentor' = man + tor → 'experience + lead' → mentor = anubhav thi margdarshan.",
+      "examples": [
+        "She found a mentor who helped her navigate corporate politics.",
+        "He served as a mentor to junior employees.",
+        "A good mentor accelerates career growth.",
+        "The company runs a formal mentorship program."
+      ]
+    },
+    {
+      "id": 87,
+      "word": "Hierarchy",
+      "category": "Work & Office",
+      "subcategory": "Workplace Relationships",
+      "part_of_speech": "noun",
+      "difficulty": "Advanced",
+      "frequency": "Common",
+      "gujarati_pronunciation": "હ-ə-ρ-ɑ:-ρ-k-i",
+      "english_meaning": "A system in which people are ranked according to their authority or status.",
+      "gujarati_meaning": "Evi vyavastha jema vyaktionu sarjni unchi athava nichi sthiti pramane vikraman karaya.",
+      "synonyms": [
+        "ranking",
+        "chain of command",
+        "structure"
+      ],
+      "antonyms": [
+        "flat structure",
+        "equality"
+      ],
+      "collocations": [
+        "corporate hierarchy",
+        "strict hierarchy",
+        "management hierarchy"
+      ],
+      "word_forms": [
+        "hierarchies",
+        "hierarchical"
+      ],
+      "usage_note": "In a flat hierarchy, fewer levels exist and communication is more direct.",
+      "memory_tip": "'hierarchy' = higher + archy → hierarchy = oochu pad → ranking system.",
+      "examples": [
+        "The company has a strict hierarchy with five management levels.",
+        "She struggled to navigate the corporate hierarchy.",
+        "A flat hierarchy promotes open communication.",
+        "Promotions move employees up the hierarchy."
+      ]
+    },
+    {
+      "id": 88,
+      "word": "Networking",
+      "category": "Work & Office",
+      "subcategory": "Workplace Relationships",
+      "part_of_speech": "noun",
+      "difficulty": "Intermediate",
+      "frequency": "Very common",
+      "gujarati_pronunciation": "ν-ε-τ-w-ə-ρ-k-ɪ-ŋ",
+      "english_meaning": "Building professional relationships that can help advance a career.",
+      "gujarati_meaning": "Career ne aage vadharva mate vayavsayik sambandho banaavvu.",
+      "synonyms": [
+        "relationship building",
+        "connecting",
+        "socialising professionally"
+      ],
+      "antonyms": [
+        "isolation",
+        "avoidance"
+      ],
+      "collocations": [
+        "professional networking",
+        "networking event",
+        "networking skills"
+      ],
+      "word_forms": [
+        "network",
+        "networked"
+      ],
+      "usage_note": "Networking on LinkedIn and at industry events opens career opportunities.",
+      "memory_tip": "'networking' = net + work → net = jaal → networking = sambandho nu jaal banavu.",
+      "examples": [
+        "She attended a networking event to meet industry leaders.",
+        "Networking helped him find his current job.",
+        "LinkedIn is a powerful tool for professional networking.",
+        "Networking skills are essential for career growth."
+      ]
+    },
+    {
+      "id": 89,
+      "word": "Conflict Resolution",
+      "category": "Work & Office",
+      "subcategory": "Workplace Relationships",
+      "part_of_speech": "noun",
+      "difficulty": "Advanced",
+      "frequency": "Common",
+      "gujarati_pronunciation": "k-ɒ-n-f-l-ɪ-k-t ρ-ε-z-ə-l-u:-ʃ-n",
+      "english_meaning": "The process of resolving a disagreement or dispute between people.",
+      "gujarati_meaning": "Lokono nikhay athava vivad udi karvani prakriya.",
+      "synonyms": [
+        "dispute resolution",
+        "mediation",
+        "problem solving"
+      ],
+      "antonyms": [
+        "conflict",
+        "dispute",
+        "disagreement"
+      ],
+      "collocations": [
+        "workplace conflict resolution",
+        "conflict resolution skills",
+        "manage conflict"
+      ],
+      "word_forms": [],
+      "usage_note": "Conflict resolution skills include active listening, empathy, and compromise.",
+      "memory_tip": "'conflict resolution' = jhagdo + udi karvo → conflict resolution = jhagda no anto.",
+      "examples": [
+        "The HR team was trained in conflict resolution.",
+        "Effective conflict resolution improves team morale.",
+        "She used conflict resolution techniques to settle the dispute.",
+        "Conflict resolution should be handled promptly."
+      ]
+    },
+    {
+      "id": 90,
+      "word": "Team Spirit",
+      "category": "Work & Office",
+      "subcategory": "Workplace Relationships",
+      "part_of_speech": "noun",
+      "difficulty": "Intermediate",
+      "frequency": "Common",
+      "gujarati_pronunciation": "ट-i:-m sp-ɪ-ρ-ɪ-t",
+      "english_meaning": "A feeling of trust, cooperation, and support among team members.",
+      "gujarati_meaning": "Team na sadasyo vacche vishvaas, sahyog ane takarano bhaav.",
+      "synonyms": [
+        "camaraderie",
+        "teamwork",
+        "morale"
+      ],
+      "antonyms": [
+        "rivalry",
+        "disunity"
+      ],
+      "collocations": [
+        "build team spirit",
+        "high team spirit",
+        "foster team spirit"
+      ],
+      "word_forms": [],
+      "usage_note": "Team-building activities help boost team spirit and improve workplace relationships.",
+      "memory_tip": "'team spirit' = team + spirit → team = juth + spirit = bhaav → team spirit = milelu bhaav.",
+      "examples": [
+        "The manager organised activities to build team spirit.",
+        "High team spirit improves overall performance.",
+        "The competition between departments reduced team spirit.",
+        "Team spirit was high after winning the company award."
+      ]
+    },
+    {
+      "id": 91,
+      "word": "Subordinate",
+      "category": "Work & Office",
+      "subcategory": "Workplace Relationships",
+      "part_of_speech": "noun",
+      "difficulty": "Advanced",
+      "frequency": "Common",
+      "gujarati_pronunciation": "s-ə-b-ɔ:-d-ɪ-n-ə-t",
+      "english_meaning": "A person of lower rank or status who reports to a superior.",
+      "gujarati_meaning": "Ochhu pad dhravta vayakti jo oocha adhikarine report kare.",
+      "synonyms": [
+        "junior",
+        "employee",
+        "report"
+      ],
+      "antonyms": [
+        "superior",
+        "manager",
+        "boss"
+      ],
+      "collocations": [
+        "manage subordinates",
+        "direct subordinate",
+        "treat subordinates fairly"
+      ],
+      "word_forms": [
+        "subordinates"
+      ],
+      "usage_note": "Good managers delegate effectively and treat subordinates with respect.",
+      "memory_tip": "'subordinate' = sub + ordinate → sub = neeche → subordinate = neeche wala.",
+      "examples": [
+        "She manages five direct subordinates.",
+        "He treated his subordinates with great respect.",
+        "Good communication between manager and subordinate is essential.",
+        "Empower your subordinates by giving them responsibility."
+      ]
+    },
+    {
+      "id": 92,
+      "word": "Professionalism",
+      "category": "Work & Office",
+      "subcategory": "Workplace Relationships",
+      "part_of_speech": "noun",
+      "difficulty": "Intermediate",
+      "frequency": "Very common",
+      "gujarati_pronunciation": "p-ρ-ə-f-ε-ʃ-ə-n-ə-l-ɪ-z-m",
+      "english_meaning": "The conduct, behaviour, and attitude expected of a professional person.",
+      "gujarati_meaning": "Vyavsayik vayaktitha apekshit aacharan, vyavahar ane abhigam.",
+      "synonyms": [
+        "integrity",
+        "expertise",
+        "conduct"
+      ],
+      "antonyms": [
+        "unprofessionalism",
+        "misconduct"
+      ],
+      "collocations": [
+        "demonstrate professionalism",
+        "lack of professionalism",
+        "workplace professionalism"
+      ],
+      "word_forms": [
+        "professional",
+        "professionally"
+      ],
+      "usage_note": "Professionalism includes punctuality, proper communication, and meeting standards.",
+      "memory_tip": "'professionalism' = professional + ism → vayasayikta → professionalism = office ma sahi aacharan.",
+      "examples": [
+        "She is known for her high level of professionalism.",
+        "Professionalism in the workplace builds trust and respect.",
+        "He handled the client complaint with great professionalism.",
+        "Always demonstrate professionalism in your emails."
+      ]
+    },
+    {
+      "id": 93,
+      "word": "Rapport",
+      "category": "Work & Office",
+      "subcategory": "Workplace Relationships",
+      "part_of_speech": "noun",
+      "difficulty": "Advanced",
+      "frequency": "Common",
+      "gujarati_pronunciation": "ρ-æ-p-ɔ:",
+      "english_meaning": "A harmonious relationship with mutual trust and understanding.",
+      "gujarati_meaning": "Parasparik vishvaas ane samajana saathe saras sambandha.",
+      "synonyms": [
+        "bond",
+        "connection",
+        "understanding"
+      ],
+      "antonyms": [
+        "tension",
+        "mistrust"
+      ],
+      "collocations": [
+        "build rapport",
+        "good rapport",
+        "establish rapport"
+      ],
+      "word_forms": [],
+      "usage_note": "Building rapport with clients and colleagues improves communication and outcomes.",
+      "memory_tip": "'rapport' = re + port → carry back → rapport = ek bija pase vaatoni aapali.",
+      "examples": [
+        "She quickly built rapport with the new client.",
+        "Good rapport between manager and team boosts morale.",
+        "He has strong rapport with all departments.",
+        "Building rapport requires active listening and empathy."
+      ]
+    },
+    {
+      "id": 94,
+      "word": "Empathy",
+      "category": "Work & Office",
+      "subcategory": "Workplace Relationships",
+      "part_of_speech": "noun",
+      "difficulty": "Intermediate",
+      "frequency": "Common",
+      "gujarati_pronunciation": "ε-m-p-ə-θ-i",
+      "english_meaning": "The ability to understand and share the feelings of another person.",
+      "gujarati_meaning": "Bija ni laagani samajva ane tena jeva anubhav karva ni kshamata.",
+      "synonyms": [
+        "compassion",
+        "understanding",
+        "sensitivity"
+      ],
+      "antonyms": [
+        "indifference",
+        "apathy"
+      ],
+      "collocations": [
+        "show empathy",
+        "lack of empathy",
+        "empathy in the workplace"
+      ],
+      "word_forms": [
+        "empathize",
+        "empathetic"
+      ],
+      "usage_note": "Leaders with empathy create more positive and inclusive workplaces.",
+      "memory_tip": "'empathy' = em + pathy → feel + inside → empathy = andar thi samajvanu.",
+      "examples": [
+        "She showed empathy when a colleague was going through a tough time.",
+        "Empathy is a key leadership quality.",
+        "He handled the complaint with empathy and patience.",
+        "Workplace empathy builds stronger teams."
+      ]
+    },
+    {
+      "id": 95,
+      "word": "Accountability",
+      "category": "Work & Office",
+      "subcategory": "Workplace Relationships",
+      "part_of_speech": "noun",
+      "difficulty": "Advanced",
+      "frequency": "Common",
+      "gujarati_pronunciation": "ə-k-aʊ-n-t-ə-b-ɪ-l-ɪ-t-i",
+      "english_meaning": "The fact or condition of being responsible for one's actions and decisions.",
+      "gujarati_meaning": "Potana karyono ane nirnayoni jimmedari svikarva ni sthiti.",
+      "synonyms": [
+        "responsibility",
+        "answerability",
+        "liability"
+      ],
+      "antonyms": [
+        "irresponsibility",
+        "evasion"
+      ],
+      "collocations": [
+        "take accountability",
+        "personal accountability",
+        "culture of accountability"
+      ],
+      "word_forms": [
+        "accountable"
+      ],
+      "usage_note": "Accountability means accepting responsibility when things go wrong, not just when they go right.",
+      "memory_tip": "'accountability' = account + ability → account = hisab → accountability = hisab aapva ni kshamata.",
+      "examples": [
+        "She took full accountability for the project's failure.",
+        "Accountability is the foundation of trust in a team.",
+        "He refused to take accountability for the mistake.",
+        "A culture of accountability improves team performance."
+      ]
+    },
+    {
+      "id": 96,
+      "word": "Grievance",
+      "category": "Work & Office",
+      "subcategory": "Workplace Relationships",
+      "part_of_speech": "noun",
+      "difficulty": "Advanced",
+      "frequency": "Common",
+      "gujarati_pronunciation": "g-ρ-i:-v-ə-n-s",
+      "english_meaning": "A formal complaint made by an employee about a workplace issue.",
+      "gujarati_meaning": "Karmachari dwara karyasthal na preshna ange karatee sattaavar farayad.",
+      "synonyms": [
+        "complaint",
+        "dispute",
+        "objection"
+      ],
+      "antonyms": [
+        "satisfaction",
+        "contentment"
+      ],
+      "collocations": [
+        "raise a grievance",
+        "grievance procedure",
+        "file a grievance"
+      ],
+      "word_forms": [
+        "grievances"
+      ],
+      "usage_note": "All companies should have a formal grievance procedure for employees to raise concerns.",
+      "memory_tip": "'grievance' = grieve + ance → grieve = dukhi thavanu → grievance = dukh no sattavar avaaj.",
+      "examples": [
+        "She filed a formal grievance about the manager's behaviour.",
+        "The HR team handles all employee grievances.",
+        "A grievance procedure ensures fair treatment.",
+        "He raised a grievance regarding unequal pay."
+      ]
+    },
+    {
+      "id": 97,
+      "word": "Harassment",
+      "category": "Work & Office",
+      "subcategory": "Workplace Relationships",
+      "part_of_speech": "noun",
+      "difficulty": "Advanced",
+      "frequency": "Common",
+      "gujarati_pronunciation": "h-æ-ρ-ə-s-m-ə-n-t",
+      "english_meaning": "Aggressive, intimidating, or unwanted behaviour directed at someone in the workplace.",
+      "gujarati_meaning": "Karyasthal ma koi prati avandhu, dabavtu athava agrahyo aacharan.",
+      "synonyms": [
+        "bullying",
+        "intimidation",
+        "misconduct"
+      ],
+      "antonyms": [
+        "respect",
+        "support"
+      ],
+      "collocations": [
+        "workplace harassment",
+        "sexual harassment",
+        "report harassment"
+      ],
+      "word_forms": [
+        "harass",
+        "harassed"
+      ],
+      "usage_note": "Harassment is illegal in most countries; employees should report it to HR immediately.",
+      "memory_tip": "'harassment' = harry + ment → harry = tang karvanu → harassment = tang karva nu aacharan.",
+      "examples": [
+        "She reported workplace harassment to the HR department.",
+        "Harassment of any kind is not tolerated in our company.",
+        "He faced legal consequences for workplace harassment.",
+        "All employees must complete anti-harassment training."
+      ]
+    },
+    {
+      "id": 98,
+      "word": "Inclusive",
+      "category": "Work & Office",
+      "subcategory": "Workplace Relationships",
+      "part_of_speech": "adjective",
+      "difficulty": "Intermediate",
+      "frequency": "Common",
+      "gujarati_pronunciation": "ɪ-n-k-l-u:-s-ɪ-v",
+      "english_meaning": "Including everyone, especially people from different backgrounds, without discrimination.",
+      "gujarati_meaning": "Bhedabhav vagar badha ne, khaaskarake alag alag pachhapatna ne, saamil karvu.",
+      "synonyms": [
+        "diverse",
+        "open",
+        "welcoming"
+      ],
+      "antonyms": [
+        "exclusive",
+        "discriminatory"
+      ],
+      "collocations": [
+        "inclusive workplace",
+        "inclusive culture",
+        "inclusive language"
+      ],
+      "word_forms": [
+        "inclusion",
+        "inclusivity",
+        "include"
+      ],
+      "usage_note": "An inclusive workplace values diversity and ensures all voices are heard.",
+      "memory_tip": "'inclusive' = include + ive → include = samavesh → inclusive = badha ne samaviltu.",
+      "examples": [
+        "The company promotes an inclusive workplace culture.",
+        "Inclusive policies attract diverse talent.",
+        "She ensured the meeting was inclusive of all team members.",
+        "An inclusive leader values every team member's opinion."
+      ]
+    },
+    {
+      "id": 99,
+      "word": "Collaboration",
+      "category": "Work & Office",
+      "subcategory": "Workplace Relationships",
+      "part_of_speech": "noun",
+      "difficulty": "Intermediate",
+      "frequency": "Very common",
+      "gujarati_pronunciation": "k-ə-l-æ-b-ə-ρ-e-ɪ-ʃ-n",
+      "english_meaning": "Working together with others to achieve a common goal.",
+      "gujarati_meaning": "Ek samaan lakshya padhava mate bija saathe saath kaam karvu.",
+      "synonyms": [
+        "teamwork",
+        "cooperation",
+        "partnership"
+      ],
+      "antonyms": [
+        "competition",
+        "isolation"
+      ],
+      "collocations": [
+        "team collaboration",
+        "cross-department collaboration",
+        "promote collaboration"
+      ],
+      "word_forms": [
+        "collaborate",
+        "collaborated",
+        "collaborative"
+      ],
+      "usage_note": "Collaboration tools like Slack, Teams, and Notion facilitate remote team collaboration.",
+      "memory_tip": "'collaboration' = co + labor + ation → saath + mehnat → collaboration = saath mehnat.",
+      "examples": [
+        "Collaboration between departments improved the project outcome.",
+        "She encouraged collaboration by sharing resources openly.",
+        "Effective collaboration requires trust and communication.",
+        "The new platform was designed for real-time collaboration."
+      ]
+    },
+    {
+      "id": 100,
+      "word": "Recognition",
+      "category": "Work & Office",
+      "subcategory": "Workplace Relationships",
+      "part_of_speech": "noun",
+      "difficulty": "Intermediate",
+      "frequency": "Common",
+      "gujarati_pronunciation": "ρ-ε-k-ə-g-n-ɪ-ʃ-n",
+      "english_meaning": "Acknowledgement of someone's efforts, achievements, or contributions at work.",
+      "gujarati_meaning": "Karyasthal ma koi ni mehnat, uplabdhi ya yogdaan ni kadra karvi.",
+      "synonyms": [
+        "appreciation",
+        "acknowledgement",
+        "praise"
+      ],
+      "antonyms": [
+        "ignorance",
+        "neglect"
+      ],
+      "collocations": [
+        "employee recognition",
+        "recognition award",
+        "give recognition"
+      ],
+      "word_forms": [
+        "recognize",
+        "recognized"
+      ],
+      "usage_note": "Employee recognition boosts morale, engagement, and retention.",
+      "memory_tip": "'recognition' = re + cognize → pharthi jaanvu → recognition = tamara kaami ni kadra.",
+      "examples": [
+        "She received recognition for her contribution to the project.",
+        "Employee recognition programs improve motivation.",
+        "He gave public recognition to his team at the annual dinner.",
+        "Lack of recognition is a top reason employees leave jobs."
+      ]
+    }
+  ],
+  "mini_dialogues": [
+    {
+      "id": 1,
+      "title": "Discussing a Project Deadline",
+      "situation": "Two colleagues discuss an approaching project deadline.",
+      "turns": [
+        {
+          "speaker": "A",
+          "text": "Hey, have you checked the project deadline? It's this Friday."
+        },
+        {
+          "speaker": "B",
+          "text": "I know. I've been trying to prioritize the key deliverables, but we still have a backlog."
+        },
+        {
+          "speaker": "A",
+          "text": "Should we request a deadline extension from the manager?"
+        },
+        {
+          "speaker": "B",
+          "text": "Let's first see what can be done by tomorrow. We can clarify the situation with him in the morning briefing."
+        },
+        {
+          "speaker": "A",
+          "text": "Good idea. I'll prepare a short summary of where we stand right now."
+        },
+        {
+          "speaker": "B",
+          "text": "Perfect. Let's make sure we communicate clearly so there are no surprises."
+        }
+      ],
+      "words_used": [
+        "deadline",
+        "prioritize",
+        "deliverables",
+        "backlog",
+        "deadline extension",
+        "briefing",
+        "communicate"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Running a Team Meeting",
+      "situation": "A manager facilitates a team meeting to discuss targets and action points.",
+      "turns": [
+        {
+          "speaker": "Manager",
+          "text": "Good morning everyone. Let's begin. I've shared the agenda by email — please take a look."
+        },
+        {
+          "speaker": "Employee A",
+          "text": "I noticed the first agenda item is the quarterly targets. Are we on track?"
+        },
+        {
+          "speaker": "Manager",
+          "text": "Mostly yes, but we need to brainstorm ways to close the gap before month-end."
+        },
+        {
+          "speaker": "Employee B",
+          "text": "I think the bottleneck is in the approval process. That's slowing us down."
+        },
+        {
+          "speaker": "Manager",
+          "text": "Good point. Let's list that as an action point — we'll resolve it by Wednesday."
+        },
+        {
+          "speaker": "Employee A",
+          "text": "Should I take the minutes so we have a clear record?"
+        },
+        {
+          "speaker": "Manager",
+          "text": "Yes please. Let's wrap up in twenty minutes so we can get back to work."
+        }
+      ],
+      "words_used": [
+        "agenda",
+        "targets",
+        "brainstorm",
+        "bottleneck",
+        "action points",
+        "minutes"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "A Performance Appraisal Conversation",
+      "situation": "A manager and employee discuss the employee's annual appraisal.",
+      "turns": [
+        {
+          "speaker": "Manager",
+          "text": "Thank you for coming in. Let's go through your performance review for this year."
+        },
+        {
+          "speaker": "Employee",
+          "text": "Of course. I'm looking forward to your feedback."
+        },
+        {
+          "speaker": "Manager",
+          "text": "Overall, your work has been excellent. You've met all your targets and shown great professionalism."
+        },
+        {
+          "speaker": "Employee",
+          "text": "Thank you. I've worked hard on my time management this year."
+        },
+        {
+          "speaker": "Manager",
+          "text": "It shows. Based on your appraisal, we're recommending you for a promotion."
+        },
+        {
+          "speaker": "Employee",
+          "text": "That's wonderful news. I'm grateful for the recognition and the opportunity."
+        }
+      ],
+      "words_used": [
+        "performance review",
+        "feedback",
+        "targets",
+        "professionalism",
+        "time management",
+        "appraisal",
+        "promotion",
+        "recognition"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Handling a Workplace Conflict",
+      "situation": "HR facilitates conflict resolution between two colleagues.",
+      "turns": [
+        {
+          "speaker": "HR",
+          "text": "I understand there's been some tension between you two. Let's try to resolve this professionally."
+        },
+        {
+          "speaker": "Employee A",
+          "text": "I raised a grievance because I felt my colleague was taking credit for my work."
+        },
+        {
+          "speaker": "Employee B",
+          "text": "That wasn't my intention at all. I should have acknowledged your contribution in the report."
+        },
+        {
+          "speaker": "HR",
+          "text": "Thank you for being open. Accountability is key here. Can you both agree on how to collaborate better going forward?"
+        },
+        {
+          "speaker": "Employee A",
+          "text": "Yes. I'd appreciate more clear communication and recognition when I contribute."
+        },
+        {
+          "speaker": "Employee B",
+          "text": "Agreed. I'll make sure to acknowledge everyone's efforts in future reports."
+        }
+      ],
+      "words_used": [
+        "grievance",
+        "acknowledge",
+        "accountability",
+        "conflict resolution",
+        "collaborate",
+        "recognition",
+        "professionalism"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Preparing for a Client Presentation",
+      "situation": "Two colleagues prepare a slide deck and rehearse for a client presentation.",
+      "turns": [
+        {
+          "speaker": "A",
+          "text": "Is the slide deck ready for tomorrow's presentation?"
+        },
+        {
+          "speaker": "B",
+          "text": "Almost. I just need to add the Q3 figures and a summary slide at the end."
+        },
+        {
+          "speaker": "A",
+          "text": "Make sure you summarize the key findings clearly. The client wants to reach a consensus on the proposal quickly."
+        },
+        {
+          "speaker": "B",
+          "text": "Understood. I'll also prepare a few talking points for the Q&A session."
+        },
+        {
+          "speaker": "A",
+          "text": "Good. Don't forget to connect the laptop to the projector before they arrive."
+        },
+        {
+          "speaker": "B",
+          "text": "Already booked the conference room and checked the projector. We're all set."
+        }
+      ],
+      "words_used": [
+        "slide deck",
+        "presentation",
+        "summarize",
+        "consensus",
+        "proposal",
+        "Q&A session",
+        "projector",
+        "conference room"
+      ]
+    }
+  ],
+  "quiz": {
+    "title": "Work & Office Quiz",
+    "category": "Work & Office",
+    "level": "Intermediate to Advanced",
+    "instructions": "Choose the best answer.",
+    "total_questions": 15,
+    "questions": [
+      {
+        "id": 1,
+        "type": "meaning_en_to_gu",
+        "word_id": 11,
+        "question": "'Deadline' નો ગુજરાતી અર્થ શું છે?",
+        "options": [
+          "A) કામ પૂર્ણ કરવાની છેલ્લી તારીખ",
+          "B) ઑફિસ ઓળખ-ચિહ્ન",
+          "C) બેઠકનો ઊઘ",
+          "D) વ્યવસ્થા"
+        ],
+        "answer": "A"
+      },
+      {
+        "id": 2,
+        "type": "meaning_gu_to_en",
+        "word_id": 85,
+        "question": "'સાથે કામ કરતો વ્યાવસાયિક સાથી' — આ ગુજરાતી અર્થ ક્યા અંગ્રેજી શબ્દ માટે છે?",
+        "options": [
+          "A) Mentor",
+          "B) Colleague",
+          "C) Subordinate",
+          "D) Candidate"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 3,
+        "type": "synonym",
+        "word_id": 4,
+        "question": "'Proposal' નો સૌથી નજીકનો synonym કયો છે?",
+        "options": [
+          "A) Rejection",
+          "B) Suggestion",
+          "C) Contract",
+          "D) Memo"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 4,
+        "type": "antonym",
+        "word_id": 54,
+        "question": "'Promotion' નો antonym કયો છે?",
+        "options": [
+          "A) Advancement",
+          "B) Elevation",
+          "C) Demotion",
+          "D) Recruitment"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 5,
+        "type": "fill_blank",
+        "word_id": 69,
+        "question": "Complete the sentence: 'You must _______ urgent tasks before routine ones to meet your deadline.'",
+        "options": [
+          "A) procrastinate",
+          "B) adjourn",
+          "C) prioritize",
+          "D) delegate"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 6,
+        "type": "definition",
+        "word_id": 36,
+        "question": "Which word means 'the minimum number of members required to make a meeting valid'?",
+        "options": [
+          "A) Agenda",
+          "B) Consensus",
+          "C) Quorum",
+          "D) Resolution"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 7,
+        "type": "meaning_en_to_gu",
+        "word_id": 99,
+        "question": "'Collaboration' નો ગુજરાતી અર્થ શું છે?",
+        "options": [
+          "A) ઝઘ atmo",
+          "B) એક સામાન્ય ધ્યેય માટે સાથે કામ કરવું",
+          "C) ઓફિસ ઓળખ",
+          "D) ઑક karo"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 8,
+        "type": "fill_blank",
+        "word_id": 70,
+        "question": "She worked overtime to clear the _______ of customer orders.",
+        "options": [
+          "A) milestone",
+          "B) backlog",
+          "C) roster",
+          "D) agenda"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 9,
+        "type": "meaning_gu_to_en",
+        "word_id": 58,
+        "question": "'નોકરી ની જ↑ura rah eti nathi' — આ ભાવ ક્યા શ btw ber ane nu chhe?",
+        "options": [
+          "A) Resignation",
+          "B) Probation",
+          "C) Redundancy",
+          "D) Payroll"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 10,
+        "type": "synonym",
+        "word_id": 71,
+        "question": "'Efficiency' નો synonym કયો છે?",
+        "options": [
+          "A) Waste",
+          "B) Productivity",
+          "C) Burnout",
+          "D) Backlog"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 11,
+        "type": "definition",
+        "word_id": 86,
+        "question": "Which word describes 'an experienced person who guides someone less experienced in their career'?",
+        "options": [
+          "A) Subordinate",
+          "B) Chairperson",
+          "C) Mentor",
+          "D) Moderator"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 12,
+        "type": "antonym",
+        "word_id": 17,
+        "question": "'Confidential' નો antonym કયો છે?",
+        "options": [
+          "A) Private",
+          "B) Secret",
+          "C) Public",
+          "D) Classified"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 13,
+        "type": "fill_blank",
+        "word_id": 39,
+        "question": "The team will _______ new ideas for the marketing campaign in Friday's session.",
+        "options": [
+          "A) adjourn",
+          "B) brainstorm",
+          "C) appraise",
+          "D) delegate"
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 14,
+        "type": "meaning_en_to_gu",
+        "word_id": 79,
+        "question": "'Burnout' નો ગુจ rathi arth shu chhe?",
+        "options": [
+          "A) ઓfis schedule",
+          "B) ઓfis party",
+          "C) vadhari pad thi ane lambi tanav thi aavatho sharirik ya mansik thak",
+          "D) naukri mate apply"
+        ],
+        "answer": "C"
+      },
+      {
+        "id": 15,
+        "type": "definition",
+        "word_id": 42,
+        "question": "Which word means 'a general agreement reached by all members of a group'?",
+        "options": [
+          "A) Quorum",
+          "B) Consensus",
+          "C) Resolution",
+          "D) Agenda"
+        ],
+        "answer": "B"
+      }
+    ]
+  }
+}

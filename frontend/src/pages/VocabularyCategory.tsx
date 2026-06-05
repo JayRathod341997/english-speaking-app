@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import BottomNav from '../components/BottomNav';
+import { PlusIcon, MinusIcon } from '../components/Icon';
 import Flashcard from '../components/Flashcard';
 import PageHeader from '../components/PageHeader';
 import PronounceButton from '../components/PronounceButton';
@@ -17,8 +18,19 @@ export default function VocabularyCategory() {
   const [loading, setLoading] = useState(true);
   const [tab, setTab] = usePersistentState<'words' | 'dialogues'>('vocabCat.tab', 'words');
   const [showUnreadOnly, setShowUnreadOnly] = usePersistentState('vocabCat.unreadOnly', false);
+  const [collapsedMap, setCollapsedMap] = usePersistentState<Record<string, boolean>>(
+    'vocabCat.collapsedBatches',
+    {}
+  );
   const { progress, setWord } = useLocalProgress();
   const navigate = useNavigate();
+
+  const toggleBatchCollapse = (subcat: string) => {
+    setCollapsedMap(prev => ({
+      ...prev,
+      [`${id}-${subcat}`]: !prev[`${id}-${subcat}`],
+    }));
+  };
   const scrollRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -57,6 +69,17 @@ export default function VocabularyCategory() {
         </div>
       ) : (
         <div ref={scrollRef} className="flex-1 overflow-y-auto overflow-x-hidden no-scrollbar px-5 pt-4 pb-6">
+          {/* progress bar */}
+          <div className="w-full h-2 rounded-full overflow-hidden mb-4" style={{ background: 'var(--paper-2)' }}>
+            <div
+              className="h-full rounded-full transition-all duration-300"
+              style={{
+                width: `${cat.total_words > 0 ? (learnedCount / cat.total_words) * 100 : 0}%`,
+                background: 'var(--teal)',
+              }}
+            />
+          </div>
+
           {/* progress + quiz CTA */}
           <div className="flex items-center justify-between mb-4">
             <p className="text-sm font-semibold" style={{ color: 'var(--ink)' }}>
@@ -109,30 +132,60 @@ export default function VocabularyCategory() {
           {tab === 'words' ? (
             <div className="space-y-6">
               {batches.length > 0 ? (
-                batches.map(([subcat, words], i) => (
-                  <div key={subcat}>
-                    <h3 className="font-serif text-[15px] font-semibold mb-2" style={{ color: 'var(--ink)' }}>
-                      Batch {i + 1} · {subcat}
-                    </h3>
-                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                      {words.map(w => {
-                        const wp = progress.vocab[key(w.id)] ?? {};
-                        return (
-                          <Flashcard
-                            key={w.id}
-                            word={w}
-                            learned={wp.learned}
-                            spoken={wp.spoken}
-                            bookmarked={wp.bookmarked}
-                            onToggleLearned={() => setWord(key(w.id), { learned: !wp.learned })}
-                            onSpoken={() => setWord(key(w.id), { spoken: true })}
-                            onToggleBookmark={() => setWord(key(w.id), { bookmarked: !wp.bookmarked })}
-                          />
-                        );
-                      })}
+                batches.map(([subcat, words], i) => {
+                  const isCollapsed = !!collapsedMap[`${id}-${subcat}`];
+                  const allBatchWords = cat.words.filter(w => w.subcategory === subcat);
+                  const totalCount = allBatchWords.length;
+                  const unreadCount = allBatchWords.filter(w => !progress.vocab[key(w.id)]?.learned).length;
+                  const pctRemaining = totalCount > 0 ? Math.round((unreadCount / totalCount) * 100) : 0;
+
+                  return (
+                    <div key={subcat}>
+                      <button
+                        type="button"
+                        onClick={() => toggleBatchCollapse(subcat)}
+                        className="w-full flex items-center justify-between py-2 text-left focus:outline-none group cursor-pointer mb-2"
+                        style={{ background: 'none', border: 'none', padding: 0 }}
+                      >
+                        <h3 className="font-serif text-[15px] font-semibold flex flex-wrap items-center gap-x-2 gap-y-0.5" style={{ color: 'var(--ink)' }}>
+                          <span>Batch {i + 1} · {subcat}</span>
+                          <span className="text-[11px] font-sans font-normal" style={{ color: 'var(--ink-soft)' }}>
+                            ({unreadCount}/{totalCount} · {pctRemaining}% remaining)
+                          </span>
+                        </h3>
+                        <div
+                          className="w-6 h-6 rounded-full flex items-center justify-center transition-colors"
+                          style={{ background: 'var(--paper-2)', color: 'var(--ink-soft)' }}
+                        >
+                          {isCollapsed ? (
+                            <PlusIcon className="w-3.5 h-3.5" />
+                          ) : (
+                            <MinusIcon className="w-3.5 h-3.5" />
+                          )}
+                        </div>
+                      </button>
+                      {!isCollapsed && (
+                        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                          {words.map(w => {
+                            const wp = progress.vocab[key(w.id)] ?? {};
+                            return (
+                              <Flashcard
+                                key={w.id}
+                                word={w}
+                                learned={wp.learned}
+                                spoken={wp.spoken}
+                                bookmarked={wp.bookmarked}
+                                onToggleLearned={() => setWord(key(w.id), { learned: !wp.learned })}
+                                onSpoken={() => setWord(key(w.id), { spoken: true })}
+                                onToggleBookmark={() => setWord(key(w.id), { bookmarked: !wp.bookmarked })}
+                              />
+                            );
+                          })}
+                        </div>
+                      )}
                     </div>
-                  </div>
-                ))
+                  );
+                })
               ) : (
                 <div className="text-center py-16 px-4">
                   <div className="text-4xl mb-3">🎉</div>
