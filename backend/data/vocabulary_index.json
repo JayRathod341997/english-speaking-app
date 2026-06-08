@@ -4,18 +4,18 @@
   "language_pair": "English to Gujarati (ગુજરાતી)",
   "level": "Intermediate to Advanced",
   "total_categories": 4,
-  "total_words": 160,
+  "total_words": 280,
   "category_summary": [
     {
       "id": 1,
       "category": "Everyday Situations",
-      "total_words": 40,
+      "total_words": 100,
       "subcategories": 6
     },
     {
       "id": 2,
       "category": "Places",
-      "total_words": 40,
+      "total_words": 100,
       "subcategories": 6
     },
     {
@@ -36,7 +36,7 @@
       "id": 1,
       "category": "Everyday Situations",
       "level": "Intermediate to Advanced",
-      "total_words": 40,
+      "total_words": 100,
       "subcategories": [
         "Social & Greetings",
         "Polite Requests & Responses",
@@ -46,16 +46,16 @@
         "Time & Routine"
       ],
       "subcategory_counts": {
-        "Social & Greetings": 7,
-        "Polite Requests & Responses": 7,
-        "Asking & Navigation": 6,
-        "Managing Daily Tasks": 7,
-        "Feelings & States": 7,
-        "Time & Routine": 6
+        "Social & Greetings": 17,
+        "Polite Requests & Responses": 17,
+        "Asking & Navigation": 16,
+        "Managing Daily Tasks": 17,
+        "Feelings & States": 17,
+        "Time & Routine": 16
       },
       "difficulty_counts": {
-        "Intermediate": 27,
-        "Advanced": 13
+        "Intermediate": 66,
+        "Advanced": 34
       },
       "companion_files": {
         "learning_plan": "everyday_situations_learning_plan.md"
@@ -1428,6 +1428,2162 @@
             "She's living with her parents for the time being.",
             "For the time being, let's keep the plan unchanged."
           ]
+        },
+        {
+          "id": 41,
+          "word": "Reunion",
+          "category": "Everyday Situations",
+          "subcategory": "Social & Greetings",
+          "part_of_speech": "noun",
+          "difficulty": "Intermediate",
+          "frequency": "Common",
+          "gujarati_pronunciation": "રિયુનિયન",
+          "english_meaning": "A gathering of people who have not seen each other for a long time, especially a meeting of friends or family members.",
+          "gujarati_meaning": "લાંબા સમય પછી મળેલા લોકોનો સમાવેશ, ખાસ કરીને મિત્રો અથવા પરિવારના સભ્યોની મુલાકાત.",
+          "synonyms": [
+            "gathering",
+            "meeting",
+            "get-together"
+          ],
+          "antonyms": [
+            "separation",
+            "split"
+          ],
+          "collocations": [
+            "family reunion",
+            "school reunion",
+            "class reunion"
+          ],
+          "word_forms": [
+            "reunite",
+            "reunification"
+          ],
+          "usage_note": "A reunion is often a happy and emotional occasion, where people reminisce about old times and catch up on each other's lives.",
+          "memory_tip": "'reun' = ફરીથી મળવું -> reunion = મળેલા લોકોનો સમાવેશ",
+          "examples": [
+            "The family reunion was a wonderful opportunity to reconnect with distant relatives.",
+            "The school reunion was a chance to reminisce about old times and catch up on each other's lives.",
+            "The company is hosting a reunion for former employees.",
+            "The reunion was a highly anticipated event, with many people traveling from afar to attend."
+          ]
+        },
+        {
+          "id": 42,
+          "word": "Condolence",
+          "category": "Everyday Situations",
+          "subcategory": "Social & Greetings",
+          "part_of_speech": "noun",
+          "difficulty": "Advanced",
+          "frequency": "Less common",
+          "gujarati_pronunciation": "કંડોલન્સ",
+          "english_meaning": "A feeling or expression of sympathy and sorrow, especially on the death of someone.",
+          "gujarati_meaning": "દુઃખ અને સાંત્વનાની લાગણી અથવા અભિવ્યક્તિ, ખાસ કરીને કોઈના મૃત્યુ પર.",
+          "synonyms": [
+            "sympathy",
+            "sorrow",
+            "commiseration"
+          ],
+          "antonyms": [
+            "celebration",
+            "joy"
+          ],
+          "collocations": [
+            "offer condolences",
+            "express condolences",
+            "condolence message"
+          ],
+          "word_forms": [
+            "condole",
+            "condoler"
+          ],
+          "usage_note": "Condolence is often expressed through words, actions, or gestures, such as sending a condolence message or attending a funeral.",
+          "memory_tip": "'condole' = સાંત્વના આપવી -> condolence = સાંત્વના",
+          "examples": [
+            "The family received many condolences after the loss of their loved one.",
+            "The company sent a condolence message to the bereaved family.",
+            "The condolence ceremony was a solemn and dignified occasion.",
+            "The community came together to offer condolences to the grieving family."
+          ]
+        },
+        {
+          "id": 43,
+          "word": "Courtesy",
+          "category": "Everyday Situations",
+          "subcategory": "Social & Greetings",
+          "part_of_speech": "noun",
+          "difficulty": "Intermediate",
+          "frequency": "Common",
+          "gujarati_pronunciation": "કર્ટસી",
+          "english_meaning": "Polite and respectful behavior, especially towards someone of higher status or authority.",
+          "gujarati_meaning": "આદરપૂર્ણ અને શિષ્ટ વર્તણૂક, ખાસ કરીને ઉચ્ચ હોદ્દા અથવા અધિકાર ધરાવતા વ્યક્તિ તરફ.",
+          "synonyms": [
+            "politeness",
+            "respect",
+            "etiquette"
+          ],
+          "antonyms": [
+            "rudeness",
+            "disrespect"
+          ],
+          "collocations": [
+            "good courtesy",
+            "bad courtesy",
+            "courtesy call"
+          ],
+          "word_forms": [
+            "courteous",
+            "courtesy"
+          ],
+          "usage_note": "Courtesy is an important aspect of social interaction, as it helps to build positive relationships and avoid offending others.",
+          "memory_tip": "'court' = રાજાનો દરબાર -> courtesy = આદરપૂર્ણ વર્તણૂક",
+          "examples": [
+            "The hotel staff showed excellent courtesy to the guests.",
+            "The company emphasizes the importance of courtesy in all interactions with customers.",
+            "The courtesy of the host made the evening a pleasant one.",
+            "The driver's courtesy and patience were impressive in the heavy traffic."
+          ]
+        },
+        {
+          "id": 44,
+          "word": "Formality",
+          "category": "Everyday Situations",
+          "subcategory": "Social & Greetings",
+          "part_of_speech": "noun",
+          "difficulty": "Advanced",
+          "frequency": "Less common",
+          "gujarati_pronunciation": "ફોર્માલિટી",
+          "english_meaning": "A formal or official quality, especially in behavior, language, or ceremony.",
+          "gujarati_meaning": "ઔપચારિક અથવા અધિકૃત ગુણવત્તા, ખાસ કરીને વર્તણૂક, ભાષા, અથવા વિધિમાં.",
+          "synonyms": [
+            "formalness",
+            "protocol",
+            "ceremony"
+          ],
+          "antonyms": [
+            "informality",
+            "casualness"
+          ],
+          "collocations": [
+            "formality of the occasion",
+            "formality of the language",
+            "formality of the ceremony"
+          ],
+          "word_forms": [
+            "formal",
+            "formalize"
+          ],
+          "usage_note": "Formality is often required in official or professional settings, such as business meetings or government ceremonies.",
+          "memory_tip": "'form' = સ્વરૂપ -> formality = ઔપચારિકતા",
+          "examples": [
+            "The formality of the wedding ceremony was impressive.",
+            "The company emphasizes the importance of formality in all business interactions.",
+            "The formality of the language used in the contract was necessary to avoid any misunderstandings.",
+            "The formality of the occasion required all guests to dress formally."
+          ]
+        },
+        {
+          "id": 45,
+          "word": "Greeting",
+          "category": "Everyday Situations",
+          "subcategory": "Social & Greetings",
+          "part_of_speech": "noun",
+          "difficulty": "Intermediate",
+          "frequency": "Very common",
+          "gujarati_pronunciation": "ગ્રીટિંગ",
+          "english_meaning": "A message or expression of welcome or goodwill, especially on meeting someone or on a special occasion.",
+          "gujarati_meaning": "સ્વાગત અથવા શુભેચ્છાનું સંદેશ અથવા અભિવ્યક્તિ, ખાસ કરીને કોઈને મળવા અથવા વિશેષ પ્રસંગે.",
+          "synonyms": [
+            "welcome",
+            "salutation",
+            "hello"
+          ],
+          "antonyms": [
+            "farewell",
+            "goodbye"
+          ],
+          "collocations": [
+            "greeting card",
+            "greeting message",
+            "greeting ceremony"
+          ],
+          "word_forms": [
+            "greet",
+            "greeter"
+          ],
+          "usage_note": "Greetings are an important part of social interaction, as they help to establish a positive tone and show respect for the other person.",
+          "memory_tip": "'greet' = નમસ્કાર કરવો -> greeting = સ્વાગત",
+          "examples": [
+            "The greeting ceremony was a grand affair, with many dignitaries in attendance.",
+            "The company sent a greeting card to all employees on the occasion of the holiday.",
+            "The greeting message on the answering machine was friendly and welcoming.",
+            "The greeting between the two old friends was warm and affectionate."
+          ]
+        },
+        {
+          "id": 46,
+          "word": "Hospitality",
+          "category": "Everyday Situations",
+          "subcategory": "Social & Greetings",
+          "part_of_speech": "noun",
+          "difficulty": "Intermediate",
+          "frequency": "Common",
+          "gujarati_pronunciation": "હોસ્પિટાલિટી",
+          "english_meaning": "The quality of being friendly and welcoming to guests or visitors.",
+          "gujarati_meaning": "મહેમાનો અથવા મુલાકાતીઓ તરફ મિત્રતાપૂર્ણ અને સ્વાગતપૂર્ણ વર્તણૂકની ગુણવત્તા.",
+          "synonyms": [
+            "friendliness",
+            "welcome",
+            "generosity"
+          ],
+          "antonyms": [
+            "hostility",
+            "unfriendliness"
+          ],
+          "collocations": [
+            "hospitality industry",
+            "hospitality management",
+            "hospitality skills"
+          ],
+          "word_forms": [
+            "hospitable",
+            "hospitality"
+          ],
+          "usage_note": "Hospitality is an important aspect of social interaction, as it helps to create a positive and welcoming atmosphere for guests or visitors.",
+          "memory_tip": "'host' = મહેમાન -> hospitality = મહેમાનપણું",
+          "examples": [
+            "The hospitality of the hotel staff was excellent, making our stay very comfortable.",
+            "The company emphasizes the importance of hospitality in all interactions with customers.",
+            "The hospitality of the host made the evening a pleasant one.",
+            "The hospitality industry is a significant contributor to the country's economy."
+          ]
+        },
+        {
+          "id": 47,
+          "word": "Introduction",
+          "category": "Everyday Situations",
+          "subcategory": "Social & Greetings",
+          "part_of_speech": "noun",
+          "difficulty": "Intermediate",
+          "frequency": "Very common",
+          "gujarati_pronunciation": "ઇન્ટ્રોડક્શન",
+          "english_meaning": "A formal or informal presentation of one person to another, especially in a social or business setting.",
+          "gujarati_meaning": "એક વ્યક્તિનું બીજા વ્યક્તિને રજૂઆત કરવી, ખાસ કરીને સામાજિક અથવા વ્યવસાયિક સેટિંગમાં.",
+          "synonyms": [
+            "presentation",
+            "introduction ceremony",
+            "meet-and-greet"
+          ],
+          "antonyms": [
+            "farewell",
+            "goodbye"
+          ],
+          "collocations": [
+            "formal introduction",
+            "informal introduction",
+            "self-introduction"
+          ],
+          "word_forms": [
+            "introduce",
+            "introducer"
+          ],
+          "usage_note": "Introductions are an important part of social interaction, as they help to establish relationships and facilitate communication.",
+          "memory_tip": "'intro' = પરિચય -> introduction = પરિચય",
+          "examples": [
+            "The introduction ceremony was a grand affair, with many dignitaries in attendance.",
+            "The company sent a formal introduction letter to all new employees.",
+            "The introduction between the two old friends was warm and affectionate.",
+            "The introduction to the new project was very impressive, with many innovative ideas presented."
+          ]
+        },
+        {
+          "id": 48,
+          "word": "Politeness",
+          "category": "Everyday Situations",
+          "subcategory": "Social & Greetings",
+          "part_of_speech": "noun",
+          "difficulty": "Intermediate",
+          "frequency": "Common",
+          "gujarati_pronunciation": "પોલાઇટનેસ",
+          "english_meaning": "The quality of being polite, courteous, and respectful in behavior or speech.",
+          "gujarati_meaning": "વર્તણૂક અથવા બોલચાલમાં આદરપૂર્ણ, શિષ્ટ અને સમ્માનજનક હોવાની ગુણવત્તા.",
+          "synonyms": [
+            "courtesy",
+            "etiquette",
+            "manners"
+          ],
+          "antonyms": [
+            "rudeness",
+            "impoliteness"
+          ],
+          "collocations": [
+            "good politeness",
+            "bad politeness",
+            "politeness matters"
+          ],
+          "word_forms": [
+            "polite",
+            "politeness"
+          ],
+          "usage_note": "Politeness is an important aspect of social interaction, as it helps to create a positive and respectful atmosphere.",
+          "memory_tip": "'polite' = આદરપૂર્ણ -> politeness = આદરપૂર્ણતા",
+          "examples": [
+            "The politeness of the hotel staff was impressive, making our stay very comfortable.",
+            "The company emphasizes the importance of politeness in all interactions with customers.",
+            "The politeness of the host made the evening a pleasant one.",
+            "The politeness of the stranger was a welcome surprise in the busy city."
+          ]
+        },
+        {
+          "id": 49,
+          "word": "Respect",
+          "category": "Everyday Situations",
+          "subcategory": "Social & Greetings",
+          "part_of_speech": "noun",
+          "difficulty": "Intermediate",
+          "frequency": "Very common",
+          "gujarati_pronunciation": "રેસ્પેક્ટ",
+          "english_meaning": "A feeling of admiration or esteem for someone or something, especially because of their qualities or achievements.",
+          "gujarati_meaning": "કોઈ વ્યક્તિ અથવા વસ્તુ માટે પ્રશંસા અથવા આદરની લાગણી, ખાસ કરીને તેમના ગુણો અથવા સિદ્ધિઓને કારણે.",
+          "synonyms": [
+            "admiration",
+            "esteem",
+            "regard"
+          ],
+          "antonyms": [
+            "disrespect",
+            "contempt"
+          ],
+          "collocations": [
+            "show respect",
+            "have respect",
+            "respect for someone"
+          ],
+          "word_forms": [
+            "respectful",
+            "disrespect"
+          ],
+          "usage_note": "Respect is an important aspect of social interaction, as it helps to create a positive and harmonious atmosphere.",
+          "memory_tip": "'respect' = આદર -> respect = આદર",
+          "examples": [
+            "The respect of the students for their teacher was evident in their behavior.",
+            "The company emphasizes the importance of respect in all interactions with customers.",
+            "The respect of the host for his guests was apparent in the way he treated them.",
+            "The respect for the environment is essential for our survival."
+          ]
+        },
+        {
+          "id": 50,
+          "word": "Salutation",
+          "category": "Everyday Situations",
+          "subcategory": "Social & Greetings",
+          "part_of_speech": "noun",
+          "difficulty": "Advanced",
+          "frequency": "Less common",
+          "gujarati_pronunciation": "સેલ્યુટેશન",
+          "english_meaning": "A formal or informal greeting, especially one used to address someone in writing or in person.",
+          "gujarati_meaning": "ઔપચારિક અથવા અનૌપચારિક સ્વાગત, ખાસ કરીને લેખન અથવા વ્યક્તિગત રીતે કોઈને સંબોધવા માટે વપરાતું.",
+          "synonyms": [
+            "greeting",
+            "hello",
+            "address"
+          ],
+          "antonyms": [
+            "farewell",
+            "goodbye"
+          ],
+          "collocations": [
+            "formal salutation",
+            "informal salutation",
+            "salutation ceremony"
+          ],
+          "word_forms": [
+            "salute",
+            "saluter"
+          ],
+          "usage_note": "Salutations are an important part of social interaction, as they help to establish a positive and respectful tone.",
+          "memory_tip": "'salute' = નમસ્કાર -> salutation = સ્વાગત",
+          "examples": [
+            "The salutation at the beginning of the letter was formal and respectful.",
+            "The company uses a standard salutation in all its official communications.",
+            "The salutation between the two old friends was warm and affectionate.",
+            "The salutation ceremony was a grand affair, with many dignitaries in attendance."
+          ]
+        },
+        {
+          "id": 51,
+          "word": "Excuse me",
+          "category": "Everyday Situations",
+          "subcategory": "Polite Requests & Responses",
+          "part_of_speech": "phrase",
+          "difficulty": "Intermediate",
+          "frequency": "Very common",
+          "gujarati_pronunciation": "એક્સક્યૂઝ મી",
+          "english_meaning": "A polite way to get someone's attention or to apologize for interrupting.",
+          "gujarati_meaning": "કોઈનું ધ્યાન આકર્ષિત કરવા અથવા વિક્ષેપ કરવા બદલ માફી માંગવા માટે વપરાતી શિષ્ટ રીત.",
+          "synonyms": [
+            "Pardon",
+            "Sorry",
+            "Forgive me"
+          ],
+          "antonyms": [],
+          "collocations": [
+            "Excuse me, can I ask you something?",
+            "Excuse me, I'm looking for...",
+            "Excuse me, sorry to interrupt"
+          ],
+          "word_forms": [],
+          "usage_note": "Use this phrase to politely interrupt someone or to apologize for a minor mistake.",
+          "memory_tip": "'excuse' = માફી -> excuse me = માફી કરશો",
+          "examples": [
+            "Excuse me, where is the restroom?",
+            "Excuse me, can I ask you a question?",
+            "Excuse me, I think you dropped something.",
+            "Excuse me, sorry to interrupt, but I need to tell you something."
+          ]
+        },
+        {
+          "id": 52,
+          "word": "May I",
+          "category": "Everyday Situations",
+          "subcategory": "Polite Requests & Responses",
+          "part_of_speech": "phrase",
+          "difficulty": "Intermediate",
+          "frequency": "Common",
+          "gujarati_pronunciation": "મે આઈ",
+          "english_meaning": "A polite way to ask for permission to do something.",
+          "gujarati_meaning": "કંઈક કરવાની પરવાનગી માંગવાની શિષ્ટ રીત.",
+          "synonyms": [
+            "Can I",
+            "Could I",
+            "Might I"
+          ],
+          "antonyms": [
+            "You may not"
+          ],
+          "collocations": [
+            "May I have...",
+            "May I ask...",
+            "May I go..."
+          ],
+          "word_forms": [],
+          "usage_note": "Use this phrase to politely ask for permission or to request something.",
+          "memory_tip": "'may' = શકું -> may I = શકું છું",
+          "examples": [
+            "May I have a cup of coffee, please?",
+            "May I ask you a question?",
+            "May I go to the bathroom?",
+            "May I take a look at that book?"
+          ]
+        },
+        {
+          "id": 53,
+          "word": "Please",
+          "category": "Everyday Situations",
+          "subcategory": "Polite Requests & Responses",
+          "part_of_speech": "adverb",
+          "difficulty": "Intermediate",
+          "frequency": "Very common",
+          "gujarati_pronunciation": "પ્લીઝ",
+          "english_meaning": "A polite way to make a request or to express gratitude.",
+          "gujarati_meaning": "કોઈને વિનંતી કરવા અથવા આભાર વ્યક્ત કરવાની શિષ્ટ રીત.",
+          "synonyms": [
+            "Kindly",
+            "Thank you",
+            "You're welcome"
+          ],
+          "antonyms": [],
+          "collocations": [
+            "Please help me",
+            "Please come in",
+            "Please sit down"
+          ],
+          "word_forms": [],
+          "usage_note": "Use this word to make a request or to express gratitude in a polite way.",
+          "memory_tip": "'please' = વિનંતી -> please = કૃપા કરીને",
+          "examples": [
+            "Please help me with this task.",
+            "Please come in and have a seat.",
+            "Please pass the salt.",
+            "Please don't forget to call me."
+          ]
+        },
+        {
+          "id": 54,
+          "word": "Thank you",
+          "category": "Everyday Situations",
+          "subcategory": "Polite Requests & Responses",
+          "part_of_speech": "phrase",
+          "difficulty": "Intermediate",
+          "frequency": "Very common",
+          "gujarati_pronunciation": "થેંક યુ",
+          "english_meaning": "A polite way to express gratitude or appreciation.",
+          "gujarati_meaning": "આભાર અથવા કૃતજ્ઞતા વ્યક્ત કરવાની શિષ્ટ રીત.",
+          "synonyms": [
+            "Thanks",
+            "Appreciate",
+            "Grateful"
+          ],
+          "antonyms": [
+            "You're welcome"
+          ],
+          "collocations": [
+            "Thank you very much",
+            "Thank you so much",
+            "Thank you for..."
+          ],
+          "word_forms": [],
+          "usage_note": "Use this phrase to express gratitude or appreciation in a polite way.",
+          "memory_tip": "'thank' = આભાર -> thank you = આભાર",
+          "examples": [
+            "Thank you for your help.",
+            "Thank you very much for the gift.",
+            "Thank you for coming to my party.",
+            "Thank you for listening to me."
+          ]
+        },
+        {
+          "id": 55,
+          "word": "Sorry",
+          "category": "Everyday Situations",
+          "subcategory": "Polite Requests & Responses",
+          "part_of_speech": "adjective",
+          "difficulty": "Intermediate",
+          "frequency": "Very common",
+          "gujarati_pronunciation": "સોરી",
+          "english_meaning": "A polite way to apologize or express regret.",
+          "gujarati_meaning": "માફી માંગવા અથવા ખેદ વ્યક્ત કરવાની શિષ્ટ રીત.",
+          "synonyms": [
+            "Apologize",
+            "Regret",
+            "Forgive"
+          ],
+          "antonyms": [
+            "Not sorry"
+          ],
+          "collocations": [
+            "Sorry to hear that",
+            "Sorry for the inconvenience",
+            "Sorry to interrupt"
+          ],
+          "word_forms": [],
+          "usage_note": "Use this word to apologize or express regret in a polite way.",
+          "memory_tip": "'sor' = દુઃખ -> sorry = માફી",
+          "examples": [
+            "Sorry to hear about your loss.",
+            "Sorry for the mistake.",
+            "Sorry to interrupt, but...",
+            "Sorry I'm late."
+          ]
+        },
+        {
+          "id": 56,
+          "word": "Welcome",
+          "category": "Everyday Situations",
+          "subcategory": "Polite Requests & Responses",
+          "part_of_speech": "interjection",
+          "difficulty": "Intermediate",
+          "frequency": "Very common",
+          "gujarati_pronunciation": "વેલકમ",
+          "english_meaning": "A polite way to greet someone or to make them feel comfortable.",
+          "gujarati_meaning": "કોઈને અભિવાદન કરવા અથવા તેમને સુખદ અનુભવ કરાવવાની શિષ્ટ રીત.",
+          "synonyms": [
+            "Hello",
+            "Hi",
+            "Greetings"
+          ],
+          "antonyms": [],
+          "collocations": [
+            "You're welcome",
+            "Welcome back",
+            "Welcome to..."
+          ],
+          "word_forms": [],
+          "usage_note": "Use this word to greet someone or to make them feel comfortable in a polite way.",
+          "memory_tip": "'wel' = સ્વાગત -> welcome = સ્વાગત",
+          "examples": [
+            "Welcome to our home.",
+            "Welcome back to the office.",
+            "You're welcome to join us.",
+            "Welcome to the party!"
+          ]
+        },
+        {
+          "id": 57,
+          "word": "Help yourself",
+          "category": "Everyday Situations",
+          "subcategory": "Polite Requests & Responses",
+          "part_of_speech": "phrase",
+          "difficulty": "Intermediate",
+          "frequency": "Common",
+          "gujarati_pronunciation": "હેલ્પ યર્સેલ્ફ",
+          "english_meaning": "A polite way to offer someone something or to give them permission to take something.",
+          "gujarati_meaning": "કોઈને કંઈક ઓફર કરવા અથવા તેમને કંઈક લેવાની પરવાનગી આપવાની શિષ્ટ રીત.",
+          "synonyms": [
+            "Please help yourself",
+            "Take what you want",
+            "Serve yourself"
+          ],
+          "antonyms": [],
+          "collocations": [
+            "Help yourself to...",
+            "Help yourself, please",
+            "Feel free to help yourself"
+          ],
+          "word_forms": [],
+          "usage_note": "Use this phrase to offer someone something or to give them permission to take something in a polite way.",
+          "memory_tip": "'help' = મદદ -> help yourself = તમારી મદદ",
+          "examples": [
+            "Help yourself to another cup of coffee.",
+            "Please help yourself to the dessert.",
+            "Feel free to help yourself to anything you need.",
+            "Help yourself, and then we'll talk."
+          ]
+        },
+        {
+          "id": 58,
+          "word": "I'm afraid",
+          "category": "Everyday Situations",
+          "subcategory": "Polite Requests & Responses",
+          "part_of_speech": "phrase",
+          "difficulty": "Advanced",
+          "frequency": "Common",
+          "gujarati_pronunciation": "આઈમ એફ્રેઈડ",
+          "english_meaning": "A polite way to express regret or to apologize for something.",
+          "gujarati_meaning": "ખેદ અથવા માફી માંગવાની શિષ્ટ રીત.",
+          "synonyms": [
+            "Sorry",
+            "Regret",
+            "Unfortunately"
+          ],
+          "antonyms": [
+            "I'm glad"
+          ],
+          "collocations": [
+            "I'm afraid so",
+            "I'm afraid not",
+            "I'm afraid I..."
+          ],
+          "word_forms": [],
+          "usage_note": "Use this phrase to express regret or to apologize for something in a polite way.",
+          "memory_tip": "'afraid' = ડરું -> I'm afraid = મને ડર લાગે છે",
+          "examples": [
+            "I'm afraid I forgot your birthday.",
+            "I'm afraid we're out of stock.",
+            "I'm afraid I won't be able to attend.",
+            "I'm afraid that's not possible."
+          ]
+        },
+        {
+          "id": 59,
+          "word": "If you don't mind",
+          "category": "Everyday Situations",
+          "subcategory": "Polite Requests & Responses",
+          "part_of_speech": "phrase",
+          "difficulty": "Advanced",
+          "frequency": "Common",
+          "gujarati_pronunciation": "ઈફ યુ ડોન્ટ માઈંડ",
+          "english_meaning": "A polite way to ask for permission or to make a request.",
+          "gujarati_meaning": "પરવાનગી માંગવા અથવા વિનંતી કરવાની શિષ્ટ રીત.",
+          "synonyms": [
+            "If you wouldn't mind",
+            "If it's okay with you",
+            "If you're sure"
+          ],
+          "antonyms": [
+            "If you mind"
+          ],
+          "collocations": [
+            "If you don't mind my asking",
+            "If you don't mind, could I...",
+            "If you don't mind, I'll..."
+          ],
+          "word_forms": [],
+          "usage_note": "Use this phrase to ask for permission or to make a request in a polite way.",
+          "memory_tip": "'mind' = મન -> if you don't mind = જો તમને વાંધો ન આવે",
+          "examples": [
+            "If you don't mind, could I ask you a question?",
+            "If you don't mind, I'll take a look.",
+            "If you don't mind my asking, what's your name?",
+            "If you don't mind, I'll join you later."
+          ]
+        },
+        {
+          "id": 60,
+          "word": "No problem",
+          "category": "Everyday Situations",
+          "subcategory": "Polite Requests & Responses",
+          "part_of_speech": "phrase",
+          "difficulty": "Intermediate",
+          "frequency": "Very common",
+          "gujarati_pronunciation": "નો પ્રોબ્લમ",
+          "english_meaning": "A polite way to respond to a request or to show that something is not a problem.",
+          "gujarati_meaning": "વિનંતીનો જવાબ આપવા અથવા કંઈક સમસ્યા નથી એવું દર્શાવવાની શિષ્ટ રીત.",
+          "synonyms": [
+            "You're welcome",
+            "No worries",
+            "It's okay"
+          ],
+          "antonyms": [
+            "That's a problem"
+          ],
+          "collocations": [
+            "No problem at all",
+            "No problem, thanks",
+            "No problem, I'll..."
+          ],
+          "word_forms": [],
+          "usage_note": "Use this phrase to respond to a request or to show that something is not a problem in a polite way.",
+          "memory_tip": "'no' = ના -> no problem = કોઈ સમસ્યા નથી",
+          "examples": [
+            "No problem, I can help you.",
+            "No problem, thanks for asking.",
+            "No problem at all, I'll do it.",
+            "No problem, I'll take care of it."
+          ]
+        },
+        {
+          "id": 61,
+          "word": "En route",
+          "category": "Everyday Situations",
+          "subcategory": "Asking & Navigation",
+          "part_of_speech": "phrasal verb",
+          "difficulty": "Intermediate",
+          "frequency": "Common",
+          "gujarati_pronunciation": "એન રૂટ",
+          "english_meaning": "On the way to a place, while traveling. En route is used to describe something that happens or is done during a journey.",
+          "gujarati_meaning": "માર્ગ પર, પ્રવાસ દરમિયાન. કોઈ જગ્યાએ જતી વખતે થતી વાતો અથવા કરવામાં આવતી બાબતો.",
+          "synonyms": [
+            "on the way",
+            "in transit",
+            "along the way"
+          ],
+          "antonyms": [
+            "at the destination"
+          ],
+          "collocations": [
+            "en route to",
+            "stop en route",
+            "delayed en route"
+          ],
+          "word_forms": [],
+          "usage_note": "En route is often used in formal or official contexts, such as travel or transportation.",
+          "memory_tip": "'en route' = માર્ગ પર -> પ્રવાસ દરમિયાન",
+          "examples": [
+            "The bus stopped en route to pick up more passengers.",
+            "We saw a beautiful landscape en route to the mountains.",
+            "The package was lost en route to its destination.",
+            "The flight attendants served snacks en route to New York."
+          ]
+        },
+        {
+          "id": 62,
+          "word": "In transit",
+          "category": "Everyday Situations",
+          "subcategory": "Asking & Navigation",
+          "part_of_speech": "phrasal verb",
+          "difficulty": "Intermediate",
+          "frequency": "Common",
+          "gujarati_pronunciation": "ઇન ટ્રાન્ઝિટ",
+          "english_meaning": "In the process of being transported from one place to another. In transit is used to describe something that is being moved or shipped.",
+          "gujarati_meaning": "એક જગ્યાથી બીજી જગ્યાએ લઈ જવાની પ્રક્રિયામાં. ટ્રાન્ઝિટ એ કોઈ વસ્તુને લઈ જવાની અથવા મોકલવાની પ્રક્રિયાનું વર્ણન કરે છે.",
+          "synonyms": [
+            "en route",
+            "on the way",
+            "in transportation"
+          ],
+          "antonyms": [
+            "at the destination"
+          ],
+          "collocations": [
+            "in transit to",
+            "goods in transit",
+            "in transit insurance"
+          ],
+          "word_forms": [],
+          "usage_note": "In transit is often used in formal or official contexts, such as shipping or logistics.",
+          "memory_tip": "'in transit' = પ્રવાહી અવસ્થામાં -> એક જગ્યાથી બીજી જગ્યાએ લઈ જતી વખતે",
+          "examples": [
+            "The package is in transit and will arrive tomorrow.",
+            "The company specializes in shipping goods in transit.",
+            "The traveler's luggage was lost in transit.",
+            "The flight was delayed, and the passengers were stuck in transit."
+          ]
+        },
+        {
+          "id": 63,
+          "word": "Turn back",
+          "category": "Everyday Situations",
+          "subcategory": "Asking & Navigation",
+          "part_of_speech": "phrasal verb",
+          "difficulty": "Intermediate",
+          "frequency": "Common",
+          "gujarati_pronunciation": "ટર્ન બેક",
+          "english_meaning": "To change direction and go back the way you came. Turn back is used to describe the action of reversing one's course.",
+          "gujarati_meaning": "તમે આવ્યા તે રસ્તે પાછા ફરવું. ટર્ન બેક એ પોતાનો રસ્તો બદલવાની અને પાછા જવાની ક્રિયાનું વર્ણન કરે છે.",
+          "synonyms": [
+            "turn around",
+            "go back",
+            "reverse"
+          ],
+          "antonyms": [
+            "continue",
+            "proceed"
+          ],
+          "collocations": [
+            "turn back now",
+            "turn back home",
+            "turn back to"
+          ],
+          "word_forms": [],
+          "usage_note": "Turn back is often used in informal contexts, such as giving directions or advice.",
+          "memory_tip": "'turn back' = પાછો ફરવો -> તમે આવ્યા તે રસ્તે પાછા જવું",
+          "examples": [
+            "We got lost, so we had to turn back and ask for directions.",
+            "The hikers decided to turn back due to the bad weather.",
+            "The driver had to turn back because of the roadblock.",
+            "The traveler turned back to get her forgotten passport."
+          ]
+        },
+        {
+          "id": 64,
+          "word": "Get lost",
+          "category": "Everyday Situations",
+          "subcategory": "Asking & Navigation",
+          "part_of_speech": "phrasal verb",
+          "difficulty": "Intermediate",
+          "frequency": "Common",
+          "gujarati_pronunciation": "ગેટ લોસ્ટ",
+          "english_meaning": "To become lost or unable to find one's way. Get lost is used to describe the state of being disoriented or confused about one's location.",
+          "gujarati_meaning": "ખોવાઈ જવું અથવા પોતાનો રસ્તો શોધી ન શકવો. ગેટ લોસ્ટ એ ખોવાઈ જવાની અથવા ગુંચવણમાં હોવાની સ્થિતિનું વર્ણન કરે છે.",
+          "synonyms": [
+            "lose one's way",
+            "become disoriented",
+            "get confused"
+          ],
+          "antonyms": [
+            "find one's way",
+            "get directions"
+          ],
+          "collocations": [
+            "get lost in",
+            "get lost on the way",
+            "get lost in thought"
+          ],
+          "word_forms": [],
+          "usage_note": "Get lost is often used in informal contexts, such as giving advice or describing a situation.",
+          "memory_tip": "'get lost' = ખોવાઈ જવો -> પોતાનો રસ્તો શોધી ન શકવો",
+          "examples": [
+            "I got lost in the city because I didn't have a map.",
+            "The tourist got lost in the airport and couldn't find the gate.",
+            "The driver got lost on the way to the hotel.",
+            "The child got lost in the crowd and started crying."
+          ]
+        },
+        {
+          "id": 65,
+          "word": "Make a detour",
+          "category": "Everyday Situations",
+          "subcategory": "Asking & Navigation",
+          "part_of_speech": "phrasal verb",
+          "difficulty": "Advanced",
+          "frequency": "Less common",
+          "gujarati_pronunciation": "મેક એ ડિટોર",
+          "english_meaning": "To take a different route or path, often because the usual one is blocked or closed. Make a detour is used to describe the action of taking a secondary route.",
+          "gujarati_meaning": "એક અલગ રસ્તો અથવા માર્ગ લેવો, ઘણીવાર કારણ કે સામાન્ય રસ્તો બંધ અથવા બંધ છે. મેક એ ડિટોર એ ગૌણ માર્ગ લેવાની ક્રિયાનું વર્ણન કરે છે.",
+          "synonyms": [
+            "take a detour",
+            "make a diversion",
+            "take a shortcut"
+          ],
+          "antonyms": [
+            "stay on course",
+            "continue straight"
+          ],
+          "collocations": [
+            "make a detour around",
+            "make a detour through",
+            "make a detour to avoid"
+          ],
+          "word_forms": [],
+          "usage_note": "Make a detour is often used in formal or official contexts, such as giving directions or describing a situation.",
+          "memory_tip": "'make a detour' = અલગ રસ્તો લેવો -> ગૌણ માર્ગ લેવો",
+          "examples": [
+            "We had to make a detour because of the road construction.",
+            "The driver made a detour to avoid the traffic jam.",
+            "The hikers made a detour to see the scenic view.",
+            "The traveler made a detour to visit the local market."
+          ]
+        },
+        {
+          "id": 66,
+          "word": "Take a shortcut",
+          "category": "Everyday Situations",
+          "subcategory": "Asking & Navigation",
+          "part_of_speech": "phrasal verb",
+          "difficulty": "Intermediate",
+          "frequency": "Common",
+          "gujarati_pronunciation": "ટેક એ શોર્ટકટ",
+          "english_meaning": "To take a route that is shorter or more direct than the usual one. Take a shortcut is used to describe the action of taking a more efficient path.",
+          "gujarati_meaning": "એક રસ્તો લેવો જે ટૂંકો અથવા વધુ સીધો છે પરંપરાગત એક. ટેક એ શોર્ટકટ એ વધુ કાર્યક્ષમ માર્ગ લેવાની ક્રિયાનું વર્ણન કરે છે.",
+          "synonyms": [
+            "take a detour",
+            "make a shortcut",
+            "cut through"
+          ],
+          "antonyms": [
+            "take the long way",
+            "go the long route"
+          ],
+          "collocations": [
+            "take a shortcut through",
+            "take a shortcut to",
+            "take a shortcut around"
+          ],
+          "word_forms": [],
+          "usage_note": "Take a shortcut is often used in informal contexts, such as giving advice or describing a situation.",
+          "memory_tip": "'take a shortcut' = ટૂંકો રસ્તો લેવો -> વધુ કાર્યક્ષમ માર્ગ લેવો",
+          "examples": [
+            "I took a shortcut through the park to get to work faster.",
+            "The driver took a shortcut to avoid the traffic jam.",
+            "The hikers took a shortcut to reach the summit earlier.",
+            "The student took a shortcut to finish the project quickly."
+          ]
+        },
+        {
+          "id": 67,
+          "word": "Be on the right track",
+          "category": "Everyday Situations",
+          "subcategory": "Asking & Navigation",
+          "part_of_speech": "idiomatic expression",
+          "difficulty": "Intermediate",
+          "frequency": "Common",
+          "gujarati_pronunciation": "બી ઓન ધ રાઇટ ટ્રેક",
+          "english_meaning": "To be doing something correctly or to be making progress towards a goal. Be on the right track is used to describe the state of being on the correct path.",
+          "gujarati_meaning": "કોઈ વસ્તુ સાચી રીતે કરવી અથવા લક્ષ્ય તરફ પ્રગતિ કરવી. બી ઓન ધ રાઇટ ટ્રેક એ સાચા માર્ગ પર હોવાની સ્થિતિનું વર્ણન કરે છે.",
+          "synonyms": [
+            "be on the right path",
+            "be heading in the right direction",
+            "be making progress"
+          ],
+          "antonyms": [
+            "be on the wrong track",
+            "be lost"
+          ],
+          "collocations": [
+            "be on the right track to",
+            "get on the right track",
+            "stay on the right track"
+          ],
+          "word_forms": [],
+          "usage_note": "Be on the right track is often used in informal contexts, such as giving advice or describing a situation.",
+          "memory_tip": "'be on the right track' = સાચા માર્ગ પર હોવું -> સાચા માર્ગ પર હોવું",
+          "examples": [
+            "I think I'm on the right track with this project.",
+            "The team is on the right track to winning the championship.",
+            "She's on the right track to becoming a successful entrepreneur.",
+            "He's on the right track to recovery after the illness."
+          ]
+        },
+        {
+          "id": 68,
+          "word": "Get off track",
+          "category": "Everyday Situations",
+          "subcategory": "Asking & Navigation",
+          "part_of_speech": "phrasal verb",
+          "difficulty": "Intermediate",
+          "frequency": "Common",
+          "gujarati_pronunciation": "ગેટ ઓફ ટ્રેક",
+          "english_meaning": "To become distracted or sidetracked and lose focus on the main goal or task. Get off track is used to describe the state of being diverted from the intended path.",
+          "gujarati_meaning": "વિક્ષેપિત થવું અથવા મુખ્ય લક્ષ્ય અથવા કાર્યથી ધ્યાન ભટકાવવું. ગેટ ઓફ ટ્રેક એ ઇરાદા કરેલા માર્ગથી દૂર થવાની સ્થિતિનું વર્ણન કરે છે.",
+          "synonyms": [
+            "get sidetracked",
+            "lose focus",
+            "become distracted"
+          ],
+          "antonyms": [
+            "stay on track",
+            "remain focused"
+          ],
+          "collocations": [
+            "get off track easily",
+            "get off track and",
+            "get off track because"
+          ],
+          "word_forms": [],
+          "usage_note": "Get off track is often used in informal contexts, such as giving advice or describing a situation.",
+          "memory_tip": "'get off track' = માર્ગથી દૂર થવું -> ઇરાદા કરેલા માર્ગથી દૂર થવું",
+          "examples": [
+            "I got off track and forgot what I was doing.",
+            "The team got off track and started arguing.",
+            "She got off track and started browsing social media.",
+            "He got off track and started watching videos."
+          ]
+        },
+        {
+          "id": 69,
+          "word": "Find one's way",
+          "category": "Everyday Situations",
+          "subcategory": "Asking & Navigation",
+          "part_of_speech": "phrasal verb",
+          "difficulty": "Intermediate",
+          "frequency": "Common",
+          "gujarati_pronunciation": "ફાઈન્ડ વન્સ વે",
+          "english_meaning": "To discover or determine the correct path or direction. Find one's way is used to describe the action of locating or identifying the correct route.",
+          "gujarati_meaning": "સાચો માર્ગ અથવા દિશા શોધવી અથવા નક્કી કરવી. ફાઈન્ડ વન્સ વે એ સાચા માર્ગને શોધવા અથવા ઓળખવાની ક્રિયાનું વર્ણન કરે છે.",
+          "synonyms": [
+            "find the way",
+            "discover the path",
+            "locate the route"
+          ],
+          "antonyms": [
+            "get lost",
+            "lose one's way"
+          ],
+          "collocations": [
+            "find one's way around",
+            "find one's way through",
+            "find one's way to"
+          ],
+          "word_forms": [],
+          "usage_note": "Find one's way is often used in informal contexts, such as giving directions or describing a situation.",
+          "memory_tip": "'find one's way' = પોતાનો રસ્તો શોધવો -> સાચો માર્ગ શોધવો",
+          "examples": [
+            "It took me a while to find my way around the new city.",
+            "The hikers found their way to the summit using a map.",
+            "The driver found his way through the traffic jam.",
+            "The tourist found her way to the hotel with the help of a local."
+          ]
+        },
+        {
+          "id": 70,
+          "word": "Take the lead",
+          "category": "Everyday Situations",
+          "subcategory": "Asking & Navigation",
+          "part_of_speech": "phrasal verb",
+          "difficulty": "Intermediate",
+          "frequency": "Common",
+          "gujarati_pronunciation": "ટેક ધ લીડ",
+          "english_meaning": "To take charge or assume the role of leader. Take the lead is used to describe the action of becoming the guide or director.",
+          "gujarati_meaning": "આગેવાની લેવી અથવા નેતાની ભૂમિકા સ્વીકારવી. ટેક ધ લીડ એ માર્ગદર્શક અથવા દિશાદર્શક બનવાની ક્રિયાનું વર્ણન કરે છે.",
+          "synonyms": [
+            "take charge",
+            "assume the lead",
+            "become the leader"
+          ],
+          "antonyms": [
+            "follow",
+            "be led"
+          ],
+          "collocations": [
+            "take the lead in",
+            "take the lead on",
+            "take the lead role"
+          ],
+          "word_forms": [],
+          "usage_note": "Take the lead is often used in formal or official contexts, such as business or leadership.",
+          "memory_tip": "'take the lead' = આગેવાની લેવી -> માર્ગદર્શક બનવું",
+          "examples": [
+            "The project manager took the lead on the new initiative.",
+            "The team captain took the lead and guided the team to victory.",
+            "The entrepreneur took the lead in the industry with her innovative ideas.",
+            "The teacher took the lead in the classroom and engaged the students."
+          ]
+        },
+        {
+          "id": 71,
+          "word": "Prioritize",
+          "category": "Everyday Situations",
+          "subcategory": "Managing Daily Tasks",
+          "part_of_speech": "verb",
+          "difficulty": "Intermediate",
+          "frequency": "Common",
+          "gujarati_pronunciation": "પ્રાયોરાઇટાઇઝ",
+          "english_meaning": "To decide which things are most important and should be done first.",
+          "gujarati_meaning": "કામોને મહત્વના અને ઓછા મહત્વના તરીકે વર્ગીકૃત કરવું અને સૌથી મહત્વના કામોને પહેલાં કરવું.",
+          "synonyms": [
+            "Organize",
+            "Schedule",
+            "Arrange"
+          ],
+          "antonyms": [
+            "Neglect",
+            "Ignore"
+          ],
+          "collocations": [
+            "prioritize tasks",
+            "prioritize needs",
+            "prioritize goals"
+          ],
+          "word_forms": [
+            "priority",
+            "prioritization"
+          ],
+          "usage_note": "Prioritize is often used in formal and business settings.",
+          "memory_tip": "'prior' = પહેલાં -> prioritize = મહત્વ આપવું",
+          "examples": [
+            "I need to prioritize my tasks for the day.",
+            "She prioritizes her family over her career.",
+            "The company will prioritize customer satisfaction.",
+            "The manager asked the team to prioritize the most urgent projects."
+          ]
+        },
+        {
+          "id": 72,
+          "word": "Delegate",
+          "category": "Everyday Situations",
+          "subcategory": "Managing Daily Tasks",
+          "part_of_speech": "verb",
+          "difficulty": "Intermediate",
+          "frequency": "Common",
+          "gujarati_pronunciation": "ડેલિગેટ",
+          "english_meaning": "To give someone the authority to do a particular task or make a decision.",
+          "gujarati_meaning": "કોઈ વ્યક્તિને કોઈ વિશિષ્ટ કામ કરવા અથવા નિર્ણય લેવાનો અધિકાર આપવો.",
+          "synonyms": [
+            "Assign",
+            "Entrust",
+            "Authorize"
+          ],
+          "antonyms": [
+            "Withhold",
+            "Retain"
+          ],
+          "collocations": [
+            "delegate tasks",
+            "delegate authority",
+            "delegate responsibilities"
+          ],
+          "word_forms": [
+            "delegation",
+            "delegator"
+          ],
+          "usage_note": "Delegate is often used in business and management contexts.",
+          "memory_tip": "'deleg' = સોંપવું -> delegate = કામ સોંપવું",
+          "examples": [
+            "The manager delegated the task to her assistant.",
+            "The company will delegate the decision to the board of directors.",
+            "She delegates her workload to her team members.",
+            "The president delegated the power to the vice president."
+          ]
+        },
+        {
+          "id": 73,
+          "word": "Procrastinate",
+          "category": "Everyday Situations",
+          "subcategory": "Managing Daily Tasks",
+          "part_of_speech": "verb",
+          "difficulty": "Intermediate",
+          "frequency": "Very common",
+          "gujarati_pronunciation": "પ્રોક્રાસ્ટિનેટ",
+          "english_meaning": "To delay or put off doing something, often because it is unpleasant or boring.",
+          "gujarati_meaning": "કોઈ કામ કરવામાં વિલંબ કરવો અથવા ટાળવું, ઘણીવાર કારણ કે તે અપ્રિય અથવા બોરિંગ છે.",
+          "synonyms": [
+            "Delay",
+            "Postpone",
+            "Put off"
+          ],
+          "antonyms": [
+            "Accelerate",
+            "Hasten"
+          ],
+          "collocations": [
+            "procrastinate on a task",
+            "procrastinate about a decision",
+            "procrastinate due to laziness"
+          ],
+          "word_forms": [
+            "procrastination",
+            "procrastinator"
+          ],
+          "usage_note": "Procrastinate is often used in informal contexts.",
+          "memory_tip": "'pro' = આગળ -> procrastinate = વિલંબ કરવો",
+          "examples": [
+            "I tend to procrastinate when it comes to doing my homework.",
+            "She procrastinated on the project until the deadline was near.",
+            "He procrastinates about making important decisions.",
+            "The student procrastinated on the assignment and now it's too late to submit it."
+          ]
+        },
+        {
+          "id": 74,
+          "word": "Multitask",
+          "category": "Everyday Situations",
+          "subcategory": "Managing Daily Tasks",
+          "part_of_speech": "verb",
+          "difficulty": "Intermediate",
+          "frequency": "Very common",
+          "gujarati_pronunciation": "મલ્ટિટાસ્ક",
+          "english_meaning": "To do several things at the same time, such as working on a computer while talking on the phone.",
+          "gujarati_meaning": "એકસાથે ઘણી વસ્તુઓ કરવી, જેમ કે કમ્પ્યુટર પર કામ કરવું જ્યારે ફોન પર વાત કરવી.",
+          "synonyms": [
+            "Juggle",
+            "Balance",
+            "Handle"
+          ],
+          "antonyms": [
+            "Focus",
+            "Concentrate"
+          ],
+          "collocations": [
+            "multitask on several projects",
+            "multitask at work",
+            "multitask while studying"
+          ],
+          "word_forms": [
+            "multitasking",
+            "multitasker"
+          ],
+          "usage_note": "Multitask is often used in modern workplaces.",
+          "memory_tip": "'multi' = બહુ -> multitask = એકસાથે કરવું",
+          "examples": [
+            "I can multitask and finish all my work on time.",
+            "She can multitask and talk on the phone while driving.",
+            "He is good at multitasking and can handle several projects at once.",
+            "The employee was able to multitask and meet the deadline."
+          ]
+        },
+        {
+          "id": 75,
+          "word": "Time-blocking",
+          "category": "Everyday Situations",
+          "subcategory": "Managing Daily Tasks",
+          "part_of_speech": "noun",
+          "difficulty": "Advanced",
+          "frequency": "Less common",
+          "gujarati_pronunciation": "ટાઇમ-બ્લોકિંગ",
+          "english_meaning": "A time management technique where you schedule large blocks of uninterrupted time to focus on a task.",
+          "gujarati_meaning": "સમય વ્યવસ્થાપનની એક ટેકનિક જ્યાં તમે એક કામ પર ધ્યાન કેન્દ્રિત કરવા માટે અવિચ્છિન્ન સમયના મોટા બ્લોક્સને શેડ્યૂલ કરો છો.",
+          "synonyms": [
+            "Scheduling",
+            "Calendaring",
+            "Planning"
+          ],
+          "antonyms": [
+            "Procrastination",
+            "Idle time"
+          ],
+          "collocations": [
+            "time-blocking schedule",
+            "time-blocking technique",
+            "time-blocking app"
+          ],
+          "word_forms": [
+            "time-block",
+            "time-blocker"
+          ],
+          "usage_note": "Time-blocking is often used in productivity and time management contexts.",
+          "memory_tip": "'time' = સમય -> time-blocking = સમય બ્લોક કરવો",
+          "examples": [
+            "I use time-blocking to schedule my day and stay focused.",
+            "The company uses time-blocking to manage their projects and meet deadlines.",
+            "She uses time-blocking to prioritize her tasks and avoid distractions.",
+            "The employee was able to use time-blocking to increase his productivity and efficiency."
+          ]
+        },
+        {
+          "id": 76,
+          "word": "Batching",
+          "category": "Everyday Situations",
+          "subcategory": "Managing Daily Tasks",
+          "part_of_speech": "noun",
+          "difficulty": "Advanced",
+          "frequency": "Less common",
+          "gujarati_pronunciation": "બેચિંગ",
+          "english_meaning": "A productivity technique where you group similar tasks together and complete them in one session.",
+          "gujarati_meaning": "ઉત્પાદકતાની ટેકનિક જ્યાં તમે સમાન કામોને એકસાથે જૂથ કરો છો અને તેમને એક સેશનમાં પૂર્ણ કરો છો.",
+          "synonyms": [
+            "Grouping",
+            "Categorizing",
+            "Prioritizing"
+          ],
+          "antonyms": [
+            "Multitasking",
+            "Switching"
+          ],
+          "collocations": [
+            "batching tasks",
+            "batching emails",
+            "batching phone calls"
+          ],
+          "word_forms": [
+            "batch",
+            "batcher"
+          ],
+          "usage_note": "Batching is often used in productivity and time management contexts.",
+          "memory_tip": "'batch' = જૂથ -> batching = જૂથમાં કરવું",
+          "examples": [
+            "I use batching to manage my emails and respond to them all at once.",
+            "The company uses batching to process their orders and reduce delays.",
+            "She uses batching to clean her house and get everything done in one day.",
+            "The employee was able to use batching to increase his efficiency and reduce his workload."
+          ]
+        },
+        {
+          "id": 77,
+          "word": "Pomodoro",
+          "category": "Everyday Situations",
+          "subcategory": "Managing Daily Tasks",
+          "part_of_speech": "noun",
+          "difficulty": "Advanced",
+          "frequency": "Less common",
+          "gujarati_pronunciation": "પોમોડોરો",
+          "english_meaning": "A time management technique where you work in focused 25-minute increments, followed by a 5-minute break.",
+          "gujarati_meaning": "સમય વ્યવસ્થાપનની ટેકનિક જ્યાં તમે 25-મિનિટના સમયગાળામાં કામ કરો છો, ત્યારબાદ 5-મિનિટનો વિરામ.",
+          "synonyms": [
+            "Time-boxing",
+            "Interval training",
+            "Work sprints"
+          ],
+          "antonyms": [
+            "Procrastination",
+            "Distractions"
+          ],
+          "collocations": [
+            "Pomodoro technique",
+            "Pomodoro timer",
+            "Pomodoro app"
+          ],
+          "word_forms": [
+            "Pomodoro session",
+            "Pomodoro cycle"
+          ],
+          "usage_note": "Pomodoro is often used in productivity and time management contexts.",
+          "memory_tip": "'pomo' = ફળ -> Pomodoro = ફળ જેવો સમય",
+          "examples": [
+            "I use the Pomodoro technique to stay focused and avoid distractions.",
+            "The company uses Pomodoro to boost their employees' productivity.",
+            "She uses Pomodoro to study for her exams and retain information better.",
+            "The employee was able to use Pomodoro to increase his work efficiency and reduce his stress levels."
+          ]
+        },
+        {
+          "id": 78,
+          "word": "Automate",
+          "category": "Everyday Situations",
+          "subcategory": "Managing Daily Tasks",
+          "part_of_speech": "verb",
+          "difficulty": "Intermediate",
+          "frequency": "Common",
+          "gujarati_pronunciation": "ઑટોમેટ",
+          "english_meaning": "To use machines or computers to do a task, so that it can be done automatically without human intervention.",
+          "gujarati_meaning": "મશીનો અથવા કમ્પ્યુટરોનો ઉપયોગ કરવો કોઈ કામ કરવા માટે, જેથી તે સ્વયંસંચાલિત રીતે માનવ હસ્તક્ષેપ વિના કરી શકાય.",
+          "synonyms": [
+            "Mechanize",
+            "Computerize",
+            "Streamline"
+          ],
+          "antonyms": [
+            "Manual",
+            "Labor-intensive"
+          ],
+          "collocations": [
+            "automate tasks",
+            "automate processes",
+            "automate systems"
+          ],
+          "word_forms": [
+            "automation",
+            "automated"
+          ],
+          "usage_note": "Automate is often used in technological and industrial contexts.",
+          "memory_tip": "'auto' = સ્વયં -> automate = સ્વયંસંચાલિત કરવું",
+          "examples": [
+            "The company automated their manufacturing process to increase efficiency.",
+            "She automated her email responses to save time.",
+            "He automated his home lighting system to make it more convenient.",
+            "The employee was able to automate the data entry process and reduce the workload."
+          ]
+        },
+        {
+          "id": 79,
+          "word": "Outsource",
+          "category": "Everyday Situations",
+          "subcategory": "Managing Daily Tasks",
+          "part_of_speech": "verb",
+          "difficulty": "Intermediate",
+          "frequency": "Common",
+          "gujarati_pronunciation": "આઉટસોર્સ",
+          "english_meaning": "To give a task or job to someone outside the company or organization, so that it can be done more efficiently or at a lower cost.",
+          "gujarati_meaning": "કોઈ કામ અથવા નોકરીને કંપની અથવા સંસ્થાની બહારના કોઈને આપવું, જેથી તે વધુ કારકિર્દી અથવા ઓછા ખર્ચે કરી શકાય.",
+          "synonyms": [
+            "Contract out",
+            "Subcontract",
+            "Farm out"
+          ],
+          "antonyms": [
+            "Insourcing",
+            "In-house"
+          ],
+          "collocations": [
+            "outsource tasks",
+            "outsource work",
+            "outsource services"
+          ],
+          "word_forms": [
+            "outsourcing",
+            "outsourced"
+          ],
+          "usage_note": "Outsource is often used in business and management contexts.",
+          "memory_tip": "'out' = બહાર -> outsource = બહાર આપવું",
+          "examples": [
+            "The company outsourced their customer service to a call center.",
+            "She outsourced her accounting work to a freelance accountant.",
+            "He outsourced his web development project to a team of experts.",
+            "The employee was able to outsource the data analysis task and focus on more important work."
+          ]
+        },
+        {
+          "id": 80,
+          "word": "Downsize",
+          "category": "Everyday Situations",
+          "subcategory": "Managing Daily Tasks",
+          "part_of_speech": "verb",
+          "difficulty": "Advanced",
+          "frequency": "Less common",
+          "gujarati_pronunciation": "ડાઉનસાઇઝ",
+          "english_meaning": "To reduce the size or amount of something, such as a company, a workforce, or a budget.",
+          "gujarati_meaning": "કંપની, કાર્યબળ, અથવા બજેટ જેવી કોઈ વસ્તુનું કદ અથવા પ્રમાણ ઘટાડવું.",
+          "synonyms": [
+            "Downscale",
+            "Reduce",
+            "Cut back"
+          ],
+          "antonyms": [
+            "Upsize",
+            "Expand",
+            "Increase"
+          ],
+          "collocations": [
+            "downsize the company",
+            "downsize the workforce",
+            "downsize the budget"
+          ],
+          "word_forms": [
+            "downsizing",
+            "downsized"
+          ],
+          "usage_note": "Downsize is often used in business and economic contexts.",
+          "memory_tip": "'down' = નીચે -> downsize = નીચે લાવવું",
+          "examples": [
+            "The company downsized their operations to reduce costs.",
+            "She downsized her team to focus on more important projects.",
+            "He downsized his budget to save money.",
+            "The employee was affected by the company's decision to downsize and had to look for a new job."
+          ]
+        },
+        {
+          "id": 81,
+          "word": "Ecstatic",
+          "category": "Everyday Situations",
+          "subcategory": "Feelings & States",
+          "part_of_speech": "adjective",
+          "difficulty": "Advanced",
+          "frequency": "Less common",
+          "gujarati_pronunciation": "એક્સ્ટેટિક",
+          "english_meaning": "Feeling or expressing overwhelming happiness or excitement.",
+          "gujarati_meaning": "અતિશય ખુશી અથવા ઉત્સાહની લાગણી થતી હોય.",
+          "synonyms": [
+            "Euphoric",
+            "Elated",
+            "Thrilled"
+          ],
+          "antonyms": [
+            "Miserable"
+          ],
+          "collocations": [
+            "ecstatic crowd",
+            "ecstatic fans",
+            "ecstatic smile"
+          ],
+          "word_forms": [
+            "ecstasy"
+          ],
+          "usage_note": "Often used to describe extreme happiness or excitement, especially in response to a significant event.",
+          "memory_tip": "'ecstatic' = અતિશય ખુશી -> ઉત્સાહી",
+          "examples": [
+            "The crowd went ecstatic when their team won the championship.",
+            "She was ecstatic about her new job offer.",
+            "The news of the wedding made the whole family ecstatic.",
+            "The fans were ecstatic when their favorite singer performed live."
+          ]
+        },
+        {
+          "id": 82,
+          "word": "Nostalgic",
+          "category": "Everyday Situations",
+          "subcategory": "Feelings & States",
+          "part_of_speech": "adjective",
+          "difficulty": "Advanced",
+          "frequency": "Common",
+          "gujarati_pronunciation": "નોસ્ટાલ્જિક",
+          "english_meaning": "Feeling happy and also a little sad when you think about something from the past.",
+          "gujarati_meaning": "ભૂતકાળની વાતો યાદ કરતી વખતે ખુશી અને થોડો દુઃખ એમ બંને લાગણીઓ થતી હોય.",
+          "synonyms": [
+            "Wistful",
+            "Sentimental",
+            "Melancholic"
+          ],
+          "antonyms": [
+            "Indifferent"
+          ],
+          "collocations": [
+            "nostalgic memories",
+            "nostalgic music",
+            "nostalgic smell"
+          ],
+          "word_forms": [
+            "nostalgia"
+          ],
+          "usage_note": "Often used to describe a bittersweet feeling when remembering the past.",
+          "memory_tip": "'nostalgic' = નોસ્ટાલ્જિક = ભૂતકાળની યાદ -> નોસ્ટાલ્જિયા",
+          "examples": [
+            "The old photograph made her nostalgic for her childhood.",
+            "The smell of freshly baked cookies was nostalgic for him.",
+            "The song brought back nostalgic memories of their first date.",
+            "The nostalgic atmosphere of the old café made it a popular spot."
+          ]
+        },
+        {
+          "id": 83,
+          "word": "Serene",
+          "category": "Everyday Situations",
+          "subcategory": "Feelings & States",
+          "part_of_speech": "adjective",
+          "difficulty": "Intermediate",
+          "frequency": "Common",
+          "gujarati_pronunciation": "સેરીન",
+          "english_meaning": "Peaceful and untroubled; calm and quiet.",
+          "gujarati_meaning": "શાંત, પ્રશાંત અને નિર્વિકાર.",
+          "synonyms": [
+            "Peaceful",
+            "Tranquil",
+            "Calm"
+          ],
+          "antonyms": [
+            "Turmoil"
+          ],
+          "collocations": [
+            "serene landscape",
+            "serene atmosphere",
+            "serene music"
+          ],
+          "word_forms": [
+            "serenity"
+          ],
+          "usage_note": "Often used to describe a peaceful and calming environment or state of mind.",
+          "memory_tip": "'serene' = શાંત -> શાંતિપૂર્ણ",
+          "examples": [
+            "The serene beauty of the lake was breathtaking.",
+            "The serene atmosphere of the spa helped her relax.",
+            "The serene music played in the background was soothing.",
+            "The serene expression on her face made her look peaceful."
+          ]
+        },
+        {
+          "id": 84,
+          "word": "Exhilarated",
+          "category": "Everyday Situations",
+          "subcategory": "Feelings & States",
+          "part_of_speech": "adjective",
+          "difficulty": "Advanced",
+          "frequency": "Less common",
+          "gujarati_pronunciation": "એક્સિલરેટેડ",
+          "english_meaning": "Feeling extremely happy and excited, often because of a thrilling experience.",
+          "gujarati_meaning": "અતિશય ખુશી અને ઉત્સાહથી ભરાયેલું, ઘણીવાર રોમાંચક અનુભવને કારણે.",
+          "synonyms": [
+            "Thrilled",
+            "Euphoric",
+            "Elated"
+          ],
+          "antonyms": [
+            "Disappointed"
+          ],
+          "collocations": [
+            "exhilarated crowd",
+            "exhilarated feeling",
+            "exhilarated experience"
+          ],
+          "word_forms": [
+            "exhilarating"
+          ],
+          "usage_note": "Often used to describe an intense feeling of happiness and excitement, often after a thrilling experience.",
+          "memory_tip": "'exhilarated' = રોમાંચક -> ઉત્સાહી",
+          "examples": [
+            "She felt exhilarated after skydiving for the first time.",
+            "The crowd was exhilarated by the rock concert.",
+            "The news of the promotion left him exhilarated.",
+            "The exhilarated feeling of traveling to a new country was exciting."
+          ]
+        },
+        {
+          "id": 85,
+          "word": "Melancholy",
+          "category": "Everyday Situations",
+          "subcategory": "Feelings & States",
+          "part_of_speech": "adjective",
+          "difficulty": "Advanced",
+          "frequency": "Common",
+          "gujarati_pronunciation": "મેલાન્કોલી",
+          "english_meaning": "Having a feeling of sadness or depression, often without a clear reason.",
+          "gujarati_meaning": "દુઃખ અથવા નિરાશાની લાગણી, ઘણીવાર સ્પષ્ટ કારણ વિના.",
+          "synonyms": [
+            "Sad",
+            "Gloomy",
+            "Somber"
+          ],
+          "antonyms": [
+            "Cheerful"
+          ],
+          "collocations": [
+            "melancholy mood",
+            "melancholy music",
+            "melancholy atmosphere"
+          ],
+          "word_forms": [
+            "melancholy"
+          ],
+          "usage_note": "Often used to describe a feeling of sadness or depression without a clear reason.",
+          "memory_tip": "'melancholy' = દુઃખી -> નિરાશાજનક",
+          "examples": [
+            "The rainy day put her in a melancholy mood.",
+            "The melancholy music suited his somber mood.",
+            "The old, abandoned house had a melancholy atmosphere.",
+            "He felt melancholy after the breakup."
+          ]
+        },
+        {
+          "id": 86,
+          "word": "Euphoric",
+          "category": "Everyday Situations",
+          "subcategory": "Feelings & States",
+          "part_of_speech": "adjective",
+          "difficulty": "Advanced",
+          "frequency": "Less common",
+          "gujarati_pronunciation": "યુફોરિક",
+          "english_meaning": "Feeling or expressing intense happiness or excitement.",
+          "gujarati_meaning": "અતિશય ખુશી અથવા ઉત્સાહની લાગણી થતી હોય.",
+          "synonyms": [
+            "Ecstatic",
+            "Elated",
+            "Thrilled"
+          ],
+          "antonyms": [
+            "Miserable"
+          ],
+          "collocations": [
+            "euphoric feeling",
+            "euphoric crowd",
+            "euphoric moment"
+          ],
+          "word_forms": [
+            "euphoria"
+          ],
+          "usage_note": "Often used to describe an intense feeling of happiness or excitement.",
+          "memory_tip": "'euphoric' = અતિશય ખુશી -> ઉત્સાહી",
+          "examples": [
+            "The crowd was euphoric when their team won the championship.",
+            "She felt euphoric after receiving the good news.",
+            "The euphoric atmosphere of the party was infectious.",
+            "He was euphoric about his new job opportunity."
+          ]
+        },
+        {
+          "id": 87,
+          "word": "Despondent",
+          "category": "Everyday Situations",
+          "subcategory": "Feelings & States",
+          "part_of_speech": "adjective",
+          "difficulty": "Advanced",
+          "frequency": "Less common",
+          "gujarati_pronunciation": "ડિસ્પોન્ડન્ટ",
+          "english_meaning": "Feeling extremely sad or hopeless.",
+          "gujarati_meaning": "અતિશય દુઃખી અથવા નિરાશ.",
+          "synonyms": [
+            "Depressed",
+            "Despairing",
+            "Hopeless"
+          ],
+          "antonyms": [
+            "Optimistic"
+          ],
+          "collocations": [
+            "despondent mood",
+            "despondent person",
+            "despondent situation"
+          ],
+          "word_forms": [
+            "despondency"
+          ],
+          "usage_note": "Often used to describe a state of extreme sadness or hopelessness.",
+          "memory_tip": "'despondent' = નિરાશ -> દુઃખી",
+          "examples": [
+            "The news of the loss made him despondent.",
+            "She felt despondent after the breakup.",
+            "The despondent atmosphere of the hospital was depressing.",
+            "He was despondent about his future prospects."
+          ]
+        },
+        {
+          "id": 88,
+          "word": "Resigned",
+          "category": "Everyday Situations",
+          "subcategory": "Feelings & States",
+          "part_of_speech": "adjective",
+          "difficulty": "Intermediate",
+          "frequency": "Common",
+          "gujarati_pronunciation": "રિઝાઇન્ડ",
+          "english_meaning": "Accepting something unpleasant or unwanted because it cannot be changed.",
+          "gujarati_meaning": "કંઈક અપ્રિય અથવા અવાંછિત હોવા છતાં તેને સ્વીકારવું કારણ કે તે બદલી શકાતું નથી.",
+          "synonyms": [
+            "Accepting",
+            "Reconciled",
+            "Defeated"
+          ],
+          "antonyms": [
+            "Resistant"
+          ],
+          "collocations": [
+            "resigned expression",
+            "resigned tone",
+            "resigned attitude"
+          ],
+          "word_forms": [
+            "resignation"
+          ],
+          "usage_note": "Often used to describe a state of acceptance or surrender, often due to a lack of choice or control.",
+          "memory_tip": "'resigned' = સ્વીકારવું -> નિષ્ફળ",
+          "examples": [
+            "She felt resigned to her fate.",
+            "He was resigned to the fact that he would never see his family again.",
+            "The resigned look on his face showed his acceptance of the situation.",
+            "She was resigned to the idea of working long hours."
+          ]
+        },
+        {
+          "id": 89,
+          "word": "Morose",
+          "category": "Everyday Situations",
+          "subcategory": "Feelings & States",
+          "part_of_speech": "adjective",
+          "difficulty": "Advanced",
+          "frequency": "Less common",
+          "gujarati_pronunciation": "મોરોઝ",
+          "english_meaning": "Having a sullen or gloomy disposition; sulky.",
+          "gujarati_meaning": "કડક અથવા ધૂંધળી વૃત્તિ; દુઃખી.",
+          "synonyms": [
+            "Sullen",
+            "Gloomy",
+            "Sulky"
+          ],
+          "antonyms": [
+            "Cheerful"
+          ],
+          "collocations": [
+            "morose mood",
+            "morose person",
+            "morose atmosphere"
+          ],
+          "word_forms": [
+            "moroseness"
+          ],
+          "usage_note": "Often used to describe someone with a gloomy or sulky disposition.",
+          "memory_tip": "'morose' = કડક -> દુઃખી",
+          "examples": [
+            "The morose expression on his face made him look unapproachable.",
+            "She had a morose mood after the argument.",
+            "The morose atmosphere of the abandoned house was eerie.",
+            "He was known for his morose personality."
+          ]
+        },
+        {
+          "id": 90,
+          "word": "Pensive",
+          "category": "Everyday Situations",
+          "subcategory": "Feelings & States",
+          "part_of_speech": "adjective",
+          "difficulty": "Advanced",
+          "frequency": "Less common",
+          "gujarati_pronunciation": "પેન્સિવ",
+          "english_meaning": "Thinking deeply and often sadly about something.",
+          "gujarati_meaning": "કંઈક વિશે ઊંડો વિચાર કરવો, ઘણીવાર દુઃખી એવી લાગણીથી.",
+          "synonyms": [
+            "Thoughtful",
+            "Contemplative",
+            "Reflective"
+          ],
+          "antonyms": [
+            "Carefree"
+          ],
+          "collocations": [
+            "pensive mood",
+            "pensive person",
+            "pensive atmosphere"
+          ],
+          "word_forms": [
+            "pensiveness"
+          ],
+          "usage_note": "Often used to describe a state of deep thought, often with a tinge of sadness.",
+          "memory_tip": "'pensive' = વિચારશીલ -> ઊંડો વિચાર",
+          "examples": [
+            "The pensive expression on her face showed her deep thinking.",
+            "He was in a pensive mood after the loss.",
+            "The pensive atmosphere of the library was conducive to study.",
+            "She was pensive about her future plans."
+          ]
+        },
+        {
+          "id": 91,
+          "word": "Ahead of schedule",
+          "category": "Everyday Situations",
+          "subcategory": "Time & Routine",
+          "part_of_speech": "phrase",
+          "difficulty": "Intermediate",
+          "frequency": "Common",
+          "gujarati_pronunciation": "એહેડ ઑફ શેડ્યૂલ",
+          "english_meaning": "Finished or done before the planned time",
+          "gujarati_meaning": "નક્કી કરેલા સમય પહેલાં પૂર્ણ થયેલું કામ.",
+          "synonyms": [
+            "Early",
+            "In advance",
+            "Prematurely"
+          ],
+          "antonyms": [
+            "Behind schedule"
+          ],
+          "collocations": [
+            "finish ahead of schedule",
+            "complete ahead of schedule",
+            "deliver ahead of schedule"
+          ],
+          "word_forms": [
+            "ahead",
+            "schedule"
+          ],
+          "usage_note": "Used to describe a task or project that is completed before the expected time",
+          "memory_tip": "'Ahead' = આગળ -> નક્કી કરેલા સમય પહેલાં",
+          "examples": [
+            "The construction project was finished ahead of schedule.",
+            "We were able to deliver the product ahead of schedule.",
+            "The team worked efficiently and completed the task ahead of schedule.",
+            "The new employee was able to learn the job ahead of schedule."
+          ]
+        },
+        {
+          "id": 92,
+          "word": "Backlog",
+          "category": "Everyday Situations",
+          "subcategory": "Time & Routine",
+          "part_of_speech": "noun",
+          "difficulty": "Advanced",
+          "frequency": "Less common",
+          "gujarati_pronunciation": "બેકલૉગ",
+          "english_meaning": "A buildup of tasks or jobs that need to be done",
+          "gujarati_meaning": "એવું કામ કે જે થતાં વિલંબ થયો હોય અને હવે પૂર્ણ કરવાની જરૂર છે.",
+          "synonyms": [
+            "Accumulation",
+            "Buildup",
+            "Arrears"
+          ],
+          "antonyms": [
+            " Clearance"
+          ],
+          "collocations": [
+            "clear the backlog",
+            "reduce the backlog",
+            "increase the backlog"
+          ],
+          "word_forms": [
+            "backlogged"
+          ],
+          "usage_note": "Used to describe a situation where there is a large amount of work that needs to be done",
+          "memory_tip": "'Back' = પાછળ -> વિલંબિત કામ",
+          "examples": [
+            "The company has a large backlog of orders to fill.",
+            "The doctor has a backlog of patients to see.",
+            "The manufacturer has a backlog of products to produce.",
+            "The IT department has a backlog of issues to resolve."
+          ]
+        },
+        {
+          "id": 93,
+          "word": "Deadline",
+          "category": "Everyday Situations",
+          "subcategory": "Time & Routine",
+          "part_of_speech": "noun",
+          "difficulty": "Intermediate",
+          "frequency": "Very common",
+          "gujarati_pronunciation": "ડેડલાઈન",
+          "english_meaning": "A date or time by which something must be done",
+          "gujarati_meaning": "એવો સમય કે જેના અંતે કામ પૂર્ણ થવું જોઈએ.",
+          "synonyms": [
+            "Time limit",
+            "Target date",
+            "Cut-off date"
+          ],
+          "antonyms": [
+            "No deadline"
+          ],
+          "collocations": [
+            "meet the deadline",
+            "miss the deadline",
+            "extend the deadline"
+          ],
+          "word_forms": [
+            "deadlines"
+          ],
+          "usage_note": "Used to describe a specific time by which a task or project must be completed",
+          "memory_tip": "'Dead' = મૃત્યુ -> અંતિમ સમય",
+          "examples": [
+            "The deadline for the project is next Friday.",
+            "We need to meet the deadline for the report.",
+            "The company has extended the deadline for the application.",
+            "The student was worried about missing the deadline for the assignment."
+          ]
+        },
+        {
+          "id": 94,
+          "word": "Overtime",
+          "category": "Everyday Situations",
+          "subcategory": "Time & Routine",
+          "part_of_speech": "noun",
+          "difficulty": "Intermediate",
+          "frequency": "Common",
+          "gujarati_pronunciation": "ઓવરટાઈમ",
+          "english_meaning": "Time worked beyond the normal working hours",
+          "gujarati_meaning": "સામાન્ય કાર્ય કલાકોની બહાર કામ કરવું.",
+          "synonyms": [
+            "Extra time",
+            "Additional hours",
+            "Extended hours"
+          ],
+          "antonyms": [
+            "Regular hours"
+          ],
+          "collocations": [
+            "work overtime",
+            "pay overtime",
+            "overtime pay"
+          ],
+          "word_forms": [
+            "overtime"
+          ],
+          "usage_note": "Used to describe the time worked beyond the normal working hours",
+          "memory_tip": "'Over' = વધુ -> સામાન્ય કલાકોની બહાર",
+          "examples": [
+            "The employee worked overtime to finish the project.",
+            "The company pays overtime to its employees.",
+            "The worker is entitled to overtime pay for the extra hours worked.",
+            "The manager asked the team to work overtime to meet the deadline."
+          ]
+        },
+        {
+          "id": 95,
+          "word": "Punctuality",
+          "category": "Everyday Situations",
+          "subcategory": "Time & Routine",
+          "part_of_speech": "noun",
+          "difficulty": "Advanced",
+          "frequency": "Less common",
+          "gujarati_pronunciation": "પંક્ચ્યુઅલિટી",
+          "english_meaning": "The quality of being on time or doing things at the expected time",
+          "gujarati_meaning": "સમયસરતા અને નિયમિતતાનું ગુણ.",
+          "synonyms": [
+            "Timeliness",
+            "Promptness",
+            "Punctualness"
+          ],
+          "antonyms": [
+            "Tardiness"
+          ],
+          "collocations": [
+            "value punctuality",
+            "appreciate punctuality",
+            "practise punctuality"
+          ],
+          "word_forms": [
+            "punctual"
+          ],
+          "usage_note": "Used to describe the quality of being on time or doing things at the expected time",
+          "memory_tip": "'Punctual' = સમયસર -> નિયમિત અને સમયસર",
+          "examples": [
+            "Punctuality is important in the workplace.",
+            "The teacher emphasized the importance of punctuality in class.",
+            "The company values punctuality and rewards employees who are on time.",
+            "The student's punctuality was impressive, and she never missed a class."
+          ]
+        },
+        {
+          "id": 96,
+          "word": "Scheduling",
+          "category": "Everyday Situations",
+          "subcategory": "Time & Routine",
+          "part_of_speech": "noun",
+          "difficulty": "Intermediate",
+          "frequency": "Common",
+          "gujarati_pronunciation": "શેડ્યૂલિંગ",
+          "english_meaning": "The process of planning and organizing tasks or events",
+          "gujarati_meaning": "કામો અથવા ઘટનાઓનું આયોજન અને સંગઠન.",
+          "synonyms": [
+            "Planning",
+            "Organizing",
+            "Timetabling"
+          ],
+          "antonyms": [
+            "Randomness"
+          ],
+          "collocations": [
+            "create a schedule",
+            "follow a schedule",
+            "adjust the schedule"
+          ],
+          "word_forms": [
+            "schedule"
+          ],
+          "usage_note": "Used to describe the process of planning and organizing tasks or events",
+          "memory_tip": "'Schedule' = શેડ્યૂલ -> કામોનું આયોજન",
+          "examples": [
+            "The manager is responsible for scheduling the meetings.",
+            "The teacher creates a schedule for the lesson plans.",
+            "The company uses scheduling software to organize its tasks.",
+            "The student makes a schedule to manage her time effectively."
+          ]
+        },
+        {
+          "id": 97,
+          "word": "Time management",
+          "category": "Everyday Situations",
+          "subcategory": "Time & Routine",
+          "part_of_speech": "phrase",
+          "difficulty": "Intermediate",
+          "frequency": "Common",
+          "gujarati_pronunciation": "ટાઈમ મેનેજમેન્ટ",
+          "english_meaning": "The process of planning and controlling how much time to spend on different activities",
+          "gujarati_meaning": "વિવિધ પ્રવૃત્તિઓ પર કેટલો સમય ખર્ચવાનું તેનું આયોજન અને નિયંત્રણ.",
+          "synonyms": [
+            "Time organization",
+            "Time planning",
+            "Productivity"
+          ],
+          "antonyms": [
+            "Procrastination"
+          ],
+          "collocations": [
+            "improve time management",
+            "develop time management skills",
+            "practice time management"
+          ],
+          "word_forms": [
+            "time manager",
+            "time management skills"
+          ],
+          "usage_note": "Used to describe the process of planning and controlling how much time to spend on different activities",
+          "memory_tip": "'Time' = સમય -> સમયનું સંચાલન",
+          "examples": [
+            "Good time management is essential for success.",
+            "The company offers time management training to its employees.",
+            "The student uses a planner to improve her time management skills.",
+            "The manager prioritizes tasks to optimize time management."
+          ]
+        },
+        {
+          "id": 98,
+          "word": "Time zone",
+          "category": "Everyday Situations",
+          "subcategory": "Time & Routine",
+          "part_of_speech": "noun",
+          "difficulty": "Intermediate",
+          "frequency": "Common",
+          "gujarati_pronunciation": "ટાઈમ ઝોન",
+          "english_meaning": "A region that follows a uniform standard time",
+          "gujarati_meaning": "એક પ્રદેશ કે જેમાં એક જ સમય માનક અનુસરવામાં આવે છે.",
+          "synonyms": [
+            "Time region",
+            "Time area"
+          ],
+          "antonyms": [],
+          "collocations": [
+            "different time zones",
+            "across time zones",
+            "time zone difference"
+          ],
+          "word_forms": [
+            "time zones"
+          ],
+          "usage_note": "Used to describe a region that follows a uniform standard time",
+          "memory_tip": "'Time' = સમય -> સમય વિસ્તાર",
+          "examples": [
+            "The company has offices in different time zones.",
+            "The traveler had to adjust to a new time zone.",
+            "The meeting was scheduled across multiple time zones.",
+            "The time zone difference caused confusion with the schedule."
+          ]
+        },
+        {
+          "id": 99,
+          "word": "To-do list",
+          "category": "Everyday Situations",
+          "subcategory": "Time & Routine",
+          "part_of_speech": "phrase",
+          "difficulty": "Intermediate",
+          "frequency": "Very common",
+          "gujarati_pronunciation": "ટુ-ડુ લિસ્ટ",
+          "english_meaning": "A list of tasks that need to be done",
+          "gujarati_meaning": "એવી યાદી કે જેમાં કરવાના કામોની યાદી બનાવવામાં આવી છે.",
+          "synonyms": [
+            "Task list",
+            "Checklist",
+            "Agenda"
+          ],
+          "antonyms": [],
+          "collocations": [
+            "make a to-do list",
+            "check off the to-do list",
+            "prioritize the to-do list"
+          ],
+          "word_forms": [
+            "to-do"
+          ],
+          "usage_note": "Used to describe a list of tasks that need to be done",
+          "memory_tip": "'To-do' = કરવાનું -> કામોની યાદી",
+          "examples": [
+            "I make a to-do list every morning to stay organized.",
+            "The manager checks off the to-do list to track progress.",
+            "The student uses a planner to keep track of her to-do list.",
+            "The team prioritizes the to-do list to focus on the most important tasks."
+          ]
+        },
+        {
+          "id": 100,
+          "word": "Turnaround",
+          "category": "Everyday Situations",
+          "subcategory": "Time & Routine",
+          "part_of_speech": "noun",
+          "difficulty": "Advanced",
+          "frequency": "Less common",
+          "gujarati_pronunciation": "ટર્નઅરાઉન્ડ",
+          "english_meaning": "The time it takes to complete a task or project and have it ready to use again",
+          "gujarati_meaning": "એવો સમય કે જેમાં એક કામ અથવા પ્રોજેક્ટ પૂર્ણ થાય છે અને તેને ફરીથી ઉપયોગમાં લેવા માટે તૈયાર કરવામાં આવે છે.",
+          "synonyms": [
+            "Response time",
+            "Reaction time",
+            "Completion time"
+          ],
+          "antonyms": [],
+          "collocations": [
+            "reduce turnaround time",
+            "improve turnaround",
+            "increase turnaround"
+          ],
+          "word_forms": [
+            "turnaround time"
+          ],
+          "usage_note": "Used to describe the time it takes to complete a task or project and have it ready to use again",
+          "memory_tip": "'Turn' = ફેરવું -> કામ પૂર્ણ થયા પછી ફરીથી ઉપયોગમાં લેવા માટે",
+          "examples": [
+            "The company aims to reduce the turnaround time for customer requests.",
+            "The team worked to improve the turnaround for the project.",
+            "The manufacturer increased the turnaround for the production line.",
+            "The IT department measured the turnaround time for the system update."
+          ]
         }
       ],
       "mini_dialogues": [
@@ -1813,7 +3969,7 @@
       "id": 2,
       "category": "Places",
       "level": "Intermediate to Advanced",
-      "total_words": 40,
+      "total_words": 100,
       "subcategories": [
         "Around Town",
         "Buildings & Their Parts",
@@ -1823,16 +3979,16 @@
         "Location Phrases"
       ],
       "subcategory_counts": {
-        "Around Town": 7,
-        "Buildings & Their Parts": 7,
-        "Travel & Transit": 6,
-        "Shops & Services": 7,
-        "Describing Places": 7,
-        "Location Phrases": 6
+        "Around Town": 17,
+        "Buildings & Their Parts": 17,
+        "Travel & Transit": 16,
+        "Shops & Services": 17,
+        "Describing Places": 17,
+        "Location Phrases": 16
       },
       "difficulty_counts": {
-        "Intermediate": 24,
-        "Advanced": 16
+        "Intermediate": 63,
+        "Advanced": 37
       },
       "companion_files": {
         "learning_plan": "places_learning_plan.md"
@@ -3174,6 +5330,2117 @@
             "The beach is on our doorstep.",
             "Good schools are on the doorstep here.",
             "With the station on the doorstep, commuting is easy."
+          ]
+        },
+        {
+          "id": 41,
+          "word": "Skyline",
+          "category": "Places",
+          "subcategory": "Around Town",
+          "part_of_speech": "noun",
+          "difficulty": "Advanced",
+          "frequency": "Common",
+          "gujarati_pronunciation": "સ્કાયલાઇન",
+          "english_meaning": "The outline of a city's buildings and other structures when viewed from a distance.",
+          "gujarati_meaning": "દૂરથી જોતાં શહેરના મકાનો અને અન્ય રચનાઓની રેખાચિત્ર.",
+          "synonyms": [
+            "horizon",
+            "cityscape"
+          ],
+          "antonyms": [],
+          "collocations": [
+            "city skyline",
+            "urban skyline",
+            "skyscraper skyline"
+          ],
+          "word_forms": [
+            "skyscraper"
+          ],
+          "usage_note": "The term 'skyline' is often used to describe the visual appearance of a city.",
+          "memory_tip": "'sky' = આભ થી 'line' = રેખા -> આભની રેખા એટલે સ્કાયલાઇન",
+          "examples": [
+            "The city's skyline is dominated by the skyscraper.",
+            "The skyline of the city is very beautiful.",
+            "The skyline view from the top of the hill is amazing.",
+            "The skyline of the city has changed a lot in recent years."
+          ]
+        },
+        {
+          "id": 42,
+          "word": "Plaza",
+          "category": "Places",
+          "subcategory": "Around Town",
+          "part_of_speech": "noun",
+          "difficulty": "Intermediate",
+          "frequency": "Common",
+          "gujarati_pronunciation": "પ્લાઝા",
+          "english_meaning": "An open area in a town or city, often surrounded by buildings and used for public gatherings.",
+          "gujarati_meaning": "શહેરમાં ખુલ્લી જગ્યા, ઘણીવાર ઇમારતોથી ઘેરાયેલી અને જાહેર સમારોહ માટે વપરાય છે.",
+          "synonyms": [
+            "square",
+            "courtyard"
+          ],
+          "antonyms": [],
+          "collocations": [
+            "city plaza",
+            "town plaza",
+            "public plaza"
+          ],
+          "word_forms": [
+            "plaza-like"
+          ],
+          "usage_note": "A plaza is often used as a meeting place for people.",
+          "memory_tip": "'plaza' = ચોક જેવી જગ્યા -> પ્લાઝા",
+          "examples": [
+            "The plaza is a popular spot for street performers.",
+            "The city's main plaza is surrounded by historic buildings.",
+            "The plaza is a great place to people-watch.",
+            "The new plaza in the city is very modern and beautiful."
+          ]
+        },
+        {
+          "id": 43,
+          "word": "Waterfront",
+          "category": "Places",
+          "subcategory": "Around Town",
+          "part_of_speech": "noun",
+          "difficulty": "Advanced",
+          "frequency": "Less common",
+          "gujarati_pronunciation": "વોટરફ્રન્ટ",
+          "english_meaning": "The area where a city or town meets a body of water, such as a river, lake, or sea.",
+          "gujarati_meaning": "શહેર અથવા નગર જ્યાં પાણીના સ્ત્રોત સાથે મળે છે, જેમકે નદી, તળાવ અથવા સમુદ્ર.",
+          "synonyms": [
+            "harbor",
+            "shoreline"
+          ],
+          "antonyms": [],
+          "collocations": [
+            "waterfront area",
+            "waterfront development",
+            "waterfront property"
+          ],
+          "word_forms": [
+            "waterfront-like"
+          ],
+          "usage_note": "The waterfront is often a popular area for recreation and tourism.",
+          "memory_tip": "'water' = પાણી અને 'front' = આગળ -> પાણીનો આગળનો ભાગ એટલે વોટરફ્રન્ટ",
+          "examples": [
+            "The city's waterfront is a popular spot for walking and cycling.",
+            "The waterfront area is being redeveloped with new shops and restaurants.",
+            "The waterfront view from the hotel room is stunning.",
+            "The waterfront park is a great place for a picnic."
+          ]
+        },
+        {
+          "id": 44,
+          "word": "Landmark",
+          "category": "Places",
+          "subcategory": "Around Town",
+          "part_of_speech": "noun",
+          "difficulty": "Intermediate",
+          "frequency": "Common",
+          "gujarati_pronunciation": "લેન્ડમાર્ક",
+          "english_meaning": "A notable or famous building, monument, or other structure that is easily recognizable.",
+          "gujarati_meaning": "એક નોંધપાત્ર અથવા પ્રખ્યાત ઇમારત, સ્મારક અથવા અન્ય રચના જે સરળતાથી ઓળખી શકાય છે.",
+          "synonyms": [
+            "monument",
+            "icon"
+          ],
+          "antonyms": [],
+          "collocations": [
+            "city landmark",
+            "national landmark",
+            "historic landmark"
+          ],
+          "word_forms": [
+            "landmark-like"
+          ],
+          "usage_note": "Landmarks are often used as navigational aids.",
+          "memory_tip": "'land' = જમીન અને 'mark' = ચિહ્ન -> જમીનનું ચિહ્ન એટલે લેન્ડમાર્ક",
+          "examples": [
+            "The Eiffel Tower is a famous landmark in Paris.",
+            "The city's landmark building is the town hall.",
+            "The landmark monument is a symbol of the city's history.",
+            "The landmark hotel is a popular spot for tourists."
+          ]
+        },
+        {
+          "id": 45,
+          "word": "Pedestrian",
+          "category": "Places",
+          "subcategory": "Around Town",
+          "part_of_speech": "noun",
+          "difficulty": "Intermediate",
+          "frequency": "Common",
+          "gujarati_pronunciation": "પેડેસ્ટ્રિયન",
+          "english_meaning": "A person who is walking, especially in a town or city.",
+          "gujarati_meaning": "એક વ્યક્તિ જે ચાલી રહ્યો છે, ખાસ કરીને શહેર અથવા નગરમાં.",
+          "synonyms": [
+            "walker",
+            "foot traveler"
+          ],
+          "antonyms": [
+            "driver"
+          ],
+          "collocations": [
+            "pedestrian crossing",
+            "pedestrian zone",
+            "pedestrian traffic"
+          ],
+          "word_forms": [
+            "pedestrianize"
+          ],
+          "usage_note": "Pedestrians often have to be careful when crossing roads.",
+          "memory_tip": "'ped' = પગ અને 'estrian' = ચાલનાર -> પગથી ચાલનાર એટલે પેડેસ્ટ્રિયન",
+          "examples": [
+            "The pedestrian crossed the road carefully.",
+            "The city has a pedestrian zone in the center.",
+            "The pedestrian bridge is a popular spot for walking.",
+            "The pedestrian traffic is very heavy during rush hour."
+          ]
+        },
+        {
+          "id": 46,
+          "word": "Underpass",
+          "category": "Places",
+          "subcategory": "Around Town",
+          "part_of_speech": "noun",
+          "difficulty": "Advanced",
+          "frequency": "Less common",
+          "gujarati_pronunciation": "અંડરપાસ",
+          "english_meaning": "A road or path that passes under another road or railway.",
+          "gujarati_meaning": "એક રસ્તો અથવા માર્ગ જે અન્ય રસ્તો અથવા રેલ્વે નીચેથી પસાર થાય છે.",
+          "synonyms": [
+            "tunnel",
+            "subway"
+          ],
+          "antonyms": [
+            "overpass"
+          ],
+          "collocations": [
+            "road underpass",
+            "pedestrian underpass",
+            "railway underpass"
+          ],
+          "word_forms": [
+            "underpass-like"
+          ],
+          "usage_note": "Underpasses are often used to reduce traffic congestion.",
+          "memory_tip": "'under' = નીચે અને 'pass' = પસાર થવું -> નીચેથી પસાર થવું એટલે અંડરપાસ",
+          "examples": [
+            "The underpass is a convenient way to cross the busy road.",
+            "The city has several underpasses to reduce traffic congestion.",
+            "The underpass is a popular spot for street artists.",
+            "The underpass is well-lit and safe for pedestrians."
+          ]
+        },
+        {
+          "id": 47,
+          "word": "Roundabout",
+          "category": "Places",
+          "subcategory": "Around Town",
+          "part_of_speech": "noun",
+          "difficulty": "Intermediate",
+          "frequency": "Common",
+          "gujarati_pronunciation": "રાઉન્ડઅબાઉટ",
+          "english_meaning": "A circular intersection where traffic flows continuously in one direction.",
+          "gujarati_meaning": "એક વર્તુળાકાર છેડા જ્યાં ટ્રાફિક એક દિશામાં સતત વહે છે.",
+          "synonyms": [
+            "traffic circle",
+            "rotary"
+          ],
+          "antonyms": [],
+          "collocations": [
+            "roundabout intersection",
+            "roundabout traffic",
+            "roundabout junction"
+          ],
+          "word_forms": [
+            "roundabout-like"
+          ],
+          "usage_note": "Roundabouts are often used to reduce traffic congestion and improve safety.",
+          "memory_tip": "'round' = વર્તુળ અને 'about' = આસપાસ -> વર્તુળમાં આસપાસ ફરવું એટલે રાઉન્ડઅબાઉટ",
+          "examples": [
+            "The roundabout is a busy intersection in the city.",
+            "The roundabout is a great way to reduce traffic congestion.",
+            "The roundabout is a popular spot for street performers.",
+            "The roundabout is well-designed and safe for drivers."
+          ]
+        },
+        {
+          "id": 48,
+          "word": "Boulevard",
+          "category": "Places",
+          "subcategory": "Around Town",
+          "part_of_speech": "noun",
+          "difficulty": "Advanced",
+          "frequency": "Less common",
+          "gujarati_pronunciation": "બુલેવર્ડ",
+          "english_meaning": "A wide, tree-lined street, often in a city or town.",
+          "gujarati_meaning": "એક પહોળો, વૃક્ષોથી ઘેરાયેલો રસ્તો, ઘણીવાર શહેર અથવા નગરમાં.",
+          "synonyms": [
+            "avenue",
+            "promenade"
+          ],
+          "antonyms": [],
+          "collocations": [
+            "city boulevard",
+            "tree-lined boulevard",
+            "wide boulevard"
+          ],
+          "word_forms": [
+            "boulevard-like"
+          ],
+          "usage_note": "Boulevards are often used for recreational purposes.",
+          "memory_tip": "'bou' = પહોળો અને 'levard' = રસ્તો -> પહોળો રસ્તો એટલે બુલેવર્ડ",
+          "examples": [
+            "The boulevard is a popular spot for walking and cycling.",
+            "The city's main boulevard is lined with trees and shops.",
+            "The boulevard is a great place for a leisurely stroll.",
+            "The boulevard is well-lit and safe at night."
+          ]
+        },
+        {
+          "id": 49,
+          "word": "Parkway",
+          "category": "Places",
+          "subcategory": "Around Town",
+          "part_of_speech": "noun",
+          "difficulty": "Intermediate",
+          "frequency": "Common",
+          "gujarati_pronunciation": "પાર્કવે",
+          "english_meaning": "A wide, landscaped road, often in a park or other scenic area.",
+          "gujarati_meaning": "એક પહોળો, દૃશ્યાત્મક રસ્તો, ઘણીવાર ઉદ્યાન અથવા અન્ય દૃશ્યાત્મક વિસ્તારમાં.",
+          "synonyms": [
+            "drive",
+            "highway"
+          ],
+          "antonyms": [],
+          "collocations": [
+            "parkway road",
+            "scenic parkway",
+            "wide parkway"
+          ],
+          "word_forms": [
+            "parkway-like"
+          ],
+          "usage_note": "Parkways are often used for recreational driving.",
+          "memory_tip": "'park' = ઉદ્યાન અને 'way' = રસ્તો -> ઉદ્યાનનો રસ્તો એટલે પાર્કવે",
+          "examples": [
+            "The parkway is a popular spot for Sunday drives.",
+            "The city's parkway is lined with trees and gardens.",
+            "The parkway is a great place for a leisurely drive.",
+            "The parkway is well-maintained and safe for drivers."
+          ]
+        },
+        {
+          "id": 50,
+          "word": "Gateway",
+          "category": "Places",
+          "subcategory": "Around Town",
+          "part_of_speech": "noun",
+          "difficulty": "Advanced",
+          "frequency": "Less common",
+          "gujarati_pronunciation": "ગેટવે",
+          "english_meaning": "An entrance or a point of access to a city, town, or other area.",
+          "gujarati_meaning": "એક પ્રવેશદ્વાર અથવા શહેર, નગર અથવા અન્ય વિસ્તારમાં પ્રવેશ કરવાનું સ્થાન.",
+          "synonyms": [
+            "entrance",
+            "entry point"
+          ],
+          "antonyms": [],
+          "collocations": [
+            "city gateway",
+            "town gateway",
+            "main gateway"
+          ],
+          "word_forms": [
+            "gateway-like"
+          ],
+          "usage_note": "Gateways are often used to mark the entrance to a city or town.",
+          "memory_tip": "'gate' = દરવાજો અને 'way' = રસ્તો -> દરવાજોથી રસ્તો એટલે ગેટવે",
+          "examples": [
+            "The gateway to the city is a beautiful arch.",
+            "The town's gateway is marked by a sign.",
+            "The gateway is a popular spot for tourists.",
+            "The gateway is well-designed and safe for pedestrians."
+          ]
+        },
+        {
+          "id": 51,
+          "word": "Facade",
+          "category": "Places",
+          "subcategory": "Buildings & Their Parts",
+          "part_of_speech": "noun",
+          "difficulty": "Advanced",
+          "frequency": "Less common",
+          "gujarati_pronunciation": "ફેસેડ",
+          "english_meaning": "The front of a building, especially a large or impressive one.",
+          "gujarati_meaning": "ઇમારતનો સામેનો ભાગ, ખાસ કરીને મોટી અથવા આકર્ષક ઇમારત.",
+          "synonyms": [
+            "frontage",
+            "front",
+            "exterior"
+          ],
+          "antonyms": [],
+          "collocations": [
+            "building facade",
+            "architectural facade",
+            "historic facade"
+          ],
+          "word_forms": [
+            "facadeless",
+            "facaded"
+          ],
+          "usage_note": "Often used in architectural contexts to describe the front of a building.",
+          "memory_tip": "'facade' = દેખાવ -> ઇમારતનો સામેનો ભાગ",
+          "examples": [
+            "The building's facade was designed by a famous architect.",
+            "The old facade of the church was restored to its original state.",
+            "The hotel's facade was covered in ivy and looked very picturesque.",
+            "The company's new headquarters has a striking facade made of glass and steel."
+          ]
+        },
+        {
+          "id": 52,
+          "word": "Dormer",
+          "category": "Places",
+          "subcategory": "Buildings & Their Parts",
+          "part_of_speech": "noun",
+          "difficulty": "Advanced",
+          "frequency": "Less common",
+          "gujarati_pronunciation": "ડોર્મર",
+          "english_meaning": "A window that projects from a sloping roof.",
+          "gujarati_meaning": "ઢાળવાળી છત પરથી આગળ નીકળેલું બારી.",
+          "synonyms": [
+            "dormer window",
+            "gabled window",
+            "skylight"
+          ],
+          "antonyms": [],
+          "collocations": [
+            "dormer window",
+            "dormer roof",
+            "dormer construction"
+          ],
+          "word_forms": [
+            "dormered"
+          ],
+          "usage_note": "Often used in architectural contexts to describe a type of window.",
+          "memory_tip": "'dormer' = ઢાળવાળી છત -> બારી",
+          "examples": [
+            "The attic room had a dormer window with a beautiful view of the city.",
+            "The old house had several dormers that let in plenty of natural light.",
+            "The dormer on the roof was designed to provide more space in the attic.",
+            "The architect included a dormer in the design to add visual interest to the facade."
+          ]
+        },
+        {
+          "id": 53,
+          "word": "Soffit",
+          "category": "Places",
+          "subcategory": "Buildings & Their Parts",
+          "part_of_speech": "noun",
+          "difficulty": "Advanced",
+          "frequency": "Less common",
+          "gujarati_pronunciation": "સોફીટ",
+          "english_meaning": "The underside of a roof or a bridge, especially the part that is visible from below.",
+          "gujarati_meaning": "છત અથવા પુલની નીચેની બાજુ, ખાસ કરીને નીચેથી જોઈ શકાય તે ભાગ.",
+          "synonyms": [
+            "underside",
+            "under surface",
+            "soffit board"
+          ],
+          "antonyms": [],
+          "collocations": [
+            "soffit vent",
+            "soffit installation",
+            "soffit repair"
+          ],
+          "word_forms": [
+            "soffited"
+          ],
+          "usage_note": "Often used in architectural and construction contexts.",
+          "memory_tip": "'soffit' = નીચેની બાજુ -> છતની નીચેની બાજુ",
+          "examples": [
+            "The soffit of the roof was made of wood and needed to be replaced.",
+            "The soffit of the bridge was covered in rust and needed to be repaired.",
+            "The architect designed the soffit to be visible from the street.",
+            "The soffit ventilation system helped to reduce the risk of moisture damage."
+          ]
+        },
+        {
+          "id": 54,
+          "word": "Lintel",
+          "category": "Places",
+          "subcategory": "Buildings & Their Parts",
+          "part_of_speech": "noun",
+          "difficulty": "Advanced",
+          "frequency": "Less common",
+          "gujarati_pronunciation": "લિન્ટેલ",
+          "english_meaning": "A horizontal beam that spans an opening, such as a door or window.",
+          "gujarati_meaning": "દરવાજા અથવા બારી જેવી ખુલ્લી જગ્યા પર આડી રીતે પથરાયેલો બાળુ.",
+          "synonyms": [
+            "header",
+            "beam",
+            "transom"
+          ],
+          "antonyms": [],
+          "collocations": [
+            "lintel beam",
+            "lintel block",
+            "lintel installation"
+          ],
+          "word_forms": [
+            "linteled"
+          ],
+          "usage_note": "Often used in architectural and construction contexts.",
+          "memory_tip": "'lintel' = આડી બારી -> દરવાજાની ઉપર બાળુ",
+          "examples": [
+            "The lintel above the door was carved with intricate designs.",
+            "The lintel beam was made of steel and supported the weight of the wall.",
+            "The architect designed the lintel to be decorative as well as functional.",
+            "The lintel was damaged in the earthquake and needed to be replaced."
+          ]
+        },
+        {
+          "id": 55,
+          "word": "Mullion",
+          "category": "Places",
+          "subcategory": "Buildings & Their Parts",
+          "part_of_speech": "noun",
+          "difficulty": "Advanced",
+          "frequency": "Less common",
+          "gujarati_pronunciation": "મ્યુલિયન",
+          "english_meaning": "A vertical bar that divides a window or a door into separate sections.",
+          "gujarati_meaning": "બારી અથવા દરવાજાને અલગ અલગ ભાગોમાં વિભાજિત કરતો ઉભો બારી.",
+          "synonyms": [
+            "vertical bar",
+            "divider",
+            "partition"
+          ],
+          "antonyms": [],
+          "collocations": [
+            "mullion window",
+            "mullion door",
+            "mullion installation"
+          ],
+          "word_forms": [
+            "mullioned"
+          ],
+          "usage_note": "Often used in architectural and construction contexts.",
+          "memory_tip": "'mullion' = ઉભો બારી -> બારીનો વિભાજક",
+          "examples": [
+            "The mullions on the window were made of wood and added a touch of elegance.",
+            "The mullion on the door was decorative and served no functional purpose.",
+            "The architect designed the mullions to be thin and unobtrusive.",
+            "The mullions were removed to create a more open and airy feel in the room."
+          ]
+        },
+        {
+          "id": 56,
+          "word": "Parapet",
+          "category": "Places",
+          "subcategory": "Buildings & Their Parts",
+          "part_of_speech": "noun",
+          "difficulty": "Advanced",
+          "frequency": "Less common",
+          "gujarati_pronunciation": "પેરાપેટ",
+          "english_meaning": "A wall or barrier that is built along the edge of a roof, bridge, or other structure.",
+          "gujarati_meaning": "છત, પુલ અથવા અન્ય રચનાની ધાર પર બાંધવામાં આવેલી દિવાલ અથવા અવરોધ.",
+          "synonyms": [
+            "wall",
+            "barrier",
+            "railing"
+          ],
+          "antonyms": [],
+          "collocations": [
+            "parapet wall",
+            "parapet bridge",
+            "parapet installation"
+          ],
+          "word_forms": [
+            "parapeted"
+          ],
+          "usage_note": "Often used in architectural and construction contexts.",
+          "memory_tip": "'parapet' = ધારની દિવાલ -> છતની ધાર પર બાંધવામાં આવેલી દિવાલ",
+          "examples": [
+            "The parapet on the roof was designed to prevent people from falling off.",
+            "The parapet on the bridge was made of stone and had a decorative railing.",
+            "The architect included a parapet in the design to add a sense of security.",
+            "The parapet was damaged in the storm and needed to be repaired."
+          ]
+        },
+        {
+          "id": 57,
+          "word": "Pilaster",
+          "category": "Places",
+          "subcategory": "Buildings & Their Parts",
+          "part_of_speech": "noun",
+          "difficulty": "Advanced",
+          "frequency": "Less common",
+          "gujarati_pronunciation": "પિલાસ્ટર",
+          "english_meaning": "A rectangular column that is attached to a wall and projects slightly from it.",
+          "gujarati_meaning": "દિવાલ સાથે જોડાયેલો અને થોડો બહાર નીકળેલો આયતાકાર સ્તંભ.",
+          "synonyms": [
+            "column",
+            "pillar",
+            "pier"
+          ],
+          "antonyms": [],
+          "collocations": [
+            "pilaster column",
+            "pilaster wall",
+            "pilaster installation"
+          ],
+          "word_forms": [
+            "pilastered"
+          ],
+          "usage_note": "Often used in architectural contexts to describe a decorative element.",
+          "memory_tip": "'pilaster' = દિવાલ સાથે જોડાયેલો સ્તંભ -> આયતાકાર સ્તંભ",
+          "examples": [
+            "The pilasters on the wall were made of marble and added a touch of elegance.",
+            "The pilaster on the corner of the building was decorative and served no functional purpose.",
+            "The architect designed the pilasters to be thin and unobtrusive.",
+            "The pilasters were removed to create a more open and airy feel in the room."
+          ]
+        },
+        {
+          "id": 58,
+          "word": "Plinth",
+          "category": "Places",
+          "subcategory": "Buildings & Their Parts",
+          "part_of_speech": "noun",
+          "difficulty": "Advanced",
+          "frequency": "Less common",
+          "gujarati_pronunciation": "પ્લિન્થ",
+          "english_meaning": "A flat base or platform that supports a column, statue, or other structure.",
+          "gujarati_meaning": "સ્તંભ, મૂર્તિ અથવા અન્ય રચનાને આધાર આપતી સપાટ આધાર અથવા મંચ.",
+          "synonyms": [
+            "base",
+            "platform",
+            "pedestal"
+          ],
+          "antonyms": [],
+          "collocations": [
+            "plinth base",
+            "plinth platform",
+            "plinth installation"
+          ],
+          "word_forms": [
+            "plinthed"
+          ],
+          "usage_note": "Often used in architectural and construction contexts.",
+          "memory_tip": "'plinth' = સપાટ આધાર -> સ્તંભનો આધાર",
+          "examples": [
+            "The plinth of the statue was made of granite and had a decorative design.",
+            "The plinth of the column was cracked and needed to be repaired.",
+            "The architect designed the plinth to be strong and durable.",
+            "The plinth was covered in ivy and looked very picturesque."
+          ]
+        },
+        {
+          "id": 59,
+          "word": "Portico",
+          "category": "Places",
+          "subcategory": "Buildings & Their Parts",
+          "part_of_speech": "noun",
+          "difficulty": "Advanced",
+          "frequency": "Less common",
+          "gujarati_pronunciation": "પોર્ટિકો",
+          "english_meaning": "A covered entrance to a building, typically with a roof and columns.",
+          "gujarati_meaning": "ઇમારતનો ઢાંકવામાં આવેલો પ્રવેશદ્વાર, સામાન્ય રીતે છત અને સ્તંભો સાથે.",
+          "synonyms": [
+            "entrance",
+            "porch",
+            "piazza"
+          ],
+          "antonyms": [],
+          "collocations": [
+            "portico entrance",
+            "portico roof",
+            "portico installation"
+          ],
+          "word_forms": [
+            "porticoed"
+          ],
+          "usage_note": "Often used in architectural contexts to describe a decorative element.",
+          "memory_tip": "'portico' = ઢાંકવામાં આવેલો પ્રવેશદ્વાર -> છત અને સ્તંભો સાથે",
+          "examples": [
+            "The portico of the building was designed to be impressive and grand.",
+            "The portico was made of marble and had a decorative roof.",
+            "The architect included a portico in the design to add a sense of elegance.",
+            "The portico was damaged in the storm and needed to be repaired."
+          ]
+        },
+        {
+          "id": 60,
+          "word": "Transom",
+          "category": "Places",
+          "subcategory": "Buildings & Their Parts",
+          "part_of_speech": "noun",
+          "difficulty": "Advanced",
+          "frequency": "Less common",
+          "gujarati_pronunciation": "ટ્રાન્સમ",
+          "english_meaning": "A horizontal beam that spans an opening, such as a door or window, and is typically located above the lintel.",
+          "gujarati_meaning": "દરવાજા અથવા બારી જેવી ખુલ્લી જગ્યા પર આડી રીતે પથરાયેલો બાળુ, સામાન્ય રીતે લિન્ટેલની ઉપર.",
+          "synonyms": [
+            "crossbeam",
+            "header",
+            "lintel"
+          ],
+          "antonyms": [],
+          "collocations": [
+            "transom beam",
+            "transom window",
+            "transom installation"
+          ],
+          "word_forms": [
+            "transomed"
+          ],
+          "usage_note": "Often used in architectural and construction contexts.",
+          "memory_tip": "'transom' = ઉપરનો બાળુ -> દરવાજાની ઉપર બાળુ",
+          "examples": [
+            "The transom above the door was made of wood and had a decorative design.",
+            "The transom window was opened to let in some fresh air.",
+            "The architect designed the transom to be strong and durable.",
+            "The transom was damaged in the storm and needed to be repaired."
+          ]
+        },
+        {
+          "id": 61,
+          "word": "Itinerary",
+          "category": "Places",
+          "subcategory": "Travel & Transit",
+          "part_of_speech": "noun",
+          "difficulty": "Advanced",
+          "frequency": "Common",
+          "gujarati_pronunciation": "આઇટિનરરી",
+          "english_meaning": "A planned route or journey, or a list of places to visit.",
+          "gujarati_meaning": "પ્રવાસનો આયોજિત માર્ગ અથવા મુસાફરી, અથવા મુલાકાત લેવાના સ્થળોની યાદી.",
+          "synonyms": [
+            "schedule",
+            "agenda",
+            "travel plan"
+          ],
+          "antonyms": [
+            "impromptu trip"
+          ],
+          "collocations": [
+            "book an itinerary",
+            "plan an itinerary",
+            "follow an itinerary"
+          ],
+          "word_forms": [
+            "itineraries"
+          ],
+          "usage_note": "Often used in formal or business contexts.",
+          "memory_tip": "'itinerary' = પ્રવાસનો માર્ગ -> આયોજિત માર્ગ",
+          "examples": [
+            "The travel agent helped us create an itinerary for our trip to Europe.",
+            "The company's itinerary included meetings with several potential clients.",
+            "She spent hours planning the perfect itinerary for her honeymoon.",
+            "The tour group followed a strict itinerary to ensure they saw all the major sights."
+          ]
+        },
+        {
+          "id": 62,
+          "word": "Check-in",
+          "category": "Places",
+          "subcategory": "Travel & Transit",
+          "part_of_speech": "noun",
+          "difficulty": "Intermediate",
+          "frequency": "Very common",
+          "gujarati_pronunciation": "ચેક-ઈન",
+          "english_meaning": "The act of arriving at a hotel, airport, or other location and registering or announcing your presence.",
+          "gujarati_meaning": "હોટલ, એરપોર્ટ અથવા અન્ય સ્થળે આગમન અને નોંધણી કરવી અથવા હાજરી જાહેર કરવી.",
+          "synonyms": [
+            "arrival",
+            "registration",
+            "sign-in"
+          ],
+          "antonyms": [
+            "check-out"
+          ],
+          "collocations": [
+            "check-in time",
+            "check-in desk",
+            "online check-in"
+          ],
+          "word_forms": [
+            "check-in",
+            "check-ins"
+          ],
+          "usage_note": "Often used in formal or official contexts.",
+          "memory_tip": "'check-in' = નોંધણી -> હાજરી જાહેર કરવી",
+          "examples": [
+            "The check-in time at the hotel is 3 pm.",
+            "She forgot to check-in for her flight and missed it.",
+            "The check-in process at the airport was very efficient.",
+            "The hotel offers online check-in to speed up the registration process."
+          ]
+        },
+        {
+          "id": 63,
+          "word": "Boarding",
+          "category": "Places",
+          "subcategory": "Travel & Transit",
+          "part_of_speech": "noun",
+          "difficulty": "Intermediate",
+          "frequency": "Common",
+          "gujarati_pronunciation": "બોર્ડિંગ",
+          "english_meaning": "The act of getting on a vehicle, such as a plane, train, or bus.",
+          "gujarati_meaning": "વાહન, જેમ કે વિમાન, ટ્રેન અથવા બસ, પર ચડવાની ક્રિયા.",
+          "synonyms": [
+            "embarkation",
+            "getting on"
+          ],
+          "antonyms": [
+            "disembarking"
+          ],
+          "collocations": [
+            "boarding pass",
+            "boarding gate",
+            "boarding time"
+          ],
+          "word_forms": [
+            "boardings"
+          ],
+          "usage_note": "Often used in formal or official contexts.",
+          "memory_tip": "'boarding' = વાહન પર ચડવું -> પ્રવેશ",
+          "examples": [
+            "The boarding process for the flight was very slow.",
+            "She forgot her boarding pass and had to go back to the check-in desk.",
+            "The boarding gate for the train is closing in 10 minutes.",
+            "The airline offers priority boarding for its premium passengers."
+          ]
+        },
+        {
+          "id": 64,
+          "word": "Departure",
+          "category": "Places",
+          "subcategory": "Travel & Transit",
+          "part_of_speech": "noun",
+          "difficulty": "Intermediate",
+          "frequency": "Very common",
+          "gujarati_pronunciation": "ડિપાર્ચર",
+          "english_meaning": "The act of leaving a place, such as a city, airport, or station.",
+          "gujarati_meaning": "એક સ્થળ છોડવાની ક્રિયા, જેમ કે શહેર, એરપોર્ટ અથવા સ્ટેશન.",
+          "synonyms": [
+            "leaving",
+            "exit",
+            "takeoff"
+          ],
+          "antonyms": [
+            "arrival"
+          ],
+          "collocations": [
+            "departure time",
+            "departure gate",
+            "departure tax"
+          ],
+          "word_forms": [
+            "departures"
+          ],
+          "usage_note": "Often used in formal or official contexts.",
+          "memory_tip": "'departure' = છોડવું -> નિર્ગમન",
+          "examples": [
+            "The departure time for the flight is 10 am.",
+            "The departure gate for the train is changing to platform 3.",
+            "The hotel offers a free shuttle service to the airport for departure.",
+            "The departure tax for international flights is very high."
+          ]
+        },
+        {
+          "id": 65,
+          "word": "Transit",
+          "category": "Places",
+          "subcategory": "Travel & Transit",
+          "part_of_speech": "noun",
+          "difficulty": "Intermediate",
+          "frequency": "Common",
+          "gujarati_pronunciation": "ટ્રાન્ઝિટ",
+          "english_meaning": "The act of passing through a place, or a period of time spent traveling from one place to another.",
+          "gujarati_meaning": "એક સ્થળમાંથી પસાર થવાની ક્રિયા, અથવા એક સ્થળથી બીજા સ્થળે જવા માટેનો સમય.",
+          "synonyms": [
+            "transfer",
+            "journey",
+            "travel"
+          ],
+          "antonyms": [
+            "stay",
+            "stop"
+          ],
+          "collocations": [
+            "in transit",
+            "transit visa",
+            "transit time"
+          ],
+          "word_forms": [
+            "transits"
+          ],
+          "usage_note": "Often used in formal or official contexts.",
+          "memory_tip": "'transit' = પસાર થવું -> સંચાર",
+          "examples": [
+            "The transit time for the package was very long.",
+            "The transit visa for the country is required for all travelers.",
+            "The company offers a free transit service for its employees.",
+            "The transit system in the city is very efficient."
+          ]
+        },
+        {
+          "id": 66,
+          "word": "Route",
+          "category": "Places",
+          "subcategory": "Travel & Transit",
+          "part_of_speech": "noun",
+          "difficulty": "Intermediate",
+          "frequency": "Very common",
+          "gujarati_pronunciation": "રૂટ",
+          "english_meaning": "A way or course taken to get from one place to another.",
+          "gujarati_meaning": "એક સ્થળથી બીજા સ્થળે જવા માટેનો માર્ગ અથવા માર્ગ.",
+          "synonyms": [
+            "path",
+            "way",
+            "course"
+          ],
+          "antonyms": [
+            "detour"
+          ],
+          "collocations": [
+            "take a route",
+            "change route",
+            "route map"
+          ],
+          "word_forms": [
+            "routes"
+          ],
+          "usage_note": "Often used in formal or official contexts.",
+          "memory_tip": "'route' = માર્ગ -> રસ્તો",
+          "examples": [
+            "The route to the airport is very congested.",
+            "The GPS suggested a new route to avoid traffic.",
+            "The company is changing its route to reduce costs.",
+            "The hikers got lost because they took a wrong route."
+          ]
+        },
+        {
+          "id": 67,
+          "word": "Destination",
+          "category": "Places",
+          "subcategory": "Travel & Transit",
+          "part_of_speech": "noun",
+          "difficulty": "Intermediate",
+          "frequency": "Very common",
+          "gujarati_pronunciation": "ડેસ્ટિનેશન",
+          "english_meaning": "The place to which someone or something is going or being sent.",
+          "gujarati_meaning": "એક વ્યક્તિ અથવા વસ્તુ જતા અથવા મોકલાતા સ્થળ.",
+          "synonyms": [
+            "goal",
+            "target",
+            "end point"
+          ],
+          "antonyms": [
+            "starting point"
+          ],
+          "collocations": [
+            "final destination",
+            "destination airport",
+            "destination city"
+          ],
+          "word_forms": [
+            "destinations"
+          ],
+          "usage_note": "Often used in formal or official contexts.",
+          "memory_tip": "'destination' = ગંતવ્ય -> સ્થળ",
+          "examples": [
+            "The destination of the flight was Paris.",
+            "The company's destination is to become the market leader.",
+            "The tourist's destination was the beach resort.",
+            "The package was sent to the wrong destination."
+          ]
+        },
+        {
+          "id": 68,
+          "word": "Journey",
+          "category": "Places",
+          "subcategory": "Travel & Transit",
+          "part_of_speech": "noun",
+          "difficulty": "Intermediate",
+          "frequency": "Very common",
+          "gujarati_pronunciation": "જર્ની",
+          "english_meaning": "The act of traveling from one place to another.",
+          "gujarati_meaning": "એક સ્થળથી બીજા સ્થળે જવાની ક્રિયા.",
+          "synonyms": [
+            "trip",
+            "travel",
+            "voyage"
+          ],
+          "antonyms": [
+            "stay"
+          ],
+          "collocations": [
+            "long journey",
+            "journey time",
+            "journey planner"
+          ],
+          "word_forms": [
+            "journeys"
+          ],
+          "usage_note": "Often used in formal or official contexts.",
+          "memory_tip": "'journey' = પ્રવાસ -> મુસાફરી",
+          "examples": [
+            "The journey to the mountains was very tiring.",
+            "The company offers a journey planner to its employees.",
+            "The journey of the spaceship took several years.",
+            "The journey of life is full of ups and downs."
+          ]
+        },
+        {
+          "id": 69,
+          "word": "Passport",
+          "category": "Places",
+          "subcategory": "Travel & Transit",
+          "part_of_speech": "noun",
+          "difficulty": "Intermediate",
+          "frequency": "Very common",
+          "gujarati_pronunciation": "પાસપોર્ટ",
+          "english_meaning": "An official document that identifies a person as a citizen of a country and allows them to travel abroad.",
+          "gujarati_meaning": "એક અધિકૃત દસ્તાવેજ જે એક વ્યક્તિને એક દેશના નાગરિક તરીકે ઓળખે છે અને તેમને વિદેશમાં મુસાફરી કરવાની મંજૂરી આપે છે.",
+          "synonyms": [
+            "travel document",
+            "identification"
+          ],
+          "antonyms": [
+            "visa"
+          ],
+          "collocations": [
+            "passport photo",
+            "passport number",
+            "passport application"
+          ],
+          "word_forms": [
+            "passports"
+          ],
+          "usage_note": "Often used in formal or official contexts.",
+          "memory_tip": "'passport' = પ્રવાસ દસ્તાવેજ -> ઓળખ પત્ર",
+          "examples": [
+            "She forgot her passport at home and couldn't travel.",
+            "The passport application process is very complicated.",
+            "The new passport has a biometric chip for added security.",
+            "The passport photo must be recent and clear."
+          ]
+        },
+        {
+          "id": 70,
+          "word": "Visa",
+          "category": "Places",
+          "subcategory": "Travel & Transit",
+          "part_of_speech": "noun",
+          "difficulty": "Intermediate",
+          "frequency": "Very common",
+          "gujarati_pronunciation": "વીઝા",
+          "english_meaning": "An official document that gives someone permission to enter or stay in a country for a specific period of time.",
+          "gujarati_meaning": "એક અધિકૃત દસ્તાવેજ જે એક વ્યક્તિને એક દેશમાં પ્રવેશ કરવા અથવા રોકાણ કરવાની મંજૂરી આપે છે.",
+          "synonyms": [
+            "entry permit",
+            "travel permit"
+          ],
+          "antonyms": [
+            "exit visa"
+          ],
+          "collocations": [
+            "visa application",
+            "visa requirements",
+            "visa fee"
+          ],
+          "word_forms": [
+            "visas"
+          ],
+          "usage_note": "Often used in formal or official contexts.",
+          "memory_tip": "'visa' = પ્રવેશ પરવાનો -> મંજૂરી",
+          "examples": [
+            "She applied for a visa to study in the US.",
+            "The visa requirements for the country are very strict.",
+            "The visa fee for the tourist visa is very high.",
+            "The visa application process took several months."
+          ]
+        },
+        {
+          "id": 71,
+          "word": "Department Store",
+          "category": "Places",
+          "subcategory": "Shops & Services",
+          "part_of_speech": "noun",
+          "difficulty": "Intermediate",
+          "frequency": "Common",
+          "gujarati_pronunciation": "ડિપાર્ટમેન્ટ સ્ટોર",
+          "english_meaning": "A large store that sells a wide range of goods, including clothing, furniture, and household items.",
+          "gujarati_meaning": "વિવિધ પ્રકારના વસ્ત્રો, ફર્નિચર અને ઘરેલુ સામાન વેચતું મોટું સ્ટોર.",
+          "synonyms": [
+            "mall",
+            "superstore",
+            "emporium"
+          ],
+          "antonyms": [],
+          "collocations": [
+            "shop at",
+            "browse through",
+            "try on clothes"
+          ],
+          "word_forms": [
+            "departmental"
+          ],
+          "usage_note": "Often used to describe a large store with multiple floors and a wide range of products.",
+          "memory_tip": "'depart' = અલગ થવું -> department store = વિવિધ વસ્તુઓનું સ્ટોર",
+          "examples": [
+            "I'm going to the department store to buy a new shirt.",
+            "The department store is having a sale on all winter clothing.",
+            "She works at the department store in the cosmetics section.",
+            "The department store is open from 9 am to 9 pm."
+          ]
+        },
+        {
+          "id": 72,
+          "word": "Bookshop",
+          "category": "Places",
+          "subcategory": "Shops & Services",
+          "part_of_speech": "noun",
+          "difficulty": "Intermediate",
+          "frequency": "Less common",
+          "gujarati_pronunciation": "બુકશોપ",
+          "english_meaning": "A store that sells books, often with a wide selection of titles and genres.",
+          "gujarati_meaning": "પુસ્તકો વેચતું સ્ટોર, ઘણીવાર વિવિધ શૈલીઓ અને વિષયોના પુસ્તકો હોય છે.",
+          "synonyms": [
+            "bookstore",
+            "library",
+            "newsstand"
+          ],
+          "antonyms": [
+            "ebook store"
+          ],
+          "collocations": [
+            "browse through",
+            "buy a book",
+            "attend a reading"
+          ],
+          "word_forms": [
+            "bookish"
+          ],
+          "usage_note": "Often used to describe a store that specializes in selling books, as opposed to a general store that also sells books.",
+          "memory_tip": "'book' = પુસ્તક -> bookshop = પુસ્તકોનું સ્ટોર",
+          "examples": [
+            "I love spending hours in the bookshop, browsing through the shelves.",
+            "The bookshop is having a sale on all bestselling novels.",
+            "She works at the bookshop, helping customers find the perfect book.",
+            "The bookshop is a great place to attend author readings and signings."
+          ]
+        },
+        {
+          "id": 73,
+          "word": "Supermarket",
+          "category": "Places",
+          "subcategory": "Shops & Services",
+          "part_of_speech": "noun",
+          "difficulty": "Intermediate",
+          "frequency": "Very common",
+          "gujarati_pronunciation": "સુપરમાર્કેટ",
+          "english_meaning": "A large store that sells a wide range of food and household products.",
+          "gujarati_meaning": "ખોરાક અને ઘરેલુ ઉત્પાદનો વેચતું મોટું સ્ટોર.",
+          "synonyms": [
+            "grocery store",
+            "hypermarket",
+            "megamarket"
+          ],
+          "antonyms": [],
+          "collocations": [
+            "shop at",
+            "buy groceries",
+            "check out"
+          ],
+          "word_forms": [
+            "supermarket chain"
+          ],
+          "usage_note": "Often used to describe a large store that sells a wide range of products, including fresh produce, meat, dairy products, and household essentials.",
+          "memory_tip": "'super' = શ્રેષ્ઠ -> supermarket = મોટું બજાર",
+          "examples": [
+            "I'm going to the supermarket to buy some milk and eggs.",
+            "The supermarket is having a sale on all organic products.",
+            "She works at the supermarket, restocking shelves and helping customers.",
+            "The supermarket is open 24 hours a day, 7 days a week."
+          ]
+        },
+        {
+          "id": 74,
+          "word": "Laundry",
+          "category": "Places",
+          "subcategory": "Shops & Services",
+          "part_of_speech": "noun",
+          "difficulty": "Intermediate",
+          "frequency": "Common",
+          "gujarati_pronunciation": "લૉન્ડ્રી",
+          "english_meaning": "A place where clothes are washed and cleaned, or the clothes that need to be washed.",
+          "gujarati_meaning": "કપડાં ધોવાનું સ્થળ, અથવા ધોવાના કપડાં.",
+          "synonyms": [
+            "laundrette",
+            "washhouse",
+            "dry cleaner"
+          ],
+          "antonyms": [],
+          "collocations": [
+            "do the laundry",
+            "take to the laundry",
+            "pick up the laundry"
+          ],
+          "word_forms": [
+            "laundress"
+          ],
+          "usage_note": "Often used to describe a place where clothes are washed and cleaned, or the act of washing and cleaning clothes.",
+          "memory_tip": "'land' = જમીન -> laundry = કપડાં ધોવાનું સ્થળ",
+          "examples": [
+            "I need to take my clothes to the laundry to get them cleaned.",
+            "The laundry is open from 8 am to 8 pm, 7 days a week.",
+            "She works at the laundry, washing and folding clothes all day.",
+            "The laundry service is very convenient, they pick up and deliver your clothes."
+          ]
+        },
+        {
+          "id": 75,
+          "word": "Cafeteria",
+          "category": "Places",
+          "subcategory": "Shops & Services",
+          "part_of_speech": "noun",
+          "difficulty": "Intermediate",
+          "frequency": "Less common",
+          "gujarati_pronunciation": "કેફેટેરિયા",
+          "english_meaning": "A room or building where food and drinks are served, often in a school, hospital, or office building.",
+          "gujarati_meaning": "ખોરાક અને પીણાં પીરસવામાં આવતા ઓરડા અથવા ઇમારત, ઘણીવાર શાળા, હોસ્પિટલ અથવા ઓફિસ બિલ્ડિંગમાં.",
+          "synonyms": [
+            "dining hall",
+            "canteen",
+            "cafeteria"
+          ],
+          "antonyms": [],
+          "collocations": [
+            "eat in the cafeteria",
+            "work in the cafeteria",
+            "meet in the cafeteria"
+          ],
+          "word_forms": [
+            "cafeteria food"
+          ],
+          "usage_note": "Often used to describe a room or building where food and drinks are served, often in a school, hospital, or office building.",
+          "memory_tip": "'cafe' = કોફી -> cafeteria = ખોરાક પીરસવાનું સ્થળ",
+          "examples": [
+            "The cafeteria is open for breakfast, lunch, and dinner.",
+            "I'm meeting my friends in the cafeteria to study for our exam.",
+            "She works in the cafeteria, serving food to students and staff.",
+            "The cafeteria has a variety of food options, including vegetarian and vegan dishes."
+          ]
+        },
+        {
+          "id": 76,
+          "word": "Jeweler",
+          "category": "Places",
+          "subcategory": "Shops & Services",
+          "part_of_speech": "noun",
+          "difficulty": "Intermediate",
+          "frequency": "Less common",
+          "gujarati_pronunciation": "જ્યુએલર",
+          "english_meaning": "A person who makes, sells, or repairs jewelry, or a store that sells jewelry.",
+          "gujarati_meaning": "ગહનાં બનાવતો, વેચતો અથવા સરવાળો કરતો વ્યક્તિ, અથવા ગહનાં વેચતું સ્ટોર.",
+          "synonyms": [
+            "jewelry store",
+            "goldsmith",
+            "silversmith"
+          ],
+          "antonyms": [],
+          "collocations": [
+            "buy from a jeweler",
+            "take to a jeweler",
+            "get a piece appraised by a jeweler"
+          ],
+          "word_forms": [
+            "jewelry"
+          ],
+          "usage_note": "Often used to describe a person who makes, sells, or repairs jewelry, or a store that sells jewelry.",
+          "memory_tip": "'jewel' = ગહનો -> jeweler = ગહનાં વેચતો",
+          "examples": [
+            "I'm going to the jeweler to get my ring resized.",
+            "The jeweler is having a sale on all diamond necklaces.",
+            "She works at the jeweler, helping customers find the perfect piece of jewelry.",
+            "The jeweler is known for its high-quality and unique designs."
+          ]
+        },
+        {
+          "id": 77,
+          "word": "Barber",
+          "category": "Places",
+          "subcategory": "Shops & Services",
+          "part_of_speech": "noun",
+          "difficulty": "Intermediate",
+          "frequency": "Common",
+          "gujarati_pronunciation": "બાર્બર",
+          "english_meaning": "A person who cuts, styles, and grooms hair, especially for men, or a shop where such services are provided.",
+          "gujarati_meaning": "વાળ કાપતો, સ્ટાઇલ કરતો અને સંભાળતો વ્યક્તિ, ખાસ કરીને પુરુષો માટે, અથવા અવા સેવાઓ પૂરી પાડતું સ્થળ.",
+          "synonyms": [
+            "hairdresser",
+            "stylist",
+            "groomer"
+          ],
+          "antonyms": [],
+          "collocations": [
+            "go to the barber",
+            "get a haircut",
+            "shave at the barber"
+          ],
+          "word_forms": [
+            "barber shop"
+          ],
+          "usage_note": "Often used to describe a person who cuts, styles, and grooms hair, especially for men, or a shop where such services are provided.",
+          "memory_tip": "'bar' = દરવાજો -> barber = વાળ કાપતો",
+          "examples": [
+            "I need to go to the barber to get a haircut.",
+            "The barber is very skilled and always gives a great shave.",
+            "She works at the barber shop, cutting and styling hair all day.",
+            "The barber shop is a great place to catch up on the latest sports news."
+          ]
+        },
+        {
+          "id": 78,
+          "word": "Florist",
+          "category": "Places",
+          "subcategory": "Shops & Services",
+          "part_of_speech": "noun",
+          "difficulty": "Intermediate",
+          "frequency": "Less common",
+          "gujarati_pronunciation": "ફ્લોરિસ્ટ",
+          "english_meaning": "A person who sells and arranges flowers, or a shop that sells flowers and other plants.",
+          "gujarati_meaning": "ફૂલો વેચતો અને ગોઠવતો વ્યક્તિ, અથવા ફૂલો અને અન્ય છોડ વેચતું સ્ટોર.",
+          "synonyms": [
+            "flower shop",
+            "flower arranger",
+            "gardener"
+          ],
+          "antonyms": [],
+          "collocations": [
+            "buy from a florist",
+            "order from a florist",
+            "arrange flowers with a florist"
+          ],
+          "word_forms": [
+            "floral"
+          ],
+          "usage_note": "Often used to describe a person who sells and arranges flowers, or a shop that sells flowers and other plants.",
+          "memory_tip": "'fleur' = ફૂલ -> florist = ફૂલો વેચતો",
+          "examples": [
+            "I'm going to the florist to buy some flowers for my girlfriend.",
+            "The florist is having a sale on all roses and carnations.",
+            "She works at the florist, arranging and selling flowers all day.",
+            "The florist is known for its beautiful and unique arrangements."
+          ]
+        },
+        {
+          "id": 79,
+          "word": "Optician",
+          "category": "Places",
+          "subcategory": "Shops & Services",
+          "part_of_speech": "noun",
+          "difficulty": "Intermediate",
+          "frequency": "Less common",
+          "gujarati_pronunciation": "ઑપ્ટિશિયન",
+          "english_meaning": "A person who sells and fits eyeglasses and contact lenses, or a shop that sells such products.",
+          "gujarati_meaning": "ચશ્માં અને કૉન્ટેક્ટ લેન્સ વેચતો અને પહેરાવતો વ્યક્તિ, અથવા અવા ઉત્પાદનો વેચતું સ્ટોર.",
+          "synonyms": [
+            "optometrist",
+            "eye doctor",
+            "spectacle seller"
+          ],
+          "antonyms": [],
+          "collocations": [
+            "go to the optician",
+            "get an eye exam",
+            "buy glasses from the optician"
+          ],
+          "word_forms": [
+            "optical"
+          ],
+          "usage_note": "Often used to describe a person who sells and fits eyeglasses and contact lenses, or a shop that sells such products.",
+          "memory_tip": "'optic' = દૃષ્ટિ -> optician = ચશ્માં વેચતો",
+          "examples": [
+            "I need to go to the optician to get my eyes checked.",
+            "The optician is having a sale on all designer glasses.",
+            "She works at the optician, helping customers choose the right frames.",
+            "The optician is known for its wide selection of contact lenses and solutions."
+          ]
+        },
+        {
+          "id": 80,
+          "word": "Travel Agency",
+          "category": "Places",
+          "subcategory": "Shops & Services",
+          "part_of_speech": "noun",
+          "difficulty": "Advanced",
+          "frequency": "Common",
+          "gujarati_pronunciation": "ટ્રાવેલ એજન્સી",
+          "english_meaning": "A company that helps people plan and book trips, vacations, and other travel arrangements.",
+          "gujarati_meaning": "લોકોને પ્રવાસ, રજાઓ અને અન્ય પ્રવાસની વ્યવસ્થા કરવામાં મદદ કરતી કંપની.",
+          "synonyms": [
+            "tour operator",
+            "travel agent",
+            "tour agency"
+          ],
+          "antonyms": [],
+          "collocations": [
+            "book with a travel agency",
+            "plan a trip with a travel agency",
+            "get travel advice from a travel agency"
+          ],
+          "word_forms": [
+            "travel agent"
+          ],
+          "usage_note": "Often used to describe a company that helps people plan and book trips, vacations, and other travel arrangements.",
+          "memory_tip": "'travel' = પ્રવાસ -> travel agency = પ્રવાસની વ્યવસ્થા કરતી કંપની",
+          "examples": [
+            "I'm going to the travel agency to book a flight to Paris.",
+            "The travel agency is having a sale on all package tours to Europe.",
+            "She works at the travel agency, helping customers plan their dream vacations.",
+            "The travel agency is known for its excellent customer service and competitive prices."
+          ]
+        },
+        {
+          "id": 81,
+          "word": "Serene",
+          "category": "Places",
+          "subcategory": "Describing Places",
+          "part_of_speech": "adjective",
+          "difficulty": "Intermediate",
+          "frequency": "Common",
+          "gujarati_pronunciation": "સેરીન",
+          "english_meaning": "Peaceful and untroubled; calm and quiet.",
+          "gujarati_meaning": "શાંતિપૂર્ણ અને અડચણરહિત; શાંત અને ખામોશ.",
+          "synonyms": [
+            "Peaceful",
+            "Tranquil",
+            "Calm"
+          ],
+          "antonyms": [
+            "Turbulent",
+            "Chaotic"
+          ],
+          "collocations": [
+            "serene landscape",
+            "serene atmosphere",
+            "serene environment"
+          ],
+          "word_forms": [
+            "serenity"
+          ],
+          "usage_note": "Often used to describe natural scenery or a peaceful atmosphere.",
+          "memory_tip": "'serene' = શાંત -> peaceful place",
+          "examples": [
+            "The serene beauty of the lake made it a perfect spot for a picnic.",
+            "The hotel room had a serene view of the ocean.",
+            "The serene music helped me to relax.",
+            "The serene surroundings of the forest made me feel at peace."
+          ]
+        },
+        {
+          "id": 82,
+          "word": "Rustic",
+          "category": "Places",
+          "subcategory": "Describing Places",
+          "part_of_speech": "adjective",
+          "difficulty": "Intermediate",
+          "frequency": "Common",
+          "gujarati_pronunciation": "રસ્ટિક",
+          "english_meaning": "Simple and unsophisticated; relating to the countryside.",
+          "gujarati_meaning": "સરળ અને અસંસ્કારી; ગામના વિસ્તારનો સંબંધ.",
+          "synonyms": [
+            "Simple",
+            "Unsophisticated",
+            "Country"
+          ],
+          "antonyms": [
+            "Sophisticated",
+            "Urban"
+          ],
+          "collocations": [
+            "rustic charm",
+            "rustic furniture",
+            "rustic setting"
+          ],
+          "word_forms": [
+            "rustically"
+          ],
+          "usage_note": "Often used to describe traditional or countryside-related things.",
+          "memory_tip": "'rustic' = ગામનો -> simple village",
+          "examples": [
+            "The rustic cabin was a great place to spend the weekend.",
+            "The restaurant had a rustic atmosphere with wooden tables and chairs.",
+            "The rustic road was difficult to drive on.",
+            "The rustic village was surrounded by beautiful countryside."
+          ]
+        },
+        {
+          "id": 83,
+          "word": "Bucolic",
+          "category": "Places",
+          "subcategory": "Describing Places",
+          "part_of_speech": "adjective",
+          "difficulty": "Advanced",
+          "frequency": "Less common",
+          "gujarati_pronunciation": "બ્યુકોલિક",
+          "english_meaning": "Relating to the countryside; pastoral.",
+          "gujarati_meaning": "ગામના વિસ્તારનો સંબંધ; ચરાઈ.",
+          "synonyms": [
+            "Pastoral",
+            "Rural",
+            "Countrified"
+          ],
+          "antonyms": [
+            "Urban",
+            "City"
+          ],
+          "collocations": [
+            "bucolic landscape",
+            "bucolic scene",
+            "bucolic life"
+          ],
+          "word_forms": [
+            "bucolically"
+          ],
+          "usage_note": "Often used to describe idyllic or peaceful countryside scenes.",
+          "memory_tip": "'bucolic' = ગામનો દૃશ્ય -> pastoral view",
+          "examples": [
+            "The bucolic scenery of the rolling hills and green pastures was breathtaking.",
+            "The bucolic life of the village was far removed from the hustle and bustle of the city.",
+            "The bucolic atmosphere of the countryside was perfect for a relaxing vacation.",
+            "The bucolic landscape of the painting depicted a peaceful rural scene."
+          ]
+        },
+        {
+          "id": 84,
+          "word": "Cosmopolitan",
+          "category": "Places",
+          "subcategory": "Describing Places",
+          "part_of_speech": "adjective",
+          "difficulty": "Advanced",
+          "frequency": "Common",
+          "gujarati_pronunciation": "કોઝમોપોલિટન",
+          "english_meaning": "Having a mixture of different cultures and ethnic groups; international.",
+          "gujarati_meaning": "વિવિધ સંસ્કૃતિઓ અને જાતિય જૂથોનું મિશ્રણ; આંતરરાષ્ટ્રીય.",
+          "synonyms": [
+            "Multicultural",
+            "Diverse",
+            "International"
+          ],
+          "antonyms": [
+            "Insular",
+            "Parochial"
+          ],
+          "collocations": [
+            "cosmopolitan city",
+            "cosmopolitan culture",
+            "cosmopolitan society"
+          ],
+          "word_forms": [
+            "cosmopolitanism"
+          ],
+          "usage_note": "Often used to describe cities or societies with a diverse population.",
+          "memory_tip": "'cosmopolitan' = વિશ્વનાગર -> international city",
+          "examples": [
+            "The cosmopolitan city of New York has people from all over the world.",
+            "The cosmopolitan culture of the university was reflected in its diverse student body.",
+            "The cosmopolitan society of the city was tolerant of different lifestyles.",
+            "The cosmopolitan atmosphere of the restaurant was enhanced by its international cuisine."
+          ]
+        },
+        {
+          "id": 85,
+          "word": "Idyllic",
+          "category": "Places",
+          "subcategory": "Describing Places",
+          "part_of_speech": "adjective",
+          "difficulty": "Intermediate",
+          "frequency": "Common",
+          "gujarati_pronunciation": "આઇડિલિક",
+          "english_meaning": "Extremely happy or peaceful; highly pleasing.",
+          "gujarati_meaning": "અત્યંત સુખી અથવા શાંત; ખૂબ જ રૂચિકર.",
+          "synonyms": [
+            "Peaceful",
+            "Serene",
+            "Pleasant"
+          ],
+          "antonyms": [
+            "Unpleasant",
+            "Unhappy"
+          ],
+          "collocations": [
+            "idyllic scene",
+            "idyllic life",
+            "idyllic setting"
+          ],
+          "word_forms": [
+            "idyll"
+          ],
+          "usage_note": "Often used to describe a highly pleasing or peaceful situation.",
+          "memory_tip": "'idyllic' = સુંદર દૃશ્ય -> very peaceful view",
+          "examples": [
+            "The idyllic scenery of the beach made it a perfect spot for a romantic getaway.",
+            "The idyllic life of the village was far removed from the stress of the city.",
+            "The idyllic atmosphere of the garden was perfect for a relaxing afternoon.",
+            "The idyllic landscape of the painting depicted a peaceful rural scene."
+          ]
+        },
+        {
+          "id": 86,
+          "word": "Lush",
+          "category": "Places",
+          "subcategory": "Describing Places",
+          "part_of_speech": "adjective",
+          "difficulty": "Intermediate",
+          "frequency": "Common",
+          "gujarati_pronunciation": "લશ",
+          "english_meaning": "Growing thickly and healthily; rich and luxurious.",
+          "gujarati_meaning": "ગાઢ અને સ્વસ્થ રીતે વધતું; સમૃદ્ધ અને વિલાસિત.",
+          "synonyms": [
+            "Luxuriant",
+            "Green",
+            "Dense"
+          ],
+          "antonyms": [
+            "Barren",
+            "Sparse"
+          ],
+          "collocations": [
+            "lush vegetation",
+            "lush landscape",
+            "lush garden"
+          ],
+          "word_forms": [
+            "lushly",
+            "lushness"
+          ],
+          "usage_note": "Often used to describe plants or natural scenery.",
+          "memory_tip": "'lush' = ઘનું વન -> dense forest",
+          "examples": [
+            "The lush greenery of the forest was a sight to behold.",
+            "The lush gardens of the palace were famous for their beauty.",
+            "The lush vegetation of the island was home to a wide variety of wildlife.",
+            "The lush landscape of the painting depicted a thriving ecosystem."
+          ]
+        },
+        {
+          "id": 87,
+          "word": "Majestic",
+          "category": "Places",
+          "subcategory": "Describing Places",
+          "part_of_speech": "adjective",
+          "difficulty": "Intermediate",
+          "frequency": "Common",
+          "gujarati_pronunciation": "મેજેસ્ટિક",
+          "english_meaning": "Impressively beautiful or dignified; grand.",
+          "gujarati_meaning": "પ્રભાવશાળી રીતે સુંદર અથવા ગંભીર; મહાન.",
+          "synonyms": [
+            "Grand",
+            "Impressive",
+            "Stately"
+          ],
+          "antonyms": [
+            "Unimpressive",
+            "Insignificant"
+          ],
+          "collocations": [
+            "majestic landscape",
+            "majestic building",
+            "majestic mountain"
+          ],
+          "word_forms": [
+            "majestically",
+            "majesty"
+          ],
+          "usage_note": "Often used to describe something that inspires awe or admiration.",
+          "memory_tip": "'majestic' = મહાન દૃશ્ય -> grand view",
+          "examples": [
+            "The majestic scenery of the Grand Canyon was breathtaking.",
+            "The majestic architecture of the palace was a testament to its rich history.",
+            "The majestic mountains of the Himalayas were a challenge to climb.",
+            "The majestic landscape of the painting depicted a powerful and awe-inspiring scene."
+          ]
+        },
+        {
+          "id": 88,
+          "word": "Severe",
+          "category": "Places",
+          "subcategory": "Describing Places",
+          "part_of_speech": "adjective",
+          "difficulty": "Intermediate",
+          "frequency": "Common",
+          "gujarati_pronunciation": "સીવર",
+          "english_meaning": "Harsh or extreme; strict or stern.",
+          "gujarati_meaning": "કઠોર અથવા અતિશય; કડક અથવા સખત.",
+          "synonyms": [
+            "Harsh",
+            "Extreme",
+            "Strict"
+          ],
+          "antonyms": [
+            "Mild",
+            "Lenient"
+          ],
+          "collocations": [
+            "severe weather",
+            "severe punishment",
+            "severe critic"
+          ],
+          "word_forms": [
+            "severely",
+            "severity"
+          ],
+          "usage_note": "Often used to describe something that is harsh or extreme.",
+          "memory_tip": "'severe' = કઠોર વાતાવરણ -> harsh climate",
+          "examples": [
+            "The severe weather warning was issued for the entire state.",
+            "The severe punishment for the crime was a deterrent to others.",
+            "The severe critic of the movie was not impressed by its plot.",
+            "The severe landscape of the desert was unforgiving to travelers."
+          ]
+        },
+        {
+          "id": 89,
+          "word": "Spectacular",
+          "category": "Places",
+          "subcategory": "Describing Places",
+          "part_of_speech": "adjective",
+          "difficulty": "Intermediate",
+          "frequency": "Common",
+          "gujarati_pronunciation": "સ્પેક્ટેક્યુલર",
+          "english_meaning": "Extremely good or impressive; worthy of attention.",
+          "gujarati_meaning": "અત્યંત સારું અથવા પ્રભાવશાળી; ધ્યાન આપવા યોગ્ય.",
+          "synonyms": [
+            "Impressive",
+            "Stunning",
+            "Breathtaking"
+          ],
+          "antonyms": [
+            "Unimpressive",
+            "Ordinary"
+          ],
+          "collocations": [
+            "spectacular view",
+            "spectacular show",
+            "spectacular achievement"
+          ],
+          "word_forms": [
+            "spectacularly",
+            "spectacle"
+          ],
+          "usage_note": "Often used to describe something that is impressive or attention-grabbing.",
+          "memory_tip": "'spectacular' = અદભૂત દૃશ્ય -> impressive view",
+          "examples": [
+            "The spectacular scenery of the fireworks display was enjoyed by all.",
+            "The spectacular performance of the musician was applauded by the audience.",
+            "The spectacular architecture of the building was a marvel of engineering.",
+            "The spectacular landscape of the painting depicted a vibrant and dynamic scene."
+          ]
+        },
+        {
+          "id": 90,
+          "word": "Vibrant",
+          "category": "Places",
+          "subcategory": "Describing Places",
+          "part_of_speech": "adjective",
+          "difficulty": "Intermediate",
+          "frequency": "Common",
+          "gujarati_pronunciation": "વાઈબ્રન્ટ",
+          "english_meaning": "Full of energy and life; bright and colorful.",
+          "gujarati_meaning": "ઊર્જાસભર અને જીવંત; તેજસ્વી અને રંગબેરંગી.",
+          "synonyms": [
+            "Colorful",
+            "Lively",
+            "Dynamic"
+          ],
+          "antonyms": [
+            "Dull",
+            "Lifeless"
+          ],
+          "collocations": [
+            "vibrant culture",
+            "vibrant city",
+            "vibrant community"
+          ],
+          "word_forms": [
+            "vibrancy",
+            "vibrantly"
+          ],
+          "usage_note": "Often used to describe something that is full of energy or life.",
+          "memory_tip": "'vibrant' = ઊર્જાસભર વાતાવરણ -> energetic atmosphere",
+          "examples": [
+            "The vibrant colors of the painting made it stand out.",
+            "The vibrant music of the festival was enjoyed by all.",
+            "The vibrant atmosphere of the city was infectious.",
+            "The vibrant landscape of the garden was full of life and color."
+          ]
+        },
+        {
+          "id": 91,
+          "word": "In the vicinity",
+          "category": "Places",
+          "subcategory": "Location Phrases",
+          "part_of_speech": "noun phrase",
+          "difficulty": "Intermediate",
+          "frequency": "Common",
+          "gujarati_pronunciation": "ઈન ધી વિસિનિટી",
+          "english_meaning": "Near or close to a place",
+          "gujarati_meaning": "કોઈ સ્થળની નજીક અથવા આસપાસ",
+          "synonyms": [
+            "Nearby",
+            "In the neighborhood",
+            "Close by"
+          ],
+          "antonyms": [
+            "Far away"
+          ],
+          "collocations": [
+            "in the vicinity of the city",
+            "a hotel in the vicinity",
+            "shops in the vicinity"
+          ],
+          "word_forms": [
+            "vicinity"
+          ],
+          "usage_note": "Used to describe something that is near or close to a place",
+          "memory_tip": "'vicinity' = નજીક -> in the vicinity",
+          "examples": [
+            "The hotel is in the vicinity of the airport",
+            "There are several restaurants in the vicinity",
+            "The new school is in the vicinity of our house",
+            "The police station is in the vicinity of the city center"
+          ]
+        },
+        {
+          "id": 92,
+          "word": "On the outskirts",
+          "category": "Places",
+          "subcategory": "Location Phrases",
+          "part_of_speech": "noun phrase",
+          "difficulty": "Intermediate",
+          "frequency": "Common",
+          "gujarati_pronunciation": "ઓન ધી આઉટસ્કર્ટ્સ",
+          "english_meaning": "At the edge or boundary of a town or city",
+          "gujarati_meaning": "શહેર અથવા નગરની સીમા પર",
+          "synonyms": [
+            "On the edge of",
+            "On the periphery",
+            "In the suburbs"
+          ],
+          "antonyms": [
+            "In the center"
+          ],
+          "collocations": [
+            "a house on the outskirts",
+            "a factory on the outskirts",
+            "on the outskirts of town"
+          ],
+          "word_forms": [
+            "outskirt"
+          ],
+          "usage_note": "Used to describe something that is located at the edge or boundary of a town or city",
+          "memory_tip": "'out' = બહાર -> on the outskirts",
+          "examples": [
+            "The new shopping mall is on the outskirts of the city",
+            "The factory is located on the outskirts of town",
+            "The hotel is on the outskirts of the airport",
+            "The university is on the outskirts of the city center"
+          ]
+        },
+        {
+          "id": 93,
+          "word": "In the middle of",
+          "category": "Places",
+          "subcategory": "Location Phrases",
+          "part_of_speech": "noun phrase",
+          "difficulty": "Intermediate",
+          "frequency": "Very common",
+          "gujarati_pronunciation": "ઈન ધી મિડલ ઓફ",
+          "english_meaning": "In the center or middle of something",
+          "gujarati_meaning": "કંઈકના મધ્યમાં અથવા વચ્ચે",
+          "synonyms": [
+            "In the center",
+            "In the midst of",
+            "Amidst"
+          ],
+          "antonyms": [
+            "On the edge"
+          ],
+          "collocations": [
+            "in the middle of the city",
+            "in the middle of the night",
+            "in the middle of the forest"
+          ],
+          "word_forms": [
+            "middle"
+          ],
+          "usage_note": "Used to describe something that is located in the center or middle of something",
+          "memory_tip": "'middle' = મધ્ય -> in the middle of",
+          "examples": [
+            "The park is in the middle of the city",
+            "The hotel is in the middle of the town",
+            "The restaurant is in the middle of the forest",
+            "The university is in the middle of the city center"
+          ]
+        },
+        {
+          "id": 94,
+          "word": "At the foot of",
+          "category": "Places",
+          "subcategory": "Location Phrases",
+          "part_of_speech": "noun phrase",
+          "difficulty": "Intermediate",
+          "frequency": "Less common",
+          "gujarati_pronunciation": "એટ ધી ફૂટ ઓફ",
+          "english_meaning": "At the base or bottom of something",
+          "gujarati_meaning": "કંઈકના પાયા અથવા તળિયે",
+          "synonyms": [
+            "At the base of",
+            "At the bottom of",
+            "In the shadow of"
+          ],
+          "antonyms": [
+            "At the top of"
+          ],
+          "collocations": [
+            "at the foot of the mountain",
+            "at the foot of the hill",
+            "at the foot of the statue"
+          ],
+          "word_forms": [
+            "foot"
+          ],
+          "usage_note": "Used to describe something that is located at the base or bottom of something",
+          "memory_tip": "'foot' = પગ -> at the foot of",
+          "examples": [
+            "The village is at the foot of the mountain",
+            "The hotel is at the foot of the hill",
+            "The monument is at the foot of the statue",
+            "The city is at the foot of the valley"
+          ]
+        },
+        {
+          "id": 95,
+          "word": "By the side of",
+          "category": "Places",
+          "subcategory": "Location Phrases",
+          "part_of_speech": "noun phrase",
+          "difficulty": "Intermediate",
+          "frequency": "Common",
+          "gujarati_pronunciation": "બાય ધી સાઇડ ઓફ",
+          "english_meaning": "Next to or adjacent to something",
+          "gujarati_meaning": "કંઈકની બાજુમાં અથવા પાસે",
+          "synonyms": [
+            "Next to",
+            "Adjacent to",
+            "Beside"
+          ],
+          "antonyms": [
+            "Far from"
+          ],
+          "collocations": [
+            "by the side of the road",
+            "by the side of the river",
+            "by the side of the house"
+          ],
+          "word_forms": [
+            "side"
+          ],
+          "usage_note": "Used to describe something that is located next to or adjacent to something",
+          "memory_tip": "'side' = બાજુ -> by the side of",
+          "examples": [
+            "The park is by the side of the road",
+            "The hotel is by the side of the river",
+            "The restaurant is by the side of the house",
+            "The university is by the side of the city center"
+          ]
+        },
+        {
+          "id": 96,
+          "word": "Across from",
+          "category": "Places",
+          "subcategory": "Location Phrases",
+          "part_of_speech": "noun phrase",
+          "difficulty": "Intermediate",
+          "frequency": "Common",
+          "gujarati_pronunciation": "એક્રોસ ફ્રમ",
+          "english_meaning": "On the opposite side of something",
+          "gujarati_meaning": "કંઈકની સામેની બાજુએ",
+          "synonyms": [
+            "Opposite",
+            "Across the street from",
+            "Facing"
+          ],
+          "antonyms": [
+            "Next to"
+          ],
+          "collocations": [
+            "across from the park",
+            "across from the hotel",
+            "across from the restaurant"
+          ],
+          "word_forms": [
+            "across"
+          ],
+          "usage_note": "Used to describe something that is located on the opposite side of something",
+          "memory_tip": "'across' = સામે -> across from",
+          "examples": [
+            "The coffee shop is across from the park",
+            "The hotel is across from the restaurant",
+            "The university is across from the city center",
+            "The library is across from the bookstore"
+          ]
+        },
+        {
+          "id": 97,
+          "word": "On the opposite side",
+          "category": "Places",
+          "subcategory": "Location Phrases",
+          "part_of_speech": "noun phrase",
+          "difficulty": "Intermediate",
+          "frequency": "Less common",
+          "gujarati_pronunciation": "ઓન ધી ઓપોઝિટ સાઇડ",
+          "english_meaning": "On the other side of something",
+          "gujarati_meaning": "કંઈકની વિરુદ્ધ બાજુએ",
+          "synonyms": [
+            "On the other side",
+            "Across from",
+            "Opposite"
+          ],
+          "antonyms": [
+            "On the same side"
+          ],
+          "collocations": [
+            "on the opposite side of the street",
+            "on the opposite side of the room",
+            "on the opposite side of the table"
+          ],
+          "word_forms": [
+            "opposite"
+          ],
+          "usage_note": "Used to describe something that is located on the other side of something",
+          "memory_tip": "'opposite' = વિરુદ્ધ -> on the opposite side",
+          "examples": [
+            "The restaurant is on the opposite side of the street",
+            "The hotel is on the opposite side of the park",
+            "The university is on the opposite side of the city center",
+            "The library is on the opposite side of the bookstore"
+          ]
+        },
+        {
+          "id": 98,
+          "word": "Nearby",
+          "category": "Places",
+          "subcategory": "Location Phrases",
+          "part_of_speech": "adverb",
+          "difficulty": "Intermediate",
+          "frequency": "Very common",
+          "gujarati_pronunciation": "નિઅરબાઈ",
+          "english_meaning": "At a short distance away",
+          "gujarati_meaning": "નજીકમાં અથવા આસપાસ",
+          "synonyms": [
+            "Close by",
+            "Near",
+            "In the vicinity"
+          ],
+          "antonyms": [
+            "Far away"
+          ],
+          "collocations": [
+            "there is a shop nearby",
+            "the hotel is nearby",
+            "the restaurant is nearby"
+          ],
+          "word_forms": [
+            "near"
+          ],
+          "usage_note": "Used to describe something that is at a short distance away",
+          "memory_tip": "'near' = નજીક -> nearby",
+          "examples": [
+            "There is a shop nearby",
+            "The hotel is nearby",
+            "The restaurant is nearby",
+            "The university is nearby"
+          ]
+        },
+        {
+          "id": 99,
+          "word": "In close proximity",
+          "category": "Places",
+          "subcategory": "Location Phrases",
+          "part_of_speech": "noun phrase",
+          "difficulty": "Advanced",
+          "frequency": "Less common",
+          "gujarati_pronunciation": "ઈન ક્લોઝ પ્રોક્સિમિટી",
+          "english_meaning": "Near or close to something",
+          "gujarati_meaning": "કંઈકની નજીક અથવા આસપાસ",
+          "synonyms": [
+            "In close proximity to",
+            "Near",
+            "Close by"
+          ],
+          "antonyms": [
+            "Far away"
+          ],
+          "collocations": [
+            "in close proximity to the city",
+            "in close proximity to the airport",
+            "in close proximity to the university"
+          ],
+          "word_forms": [
+            "proximity"
+          ],
+          "usage_note": "Used to describe something that is near or close to something",
+          "memory_tip": "'proximity' = નજીક -> in close proximity",
+          "examples": [
+            "The hotel is in close proximity to the airport",
+            "The restaurant is in close proximity to the university",
+            "The park is in close proximity to the city center",
+            "The library is in close proximity to the bookstore"
+          ]
+        },
+        {
+          "id": 100,
+          "word": "Within earshot",
+          "category": "Places",
+          "subcategory": "Location Phrases",
+          "part_of_speech": "noun phrase",
+          "difficulty": "Advanced",
+          "frequency": "Less common",
+          "gujarati_pronunciation": "વિધિન ઈઅરશોટ",
+          "english_meaning": "Close enough to hear something",
+          "gujarati_meaning": "કંઈક સાંભળવા માટે પૂરતી નજીક",
+          "synonyms": [
+            "Within hearing distance",
+            "Close enough to hear",
+            "In earshot"
+          ],
+          "antonyms": [
+            "Out of earshot"
+          ],
+          "collocations": [
+            "within earshot of the music",
+            "within earshot of the conversation",
+            "within earshot of the noise"
+          ],
+          "word_forms": [
+            "earshot"
+          ],
+          "usage_note": "Used to describe something that is close enough to hear something",
+          "memory_tip": "'earshot' = સાંભળવા -> within earshot",
+          "examples": [
+            "The hotel room is within earshot of the music",
+            "The conversation is within earshot of the noise",
+            "The university is within earshot of the city center",
+            "The library is within earshot of the bookstore"
           ]
         }
       ],

@@ -11,27 +11,30 @@ const TABS: { key: NavTab; label: string; path: string; Icon: typeof HomeIcon }[
   { key: 'grammar',       label: 'Grammar',  path: '/grammar',       Icon: GrammarIcon },
 ];
 
-export default function BottomNav({ active }: { active?: NavTab | 'progress' }) {
+export default function BottomNav({ active, visible = true }: { active?: NavTab | 'progress'; visible?: boolean }) {
   const navigate = useNavigate();
   return (
-    <nav
-      className="flex flex-shrink-0"
-      style={{ borderTop: '1px solid var(--line)', background: 'var(--card)' }}
-    >
-      {TABS.map(({ key, label, path, Icon }) => {
-        const isActive = key === active;
-        return (
-          <button
-            key={key}
-            onClick={() => !isActive && navigate(path)}
-            className="flex-1 flex flex-col items-center gap-1 pt-2.5 pb-4 text-[10.5px] font-semibold transition-colors"
-            style={{ color: isActive ? 'var(--saffron-deep)' : 'var(--ink-soft)' }}
-          >
-            <Icon className="w-5 h-5" />
-            {label}
-          </button>
-        );
-      })}
-    </nav>
+    // Collapsing wrapper — overflow:hidden + max-height transition frees the space.
+    <div style={{ overflow: 'hidden', maxHeight: visible ? '80px' : '0', transition: 'max-height 0.3s ease', flexShrink: 0 }}>
+      <nav
+        className="flex"
+        style={{ borderTop: '1px solid var(--line)', background: 'var(--card)' }}
+      >
+        {TABS.map(({ key, label, path, Icon }) => {
+          const isActive = key === active;
+          return (
+            <button
+              key={key}
+              onClick={() => !isActive && navigate(path)}
+              className="flex-1 flex flex-col items-center gap-1 pt-2.5 pb-4 text-[10.5px] font-semibold transition-colors"
+              style={{ color: isActive ? 'var(--saffron-deep)' : 'var(--ink-soft)' }}
+            >
+              <Icon className="w-5 h-5" />
+              {label}
+            </button>
+          );
+        })}
+      </nav>
+    </div>
   );
 }

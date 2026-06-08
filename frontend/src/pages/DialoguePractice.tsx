@@ -4,6 +4,7 @@ import BottomNav from '../components/BottomNav';
 import PageHeader from '../components/PageHeader';
 import PronounceButton from '../components/PronounceButton';
 import ScrollToTop from '../components/ScrollToTop';
+import { useAutoHide } from '../hooks/useAutoHide';
 import { conversationsApi } from '../services/api';
 import type { ConversationDetail } from '../types';
 
@@ -22,6 +23,7 @@ export default function DialoguePractice() {
   const [loading, setLoading] = useState(true);
   const [notFound, setNotFound] = useState(false);
   const scrollRef = useRef<HTMLDivElement>(null);
+  const { visible: uiVisible } = useAutoHide(scrollRef);
 
   useEffect(() => {
     if (!id) return;
@@ -44,7 +46,7 @@ export default function DialoguePractice() {
 
   return (
     <div className="relative flex flex-col h-[100dvh] overflow-x-hidden w-full" style={{ background: 'var(--paper)' }}>
-      <PageHeader title={conversation?.title ?? 'Dialogue'} subtitle="વાર્તાલાપ વાંચો" back="/dialogues" />
+      <PageHeader title={conversation?.title ?? 'Dialogue'} subtitle="વાર્તાલાપ વાંચો" back="/dialogues" visible={uiVisible} />
 
       {loading ? (
         <div className="flex-1 flex items-center justify-center text-sm" style={{ color: 'var(--ink-soft)' }}>
@@ -80,7 +82,7 @@ export default function DialoguePractice() {
       )}
 
       {!loading && !notFound && conversation && <ScrollToTop targetRef={scrollRef} />}
-      <BottomNav active="conversations" />
+      <BottomNav active="conversations" visible={uiVisible} />
     </div>
   );
 }

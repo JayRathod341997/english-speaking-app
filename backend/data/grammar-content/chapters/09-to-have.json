@@ -174,6 +174,85 @@
           "guMT": true
         }
       ]
+    },
+    {
+      "block": "rules",
+      "id": "ch-09-to-have/exp-5",
+      "title": {
+        "en": "What 'to have' can express",
+        "gu": "શું હોવું જોઈએ તે વ્યક્ત કરી શકે છે",
+        "guMT": true
+      },
+      "items": [
+        {
+          "text": {
+            "en": "Ownership of objects.",
+            "gu": "વસ્તુઓની માલિકી.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "I have a new pen. | She has a beautiful house.",
+              "gu": "મારી પાસે નવી પેન છે. | તેણી પાસે એક સુંદર ઘર છે.",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "Family relationships.",
+            "gu": "કૌટુંબિક સંબંધો.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "I have two brothers. | He has a sister who is a nurse.",
+              "gu": "મારે બે ભાઈઓ છે. | તેની એક બહેન છે જે નર્સ છે.",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "Physical features of living things.",
+            "gu": "જીવંત વસ્તુઓની શારીરિક લાક્ષણિકતાઓ.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "The elephant has two big ears. | The dog has a long tail.",
+              "gu": "હાથીને બે મોટા કાન હોય છે. | કૂતરા પાસે લાંબી પૂંછડી છે.",
+              "guMT": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "block": "examples",
+      "id": "ch-09-to-have/exp-6",
+      "items": [
+        {
+          "en": "I have two brothers and one sister.",
+          "gu": "મારે બે ભાઈઓ અને એક બહેન છે.",
+          "guMT": true
+        },
+        {
+          "en": "The elephant has a long trunk.",
+          "gu": "હાથીની થડ લાંબી હોય છે.",
+          "guMT": true
+        },
+        {
+          "en": "Once there was a mouse. It had seven tails.",
+          "gu": "એકવાર ત્યાં એક ઉંદર હતો. તેને સાત પૂંછડીઓ હતી.",
+          "guMT": true
+        },
+        {
+          "en": "We shall have a picnic next Sunday.",
+          "gu": "અમે આવતા રવિવારે પિકનિક કરીશું.",
+          "guMT": true
+        }
+      ]
     }
   ],
   "practice": [
@@ -331,6 +410,158 @@
       "answer": {
         "en": "Have you any friends in school?",
         "gu": "શાળામાં તમારા કોઈ મિત્રો છે?",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-09-to-have/q-6",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "Riya ____ a beautiful voice.",
+        "gu": "રિયા ____ એક સુંદર અવાજ.",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "have",
+          "gu": "પાસે",
+          "guMT": true
+        },
+        {
+          "en": "has",
+          "gu": "ધરાવે છે",
+          "guMT": true
+        },
+        {
+          "en": "had",
+          "gu": "હતી",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "has",
+        "gu": "ધરાવે છે",
+        "guMT": true
+      },
+      "hint": {
+        "en": "Third person singular (Riya = she) uses 'has'.",
+        "gu": "ત્રીજી વ્યક્તિ એકવચન (રિયા = તેણી) 'has' નો ઉપયોગ કરે છે.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-09-to-have/q-7",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "We ____ many problems last year.",
+        "gu": "ગયા વર્ષે અમને ____ ઘણી સમસ્યાઓ આવી.",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "have",
+          "gu": "પાસે",
+          "guMT": true
+        },
+        {
+          "en": "has",
+          "gu": "ધરાવે છે",
+          "guMT": true
+        },
+        {
+          "en": "had",
+          "gu": "હતી",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "had",
+        "gu": "હતી",
+        "guMT": true
+      },
+      "hint": {
+        "en": "'Last year' shows past tense — use 'had' for all persons.",
+        "gu": "'છેલ્લું વર્ષ' ભૂતકાળનો સમય દર્શાવે છે - તમામ વ્યક્તિઓ માટે 'હેડ' નો ઉપયોગ કરો.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-09-to-have/q-8",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "They ____ a new house soon.",
+        "gu": "તેઓ ટૂંક સમયમાં નવું ઘર ____ કરશે.",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "have",
+          "gu": "પાસે",
+          "guMT": true
+        },
+        {
+          "en": "will have",
+          "gu": "હશે",
+          "guMT": true
+        },
+        {
+          "en": "had",
+          "gu": "હતી",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "will have",
+        "gu": "હશે",
+        "guMT": true
+      },
+      "hint": {
+        "en": "'Soon' signals future tense; 'they' uses 'will have'.",
+        "gu": "'ટૂંક સમયમાં' ભવિષ્યના તંગનો સંકેત આપે છે; 'તેઓ' વાપરે છે 'હશે'.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-09-to-have/q-9",
+      "type": "transformation",
+      "transform": "to_have_question",
+      "given": "affirmative",
+      "ask": "question",
+      "forms": {
+        "affirmative": {
+          "en": "She has a lovely garden.",
+          "gu": "તેણી પાસે એક સુંદર બગીચો છે.",
+          "guMT": true
+        },
+        "question": {
+          "en": "Has she a lovely garden?",
+          "gu": "તેણી પાસે એક સુંદર બગીચો છે?",
+          "guMT": true
+        }
+      },
+      "answer": {
+        "en": "Has she a lovely garden?",
+        "gu": "તેણી પાસે એક સુંદર બગીચો છે?",
+        "guMT": true
+      },
+      "solution": {
+        "en": "Move 'has' before the subject 'she'.",
+        "gu": "વિષય 'she' પહેલાં 'has' ખસેડો.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-09-to-have/q-10",
+      "type": "translation",
+      "direction": "en_to_gu",
+      "prompt": {
+        "en": "They will have a lot of money.",
+        "gu": "તેમની પાસે ઘણા પૈસા હશે.",
+        "guMT": true
+      },
+      "answer": {
+        "en": "They will have a lot of money.",
+        "gu": "તેમની પાસે ઘણા પૈસા હશે.",
         "guMT": true
       }
     }

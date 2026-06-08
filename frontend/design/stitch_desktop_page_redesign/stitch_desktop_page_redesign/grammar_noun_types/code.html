@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Grammar Tips - Noun Types | Bolo English</title>
+<!-- Google Fonts: Literata & Hanken Grotesk -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&amp;family=Literata:ital,opsz,wght@0,7..72,200..900;1,7..72,200..900&amp;display=swap" rel="stylesheet"/>
+<!-- Material Symbols -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Tailwind Config -->
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "secondary-fixed": "#ffdbce",
+                    "surface-variant": "#e6e2d8",
+                    "secondary-fixed-dim": "#ffb599",
+                    "surface-container-low": "#f7f3e8",
+                    "inverse-primary": "#93d4bb",
+                    "secondary-container": "#ff7940",
+                    "on-secondary-fixed": "#370e00",
+                    "on-primary-container": "#94d5bd",
+                    "on-tertiary-fixed": "#380c08",
+                    "surface": "#fdf9ee",
+                    "inverse-on-surface": "#f4f1e6",
+                    "tertiary": "#622d26",
+                    "surface-container-lowest": "#ffffff",
+                    "surface-bright": "#fdf9ee",
+                    "surface-container-highest": "#e6e2d8",
+                    "on-surface-variant": "#404944",
+                    "surface-tint": "#286956",
+                    "surface-container-high": "#ece8dd",
+                    "primary-fixed": "#aef0d7",
+                    "surface-container": "#f2eee3",
+                    "outline": "#707974",
+                    "inverse-surface": "#313129",
+                    "primary-container": "#1b5e4b",
+                    "on-error": "#ffffff",
+                    "tertiary-fixed-dim": "#ffb4a9",
+                    "on-primary-fixed": "#002117",
+                    "on-primary": "#ffffff",
+                    "outline-variant": "#bfc9c3",
+                    "on-tertiary": "#ffffff",
+                    "on-tertiary-fixed-variant": "#6e372f",
+                    "secondary": "#a73a00",
+                    "primary-fixed-dim": "#93d4bb",
+                    "on-primary-fixed-variant": "#05513f",
+                    "on-error-container": "#93000a",
+                    "on-secondary-container": "#662000",
+                    "on-secondary": "#ffffff",
+                    "surface-dim": "#dddacf",
+                    "error-container": "#ffdad6",
+                    "primary": "#004635",
+                    "background": "#fdf9ee",
+                    "on-secondary-fixed-variant": "#7f2b00",
+                    "tertiary-fixed": "#ffdad5",
+                    "on-background": "#1c1c15",
+                    "tertiary-container": "#7e433b",
+                    "on-surface": "#1c1c15",
+                    "on-tertiary-container": "#ffb6ac",
+                    "error": "#ba1a1a"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.25rem",
+                    "lg": "0.5rem",
+                    "xl": "0.75rem",
+                    "full": "9999px"
+            },
+            "spacing": {
+                    "container-max": "1200px",
+                    "margin-mobile": "20px",
+                    "stack-md": "24px",
+                    "stack-sm": "12px",
+                    "margin-desktop": "64px",
+                    "stack-lg": "40px",
+                    "gutter": "24px",
+                    "base": "8px"
+            },
+            "fontFamily": {
+                    "title-md": ["Literata"],
+                    "label-sm": ["Hanken Grotesk"],
+                    "headline-lg-mobile": ["Literata"],
+                    "body-md": ["Hanken Grotesk"],
+                    "display-lg": ["Literata"],
+                    "body-lg": ["Hanken Grotesk"],
+                    "headline-lg": ["Literata"]
+            },
+            "fontSize": {
+                    "title-md": ["20px", { "lineHeight": "28px", "fontWeight": "600" }],
+                    "label-sm": ["12px", { "lineHeight": "16px", "letterSpacing": "0.05em", "fontWeight": "600" }],
+                    "headline-lg-mobile": ["24px", { "lineHeight": "32px", "fontWeight": "600" }],
+                    "body-md": ["16px", { "lineHeight": "24px", "fontWeight": "400" }],
+                    "display-lg": ["48px", { "lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "700" }],
+                    "body-lg": ["18px", { "lineHeight": "28px", "fontWeight": "400" }],
+                    "headline-lg": ["32px", { "lineHeight": "40px", "fontWeight": "600" }]
+            }
+          }
+        }
+      }
+    </script>
+</head>
+<body class="bg-background text-on-background font-body-md text-body-md antialiased selection:bg-primary-fixed selection:text-on-primary-fixed">
+<!-- TopNavBar -->
+<nav aria-label="Top Navigation" class="fixed top-0 left-0 w-full z-50 flex justify-between items-center px-margin-desktop max-w-container-max mx-auto bg-surface h-16 border-b border-outline-variant/10 font-body-md text-body-md">
+<!-- Search & Brand -->
+<div class="flex items-center gap-gutter">
+<span class="font-title-md text-title-md font-bold text-primary tracking-tight">Bolo English</span>
+<div class="hidden md:flex items-center bg-surface-container-low rounded-full px-4 py-2 border border-outline-variant/20 focus-within:border-primary/50 transition-colors">
+<span class="material-symbols-outlined text-outline" style="font-variation-settings: 'FILL' 0;">search</span>
+<input aria-label="Search" class="bg-transparent border-none focus:ring-0 text-body-md font-body-md text-on-surface ml-2 w-48 placeholder-outline" placeholder="Search..." type="text"/>
+</div>
+</div>
+<!-- Navigation Links -->
+<div class="hidden md:flex items-center gap-stack-md h-full">
+<a class="h-full flex items-center text-on-surface-variant hover:text-primary transition-colors font-title-md text-title-md text-sm" href="#">My Progress</a>
+<a class="h-full flex items-center text-on-surface-variant hover:text-primary transition-colors font-title-md text-title-md text-sm" href="#">Certificates</a>
+</div>
+<!-- Trailing Actions -->
+<div class="flex items-center gap-stack-md">
+<div class="hidden lg:flex items-center gap-2 bg-primary/5 text-primary px-3 py-1 rounded-full font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">local_fire_department</span>
+<span>Daily Streak: 12</span>
+</div>
+<div class="flex items-center gap-stack-sm">
+<button aria-label="notifications" class="p-2 text-on-surface-variant hover:text-primary transition-colors rounded-full hover:bg-surface-container-high">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 0;">notifications</span>
+</button>
+<button aria-label="settings" class="p-2 text-on-surface-variant hover:text-primary transition-colors rounded-full hover:bg-surface-container-high">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 0;">settings</span>
+</button>
+<img alt="User profile avatar" class="w-8 h-8 rounded-full border border-outline-variant/20 ml-2" data-alt="A small circular avatar placeholder image showing the initial 'U' on a dark green background." src="https://lh3.googleusercontent.com/aida-public/AB6AXuD_fiwKg5cOpsWFQHi8fDROX9pzmDX3gqD3vs-ZKiifyQqLPLe46cgS-z4t1NU9HCB2XfzDy0QaCu2UjFlFyaFWpwT2TdocTsGb7VZF3H6RgYE2plVfyk899xSxJz3vW627SQkTiS8y4ZWwRjan6BA0d82z1oPMdNTjTucLc5XqrxtVISah5xY-THbpktD2FtJOuIM5PAZtb6VEfBmm7EFHm489JnpncpC7D2OKXXrhoiouth25AKzFFbSQfmbft_7-mFaQe2I5gdA"/>
+</div>
+</div>
+</nav>
+<!-- SideNavBar -->
+<aside aria-label="Sidebar Navigation" class="fixed left-0 top-16 h-[calc(100vh-4rem)] w-64 bg-surface-container-low border-r border-outline-variant/10 flex flex-col py-stack-md gap-base z-40">
+<!-- Header -->
+<div class="px-stack-md mb-stack-sm flex items-center gap-3">
+<div class="w-10 h-10 rounded-full bg-primary-container text-on-primary-container flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">school</span>
+</div>
+<div>
+<h2 class="font-title-md text-title-md text-primary text-base leading-tight">Learning Path</h2>
+<p class="font-label-sm text-label-sm text-on-surface-variant mt-0.5">Level: Intermediate</p>
+</div>
+</div>
+<!-- Nav Links -->
+<nav class="flex-1 px-stack-sm flex flex-col gap-1">
+<a class="flex items-center gap-3 px-3 py-2.5 rounded-lg text-on-surface-variant hover:bg-surface-container-highest transition-all font-body-md text-body-md" href="#">
+<span class="material-symbols-outlined text-outline" style="font-variation-settings: 'FILL' 0;">home</span>
+                Home
+            </a>
+<a class="flex items-center gap-3 px-3 py-2.5 rounded-lg text-on-surface-variant hover:bg-surface-container-highest transition-all font-body-md text-body-md" href="#">
+<span class="material-symbols-outlined text-outline" style="font-variation-settings: 'FILL' 0;">record_voice_over</span>
+                Talk
+            </a>
+<a class="flex items-center gap-3 px-3 py-2.5 rounded-lg text-on-surface-variant hover:bg-surface-container-highest transition-all font-body-md text-body-md" href="#">
+<span class="material-symbols-outlined text-outline" style="font-variation-settings: 'FILL' 0;">auto_stories</span>
+                Idioms
+            </a>
+<a class="flex items-center gap-3 px-3 py-2.5 rounded-lg text-on-surface-variant hover:bg-surface-container-highest transition-all font-body-md text-body-md" href="#">
+<span class="material-symbols-outlined text-outline" style="font-variation-settings: 'FILL' 0;">menu_book</span>
+                Words
+            </a>
+<!-- Active State -->
+<a aria-current="page" class="flex items-center gap-3 px-3 py-2.5 text-primary font-bold border-r-4 border-primary bg-primary/5 transition-all opacity-80 scale-95 duration-150 rounded-l-lg font-body-md text-body-md" href="#">
+<span class="material-symbols-outlined text-primary" style="font-variation-settings: 'FILL' 1;">architecture</span>
+                Grammar
+            </a>
+</nav>
+<!-- CTA -->
+<div class="px-stack-md mt-auto pt-stack-sm">
+<button class="w-full bg-secondary text-on-secondary py-2.5 rounded-lg font-label-sm text-label-sm hover:bg-secondary/90 transition-colors shadow-sm">
+                Start Practice
+            </button>
+</div>
+</aside>
+<!-- Main Content Canvas -->
+<main class="ml-64 pt-16 min-h-screen">
+<div class="max-w-container-max mx-auto p-margin-desktop flex flex-col gap-stack-lg">
+<!-- Breadcrumbs -->
+<nav aria-label="Breadcrumb" class="flex items-center gap-2 text-on-surface-variant font-label-sm text-label-sm">
+<a class="hover:text-primary transition-colors" href="#">Grammar</a>
+<span class="material-symbols-outlined text-[14px]">chevron_right</span>
+<span class="text-on-background">Noun Types</span>
+</nav>
+<!-- Lesson Header (Mastery Block) -->
+<header class="bg-primary rounded-xl overflow-hidden shadow-sm relative isolate flex flex-col lg:flex-row items-center">
+<!-- Decorative background elements -->
+<div class="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-primary-container via-primary to-primary opacity-80 -z-10"></div>
+<div class="absolute -bottom-24 -left-24 w-64 h-64 bg-primary-fixed/20 rounded-full blur-3xl -z-10"></div>
+<div class="flex-1 p-stack-lg z-10 flex flex-col gap-stack-sm">
+<span class="bg-surface/20 text-on-primary border border-surface/30 px-3 py-1 rounded-full font-label-sm text-label-sm w-fit uppercase tracking-wider backdrop-blur-sm">Chapter 4</span>
+<h1 class="font-display-lg text-display-lg text-on-primary">Noun Types</h1>
+<h2 class="font-headline-lg text-headline-lg text-primary-fixed font-light mt-2">નામના પ્રકારો</h2>
+<p class="font-body-lg text-body-lg text-on-primary/90 mt-4 max-w-2xl leading-relaxed">
+                        Nouns are words used to identify any of a class of people, places, or things. Let's master the different types of nouns to build a stronger foundation in English grammar.
+                        <br/><br/>
+<span class="text-primary-fixed-dim italic">નામ એ એવા શબ્દો છે જે વ્યક્તિઓ, સ્થળો અથવા વસ્તુઓના વર્ગને ઓળખવા માટે વપરાય છે. ચાલો અંગ્રેજી વ્યાકરણમાં મજબૂત પાયો બનાવવા માટે નામના વિવિધ પ્રકારોમાં નિપુણતા મેળવીએ.</span>
+</p>
+</div>
+<div class="w-full lg:w-1/3 min-h-[300px] bg-primary-container relative shrink-0">
+<!-- Required Image Placeholder -->
+<img alt="Decorative image related to grammar learning" class="absolute inset-0 w-full h-full object-cover opacity-90 mix-blend-overlay" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBhdkZ0mp7EDh7d05_AUvtcK5ycvBjdJp_1H4juVUtd7e2esi0KVeZcxcmIEv6JqPRD-PjkqMzuvFZ-CjLRs7T5WkGtHM2gBW-HaFS-9YFW-k3Z8tbOI6wEP4ToEA0a-JJ2Rd04L-tokD9ogZpwEexQ2sZgMsBJ0iqwUwhjiqoeECU0iehB1a0Gq_cQ8LOw86-JVB9YnpuqRKfPC98CyxoLmEOAx7A-HCbYtVMNHt59wKgj5ZH9a-ddXUx6pXOdVrsMCPD_-Q6CT-k"/>
+</div>
+</header>
+<!-- Content Grid (Bento Style) -->
+<section aria-label="Types of Nouns" class="grid grid-cols-1 md:grid-cols-2 gap-gutter">
+<!-- Card 1: Proper Nouns -->
+<article class="bg-surface-container-lowest border border-primary/10 rounded-xl p-stack-md flex flex-col gap-base transition-all duration-300 hover:border-primary/30 hover:bg-surface-container-low hover:-translate-y-1 group">
+<div class="flex items-center gap-3 mb-2">
+<div class="w-10 h-10 rounded-full bg-secondary/10 text-secondary flex items-center justify-center shrink-0 group-hover:bg-secondary group-hover:text-on-secondary transition-colors">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">person</span>
+</div>
+<div>
+<h3 class="font-title-md text-title-md text-on-background">Proper Nouns</h3>
+<p class="font-label-sm text-label-sm text-secondary">વ્યક્તિવાચક નામ</p>
+</div>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                        Specific names for particular people, places, or things. They always begin with a capital letter.
+                    </p>
+<p class="font-body-md text-body-md text-on-surface-variant italic border-l-2 border-outline-variant/30 pl-3">
+                        ચોક્કસ વ્યક્તિઓ, સ્થળો અથવા વસ્તુઓ માટેના ચોક્કસ નામો. તેઓ હંમેશા કેપિટલ લેટરથી શરૂ થાય છે.
+                    </p>
+<div class="mt-4 bg-surface-variant/30 rounded-lg p-3">
+<span class="font-label-sm text-label-sm text-outline uppercase tracking-wider block mb-1">Examples / ઉદાહરણો:</span>
+<p class="font-body-md text-body-md text-on-background"><strong>R</strong>ahul, <strong>G</strong>ujarat, <strong>T</strong>he <strong>T</strong>aj <strong>M</strong>ahal</p>
+</div>
+</article>
+<!-- Card 2: Common Nouns -->
+<article class="bg-surface-container-lowest border border-primary/10 rounded-xl p-stack-md flex flex-col gap-base transition-all duration-300 hover:border-primary/30 hover:bg-surface-container-low hover:-translate-y-1 group">
+<div class="flex items-center gap-3 mb-2">
+<div class="w-10 h-10 rounded-full bg-primary/10 text-primary flex items-center justify-center shrink-0 group-hover:bg-primary group-hover:text-on-primary transition-colors">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">category</span>
+</div>
+<div>
+<h3 class="font-title-md text-title-md text-on-background">Common Nouns</h3>
+<p class="font-label-sm text-label-sm text-primary">જાતિવાચક નામ</p>
+</div>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                        General names for a class of items. They do not start with a capital letter unless they begin a sentence.
+                    </p>
+<p class="font-body-md text-body-md text-on-surface-variant italic border-l-2 border-outline-variant/30 pl-3">
+                        વસ્તુઓના વર્ગ માટે સામાન્ય નામો. વાક્યની શરૂઆત ન કરે ત્યાં સુધી તેઓ કેપિટલ લેટરથી શરૂ થતા નથી.
+                    </p>
+<div class="mt-4 bg-surface-variant/30 rounded-lg p-3">
+<span class="font-label-sm text-label-sm text-outline uppercase tracking-wider block mb-1">Examples / ઉદાહરણો:</span>
+<p class="font-body-md text-body-md text-on-background">boy, city, monument, dog</p>
+</div>
+</article>
+<!-- Card 3: Abstract Nouns -->
+<article class="bg-surface-container-lowest border border-primary/10 rounded-xl p-stack-md flex flex-col gap-base transition-all duration-300 hover:border-primary/30 hover:bg-surface-container-low hover:-translate-y-1 group">
+<div class="flex items-center gap-3 mb-2">
+<div class="w-10 h-10 rounded-full bg-tertiary/10 text-tertiary flex items-center justify-center shrink-0 group-hover:bg-tertiary group-hover:text-on-tertiary transition-colors">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">psychology</span>
+</div>
+<div>
+<h3 class="font-title-md text-title-md text-on-background">Abstract Nouns</h3>
+<p class="font-label-sm text-label-sm text-tertiary">ભાવવાચક નામ</p>
+</div>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                        Ideas, concepts, or feelings that cannot be seen or touched directly.
+                    </p>
+<p class="font-body-md text-body-md text-on-surface-variant italic border-l-2 border-outline-variant/30 pl-3">
+                        વિચારો, ખ્યાલો અથવા લાગણીઓ જેને સીધી જોઈ કે સ્પર્શ કરી શકાતી નથી.
+                    </p>
+<div class="mt-4 bg-surface-variant/30 rounded-lg p-3">
+<span class="font-label-sm text-label-sm text-outline uppercase tracking-wider block mb-1">Examples / ઉદાહરણો:</span>
+<p class="font-body-md text-body-md text-on-background">happiness, courage, freedom, truth</p>
+</div>
+</article>
+<!-- Card 4: Collective Nouns -->
+<article class="bg-surface-container-lowest border border-primary/10 rounded-xl p-stack-md flex flex-col gap-base transition-all duration-300 hover:border-primary/30 hover:bg-surface-container-low hover:-translate-y-1 group">
+<div class="flex items-center gap-3 mb-2">
+<div class="w-10 h-10 rounded-full bg-secondary-container text-on-secondary-container flex items-center justify-center shrink-0 group-hover:bg-secondary-container/80 transition-colors">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">groups</span>
+</div>
+<div>
+<h3 class="font-title-md text-title-md text-on-background">Collective Nouns</h3>
+<p class="font-label-sm text-label-sm text-secondary-container">સમૂહવાચક નામ</p>
+</div>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                        Words used to represent a group of people, animals, or things as a single entity.
+                    </p>
+<p class="font-body-md text-body-md text-on-surface-variant italic border-l-2 border-outline-variant/30 pl-3">
+                        વ્યક્તિઓ, પ્રાણીઓ અથવા વસ્તુઓના સમૂહને એક જ અસ્તિત્વ તરીકે દર્શાવવા માટે વપરાતા શબ્દો.
+                    </p>
+<div class="mt-4 bg-surface-variant/30 rounded-lg p-3">
+<span class="font-label-sm text-label-sm text-outline uppercase tracking-wider block mb-1">Examples / ઉદાહરણો:</span>
+<p class="font-body-md text-body-md text-on-background">family, team, flock, bunch</p>
+</div>
+</article>
+</section>
+<!-- Practice Action Area -->
+<section class="mt-stack-sm bg-surface-container border border-outline-variant/20 rounded-xl p-stack-lg flex flex-col items-center justify-center text-center gap-stack-sm shadow-sm relative overflow-hidden">
+<div class="absolute inset-0 bg-white/40 pointer-events-none rounded-xl" style="background-image: radial-gradient(#aef0d7 1px, transparent 1px); background-size: 24px 24px; opacity: 0.3;"></div>
+<div class="z-10 flex flex-col items-center max-w-lg">
+<div class="w-16 h-16 bg-surface rounded-full flex items-center justify-center shadow-sm mb-4 border border-outline-variant/10 text-primary">
+<span class="material-symbols-outlined text-3xl" style="font-variation-settings: 'FILL' 1;">edit_document</span>
+</div>
+<h3 class="font-title-md text-title-md text-on-background mb-2">Ready to test your knowledge?</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-6">Take a short quiz to reinforce what you've learned about the different types of nouns.</p>
+<button class="bg-secondary text-on-secondary px-8 py-4 rounded-full font-title-md text-title-md shadow-md hover:bg-secondary/90 hover:shadow-lg transition-all active:scale-95 flex items-center gap-2 group">
+                        Practice this chapter
+                        <span class="material-symbols-outlined group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</button>
+</div>
+</section>
+<!-- Footer Navigation -->
+<footer class="mt-stack-lg border-t border-outline-variant/10 pt-stack-md flex justify-between items-center pb-stack-lg">
+<a class="flex flex-col gap-1 text-on-surface-variant hover:text-primary transition-colors group" href="#">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-outline group-hover:text-primary/70">Previous Chapter</span>
+<div class="flex items-center gap-2 font-title-md text-title-md">
+<span class="material-symbols-outlined">arrow_back</span>
+                        Parts of Speech Overview
+                    </div>
+</a>
+<a class="flex flex-col items-end gap-1 text-on-surface-variant hover:text-primary transition-colors group" href="#">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-outline group-hover:text-primary/70">Next Chapter</span>
+<div class="flex items-center gap-2 font-title-md text-title-md">
+                        Pronouns
+                        <span class="material-symbols-outlined">arrow_forward</span>
+</div>
+</a>
+</footer>
+</div>
+</main>
+</body></html>

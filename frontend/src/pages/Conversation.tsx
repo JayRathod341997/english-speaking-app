@@ -35,6 +35,7 @@ export default function Conversation() {
   const [elapsed, setElapsed]         = useState(0);
   const [showType, setShowType]       = useState(false);
   const [typeValue, setTypeValue]     = useState('');
+  const [showEndModal, setShowEndModal] = useState(false);
 
   const bottomRef  = useRef<HTMLDivElement>(null);
   const timerRef   = useRef<ReturnType<typeof setInterval> | null>(null);
@@ -114,10 +115,16 @@ export default function Conversation() {
     }
   };
 
-  const handleEndSession = async () => {
+  const handleEndSession = () => {
     const s = sessionRef.current;
     if (!s) return;
-    if (!window.confirm('End session and see your report?')) return;
+    setShowEndModal(true);
+  };
+
+  const confirmEndSession = async () => {
+    const s = sessionRef.current;
+    if (!s) return;
+    setShowEndModal(false);
     if (timerRef.current) clearInterval(timerRef.current);
     cancelSpeech();
     try {
@@ -395,6 +402,43 @@ export default function Conversation() {
           </div>
         )}
       </div>
+
+      {/* End session confirmation modal */}
+      {showEndModal && (
+        <div
+          className="fixed inset-0 z-50 flex items-center justify-center"
+          style={{ background: 'rgba(0,0,0,0.45)', backdropFilter: 'blur(4px)' }}
+        >
+          <div
+            className="mx-4 w-full max-w-sm rounded-2xl px-6 py-6 flex flex-col gap-4"
+            style={{ background: 'var(--paper)', border: '1px solid var(--line)', boxShadow: '0 8px 32px rgba(0,0,0,0.18)' }}
+          >
+            <div className="flex flex-col gap-1.5 text-center">
+              <span className="text-2xl">🏁</span>
+              <p className="font-bold text-base" style={{ color: 'var(--ink)' }}>End this session?</p>
+              <p className="text-sm" style={{ color: 'var(--ink-soft)' }}>
+                Your conversation will be saved and you'll get a performance report.
+              </p>
+            </div>
+            <div className="flex gap-3 mt-1">
+              <button
+                onClick={() => setShowEndModal(false)}
+                className="flex-1 py-2.5 rounded-xl text-sm font-semibold"
+                style={{ background: 'var(--paper-2)', color: 'var(--ink)', border: '1px solid var(--line)' }}
+              >
+                Keep going
+              </button>
+              <button
+                onClick={confirmEndSession}
+                className="flex-1 py-2.5 rounded-xl text-sm font-bold text-white"
+                style={{ background: 'var(--rose)' }}
+              >
+                End &amp; see report
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }

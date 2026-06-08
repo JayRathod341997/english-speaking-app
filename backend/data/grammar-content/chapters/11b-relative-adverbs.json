@@ -174,6 +174,126 @@
           ]
         }
       ]
+    },
+    {
+      "block": "rules",
+      "id": "ch-11b-relative-adverbs/exp-4",
+      "title": {
+        "en": "As if / As though — and Yet / Still",
+        "gu": "જાણે / તેમ છતાં — અને તેમ છતાં / હજુ પણ",
+        "guMT": true
+      },
+      "items": [
+        {
+          "text": {
+            "en": "'As if' / 'as though' introduces an unreal or imaginary comparison. After as if/as though, use 'were' (not 'was') for ALL subjects (including I/he/she) in present/future unreal conditions.",
+            "gu": "'જેમ કે' / 'જેમ કે' એ અવાસ્તવિક અથવા કાલ્પનિક સરખામણી રજૂ કરે છે. જાણે/જાણે પછી, વર્તમાન/ભવિષ્યની અવાસ્તવિક પરિસ્થિતિઓમાં બધા વિષયો (હું/તે/તેણી સહિત) માટે 'were' (નહીં 'was') નો ઉપયોગ કરો.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "He speaks as if he were the boss. | She acts as though she were a queen. | He moves as if he were an actor.",
+              "gu": "તે જાણે બોસ હોય તેમ બોલે છે. | તે રાણીની જેમ વર્તે છે. | તે એવી રીતે ફરે છે જાણે તે કોઈ અભિનેતા હોય.",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "'Yet' — introduces a result that is surprising given the preceding clause.",
+            "gu": "'હજુ સુધી' — એક પરિણામ રજૂ કરે છે જે અગાઉની કલમને જોતાં આશ્ચર્યજનક છે.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "Bhairavi walked fast, yet she could not catch the bus. | He studied hard, yet he failed.",
+              "gu": "ભૈરવી ઝડપથી ચાલી, છતાં તે બસ પકડી શકી નહીં. | તેણે સખત અભ્યાસ કર્યો, છતાં તે નિષ્ફળ ગયો.",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "'Still' — shows that an action is continuing more than expected.",
+            "gu": "'સ્ટિલ' — બતાવે છે કે ક્રિયા અપેક્ષા કરતાં વધુ ચાલુ છે.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "It is already noon but she is still sleeping. | He has been working for ten hours and is still not tired.",
+              "gu": "બપોર થઈ ગઈ છે પણ તે હજી સૂઈ રહી છે. | તે દસ કલાકથી કામ કરે છે અને હજુ પણ થાકતો નથી.",
+              "guMT": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "block": "rules",
+      "id": "ch-11b-relative-adverbs/exp-5",
+      "title": {
+        "en": "Correlative conjunctions",
+        "gu": "સહસંબંધી જોડાણો",
+        "guMT": true
+      },
+      "items": [
+        {
+          "text": {
+            "en": "'Either...or' — one of two alternatives. Verb agrees with the subject closer to the verb.",
+            "gu": "'ક્યાં તો...અથવા' — બે વિકલ્પોમાંથી એક. ક્રિયાપદ ક્રિયાપદની નજીકના વિષય સાથે સંમત થાય છે.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "Either he or his friends are responsible. | Either you leave or I will call the police.",
+              "gu": "ક્યાં તો તે અથવા તેના મિત્રો જવાબદાર છે. | કાં તો તમે જાવ અથવા હું પોલીસને બોલાવીશ.",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "'Neither...nor' — none of two alternatives. Same agreement rule: verb agrees with the nearer subject.",
+            "gu": "'ન તો...ન તો' - બેમાંથી કોઈ પણ વિકલ્પ નથી. સમાન કરારનો નિયમ: ક્રિયાપદ નજીકના વિષય સાથે સંમત થાય છે.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "Neither Raju nor I know the answer. | Neither the students nor the teacher was present.",
+              "gu": "રાજુ કે મને જવાબ ખબર નથી. | વિદ્યાર્થીઓ કે શિક્ષકો પણ હાજર ન હતા.",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "'Not only...but also' — both things are true; emphasises the second.",
+            "gu": "'માત્ર નહીં...પણ' - બંને બાબતો સાચી છે; બીજા પર ભાર મૂકે છે.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "She is not only clever but also hardworking. | He not only sang but also danced.",
+              "gu": "તે માત્ર હોશિયાર જ નથી પરંતુ મહેનતુ પણ છે. | તેણે માત્ર ગાયું જ નહીં પરંતુ ડાન્સ પણ કર્યો.",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "'Both...and' — both things apply equally.",
+            "gu": "'બંને...અને' - બંને બાબતો સમાનરૂપે લાગુ પડે છે.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "Both she and her sister got prizes. | He is both honest and kind.",
+              "gu": "તેણી અને તેણીની બહેન બંનેને ઇનામ મળ્યા. | તે પ્રામાણિક અને દયાળુ બંને છે.",
+              "guMT": true
+            }
+          ]
+        }
+      ]
     }
   ],
   "practice": [
@@ -362,6 +482,220 @@
       "answer": {
         "en": "Though he is poor, he is honest.",
         "gu": "તે ગરીબ હોવા છતાં પ્રમાણિક છે.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-11b-relative-adverbs/q-7",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "I spent Rs. 200 and deposited ____ in the bank.",
+        "gu": "મેં રૂ. 200 અને બેંકમાં ____ જમા કરાવ્યા.",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "the rest",
+          "gu": "બાકીના",
+          "guMT": true
+        },
+        {
+          "en": "little",
+          "gu": "થોડું",
+          "guMT": true
+        },
+        {
+          "en": "a few",
+          "gu": "થોડા",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "the rest",
+        "gu": "બાકીના",
+        "guMT": true
+      },
+      "hint": {
+        "en": "'The rest' refers to the remaining portion.",
+        "gu": "'બાકી' બાકીના ભાગનો ઉલ્લેખ કરે છે.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-11b-relative-adverbs/q-8",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "____ Ram nor Shyam came to the party.",
+        "gu": "____ રામ કે શ્યામ પાર્ટીમાં આવ્યા ન હતા.",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "Either",
+          "gu": "ક્યાં તો",
+          "guMT": true
+        },
+        {
+          "en": "Neither",
+          "gu": "ન તો",
+          "guMT": true
+        },
+        {
+          "en": "Both",
+          "gu": "બંને",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "Neither",
+        "gu": "ન તો",
+        "guMT": true
+      },
+      "hint": {
+        "en": "'Neither...nor' means none of the two; the sentence is negative.",
+        "gu": "'Nether...Nor' નો અર્થ બેમાંથી કોઈ નથી; વાક્ય નકારાત્મક છે.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-11b-relative-adverbs/q-9",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "She spoke ____ if she knew everything.",
+        "gu": "તેણીએ ____ વાત કરી જો તેણીને બધું જ ખબર હોય.",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "though",
+          "gu": "જોકે",
+          "guMT": true
+        },
+        {
+          "en": "as",
+          "gu": "તરીકે",
+          "guMT": true
+        },
+        {
+          "en": "yet",
+          "gu": "હજુ સુધી",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "as",
+        "gu": "તરીકે",
+        "guMT": true
+      },
+      "hint": {
+        "en": "'as if' introduces an imaginary comparison.",
+        "gu": "'જેમ કે' કાલ્પનિક સરખામણી રજૂ કરે છે.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-11b-relative-adverbs/q-10",
+      "type": "mcq",
+      "prompt": {
+        "en": "He acts as if he ____ the principal.",
+        "gu": "તે ____ પ્રિન્સિપાલની જેમ વર્તે છે.",
+        "guMT": true
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "is",
+            "gu": "છે",
+            "guMT": true
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "was",
+            "gu": "હતી",
+            "guMT": true
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "were",
+            "gu": "હતા",
+            "guMT": true
+          }
+        }
+      ],
+      "answer": "c",
+      "solution": {
+        "en": "After 'as if' in an unreal condition, use 'were' for all subjects (including he/she/it).",
+        "gu": "અવાસ્તવિક સ્થિતિમાં 'જેમ કે' પછી, બધા વિષયો (તે/તેણી/તે સહિત) માટે 'were' નો ઉપયોગ કરો.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-11b-relative-adverbs/q-11",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "She is ____ only a dancer ____ also a singer.",
+        "gu": "તે ____ માત્ર એક નૃત્યાંગના ____ ગાયિકા પણ છે.",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "both / and",
+          "gu": "બંને / અને",
+          "guMT": true
+        },
+        {
+          "en": "not / but",
+          "gu": "નથી / પરંતુ",
+          "guMT": true
+        },
+        {
+          "en": "either / or",
+          "gu": "ક્યાં તો / અથવા",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "not / but",
+        "gu": "નથી / પરંતુ",
+        "guMT": true
+      },
+      "hint": {
+        "en": "'Not only ... but also' emphasises that both things are true.",
+        "gu": "'માત્ર જ નહીં... પણ' એ વાત પર ભાર મૂકે છે કે બંને બાબતો સાચી છે.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-11b-relative-adverbs/q-12",
+      "type": "transformation",
+      "transform": "concession",
+      "given": "though",
+      "ask": "adjective_as",
+      "forms": {
+        "though": {
+          "en": "Though she is weak, she is brave.",
+          "gu": "તેણી નબળી હોવા છતાં, તે બહાદુર છે.",
+          "guMT": true
+        },
+        "adjective_as": {
+          "en": "Weak as she is, she is brave.",
+          "gu": "તેણી જેટલી નબળી છે, તે બહાદુર છે.",
+          "guMT": true
+        }
+      },
+      "answer": {
+        "en": "Weak as she is, she is brave.",
+        "gu": "તેણી જેટલી નબળી છે, તે બહાદુર છે.",
+        "guMT": true
+      },
+      "solution": {
+        "en": "Move the adjective to the front: [Adjective] as [subject] [to-be], [main clause].",
+        "gu": "વિશેષણને આગળની તરફ ખસેડો: [વિશેષણ] [વિષય] [ટુ-બી], [મુખ્ય કલમ] તરીકે.",
         "guMT": true
       }
     }

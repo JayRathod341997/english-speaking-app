@@ -174,6 +174,98 @@
           "guMT": true
         }
       ]
+    },
+    {
+      "block": "rules",
+      "id": "ch-08-to-be/exp-5",
+      "title": {
+        "en": "Contexts for 'to be'",
+        "gu": "'બનવું' માટે સંદર્ભો",
+        "guMT": true
+      },
+      "items": [
+        {
+          "text": {
+            "en": "Describing identity or occupation.",
+            "gu": "ઓળખ અથવા વ્યવસાયનું વર્ણન કરવું.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "I am a student. | She is a doctor. | They are teachers.",
+              "gu": "હું એક વિદ્યાર્થી છું. | તે ડોક્ટર છે. | તેઓ શિક્ષકો છે.",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "Describing location.",
+            "gu": "સ્થાનનું વર્ણન.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "The book is on the table. | They were at the park yesterday.",
+              "gu": "પુસ્તક ટેબલ પર છે. | તેઓ ગઈકાલે પાર્કમાં હતા.",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "Describing age.",
+            "gu": "ઉંમરનું વર્ણન.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "I am ten years old. | He was twelve last year.",
+              "gu": "હું દસ વર્ષનો છું. | ગયા વર્ષે તે બાર વર્ષનો હતો.",
+              "guMT": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "block": "rules",
+      "id": "ch-08-to-be/exp-6",
+      "title": {
+        "en": "Contractions (short forms)",
+        "gu": "સંકોચન (ટૂંકા સ્વરૂપો)",
+        "guMT": true
+      },
+      "items": [
+        {
+          "text": {
+            "en": "Positive contractions.",
+            "gu": "હકારાત્મક સંકોચન.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "I am = I'm | you are = you're | he is = he's | she is = she's | it is = it's | we are = we're | they are = they're",
+              "gu": "હું છું = હું છું | you are = તમે છો | he is = તે છે | she is = તેણી | તે છે = તે | we are = અમે છીએ | તેઓ છે = તેઓ છે",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "Negative contractions (not forms).",
+            "gu": "નકારાત્મક સંકોચન (સ્વરૂપ નથી).",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "is not = isn't | are not = aren't | was not = wasn't | were not = weren't | will not = won't | shall not = shan't",
+              "gu": "is not = નથી | are not = નથી | was not = ન હતું | were not = ન હતા | will not = કરશે નહીં | shall not = કરવું નહીં",
+              "guMT": true
+            }
+          ]
+        }
+      ]
     }
   ],
   "practice": [
@@ -360,6 +452,187 @@
       "answer": {
         "en": "We shall be clever.",
         "gu": "આપણે હોશિયાર હોઈશું.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-08-to-be/q-7",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "You ____ a doctor. (present)",
+        "gu": "તમે ____ ડૉક્ટર છો. (હાલ)",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "am",
+          "gu": "છું",
+          "guMT": true
+        },
+        {
+          "en": "are",
+          "gu": "છે",
+          "guMT": true
+        },
+        {
+          "en": "is",
+          "gu": "છે",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "are",
+        "gu": "છે",
+        "guMT": true
+      },
+      "hint": {
+        "en": "'You' (singular or plural) always takes 'are' in the present.",
+        "gu": "'તમે' (એકવચન અથવા બહુવચન) વર્તમાનમાં હંમેશા 'are' લે છે.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-08-to-be/q-8",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "The students ____ busy last week.",
+        "gu": "વિદ્યાર્થીઓ ____ ગયા અઠવાડિયે વ્યસ્ત હતા.",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "are",
+          "gu": "છે",
+          "guMT": true
+        },
+        {
+          "en": "was",
+          "gu": "હતી",
+          "guMT": true
+        },
+        {
+          "en": "were",
+          "gu": "હતા",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "were",
+        "gu": "હતા",
+        "guMT": true
+      },
+      "hint": {
+        "en": "Plural subject in the past uses 'were'.",
+        "gu": "ભૂતકાળમાં બહુવચન વિષય 'were' નો ઉપયોગ કરે છે.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-08-to-be/q-9",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "We ____ at the park tomorrow.",
+        "gu": "અમે આવતીકાલે પાર્કમાં ____ છીએ.",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "are",
+          "gu": "છે",
+          "guMT": true
+        },
+        {
+          "en": "shall be",
+          "gu": "હશે",
+          "guMT": true
+        },
+        {
+          "en": "will be",
+          "gu": "હશે",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "shall be",
+        "gu": "હશે",
+        "guMT": true
+      },
+      "hint": {
+        "en": "Future with 'We' uses 'shall be'.",
+        "gu": "'We' સાથેનું ભવિષ્ય 'shall be' નો ઉપયોગ કરે છે.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-08-to-be/q-10",
+      "type": "transformation",
+      "transform": "to_be_question",
+      "given": "affirmative",
+      "ask": "question",
+      "forms": {
+        "affirmative": {
+          "en": "You are a student.",
+          "gu": "તમે વિદ્યાર્થી છો.",
+          "guMT": true
+        },
+        "question": {
+          "en": "Are you a student?",
+          "gu": "શું તમે વિદ્યાર્થી છો?",
+          "guMT": true
+        }
+      },
+      "answer": {
+        "en": "Are you a student?",
+        "gu": "શું તમે વિદ્યાર્થી છો?",
+        "guMT": true
+      },
+      "solution": {
+        "en": "Move 'are' before the subject 'you'.",
+        "gu": "વિષય 'તમે' પહેલાં 'are' ખસેડો.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-08-to-be/q-11",
+      "type": "transformation",
+      "transform": "to_be_negative",
+      "given": "affirmative",
+      "ask": "negative",
+      "forms": {
+        "affirmative": {
+          "en": "They were late.",
+          "gu": "તેઓ મોડા પડ્યા હતા.",
+          "guMT": true
+        },
+        "negative": {
+          "en": "They were not late.",
+          "gu": "તેઓ મોડું નહોતા થયા.",
+          "guMT": true
+        }
+      },
+      "answer": {
+        "en": "They were not late.",
+        "gu": "તેઓ મોડું નહોતા થયા.",
+        "guMT": true
+      },
+      "solution": {
+        "en": "Add 'not' after 'were'.",
+        "gu": "'were' પછી 'not' ઉમેરો.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-08-to-be/q-12",
+      "type": "translation",
+      "direction": "en_to_gu",
+      "prompt": {
+        "en": "He will not be a minister.",
+        "gu": "તે મંત્રી રહેશે નહીં.",
+        "guMT": true
+      },
+      "answer": {
+        "en": "He will not be a minister.",
+        "gu": "તે મંત્રી રહેશે નહીં.",
         "guMT": true
       }
     }

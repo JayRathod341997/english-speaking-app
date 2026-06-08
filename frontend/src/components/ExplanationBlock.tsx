@@ -18,7 +18,7 @@ function ExampleRow({ ex }: { ex: GrammarT }) {
       />
       {ex.en && (
         <div className="flex-shrink-0">
-          <PronounceButton target={ex.en} size="sm" hideResult />
+          <PronounceButton target={ex.en} size="sm" hideResult hideMic />
         </div>
       )}
     </div>
