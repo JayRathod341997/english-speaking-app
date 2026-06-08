@@ -5,6 +5,7 @@ import PronounceButton from '../components/PronounceButton';
 import ScrollToTop from '../components/ScrollToTop';
 import { FlipIcon } from '../components/Icon';
 import { usePersistentState } from '../hooks/usePersistentState';
+import { useAutoHide } from '../hooks/useAutoHide';
 import { flashcardsApi } from '../services/api';
 import type { Flashcard, FlashcardDeck } from '../types';
 
@@ -88,6 +89,7 @@ export default function Flashcards() {
   const [active, setActive] = usePersistentState('flashcards.active', 0);
   const [loading, setLoading] = useState(true);
   const scrollRef = useRef<HTMLDivElement>(null);
+  const { visible: uiVisible } = useAutoHide(scrollRef);
 
   useEffect(() => {
     flashcardsApi.decks().then(setDecks).finally(() => setLoading(false));
@@ -99,7 +101,7 @@ export default function Flashcards() {
 
   return (
     <div className="relative flex flex-col h-[100dvh] overflow-x-hidden w-full" style={{ background: 'var(--paper)' }}>
-      <PageHeader title="Flashcards" subtitle="શબ્દ કાર્ડ" back="/" />
+      <PageHeader title="Flashcards" subtitle="શબ્દ કાર્ડ" back="/" visible={uiVisible} />
 
       {loading ? (
         <div className="flex-1 flex items-center justify-center text-sm" style={{ color: 'var(--ink-soft)' }}>
@@ -136,7 +138,7 @@ export default function Flashcards() {
       )}
 
       {!loading && <ScrollToTop targetRef={scrollRef} />}
-      <BottomNav active="vocabulary" />
+      <BottomNav active="vocabulary" visible={uiVisible} />
     </div>
   );
 }

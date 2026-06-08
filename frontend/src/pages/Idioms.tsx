@@ -3,10 +3,13 @@ import BottomNav from '../components/BottomNav';
 import IdiomCard from '../components/IdiomCard';
 import PageHeader from '../components/PageHeader';
 import ScrollToTop from '../components/ScrollToTop';
+import { useAutoHide } from '../hooks/useAutoHide';
 import { useLocalProgress } from '../hooks/useLocalProgress';
 import { usePersistentState } from '../hooks/usePersistentState';
 import { idiomsApi } from '../services/api';
 import type { IdiomsLibrary } from '../types';
+import { useIsDesktop } from '../hooks/useIsDesktop';
+import IdiomsDesktop from './IdiomsDesktop';
 
 const PAGE = 12;
 const DIFFICULTIES = ['All', 'Beginner', 'Intermediate', 'Advanced'];
@@ -23,6 +26,7 @@ export default function Idioms() {
   const [isCategoriesExpanded, setIsCategoriesExpanded] = usePersistentState('idioms.catExpanded', false);
   const { progress, toggleIdiomBookmark, toggleIdiomLearned } = useLocalProgress();
   const scrollRef = useRef<HTMLDivElement>(null);
+  const { visible: uiVisible } = useAutoHide(scrollRef);
 
   useEffect(() => {
     idiomsApi.list().then(setLib).finally(() => setLoading(false));
@@ -69,9 +73,41 @@ export default function Idioms() {
   const visible = filtered.slice(0, limit);
   const bookmarks = new Set(progress.idiomBookmarks);
 
+  const isDesktop = useIsDesktop();
+
+  if (isDesktop) {
+    return (
+      <IdiomsDesktop
+        loading={loading}
+        cat={cat}
+        diff={diff}
+        filter={filter}
+        isCategoriesExpanded={isCategoriesExpanded}
+        learnedSet={learnedSet}
+        learnedCount={learnedCount}
+        unreadCount={unreadCount}
+        pct={pct}
+        displayedCategories={displayedCategories}
+        hiddenCount={hiddenCount}
+        visible={visible}
+        bookmarks={bookmarks}
+        limit={limit}
+        totalIdioms={totalIdioms}
+        setCatFiltered={setCatFiltered}
+        setDiffFiltered={setDiffFiltered}
+        setFilterFiltered={setFilterFiltered}
+        setIsCategoriesExpanded={setIsCategoriesExpanded}
+        toggleIdiomBookmark={toggleIdiomBookmark}
+        toggleIdiomLearned={toggleIdiomLearned}
+        setLimit={setLimit}
+        filteredCount={filtered.length}
+      />
+    );
+  }
+
   return (
     <div className="relative flex flex-col h-[100dvh] overflow-x-hidden w-full" style={{ background: 'var(--paper)' }}>
-      <PageHeader title="Idioms Library" subtitle="રૂઢિપ્રયોગો" back="/" />
+      <PageHeader title="Idioms Library" subtitle="રૂઢિપ્રયોગો" back="/" visible={uiVisible} />
 
       {loading ? (
         <div className="flex-1 flex items-center justify-center text-sm" style={{ color: 'var(--ink-soft)' }}>
@@ -287,7 +323,7 @@ export default function Idioms() {
       )}
 
       {!loading && <ScrollToTop targetRef={scrollRef} />}
-      <BottomNav active="idioms" />
+      <BottomNav active="idioms" visible={uiVisible} />
     </div>
   );
 }

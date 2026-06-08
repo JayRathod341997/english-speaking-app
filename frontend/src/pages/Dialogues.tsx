@@ -4,6 +4,7 @@ import BottomNav from '../components/BottomNav';
 import PageHeader from '../components/PageHeader';
 import ScrollToTop from '../components/ScrollToTop';
 import { SearchIcon } from '../components/Icon';
+import { useAutoHide } from '../hooks/useAutoHide';
 import { conversationsApi } from '../services/api';
 import type { ConversationSummary } from '../types';
 
@@ -13,6 +14,7 @@ export default function Dialogues() {
   const [search, setSearch] = useState('');
   const navigate = useNavigate();
   const scrollRef = useRef<HTMLDivElement>(null);
+  const { visible: uiVisible } = useAutoHide(scrollRef);
 
   useEffect(() => {
     conversationsApi.list().then(setConversations).finally(() => setLoading(false));
@@ -25,7 +27,7 @@ export default function Dialogues() {
 
   return (
     <div className="relative flex flex-col h-[100dvh] overflow-x-hidden w-full" style={{ background: 'var(--paper)' }}>
-      <PageHeader title="Dialogues" subtitle="વાર્તાલાપ વાંચો" back="/" />
+      <PageHeader title="Dialogues" subtitle="વાર્તાલાપ વાંચો" back="/" visible={uiVisible} />
 
       {loading ? (
         <div className="flex-1 flex items-center justify-center text-sm" style={{ color: 'var(--ink-soft)' }}>
@@ -80,7 +82,7 @@ export default function Dialogues() {
       )}
 
       {!loading && <ScrollToTop targetRef={scrollRef} />}
-      <BottomNav active="conversations" />
+      <BottomNav active="conversations" visible={uiVisible} />
     </div>
   );
 }

@@ -4,10 +4,13 @@ import BottomNav from '../components/BottomNav';
 import Flashcard from '../components/Flashcard';
 import PageHeader from '../components/PageHeader';
 import ScrollToTop from '../components/ScrollToTop';
+import { useAutoHide } from '../hooks/useAutoHide';
 import { useLocalProgress } from '../hooks/useLocalProgress';
 import { usePersistentState } from '../hooks/usePersistentState';
 import { vocabularyApi } from '../services/api';
 import type { VocabIndex, VocabWord } from '../types';
+import { useIsDesktop } from '../hooks/useIsDesktop';
+import VocabularyDesktop from './VocabularyDesktop';
 
 const ICONS = ['🗣️', '🏙️', '🧺', '🍽️'];
 
@@ -19,6 +22,7 @@ export default function Vocabulary() {
   const { progress, setWord } = useLocalProgress();
   const navigate = useNavigate();
   const scrollRef = useRef<HTMLDivElement>(null);
+  const { visible: uiVisible } = useAutoHide(scrollRef);
 
   useEffect(() => {
     let active = true;
@@ -79,9 +83,28 @@ export default function Vocabulary() {
       ([key, v]) => key.startsWith(`${categoryId}-`) && v.learned
     ).length;
 
+  const isDesktop = useIsDesktop();
+
+  if (isDesktop) {
+    return (
+      <VocabularyDesktop
+        index={index}
+        loading={loading}
+        tab={tab}
+        setTab={setTab}
+        progress={progress}
+        setWord={setWord}
+        catNameToId={catNameToId}
+        savedWords={savedWords}
+        unreadWords={unreadWords}
+        learnedIn={learnedIn}
+      />
+    );
+  }
+
   return (
     <div className="relative flex flex-col h-[100dvh] overflow-x-hidden w-full" style={{ background: 'var(--paper)' }}>
-      <PageHeader title="Vocabulary" subtitle="શબ્દભંડોળ" back="/" />
+      <PageHeader title="Vocabulary" subtitle="શબ્દભંડોળ" back="/" visible={uiVisible} />
 
       {loading ? (
         <div className="flex-1 flex items-center justify-center text-sm" style={{ color: 'var(--ink-soft)' }}>
@@ -248,7 +271,7 @@ export default function Vocabulary() {
       )}
 
       {!loading && <ScrollToTop targetRef={scrollRef} />}
-      <BottomNav active="vocabulary" />
+      <BottomNav active="vocabulary" visible={uiVisible} />
     </div>
   );
 }

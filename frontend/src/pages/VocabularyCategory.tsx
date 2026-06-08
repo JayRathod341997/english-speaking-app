@@ -6,6 +6,7 @@ import Flashcard from '../components/Flashcard';
 import PageHeader from '../components/PageHeader';
 import PronounceButton from '../components/PronounceButton';
 import ScrollToTop from '../components/ScrollToTop';
+import { useAutoHide } from '../hooks/useAutoHide';
 import { useLocalProgress } from '../hooks/useLocalProgress';
 import { usePersistentState } from '../hooks/usePersistentState';
 import { vocabularyApi } from '../services/api';
@@ -32,6 +33,7 @@ export default function VocabularyCategory() {
     }));
   };
   const scrollRef = useRef<HTMLDivElement>(null);
+  const { visible: uiVisible } = useAutoHide(scrollRef);
 
   useEffect(() => {
     let active = true;
@@ -61,7 +63,7 @@ export default function VocabularyCategory() {
 
   return (
     <div className="relative flex flex-col h-[100dvh] overflow-x-hidden w-full" style={{ background: 'var(--paper)' }}>
-      <PageHeader title={cat?.category ?? 'Vocabulary'} subtitle={cat?.level} back="/vocabulary" />
+      <PageHeader title={cat?.category ?? 'Vocabulary'} subtitle={cat?.level} back="/vocabulary" visible={uiVisible} />
 
       {loading || !cat ? (
         <div className="flex-1 flex items-center justify-center text-sm" style={{ color: 'var(--ink-soft)' }}>
@@ -209,7 +211,7 @@ export default function VocabularyCategory() {
       )}
 
       {!loading && cat && <ScrollToTop targetRef={scrollRef} />}
-      <BottomNav active="vocabulary" />
+      <BottomNav active="vocabulary" visible={uiVisible} />
     </div>
   );
 }
