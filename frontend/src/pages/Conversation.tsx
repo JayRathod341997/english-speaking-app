@@ -230,7 +230,7 @@ export default function Conversation() {
             Start Conversation →
           </button>
           <button
-            onClick={() => navigate('/')}
+            onClick={() => navigate('/conversations')}
             className="w-full mt-3 text-sm py-2"
             style={{ color: 'var(--ink-soft)' }}
           >
@@ -250,7 +250,7 @@ export default function Conversation() {
         style={{ background: 'var(--card)', borderBottom: '1px solid var(--line)' }}
       >
         <button
-          onClick={() => { cancelSpeech(); navigate('/'); }}
+          onClick={() => { cancelSpeech(); navigate('/conversations'); }}
           className="text-2xl leading-none p-1"
           style={{ background: 'none', border: 'none', color: 'var(--ink)', cursor: 'pointer' }}
         >
