@@ -1,4 +1,78 @@
-# React + TypeScript + Vite
+# Bolo English — frontend
+
+React + TypeScript + Vite web app, wrapped as a native Android app (APK) with
+[Capacitor](https://capacitorjs.com/). All learning content (conversations, idioms,
+vocabulary, flashcards, grammar) is bundled into the build — the app runs offline and
+makes no backend API calls for content.
+
+## Building the Android APK
+
+The APK is the compiled web app (`dist/`) copied into the native Android project and
+packaged by Gradle. App id `com.boloEnglish.app`, name **Bolo English**.
+
+### Prerequisites
+
+- Node.js 20+ and npm
+- JDK 17
+- Android SDK (install via [Android Studio](https://developer.android.com/studio); set
+  `ANDROID_HOME` / `JAVA_HOME`). Android Studio is optional but recommended.
+
+### Steps
+
+Run from the `frontend/` directory:
+
+```bash
+# 1. Install dependencies (first time only)
+npm install
+
+# 2. (Optional) refresh the bundled content from backend/data
+npm run sync-data
+
+# 3. Build the web assets into dist/
+npm run build
+
+# 4. Copy the build into the native Android project
+npx cap sync android
+
+# 5. Package the APK with Gradle
+cd android
+./gradlew assembleDebug          # macOS/Linux
+# .\gradlew.bat assembleDebug    # Windows PowerShell
+```
+
+The debug APK is written to:
+
+```
+frontend/android/app/build/outputs/apk/debug/app-debug.apk
+```
+
+Install it on a connected device/emulator with:
+
+```bash
+adb install -r app/build/outputs/apk/debug/app-debug.apk
+```
+
+### Release build
+
+`./gradlew assembleRelease` produces `app/build/outputs/apk/release/app-release-unsigned.apk`.
+The `release` build type has **no signing config**, so this APK is unsigned and cannot
+be installed or uploaded to Play until you sign it (configure a keystore + `signingConfig`
+in `android/app/build.gradle`, or sign with `apksigner`). Bump `versionCode` / `versionName`
+in `android/app/build.gradle` for each release.
+
+### Using Android Studio instead
+
+```bash
+npx cap open android
+```
+
+Then **Build → Build Bundle(s) / APK(s) → Build APK(s)**. Re-run steps 3–4 (`npm run build`
+&& `npx cap sync android`) whenever you change the web app, so the native project picks up
+the latest `dist/`.
+
+---
+
+## React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
