@@ -1,6 +1,8 @@
 import { useNavigate } from 'react-router-dom';
 import DesktopLayout from '../components/DesktopLayout';
-import { useSpeechSynthesis } from '../hooks/useSpeechSynthesis';
+import Flashcard from '../components/Flashcard';
+import IdiomCard from '../components/IdiomCard';
+import type { LocalProgress } from '../hooks/useLocalProgress';
 import type { DailyChallenge, GrammarChapterSummary, Idiom, Scenario, VocabWord } from '../types';
 
 interface HomeDesktopProps {
@@ -10,10 +12,11 @@ interface HomeDesktopProps {
   todaysWords: VocabWord[];
   todaysGrammar: GrammarChapterSummary[];
   loading: boolean;
-  progress: any;
+  progress: LocalProgress;
   toggleIdiomLearned: (id: number) => void;
+  toggleIdiomBookmark: (id: number) => void;
   toggleGrammarComplete: (slug: string) => void;
-  setWord: (key: string, data: { learned: boolean }) => void;
+  setWord: (key: string, data: Partial<{ learned: boolean; spoken: boolean; bookmarked: boolean }>) => void;
   wordKey: (w: VocabWord) => string;
   challengeScenario: Scenario | null;
 }
@@ -27,13 +30,14 @@ export default function HomeDesktop({
   loading,
   progress,
   toggleIdiomLearned,
+  toggleIdiomBookmark,
   toggleGrammarComplete,
   setWord,
   wordKey,
   challengeScenario,
 }: HomeDesktopProps) {
   const navigate = useNavigate();
-  const { speak, isSpeaking } = useSpeechSynthesis();
+  const idiomBookmarkSet = new Set<number>(progress.idiomBookmarks ?? []);
 
   if (loading) {
     return (
@@ -111,72 +115,17 @@ export default function HomeDesktop({
                   <p className="font-body-md text-on-surface-variant">All idioms for today completed!</p>
                 </div>
               ) : (
-                <div className="flex flex-col gap-stack-sm">
-                  {todaysIdioms.map((idiom, idx) => {
-                    const isLearned = (progress.learnedIdioms ?? []).includes(idiom.id);
-                    return (
-                      <details 
-                        key={idiom.id} 
-                        className="bg-surface-container-lowest rounded-lg border border-primary/10 shadow-sm group hover:border-primary/30 transition-colors"
-                        open={idx === 0}
-                      >
-                        <summary className="flex items-center justify-between p-stack-sm cursor-pointer font-title-md text-title-md text-on-surface hover:bg-primary/5 transition-colors rounded-t-lg group-open:rounded-b-none group-open:bg-primary/5 outline-none select-none">
-                          <div className="flex items-center gap-stack-sm">
-                            <button
-                              onClick={(e) => {
-                                e.stopPropagation();
-                                e.preventDefault();
-                                toggleIdiomLearned(idiom.id);
-                              }}
-                              className={`w-8 h-8 rounded-full flex items-center justify-center border transition-all cursor-pointer ${
-                                isLearned 
-                                  ? 'bg-primary border-primary text-white' 
-                                  : 'bg-primary-fixed/20 border-primary/10 text-primary hover:bg-primary/10'
-                              }`}
-                            >
-                              {isLearned ? (
-                                <span className="material-symbols-outlined text-sm font-bold">check</span>
-                              ) : (
-                                <span className="font-label-sm text-label-sm">{idx + 1}</span>
-                              )}
-                            </button>
-                            <span className={isLearned ? 'line-through text-on-surface-variant' : ''}>
-                              {idiom.idiom}
-                            </span>
-                          </div>
-                          <span className="material-symbols-outlined text-on-surface-variant transition-transform duration-300 group-open:rotate-180">
-                            expand_more
-                          </span>
-                        </summary>
-                        <div className="p-stack-sm pt-0 border-t border-outline-variant/10 bg-surface-container-lowest rounded-b-lg">
-                          <p className="font-body-md text-body-md text-on-surface-variant mt-3 mb-2 leading-relaxed">
-                            {idiom.english_meaning}
-                          </p>
-                          {idiom.gujarati_meaning && (
-                            <p className="font-body-md text-body-md text-primary italic mb-4">
-                              {idiom.gujarati_meaning}
-                            </p>
-                          )}
-                          {idiom.examples?.[0] && (
-                            <div className="p-4 bg-surface-container-low rounded-md border-l-4 border-primary">
-                              <p className="font-body-md text-body-md text-on-surface italic">
-                                "{idiom.examples[0]}"
-                              </p>
-                            </div>
-                          )}
-                          <div className="mt-4 flex justify-end gap-2">
-                            <button 
-                              onClick={() => speak(idiom.idiom)}
-                              disabled={isSpeaking}
-                              className="text-secondary font-label-sm text-label-sm uppercase hover:text-secondary-container transition-colors flex items-center gap-1 cursor-pointer disabled:opacity-50 font-bold"
-                            >
-                              <span className="material-symbols-outlined text-sm">volume_up</span> Pronounce
-                            </button>
-                          </div>
-                        </div>
-                      </details>
-                    );
-                  })}
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-stack-sm">
+                  {todaysIdioms.map((idiom) => (
+                    <IdiomCard
+                      key={idiom.id}
+                      idiom={idiom}
+                      bookmarked={idiomBookmarkSet.has(idiom.id)}
+                      learned={(progress.learnedIdioms ?? []).includes(idiom.id)}
+                      onToggleBookmark={() => toggleIdiomBookmark(idiom.id)}
+                      onToggleLearned={() => toggleIdiomLearned(idiom.id)}
+                    />
+                  ))}
                 </div>
               )}
             </section>
@@ -201,58 +150,18 @@ export default function HomeDesktop({
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-stack-sm">
                   {todaysWords.map((word) => {
                     const key = wordKey(word);
-                    const isLearned = !!progress.vocab[key]?.learned;
+                    const wp = progress.vocab[key] ?? {};
                     return (
-                      <article 
-                        key={key} 
-                        className={`bg-surface-container-lowest border rounded-xl p-stack-md flex flex-col gap-base transition-all duration-300 hover:border-primary/30 hover:-translate-y-0.5 ${
-                          isLearned ? 'border-primary/40 bg-surface-container-low/40' : 'border-primary/10'
-                        }`}
-                      >
-                        <div className="flex items-start justify-between">
-                          <div>
-                            <span className="font-label-sm text-label-sm text-secondary uppercase tracking-wider block mb-1">
-                              {word.category} · {word.part_of_speech}
-                            </span>
-                            <h3 className={`font-title-md text-title-md text-on-background font-serif ${isLearned ? 'line-through opacity-75' : ''}`}>
-                              {word.word}
-                            </h3>
-                          </div>
-                          <button
-                            onClick={() => setWord(key, { learned: !isLearned })}
-                            className={`w-7 h-7 rounded-full flex items-center justify-center border transition-all cursor-pointer ${
-                              isLearned 
-                                ? 'bg-primary border-primary text-white' 
-                                : 'bg-surface border-outline-variant/50 text-outline hover:text-primary hover:border-primary'
-                            }`}
-                          >
-                            <span className="material-symbols-outlined text-[14px]">check</span>
-                          </button>
-                        </div>
-                        <p className="font-body-md text-body-md text-on-surface-variant">
-                          {word.english_meaning}
-                        </p>
-                        {word.gujarati_meaning && (
-                          <p className="font-body-md text-body-md text-on-surface-variant italic border-l-2 border-outline-variant/30 pl-3">
-                            {word.gujarati_meaning}
-                          </p>
-                        )}
-                        {word.examples?.[0] && (
-                          <div className="mt-2 bg-surface-variant/30 rounded-lg p-3">
-                            <span className="font-label-sm text-label-sm text-outline uppercase tracking-wider block mb-1">Example:</span>
-                            <p className="font-body-md text-body-md text-on-background italic">"{word.examples[0]}"</p>
-                          </div>
-                        )}
-                        <div className="mt-auto pt-3 border-t border-outline-variant/10 flex justify-end">
-                          <button 
-                            onClick={() => speak(word.word)}
-                            disabled={isSpeaking}
-                            className="text-primary font-label-sm text-label-sm uppercase hover:underline transition-colors flex items-center gap-1 cursor-pointer disabled:opacity-50"
-                          >
-                            <span className="material-symbols-outlined text-sm">volume_up</span> Pronounce
-                          </button>
-                        </div>
-                      </article>
+                      <Flashcard
+                        key={key}
+                        word={word}
+                        learned={wp.learned}
+                        spoken={wp.spoken}
+                        bookmarked={wp.bookmarked}
+                        onToggleLearned={() => setWord(key, { learned: !wp.learned })}
+                        onSpoken={() => setWord(key, { spoken: true })}
+                        onToggleBookmark={() => setWord(key, { bookmarked: !wp.bookmarked })}
+                      />
                     );
                   })}
                 </div>

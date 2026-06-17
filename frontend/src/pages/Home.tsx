@@ -2,7 +2,8 @@ import { useEffect, useMemo, useRef, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import BottomNav from '../components/BottomNav';
 import ChapterCard from '../components/ChapterCard';
-import DailyItemCard from '../components/DailyItemCard';
+import Flashcard from '../components/Flashcard';
+import IdiomCard from '../components/IdiomCard';
 import ScrollToTop from '../components/ScrollToTop';
 import { ProgressIcon } from '../components/Icon';
 import { useAutoHide } from '../hooks/useAutoHide';
@@ -42,7 +43,7 @@ export default function Home() {
   const navigate = useNavigate();
   const scrollRef = useRef<HTMLDivElement>(null);
   const { visible: uiVisible } = useAutoHide(scrollRef);
-  const { progress, toggleIdiomLearned, setWord, toggleGrammarComplete } = useLocalProgress();
+  const { progress, toggleIdiomLearned, toggleIdiomBookmark, setWord, toggleGrammarComplete } = useLocalProgress();
 
   useEffect(() => {
     let active = true;
@@ -80,6 +81,7 @@ export default function Home() {
 
   const seed = useMemo(() => hashSeed(todayKey()), []);
   const learnedIdiomSet = useMemo(() => new Set(progress.learnedIdioms ?? []), [progress.learnedIdioms]);
+  const idiomBookmarkSet = useMemo(() => new Set(progress.idiomBookmarks ?? []), [progress.idiomBookmarks]);
   const grammarCompletedSet = useMemo(() => new Set(progress.grammarCompleted ?? []), [progress.grammarCompleted]);
 
   const wordKey = (w: VocabWord) => `${catNameToId[w.category]}-${w.id}`;
@@ -150,6 +152,7 @@ export default function Home() {
         loading={loading}
         progress={progress}
         toggleIdiomLearned={toggleIdiomLearned}
+        toggleIdiomBookmark={toggleIdiomBookmark}
         toggleGrammarComplete={toggleGrammarComplete}
         setWord={setWord}
         wordKey={wordKey}
@@ -266,20 +269,18 @@ export default function Home() {
                   {idiomsDone === todaysIdioms.length && (
                     <TargetComplete label="idioms" onSeeAll={() => navigate('/idioms')} />
                   )}
-                  {todaysIdioms.map(i => (
-                    <DailyItemCard
-                      key={i.id}
-                      emoji="💬"
-                      accent="teal"
-                      title={i.idiom}
-                      subtitle={`${i.category} · ${i.difficulty}`}
-                      meaningEn={i.english_meaning}
-                      meaningGu={i.gujarati_meaning}
-                      example={i.examples?.[0]}
-                      read={learnedIdiomSet.has(i.id)}
-                      onToggleRead={() => toggleIdiomLearned(i.id)}
-                    />
-                  ))}
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                    {todaysIdioms.map(i => (
+                      <IdiomCard
+                        key={i.id}
+                        idiom={i}
+                        bookmarked={idiomBookmarkSet.has(i.id)}
+                        learned={learnedIdiomSet.has(i.id)}
+                        onToggleBookmark={() => toggleIdiomBookmark(i.id)}
+                        onToggleLearned={() => toggleIdiomLearned(i.id)}
+                      />
+                    ))}
+                  </div>
                 </div>
               )}
             </Section>
@@ -298,23 +299,24 @@ export default function Home() {
                   {wordsDone === todaysWords.length && (
                     <TargetComplete label="words" onSeeAll={() => navigate('/vocabulary')} />
                   )}
-                  {todaysWords.map(w => {
-                    const key = wordKey(w);
-                    return (
-                      <DailyItemCard
-                        key={key}
-                        emoji="📖"
-                        accent="amber"
-                        title={w.word}
-                        subtitle={`${w.category} · ${w.part_of_speech}`}
-                        meaningEn={w.english_meaning}
-                        meaningGu={w.gujarati_meaning}
-                        example={w.examples?.[0]}
-                        read={!!progress.vocab[key]?.learned}
-                        onToggleRead={() => setWord(key, { learned: !progress.vocab[key]?.learned })}
-                      />
-                    );
-                  })}
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                    {todaysWords.map(w => {
+                      const key = wordKey(w);
+                      const wp = progress.vocab[key] ?? {};
+                      return (
+                        <Flashcard
+                          key={key}
+                          word={w}
+                          learned={wp.learned}
+                          spoken={wp.spoken}
+                          bookmarked={wp.bookmarked}
+                          onToggleLearned={() => setWord(key, { learned: !wp.learned })}
+                          onSpoken={() => setWord(key, { spoken: true })}
+                          onToggleBookmark={() => setWord(key, { bookmarked: !wp.bookmarked })}
+                        />
+                      );
+                    })}
+                  </div>
                 </div>
               )}
             </Section>
