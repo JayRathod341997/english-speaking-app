@@ -18,9 +18,6 @@ import type {
   VocabIndex,
 } from '../types';
 
-<<<<<<< HEAD
-const api = axios.create({ baseURL: import.meta.env.VITE_API_URL ?? '/api' });
-=======
 import { SCENARIOS } from '../data/scenarios';
 import idiomsRaw from '../data/idioms.json';
 import vocabRaw from '../data/vocabulary_index.json';
@@ -39,7 +36,6 @@ import {
 } from './sessionStore';
 
 // ── Scenarios ─────────────────────────────────────────────────────────────────
->>>>>>> release1.0
 
 export const scenariosApi = {
   list: (): Promise<Scenario[]> =>

@@ -18,10 +18,7 @@ from app.services.gemini import build_system_prompt, get_ai_response, get_openin
 
 router = APIRouter(prefix="/api/sessions", tags=["sessions"])
 
-<<<<<<< HEAD
-=======
 # Auto-incrementing message id (in-memory only)
->>>>>>> release1.0
 _msg_counter = 0
 
 
@@ -89,10 +86,7 @@ async def send_message(session_id: str, body: SendMessageRequest):
 
     scenario = store.get_scenario(session["scenario_id"])
     system_prompt = build_system_prompt(scenario["ai_role"], scenario["user_role"], session["difficulty"])
-<<<<<<< HEAD
-=======
 
->>>>>>> release1.0
     history = [{"role": m["role"], "content": m["content"]} for m in session["messages"]]
 
     ai_reply, feedback = await get_ai_response(
@@ -103,37 +97,6 @@ async def send_message(session_id: str, body: SendMessageRequest):
     )
 
     now = datetime.now(timezone.utc).isoformat()
-<<<<<<< HEAD
-    user_msg = {
-        "id": _next_msg_id(),
-        "role": "user",
-        "content": body.content,
-        "timestamp": now,
-        "grammar_issues": None,
-        "corrected_version": None,
-        "better_phrasing": None,
-        "gujarati_note": None,
-        "score": None,
-    }
-
-    ai_msg_id = _next_msg_id()
-    ai_msg = {
-        "id": ai_msg_id,
-        "role": "ai",
-        "content": ai_reply,
-        "timestamp": now,
-        "grammar_issues": feedback.issues,
-        "corrected_version": feedback.corrected,
-        "better_phrasing": feedback.better_phrasing,
-        "gujarati_note": feedback.gujarati_note,
-        "score": feedback.score,
-    }
-
-    session["messages"].append(user_msg)
-    session["messages"].append(ai_msg)
-    session["total_messages"] += 2
-
-=======
 
     user_msg = {
         "id": _next_msg_id(),
@@ -164,7 +127,6 @@ async def send_message(session_id: str, body: SendMessageRequest):
     session["messages"].append(ai_msg)
     session["total_messages"] += 2
 
->>>>>>> release1.0
     return SendMessageResponse(ai_reply=ai_reply, feedback=feedback, message_id=ai_msg_id)
 
 
@@ -222,20 +184,13 @@ async def end_session(session_id: str):
         raw = [m["score"] for m in scored]
         grammar_scores    = [min(s + 5 if s > 60 else s - 5, 100) for s in raw]
         vocab_scores      = [min(s + 3 if s > 50 else s, 100) for s in raw]
-<<<<<<< HEAD
-=======
         fluency_scores    = raw
->>>>>>> release1.0
         confidence_scores = [min(s + 10 if len(session["messages"]) > 4 else s, 100) for s in raw]
         scores = {
             "overall":    round(avg(raw), 1),
             "grammar":    round(avg(grammar_scores), 1),
             "vocabulary": round(avg(vocab_scores), 1),
-<<<<<<< HEAD
-            "fluency":    round(avg(raw), 1),
-=======
             "fluency":    round(avg(fluency_scores), 1),
->>>>>>> release1.0
             "confidence": round(avg(confidence_scores), 1),
         }
 
@@ -249,10 +204,7 @@ async def end_session(session_id: str):
 
     duration = (now - session["started_at"]).seconds // 60
 
-<<<<<<< HEAD
-=======
     # Update in-memory user stats
->>>>>>> release1.0
     st = store.stats
     st["total_sessions"] += 1
     st["total_minutes"]  += duration
