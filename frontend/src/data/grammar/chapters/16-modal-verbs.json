@@ -1,0 +1,343 @@
+{
+  "id": "ch-16-modal-verbs",
+  "slug": "modal-verbs",
+  "order": 17,
+  "title": {
+    "en": "Modal Auxiliary Verbs",
+    "gu": "મોડલ સહાયક ક્રિયાપદો",
+    "guMT": true
+  },
+  "summary": {
+    "en": "The modal verbs — can, may, could, might, would, should, must, ought to, used to — and how they express ability, permission, possibility, obligation and habit.",
+    "gu": "મોડલ ક્રિયાપદો — can, may, could, might, will, should, must, ought to, to use — અને તેઓ કેવી રીતે ક્ષમતા, પરવાનગી, શક્યતા, જવાબદારી અને આદત વ્યક્ત કરે છે.",
+    "guMT": true
+  },
+  "sources": [
+    "motion"
+  ],
+  "explanations": [
+    {
+      "block": "prose",
+      "id": "ch-16-modal-verbs/exp-1",
+      "text": {
+        "en": "Modal auxiliary verbs come before the main verb (in base form) to add meaning like ability, permission, possibility or obligation. They never change form for person or number — no -s for he/she/it.",
+        "gu": "મોડલ સહાયક ક્રિયાપદો ક્ષમતા, પરવાનગી, શક્યતા અથવા જવાબદારી જેવા અર્થ ઉમેરવા માટે મુખ્ય ક્રિયાપદ (આધાર સ્વરૂપમાં) પહેલાં આવે છે. તેઓ વ્યક્તિ અથવા નંબર માટે ક્યારેય ફોર્મ બદલતા નથી — તે/તેણી/તેના માટે ના -s.",
+        "guMT": true
+      }
+    },
+    {
+      "block": "table",
+      "id": "ch-16-modal-verbs/exp-2",
+      "caption": {
+        "en": "Modal verbs — meaning and example",
+        "gu": "મોડલ ક્રિયાપદો - અર્થ અને ઉદાહરણ",
+        "guMT": true
+      },
+      "headers": [
+        {
+          "key": "modal",
+          "label": {
+            "en": "Modal",
+            "gu": "મોડલ",
+            "guMT": true
+          }
+        },
+        {
+          "key": "meaning",
+          "label": {
+            "en": "Primary meaning",
+            "gu": "પ્રાથમિક અર્થ",
+            "guMT": true
+          }
+        },
+        {
+          "key": "example",
+          "label": {
+            "en": "Example",
+            "gu": "ઉદાહરણ",
+            "guMT": true
+          }
+        }
+      ],
+      "rows": [
+        {
+          "modal": "can",
+          "meaning": "ability; informal permission",
+          "example": "I can speak English. Can I watch TV?"
+        },
+        {
+          "modal": "may",
+          "meaning": "polite permission; possibility",
+          "example": "May I use your phone? India may win."
+        },
+        {
+          "modal": "could",
+          "meaning": "past ability; polite request; remote possibility",
+          "example": "I could draw fine pictures when I was in school. Could you give me water?"
+        },
+        {
+          "modal": "might",
+          "meaning": "weaker possibility (less likely than may)",
+          "example": "He is sick. He might not come."
+        },
+        {
+          "modal": "would",
+          "meaning": "polite request; past habitual action; 'would like' = want",
+          "example": "Would you come? I would drink tea every morning. I would like to go."
+        },
+        {
+          "modal": "should",
+          "meaning": "advice / moral duty",
+          "example": "You should be regular. We should respect elders."
+        },
+        {
+          "modal": "must",
+          "meaning": "strong obligation; logical certainty",
+          "example": "You must not get down from a running bus. It is 8 o'clock — he must have shut the shop."
+        },
+        {
+          "modal": "ought to",
+          "meaning": "duty / what is right (slightly stronger than should)",
+          "example": "We ought to help our neighbours."
+        },
+        {
+          "modal": "used to",
+          "meaning": "past habitual action (no longer done)",
+          "example": "I used to wear goggles. We used to go to the field."
+        }
+      ]
+    },
+    {
+      "block": "rules",
+      "id": "ch-16-modal-verbs/exp-3",
+      "title": {
+        "en": "Backshift in reported speech",
+        "gu": "જાણ કરેલ ભાષણમાં બેકશીફ્ટ",
+        "guMT": true
+      },
+      "items": [
+        {
+          "text": {
+            "en": "In indirect/reported speech, modals shift one step back: will → would, may → might, can → could.",
+            "gu": "પરોક્ષ/અહેવાલિત ભાષણમાં, મોડલ એક પગલું પાછળ ખસી જાય છે: will → will, may → might, can → could.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "He said that he would not go to school. (will → would)",
+              "gu": "તેણે કહ્યું કે તે શાળાએ નહીં જાય. (ચાલશે → કરશે)",
+              "guMT": true
+            },
+            {
+              "en": "I told him that I could drive a truck. (can → could)",
+              "gu": "મેં તેને કહ્યું કે હું ટ્રક ચલાવી શકું છું. (કેન → શકે)",
+              "guMT": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "ch-16-modal-verbs/q-1",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "You have fever. You ____ consult a doctor soon.",
+        "gu": "તમને તાવ છે. તમે ____ જલ્દી ડૉક્ટરની સલાહ લો.",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "can",
+          "gu": "કરી શકો છો",
+          "guMT": true
+        },
+        {
+          "en": "should",
+          "gu": "જોઈએ",
+          "guMT": true
+        },
+        {
+          "en": "might",
+          "gu": "શકે છે",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "should",
+        "gu": "જોઈએ",
+        "guMT": true
+      },
+      "hint": {
+        "en": "Advice — use 'should'.",
+        "gu": "સલાહ - 'જોઈએ' નો ઉપયોગ કરો.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-16-modal-verbs/q-2",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "____ I read your newspaper, sir?",
+        "gu": "____ હું તમારું અખબાર વાંચું છું, સર?",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "Can",
+          "gu": "કરી શકે છે",
+          "guMT": true
+        },
+        {
+          "en": "May",
+          "gu": "મે",
+          "guMT": true
+        },
+        {
+          "en": "Must",
+          "gu": "જ જોઈએ",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "May",
+        "gu": "મે",
+        "guMT": true
+      },
+      "hint": {
+        "en": "'May' is the polite form for seeking permission.",
+        "gu": "'મે' એ પરવાનગી મેળવવા માટેનું નમ્ર સ્વરૂપ છે.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-16-modal-verbs/q-3",
+      "type": "mcq",
+      "prompt": {
+        "en": "Which modal expresses a past habit?",
+        "gu": "કયું મોડલ ભૂતકાળની આદત વ્યક્ત કરે છે?",
+        "guMT": true
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "must",
+            "gu": "જ જોઈએ",
+            "guMT": true
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "used to",
+            "gu": "માટે વપરાય છે",
+            "guMT": true
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "ought to",
+            "gu": "જોઈએ",
+            "guMT": true
+          }
+        }
+      ],
+      "answer": "b",
+      "solution": {
+        "en": "'Used to' expresses something done regularly in the past but not now.",
+        "gu": "'Used to' ભૂતકાળમાં નિયમિતપણે કરવામાં આવતી કોઈ વસ્તુને વ્યક્ત કરે છે પરંતુ હવે નથી.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-16-modal-verbs/q-4",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "You ____ not waste your time in video games.",
+        "gu": "તમે ____ વિડીયો ગેમ્સમાં તમારો સમય બગાડો નહીં.",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "should",
+          "gu": "જોઈએ",
+          "guMT": true
+        },
+        {
+          "en": "must",
+          "gu": "જ જોઈએ",
+          "guMT": true
+        },
+        {
+          "en": "could",
+          "gu": "શકે છે",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "should",
+        "gu": "જોઈએ",
+        "guMT": true
+      },
+      "hint": {
+        "en": "Strong advice/duty without the harshness of 'must' = 'should'.",
+        "gu": "'જોઈએ' = 'જોઈએ' ની કઠોરતા વિના મજબૂત સલાહ/ફરજ.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-16-modal-verbs/q-5",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "We ____ honour our national anthem.",
+        "gu": "અમે ____ અમારા રાષ્ટ્રગીતનું સન્માન કરીએ છીએ.",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "should",
+          "gu": "જોઈએ",
+          "guMT": true
+        },
+        {
+          "en": "must",
+          "gu": "જ જોઈએ",
+          "guMT": true
+        },
+        {
+          "en": "might",
+          "gu": "શકે છે",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "must",
+        "gu": "જ જોઈએ",
+        "guMT": true
+      },
+      "hint": {
+        "en": "A strong obligation — use 'must'.",
+        "gu": "એક મજબૂત જવાબદારી - 'જરૂરી' નો ઉપયોગ કરો.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-16-modal-verbs/q-6",
+      "type": "translation",
+      "direction": "en_to_gu",
+      "prompt": {
+        "en": "May I use your phone, please?",
+        "gu": "કૃપા કરી હું તમારો ફોન વાપરી શકું?",
+        "guMT": true
+      },
+      "answer": {
+        "en": "May I use your phone, please?",
+        "gu": "કૃપા કરી હું તમારો ફોન વાપરી શકું?",
+        "guMT": true
+      }
+    }
+  ]
+}

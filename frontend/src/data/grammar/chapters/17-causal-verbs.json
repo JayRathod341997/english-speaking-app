@@ -1,0 +1,289 @@
+{
+  "id": "ch-17-causal-verbs",
+  "slug": "causal-verbs",
+  "order": 18,
+  "title": {
+    "en": "Causal Verbs",
+    "gu": "કારણભૂત ક્રિયાપદો",
+    "guMT": true
+  },
+  "summary": {
+    "en": "How 'get', 'make' and 'have' are used as causatives — to express that someone causes or arranges for an action to be done — in both active and passive constructions.",
+    "gu": "કેવી રીતે 'મેક', 'મેક' અને 'હેવ' નો ઉપયોગ કારણદર્શક તરીકે થાય છે — વ્યક્ત કરવા માટે કે કોઈ ક્રિયા કરવા માટેનું કારણ બને છે અથવા ગોઠવે છે — સક્રિય અને નિષ્ક્રિય બંને રચનાઓમાં.",
+    "guMT": true
+  },
+  "sources": [
+    "motion"
+  ],
+  "explanations": [
+    {
+      "block": "prose",
+      "id": "ch-17-causal-verbs/exp-1",
+      "text": {
+        "en": "Causal verbs show that the subject causes or arranges for someone else to do an action. The three main causatives in English are 'get', 'make' and 'have'.",
+        "gu": "કાર્યકારણ ક્રિયાપદો દર્શાવે છે કે વિષય અન્ય કોઈને ક્રિયા કરવા માટે કારણભૂત બનાવે છે અથવા ગોઠવે છે. અંગ્રેજીમાં ત્રણ મુખ્ય કારક છે 'ગેટ', 'મેક' અને 'હેવ'.",
+        "guMT": true
+      }
+    },
+    {
+      "block": "table",
+      "id": "ch-17-causal-verbs/exp-2",
+      "caption": {
+        "en": "Causal verb patterns — active and passive",
+        "gu": "કારણ ક્રિયાપદ પેટર્ન — સક્રિય અને નિષ્ક્રિય",
+        "guMT": true
+      },
+      "headers": [
+        {
+          "key": "verb",
+          "label": {
+            "en": "Causal verb",
+            "gu": "કારણ ક્રિયાપદ",
+            "guMT": true
+          }
+        },
+        {
+          "key": "when",
+          "label": {
+            "en": "When to use",
+            "gu": "ક્યારે વાપરવું",
+            "guMT": true
+          }
+        },
+        {
+          "key": "active",
+          "label": {
+            "en": "Active pattern",
+            "gu": "સક્રિય પેટર્ન",
+            "guMT": true
+          }
+        },
+        {
+          "key": "passive",
+          "label": {
+            "en": "Passive pattern",
+            "gu": "નિષ્ક્રિય પેટર્ન",
+            "guMT": true
+          }
+        }
+      ],
+      "rows": [
+        {
+          "verb": "Get",
+          "when": "persuading / convincing someone",
+          "active": "Subject + get + person + to + V1",
+          "passive": "Subject + get + object + V3"
+        },
+        {
+          "verb": "Make",
+          "when": "forcing someone to do something",
+          "active": "Subject + make + person + V1 (no 'to')",
+          "passive": "N/A (make passive not common)"
+        },
+        {
+          "verb": "Have",
+          "when": "arranging for a service to be done",
+          "active": "Subject + have + person + V1",
+          "passive": "Subject + have + object + V3"
+        }
+      ]
+    },
+    {
+      "block": "examples",
+      "id": "ch-17-causal-verbs/exp-3",
+      "items": [
+        {
+          "en": "Get AV: Some pupils get their parents to do their homework.",
+          "gu": "AV મેળવો: કેટલાક વિદ્યાર્થીઓ તેમના માતા-પિતાને તેમનું હોમવર્ક કરાવે છે.",
+          "guMT": true
+        },
+        {
+          "en": "Get PV: I got this application written by my teacher.",
+          "gu": "PV મેળવો: મને આ અરજી મારા શિક્ષક દ્વારા લખવામાં આવી છે.",
+          "guMT": true
+        },
+        {
+          "en": "Make AV: She makes her husband clean the home.",
+          "gu": "AV બનાવો: તેણી તેના પતિને ઘર સાફ કરાવે છે.",
+          "guMT": true
+        },
+        {
+          "en": "Have AV: We have our servant clean all the rooms.",
+          "gu": "AV છે: અમે અમારા નોકરને બધા રૂમ સાફ કરાવ્યા છે.",
+          "guMT": true
+        },
+        {
+          "en": "Have PV: We have our clothes washed at the laundry.",
+          "gu": "પીવી રાખો: અમે અમારા કપડાં લોન્ડ્રી પર ધોઈએ છીએ.",
+          "guMT": true
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "ch-17-causal-verbs/q-1",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "They made her ____ at the party. (sing)",
+        "gu": "તેઓએ તેણીને પાર્ટીમાં ____ બનાવી. (ગાઓ)",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "to sing",
+          "gu": "ગાવા માટે",
+          "guMT": true
+        },
+        {
+          "en": "sing",
+          "gu": "ગાઓ",
+          "guMT": true
+        },
+        {
+          "en": "singing",
+          "gu": "ગાયન",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "sing",
+        "gu": "ગાઓ",
+        "guMT": true
+      },
+      "hint": {
+        "en": "After 'make' (causative), use the bare infinitive — no 'to'.",
+        "gu": "'મેક' (કારણકારી) પછી, એકદમ અનંતનો ઉપયોગ કરો — ના 'ટુ'.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-17-causal-verbs/q-2",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "She wanted to get her lesson ____ by the teacher. (check)",
+        "gu": "તેણી શિક્ષક દ્વારા તેણીનો પાઠ ____ મેળવવા માંગતી હતી. (ચેક)",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "check",
+          "gu": "તપાસો",
+          "guMT": true
+        },
+        {
+          "en": "to check",
+          "gu": "તપાસવા માટે",
+          "guMT": true
+        },
+        {
+          "en": "checked",
+          "gu": "ચકાસાયેલ",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "checked",
+        "gu": "ચકાસાયેલ",
+        "guMT": true
+      },
+      "hint": {
+        "en": "'Get' passive: get + object + past participle (V3).",
+        "gu": "'મેળવો' નિષ્ક્રિય: get + object + past particiciple (V3).",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-17-causal-verbs/q-3",
+      "type": "mcq",
+      "prompt": {
+        "en": "Which sentence uses a causal verb correctly?",
+        "gu": "કયું વાક્ય કાર્યકારણ ક્રિયાપદનો યોગ્ય રીતે ઉપયોગ કરે છે?",
+        "guMT": true
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "I made him to cry.",
+            "gu": "મેં તેને રડાવ્યો.",
+            "guMT": true
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "I made him cry.",
+            "gu": "મેં તેને રડ્યો.",
+            "guMT": true
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "I made him crying.",
+            "gu": "મેં તેને રડ્યો.",
+            "guMT": true
+          }
+        }
+      ],
+      "answer": "b",
+      "solution": {
+        "en": "'Make' + person + bare infinitive (no 'to'): made him cry.",
+        "gu": "'મેક' + વ્યક્તિ + બેર અનફિનિટીવ (ના 'થી'): તેને રડ્યો.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-17-causal-verbs/q-4",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "Mr. Patel had his house ____ last year. (colour)",
+        "gu": "શ્રી પટેલનું ગયા વર્ષે તેમનું ઘર ____ હતું. (રંગ)",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "colour",
+          "gu": "રંગ",
+          "guMT": true
+        },
+        {
+          "en": "to colour",
+          "gu": "રંગ માટે",
+          "guMT": true
+        },
+        {
+          "en": "coloured",
+          "gu": "રંગીન",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "coloured",
+        "gu": "રંગીન",
+        "guMT": true
+      },
+      "hint": {
+        "en": "'Have' passive: have + object + past participle (V3).",
+        "gu": "'Have' નિષ્ક્રિય: have + object + past participle (V3).",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-17-causal-verbs/q-5",
+      "type": "translation",
+      "direction": "en_to_gu",
+      "prompt": {
+        "en": "We have our clothes washed at the laundry.",
+        "gu": "અમે અમારા કપડાં લોન્ડ્રી પર ધોઈએ છીએ.",
+        "guMT": true
+      },
+      "answer": {
+        "en": "We have our clothes washed at the laundry.",
+        "gu": "અમે અમારા કપડાં લોન્ડ્રી પર ધોઈએ છીએ.",
+        "guMT": true
+      }
+    }
+  ]
+}

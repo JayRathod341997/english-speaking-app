@@ -80,10 +80,13 @@ export default function Conversation() {
       speak(response.ai_reply);
     } catch (err) {
       console.error('[sendMessage]', err);
+      const offline = !navigator.onLine;
       const errMsg: Message = {
         id: Date.now(),
         role: 'ai',
-        content: '⚠️ Sorry, I had trouble responding. Please try again.',
+        content: offline
+          ? "📡 You're offline. AI conversation needs an internet connection — but lessons, vocabulary, idioms, grammar and flashcards all work offline. Reconnect and try again."
+          : '⚠️ Sorry, I had trouble responding. Please try again.',
         timestamp: new Date().toISOString(),
       };
       setMessages(prev => [...prev, errMsg]);
@@ -108,7 +111,7 @@ export default function Conversation() {
     setStarted(true);
     timerRef.current = setInterval(() => setElapsed(e => e + 1), 1000);
     const detail = await sessionsApi.get(s.id);
-    if (detail.messages.length > 0) {
+    if (detail && detail.messages.length > 0) {
       setMessages(detail.messages);
       speak(detail.messages[0].content);
     }

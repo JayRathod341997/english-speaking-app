@@ -1,0 +1,2402 @@
+[
+  {
+    "id": 1,
+    "category": "Everyday Situations",
+    "frontside": "Acquaintance",
+    "backside": "ઓળખીતું વ્યક્તિ — જેને થોડું ઓળખો છો પણ ગાઢ મિત્ર નથી.",
+    "pronunciation": "એક્વેઇન્ટન્સ",
+    "part_of_speech": "noun",
+    "difficulty": "Intermediate",
+    "example": "He is just an acquaintance, not a close friend.",
+    "tags": [
+      "Everyday_Situations",
+      "Social_&_Greetings",
+      "Intermediate"
+    ]
+  },
+  {
+    "id": 2,
+    "category": "Everyday Situations",
+    "frontside": "Catch up",
+    "backside": "ફરી મળીને એકબીજાના સમાચાર જાણવા; પાછળ રહી ગયેલું પૂરું કરી લેવું.",
+    "pronunciation": "કેચ અપ",
+    "part_of_speech": "phrasal verb",
+    "difficulty": "Intermediate",
+    "example": "Let's catch up over coffee this weekend.",
+    "tags": [
+      "Everyday_Situations",
+      "Social_&_Greetings",
+      "Intermediate"
+    ]
+  },
+  {
+    "id": 3,
+    "category": "Everyday Situations",
+    "frontside": "Drop by",
+    "backside": "અચાનક કે અનૌપચારિક રીતે કોઈને ત્યાં થોડી વાર માટે જવું.",
+    "pronunciation": "ડ્રોપ બાય",
+    "part_of_speech": "phrasal verb",
+    "difficulty": "Intermediate",
+    "example": "Drop by my place whenever you're free.",
+    "tags": [
+      "Everyday_Situations",
+      "Social_&_Greetings",
+      "Intermediate"
+    ]
+  },
+  {
+    "id": 4,
+    "category": "Everyday Situations",
+    "frontside": "Mingle",
+    "backside": "સમારંભમાં જુદા જુદા લોકો સાથે હળીમળીને વાતચીત કરવી.",
+    "pronunciation": "મિંગલ",
+    "part_of_speech": "verb",
+    "difficulty": "Advanced",
+    "example": "She mingled with the guests at the party.",
+    "tags": [
+      "Everyday_Situations",
+      "Social_&_Greetings",
+      "Advanced"
+    ]
+  },
+  {
+    "id": 5,
+    "category": "Everyday Situations",
+    "frontside": "Cordial",
+    "backside": "ઉષ્માભર્યું, મૈત્રીપૂર્ણ અને નિખાલસ.",
+    "pronunciation": "કોર્ડિયલ",
+    "part_of_speech": "adjective",
+    "difficulty": "Advanced",
+    "example": "They share a cordial relationship.",
+    "tags": [
+      "Everyday_Situations",
+      "Social_&_Greetings",
+      "Advanced"
+    ]
+  },
+  {
+    "id": 6,
+    "category": "Everyday Situations",
+    "frontside": "Mutual",
+    "backside": "પરસ્પર — બંને પક્ષ દ્વારા સરખું અનુભવાતું કે વહેંચાતું.",
+    "pronunciation": "મ્યૂચ્યુઅલ",
+    "part_of_speech": "adjective",
+    "difficulty": "Intermediate",
+    "example": "We have a mutual friend named Riya.",
+    "tags": [
+      "Everyday_Situations",
+      "Social_&_Greetings",
+      "Intermediate"
+    ]
+  },
+  {
+    "id": 7,
+    "category": "Everyday Situations",
+    "frontside": "Get acquainted",
+    "backside": "કોઈ સાથે ઓળખાણ કેળવવી; કંઈથી પરિચિત થવું.",
+    "pronunciation": "ગેટ એક્વેઇન્ટેડ",
+    "part_of_speech": "phrase",
+    "difficulty": "Advanced",
+    "example": "Let's take some time to get acquainted.",
+    "tags": [
+      "Everyday_Situations",
+      "Social_&_Greetings",
+      "Advanced"
+    ]
+  },
+  {
+    "id": 8,
+    "category": "Everyday Situations",
+    "frontside": "Appreciate",
+    "backside": "કદર કરવી / આભારી હોવું; મૂલ્ય સમજવું.",
+    "pronunciation": "અપ્રીશિએટ",
+    "part_of_speech": "verb",
+    "difficulty": "Intermediate",
+    "example": "I really appreciate your help.",
+    "tags": [
+      "Everyday_Situations",
+      "Polite_Requests_&_Responses",
+      "Intermediate"
+    ]
+  },
+  {
+    "id": 9,
+    "category": "Everyday Situations",
+    "frontside": "Would you mind",
+    "backside": "અત્યંત નમ્રતાથી વિનંતી કે પરવાનગી માગવાની રીત.",
+    "pronunciation": "વુડ યુ માઇન્ડ",
+    "part_of_speech": "phrase",
+    "difficulty": "Intermediate",
+    "example": "Would you mind closing the window?",
+    "tags": [
+      "Everyday_Situations",
+      "Polite_Requests_&_Responses",
+      "Intermediate"
+    ]
+  },
+  {
+    "id": 10,
+    "category": "Everyday Situations",
+    "frontside": "By all means",
+    "backside": "'જરૂર / અવશ્ય' — નમ્ર અને ભારપૂર્વકની સંમતિ.",
+    "pronunciation": "બાય ઑલ મીન્સ",
+    "part_of_speech": "phrase",
+    "difficulty": "Advanced",
+    "example": "\"May I see it?\" \"By all means.\"",
+    "tags": [
+      "Everyday_Situations",
+      "Polite_Requests_&_Responses",
+      "Advanced"
+    ]
+  },
+  {
+    "id": 11,
+    "category": "Everyday Situations",
+    "frontside": "My pleasure",
+    "backside": "'આનંદની વાત છે / ખુશીથી' — આભારના નમ્ર જવાબમાં.",
+    "pronunciation": "માય પ્લેઝર",
+    "part_of_speech": "phrase",
+    "difficulty": "Intermediate",
+    "example": "\"Thanks for the ride.\" \"My pleasure.\"",
+    "tags": [
+      "Everyday_Situations",
+      "Polite_Requests_&_Responses",
+      "Intermediate"
+    ]
+  },
+  {
+    "id": 12,
+    "category": "Everyday Situations",
+    "frontside": "Beg your pardon",
+    "backside": "ઔપચારિક માફી; અથવા નમ્રતાથી ફરી કહેવા વિનંતી.",
+    "pronunciation": "બેગ યૉર પાર્ડન",
+    "part_of_speech": "phrase",
+    "difficulty": "Advanced",
+    "example": "I beg your pardon, could you repeat that?",
+    "tags": [
+      "Everyday_Situations",
+      "Polite_Requests_&_Responses",
+      "Advanced"
+    ]
+  },
+  {
+    "id": 13,
+    "category": "Everyday Situations",
+    "frontside": "I'd rather",
+    "backside": "'મને... વધારે ગમશે' — પસંદગી દર્શાવવાની નમ્ર રીત.",
+    "pronunciation": "આઇડ રાધર",
+    "part_of_speech": "phrase",
+    "difficulty": "Intermediate",
+    "example": "I'd rather stay home tonight.",
+    "tags": [
+      "Everyday_Situations",
+      "Polite_Requests_&_Responses",
+      "Intermediate"
+    ]
+  },
+  {
+    "id": 14,
+    "category": "Everyday Situations",
+    "frontside": "Much obliged",
+    "backside": "'ખૂબ આભારી છું' — ઔપચારિક રીતે આભાર માનવાની રીત.",
+    "pronunciation": "મચ ઑબ્લાઇજ્ડ",
+    "part_of_speech": "phrase",
+    "difficulty": "Advanced",
+    "example": "Much obliged for your assistance.",
+    "tags": [
+      "Everyday_Situations",
+      "Polite_Requests_&_Responses",
+      "Advanced"
+    ]
+  },
+  {
+    "id": 15,
+    "category": "Everyday Situations",
+    "frontside": "Whereabouts",
+    "backside": "કોઈનું કે કંઈનું ઠેકાણું / સ્થાન.",
+    "pronunciation": "વેરઅબાઉટ્સ",
+    "part_of_speech": "noun/adverb",
+    "difficulty": "Advanced",
+    "example": "Her whereabouts are still unknown.",
+    "tags": [
+      "Everyday_Situations",
+      "Asking_&_Navigation",
+      "Advanced"
+    ]
+  },
+  {
+    "id": 16,
+    "category": "Everyday Situations",
+    "frontside": "Vicinity",
+    "backside": "કોઈ સ્થળની આસપાસનો / નજીકનો વિસ્તાર.",
+    "pronunciation": "વિસિનિટી",
+    "part_of_speech": "noun",
+    "difficulty": "Advanced",
+    "example": "Is there a bank in the vicinity?",
+    "tags": [
+      "Everyday_Situations",
+      "Asking_&_Navigation",
+      "Advanced"
+    ]
+  },
+  {
+    "id": 17,
+    "category": "Everyday Situations",
+    "frontside": "Detour",
+    "backside": "મુખ્ય રસ્તાને બદલે લેવાતો ફરીને જતો / લાંબો રસ્તો.",
+    "pronunciation": "ડીટૂર",
+    "part_of_speech": "noun",
+    "difficulty": "Intermediate",
+    "example": "We took a detour to avoid the traffic.",
+    "tags": [
+      "Everyday_Situations",
+      "Asking_&_Navigation",
+      "Intermediate"
+    ]
+  },
+  {
+    "id": 18,
+    "category": "Everyday Situations",
+    "frontside": "Head towards",
+    "backside": "કોઈ દિશા તરફ આગળ વધવું / જવું.",
+    "pronunciation": "હેડ ટુવર્ડ્સ",
+    "part_of_speech": "verb phrase",
+    "difficulty": "Intermediate",
+    "example": "Let's head towards the exit.",
+    "tags": [
+      "Everyday_Situations",
+      "Asking_&_Navigation",
+      "Intermediate"
+    ]
+  },
+  {
+    "id": 19,
+    "category": "Everyday Situations",
+    "frontside": "Around the corner",
+    "backside": "તદ્દન નજીક; અથવા બહુ જલદી આવનારું.",
+    "pronunciation": "અરાઉન્ડ ધ કોર્નર",
+    "part_of_speech": "phrase",
+    "difficulty": "Intermediate",
+    "example": "The pharmacy is just around the corner.",
+    "tags": [
+      "Everyday_Situations",
+      "Asking_&_Navigation",
+      "Intermediate"
+    ]
+  },
+  {
+    "id": 20,
+    "category": "Everyday Situations",
+    "frontside": "Bound for",
+    "backside": "કોઈ ચોક્કસ સ્થળ તરફ જઈ રહેલું / રવાના.",
+    "pronunciation": "બાઉન્ડ ફૉર",
+    "part_of_speech": "phrase",
+    "difficulty": "Advanced",
+    "example": "This train is bound for Mumbai.",
+    "tags": [
+      "Everyday_Situations",
+      "Asking_&_Navigation",
+      "Advanced"
+    ]
+  },
+  {
+    "id": 21,
+    "category": "Everyday Situations",
+    "frontside": "Manage",
+    "backside": "કોઈ (મુશ્કેલ) કામ પાર પાડવું / સંભાળી લેવું.",
+    "pronunciation": "મેનેજ",
+    "part_of_speech": "verb",
+    "difficulty": "Intermediate",
+    "example": "Somehow I managed to finish on time.",
+    "tags": [
+      "Everyday_Situations",
+      "Managing_Daily_Tasks",
+      "Intermediate"
+    ]
+  },
+  {
+    "id": 22,
+    "category": "Everyday Situations",
+    "frontside": "Sort out",
+    "backside": "સમસ્યા ઉકેલવી / વ્યવસ્થિત ગોઠવી લેવું.",
+    "pronunciation": "સોર્ટ આઉટ",
+    "part_of_speech": "phrasal verb",
+    "difficulty": "Intermediate",
+    "example": "We need to sort out this misunderstanding.",
+    "tags": [
+      "Everyday_Situations",
+      "Managing_Daily_Tasks",
+      "Intermediate"
+    ]
+  },
+  {
+    "id": 23,
+    "category": "Everyday Situations",
+    "frontside": "Figure out",
+    "backside": "વિચારીને સમજવું / ઉકેલ શોધવો.",
+    "pronunciation": "ફિગર આઉટ",
+    "part_of_speech": "phrasal verb",
+    "difficulty": "Intermediate",
+    "example": "I can't figure out how this works.",
+    "tags": [
+      "Everyday_Situations",
+      "Managing_Daily_Tasks",
+      "Intermediate"
+    ]
+  },
+  {
+    "id": 24,
+    "category": "Everyday Situations",
+    "frontside": "Postpone",
+    "backside": "કોઈ કાર્યક્રમ કે કામ પાછળ ઠેલવું / મુલતવી રાખવું.",
+    "pronunciation": "પોસ્ટપોન",
+    "part_of_speech": "verb",
+    "difficulty": "Intermediate",
+    "example": "They postponed the match due to rain.",
+    "tags": [
+      "Everyday_Situations",
+      "Managing_Daily_Tasks",
+      "Intermediate"
+    ]
+  },
+  {
+    "id": 25,
+    "category": "Everyday Situations",
+    "frontside": "Reschedule",
+    "backside": "નક્કી કરેલા સમય/તારીખ બદલવી / ફરી ગોઠવવી.",
+    "pronunciation": "રીશેડ્યૂલ",
+    "part_of_speech": "verb",
+    "difficulty": "Intermediate",
+    "example": "I need to reschedule our appointment.",
+    "tags": [
+      "Everyday_Situations",
+      "Managing_Daily_Tasks",
+      "Intermediate"
+    ]
+  },
+  {
+    "id": 26,
+    "category": "Everyday Situations",
+    "frontside": "Run errands",
+    "backside": "રોજિંદાં નાનાં કામ (ખરીદી, બિલ ભરવું વગેરે) પતાવવા જવું.",
+    "pronunciation": "રન એરન્ડ્સ",
+    "part_of_speech": "phrase",
+    "difficulty": "Intermediate",
+    "example": "I have to run a few errands this morning.",
+    "tags": [
+      "Everyday_Situations",
+      "Managing_Daily_Tasks",
+      "Intermediate"
+    ]
+  },
+  {
+    "id": 27,
+    "category": "Everyday Situations",
+    "frontside": "Drop off",
+    "backside": "કોઈને કે કંઈને કોઈ જગ્યાએ મૂકી આવવું.",
+    "pronunciation": "ડ્રોપ ઑફ",
+    "part_of_speech": "phrasal verb",
+    "difficulty": "Intermediate",
+    "example": "Can you drop me off at the station?",
+    "tags": [
+      "Everyday_Situations",
+      "Managing_Daily_Tasks",
+      "Intermediate"
+    ]
+  },
+  {
+    "id": 28,
+    "category": "Everyday Situations",
+    "frontside": "Exhausted",
+    "backside": "અત્યંત થાકેલું, સાવ નિચોવાઈ ગયેલું.",
+    "pronunciation": "ઇગ્ઝૉસ્ટેડ",
+    "part_of_speech": "adjective",
+    "difficulty": "Intermediate",
+    "example": "I'm exhausted after the long journey.",
+    "tags": [
+      "Everyday_Situations",
+      "Feelings_&_States",
+      "Intermediate"
+    ]
+  },
+  {
+    "id": 29,
+    "category": "Everyday Situations",
+    "frontside": "Overwhelmed",
+    "backside": "એટલું બધું થઈ જાય કે સંભાળી ન શકાય એવી લાગણી; ભારે દબાણ.",
+    "pronunciation": "ઓવરવેલ્મ્ડ",
+    "part_of_speech": "adjective",
+    "difficulty": "Advanced",
+    "example": "She felt overwhelmed by all the responsibilities.",
+    "tags": [
+      "Everyday_Situations",
+      "Feelings_&_States",
+      "Advanced"
+    ]
+  },
+  {
+    "id": 30,
+    "category": "Everyday Situations",
+    "frontside": "Content",
+    "backside": "જે છે તેમાં ખુશ અને સંતુષ્ટ; શાંત.",
+    "pronunciation": "કન્ટેન્ટ",
+    "part_of_speech": "adjective",
+    "difficulty": "Intermediate",
+    "example": "She is content with her simple life.",
+    "tags": [
+      "Everyday_Situations",
+      "Feelings_&_States",
+      "Intermediate"
+    ]
+  },
+  {
+    "id": 31,
+    "category": "Everyday Situations",
+    "frontside": "Anxious",
+    "backside": "કોઈ અનિશ્ચિત વાત અંગે ચિંતિત કે બેચેન.",
+    "pronunciation": "એન્ગ્ઝિયસ",
+    "part_of_speech": "adjective",
+    "difficulty": "Intermediate",
+    "example": "She was anxious about the test results.",
+    "tags": [
+      "Everyday_Situations",
+      "Feelings_&_States",
+      "Intermediate"
+    ]
+  },
+  {
+    "id": 32,
+    "category": "Everyday Situations",
+    "frontside": "Relieved",
+    "backside": "ચિંતા ટળી જતાં હળવાશ અને રાહત અનુભવવી.",
+    "pronunciation": "રિલીવ્ડ",
+    "part_of_speech": "adjective",
+    "difficulty": "Intermediate",
+    "example": "I was relieved to hear you're safe.",
+    "tags": [
+      "Everyday_Situations",
+      "Feelings_&_States",
+      "Intermediate"
+    ]
+  },
+  {
+    "id": 33,
+    "category": "Everyday Situations",
+    "frontside": "Frustrated",
+    "backside": "ધાર્યું ન થઈ શકતાં ચીડ અને નિરાશા અનુભવવી.",
+    "pronunciation": "ફ્રસ્ટ્રેટેડ",
+    "part_of_speech": "adjective",
+    "difficulty": "Intermediate",
+    "example": "He was frustrated with the slow internet.",
+    "tags": [
+      "Everyday_Situations",
+      "Feelings_&_States",
+      "Intermediate"
+    ]
+  },
+  {
+    "id": 34,
+    "category": "Everyday Situations",
+    "frontside": "Swamped",
+    "backside": "કામથી લદાયેલું; એટલું બધું કામ કે પહોંચી ન વળાય.",
+    "pronunciation": "સ્વોમ્પ્ડ",
+    "part_of_speech": "adjective",
+    "difficulty": "Advanced",
+    "example": "I'm swamped with work this week.",
+    "tags": [
+      "Everyday_Situations",
+      "Feelings_&_States",
+      "Advanced"
+    ]
+  },
+  {
+    "id": 35,
+    "category": "Everyday Situations",
+    "frontside": "Meanwhile",
+    "backside": "એ દરમિયાન; એ જ સમય દરમ્યાન.",
+    "pronunciation": "મીનવ્હાઇલ",
+    "part_of_speech": "adverb",
+    "difficulty": "Intermediate",
+    "example": "You cook; meanwhile, I'll set the table.",
+    "tags": [
+      "Everyday_Situations",
+      "Time_&_Routine",
+      "Intermediate"
+    ]
+  },
+  {
+    "id": 36,
+    "category": "Everyday Situations",
+    "frontside": "Eventually",
+    "backside": "આખરે; લાંબા સમય કે પ્રયત્ન પછી છેવટે.",
+    "pronunciation": "ઇવેન્ચ્યુઅલી",
+    "part_of_speech": "adverb",
+    "difficulty": "Intermediate",
+    "example": "After many tries, she eventually succeeded.",
+    "tags": [
+      "Everyday_Situations",
+      "Time_&_Routine",
+      "Intermediate"
+    ]
+  },
+  {
+    "id": 37,
+    "category": "Everyday Situations",
+    "frontside": "Beforehand",
+    "backside": "અગાઉથી; કોઈ ઘટના પહેલાં.",
+    "pronunciation": "બિફોરહેન્ડ",
+    "part_of_speech": "adverb",
+    "difficulty": "Intermediate",
+    "example": "Please let me know beforehand if you're coming.",
+    "tags": [
+      "Everyday_Situations",
+      "Time_&_Routine",
+      "Intermediate"
+    ]
+  },
+  {
+    "id": 38,
+    "category": "Everyday Situations",
+    "frontside": "In the meantime",
+    "backside": "એ દરમ્યાનના સમયમાં; બીજું કંઈ થાય ત્યાં સુધી.",
+    "pronunciation": "ઇન ધ મીનટાઇમ",
+    "part_of_speech": "phrase",
+    "difficulty": "Advanced",
+    "example": "The doctor will see you soon; in the meantime, please wait.",
+    "tags": [
+      "Everyday_Situations",
+      "Time_&_Routine",
+      "Advanced"
+    ]
+  },
+  {
+    "id": 39,
+    "category": "Everyday Situations",
+    "frontside": "Sooner or later",
+    "backside": "વહેલા-મોડા; આજે નહિ તો કાલે, પણ થશે જરૂર.",
+    "pronunciation": "સૂનર ઑર લેટર",
+    "part_of_speech": "phrase",
+    "difficulty": "Intermediate",
+    "example": "Sooner or later, the truth will come out.",
+    "tags": [
+      "Everyday_Situations",
+      "Time_&_Routine",
+      "Intermediate"
+    ]
+  },
+  {
+    "id": 40,
+    "category": "Everyday Situations",
+    "frontside": "For the time being",
+    "backside": "હાલ પૂરતું; હમણાં માટે, સ્થિતિ બદલાય ત્યાં સુધી.",
+    "pronunciation": "ફૉર ધ ટાઇમ બીઇંગ",
+    "part_of_speech": "phrase",
+    "difficulty": "Advanced",
+    "example": "For the time being, we'll stay at a hotel.",
+    "tags": [
+      "Everyday_Situations",
+      "Time_&_Routine",
+      "Advanced"
+    ]
+  },
+  {
+    "id": 41,
+    "category": "Places",
+    "frontside": "Downtown",
+    "backside": "શહેરનો મધ્ય / મુખ્ય વેપારી વિસ્તાર.",
+    "pronunciation": "ડાઉનટાઉન",
+    "part_of_speech": "noun/adverb",
+    "difficulty": "Intermediate",
+    "example": "She works downtown in a tall office building.",
+    "tags": [
+      "Places",
+      "Around_Town",
+      "Intermediate"
+    ]
+  },
+  {
+    "id": 42,
+    "category": "Places",
+    "frontside": "Suburb",
+    "backside": "શહેરની બહારનો રહેણાંક વિસ્તાર / પરું.",
+    "pronunciation": "સબર્બ",
+    "part_of_speech": "noun",
+    "difficulty": "Intermediate",
+    "example": "They moved to a quiet suburb last year.",
+    "tags": [
+      "Places",
+      "Around_Town",
+      "Intermediate"
+    ]
+  },
+  {
+    "id": 43,
+    "category": "Places",
+    "frontside": "Outskirts",
+    "backside": "શહેર કે ગામની બહારની હદ / છેવાડાનો વિસ્તાર.",
+    "pronunciation": "આઉટસ્કર્ટ્સ",
+    "part_of_speech": "noun",
+    "difficulty": "Intermediate",
+    "example": "Their farm is on the outskirts of the city.",
+    "tags": [
+      "Places",
+      "Around_Town",
+      "Intermediate"
+    ]
+  },
+  {
+    "id": 44,
+    "category": "Places",
+    "frontside": "Neighbourhood",
+    "backside": "આસપાસનો વિસ્તાર / પડોશ.",
+    "pronunciation": "નેબરહૂડ",
+    "part_of_speech": "noun",
+    "difficulty": "Intermediate",
+    "example": "We live in a friendly neighbourhood.",
+    "tags": [
+      "Places",
+      "Around_Town",
+      "Intermediate"
+    ]
+  },
+  {
+    "id": 45,
+    "category": "Places",
+    "frontside": "Locality",
+    "backside": "ચોક્કસ વિસ્તાર / લત્તો.",
+    "pronunciation": "લોકાલિટી",
+    "part_of_speech": "noun",
+    "difficulty": "Advanced",
+    "example": "Many old families live in this locality.",
+    "tags": [
+      "Places",
+      "Around_Town",
+      "Advanced"
+    ]
+  },
+  {
+    "id": 46,
+    "category": "Places",
+    "frontside": "Metropolis",
+    "backside": "મોટું, ધમધમતું શહેર / મહાનગર.",
+    "pronunciation": "મેટ્રોપોલિસ",
+    "part_of_speech": "noun",
+    "difficulty": "Advanced",
+    "example": "Mumbai is a bustling metropolis.",
+    "tags": [
+      "Places",
+      "Around_Town",
+      "Advanced"
+    ]
+  },
+  {
+    "id": 47,
+    "category": "Places",
+    "frontside": "Residential area",
+    "backside": "મુખ્યત્વે ઘરોવાળો રહેણાંક વિસ્તાર.",
+    "pronunciation": "રેસિડેન્શિયલ એરિયા",
+    "part_of_speech": "noun phrase",
+    "difficulty": "Intermediate",
+    "example": "They built a school in the residential area.",
+    "tags": [
+      "Places",
+      "Around_Town",
+      "Intermediate"
+    ]
+  },
+  {
+    "id": 48,
+    "category": "Places",
+    "frontside": "Premises",
+    "backside": "મકાન અને તેની જમીન / મિલકતનો વિસ્તાર.",
+    "pronunciation": "પ્રેમિસિસ",
+    "part_of_speech": "noun",
+    "difficulty": "Advanced",
+    "example": "Smoking is not allowed on the premises.",
+    "tags": [
+      "Places",
+      "Buildings_&_Their_Parts",
+      "Advanced"
+    ]
+  },
+  {
+    "id": 49,
+    "category": "Places",
+    "frontside": "Lobby",
+    "backside": "હોટેલ/મકાનનો પ્રવેશખંડ.",
+    "pronunciation": "લોબી",
+    "part_of_speech": "noun",
+    "difficulty": "Intermediate",
+    "example": "Let's meet in the hotel lobby at nine.",
+    "tags": [
+      "Places",
+      "Buildings_&_Their_Parts",
+      "Intermediate"
+    ]
+  },
+  {
+    "id": 50,
+    "category": "Places",
+    "frontside": "Foyer",
+    "backside": "પ્રવેશદ્વાર પાસેનો ખંડ / સ્વાગતકક્ષ.",
+    "pronunciation": "ફોયર",
+    "part_of_speech": "noun",
+    "difficulty": "Advanced",
+    "example": "We met in the theatre foyer during the interval.",
+    "tags": [
+      "Places",
+      "Buildings_&_Their_Parts",
+      "Advanced"
+    ]
+  },
+  {
+    "id": 51,
+    "category": "Places",
+    "frontside": "Corridor",
+    "backside": "મકાનની અંદરનો માર્ગ / પરસાળ.",
+    "pronunciation": "કોરિડોર",
+    "part_of_speech": "noun",
+    "difficulty": "Intermediate",
+    "example": "Her office is at the end of the corridor.",
+    "tags": [
+      "Places",
+      "Buildings_&_Their_Parts",
+      "Intermediate"
+    ]
+  },
+  {
+    "id": 52,
+    "category": "Places",
+    "frontside": "Basement",
+    "backside": "જમીનની નીચેનો માળ / ભોંયરું.",
+    "pronunciation": "બેઝમેન્ટ",
+    "part_of_speech": "noun",
+    "difficulty": "Intermediate",
+    "example": "The car park is in the basement.",
+    "tags": [
+      "Places",
+      "Buildings_&_Their_Parts",
+      "Intermediate"
+    ]
+  },
+  {
+    "id": 53,
+    "category": "Places",
+    "frontside": "Terrace",
+    "backside": "મકાનની ઉપરની ખુલ્લી છત / અગાશી.",
+    "pronunciation": "ટેરેસ",
+    "part_of_speech": "noun",
+    "difficulty": "Intermediate",
+    "example": "We had dinner on the terrace under the stars.",
+    "tags": [
+      "Places",
+      "Buildings_&_Their_Parts",
+      "Intermediate"
+    ]
+  },
+  {
+    "id": 54,
+    "category": "Places",
+    "frontside": "Courtyard",
+    "backside": "મકાનની વચ્ચે દીવાલોથી ઘેરાયેલું ખુલ્લું આંગણું.",
+    "pronunciation": "કોર્ટયાર્ડ",
+    "part_of_speech": "noun",
+    "difficulty": "Advanced",
+    "example": "The old house has a central courtyard.",
+    "tags": [
+      "Places",
+      "Buildings_&_Their_Parts",
+      "Advanced"
+    ]
+  },
+  {
+    "id": 55,
+    "category": "Places",
+    "frontside": "Terminal",
+    "backside": "જ્યાં મુસાફરી શરૂ/પૂરી થાય તે મથક (એરપોર્ટ/બસ).",
+    "pronunciation": "ટર્મિનલ",
+    "part_of_speech": "noun",
+    "difficulty": "Intermediate",
+    "example": "Our flight leaves from Terminal 2.",
+    "tags": [
+      "Places",
+      "Travel_&_Transit",
+      "Intermediate"
+    ]
+  },
+  {
+    "id": 56,
+    "category": "Places",
+    "frontside": "Junction",
+    "backside": "જ્યાં રસ્તા કે રેલમાર્ગ મળે તે સ્થળ / સંગમ.",
+    "pronunciation": "જંક્શન",
+    "part_of_speech": "noun",
+    "difficulty": "Intermediate",
+    "example": "Turn right at the next junction.",
+    "tags": [
+      "Places",
+      "Travel_&_Transit",
+      "Intermediate"
+    ]
+  },
+  {
+    "id": 57,
+    "category": "Places",
+    "frontside": "Platform",
+    "backside": "સ્ટેશન પર ગાડી પકડવા માટેનો ઉંચો ઓટલો / પ્લેટફોર્મ.",
+    "pronunciation": "પ્લેટફોર્મ",
+    "part_of_speech": "noun",
+    "difficulty": "Intermediate",
+    "example": "The train arrives at platform three.",
+    "tags": [
+      "Places",
+      "Travel_&_Transit",
+      "Intermediate"
+    ]
+  },
+  {
+    "id": 58,
+    "category": "Places",
+    "frontside": "Depot",
+    "backside": "બસ/સામાન રાખવાનું મથક / ડેપો.",
+    "pronunciation": "ડેપો",
+    "part_of_speech": "noun",
+    "difficulty": "Advanced",
+    "example": "The buses return to the depot at night.",
+    "tags": [
+      "Places",
+      "Travel_&_Transit",
+      "Advanced"
+    ]
+  },
+  {
+    "id": 59,
+    "category": "Places",
+    "frontside": "Lodge",
+    "backside": "રહેવા માટેનું નાનું મકાન (ખાસ ગ્રામ્ય વિસ્તારમાં).",
+    "pronunciation": "લોજ",
+    "part_of_speech": "noun",
+    "difficulty": "Intermediate",
+    "example": "We stayed in a cosy lodge in the hills.",
+    "tags": [
+      "Places",
+      "Travel_&_Transit",
+      "Intermediate"
+    ]
+  },
+  {
+    "id": 60,
+    "category": "Places",
+    "frontside": "Hostel",
+    "backside": "મુસાફરો/વિદ્યાર્થીઓ માટેનું સસ્તું રહેઠાણ.",
+    "pronunciation": "હોસ્ટેલ",
+    "part_of_speech": "noun",
+    "difficulty": "Intermediate",
+    "example": "Backpackers often stay in a hostel.",
+    "tags": [
+      "Places",
+      "Travel_&_Transit",
+      "Intermediate"
+    ]
+  },
+  {
+    "id": 61,
+    "category": "Places",
+    "frontside": "Pharmacy",
+    "backside": "દવાની દુકાન / કેમિસ્ટ.",
+    "pronunciation": "ફાર્મસી",
+    "part_of_speech": "noun",
+    "difficulty": "Intermediate",
+    "example": "I bought the medicine from the pharmacy.",
+    "tags": [
+      "Places",
+      "Shops_&_Services",
+      "Intermediate"
+    ]
+  },
+  {
+    "id": 62,
+    "category": "Places",
+    "frontside": "Kiosk",
+    "backside": "નાનો સ્ટોલ / કેબિન જ્યાં વસ્તુ વેચાય.",
+    "pronunciation": "કિઓસ્ક",
+    "part_of_speech": "noun",
+    "difficulty": "Advanced",
+    "example": "I bought a magazine from the kiosk.",
+    "tags": [
+      "Places",
+      "Shops_&_Services",
+      "Advanced"
+    ]
+  },
+  {
+    "id": 63,
+    "category": "Places",
+    "frontside": "Outlet",
+    "backside": "દુકાન / વેચાણકેન્દ્ર (ખાસ બ્રાન્ડનું).",
+    "pronunciation": "આઉટલેટ",
+    "part_of_speech": "noun",
+    "difficulty": "Intermediate",
+    "example": "There's a new outlet of that brand in the mall.",
+    "tags": [
+      "Places",
+      "Shops_&_Services",
+      "Intermediate"
+    ]
+  },
+  {
+    "id": 64,
+    "category": "Places",
+    "frontside": "Branch",
+    "backside": "મોટી કંપનીની સ્થાનિક ઓફિસ / શાખા.",
+    "pronunciation": "બ્રાન્ચ",
+    "part_of_speech": "noun",
+    "difficulty": "Intermediate",
+    "example": "I opened an account at the local bank branch.",
+    "tags": [
+      "Places",
+      "Shops_&_Services",
+      "Intermediate"
+    ]
+  },
+  {
+    "id": 65,
+    "category": "Places",
+    "frontside": "Warehouse",
+    "backside": "સામાન સંગ્રહવાનું મોટું ગોદામ.",
+    "pronunciation": "વેરહાઉસ",
+    "part_of_speech": "noun",
+    "difficulty": "Intermediate",
+    "example": "The goods are kept in a large warehouse.",
+    "tags": [
+      "Places",
+      "Shops_&_Services",
+      "Intermediate"
+    ]
+  },
+  {
+    "id": 66,
+    "category": "Places",
+    "frontside": "Boutique",
+    "backside": "નાની, ફેશનેબલ દુકાન.",
+    "pronunciation": "બૂટિક",
+    "part_of_speech": "noun",
+    "difficulty": "Advanced",
+    "example": "She bought a dress from a designer boutique.",
+    "tags": [
+      "Places",
+      "Shops_&_Services",
+      "Advanced"
+    ]
+  },
+  {
+    "id": 67,
+    "category": "Places",
+    "frontside": "Grocer's",
+    "backside": "કરિયાણાની દુકાન.",
+    "pronunciation": "ગ્રોસર્સ",
+    "part_of_speech": "noun",
+    "difficulty": "Intermediate",
+    "example": "I'm going to the grocer's for some milk.",
+    "tags": [
+      "Places",
+      "Shops_&_Services",
+      "Intermediate"
+    ]
+  },
+  {
+    "id": 68,
+    "category": "Places",
+    "frontside": "Bustling",
+    "backside": "ધમધમતું, ભીડભાડ અને ચહલપહલવાળું.",
+    "pronunciation": "બસલિંગ",
+    "part_of_speech": "adjective",
+    "difficulty": "Advanced",
+    "example": "The market was bustling with shoppers.",
+    "tags": [
+      "Places",
+      "Describing_Places",
+      "Advanced"
+    ]
+  },
+  {
+    "id": 69,
+    "category": "Places",
+    "frontside": "Quaint",
+    "backside": "જૂની ઢબનું છતાં આકર્ષક / મનમોહક.",
+    "pronunciation": "ક્વેઇન્ટ",
+    "part_of_speech": "adjective",
+    "difficulty": "Advanced",
+    "example": "They stayed in a quaint little village.",
+    "tags": [
+      "Places",
+      "Describing_Places",
+      "Advanced"
+    ]
+  },
+  {
+    "id": 70,
+    "category": "Places",
+    "frontside": "Picturesque",
+    "backside": "ચિત્ર જેવું સુંદર / રમણીય (ખાસ દૃશ્ય).",
+    "pronunciation": "પિક્ચરેસ્ક",
+    "part_of_speech": "adjective",
+    "difficulty": "Advanced",
+    "example": "The village sits in a picturesque valley.",
+    "tags": [
+      "Places",
+      "Describing_Places",
+      "Advanced"
+    ]
+  },
+  {
+    "id": 71,
+    "category": "Places",
+    "frontside": "Secluded",
+    "backside": "એકાંત, લોકોથી દૂર અને શાંત.",
+    "pronunciation": "સિક્લૂડેડ",
+    "part_of_speech": "adjective",
+    "difficulty": "Advanced",
+    "example": "We found a secluded beach with no crowds.",
+    "tags": [
+      "Places",
+      "Describing_Places",
+      "Advanced"
+    ]
+  },
+  {
+    "id": 72,
+    "category": "Places",
+    "frontside": "Run-down",
+    "backside": "જર્જરિત, બિસ્માર હાલતમાં.",
+    "pronunciation": "રન-ડાઉન",
+    "part_of_speech": "adjective",
+    "difficulty": "Intermediate",
+    "example": "They bought a run-down house and repaired it.",
+    "tags": [
+      "Places",
+      "Describing_Places",
+      "Intermediate"
+    ]
+  },
+  {
+    "id": 73,
+    "category": "Places",
+    "frontside": "Spacious",
+    "backside": "વિશાળ, પૂરતી જગ્યાવાળું.",
+    "pronunciation": "સ્પેશિયસ",
+    "part_of_speech": "adjective",
+    "difficulty": "Intermediate",
+    "example": "The new flat is bright and spacious.",
+    "tags": [
+      "Places",
+      "Describing_Places",
+      "Intermediate"
+    ]
+  },
+  {
+    "id": 74,
+    "category": "Places",
+    "frontside": "Deserted",
+    "backside": "સૂનું, માણસો વગરનું / નિર્જન.",
+    "pronunciation": "ડિઝર્ટેડ",
+    "part_of_speech": "adjective",
+    "difficulty": "Intermediate",
+    "example": "The streets were deserted late at night.",
+    "tags": [
+      "Places",
+      "Describing_Places",
+      "Intermediate"
+    ]
+  },
+  {
+    "id": 75,
+    "category": "Places",
+    "frontside": "A stone's throw away",
+    "backside": "તદ્દન નજીક / હાથવેંતમાં.",
+    "pronunciation": "એ સ્ટોન્સ થ્રો અવે",
+    "part_of_speech": "phrase",
+    "difficulty": "Advanced",
+    "example": "The beach is just a stone's throw away from our hotel.",
+    "tags": [
+      "Places",
+      "Location_Phrases",
+      "Advanced"
+    ]
+  },
+  {
+    "id": 76,
+    "category": "Places",
+    "frontside": "Off the beaten track",
+    "backside": "મુખ્ય રસ્તાથી દૂર, અજાણ્યું એકાંત સ્થળ.",
+    "pronunciation": "ઑફ ધ બીટન ટ્રેક",
+    "part_of_speech": "phrase",
+    "difficulty": "Advanced",
+    "example": "We like holidays off the beaten track.",
+    "tags": [
+      "Places",
+      "Location_Phrases",
+      "Advanced"
+    ]
+  },
+  {
+    "id": 77,
+    "category": "Places",
+    "frontside": "In the heart of",
+    "backside": "ના બરાબર મધ્યમાં / કેન્દ્રમાં.",
+    "pronunciation": "ઇન ધ હાર્ટ ઑફ",
+    "part_of_speech": "phrase",
+    "difficulty": "Intermediate",
+    "example": "The hotel is in the heart of the city.",
+    "tags": [
+      "Places",
+      "Location_Phrases",
+      "Intermediate"
+    ]
+  },
+  {
+    "id": 78,
+    "category": "Places",
+    "frontside": "Within walking distance",
+    "backside": "ચાલીને પહોંચાય એટલું નજીક.",
+    "pronunciation": "વિધિન વોકિંગ ડિસ્ટન્સ",
+    "part_of_speech": "phrase",
+    "difficulty": "Intermediate",
+    "example": "The market is within walking distance of my house.",
+    "tags": [
+      "Places",
+      "Location_Phrases",
+      "Intermediate"
+    ]
+  },
+  {
+    "id": 79,
+    "category": "Places",
+    "frontside": "Miles from anywhere",
+    "backside": "દરેક વસ્તીથી દૂર, અતિ દૂરનું.",
+    "pronunciation": "માઇલ્સ ફ્રોમ એનીવ્હેર",
+    "part_of_speech": "phrase",
+    "difficulty": "Advanced",
+    "example": "Their farmhouse is miles from anywhere.",
+    "tags": [
+      "Places",
+      "Location_Phrases",
+      "Advanced"
+    ]
+  },
+  {
+    "id": 80,
+    "category": "Places",
+    "frontside": "On the doorstep",
+    "backside": "બારણા આગળ જ / એકદમ નજીક.",
+    "pronunciation": "ઑન ધ ડોરસ્ટેપ",
+    "part_of_speech": "phrase",
+    "difficulty": "Advanced",
+    "example": "We have a beautiful park right on our doorstep.",
+    "tags": [
+      "Places",
+      "Location_Phrases",
+      "Advanced"
+    ]
+  },
+  {
+    "id": 81,
+    "category": "Picnic / Outing",
+    "frontside": "Outing",
+    "backside": "મોજમજા માટેની ટૂંકી સહેલ / ફરવા જવાનું.",
+    "pronunciation": "આઉટિંગ",
+    "part_of_speech": "noun",
+    "difficulty": "Intermediate",
+    "example": "We went on a family outing to the lake.",
+    "tags": [
+      "Picnic_Outing",
+      "Planning_the_Outing",
+      "Intermediate"
+    ]
+  },
+  {
+    "id": 82,
+    "category": "Picnic / Outing",
+    "frontside": "Getaway",
+    "backside": "રોજિંદી ભાગદોડથી દૂર ટૂંકું વેકેશન / છૂટકારો.",
+    "pronunciation": "ગેટઅવે",
+    "part_of_speech": "noun",
+    "difficulty": "Advanced",
+    "example": "We booked a weekend getaway to the hills.",
+    "tags": [
+      "Picnic_Outing",
+      "Planning_the_Outing",
+      "Advanced"
+    ]
+  },
+  {
+    "id": 83,
+    "category": "Picnic / Outing",
+    "frontside": "Excursion",
+    "backside": "આયોજિત ટૂંકી સફર / સહેલ.",
+    "pronunciation": "ઇક્સ્કર્ઝન",
+    "part_of_speech": "noun",
+    "difficulty": "Advanced",
+    "example": "The hotel offers excursions to nearby villages.",
+    "tags": [
+      "Picnic_Outing",
+      "Planning_the_Outing",
+      "Advanced"
+    ]
+  },
+  {
+    "id": 84,
+    "category": "Picnic / Outing",
+    "frontside": "Day trip",
+    "backside": "એક જ દિવસમાં પૂરી થતી સફર.",
+    "pronunciation": "ડે ટ્રિપ",
+    "part_of_speech": "noun",
+    "difficulty": "Intermediate",
+    "example": "We took a day trip to the beach.",
+    "tags": [
+      "Picnic_Outing",
+      "Planning_the_Outing",
+      "Intermediate"
+    ]
+  },
+  {
+    "id": 85,
+    "category": "Picnic / Outing",
+    "frontside": "Itinerary",
+    "backside": "પ્રવાસનો આયોજિત માર્ગ / કાર્યક્રમ.",
+    "pronunciation": "આઇટિનરરી",
+    "part_of_speech": "noun",
+    "difficulty": "Advanced",
+    "example": "Our itinerary includes three cities in five days.",
+    "tags": [
+      "Picnic_Outing",
+      "Planning_the_Outing",
+      "Advanced"
+    ]
+  },
+  {
+    "id": 86,
+    "category": "Picnic / Outing",
+    "frontside": "Venue",
+    "backside": "કોઈ કાર્યક્રમ / મેળાવડો યોજાય તે સ્થળ.",
+    "pronunciation": "વેન્યૂ",
+    "part_of_speech": "noun",
+    "difficulty": "Intermediate",
+    "example": "The park is a great venue for a picnic.",
+    "tags": [
+      "Picnic_Outing",
+      "Planning_the_Outing",
+      "Intermediate"
+    ]
+  },
+  {
+    "id": 87,
+    "category": "Picnic / Outing",
+    "frontside": "Gathering",
+    "backside": "લોકોનો મેળાવડો / ભેગા થવું.",
+    "pronunciation": "ગેધરિંગ",
+    "part_of_speech": "noun",
+    "difficulty": "Intermediate",
+    "example": "We had a small family gathering in the garden.",
+    "tags": [
+      "Picnic_Outing",
+      "Planning_the_Outing",
+      "Intermediate"
+    ]
+  },
+  {
+    "id": 88,
+    "category": "Picnic / Outing",
+    "frontside": "Hamper",
+    "backside": "પિકનિક માટે ખાવાનું ભરેલી ઢાંકણાવાળી ટોપલી.",
+    "pronunciation": "હેમ્પર",
+    "part_of_speech": "noun",
+    "difficulty": "Advanced",
+    "example": "She packed sandwiches into the picnic hamper.",
+    "tags": [
+      "Picnic_Outing",
+      "Picnic_Essentials",
+      "Advanced"
+    ]
+  },
+  {
+    "id": 89,
+    "category": "Picnic / Outing",
+    "frontside": "Picnic rug",
+    "backside": "જમીન પર બેસવા માટેનું પાથરણું / ચાદર.",
+    "pronunciation": "પિકનિક રગ",
+    "part_of_speech": "noun",
+    "difficulty": "Intermediate",
+    "example": "We spread the picnic rug under a tree.",
+    "tags": [
+      "Picnic_Outing",
+      "Picnic_Essentials",
+      "Intermediate"
+    ]
+  },
+  {
+    "id": 90,
+    "category": "Picnic / Outing",
+    "frontside": "Flask",
+    "backside": "પીણું ગરમ કે ઠંડું રાખવાનું પાત્ર / થર્મોસ.",
+    "pronunciation": "ફ્લાસ્ક",
+    "part_of_speech": "noun",
+    "difficulty": "Intermediate",
+    "example": "I filled a flask with hot tea for the trip.",
+    "tags": [
+      "Picnic_Outing",
+      "Picnic_Essentials",
+      "Intermediate"
+    ]
+  },
+  {
+    "id": 91,
+    "category": "Picnic / Outing",
+    "frontside": "Cutlery",
+    "backside": "છરી, કાંટો, ચમચી વગેરે જમવાનાં સાધનો.",
+    "pronunciation": "કટલરી",
+    "part_of_speech": "noun",
+    "difficulty": "Intermediate",
+    "example": "Pack some cutlery for the picnic.",
+    "tags": [
+      "Picnic_Outing",
+      "Picnic_Essentials",
+      "Intermediate"
+    ]
+  },
+  {
+    "id": 92,
+    "category": "Picnic / Outing",
+    "frontside": "Refreshments",
+    "backside": "હળવો નાસ્તો અને પીણાં.",
+    "pronunciation": "રિફ્રેશમેન્ટ્સ",
+    "part_of_speech": "noun",
+    "difficulty": "Advanced",
+    "example": "Light refreshments were served at the picnic.",
+    "tags": [
+      "Picnic_Outing",
+      "Picnic_Essentials",
+      "Advanced"
+    ]
+  },
+  {
+    "id": 93,
+    "category": "Picnic / Outing",
+    "frontside": "Leftovers",
+    "backside": "જમ્યા પછી વધેલું ખાવાનું.",
+    "pronunciation": "લેફ્ટઓવર્સ",
+    "part_of_speech": "noun",
+    "difficulty": "Intermediate",
+    "example": "We packed the leftovers to take home.",
+    "tags": [
+      "Picnic_Outing",
+      "Picnic_Essentials",
+      "Intermediate"
+    ]
+  },
+  {
+    "id": 94,
+    "category": "Picnic / Outing",
+    "frontside": "Disposable",
+    "backside": "એક વાર વાપરીને ફેંકી દેવાય એવું.",
+    "pronunciation": "ડિસ્પોઝેબલ",
+    "part_of_speech": "adjective",
+    "difficulty": "Intermediate",
+    "example": "We used disposable plates at the picnic.",
+    "tags": [
+      "Picnic_Outing",
+      "Picnic_Essentials",
+      "Intermediate"
+    ]
+  },
+  {
+    "id": 95,
+    "category": "Picnic / Outing",
+    "frontside": "Meadow",
+    "backside": "ઘાસ અને ફૂલોવાળું ખુલ્લું મેદાન.",
+    "pronunciation": "મેડો",
+    "part_of_speech": "noun",
+    "difficulty": "Advanced",
+    "example": "We had our picnic in a flower-filled meadow.",
+    "tags": [
+      "Picnic_Outing",
+      "The_Outdoor_Setting",
+      "Advanced"
+    ]
+  },
+  {
+    "id": 96,
+    "category": "Picnic / Outing",
+    "frontside": "Riverbank",
+    "backside": "નદીકાંઠાની જમીન / કિનારો.",
+    "pronunciation": "રિવરબેંક",
+    "part_of_speech": "noun",
+    "difficulty": "Intermediate",
+    "example": "We sat on the riverbank and ate lunch.",
+    "tags": [
+      "Picnic_Outing",
+      "The_Outdoor_Setting",
+      "Intermediate"
+    ]
+  },
+  {
+    "id": 97,
+    "category": "Picnic / Outing",
+    "frontside": "Clearing",
+    "backside": "જંગલ વચ્ચેની ખુલ્લી જગ્યા.",
+    "pronunciation": "ક્લિયરિંગ",
+    "part_of_speech": "noun",
+    "difficulty": "Advanced",
+    "example": "We set up the picnic in a sunny clearing.",
+    "tags": [
+      "Picnic_Outing",
+      "The_Outdoor_Setting",
+      "Advanced"
+    ]
+  },
+  {
+    "id": 98,
+    "category": "Picnic / Outing",
+    "frontside": "Shade",
+    "backside": "તડકાથી બચાવતી છાંયડી.",
+    "pronunciation": "શેડ",
+    "part_of_speech": "noun",
+    "difficulty": "Intermediate",
+    "example": "We sat in the shade of a big tree.",
+    "tags": [
+      "Picnic_Outing",
+      "The_Outdoor_Setting",
+      "Intermediate"
+    ]
+  },
+  {
+    "id": 99,
+    "category": "Picnic / Outing",
+    "frontside": "Lawn",
+    "backside": "સરસ રીતે કાપેલા ઘાસનું મેદાન.",
+    "pronunciation": "લોન",
+    "part_of_speech": "noun",
+    "difficulty": "Intermediate",
+    "example": "We laid the rug on the soft lawn.",
+    "tags": [
+      "Picnic_Outing",
+      "The_Outdoor_Setting",
+      "Intermediate"
+    ]
+  },
+  {
+    "id": 100,
+    "category": "Picnic / Outing",
+    "frontside": "Grove",
+    "backside": "ઝાડનો નાનો સમૂહ / ઝાડી.",
+    "pronunciation": "ગ્રોવ",
+    "part_of_speech": "noun",
+    "difficulty": "Advanced",
+    "example": "We rested in a cool mango grove.",
+    "tags": [
+      "Picnic_Outing",
+      "The_Outdoor_Setting",
+      "Advanced"
+    ]
+  },
+  {
+    "id": 101,
+    "category": "Picnic / Outing",
+    "frontside": "Trail",
+    "backside": "કુદરત વચ્ચેથી પસાર થતી પગદંડી / કેડી.",
+    "pronunciation": "ટ્રેઇલ",
+    "part_of_speech": "noun",
+    "difficulty": "Intermediate",
+    "example": "We followed a nature trail through the woods.",
+    "tags": [
+      "Picnic_Outing",
+      "The_Outdoor_Setting",
+      "Intermediate"
+    ]
+  },
+  {
+    "id": 102,
+    "category": "Picnic / Outing",
+    "frontside": "Stroll",
+    "backside": "નિરાંતે, આરામથી ચાલવું / લટાર મારવી.",
+    "pronunciation": "સ્ટ્રોલ",
+    "part_of_speech": "verb/noun",
+    "difficulty": "Intermediate",
+    "example": "We went for a stroll along the river.",
+    "tags": [
+      "Picnic_Outing",
+      "Activities_&_Fun",
+      "Intermediate"
+    ]
+  },
+  {
+    "id": 103,
+    "category": "Picnic / Outing",
+    "frontside": "Wander",
+    "backside": "કોઈ નક્કી માર્ગ વગર આમતેમ ફરવું.",
+    "pronunciation": "વોન્ડર",
+    "part_of_speech": "verb",
+    "difficulty": "Intermediate",
+    "example": "We wandered around the old town for hours.",
+    "tags": [
+      "Picnic_Outing",
+      "Activities_&_Fun",
+      "Intermediate"
+    ]
+  },
+  {
+    "id": 104,
+    "category": "Picnic / Outing",
+    "frontside": "Sightseeing",
+    "backside": "પ્રેક્ષણીય સ્થળો જોવા જવું.",
+    "pronunciation": "સાઇટસીઇંગ",
+    "part_of_speech": "noun",
+    "difficulty": "Intermediate",
+    "example": "We spent the morning sightseeing in the city.",
+    "tags": [
+      "Picnic_Outing",
+      "Activities_&_Fun",
+      "Intermediate"
+    ]
+  },
+  {
+    "id": 105,
+    "category": "Picnic / Outing",
+    "frontside": "Unwind",
+    "backside": "તણાવ ભૂલીને હળવા થવું / આરામ કરવો.",
+    "pronunciation": "અનવાઇન્ડ",
+    "part_of_speech": "verb",
+    "difficulty": "Advanced",
+    "example": "A day in nature helps me unwind.",
+    "tags": [
+      "Picnic_Outing",
+      "Activities_&_Fun",
+      "Advanced"
+    ]
+  },
+  {
+    "id": 106,
+    "category": "Picnic / Outing",
+    "frontside": "Barbecue",
+    "backside": "ખુલ્લામાં શેકીને જમવાનો કાર્યક્રમ / શેકેલું ભોજન.",
+    "pronunciation": "બાર્બેક્યૂ",
+    "part_of_speech": "noun/verb",
+    "difficulty": "Intermediate",
+    "example": "We had a barbecue in the backyard.",
+    "tags": [
+      "Picnic_Outing",
+      "Activities_&_Fun",
+      "Intermediate"
+    ]
+  },
+  {
+    "id": 107,
+    "category": "Picnic / Outing",
+    "frontside": "Hike",
+    "backside": "કુદરતમાં લાંબી પગપાળા સફર.",
+    "pronunciation": "હાઇક",
+    "part_of_speech": "noun/verb",
+    "difficulty": "Intermediate",
+    "example": "We went for a hike up the hill.",
+    "tags": [
+      "Picnic_Outing",
+      "Activities_&_Fun",
+      "Intermediate"
+    ]
+  },
+  {
+    "id": 108,
+    "category": "Picnic / Outing",
+    "frontside": "Lounge",
+    "backside": "આળસથી પડ્યા રહીને આરામ કરવો.",
+    "pronunciation": "લાઉન્જ",
+    "part_of_speech": "verb",
+    "difficulty": "Advanced",
+    "example": "We lounged on the grass after lunch.",
+    "tags": [
+      "Picnic_Outing",
+      "Activities_&_Fun",
+      "Advanced"
+    ]
+  },
+  {
+    "id": 109,
+    "category": "Picnic / Outing",
+    "frontside": "Overcast",
+    "backside": "વાદળછાયું, સૂર્ય વગરનું આકાશ.",
+    "pronunciation": "ઓવરકાસ્ટ",
+    "part_of_speech": "adjective",
+    "difficulty": "Advanced",
+    "example": "The sky was overcast, so we took umbrellas.",
+    "tags": [
+      "Picnic_Outing",
+      "Weather_&_Conditions",
+      "Advanced"
+    ]
+  },
+  {
+    "id": 110,
+    "category": "Picnic / Outing",
+    "frontside": "Breeze",
+    "backside": "હળવો, ઠંડો પવન.",
+    "pronunciation": "બ્રીઝ",
+    "part_of_speech": "noun",
+    "difficulty": "Intermediate",
+    "example": "A cool breeze made the picnic pleasant.",
+    "tags": [
+      "Picnic_Outing",
+      "Weather_&_Conditions",
+      "Intermediate"
+    ]
+  },
+  {
+    "id": 111,
+    "category": "Picnic / Outing",
+    "frontside": "Drizzle",
+    "backside": "ઝરમર / હળવો વરસાદ.",
+    "pronunciation": "ડ્રિઝલ",
+    "part_of_speech": "noun/verb",
+    "difficulty": "Intermediate",
+    "example": "A light drizzle began as we ate.",
+    "tags": [
+      "Picnic_Outing",
+      "Weather_&_Conditions",
+      "Intermediate"
+    ]
+  },
+  {
+    "id": 112,
+    "category": "Picnic / Outing",
+    "frontside": "Scorching",
+    "backside": "અતિશય ગરમ, બાળી નાખે એવો તડકો.",
+    "pronunciation": "સ્કોર્ચિંગ",
+    "part_of_speech": "adjective",
+    "difficulty": "Advanced",
+    "example": "It was a scorching day, so we stayed in the shade.",
+    "tags": [
+      "Picnic_Outing",
+      "Weather_&_Conditions",
+      "Advanced"
+    ]
+  },
+  {
+    "id": 113,
+    "category": "Picnic / Outing",
+    "frontside": "Humid",
+    "backside": "ભેજવાળું, ચીકાશભર્યું વાતાવરણ.",
+    "pronunciation": "હ્યૂમિડ",
+    "part_of_speech": "adjective",
+    "difficulty": "Intermediate",
+    "example": "The weather was hot and humid.",
+    "tags": [
+      "Picnic_Outing",
+      "Weather_&_Conditions",
+      "Intermediate"
+    ]
+  },
+  {
+    "id": 114,
+    "category": "Picnic / Outing",
+    "frontside": "Pleasant",
+    "backside": "સુખદ, સરસ (વાતાવરણ).",
+    "pronunciation": "પ્લેઝન્ટ",
+    "part_of_speech": "adjective",
+    "difficulty": "Intermediate",
+    "example": "The weather was pleasant for a picnic.",
+    "tags": [
+      "Picnic_Outing",
+      "Weather_&_Conditions",
+      "Intermediate"
+    ]
+  },
+  {
+    "id": 115,
+    "category": "Picnic / Outing",
+    "frontside": "In the open air",
+    "backside": "ખુલ્લી હવામાં / બહાર, મકાનની બહાર.",
+    "pronunciation": "ઇન ધ ઓપન એર",
+    "part_of_speech": "phrase",
+    "difficulty": "Intermediate",
+    "example": "Eating in the open air feels wonderful.",
+    "tags": [
+      "Picnic_Outing",
+      "Describing_the_Experience",
+      "Intermediate"
+    ]
+  },
+  {
+    "id": 116,
+    "category": "Picnic / Outing",
+    "frontside": "Make the most of",
+    "backside": "તકનો પૂરેપૂરો લાભ લેવો.",
+    "pronunciation": "મેક ધ મોસ્ટ ઑફ",
+    "part_of_speech": "phrase",
+    "difficulty": "Advanced",
+    "example": "Let's make the most of this sunny day.",
+    "tags": [
+      "Picnic_Outing",
+      "Describing_the_Experience",
+      "Advanced"
+    ]
+  },
+  {
+    "id": 117,
+    "category": "Picnic / Outing",
+    "frontside": "A change of scenery",
+    "backside": "વાતાવરણ / સ્થળ બદલવાથી મળતી તાજગી.",
+    "pronunciation": "એ ચેન્જ ઑફ સીનરી",
+    "part_of_speech": "phrase",
+    "difficulty": "Advanced",
+    "example": "A picnic gives us a nice change of scenery.",
+    "tags": [
+      "Picnic_Outing",
+      "Describing_the_Experience",
+      "Advanced"
+    ]
+  },
+  {
+    "id": 118,
+    "category": "Picnic / Outing",
+    "frontside": "Picture-perfect",
+    "backside": "ચિત્ર જેવું તદ્દન સંપૂર્ણ અને સુંદર.",
+    "pronunciation": "પિક્ચર-પર્ફેક્ટ",
+    "part_of_speech": "adjective",
+    "difficulty": "Advanced",
+    "example": "We found a picture-perfect spot for the picnic.",
+    "tags": [
+      "Picnic_Outing",
+      "Describing_the_Experience",
+      "Advanced"
+    ]
+  },
+  {
+    "id": 119,
+    "category": "Picnic / Outing",
+    "frontside": "Laid-back",
+    "backside": "શાંત, નિરાંતભર્યું, બેફિકર.",
+    "pronunciation": "લેઇડ-બેક",
+    "part_of_speech": "adjective",
+    "difficulty": "Advanced",
+    "example": "The picnic had a lovely laid-back feel.",
+    "tags": [
+      "Picnic_Outing",
+      "Describing_the_Experience",
+      "Advanced"
+    ]
+  },
+  {
+    "id": 120,
+    "category": "Picnic / Outing",
+    "frontside": "Breathtaking",
+    "backside": "શ્વાસ થંભાવી દે એવું અતિ સુંદર / અદ્ભુત.",
+    "pronunciation": "બ્રેથટેકિંગ",
+    "part_of_speech": "adjective",
+    "difficulty": "Advanced",
+    "example": "The view from the hilltop was breathtaking.",
+    "tags": [
+      "Picnic_Outing",
+      "Describing_the_Experience",
+      "Advanced"
+    ]
+  },
+  {
+    "id": 121,
+    "category": "Food & Eating",
+    "frontside": "Savoury",
+    "backside": "મીઠું/તીખું (ગળ્યું નહિ) સ્વાદવાળું.",
+    "pronunciation": "સેવરી",
+    "part_of_speech": "adjective",
+    "difficulty": "Advanced",
+    "example": "I prefer savoury snacks to sweets.",
+    "tags": [
+      "Food_&_Eating",
+      "Taste_&_Flavour",
+      "Advanced"
+    ]
+  },
+  {
+    "id": 122,
+    "category": "Food & Eating",
+    "frontside": "Bland",
+    "backside": "સ્વાદ વગરનું, ફિક્કું.",
+    "pronunciation": "બ્લેન્ડ",
+    "part_of_speech": "adjective",
+    "difficulty": "Intermediate",
+    "example": "The soup was bland and needed salt.",
+    "tags": [
+      "Food_&_Eating",
+      "Taste_&_Flavour",
+      "Intermediate"
+    ]
+  },
+  {
+    "id": 123,
+    "category": "Food & Eating",
+    "frontside": "Tangy",
+    "backside": "તીખાશભર્યો, ખટમધુરો સ્વાદ.",
+    "pronunciation": "ટેંગી",
+    "part_of_speech": "adjective",
+    "difficulty": "Advanced",
+    "example": "The tangy lemon dressing was delicious.",
+    "tags": [
+      "Food_&_Eating",
+      "Taste_&_Flavour",
+      "Advanced"
+    ]
+  },
+  {
+    "id": 124,
+    "category": "Food & Eating",
+    "frontside": "Mouth-watering",
+    "backside": "મોઢામાં પાણી લાવી દે એવું સ્વાદિષ્ટ.",
+    "pronunciation": "માઉથ-વોટરિંગ",
+    "part_of_speech": "adjective",
+    "difficulty": "Intermediate",
+    "example": "The mouth-watering smell of biryani filled the house.",
+    "tags": [
+      "Food_&_Eating",
+      "Taste_&_Flavour",
+      "Intermediate"
+    ]
+  },
+  {
+    "id": 125,
+    "category": "Food & Eating",
+    "frontside": "Rich",
+    "backside": "ઘી/ક્રીમ/ખાંડથી ભરપૂર, ભારે.",
+    "pronunciation": "રિચ",
+    "part_of_speech": "adjective",
+    "difficulty": "Intermediate",
+    "example": "The chocolate cake was very rich.",
+    "tags": [
+      "Food_&_Eating",
+      "Taste_&_Flavour",
+      "Intermediate"
+    ]
+  },
+  {
+    "id": 126,
+    "category": "Food & Eating",
+    "frontside": "Stale",
+    "backside": "વાસી, તાજું ન રહેલું.",
+    "pronunciation": "સ્ટેઇલ",
+    "part_of_speech": "adjective",
+    "difficulty": "Intermediate",
+    "example": "The bread had gone stale.",
+    "tags": [
+      "Food_&_Eating",
+      "Taste_&_Flavour",
+      "Intermediate"
+    ]
+  },
+  {
+    "id": 127,
+    "category": "Food & Eating",
+    "frontside": "Zesty",
+    "backside": "તાજગીભર્યો, લીંબુ જેવો ચટપટો સ્વાદ.",
+    "pronunciation": "ઝેસ્ટી",
+    "part_of_speech": "adjective",
+    "difficulty": "Advanced",
+    "example": "The salad had a zesty lime dressing.",
+    "tags": [
+      "Food_&_Eating",
+      "Taste_&_Flavour",
+      "Advanced"
+    ]
+  },
+  {
+    "id": 128,
+    "category": "Food & Eating",
+    "frontside": "Simmer",
+    "backside": "ધીમા તાપે ઉકાળવું (ઉકળતા પહેલાંના તાપે).",
+    "pronunciation": "સિમર",
+    "part_of_speech": "verb",
+    "difficulty": "Advanced",
+    "example": "Let the curry simmer for twenty minutes.",
+    "tags": [
+      "Food_&_Eating",
+      "Cooking_&_Preparation",
+      "Advanced"
+    ]
+  },
+  {
+    "id": 129,
+    "category": "Food & Eating",
+    "frontside": "Sauté",
+    "backside": "થોડા તેલમાં ઝડપથી તળવું / સાંતળવું.",
+    "pronunciation": "સોટે",
+    "part_of_speech": "verb",
+    "difficulty": "Advanced",
+    "example": "Sauté the onions until golden.",
+    "tags": [
+      "Food_&_Eating",
+      "Cooking_&_Preparation",
+      "Advanced"
+    ]
+  },
+  {
+    "id": 130,
+    "category": "Food & Eating",
+    "frontside": "Marinate",
+    "backside": "મસાલાવાળા પ્રવાહીમાં પલાળી રાખવું.",
+    "pronunciation": "મેરિનેટ",
+    "part_of_speech": "verb",
+    "difficulty": "Advanced",
+    "example": "Marinate the chicken overnight for best flavour.",
+    "tags": [
+      "Food_&_Eating",
+      "Cooking_&_Preparation",
+      "Advanced"
+    ]
+  },
+  {
+    "id": 131,
+    "category": "Food & Eating",
+    "frontside": "Whisk",
+    "backside": "ઝડપથી ફીણવું / ફેંટવું (ઈંડા/ક્રીમ).",
+    "pronunciation": "વ્હિસ્ક",
+    "part_of_speech": "verb",
+    "difficulty": "Intermediate",
+    "example": "Whisk the eggs until fluffy.",
+    "tags": [
+      "Food_&_Eating",
+      "Cooking_&_Preparation",
+      "Intermediate"
+    ]
+  },
+  {
+    "id": 132,
+    "category": "Food & Eating",
+    "frontside": "Knead",
+    "backside": "લોટ/કણક હાથથી મસળવું.",
+    "pronunciation": "નીડ",
+    "part_of_speech": "verb",
+    "difficulty": "Intermediate",
+    "example": "Knead the dough for ten minutes.",
+    "tags": [
+      "Food_&_Eating",
+      "Cooking_&_Preparation",
+      "Intermediate"
+    ]
+  },
+  {
+    "id": 133,
+    "category": "Food & Eating",
+    "frontside": "Season",
+    "backside": "મીઠું-મસાલા ઉમેરવા.",
+    "pronunciation": "સીઝન",
+    "part_of_speech": "verb",
+    "difficulty": "Intermediate",
+    "example": "Season the soup with salt and pepper.",
+    "tags": [
+      "Food_&_Eating",
+      "Cooking_&_Preparation",
+      "Intermediate"
+    ]
+  },
+  {
+    "id": 134,
+    "category": "Food & Eating",
+    "frontside": "Garnish",
+    "backside": "સજાવટ માટે ઉપર પાથરવું / શણગારવું.",
+    "pronunciation": "ગાર્નિશ",
+    "part_of_speech": "verb/noun",
+    "difficulty": "Advanced",
+    "example": "Garnish the dish with fresh coriander.",
+    "tags": [
+      "Food_&_Eating",
+      "Cooking_&_Preparation",
+      "Advanced"
+    ]
+  },
+  {
+    "id": 135,
+    "category": "Food & Eating",
+    "frontside": "Cuisine",
+    "backside": "કોઈ પ્રદેશ/સંસ્કૃતિની રસોઈ-શૈલી.",
+    "pronunciation": "ક્વિઝીન",
+    "part_of_speech": "noun",
+    "difficulty": "Advanced",
+    "example": "I love Italian cuisine.",
+    "tags": [
+      "Food_&_Eating",
+      "Eating_Out",
+      "Advanced"
+    ]
+  },
+  {
+    "id": 136,
+    "category": "Food & Eating",
+    "frontside": "Appetiser",
+    "backside": "મુખ્ય ભોજન પહેલાંની હળવી વાનગી / સ્ટાર્ટર.",
+    "pronunciation": "એપિટાઇઝર",
+    "part_of_speech": "noun",
+    "difficulty": "Intermediate",
+    "example": "We shared an appetiser before the meal.",
+    "tags": [
+      "Food_&_Eating",
+      "Eating_Out",
+      "Intermediate"
+    ]
+  },
+  {
+    "id": 137,
+    "category": "Food & Eating",
+    "frontside": "Main course",
+    "backside": "ભોજનની મુખ્ય વાનગી.",
+    "pronunciation": "મેઇન કોર્સ",
+    "part_of_speech": "noun",
+    "difficulty": "Intermediate",
+    "example": "For the main course, I had grilled fish.",
+    "tags": [
+      "Food_&_Eating",
+      "Eating_Out",
+      "Intermediate"
+    ]
+  },
+  {
+    "id": 138,
+    "category": "Food & Eating",
+    "frontside": "Beverage",
+    "backside": "પીણું.",
+    "pronunciation": "બેવરિજ",
+    "part_of_speech": "noun",
+    "difficulty": "Advanced",
+    "example": "Would you like a hot beverage?",
+    "tags": [
+      "Food_&_Eating",
+      "Eating_Out",
+      "Advanced"
+    ]
+  },
+  {
+    "id": 139,
+    "category": "Food & Eating",
+    "frontside": "The bill",
+    "backside": "ભોજનનું બિલ / હિસાબ.",
+    "pronunciation": "ધ બિલ",
+    "part_of_speech": "noun",
+    "difficulty": "Intermediate",
+    "example": "Could we have the bill, please?",
+    "tags": [
+      "Food_&_Eating",
+      "Eating_Out",
+      "Intermediate"
+    ]
+  },
+  {
+    "id": 140,
+    "category": "Food & Eating",
+    "frontside": "Tip",
+    "backside": "સેવા બદલ અપાતી બક્ષિસ.",
+    "pronunciation": "ટિપ",
+    "part_of_speech": "noun/verb",
+    "difficulty": "Intermediate",
+    "example": "We left a generous tip for the waiter.",
+    "tags": [
+      "Food_&_Eating",
+      "Eating_Out",
+      "Intermediate"
+    ]
+  },
+  {
+    "id": 141,
+    "category": "Food & Eating",
+    "frontside": "Reservation",
+    "backside": "ટેબલ/જગ્યા અગાઉથી બુક કરાવવી.",
+    "pronunciation": "રિઝર્વેશન",
+    "part_of_speech": "noun",
+    "difficulty": "Intermediate",
+    "example": "I made a reservation for two at eight.",
+    "tags": [
+      "Food_&_Eating",
+      "Eating_Out",
+      "Intermediate"
+    ]
+  },
+  {
+    "id": 142,
+    "category": "Food & Eating",
+    "frontside": "Nutritious",
+    "backside": "પોષણયુક્ત, શરીરને ફાયદાકારક.",
+    "pronunciation": "ન્યૂટ્રિશસ",
+    "part_of_speech": "adjective",
+    "difficulty": "Intermediate",
+    "example": "Vegetables are very nutritious.",
+    "tags": [
+      "Food_&_Eating",
+      "Diet_&_Health",
+      "Intermediate"
+    ]
+  },
+  {
+    "id": 143,
+    "category": "Food & Eating",
+    "frontside": "Wholesome",
+    "backside": "તંદુરસ્ત, શરીર માટે સારું.",
+    "pronunciation": "હોલસમ",
+    "part_of_speech": "adjective",
+    "difficulty": "Advanced",
+    "example": "They serve wholesome, home-style food.",
+    "tags": [
+      "Food_&_Eating",
+      "Diet_&_Health",
+      "Advanced"
+    ]
+  },
+  {
+    "id": 144,
+    "category": "Food & Eating",
+    "frontside": "Portion",
+    "backside": "એક વ્યક્તિ માટેનો ભોજનનો ભાગ / હિસ્સો.",
+    "pronunciation": "પોર્શન",
+    "part_of_speech": "noun",
+    "difficulty": "Intermediate",
+    "example": "The restaurant serves large portions.",
+    "tags": [
+      "Food_&_Eating",
+      "Diet_&_Health",
+      "Intermediate"
+    ]
+  },
+  {
+    "id": 145,
+    "category": "Food & Eating",
+    "frontside": "Crave",
+    "backside": "કોઈ ખાવાની તીવ્ર ઇચ્છા થવી.",
+    "pronunciation": "ક્રેઇવ",
+    "part_of_speech": "verb",
+    "difficulty": "Advanced",
+    "example": "I'm craving something sweet.",
+    "tags": [
+      "Food_&_Eating",
+      "Diet_&_Health",
+      "Advanced"
+    ]
+  },
+  {
+    "id": 146,
+    "category": "Food & Eating",
+    "frontside": "Overeat",
+    "backside": "જરૂર કરતાં વધારે ખાવું.",
+    "pronunciation": "ઓવરઈટ",
+    "part_of_speech": "verb",
+    "difficulty": "Intermediate",
+    "example": "It's easy to overeat at a buffet.",
+    "tags": [
+      "Food_&_Eating",
+      "Diet_&_Health",
+      "Intermediate"
+    ]
+  },
+  {
+    "id": 147,
+    "category": "Food & Eating",
+    "frontside": "Balanced diet",
+    "backside": "પોષક તત્ત્વોથી ભરપૂર સંતુલિત આહાર.",
+    "pronunciation": "બેલેન્સ્ડ ડાયટ",
+    "part_of_speech": "noun",
+    "difficulty": "Intermediate",
+    "example": "A balanced diet keeps you healthy.",
+    "tags": [
+      "Food_&_Eating",
+      "Diet_&_Health",
+      "Intermediate"
+    ]
+  },
+  {
+    "id": 148,
+    "category": "Food & Eating",
+    "frontside": "Famished",
+    "backside": "અતિશય ભૂખ્યું.",
+    "pronunciation": "ફેમિશ્ડ",
+    "part_of_speech": "adjective",
+    "difficulty": "Advanced",
+    "example": "I'm famished — let's eat now.",
+    "tags": [
+      "Food_&_Eating",
+      "Hunger_&_Appetite",
+      "Advanced"
+    ]
+  },
+  {
+    "id": 149,
+    "category": "Food & Eating",
+    "frontside": "Peckish",
+    "backside": "થોડું ભૂખ્યું.",
+    "pronunciation": "પેકિશ",
+    "part_of_speech": "adjective",
+    "difficulty": "Advanced",
+    "example": "I'm feeling a bit peckish.",
+    "tags": [
+      "Food_&_Eating",
+      "Hunger_&_Appetite",
+      "Advanced"
+    ]
+  },
+  {
+    "id": 150,
+    "category": "Food & Eating",
+    "frontside": "Appetite",
+    "backside": "ભૂખ, ખાવાની ઇચ્છા.",
+    "pronunciation": "એપિટાઇટ",
+    "part_of_speech": "noun",
+    "difficulty": "Intermediate",
+    "example": "The walk gave me a good appetite.",
+    "tags": [
+      "Food_&_Eating",
+      "Hunger_&_Appetite",
+      "Intermediate"
+    ]
+  },
+  {
+    "id": 151,
+    "category": "Food & Eating",
+    "frontside": "Full up",
+    "backside": "પેટ ભરાઈ ગયું હોવું.",
+    "pronunciation": "ફુલ અપ",
+    "part_of_speech": "phrase",
+    "difficulty": "Intermediate",
+    "example": "No more for me, I'm full up.",
+    "tags": [
+      "Food_&_Eating",
+      "Hunger_&_Appetite",
+      "Intermediate"
+    ]
+  },
+  {
+    "id": 152,
+    "category": "Food & Eating",
+    "frontside": "Nibble",
+    "backside": "થોડું થોડું, ધીમે ધીમે ખાવું.",
+    "pronunciation": "નિબલ",
+    "part_of_speech": "verb",
+    "difficulty": "Intermediate",
+    "example": "She nibbled on a biscuit.",
+    "tags": [
+      "Food_&_Eating",
+      "Hunger_&_Appetite",
+      "Intermediate"
+    ]
+  },
+  {
+    "id": 153,
+    "category": "Food & Eating",
+    "frontside": "Devour",
+    "backside": "ભૂખ્યાની જેમ ઝડપથી ખાઈ જવું.",
+    "pronunciation": "ડિવાઉર",
+    "part_of_speech": "verb",
+    "difficulty": "Advanced",
+    "example": "The children devoured the pizza.",
+    "tags": [
+      "Food_&_Eating",
+      "Hunger_&_Appetite",
+      "Advanced"
+    ]
+  },
+  {
+    "id": 154,
+    "category": "Food & Eating",
+    "frontside": "Delicacy",
+    "backside": "કોઈ ખાસ/દુર્લભ સ્વાદિષ્ટ વાનગી.",
+    "pronunciation": "ડેલિકસી",
+    "part_of_speech": "noun",
+    "difficulty": "Advanced",
+    "example": "This sweet is a local delicacy.",
+    "tags": [
+      "Food_&_Eating",
+      "Describing_a_Meal",
+      "Advanced"
+    ]
+  },
+  {
+    "id": 155,
+    "category": "Food & Eating",
+    "frontside": "Helping",
+    "backside": "એક વાર પીરસાતો ભોજનનો ભાગ.",
+    "pronunciation": "હેલ્પિંગ",
+    "part_of_speech": "noun",
+    "difficulty": "Intermediate",
+    "example": "Can I have a second helping, please?",
+    "tags": [
+      "Food_&_Eating",
+      "Describing_a_Meal",
+      "Intermediate"
+    ]
+  },
+  {
+    "id": 156,
+    "category": "Food & Eating",
+    "frontside": "Homemade",
+    "backside": "ઘરે બનાવેલું.",
+    "pronunciation": "હોમમેઇડ",
+    "part_of_speech": "adjective",
+    "difficulty": "Intermediate",
+    "example": "I love homemade pickles.",
+    "tags": [
+      "Food_&_Eating",
+      "Describing_a_Meal",
+      "Intermediate"
+    ]
+  },
+  {
+    "id": 157,
+    "category": "Food & Eating",
+    "frontside": "Piping hot",
+    "backside": "એકદમ ગરમાગરમ.",
+    "pronunciation": "પાઇપિંગ હોટ",
+    "part_of_speech": "phrase",
+    "difficulty": "Advanced",
+    "example": "The soup was served piping hot.",
+    "tags": [
+      "Food_&_Eating",
+      "Describing_a_Meal",
+      "Advanced"
+    ]
+  },
+  {
+    "id": 158,
+    "category": "Food & Eating",
+    "frontside": "Grab a bite",
+    "backside": "ઝડપથી થોડું ખાઈ લેવું.",
+    "pronunciation": "ગ્રેબ અ બાઇટ",
+    "part_of_speech": "phrase",
+    "difficulty": "Intermediate",
+    "example": "Let's grab a bite before the movie.",
+    "tags": [
+      "Food_&_Eating",
+      "Describing_a_Meal",
+      "Intermediate"
+    ]
+  },
+  {
+    "id": 159,
+    "category": "Food & Eating",
+    "frontside": "Eat out",
+    "backside": "બહાર (રેસ્ટોરન્ટમાં) જમવું.",
+    "pronunciation": "ઈટ આઉટ",
+    "part_of_speech": "phrasal verb",
+    "difficulty": "Intermediate",
+    "example": "Let's eat out tonight.",
+    "tags": [
+      "Food_&_Eating",
+      "Describing_a_Meal",
+      "Intermediate"
+    ]
+  },
+  {
+    "id": 160,
+    "category": "Food & Eating",
+    "frontside": "Tuck in",
+    "backside": "ભૂખથી/ઉત્સાહથી ખાવાનું શરૂ કરવું.",
+    "pronunciation": "ટક ઇન",
+    "part_of_speech": "phrasal verb",
+    "difficulty": "Advanced",
+    "example": "The food's ready — tuck in!",
+    "tags": [
+      "Food_&_Eating",
+      "Describing_a_Meal",
+      "Advanced"
+    ]
+  }
+]
