@@ -202,6 +202,143 @@
           ]
         }
       ]
+    },
+    {
+      "block": "rules",
+      "id": "ch-14-indefinite-pronouns/exp-4",
+      "title": {
+        "en": "Each vs Every — detailed comparison",
+        "gu": "દરેક વિ દરેક — વિગતવાર સરખામણી",
+        "guMT": true
+      },
+      "items": [
+        {
+          "text": {
+            "en": "'Each' — focuses on individual members one at a time; used for two or more persons or things.",
+            "gu": "'દરેક' - એક સમયે વ્યક્તિગત સભ્યો પર ધ્યાન કેન્દ્રિત કરે છે; બે અથવા વધુ વ્યક્તિઓ અથવા વસ્તુઓ માટે વપરાય છે.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "Each of the two players received a medal.",
+              "gu": "બે ખેલાડીઓમાંથી દરેકને મેડલ મળ્યો હતો.",
+              "guMT": true
+            },
+            {
+              "en": "Each book on the shelf has its own label.",
+              "gu": "શેલ્ફ પરના દરેક પુસ્તકનું પોતાનું લેબલ હોય છે.",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "'Every' — treats all members as a collective whole without exception; generally used for three or more.",
+            "gu": "'દરેક' — અપવાદ વિના તમામ સભ્યોને સામૂહિક સમગ્ર તરીકે વર્તે છે; સામાન્ય રીતે ત્રણ અથવા વધુ માટે વપરાય છે.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "Every student in the class must submit the form.",
+              "gu": "વર્ગમાં દરેક વિદ્યાર્થીએ ફોર્મ સબમિટ કરવાનું રહેશે.",
+              "guMT": true
+            },
+            {
+              "en": "She turned every page of the dictionary.",
+              "gu": "તેણીએ શબ્દકોશનું દરેક પૃષ્ઠ ફેરવ્યું.",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "Both 'each' and 'every' always take a singular verb. Compounds with 'every': everybody, everyone, everything, everywhere.",
+            "gu": "બંને 'દરેક' અને 'દરેક' હંમેશા એકવચન ક્રિયાપદ લે છે. 'દરેક' સાથે સંયોજનો: દરેક વ્યક્તિ, દરેક, દરેક વસ્તુ, દરેક જગ્યાએ.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "Everyone is waiting outside the hall.",
+              "gu": "બધા હોલની બહાર રાહ જોઈ રહ્યા છે.",
+              "guMT": true
+            },
+            {
+              "en": "Everything is ready for tomorrow's event.",
+              "gu": "આવતીકાલની ઘટના માટે બધું તૈયાર છે.",
+              "guMT": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "block": "table",
+      "id": "ch-14-indefinite-pronouns/exp-5",
+      "caption": {
+        "en": "Compound indefinite pronouns — some / any / no / every",
+        "gu": "સંયોજન અનિશ્ચિત સર્વનામ — કેટલાક / કોઈપણ / ના / દરેક",
+        "guMT": true
+      },
+      "headers": [
+        {
+          "key": "base",
+          "label": {
+            "en": "Base word",
+            "gu": "મૂળ શબ્દ",
+            "guMT": true
+          }
+        },
+        {
+          "key": "person",
+          "label": {
+            "en": "+ body / one (person)",
+            "gu": "+ શરીર / એક (વ્યક્તિ)",
+            "guMT": true
+          }
+        },
+        {
+          "key": "thing",
+          "label": {
+            "en": "+ thing",
+            "gu": "+ વસ્તુ",
+            "guMT": true
+          }
+        },
+        {
+          "key": "place",
+          "label": {
+            "en": "+ where (place)",
+            "gu": "+ ક્યાં (સ્થળ)",
+            "guMT": true
+          }
+        }
+      ],
+      "rows": [
+        {
+          "base": "every (affirmative — all, no exception)",
+          "person": "everybody / everyone",
+          "thing": "everything",
+          "place": "everywhere"
+        },
+        {
+          "base": "some (affirmative — unspecified amount)",
+          "person": "somebody / someone",
+          "thing": "something",
+          "place": "somewhere"
+        },
+        {
+          "base": "any (questions / after negatives)",
+          "person": "anybody / anyone",
+          "thing": "anything",
+          "place": "anywhere"
+        },
+        {
+          "base": "no (negative meaning built in)",
+          "person": "nobody / no one",
+          "thing": "nothing",
+          "place": "nowhere"
+        }
+      ]
     }
   ],
   "practice": [
@@ -402,6 +539,376 @@
       "answer": {
         "en": "Nobody will fail in this exam.",
         "gu": "આ પરીક્ષામાં કોઈ નાપાસ થશે નહીં.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-14-indefinite-pronouns/q-7",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "Both the boys ____ absent today.",
+        "gu": "બંને છોકરાઓ ____ આજે ગેરહાજર છે.",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "is",
+          "gu": "છે",
+          "guMT": true
+        },
+        {
+          "en": "are",
+          "gu": "છે",
+          "guMT": true
+        },
+        {
+          "en": "was",
+          "gu": "હતી",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "are",
+        "gu": "છે",
+        "guMT": true
+      },
+      "hint": {
+        "en": "'Both' always takes a plural verb.",
+        "gu": "'બંને' હંમેશા બહુવચન ક્રિયાપદ લે છે.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-14-indefinite-pronouns/q-8",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "None of the milk ____ spilt.",
+        "gu": "દૂધમાંથી એક પણ ____ ફાટ્યું નથી.",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "was",
+          "gu": "હતી",
+          "guMT": true
+        },
+        {
+          "en": "were",
+          "gu": "હતા",
+          "guMT": true
+        },
+        {
+          "en": "are",
+          "gu": "છે",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "was",
+        "gu": "હતી",
+        "guMT": true
+      },
+      "hint": {
+        "en": "'None of' + uncountable/singular noun → singular verb.",
+        "gu": "'કોઈમાંથી કોઈ નહીં' + અગણિત/એકવચન સંજ્ઞા → એકવચન ક્રિયાપદ.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-14-indefinite-pronouns/q-9",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "There is ____ important in this file. Please check it.",
+        "gu": "આ ફાઇલમાં ____ મહત્વપૂર્ણ છે. કૃપા કરીને તેને તપાસો.",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "anything",
+          "gu": "કંઈપણ",
+          "guMT": true
+        },
+        {
+          "en": "something",
+          "gu": "કંઈક",
+          "guMT": true
+        },
+        {
+          "en": "everything",
+          "gu": "બધું",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "something",
+        "gu": "કંઈક",
+        "guMT": true
+      },
+      "hint": {
+        "en": "Use 'something' in affirmative sentences.",
+        "gu": "હકારાત્મક વાક્યોમાં 'કંઈક' નો ઉપયોગ કરો.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-14-indefinite-pronouns/q-10",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "____ of her two daughters won the first prize.",
+        "gu": "તેણીની બે પુત્રીઓમાંથી ____એ પ્રથમ ઇનામ જીત્યું.",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "Every",
+          "gu": "દરેક",
+          "guMT": true
+        },
+        {
+          "en": "Each",
+          "gu": "દરેક",
+          "guMT": true
+        },
+        {
+          "en": "All",
+          "gu": "બધા",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "Each",
+        "gu": "દરેક",
+        "guMT": true
+      },
+      "hint": {
+        "en": "Use 'each' when referring to two members individually. 'Every' is generally for three or more.",
+        "gu": "વ્યક્તિગત રીતે બે સભ્યોનો ઉલ્લેખ કરતી વખતે 'દરેક' નો ઉપયોગ કરો. 'દરેક' સામાન્ય રીતે ત્રણ કે તેથી વધુ માટે હોય છે.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-14-indefinite-pronouns/q-11",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "He did not say ____ to us about his plan.",
+        "gu": "તેણે તેની યોજના વિશે અમને ____ કહ્યું ન હતું.",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "something",
+          "gu": "કંઈક",
+          "guMT": true
+        },
+        {
+          "en": "anything",
+          "gu": "કંઈપણ",
+          "guMT": true
+        },
+        {
+          "en": "nothing",
+          "gu": "કશું",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "anything",
+        "gu": "કંઈપણ",
+        "guMT": true
+      },
+      "hint": {
+        "en": "After 'not', use 'any-' compounds (anything, anyone, anywhere).",
+        "gu": "'નહીં' પછી, 'કોઈપણ-' સંયોજનોનો ઉપયોગ કરો (કંઈપણ, કોઈપણ, ગમે ત્યાં).",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-14-indefinite-pronouns/q-12",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "____ the teachers are present in the staff meeting.",
+        "gu": "____ શિક્ષકો સ્ટાફ મીટીંગમાં હાજર છે.",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "Each",
+          "gu": "દરેક",
+          "guMT": true
+        },
+        {
+          "en": "Every",
+          "gu": "દરેક",
+          "guMT": true
+        },
+        {
+          "en": "All",
+          "gu": "બધા",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "All",
+        "gu": "બધા",
+        "guMT": true
+      },
+      "hint": {
+        "en": "'All' refers to the entire group collectively and takes a plural verb.",
+        "gu": "'બધા' સમગ્ર જૂથનો સામૂહિક રીતે ઉલ્લેખ કરે છે અને બહુવચન ક્રિયાપદ લે છે.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-14-indefinite-pronouns/q-13",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "Nobody ____ willing to speak first.",
+        "gu": "કોઈ ____ પહેલા બોલવા તૈયાર નથી.",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "were",
+          "gu": "હતા",
+          "guMT": true
+        },
+        {
+          "en": "was",
+          "gu": "હતી",
+          "guMT": true
+        },
+        {
+          "en": "are",
+          "gu": "છે",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "was",
+        "gu": "હતી",
+        "guMT": true
+      },
+      "hint": {
+        "en": "'Nobody' is singular — use singular verb 'was'.",
+        "gu": "'કોઈ' એકવચન નથી - એકવચન ક્રિયાપદ 'was' નો ઉપયોગ કરો.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-14-indefinite-pronouns/q-14",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "He searched ____ for his lost watch.",
+        "gu": "તેણે તેની ખોવાયેલી ઘડિયાળ માટે ____ શોધ્યું.",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "nowhere",
+          "gu": "ક્યાંય નથી",
+          "guMT": true
+        },
+        {
+          "en": "somewhere",
+          "gu": "ક્યાંક",
+          "guMT": true
+        },
+        {
+          "en": "everywhere",
+          "gu": "દરેક જગ્યાએ",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "everywhere",
+        "gu": "દરેક જગ્યાએ",
+        "guMT": true
+      },
+      "hint": {
+        "en": "He searched in all places — use 'everywhere'.",
+        "gu": "તેણે બધી જગ્યાએ શોધ કરી — 'એવરીવ્હેર' નો ઉપયોગ કરો.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-14-indefinite-pronouns/q-15",
+      "type": "mcq",
+      "prompt": {
+        "en": "Which sentence is grammatically correct?",
+        "gu": "કયું વાક્ય વ્યાકરણની દૃષ્ટિએ સાચું છે?",
+        "guMT": true
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Somebody have taken my umbrella.",
+            "gu": "કોઈએ મારી છત્રી લઈ લીધી છે.",
+            "guMT": true
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Somebody has taken my umbrella.",
+            "gu": "કોઈએ મારી છત્રી લીધી છે.",
+            "guMT": true
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Somebody are taking my umbrella.",
+            "gu": "કોઈ મારી છત્રી લઈ રહ્યું છે.",
+            "guMT": true
+          }
+        }
+      ],
+      "answer": "b",
+      "solution": {
+        "en": "Compound pronouns ending in -body/-one/-thing are always singular and take singular verbs (has, is, was).",
+        "gu": "-body/-one/-thing માં સમાપ્ત થતા સંયોજન સર્વનામ હંમેશા એકવચન હોય છે અને એકવચન ક્રિયાપદો (has, is, was) લે છે.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-14-indefinite-pronouns/q-16",
+      "type": "mcq",
+      "prompt": {
+        "en": "Each of the boys ____ a new book.",
+        "gu": "દરેક છોકરા ____ એક નવું પુસ્તક.",
+        "guMT": true
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "have",
+            "gu": "પાસે",
+            "guMT": true
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "has",
+            "gu": "ધરાવે છે",
+            "guMT": true
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "are having",
+            "gu": "ધરાવે છે",
+            "guMT": true
+          }
+        }
+      ],
+      "answer": "b",
+      "solution": {
+        "en": "'Each of' + plural noun always takes a singular verb — use 'has' not 'have'.",
+        "gu": "'દરેક' + બહુવચન સંજ્ઞા હંમેશા એકવચન ક્રિયાપદ લે છે — 'has' not 'have' નો ઉપયોગ કરો.",
         "guMT": true
       }
     }

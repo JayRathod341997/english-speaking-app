@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Vocabulary - Bolo English</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600&amp;family=Literata:opsz,wght@7..72,600;7..72,700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+  tailwind.config = {
+    darkMode: "class",
+    theme: {
+      extend: {
+        "colors": {
+                "secondary-fixed": "#ffdbce",
+                "surface-variant": "#e6e2d8",
+                "secondary-fixed-dim": "#ffb599",
+                "surface-container-low": "#f7f3e8",
+                "inverse-primary": "#93d4bb",
+                "secondary-container": "#ff7940",
+                "on-secondary-fixed": "#370e00",
+                "on-primary-container": "#94d5bd",
+                "on-tertiary-fixed": "#380c08",
+                "surface": "#fdf9ee",
+                "inverse-on-surface": "#f4f1e6",
+                "tertiary": "#622d26",
+                "surface-container-lowest": "#ffffff",
+                "surface-bright": "#fdf9ee",
+                "surface-container-highest": "#e6e2d8",
+                "on-surface-variant": "#404944",
+                "surface-tint": "#286956",
+                "surface-container-high": "#ece8dd",
+                "primary-fixed": "#aef0d7",
+                "surface-container": "#f2eee3",
+                "outline": "#707974",
+                "inverse-surface": "#313129",
+                "primary-container": "#1b5e4b",
+                "on-error": "#ffffff",
+                "tertiary-fixed-dim": "#ffb4a9",
+                "on-primary-fixed": "#002117",
+                "on-primary": "#ffffff",
+                "outline-variant": "#bfc9c3",
+                "on-tertiary": "#ffffff",
+                "on-tertiary-fixed-variant": "#6e372f",
+                "secondary": "#a73a00",
+                "primary-fixed-dim": "#93d4bb",
+                "on-primary-fixed-variant": "#05513f",
+                "on-error-container": "#93000a",
+                "on-secondary-container": "#662000",
+                "on-secondary": "#ffffff",
+                "surface-dim": "#dddacf",
+                "error-container": "#ffdad6",
+                "primary": "#004635",
+                "background": "#fdf9ee",
+                "on-secondary-fixed-variant": "#7f2b00",
+                "tertiary-fixed": "#ffdad5",
+                "on-background": "#1c1c15",
+                "tertiary-container": "#7e433b",
+                "on-surface": "#1c1c15",
+                "on-tertiary-container": "#ffb6ac",
+                "error": "#ba1a1a"
+        },
+        "borderRadius": {
+                "DEFAULT": "0.25rem",
+                "lg": "0.5rem",
+                "xl": "0.75rem",
+                "full": "9999px"
+        },
+        "spacing": {
+                "container-max": "1200px",
+                "margin-mobile": "20px",
+                "stack-md": "24px",
+                "stack-sm": "12px",
+                "margin-desktop": "64px",
+                "stack-lg": "40px",
+                "gutter": "24px",
+                "base": "8px"
+        },
+        "fontFamily": {
+                "title-md": [
+                        "Literata"
+                ],
+                "label-sm": [
+                        "Hanken Grotesk"
+                ],
+                "headline-lg-mobile": [
+                        "Literata"
+                ],
+                "body-md": [
+                        "Hanken Grotesk"
+                ],
+                "display-lg": [
+                        "Literata"
+                ],
+                "body-lg": [
+                        "Hanken Grotesk"
+                ],
+                "headline-lg": [
+                        "Literata"
+                ]
+        },
+        "fontSize": {
+                "title-md": [
+                        "20px",
+                        {
+                                "lineHeight": "28px",
+                                "fontWeight": "600"
+                        }
+                ],
+                "label-sm": [
+                        "12px",
+                        {
+                                "lineHeight": "16px",
+                                "letterSpacing": "0.05em",
+                                "fontWeight": "600"
+                        }
+                ],
+                "headline-lg-mobile": [
+                        "24px",
+                        {
+                                "lineHeight": "32px",
+                                "fontWeight": "600"
+                        }
+                ],
+                "body-md": [
+                        "16px",
+                        {
+                                "lineHeight": "24px",
+                                "fontWeight": "400"
+                        }
+                ],
+                "display-lg": [
+                        "48px",
+                        {
+                                "lineHeight": "56px",
+                                "letterSpacing": "-0.02em",
+                                "fontWeight": "700"
+                        }
+                ],
+                "body-lg": [
+                        "18px",
+                        {
+                                "lineHeight": "28px",
+                                "fontWeight": "400"
+                        }
+                ],
+                "headline-lg": [
+                        "32px",
+                        {
+                                "lineHeight": "40px",
+                                "fontWeight": "600"
+                        }
+                ]
+        }
+},
+    },
+  }
+</script>
+<style>
+  body {
+    background-color: theme('colors.background');
+    color: theme('colors.on-background');
+  }
+  .glass-card {
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(0, 70, 53, 0.1);
+  }
+  .progress-track {
+    background-color: rgba(0, 70, 53, 0.1);
+  }
+</style>
+</head>
+<body class="antialiased min-h-screen flex flex-col md:flex-row">
+<!-- TopNavBar (Mobile Only) -->
+<header class="md:hidden w-full h-16 bg-surface flex justify-between items-center px-margin-mobile border-b border-outline-variant/10 z-50">
+<div class="flex items-center gap-2">
+<span class="font-title-md text-title-md font-bold text-primary">Bolo English</span>
+</div>
+<div class="flex items-center gap-4">
+<span class="font-label-sm text-label-sm text-primary">Daily Streak: 12</span>
+<span class="material-symbols-outlined text-on-surface-variant" data-icon="notifications">notifications</span>
+<span class="material-symbols-outlined text-on-surface-variant" data-icon="settings">settings</span>
+<img alt="User profile avatar" class="w-8 h-8 rounded-full border border-outline-variant" data-alt="A small, professional portrait photograph of a confident young professional woman with warm, friendly features. She is facing forward against a soft, neutral, light-toned background. The lighting is soft and flattering, creating a polished and approachable feel suitable for a digital product user avatar." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAw4Et4IjxGAyG0_8SXSG8jJTWS4QgENMpyuiYPrBNCit1G699mni1IJTPqnF63AiKOgJ5Hae_xwv7u3BYunmFT61ho6TgdaR2ttzCs4nGo9B8iDbbZB7szPsZ3xTXiZ_YSnPrWLYTU3IclmT_3HvRb7oztyuZFKjZS-Gpdzq4EpxxoVzBsbCdNIWOgBO8QKKHw9kErFS2dXp-ZdbXYilat4M_TXhSDxBfowUZZSGGR3lw5d_9ehnZRAlkiqFg8qz-w7gCnIkeNNYQ"/>
+</div>
+</header>
+<!-- SideNavBar (Desktop) -->
+<nav class="hidden md:flex flex-col fixed left-0 top-0 h-full w-64 bg-surface-container-low border-r border-outline-variant/10 py-stack-md gap-base z-40">
+<div class="px-gutter mb-stack-md">
+<span class="font-title-md text-title-md text-primary font-bold">Bolo English</span>
+</div>
+<div class="px-gutter mb-stack-sm flex items-center gap-4">
+<img alt="Language tutor" class="w-12 h-12 rounded-full border-2 border-primary/20" data-alt="A close-up portrait of a friendly, scholarly individual in their late 30s wearing glasses and a smart-casual sweater. The lighting is warm and natural, suggesting an academic or library setting. Their expression is encouraging and attentive, perfectly suiting the role of an online language tutor in an educational interface." src="https://lh3.googleusercontent.com/aida-public/AB6AXuD7dw0lU-EzTvKM-ojx3M4wa-yssxP8os8W7K4S0PPvmcN1_ZsWxLUdxMuejKDksWNhkeJQKvSIqfepv6gKBwgb0lhfytbmq_9IxB7_kzOZWy1WV_lt_8xfSytiGZmHXIPOjJY-i6nn3ST5ew4gfjWbWmBNlRe5J1zT-UeDUDazxIlKFtFjdvdiMiBQmJ4wTC9tViznFYnRlcHFhQvnHNJuCjB1LLEtlrOnZifqEVH5S-Yq1mmEfeNFYCDuHsGee63ckJEpvLH-pSM"/>
+<div>
+<p class="font-label-sm text-label-sm text-on-surface">Learning Path</p>
+<p class="font-label-sm text-label-sm text-on-surface-variant">Level: Intermediate</p>
+</div>
+</div>
+<div class="flex-1 flex flex-col gap-2 px-base">
+<a class="flex items-center gap-3 px-4 py-3 rounded-lg text-on-surface-variant hover:bg-surface-container-highest transition-all group" href="#">
+<span class="material-symbols-outlined" data-icon="home">home</span>
+<span class="font-label-sm text-label-sm group-hover:text-primary transition-colors">Home</span>
+</a>
+<a class="flex items-center gap-3 px-4 py-3 rounded-lg text-on-surface-variant hover:bg-surface-container-highest transition-all group" href="#">
+<span class="material-symbols-outlined" data-icon="record_voice_over">record_voice_over</span>
+<span class="font-label-sm text-label-sm group-hover:text-primary transition-colors">Talk</span>
+</a>
+<a class="flex items-center gap-3 px-4 py-3 rounded-lg text-on-surface-variant hover:bg-surface-container-highest transition-all group" href="#">
+<span class="material-symbols-outlined" data-icon="auto_stories">auto_stories</span>
+<span class="font-label-sm text-label-sm group-hover:text-primary transition-colors">Idioms</span>
+</a>
+<a class="flex items-center gap-3 px-4 py-3 rounded-lg text-primary font-bold border-r-4 border-primary bg-primary/5 group scale-95 duration-150" href="#">
+<span class="material-symbols-outlined" data-icon="menu_book" data-weight="fill" style="font-variation-settings: 'FILL' 1;">menu_book</span>
+<span class="font-label-sm text-label-sm">Words</span>
+</a>
+<a class="flex items-center gap-3 px-4 py-3 rounded-lg text-on-surface-variant hover:bg-surface-container-highest transition-all group" href="#">
+<span class="material-symbols-outlined" data-icon="architecture">architecture</span>
+<span class="font-label-sm text-label-sm group-hover:text-primary transition-colors">Grammar</span>
+</a>
+</div>
+<div class="px-gutter mt-auto">
+<button class="w-full py-3 bg-secondary text-on-secondary rounded-lg font-label-sm text-label-sm hover:opacity-90 transition-opacity">Start Practice</button>
+</div>
+</nav>
+<!-- Main Content Area -->
+<main class="flex-1 md:ml-64 p-margin-mobile md:p-margin-desktop max-w-container-max mx-auto w-full">
+<!-- Header Section -->
+<section class="mb-stack-lg">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-stack-md">
+<div>
+<h1 class="font-display-lg text-display-lg text-on-background mb-2">Vocabulary</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant">280 words to master to reach advanced fluency.</p>
+</div>
+<div class="flex items-center gap-4">
+<div class="flex items-center bg-surface-container-high rounded-full px-4 py-2">
+<span class="material-symbols-outlined text-on-surface-variant mr-2 text-[20px]" data-icon="search">search</span>
+<input class="bg-transparent border-none focus:ring-0 text-body-md font-body-md text-on-surface w-40 placeholder-on-surface-variant/50" placeholder="Search words..." type="text"/>
+</div>
+<button class="bg-primary text-on-primary px-6 py-2 rounded-full font-label-sm text-label-sm hover:opacity-90 transition-opacity flex items-center gap-2">
+<span class="material-symbols-outlined text-[18px]" data-icon="add">add</span>
+            Add Word
+          </button>
+</div>
+</div>
+</section>
+<!-- Tabs -->
+<div class="flex border-b border-outline-variant/20 mb-stack-lg">
+<button class="px-6 py-4 font-title-md text-title-md text-primary border-b-2 border-primary">Categories</button>
+<button class="px-6 py-4 font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors">Unread</button>
+<button class="px-6 py-4 font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors">Saved</button>
+</div>
+<!-- Bento Grid Content -->
+<div class="grid grid-cols-1 md:grid-cols-12 gap-gutter">
+<!-- Highlight/Mastery Card (Spans 8 cols) -->
+<div class="md:col-span-8 bg-surface-container rounded-xl p-stack-md flex flex-col justify-between relative overflow-hidden group">
+<div class="absolute inset-0 z-0 opacity-20 transition-transform duration-700 group-hover:scale-105" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCPjX4On03rJDG4544D7-_WjAmN6e_xtFJBk9ofrPGyP5d-pu6bpjhiQAvYZkA9DeKaad1LRVBQHeIxvBzHqXoqGjqP8Psle1Or455gUrIz7VJhfNWqfrEHXXLqiVCHfVfPxBJa0gc5kn1PTMzfiNnIUrzBf8YSSmzJUWNPrw1ZkxLkIfM0SbMzunwVDYN9CcrQjAehtzNv3LDS04IYagTGixYJR59fsQ1mNEf_iwUkreUGpWjxQBPAMc91ZtH4azYsY5g4iQW-2I4'); background-size: cover; background-position: center;"></div>
+<div class="relative z-10 flex flex-col h-full justify-between">
+<div>
+<span class="inline-block px-3 py-1 bg-surface/80 rounded-full font-label-sm text-label-sm text-primary mb-4 backdrop-blur-sm">Featured Module</span>
+<h2 class="font-headline-lg text-headline-lg text-on-background mb-2">Everyday Situations</h2>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-md">Essential vocabulary for daily interactions, shopping, and navigating common scenarios with confidence.</p>
+</div>
+<div class="mt-stack-lg bg-surface/90 backdrop-blur-md rounded-lg p-4 border border-outline-variant/10 flex items-center justify-between">
+<div class="flex-1 mr-6">
+<div class="flex justify-between mb-2">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Progress</span>
+<span class="font-label-sm text-label-sm text-primary">45/120 Words</span>
+</div>
+<div class="h-1.5 w-full progress-track rounded-full overflow-hidden">
+<div class="h-full bg-primary rounded-full" style="width: 37%"></div>
+</div>
+</div>
+<button class="bg-primary text-on-primary w-10 h-10 rounded-full flex items-center justify-center hover:bg-primary-container transition-colors">
+<span class="material-symbols-outlined" data-icon="play_arrow">play_arrow</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Places Card (Spans 4 cols) -->
+<div class="md:col-span-4 glass-card rounded-xl p-stack-md flex flex-col hover:border-primary/30 transition-colors">
+<div class="w-12 h-12 rounded-full bg-secondary-fixed flex items-center justify-center mb-stack-sm">
+<span class="material-symbols-outlined text-on-secondary-fixed" data-icon="location_city">location_city</span>
+</div>
+<h3 class="font-title-md text-title-md text-on-background mb-2">Places &amp; Locations</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-auto line-clamp-2">Vocabulary for navigating cities, asking for directions, and describing places.</p>
+<div class="mt-stack-sm pt-stack-sm border-t border-outline-variant/10">
+<div class="flex justify-between items-end">
+<div>
+<span class="block font-label-sm text-label-sm text-on-surface-variant mb-1">Mastered</span>
+<span class="font-title-md text-title-md text-primary">12/40</span>
+</div>
+<div class="flex -space-x-2">
+<div class="w-8 h-8 rounded-full bg-surface-container flex items-center justify-center border-2 border-surface font-label-sm text-label-sm">A</div>
+<div class="w-8 h-8 rounded-full bg-surface-container flex items-center justify-center border-2 border-surface font-label-sm text-label-sm">B</div>
+<div class="w-8 h-8 rounded-full bg-surface-container flex items-center justify-center border-2 border-surface font-label-sm text-label-sm text-primary">+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Emotions Card (Spans 4 cols) -->
+<div class="md:col-span-4 glass-card rounded-xl p-stack-md flex flex-col hover:border-primary/30 transition-colors">
+<div class="w-12 h-12 rounded-full bg-tertiary-fixed flex items-center justify-center mb-stack-sm">
+<span class="material-symbols-outlined text-on-tertiary-fixed-variant" data-icon="mood">mood</span>
+</div>
+<h3 class="font-title-md text-title-md text-on-background mb-2">Feelings &amp; Emotions</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-auto line-clamp-2">Expressing complex feelings and understanding subtle emotional nuances.</p>
+<div class="mt-stack-sm pt-stack-sm border-t border-outline-variant/10">
+<div class="flex justify-between items-center">
+<div class="w-full mr-4">
+<div class="h-1 w-full progress-track rounded-full overflow-hidden">
+<div class="h-full bg-tertiary-container rounded-full" style="width: 80%"></div>
+</div>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant whitespace-nowrap">48/60</span>
+</div>
+</div>
+</div>
+<!-- Work Card (Spans 4 cols) -->
+<div class="md:col-span-4 glass-card rounded-xl p-stack-md flex flex-col hover:border-primary/30 transition-colors">
+<div class="w-12 h-12 rounded-full bg-primary-fixed flex items-center justify-center mb-stack-sm">
+<span class="material-symbols-outlined text-on-primary-fixed-variant" data-icon="work">work</span>
+</div>
+<h3 class="font-title-md text-title-md text-on-background mb-2">Professional &amp; Work</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-auto line-clamp-2">Business terminology, formal communication, and workplace vocabulary.</p>
+<div class="mt-stack-sm pt-stack-sm border-t border-outline-variant/10">
+<div class="flex justify-between items-center">
+<div class="w-full mr-4">
+<div class="h-1 w-full progress-track rounded-full overflow-hidden">
+<div class="h-full bg-primary-container rounded-full" style="width: 15%"></div>
+</div>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant whitespace-nowrap">9/60</span>
+</div>
+</div>
+</div>
+<!-- Quick Review CTA (Spans 4 cols) -->
+<div class="md:col-span-4 bg-primary text-on-primary rounded-xl p-stack-md flex flex-col justify-center items-center text-center relative overflow-hidden group hover:opacity-95 transition-opacity cursor-pointer">
+<div class="absolute -right-8 -top-8 w-32 h-32 bg-primary-container rounded-full opacity-50 group-hover:scale-110 transition-transform"></div>
+<span class="material-symbols-outlined text-[48px] mb-4 relative z-10" data-icon="flash_on">flash_on</span>
+<h3 class="font-title-md text-title-md mb-2 relative z-10">Quick Review</h3>
+<p class="font-body-md text-body-md opacity-80 relative z-10">Practice 15 words due for repetition.</p>
+</div>
+</div>
+</main>
+<!-- BottomNavBar (Mobile Only) -->
+<nav class="md:hidden fixed bottom-0 w-full bg-surface border-t border-outline-variant/10 flex justify-around items-center h-16 z-50 pb-safe">
+<a class="flex flex-col items-center gap-1 text-on-surface-variant" href="#">
+<span class="material-symbols-outlined text-[24px]" data-icon="home">home</span>
+<span class="font-label-sm text-[10px]">Home</span>
+</a>
+<a class="flex flex-col items-center gap-1 text-on-surface-variant" href="#">
+<span class="material-symbols-outlined text-[24px]" data-icon="record_voice_over">record_voice_over</span>
+<span class="font-label-sm text-[10px]">Talk</span>
+</a>
+<a class="flex flex-col items-center gap-1 text-primary" href="#">
+<span class="material-symbols-outlined text-[24px]" data-icon="menu_book" data-weight="fill" style="font-variation-settings: 'FILL' 1;">menu_book</span>
+<span class="font-label-sm text-[10px] font-bold">Words</span>
+</a>
+<a class="flex flex-col items-center gap-1 text-on-surface-variant" href="#">
+<span class="material-symbols-outlined text-[24px]" data-icon="architecture">architecture</span>
+<span class="font-label-sm text-[10px]">Grammar</span>
+</a>
+</nav>
+</body></html>

@@ -246,6 +246,156 @@
           ]
         }
       ]
+    },
+    {
+      "block": "table",
+      "id": "ch-12-prepositions/exp-5",
+      "caption": {
+        "en": "More prepositions — Part 2",
+        "gu": "વધુ પૂર્વનિર્ધારણ — ભાગ 2",
+        "guMT": true
+      },
+      "headers": [
+        {
+          "key": "prep",
+          "label": {
+            "en": "Preposition",
+            "gu": "પૂર્વનિર્ધારણ",
+            "guMT": true
+          }
+        },
+        {
+          "key": "meaning",
+          "label": {
+            "en": "Meaning / Use",
+            "gu": "અર્થ / ઉપયોગ",
+            "guMT": true
+          }
+        },
+        {
+          "key": "example",
+          "label": {
+            "en": "Example",
+            "gu": "ઉદાહરણ",
+            "guMT": true
+          }
+        }
+      ],
+      "rows": [
+        {
+          "prep": "Above",
+          "meaning": "higher than (but not necessarily touching)",
+          "example": "The picture hangs above the fireplace."
+        },
+        {
+          "prep": "Below",
+          "meaning": "lower than",
+          "example": "The temperature is below zero."
+        },
+        {
+          "prep": "Into",
+          "meaning": "movement toward the inside",
+          "example": "She walked into the room."
+        },
+        {
+          "prep": "Out of",
+          "meaning": "movement from inside to outside",
+          "example": "He ran out of the building."
+        },
+        {
+          "prep": "Inside",
+          "meaning": "within the bounds of",
+          "example": "Please wait inside the hall."
+        },
+        {
+          "prep": "Outside",
+          "meaning": "beyond the bounds of",
+          "example": "Children are playing outside the house."
+        },
+        {
+          "prep": "Around",
+          "meaning": "in a circle; on all sides of",
+          "example": "We walked around the lake."
+        },
+        {
+          "prep": "Across",
+          "meaning": "from one side to the other",
+          "example": "She swam across the river."
+        },
+        {
+          "prep": "During",
+          "meaning": "throughout the duration of",
+          "example": "He fell asleep during the lecture."
+        },
+        {
+          "prep": "Except",
+          "meaning": "not including; apart from",
+          "example": "Everyone came except Raju."
+        },
+        {
+          "prep": "Like",
+          "meaning": "in the same manner as; similar to",
+          "example": "She sings like a professional."
+        },
+        {
+          "prep": "Against",
+          "meaning": "in opposition to; in contact with",
+          "example": "He leaned against the wall."
+        }
+      ]
+    },
+    {
+      "block": "rules",
+      "id": "ch-12-prepositions/exp-6",
+      "title": {
+        "en": "More prepositional collocations",
+        "gu": "વધુ પૂર્વનિર્ધારણ સંકલન",
+        "guMT": true
+      },
+      "items": [
+        {
+          "text": {
+            "en": "Collocations with 'of': beware of, die of, dream of, complain of, consist of, accuse of, think of.",
+            "gu": "'ઓફ' સાથે સંકલન: સાવધ રહો, મૃત્યુ પામો, સ્વપ્ન જુઓ, ફરિયાદ કરો, સમાવેશ કરો, આરોપ કરો, વિચારો.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "Beware of strangers. | He died of cancer. | The team consists of ten players.",
+              "gu": "અજાણ્યાઓથી સાવધ રહો. | તે કેન્સરથી મૃત્યુ પામ્યો. | ટીમમાં દસ ખેલાડીઓનો સમાવેશ થાય છે.",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "Collocations with 'at': look at, laugh at, be surprised at, be angry at, aim at.",
+            "gu": "'એટ' સાથે સંકલન: જુઓ, હસો, આશ્ચર્ય પામો, ગુસ્સે થાઓ, લક્ષ્ય રાખો.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "Don't laugh at others. | The hunter aimed at the bird.",
+              "gu": "બીજાઓ પર હસશો નહીં. | શિકારીએ પક્ષીને લક્ષ્ય રાખ્યું.",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "Collocations with 'upon/on': depend upon, insist on, rely on, congratulate on.",
+            "gu": "'પર/ઓન' સાથે સંકલન: આધાર રાખો, આગ્રહ રાખો, આધાર રાખો, અભિનંદન આપો.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "We cannot depend upon him. | She insisted on going alone.",
+              "gu": "આપણે તેના પર નિર્ભર રહી શકતા નથી. | તેણીએ એકલા જવાનો આગ્રહ કર્યો.",
+              "guMT": true
+            }
+          ]
+        }
+      ]
     }
   ],
   "practice": [
@@ -446,6 +596,242 @@
       "answer": {
         "en": "There is a temple among the trees.",
         "gu": "વૃક્ષોની વચ્ચે એક મંદિર છે.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-12-prepositions/q-7",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "She is afraid ____ dogs.",
+        "gu": "તેણી ____ કૂતરાથી ડરે છે.",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "from",
+          "gu": "થી",
+          "guMT": true
+        },
+        {
+          "en": "of",
+          "gu": "ના",
+          "guMT": true
+        },
+        {
+          "en": "with",
+          "gu": "સાથે",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "of",
+        "gu": "ના",
+        "guMT": true
+      },
+      "hint": {
+        "en": "The collocation is 'be afraid of'.",
+        "gu": "સંકલન છે 'ડરશો'.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-12-prepositions/q-8",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "He is famous ____ his paintings.",
+        "gu": "તે ____ તેના ચિત્રો માટે પ્રખ્યાત છે.",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "by",
+          "gu": "દ્વારા",
+          "guMT": true
+        },
+        {
+          "en": "about",
+          "gu": "વિશે",
+          "guMT": true
+        },
+        {
+          "en": "for",
+          "gu": "માટે",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "for",
+        "gu": "માટે",
+        "guMT": true
+      },
+      "hint": {
+        "en": "The collocation is 'be famous for'.",
+        "gu": "આ સંકલન 'માટે પ્રખ્યાત રહો' છે.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-12-prepositions/q-9",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "He fell asleep ____ the lecture.",
+        "gu": "પ્રવચન _____ તે ઊંઘી ગયો.",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "between",
+          "gu": "વચ્ચે",
+          "guMT": true
+        },
+        {
+          "en": "during",
+          "gu": "દરમિયાન",
+          "guMT": true
+        },
+        {
+          "en": "while",
+          "gu": "જ્યારે",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "during",
+        "gu": "દરમિયાન",
+        "guMT": true
+      },
+      "hint": {
+        "en": "'During' is used with a noun phrase (the lecture); 'while' is used with a clause.",
+        "gu": "'During' નો ઉપયોગ સંજ્ઞા શબ્દસમૂહ (લેક્ચર) સાથે થાય છે; 'while' નો ઉપયોગ કલમ સાથે થાય છે.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-12-prepositions/q-10",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "Everyone passed the exam ____ Raju.",
+        "gu": "બધાએ પરીક્ષા પાસ કરી ____ રાજુ.",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "except",
+          "gu": "સિવાય",
+          "guMT": true
+        },
+        {
+          "en": "without",
+          "gu": "વગર",
+          "guMT": true
+        },
+        {
+          "en": "besides",
+          "gu": "ઉપરાંત",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "except",
+        "gu": "સિવાય",
+        "guMT": true
+      },
+      "hint": {
+        "en": "'Except' means 'not including'.",
+        "gu": "'સિવાય' નો અર્થ છે 'સમાવેલ નથી'.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-12-prepositions/q-11",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "She swam ____ the river.",
+        "gu": "તેણી ____ નદી તરતી હતી.",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "around",
+          "gu": "આસપાસ",
+          "guMT": true
+        },
+        {
+          "en": "across",
+          "gu": "સમગ્ર",
+          "guMT": true
+        },
+        {
+          "en": "above",
+          "gu": "ઉપર",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "across",
+        "gu": "સમગ્ર",
+        "guMT": true
+      },
+      "hint": {
+        "en": "'Across' means from one side to the other of a surface.",
+        "gu": "'એક્રોસ' એટલે સપાટીની એક બાજુથી બીજી તરફ.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-12-prepositions/q-12",
+      "type": "mcq",
+      "prompt": {
+        "en": "He suffers ____ asthma.",
+        "gu": "તેને ____ અસ્થમા છે.",
+        "guMT": true
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "with",
+            "gu": "સાથે",
+            "guMT": true
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "from",
+            "gu": "થી",
+            "guMT": true
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "by",
+            "gu": "દ્વારા",
+            "guMT": true
+          }
+        }
+      ],
+      "answer": "b",
+      "solution": {
+        "en": "The collocation is 'suffer from' a disease.",
+        "gu": "સંકલન એક રોગ 'પીડિત' છે.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-12-prepositions/q-13",
+      "type": "translation",
+      "direction": "en_to_gu",
+      "prompt": {
+        "en": "In spite of all his efforts, he could not pass.",
+        "gu": "તેના તમામ પ્રયાસો છતાં તે પાસ ન થઈ શક્યો.",
+        "guMT": true
+      },
+      "answer": {
+        "en": "In spite of all his efforts, he could not pass.",
+        "gu": "તેના તમામ પ્રયાસો છતાં તે પાસ ન થઈ શક્યો.",
         "guMT": true
       }
     }

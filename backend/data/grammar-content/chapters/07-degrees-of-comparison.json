@@ -240,6 +240,112 @@
           ]
         }
       ]
+    },
+    {
+      "block": "rules",
+      "id": "ch-07-degrees-of-comparison/exp-5",
+      "title": {
+        "en": "Equality and negative equality patterns",
+        "gu": "સમાનતા અને નકારાત્મક સમાનતા પેટર્ન",
+        "guMT": true
+      },
+      "items": [
+        {
+          "text": {
+            "en": "Positive equality: as + positive + as (the two things are equal).",
+            "gu": "હકારાત્મક સમાનતા: તરીકે + હકારાત્મક + તરીકે (બે વસ્તુઓ સમાન છે).",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "You are as tall as your brother. | This coat is as warm as that one.",
+              "gu": "તમે તમારા ભાઈ જેટલા ઊંચા છો. | આ કોટ તેટલો જ ગરમ છે.",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "Negative equality: not so + positive + as (the two things are unequal).",
+            "gu": "નકારાત્મક સમાનતા: એટલું નહીં + હકારાત્મક + જેમ (બે વસ્તુઓ અસમાન છે).",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "The food today is not so good as yesterday. | Raju is not so tall as Mohan.",
+              "gu": "આજે ખોરાક ગઈકાલ જેટલો સારો નથી. | રાજુ મોહન જેટલો ઊંચો નથી.",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "Similarity: the same as (they are identical in this quality).",
+            "gu": "સમાનતા: સમાન (તેઓ આ ગુણવત્તામાં સમાન છે).",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "Your bag is the same as mine. | This result is the same as last year.",
+              "gu": "તમારી બેગ મારી જેવી જ છે. | આ પરિણામ ગયા વર્ષ જેટલું જ છે.",
+              "guMT": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "block": "rules",
+      "id": "ch-07-degrees-of-comparison/exp-6",
+      "title": {
+        "en": "Other degree patterns",
+        "gu": "અન્ય ડિગ્રી પેટર્ન",
+        "guMT": true
+      },
+      "items": [
+        {
+          "text": {
+            "en": "'One of the + superlative + plural noun' — the subject is among the best, not the single best.",
+            "gu": "'+ સર્વોત્તમ + બહુવચન સંજ્ઞામાંથી એક' — વિષય શ્રેષ્ઠમાંનો છે, એક શ્રેષ્ઠ નથી.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "Surat is one of the cleanest cities in Gujarat. | She is one of the best singers in India.",
+              "gu": "સુરત ગુજરાતના સૌથી સ્વચ્છ શહેરોમાંનું એક છે. | તે ભારતની શ્રેષ્ઠ ગાયિકાઓમાંની એક છે.",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "Use 'less' / 'least' for a decreasing comparison (opposite of more/most).",
+            "gu": "ઘટતી સરખામણી માટે 'ઓછા' / 'ઓછામાં ઓછા' નો ઉપયોગ કરો (વધુ/મોટા ભાગની વિરુદ્ધ).",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "This problem is less difficult than I thought. | This is the least interesting chapter.",
+              "gu": "મેં વિચાર્યું તે કરતાં આ સમસ્યા ઓછી મુશ્કેલ છે. | આ સૌથી ઓછું રસપ્રદ પ્રકરણ છે.",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "Double comparative: 'The more ... the more ...' — both qualities increase together.",
+            "gu": "ડબલ તુલનાત્મક: 'જેટલું વધુ... તેટલું વધુ...' — બંને ગુણો એકસાથે વધે છે.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "The more you read, the more you learn. | The harder you work, the better the results.",
+              "gu": "તમે જેટલું વધુ વાંચશો, તેટલું વધુ તમે શીખશો. | તમે જેટલી મહેનત કરો છો તેટલું સારું પરિણામ મળશે.",
+              "guMT": true
+            }
+          ]
+        }
+      ]
     }
   ],
   "practice": [
@@ -446,6 +552,221 @@
       "answer": {
         "en": "Surat is the cleanest city in Gujarat.",
         "gu": "સુરત ગુજરાતનું સૌથી સ્વચ્છ શહેર છે.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-07-degrees-of-comparison/q-7",
+      "type": "transformation",
+      "transform": "degrees_of_comparison",
+      "given": "superlative",
+      "ask": "comparative",
+      "forms": {
+        "positive": {
+          "en": "No other metal is so useful as iron.",
+          "gu": "બીજી કોઈ ધાતુ લોખંડ જેટલી ઉપયોગી નથી.",
+          "guMT": true
+        },
+        "comparative": {
+          "en": "Iron is more useful than any other metal.",
+          "gu": "આયર્ન અન્ય કોઈપણ ધાતુ કરતાં વધુ ઉપયોગી છે.",
+          "guMT": true
+        },
+        "superlative": {
+          "en": "Iron is the most useful metal in the world.",
+          "gu": "આયર્ન એ વિશ્વની સૌથી ઉપયોગી ધાતુ છે.",
+          "guMT": true
+        }
+      },
+      "answer": {
+        "en": "Iron is more useful than any other metal.",
+        "gu": "આયર્ન અન્ય કોઈપણ ધાતુ કરતાં વધુ ઉપયોગી છે.",
+        "guMT": true
+      },
+      "solution": {
+        "en": "Change 'the most useful ... in' to 'more useful than any other ...'.",
+        "gu": "'સૌથી વધુ ઉપયોગી...માં'ને 'અન્ય કોઈપણ કરતાં વધુ ઉપયોગી...'માં બદલો.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-07-degrees-of-comparison/q-8",
+      "type": "transformation",
+      "transform": "degrees_of_comparison",
+      "given": "superlative",
+      "ask": "positive",
+      "forms": {
+        "positive": {
+          "en": "No other river in India is so sacred as the Ganga.",
+          "gu": "ભારતની બીજી કોઈ નદી ગંગા જેટલી પવિત્ર નથી.",
+          "guMT": true
+        },
+        "comparative": {
+          "en": "The Ganga is more sacred than any other river in India.",
+          "gu": "ગંગા ભારતની અન્ય કોઈપણ નદી કરતાં વધુ પવિત્ર છે.",
+          "guMT": true
+        },
+        "superlative": {
+          "en": "The Ganga is the most sacred river in India.",
+          "gu": "ગંગા ભારતની સૌથી પવિત્ર નદી છે.",
+          "guMT": true
+        }
+      },
+      "answer": {
+        "en": "No other river in India is so sacred as the Ganga.",
+        "gu": "ભારતની બીજી કોઈ નદી ગંગા જેટલી પવિત્ર નથી.",
+        "guMT": true
+      },
+      "solution": {
+        "en": "Positive uses 'No other ... is so [adjective] as ...'.",
+        "gu": "હકારાત્મક ઉપયોગો 'No other... is so [વિશેષણ] as...'.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-07-degrees-of-comparison/q-9",
+      "type": "transformation",
+      "transform": "degrees_of_comparison",
+      "given": "comparative",
+      "ask": "superlative",
+      "forms": {
+        "positive": {
+          "en": "No other boy in the class is so clever as Ravi.",
+          "gu": "ક્લાસનો બીજો કોઈ છોકરો રવિ જેટલો હોંશિયાર નથી.",
+          "guMT": true
+        },
+        "comparative": {
+          "en": "Ravi is cleverer than any other boy in the class.",
+          "gu": "રવિ વર્ગના અન્ય છોકરાઓ કરતાં હોંશિયાર છે.",
+          "guMT": true
+        },
+        "superlative": {
+          "en": "Ravi is the cleverest boy in the class.",
+          "gu": "રવિ વર્ગનો સૌથી હોંશિયાર છોકરો છે.",
+          "guMT": true
+        }
+      },
+      "answer": {
+        "en": "Ravi is the cleverest boy in the class.",
+        "gu": "રવિ વર્ગનો સૌથી હોંશિયાર છોકરો છે.",
+        "guMT": true
+      },
+      "solution": {
+        "en": "Change 'cleverer than any other [noun]' to 'the cleverest [noun]'.",
+        "gu": "'અન્ય કોઈપણ [સંજ્ઞા] કરતાં હોંશિયાર' ને 'ચતુર [સંજ્ઞા]' માં બદલો.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-07-degrees-of-comparison/q-10",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "She is ____ as strong as her brother. (as / more)",
+        "gu": "તેણી ____ તેના ભાઈ જેટલી મજબૂત છે. (જેમ / વધુ)",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "as",
+          "gu": "તરીકે",
+          "guMT": true
+        },
+        {
+          "en": "more",
+          "gu": "વધુ",
+          "guMT": true
+        },
+        {
+          "en": "less",
+          "gu": "ઓછું",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "as",
+        "gu": "તરીકે",
+        "guMT": true
+      },
+      "hint": {
+        "en": "Equality pattern: as ... as.",
+        "gu": "સમાનતા પેટર્ન: જેમ ... તરીકે.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-07-degrees-of-comparison/q-11",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "____ harder you work, ____ better the results will be.",
+        "gu": "____ તમે વધુ મહેનત કરશો, ____ પરિણામો વધુ સારા આવશે.",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "As / as",
+          "gu": "તરીકે / તરીકે",
+          "guMT": true
+        },
+        {
+          "en": "The / the",
+          "gu": "આ / ધ",
+          "guMT": true
+        },
+        {
+          "en": "More / more",
+          "gu": "વધુ / વધુ",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "The / the",
+        "gu": "આ / ધ",
+        "guMT": true
+      },
+      "hint": {
+        "en": "Double comparative pattern: The more ... the more ...",
+        "gu": "ડબલ તુલનાત્મક પેટર્ન: વધુ ... વધુ ...",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-07-degrees-of-comparison/q-12",
+      "type": "mcq",
+      "prompt": {
+        "en": "What is the comparative form of 'far' (for distance)?",
+        "gu": "'દૂર' (અંતર માટે) નું તુલનાત્મક સ્વરૂપ શું છે?",
+        "guMT": true
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "farder",
+            "gu": "ફરદાર",
+            "guMT": true
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "further / farther",
+            "gu": "આગળ / દૂર",
+            "guMT": true
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "farest",
+            "gu": "સૌથી દૂર",
+            "guMT": true
+          }
+        }
+      ],
+      "answer": "b",
+      "solution": {
+        "en": "'far' is irregular: far → further/farther → furthest/farthest.",
+        "gu": "'દૂર' અનિયમિત છે: દૂર → આગળ/દૂર → સૌથી દૂર/દૂર.",
         "guMT": true
       }
     }

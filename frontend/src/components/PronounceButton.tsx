@@ -11,6 +11,8 @@ interface Props {
   /** Hide the result line (caller renders its own feedback). */
   hideResult?: boolean;
   onResult?: (match: boolean, heard: string) => void;
+  /** Hide the microphone button (useful for grammar/reading-only components). */
+  hideMic?: boolean;
 }
 
 /** Normalize for comparison: lowercase, strip punctuation, collapse whitespace. */
@@ -30,7 +32,7 @@ function isMatch(target: string, heard: string): boolean {
   return h === t || h.includes(t) || t.includes(h);
 }
 
-export default function PronounceButton({ target, size = 'md', hideResult, onResult }: Props) {
+export default function PronounceButton({ target, size = 'md', hideResult, onResult, hideMic }: Props) {
   const [heard, setHeard] = useState<string | null>(null);
   const [match, setMatch] = useState<boolean | null>(null);
   const { speak, isSpeaking } = useSpeechSynthesis();
@@ -62,7 +64,7 @@ export default function PronounceButton({ target, size = 'md', hideResult, onRes
         </button>
 
         {/* Say it */}
-        {isSupported ? (
+        {isSupported && !hideMic ? (
           <button
             type="button"
             disabled={isSpeaking}
