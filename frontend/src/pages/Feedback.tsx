@@ -168,7 +168,11 @@ export default function Feedback() {
   );
 
   return (
+<<<<<<< HEAD
     <div className="min-h-[100dvh] flex items-center justify-center p-4 lg:p-8"
+=======
+    <div className="min-h-[100dvh] overflow-x-hidden w-full flex items-center justify-center p-5"
+>>>>>>> release1.0
       style={{ background: 'var(--paper)' }}>
       <div
         className="rounded-[24px] p-5 md:p-7 max-w-sm lg:max-w-4xl w-full shadow-md transition-all"
@@ -246,6 +250,37 @@ export default function Feedback() {
             <ActionButtons className="flex lg:hidden mt-5" />
           </div>
 
+<<<<<<< HEAD
+=======
+        {/* Full conversation transcript with per-message error feedback */}
+        <TranscriptSection messages={messages} />
+
+        {/* Actions */}
+        <div className="flex flex-col gap-2 mt-5">
+          {scenario && (
+            <button
+              onClick={() => navigate(`/practice/${scenario.id}`, { state: { scenario } })}
+              className="w-full py-3.5 rounded-[14px] font-bold text-sm text-white transition-transform active:scale-[.98]"
+              style={{ background: 'linear-gradient(135deg, var(--saffron), var(--saffron-deep))' }}
+            >
+              Try Again 🔄
+            </button>
+          )}
+          <button
+            onClick={() => navigate('/conversations')}
+            className="w-full py-3 rounded-[14px] font-semibold text-sm"
+            style={{ border: '1.5px solid var(--line)', color: 'var(--ink-soft)', background: 'var(--paper)' }}
+          >
+            Choose New Scenario
+          </button>
+          <button
+            onClick={() => navigate('/progress')}
+            className="w-full py-2 text-sm font-semibold"
+            style={{ color: 'var(--teal)', background: 'none', border: 'none' }}
+          >
+            📈 View My Progress
+          </button>
+>>>>>>> release1.0
         </div>
       </div>
     </div>

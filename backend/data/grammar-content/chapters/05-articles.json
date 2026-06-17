@@ -1,0 +1,864 @@
+{
+  "id": "ch-05-articles",
+  "slug": "articles",
+  "order": 5,
+  "title": {
+    "en": "Articles",
+    "gu": "લેખો",
+    "guMT": true
+  },
+  "summary": {
+    "en": "How to use the articles a, an and the — and when to use no article at all.",
+    "gu": "લેખ a, an અને the — નો ઉપયોગ કેવી રીતે કરવો અને કોઈ પણ લેખનો ઉપયોગ ક્યારે ન કરવો.",
+    "guMT": true
+  },
+  "sources": [
+    "motion",
+    "anamika"
+  ],
+  "explanations": [
+    {
+      "block": "prose",
+      "id": "ch-05-articles/exp-1",
+      "text": {
+        "en": "An article is a word placed before a noun to show whether the noun is general or specific. There are two kinds: the indefinite articles 'a' and 'an', and the definite article 'the'.",
+        "gu": "લેખ એ સંજ્ઞા સામાન્ય છે કે વિશિષ્ટ છે તે દર્શાવવા માટે સંજ્ઞાની આગળ મૂકવામાં આવેલો શબ્દ છે. ત્યાં બે પ્રકાર છે: અનિશ્ચિત લેખ 'a' અને 'an', અને ચોક્કસ લેખ 'the'.",
+        "guMT": true
+      }
+    },
+    {
+      "block": "rules",
+      "id": "ch-05-articles/exp-2",
+      "title": {
+        "en": "Using 'a' and 'an'",
+        "gu": "'a' અને 'an' નો ઉપયોગ",
+        "guMT": true
+      },
+      "items": [
+        {
+          "text": {
+            "en": "Use 'a' before a word that begins with a consonant sound.",
+            "gu": "વ્યંજન ધ્વનિથી શરૂ થતા શબ્દ પહેલા 'a' નો ઉપયોગ કરો.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "a boy",
+              "gu": "એક છોકરો",
+              "guMT": true
+            },
+            {
+              "en": "a book",
+              "gu": "એક પુસ્તક",
+              "guMT": true
+            },
+            {
+              "en": "a university (sounds like 'yoo')",
+              "gu": "યુનિવર્સિટી ('yoo' જેવું લાગે છે)",
+              "guMT": true
+            },
+            {
+              "en": "a one-day match (sounds like 'wun')",
+              "gu": "વન-ડે મેચ ('વુન' જેવું લાગે છે)",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "Use 'an' before a word that begins with a vowel sound (a, e, i, o, u).",
+            "gu": "સ્વર ધ્વનિ (a, e, i, o, u) થી શરૂ થતા શબ્દ પહેલાં 'an' નો ઉપયોગ કરો.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "an apple",
+              "gu": "એક સફરજન",
+              "guMT": true
+            },
+            {
+              "en": "an elephant",
+              "gu": "એક હાથી",
+              "guMT": true
+            },
+            {
+              "en": "an honest man (the 'h' is silent)",
+              "gu": "પ્રામાણિક માણસ ('એચ' મૌન છે)",
+              "guMT": true
+            },
+            {
+              "en": "an hour (the 'h' is silent)",
+              "gu": "એક કલાક ('h' શાંત છે)",
+              "guMT": true
+            },
+            {
+              "en": "an M.A. (sounds like 'em')",
+              "gu": "એક M.A. ('એમ' જેવું લાગે છે)",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "Remember it is the sound, not the spelling, that decides between 'a' and 'an'.",
+            "gu": "યાદ રાખો કે તે ધ્વનિ છે, જોડણી નથી, જે 'a' અને 'an' વચ્ચે નક્કી કરે છે.",
+            "guMT": true
+          }
+        }
+      ]
+    },
+    {
+      "block": "rules",
+      "id": "ch-05-articles/exp-3",
+      "title": {
+        "en": "Using 'the'",
+        "gu": "'the' નો ઉપયોગ કરીને",
+        "guMT": true
+      },
+      "items": [
+        {
+          "text": {
+            "en": "Use 'the' for unique things — there is only one of them.",
+            "gu": "અનન્ય વસ્તુઓ માટે 'the' નો ઉપયોગ કરો - તેમાંથી ફક્ત એક જ છે.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "the Sun",
+              "gu": "સૂર્ય",
+              "guMT": true
+            },
+            {
+              "en": "the Moon",
+              "gu": "ચંદ્ર",
+              "guMT": true
+            },
+            {
+              "en": "the Earth",
+              "gu": "પૃથ્વી",
+              "guMT": true
+            },
+            {
+              "en": "the sky",
+              "gu": "આકાશ",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "Use 'the' before the names of rivers, mountain ranges, holy books and oceans.",
+            "gu": "નદીઓ, પર્વતમાળાઓ, પવિત્ર પુસ્તકો અને મહાસાગરોના નામ પહેલાં 'the' નો ઉપયોગ કરો.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "the Ganga",
+              "gu": "ગંગા",
+              "guMT": true
+            },
+            {
+              "en": "the Himalayas",
+              "gu": "હિમાલય",
+              "guMT": true
+            },
+            {
+              "en": "the Ramayana",
+              "gu": "રામાયણ",
+              "guMT": true
+            },
+            {
+              "en": "the Indian Ocean",
+              "gu": "હિંદ મહાસાગર",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "Use 'the' before a superlative degree.",
+            "gu": "શ્રેષ્ઠ ડિગ્રી પહેલાં 'the' નો ઉપયોગ કરો.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "the tallest",
+              "gu": "સૌથી ઊંચું",
+              "guMT": true
+            },
+            {
+              "en": "the most intelligent",
+              "gu": "સૌથી બુદ્ધિશાળી",
+              "guMT": true
+            },
+            {
+              "en": "the longest",
+              "gu": "સૌથી લાંબુ",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "Use 'the' when a noun is mentioned a second time (it is now specific).",
+            "gu": "જ્યારે સંજ્ઞાનો બીજી વખત ઉલ્લેખ કરવામાં આવે ત્યારે 'the' નો ઉપયોગ કરો (તે હવે ચોક્કસ છે).",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "There is a cow in the garden. The cow is grazing.",
+              "gu": "બગીચામાં એક ગાય છે. ગાય ચરતી હોય છે.",
+              "guMT": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "block": "rules",
+      "id": "ch-05-articles/exp-4",
+      "title": {
+        "en": "When NO article is used (X)",
+        "gu": "જ્યારે કોઈ લેખનો ઉપયોગ થતો નથી (X)",
+        "guMT": true
+      },
+      "items": [
+        {
+          "text": {
+            "en": "Do not use an article before proper names, languages, days, months, materials, abstract nouns, sports and diseases.",
+            "gu": "યોગ્ય નામો, ભાષાઓ, દિવસો, મહિનાઓ, સામગ્રી, અમૂર્ત સંજ્ઞાઓ, રમતગમત અને રોગો પહેલાં લેખનો ઉપયોગ કરશો નહીં.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "Rajesh, Japan (names)",
+              "gu": "રાજેશ, જાપાન (નામો)",
+              "guMT": true
+            },
+            {
+              "en": "Gujarati, English (languages)",
+              "gu": "ગુજરાતી, અંગ્રેજી (ભાષાઓ)",
+              "guMT": true
+            },
+            {
+              "en": "Sunday, January (days and months)",
+              "gu": "રવિવાર, જાન્યુઆરી (દિવસો અને મહિનાઓ)",
+              "guMT": true
+            },
+            {
+              "en": "water, silver (materials)",
+              "gu": "પાણી, ચાંદી (સામગ્રી)",
+              "guMT": true
+            },
+            {
+              "en": "honesty, poverty (abstract nouns)",
+              "gu": "પ્રમાણિકતા, ગરીબી (અમૂર્ત સંજ્ઞાઓ)",
+              "guMT": true
+            },
+            {
+              "en": "cricket, football (sports)",
+              "gu": "ક્રિકેટ, ફૂટબોલ (રમત)",
+              "guMT": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "block": "examples",
+      "id": "ch-05-articles/exp-5",
+      "items": [
+        {
+          "en": "The Taj Mahal is one of the best monuments in India.",
+          "gu": "તાજમહેલ ભારતના શ્રેષ્ઠ સ્મારકોમાંનું એક છે.",
+          "guMT": true
+        },
+        {
+          "en": "Kalidas is the Shakespeare of India.",
+          "gu": "કાલિદાસ ભારતના શેક્સપિયર છે.",
+          "guMT": true
+        },
+        {
+          "en": "Gujarati is a sweet language.",
+          "gu": "ગુજરાતી એક મધુર ભાષા છે.",
+          "guMT": true
+        }
+      ]
+    },
+    {
+      "block": "rules",
+      "id": "ch-05-articles/exp-6",
+      "title": {
+        "en": "Special cases for 'the'",
+        "gu": "'ધ' માટે ખાસ કેસો",
+        "guMT": true
+      },
+      "items": [
+        {
+          "text": {
+            "en": "Use 'the' before abbreviated names of countries and groups of islands.",
+            "gu": "દેશો અને ટાપુઓના જૂથોના સંક્ષિપ્ત નામો પહેલાં 'the' નો ઉપયોગ કરો.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "the USA, the UK, the USSR, the Netherlands, the Philippines",
+              "gu": "યુએસએ, યુકે, યુએસએસઆર, નેધરલેન્ડ, ફિલિપાઇન્સ",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "Use 'the' before the name of a nationality group when referring to all the people as a community.",
+            "gu": "તમામ લોકોને સમુદાય તરીકે ઉલ્લેખ કરતી વખતે રાષ્ટ્રીયતા જૂથના નામ પહેલાં 'the' નો ઉપયોગ કરો.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "The Gujaratis are known for their business skills. (the whole community) | A Gujarati came to our school. (one person)",
+              "gu": "ગુજરાતીઓ તેમના વ્યવસાય કૌશલ્ય માટે જાણીતા છે. (સમગ્ર સમુદાય) | અમારી શાળામાં એક ગુજરાતી આવ્યો. (એક વ્યક્તિ)",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "Use 'the' before names of newspapers and magazines.",
+            "gu": "અખબારો અને સામયિકોના નામ પહેલાં 'the' નો ઉપયોગ કરો.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "the Times of India, the Hindustan Times, the Gujarat Samachar",
+              "gu": "ટાઈમ્સ ઓફ ઈન્ડિયા, હિન્દુસ્તાન ટાઈમ્સ, ગુજરાત સમાચાર",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "Use 'the' before well-known monuments and buildings.",
+            "gu": "જાણીતા સ્મારકો અને ઇમારતો પહેલાં 'the' નો ઉપયોગ કરો.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "the Taj Mahal, the Eiffel Tower, the Red Fort, the White House",
+              "gu": "તાજમહેલ, એફિલ ટાવર, લાલ કિલ્લો, વ્હાઇટ હાઉસ",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "Comparing someone to a famous person: use 'a' for the first mention (meaning 'a person like'); use 'the' when naming the class (meaning the most famous).",
+            "gu": "કોઈની તુલના પ્રખ્યાત વ્યક્તિ સાથે કરવી: પ્રથમ ઉલ્લેખ માટે 'a' નો ઉપયોગ કરો (જેનો અર્થ 'એક વ્યક્તિ ગમે છે'); વર્ગનું નામ આપતી વખતે 'the' નો ઉપયોગ કરો (જેનો અર્થ સૌથી પ્રખ્યાત).",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "Kalidas is the Shakespeare of India. (= the greatest poet of India, like Shakespeare was of England)",
+              "gu": "કાલિદાસ ભારતના શેક્સપિયર છે. (= ભારતના મહાન કવિ, જેમ કે શેક્સપિયર ઈંગ્લેન્ડના હતા)",
+              "guMT": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "ch-05-articles/q-1",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "The Sun sets in ____ west.",
+        "gu": "સૂર્ય ____ પશ્ચિમમાં અસ્ત થાય છે.",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "the",
+          "gu": "આ",
+          "guMT": true
+        },
+        {
+          "en": "a",
+          "gu": "a",
+          "guMT": true
+        },
+        {
+          "en": "X (none)",
+          "gu": "X (કોઈ નહીં)",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "the",
+        "gu": "આ",
+        "guMT": true
+      },
+      "hint": {
+        "en": "Directions are unique.",
+        "gu": "દિશાઓ અનન્ય છે.",
+        "guMT": true
+      },
+      "sourceRef": {
+        "book": "anamika",
+        "page": 2
+      }
+    },
+    {
+      "id": "ch-05-articles/q-2",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "Mr. Trivedi is ____ honorable man.",
+        "gu": "શ્રી ત્રિવેદી ____ માનનીય માણસ છે.",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "a",
+          "gu": "a",
+          "guMT": true
+        },
+        {
+          "en": "an",
+          "gu": "એક",
+          "guMT": true
+        },
+        {
+          "en": "the",
+          "gu": "આ",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "an",
+        "gu": "એક",
+        "guMT": true
+      },
+      "hint": {
+        "en": "The 'h' in 'honorable' is silent — it begins with a vowel sound.",
+        "gu": "'માનનીય' માં 'h' શાંત છે - તે સ્વર અવાજથી શરૂ થાય છે.",
+        "guMT": true
+      },
+      "sourceRef": {
+        "book": "anamika",
+        "page": 2
+      }
+    },
+    {
+      "id": "ch-05-articles/q-3",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "____ Haryana is not a big state.",
+        "gu": "____ હરિયાણા કોઈ મોટું રાજ્ય નથી.",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "The",
+          "gu": "આ",
+          "guMT": true
+        },
+        {
+          "en": "A",
+          "gu": "એ",
+          "guMT": true
+        },
+        {
+          "en": "X (none)",
+          "gu": "X (કોઈ નહીં)",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "X (none)",
+        "gu": "X (કોઈ નહીં)",
+        "guMT": true
+      },
+      "hint": {
+        "en": "Names of states take no article.",
+        "gu": "રાજ્યોના નામનો કોઈ લેખ નથી.",
+        "guMT": true
+      },
+      "sourceRef": {
+        "book": "anamika",
+        "page": 2
+      }
+    },
+    {
+      "id": "ch-05-articles/q-4",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "The Ramayana is ____ holy book of the Hindus.",
+        "gu": "રામાયણ એ ____ હિન્દુઓનો પવિત્ર ગ્રંથ છે.",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "a",
+          "gu": "a",
+          "guMT": true
+        },
+        {
+          "en": "an",
+          "gu": "એક",
+          "guMT": true
+        },
+        {
+          "en": "the",
+          "gu": "આ",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "a",
+        "gu": "a",
+        "guMT": true
+      },
+      "hint": {
+        "en": "'holy' begins with a consonant sound.",
+        "gu": "'પવિત્ર' વ્યંજન ધ્વનિથી શરૂ થાય છે.",
+        "guMT": true
+      },
+      "sourceRef": {
+        "book": "anamika",
+        "page": 2
+      }
+    },
+    {
+      "id": "ch-05-articles/q-5",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "Please see me in the office after ____ hour.",
+        "gu": "કૃપા કરીને મને ____ કલાક પછી ઑફિસમાં મળો.",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "a",
+          "gu": "a",
+          "guMT": true
+        },
+        {
+          "en": "an",
+          "gu": "એક",
+          "guMT": true
+        },
+        {
+          "en": "the",
+          "gu": "આ",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "an",
+        "gu": "એક",
+        "guMT": true
+      },
+      "hint": {
+        "en": "The 'h' in 'hour' is silent.",
+        "gu": "'કલાક' માંનો 'હ' શાંત છે.",
+        "guMT": true
+      },
+      "sourceRef": {
+        "book": "anamika",
+        "page": 2
+      }
+    },
+    {
+      "id": "ch-05-articles/q-6",
+      "type": "mcq",
+      "prompt": {
+        "en": "Which sentence uses the article correctly?",
+        "gu": "કયું વાક્ય લેખનો યોગ્ય રીતે ઉપયોગ કરે છે?",
+        "guMT": true
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "She is a university student.",
+            "gu": "તે યુનિવર્સિટીની વિદ્યાર્થીની છે.",
+            "guMT": true
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "She is an university student.",
+            "gu": "તે યુનિવર્સિટીની વિદ્યાર્થીની છે.",
+            "guMT": true
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "She is the university student.",
+            "gu": "તે યુનિવર્સિટીની વિદ્યાર્થીની છે.",
+            "guMT": true
+          }
+        }
+      ],
+      "answer": "a",
+      "solution": {
+        "en": "'university' begins with the consonant sound 'yoo', so it takes 'a'.",
+        "gu": "'યુનિવર્સિટી' વ્યંજન ધ્વનિ 'yoo' થી શરૂ થાય છે, તેથી તે 'a' લે છે.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-05-articles/q-7",
+      "type": "mcq",
+      "prompt": {
+        "en": "Choose the correct article: I read ____ Times of India daily.",
+        "gu": "સાચો લેખ પસંદ કરો: હું દરરોજ ____ ટાઈમ્સ ઓફ ઈન્ડિયા વાંચું છું.",
+        "guMT": true
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "a",
+            "gu": "a",
+            "guMT": true
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "an",
+            "gu": "એક",
+            "guMT": true
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "the",
+            "gu": "આ",
+            "guMT": true
+          }
+        }
+      ],
+      "answer": "c",
+      "solution": {
+        "en": "Names of newspapers take 'the'.",
+        "gu": "અખબારોના નામ 'ધ' લે છે.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-05-articles/q-8",
+      "type": "translation",
+      "direction": "en_to_gu",
+      "prompt": {
+        "en": "The Sun rises in the east.",
+        "gu": "સૂર્ય પૂર્વ દિશામાં ઉગે છે.",
+        "guMT": true
+      },
+      "answer": {
+        "en": "The Sun rises in the east.",
+        "gu": "સૂર્ય પૂર્વ દિશામાં ઉગે છે.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-05-articles/q-9",
+      "type": "translation",
+      "direction": "gu_to_en",
+      "prompt": {
+        "en": "Translate into English: આપણને રાત્રે આકાશમાં ચંદ્ર દેખાય છે.",
+        "gu": "આ વાક્ય અંગ્રેજીમાં ભાષાંતર કરો: આપણને રાત્રે આકાશમાં ચંદ્ર દેખાય છે.",
+        "guMT": false
+      },
+      "answer": {
+        "en": "We see the moon in the sky at night.",
+        "gu": "આપણને રાત્રે આકાશમાં ચંદ્ર દેખાય છે.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-05-articles/q-10",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "____ Amazon is the longest river in the world.",
+        "gu": "____ એમેઝોન એ વિશ્વની સૌથી લાંબી નદી છે.",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "A",
+          "gu": "એ",
+          "guMT": true
+        },
+        {
+          "en": "The",
+          "gu": "આ",
+          "guMT": true
+        },
+        {
+          "en": "X (none)",
+          "gu": "X (કોઈ નહીં)",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "The",
+        "gu": "આ",
+        "guMT": true
+      },
+      "hint": {
+        "en": "Names of rivers take 'the'.",
+        "gu": "નદીઓના નામ 'ધ' લે છે.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-05-articles/q-11",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "He plays ____ cricket every evening.",
+        "gu": "તે દરરોજ સાંજે ____ ક્રિકેટ રમે છે.",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "a",
+          "gu": "a",
+          "guMT": true
+        },
+        {
+          "en": "the",
+          "gu": "આ",
+          "guMT": true
+        },
+        {
+          "en": "X (none)",
+          "gu": "X (કોઈ નહીં)",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "X (none)",
+        "gu": "X (કોઈ નહીં)",
+        "guMT": true
+      },
+      "hint": {
+        "en": "Sports and games take no article.",
+        "gu": "રમતો અને રમતો કોઈ લેખ નથી.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-05-articles/q-12",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "____ United States is a powerful country.",
+        "gu": "____ યુનાઇટેડ સ્ટેટ્સ એક શક્તિશાળી દેશ છે.",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "A",
+          "gu": "એ",
+          "guMT": true
+        },
+        {
+          "en": "The",
+          "gu": "આ",
+          "guMT": true
+        },
+        {
+          "en": "X (none)",
+          "gu": "X (કોઈ નહીં)",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "The",
+        "gu": "આ",
+        "guMT": true
+      },
+      "hint": {
+        "en": "Abbreviated country names (USA, UK) take 'the'.",
+        "gu": "સંક્ષિપ્ત દેશના નામ (યુએસએ, યુકે) 'ધ' લે છે.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-05-articles/q-13",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "Aakash is ____ best student in the class.",
+        "gu": "આકાશ વર્ગમાં ____ શ્રેષ્ઠ વિદ્યાર્થી છે.",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "a",
+          "gu": "a",
+          "guMT": true
+        },
+        {
+          "en": "the",
+          "gu": "આ",
+          "guMT": true
+        },
+        {
+          "en": "an",
+          "gu": "એક",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "the",
+        "gu": "આ",
+        "guMT": true
+      },
+      "hint": {
+        "en": "Superlative degree always takes 'the'.",
+        "gu": "શ્રેષ્ઠ ડિગ્રી હંમેશા 'ધ' લે છે.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-05-articles/q-14",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "Gujarati is ____ sweet language.",
+        "gu": "ગુજરાતી ____ મીઠી ભાષા છે.",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "a",
+          "gu": "a",
+          "guMT": true
+        },
+        {
+          "en": "an",
+          "gu": "એક",
+          "guMT": true
+        },
+        {
+          "en": "the",
+          "gu": "આ",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "a",
+        "gu": "a",
+        "guMT": true
+      },
+      "hint": {
+        "en": "'sweet' begins with a consonant sound, so use 'a'. Note: 'Gujarati' here names the language, not something specific or unique.",
+        "gu": "'મીઠી' વ્યંજન ધ્વનિથી શરૂ થાય છે, તેથી 'a' નો ઉપયોગ કરો. નોંધ: 'ગુજરાતી' અહીં ભાષાને નામ આપે છે, કોઈ વિશિષ્ટ અથવા વિશિષ્ટ નથી.",
+        "guMT": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,569 @@
+{
+  "id": "ch-09-to-have",
+  "slug": "to-have",
+  "order": 9,
+  "title": {
+    "en": "To Have",
+    "gu": "પાસે",
+    "guMT": true
+  },
+  "summary": {
+    "en": "How to use 'to have' (have / has / had / shall have / will have) to show possession in affirmative, interrogative and negative sentences.",
+    "gu": "હકારાત્મક, પૂછપરછ અને નકારાત્મક વાક્યોમાં કબજો બતાવવા માટે 'to have' (have/has/had/shall have/will have) નો ઉપયોગ કેવી રીતે કરવો.",
+    "guMT": true
+  },
+  "sources": [
+    "motion"
+  ],
+  "explanations": [
+    {
+      "block": "prose",
+      "id": "ch-09-to-have/exp-1",
+      "text": {
+        "en": "'To have' expresses possession — owning or holding something. It also forms perfect tenses when combined with a past participle.",
+        "gu": "'હોવું' એ કબજો વ્યક્ત કરે છે - કોઈ વસ્તુની માલિકી અથવા હોલ્ડિંગ. જ્યારે ભૂતકાળના પાર્ટિસિપલ સાથે જોડવામાં આવે ત્યારે તે સંપૂર્ણ સમય પણ બનાવે છે.",
+        "guMT": true
+      }
+    },
+    {
+      "block": "table",
+      "id": "ch-09-to-have/exp-2",
+      "caption": {
+        "en": "Forms of 'to have'",
+        "gu": "'હોવા માટે' ના સ્વરૂપો",
+        "guMT": true
+      },
+      "headers": [
+        {
+          "key": "subject",
+          "label": {
+            "en": "Subject",
+            "gu": "વિષય",
+            "guMT": true
+          }
+        },
+        {
+          "key": "present",
+          "label": {
+            "en": "Present (have/has)",
+            "gu": "હાજર (છે/છે)",
+            "guMT": true
+          }
+        },
+        {
+          "key": "past",
+          "label": {
+            "en": "Past (had)",
+            "gu": "ભૂતકાળ (હતો)",
+            "guMT": true
+          }
+        },
+        {
+          "key": "future",
+          "label": {
+            "en": "Future (shall/will have)",
+            "gu": "ભવિષ્ય (હોશે/હોશે)",
+            "guMT": true
+          }
+        }
+      ],
+      "rows": [
+        {
+          "subject": "I",
+          "present": "have",
+          "past": "had",
+          "future": "shall have"
+        },
+        {
+          "subject": "We",
+          "present": "have",
+          "past": "had",
+          "future": "shall have"
+        },
+        {
+          "subject": "You",
+          "present": "have",
+          "past": "had",
+          "future": "will have"
+        },
+        {
+          "subject": "He / She / It",
+          "present": "has",
+          "past": "had",
+          "future": "will have"
+        },
+        {
+          "subject": "They",
+          "present": "have",
+          "past": "had",
+          "future": "will have"
+        }
+      ]
+    },
+    {
+      "block": "rules",
+      "id": "ch-09-to-have/exp-3",
+      "title": {
+        "en": "Questions and negatives with 'to have'",
+        "gu": "'to have' સાથેના પ્રશ્નો અને નકારાત્મક",
+        "guMT": true
+      },
+      "items": [
+        {
+          "text": {
+            "en": "To ask a question, move have/has/had to the front.",
+            "gu": "પ્રશ્ન પૂછવા માટે, have/has/had ને આગળની તરફ ખસેડો.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "You have a scooter. → Have you a scooter?",
+              "gu": "તમારી પાસે સ્કૂટર છે. → તમારી પાસે સ્કૂટર છે?",
+              "guMT": true
+            },
+            {
+              "en": "Pintu had a cigarette. → Had Pintu a cigarette?",
+              "gu": "પિન્ટુ પાસે સિગારેટ હતી. → પિન્ટુ પાસે સિગારેટ હતી?",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "To make a negative, add 'not' after have/has/had.",
+            "gu": "નેગેટિવ બનાવવા માટે, have/has/haed પછી 'not' ઉમેરો.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "I have a red pen. → I have not a red pen.",
+              "gu": "મારી પાસે લાલ પેન છે. → મારી પાસે લાલ પેન નથી.",
+              "guMT": true
+            },
+            {
+              "en": "He had an umbrella. → He had not an umbrella.",
+              "gu": "તેની પાસે છત્રી હતી. → તેની પાસે છત્રી નહોતી.",
+              "guMT": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "block": "examples",
+      "id": "ch-09-to-have/exp-4",
+      "items": [
+        {
+          "en": "I have a wrist watch.",
+          "gu": "મારી પાસે કાંડા ઘડિયાળ છે.",
+          "guMT": true
+        },
+        {
+          "en": "He has a new bicycle.",
+          "gu": "તેની પાસે નવી સાયકલ છે.",
+          "guMT": true
+        },
+        {
+          "en": "They will have a lot of money.",
+          "gu": "તેમની પાસે ઘણા પૈસા હશે.",
+          "guMT": true
+        },
+        {
+          "en": "Have you any friends in school?",
+          "gu": "શાળામાં તમારા કોઈ મિત્રો છે?",
+          "guMT": true
+        }
+      ]
+    },
+    {
+      "block": "rules",
+      "id": "ch-09-to-have/exp-5",
+      "title": {
+        "en": "What 'to have' can express",
+        "gu": "શું હોવું જોઈએ તે વ્યક્ત કરી શકે છે",
+        "guMT": true
+      },
+      "items": [
+        {
+          "text": {
+            "en": "Ownership of objects.",
+            "gu": "વસ્તુઓની માલિકી.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "I have a new pen. | She has a beautiful house.",
+              "gu": "મારી પાસે નવી પેન છે. | તેણી પાસે એક સુંદર ઘર છે.",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "Family relationships.",
+            "gu": "કૌટુંબિક સંબંધો.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "I have two brothers. | He has a sister who is a nurse.",
+              "gu": "મારે બે ભાઈઓ છે. | તેની એક બહેન છે જે નર્સ છે.",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "Physical features of living things.",
+            "gu": "જીવંત વસ્તુઓની શારીરિક લાક્ષણિકતાઓ.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "The elephant has two big ears. | The dog has a long tail.",
+              "gu": "હાથીને બે મોટા કાન હોય છે. | કૂતરા પાસે લાંબી પૂંછડી છે.",
+              "guMT": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "block": "examples",
+      "id": "ch-09-to-have/exp-6",
+      "items": [
+        {
+          "en": "I have two brothers and one sister.",
+          "gu": "મારે બે ભાઈઓ અને એક બહેન છે.",
+          "guMT": true
+        },
+        {
+          "en": "The elephant has a long trunk.",
+          "gu": "હાથીની થડ લાંબી હોય છે.",
+          "guMT": true
+        },
+        {
+          "en": "Once there was a mouse. It had seven tails.",
+          "gu": "એકવાર ત્યાં એક ઉંદર હતો. તેને સાત પૂંછડીઓ હતી.",
+          "guMT": true
+        },
+        {
+          "en": "We shall have a picnic next Sunday.",
+          "gu": "અમે આવતા રવિવારે પિકનિક કરીશું.",
+          "guMT": true
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "ch-09-to-have/q-1",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "He ____ a new bicycle.",
+        "gu": "તેને ____ નવી સાયકલ છે.",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "have",
+          "gu": "પાસે",
+          "guMT": true
+        },
+        {
+          "en": "has",
+          "gu": "ધરાવે છે",
+          "guMT": true
+        },
+        {
+          "en": "had",
+          "gu": "હતી",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "has",
+        "gu": "ધરાવે છે",
+        "guMT": true
+      },
+      "hint": {
+        "en": "Third person singular (he/she/it) uses 'has' in the present.",
+        "gu": "ત્રીજી વ્યક્તિ એકવચન (તે/તે/તે) વર્તમાનમાં 'has' નો ઉપયોગ કરે છે.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-09-to-have/q-2",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "We ____ a colour TV.",
+        "gu": "અમે ____ રંગીન ટીવી.",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "has",
+          "gu": "ધરાવે છે",
+          "guMT": true
+        },
+        {
+          "en": "have",
+          "gu": "પાસે",
+          "guMT": true
+        },
+        {
+          "en": "had",
+          "gu": "હતી",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "have",
+        "gu": "પાસે",
+        "guMT": true
+      },
+      "hint": {
+        "en": "'We' uses 'have' in the present.",
+        "gu": "'આપણે' વર્તમાનમાં 'have' નો ઉપયોગ કરે છે.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-09-to-have/q-3",
+      "type": "transformation",
+      "transform": "to_have_question",
+      "given": "affirmative",
+      "ask": "question",
+      "forms": {
+        "affirmative": {
+          "en": "You have a scooter.",
+          "gu": "તમારી પાસે સ્કૂટર છે.",
+          "guMT": true
+        },
+        "question": {
+          "en": "Have you a scooter?",
+          "gu": "તમારી પાસે સ્કૂટર છે?",
+          "guMT": true
+        }
+      },
+      "answer": {
+        "en": "Have you a scooter?",
+        "gu": "તમારી પાસે સ્કૂટર છે?",
+        "guMT": true
+      },
+      "solution": {
+        "en": "Move 'have' before the subject.",
+        "gu": "વિષય પહેલાં 'have' ખસેડો.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-09-to-have/q-4",
+      "type": "mcq",
+      "prompt": {
+        "en": "Which sentence is correct?",
+        "gu": "કયું વાક્ય સાચું છે?",
+        "guMT": true
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "She have a camera.",
+            "gu": "તેણી પાસે કેમેરા છે.",
+            "guMT": true
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "She has a camera.",
+            "gu": "તેણી પાસે કેમેરા છે.",
+            "guMT": true
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "She had a camera.",
+            "gu": "તેણી પાસે કેમેરા હતો.",
+            "guMT": true
+          }
+        }
+      ],
+      "answer": "b",
+      "solution": {
+        "en": "Present tense + third person singular = 'has'.",
+        "gu": "વર્તમાનકાળ + તૃતીય વ્યક્તિ એકવચન = 'has'.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-09-to-have/q-5",
+      "type": "translation",
+      "direction": "en_to_gu",
+      "prompt": {
+        "en": "Have you any friends in school?",
+        "gu": "શાળામાં તમારા કોઈ મિત્રો છે?",
+        "guMT": true
+      },
+      "answer": {
+        "en": "Have you any friends in school?",
+        "gu": "શાળામાં તમારા કોઈ મિત્રો છે?",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-09-to-have/q-6",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "Riya ____ a beautiful voice.",
+        "gu": "રિયા ____ એક સુંદર અવાજ.",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "have",
+          "gu": "પાસે",
+          "guMT": true
+        },
+        {
+          "en": "has",
+          "gu": "ધરાવે છે",
+          "guMT": true
+        },
+        {
+          "en": "had",
+          "gu": "હતી",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "has",
+        "gu": "ધરાવે છે",
+        "guMT": true
+      },
+      "hint": {
+        "en": "Third person singular (Riya = she) uses 'has'.",
+        "gu": "ત્રીજી વ્યક્તિ એકવચન (રિયા = તેણી) 'has' નો ઉપયોગ કરે છે.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-09-to-have/q-7",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "We ____ many problems last year.",
+        "gu": "ગયા વર્ષે અમને ____ ઘણી સમસ્યાઓ આવી.",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "have",
+          "gu": "પાસે",
+          "guMT": true
+        },
+        {
+          "en": "has",
+          "gu": "ધરાવે છે",
+          "guMT": true
+        },
+        {
+          "en": "had",
+          "gu": "હતી",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "had",
+        "gu": "હતી",
+        "guMT": true
+      },
+      "hint": {
+        "en": "'Last year' shows past tense — use 'had' for all persons.",
+        "gu": "'છેલ્લું વર્ષ' ભૂતકાળનો સમય દર્શાવે છે - તમામ વ્યક્તિઓ માટે 'હેડ' નો ઉપયોગ કરો.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-09-to-have/q-8",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "They ____ a new house soon.",
+        "gu": "તેઓ ટૂંક સમયમાં નવું ઘર ____ કરશે.",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "have",
+          "gu": "પાસે",
+          "guMT": true
+        },
+        {
+          "en": "will have",
+          "gu": "હશે",
+          "guMT": true
+        },
+        {
+          "en": "had",
+          "gu": "હતી",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "will have",
+        "gu": "હશે",
+        "guMT": true
+      },
+      "hint": {
+        "en": "'Soon' signals future tense; 'they' uses 'will have'.",
+        "gu": "'ટૂંક સમયમાં' ભવિષ્યના તંગનો સંકેત આપે છે; 'તેઓ' વાપરે છે 'હશે'.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-09-to-have/q-9",
+      "type": "transformation",
+      "transform": "to_have_question",
+      "given": "affirmative",
+      "ask": "question",
+      "forms": {
+        "affirmative": {
+          "en": "She has a lovely garden.",
+          "gu": "તેણી પાસે એક સુંદર બગીચો છે.",
+          "guMT": true
+        },
+        "question": {
+          "en": "Has she a lovely garden?",
+          "gu": "તેણી પાસે એક સુંદર બગીચો છે?",
+          "guMT": true
+        }
+      },
+      "answer": {
+        "en": "Has she a lovely garden?",
+        "gu": "તેણી પાસે એક સુંદર બગીચો છે?",
+        "guMT": true
+      },
+      "solution": {
+        "en": "Move 'has' before the subject 'she'.",
+        "gu": "વિષય 'she' પહેલાં 'has' ખસેડો.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-09-to-have/q-10",
+      "type": "translation",
+      "direction": "en_to_gu",
+      "prompt": {
+        "en": "They will have a lot of money.",
+        "gu": "તેમની પાસે ઘણા પૈસા હશે.",
+        "guMT": true
+      },
+      "answer": {
+        "en": "They will have a lot of money.",
+        "gu": "તેમની પાસે ઘણા પૈસા હશે.",
+        "guMT": true
+      }
+    }
+  ]
+}

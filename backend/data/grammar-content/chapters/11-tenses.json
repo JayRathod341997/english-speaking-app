@@ -1,0 +1,921 @@
+{
+  "id": "ch-11-tenses",
+  "slug": "tenses",
+  "order": 11,
+  "title": {
+    "en": "Tenses",
+    "gu": "કાળ",
+    "guMT": true
+  },
+  "summary": {
+    "en": "The three time-frames (present, past, future) each split into four aspects (simple, continuous, perfect, perfect continuous) — how to form, question and negate each of the twelve tenses.",
+    "gu": "ત્રણ સમય-ફ્રેમ્સ (વર્તમાન, ભૂતકાળ, ભવિષ્ય) દરેક ચાર પાસાઓમાં વિભાજિત થાય છે (સરળ, સતત, સંપૂર્ણ, સંપૂર્ણ સતત) - કેવી રીતે રચના કરવી, પ્રશ્ન કરવો અને બાર કાળમાંથી દરેકને નકારી શકાય.",
+    "guMT": true
+  },
+  "sources": [
+    "motion"
+  ],
+  "explanations": [
+    {
+      "block": "prose",
+      "id": "ch-11-tenses/exp-1",
+      "text": {
+        "en": "A tense shows when an action happens. English has three time-frames — present, past and future — each with four aspects, giving twelve tenses in total. The key signal words (time adverbs) tell you which tense to use.",
+        "gu": "જ્યારે ક્રિયા થાય છે ત્યારે તંગ દર્શાવે છે. અંગ્રેજીમાં ત્રણ સમય-ફ્રેમ છે — વર્તમાન, ભૂતકાળ અને ભવિષ્ય — દરેક ચાર પાસાઓ સાથે, કુલ બાર સમય આપે છે. મુખ્ય સંકેત શબ્દો (સમય ક્રિયાવિશેષણ) તમને જણાવે છે કે કયો સમય વાપરવો.",
+        "guMT": true
+      }
+    },
+    {
+      "block": "table",
+      "id": "ch-11-tenses/exp-2",
+      "caption": {
+        "en": "The twelve tenses — formula and signal words",
+        "gu": "બાર સમય - સૂત્ર અને સંકેત શબ્દો",
+        "guMT": true
+      },
+      "headers": [
+        {
+          "key": "tense",
+          "label": {
+            "en": "Tense",
+            "gu": "તંગ",
+            "guMT": true
+          }
+        },
+        {
+          "key": "formula",
+          "label": {
+            "en": "Formula",
+            "gu": "ફોર્મ્યુલા",
+            "guMT": true
+          }
+        },
+        {
+          "key": "signals",
+          "label": {
+            "en": "Signal words",
+            "gu": "સંકેત શબ્દો",
+            "guMT": true
+          }
+        }
+      ],
+      "rows": [
+        {
+          "tense": "Simple Present",
+          "formula": "Subject + V1 (he/she/it: +s/es)",
+          "signals": "always, daily, often, usually, every day"
+        },
+        {
+          "tense": "Present Continuous",
+          "formula": "Subject + am/is/are + V-ing",
+          "signals": "now, at present, at this moment"
+        },
+        {
+          "tense": "Present Perfect",
+          "formula": "Subject + have/has + V3",
+          "signals": "already, just now, ever, never, yet"
+        },
+        {
+          "tense": "Present Perfect Continuous",
+          "formula": "Subject + have/has been + V-ing + since/for",
+          "signals": "since, for"
+        },
+        {
+          "tense": "Simple Past",
+          "formula": "Subject + V2",
+          "signals": "yesterday, last week, ago, last year"
+        },
+        {
+          "tense": "Past Continuous",
+          "formula": "Subject + was/were + V-ing",
+          "signals": "at 7 o'clock (past time), while"
+        },
+        {
+          "tense": "Past Perfect",
+          "formula": "Subject + had + V3",
+          "signals": "before, after, when (past event completed earlier)"
+        },
+        {
+          "tense": "Past Perfect Continuous",
+          "formula": "Subject + had been + V-ing + since/for",
+          "signals": "since, for (in a past context)"
+        },
+        {
+          "tense": "Simple Future",
+          "formula": "Subject + shall/will + V1",
+          "signals": "tomorrow, next week, next year"
+        },
+        {
+          "tense": "Future Continuous",
+          "formula": "Subject + shall/will be + V-ing",
+          "signals": "at this time tomorrow"
+        },
+        {
+          "tense": "Future Perfect",
+          "formula": "Subject + shall/will have + V3",
+          "signals": "by (a future time)"
+        },
+        {
+          "tense": "Future Perfect Continuous",
+          "formula": "Subject + shall/will have been + V-ing",
+          "signals": "by (future) + for/since"
+        }
+      ]
+    },
+    {
+      "block": "rules",
+      "id": "ch-11-tenses/exp-3",
+      "title": {
+        "en": "Simple Present — key rules",
+        "gu": "સરળ વર્તમાન — મુખ્ય નિયમો",
+        "guMT": true
+      },
+      "items": [
+        {
+          "text": {
+            "en": "Add -s or -es to the base verb when the subject is he, she or it.",
+            "gu": "જ્યારે વિષય he, she અથવા it હોય ત્યારે મૂળ ક્રિયાપદમાં -s અથવા -es ઉમેરો.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "He reads every day. She washes clothes. The bird flies.",
+              "gu": "તે દરરોજ વાંચે છે. તે કપડાં ધોવે છે. પક્ષી ઉડે છે.",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "Use 'Do' for questions with I/we/you/they; 'Does' for he/she/it.",
+            "gu": "હું/અમે/તમે/તેઓ સાથેના પ્રશ્નો માટે 'ડુ' નો ઉપયોગ કરો; તે/તેણી/તે માટે 'કરે છે'.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "Do you play cricket? Does she read an English paper?",
+              "gu": "શું તમે ક્રિકેટ રમો છો? શું તે અંગ્રેજી પેપર વાંચે છે?",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "Use 'do not' / 'does not' for negatives. With 'does not', remove -s/-es from the verb.",
+            "gu": "નકારાત્મક માટે 'do not' / 'does not' નો ઉપયોગ કરો. 'does not' સાથે, ક્રિયાપદમાંથી -s/-es કાઢી નાખો.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "I do not listen. He does not like maths.",
+              "gu": "હું સાંભળતો નથી. તેને ગણિત પસંદ નથી.",
+              "guMT": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "block": "rules",
+      "id": "ch-11-tenses/exp-4",
+      "title": {
+        "en": "Simple Past — key rules",
+        "gu": "સરળ ભૂતકાળ — મુખ્ય નિયમો",
+        "guMT": true
+      },
+      "items": [
+        {
+          "text": {
+            "en": "Use V2 (past form) for all subjects — no agreement needed.",
+            "gu": "બધા વિષયો માટે V2 (પાસ્ટ ફોર્મ) નો ઉપયોગ કરો — કોઈ કરારની જરૂર નથી.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "I bought this T-shirt yesterday. She married last year.",
+              "gu": "મેં ગઈકાલે આ ટી-શર્ટ ખરીદ્યું હતું. તેણીએ ગયા વર્ષે લગ્ન કર્યા હતા.",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "Use 'Did' for questions; 'did not' for negatives; the main verb goes back to base form.",
+            "gu": "પ્રશ્નો માટે 'Did' નો ઉપયોગ કરો; નકારાત્મક માટે 'નહીં'; મુખ્ય ક્રિયાપદ પાયાના સ્વરૂપમાં પાછું જાય છે.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "Did you pass the exam? We did not play on Sunday.",
+              "gu": "શું તમે પરીક્ષા પાસ કરી? અમે રવિવારે રમ્યા ન હતા.",
+              "guMT": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "block": "rules",
+      "id": "ch-11-tenses/exp-5",
+      "title": {
+        "en": "Present Continuous — key rules",
+        "gu": "વર્તમાન સતત — મુખ્ય નિયમો",
+        "guMT": true
+      },
+      "items": [
+        {
+          "text": {
+            "en": "Use am/is/are + verb-ing. If the verb ends in -e, drop the -e before -ing. Short vowel + consonant: double the consonant.",
+            "gu": "am/is/are + ક્રિયાપદ-ing નો ઉપયોગ કરો. જો ક્રિયાપદ -e માં સમાપ્ત થાય છે, તો -ing પહેલાં -e મૂકો. લઘુ સ્વર + વ્યંજન: વ્યંજન બમણું.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "I am reading. Listen, Roopa is crying. They are buying ice cream.",
+              "gu": "હું વાંચું છું. સાંભળો, રૂપા રડી રહી છે. તેઓ આઈસ્ક્રીમ ખરીદે છે.",
+              "guMT": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "block": "rules",
+      "id": "ch-11-tenses/exp-6",
+      "title": {
+        "en": "Perfect tenses — structure and signal words",
+        "gu": "સંપૂર્ણ સમય - બંધારણ અને સંકેત શબ્દો",
+        "guMT": true
+      },
+      "items": [
+        {
+          "text": {
+            "en": "Present Perfect (have/has + V3) — a past action that is relevant now or has just finished. Signal words: already, yet, just, ever, never, recently.",
+            "gu": "Present Perfect (have/has + V3) — ભૂતકાળની ક્રિયા જે અત્યારે સંબંધિત છે અથવા હમણાં જ સમાપ્ત થઈ છે. સંકેત શબ્દો: પહેલેથી જ, હજુ સુધી, માત્ર, ક્યારેય, ક્યારેય નહીં, તાજેતરમાં.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "I have already done my homework. | She has never visited Paris. | He has just arrived.",
+              "gu": "મેં પહેલેથી જ મારું હોમવર્ક કર્યું છે. | તેણીએ ક્યારેય પેરિસની મુલાકાત લીધી નથી. | તે હમણાં જ આવ્યો છે.",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "Past Perfect (had + V3) — action completed before another past event. Key words: before, after, when, by the time.",
+            "gu": "પાસ્ટ પરફેક્ટ (હતી + V3) — અન્ય ભૂતકાળની ઘટના પહેલાં ક્રિયા પૂર્ણ. મુખ્ય શબ્દો: પહેલાં, પછી, ક્યારે, સમય દ્વારા.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "The train had left before I reached the station. | He had finished the work when she came.",
+              "gu": "હું સ્ટેશન પહોંચે તે પહેલાં જ ટ્રેન નીકળી ગઈ હતી. | તેણી આવી ત્યારે તેણે કામ પૂરું કર્યું હતું.",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "Future Perfect (will have + V3) — action will be completed before a specified future time. Signal: by + future time.",
+            "gu": "ફ્યુચર પરફેક્ટ (+ V3 હશે) — ચોક્કસ ભાવિ સમય પહેલાં ક્રિયા પૂર્ણ કરવામાં આવશે. સિગ્નલ: + ભાવિ સમય દ્વારા.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "By Sunday, I will have finished the project. | She will have reached home by 6 pm.",
+              "gu": "રવિવાર સુધીમાં, હું પ્રોજેક્ટ પૂર્ણ કરીશ. | તે સાંજે 6 વાગ્યા સુધીમાં ઘરે પહોંચી જશે.",
+              "guMT": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "block": "rules",
+      "id": "ch-11-tenses/exp-7",
+      "title": {
+        "en": "Perfect Continuous and Future Continuous tenses",
+        "gu": "સંપૂર્ણ સતત અને ભાવિ સતત સમય",
+        "guMT": true
+      },
+      "items": [
+        {
+          "text": {
+            "en": "Present Perfect Continuous (have been/has been + V-ing + since/for) — action started in the past and is still continuing now.",
+            "gu": "પ્રેઝન્ટ પરફેક્ટ કંટીન્યુઅસ (છે/કરવામાં આવી છે + V-ing + ત્યારથી/માટે) — ક્રિયા ભૂતકાળમાં શરૂ થઈ હતી અને અત્યારે પણ ચાલુ છે.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "She has been teaching here since 2000. | They have been playing for two hours.",
+              "gu": "તે 2000 થી અહીં ભણાવી રહી છે તેઓ બે કલાકથી રમતા હતા.",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "Past Perfect Continuous (had been + V-ing + since/for) — action was ongoing up to a specific past moment.",
+            "gu": "પાસ્ટ પરફેક્ટ કંટીન્યુઅસ (+ V-ing + ત્યારથી/ માટે) — ક્રિયા ચોક્કસ ભૂતકાળની ક્ષણ સુધી ચાલુ હતી.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "He had been waiting for an hour when the bus came. | She had been studying since morning when I called.",
+              "gu": "બસ આવે ત્યારે તે એક કલાકથી રાહ જોતો હતો. | મેં ફોન કર્યો ત્યારે તે સવારથી જ ભણતી હતી.",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "Future Continuous (will be + V-ing) — action will be in progress at a specific future time.",
+            "gu": "ભાવિ સતત (હશે + V-ing) — ક્રિયા ચોક્કસ ભવિષ્યના સમયે ચાલુ રહેશે.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "At 8 o'clock tomorrow, I will be watching the match. | This time next year, they will be living in Canada.",
+              "gu": "આવતીકાલે 8 વાગ્યે હું મેચ જોઈશ. | આ વખતે આવતા વર્ષે તેઓ કેનેડામાં રહેશે.",
+              "guMT": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "ch-11-tenses/q-1",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "She ____ clothes every day. (wash)",
+        "gu": "તે દરરોજ ____ કપડાં પહેરે છે. (ધોવું)",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "wash",
+          "gu": "ધોવા",
+          "guMT": true
+        },
+        {
+          "en": "washes",
+          "gu": "ધોઈ નાખે છે",
+          "guMT": true
+        },
+        {
+          "en": "washed",
+          "gu": "ધોવાઇ",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "washes",
+        "gu": "ધોઈ નાખે છે",
+        "guMT": true
+      },
+      "hint": {
+        "en": "Simple present + she (he/she/it) + verb ending in -sh → add -es.",
+        "gu": "સરળ હાજર + તેણી (તે/તે/તે) + ક્રિયાપદ જેનો અંત -sh → ઉમેરો -es.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-11-tenses/q-2",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "I ____ this T-shirt yesterday. (buy)",
+        "gu": "મેં ગઈ કાલે આ ટી-શર્ટ ____. (ખરીદો)",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "buy",
+          "gu": "ખરીદો",
+          "guMT": true
+        },
+        {
+          "en": "bought",
+          "gu": "ખરીદ્યું",
+          "guMT": true
+        },
+        {
+          "en": "have bought",
+          "gu": "ખરીદી છે",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "bought",
+        "gu": "ખરીદ્યું",
+        "guMT": true
+      },
+      "hint": {
+        "en": "'Yesterday' = Simple Past. 'buy' → V2 is 'bought'.",
+        "gu": "'ગઈકાલ' = સાદો ભૂતકાળ. 'ખરીદો' → V2 એ 'ખરીદી' છે.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-11-tenses/q-3",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "Look, the peacock ____ in the farm. (dance)",
+        "gu": "જુઓ, ખેતરમાં મોર ____. (નૃત્ય)",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "dance",
+          "gu": "નૃત્ય",
+          "guMT": true
+        },
+        {
+          "en": "is dancing",
+          "gu": "નૃત્ય કરે છે",
+          "guMT": true
+        },
+        {
+          "en": "dances",
+          "gu": "નૃત્ય",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "is dancing",
+        "gu": "નૃત્ય કરે છે",
+        "guMT": true
+      },
+      "hint": {
+        "en": "'Look' + present action = Present Continuous.",
+        "gu": "'જુઓ' + વર્તમાન ક્રિયા = વર્તમાન સતત.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-11-tenses/q-4",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "She ____ in this hospital since 1990. (serve)",
+        "gu": "તેણી 1990 થી આ હોસ્પિટલમાં ____ છે. (સેવા)",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "serves",
+          "gu": "સેવા આપે છે",
+          "guMT": true
+        },
+        {
+          "en": "has been serving",
+          "gu": "સેવા આપી રહી છે",
+          "guMT": true
+        },
+        {
+          "en": "served",
+          "gu": "પીરસવામાં આવે છે",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "has been serving",
+        "gu": "સેવા આપી રહી છે",
+        "guMT": true
+      },
+      "hint": {
+        "en": "'Since 1990' + still ongoing = Present Perfect Continuous.",
+        "gu": "'1990 થી' + હજુ ચાલુ = વર્તમાન પરફેક્ટ સતત.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-11-tenses/q-5",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "The prayer ____ at 7 o'clock before we arrived. (start)",
+        "gu": "અમે પહોંચ્યા તે પહેલા 7 વાગ્યે પ્રાર્થના ____. (શરૂ)",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "started",
+          "gu": "શરૂ કર્યું",
+          "guMT": true
+        },
+        {
+          "en": "had started",
+          "gu": "શરૂ કર્યું હતું",
+          "guMT": true
+        },
+        {
+          "en": "starts",
+          "gu": "શરૂ થાય છે",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "had started",
+        "gu": "શરૂ કર્યું હતું",
+        "guMT": true
+      },
+      "hint": {
+        "en": "Action completed before another past action = Past Perfect.",
+        "gu": "અન્ય ભૂતકાળની ક્રિયા પહેલાં પૂર્ણ થયેલ ક્રિયા = ભૂતકાળ સંપૂર્ણ.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-11-tenses/q-6",
+      "type": "mcq",
+      "prompt": {
+        "en": "Which tense does 'I have done my homework' use?",
+        "gu": "'મેં મારું હોમવર્ક કર્યું છે' કયો તંગ ઉપયોગ કરે છે?",
+        "guMT": true
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Simple Past",
+            "gu": "સરળ ભૂતકાળ",
+            "guMT": true
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Present Perfect",
+            "gu": "પ્રેઝન્ટ પરફેક્ટ",
+            "guMT": true
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Past Perfect",
+            "gu": "પાસ્ટ પરફેક્ટ",
+            "guMT": true
+          }
+        }
+      ],
+      "answer": "b",
+      "solution": {
+        "en": "have + V3 (done) = Present Perfect Tense.",
+        "gu": "have + V3 (done) = Present Perfect Tense.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-11-tenses/q-7",
+      "type": "translation",
+      "direction": "en_to_gu",
+      "prompt": {
+        "en": "He reads every day.",
+        "gu": "તે દરરોજ વાંચે છે.",
+        "guMT": true
+      },
+      "answer": {
+        "en": "He reads every day.",
+        "gu": "તે દરરોજ વાંચે છે.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-11-tenses/q-8",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "They ____ for three hours. (wait)",
+        "gu": "તેઓ ત્રણ કલાક માટે ____. (રાહ જુઓ)",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "waited",
+          "gu": "રાહ જોઈ",
+          "guMT": true
+        },
+        {
+          "en": "have been waiting",
+          "gu": "રાહ જોઈ રહ્યા છે",
+          "guMT": true
+        },
+        {
+          "en": "are waiting",
+          "gu": "રાહ જોઈ રહ્યા છે",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "have been waiting",
+        "gu": "રાહ જોઈ રહ્યા છે",
+        "guMT": true
+      },
+      "hint": {
+        "en": "'For three hours' (still ongoing) → Present Perfect Continuous.",
+        "gu": "'ત્રણ કલાક માટે' (હજુ ચાલુ છે) → પ્રેઝન્ટ પરફેક્ટ કન્ટીન્યુઅસ.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-11-tenses/q-9",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "She ____ dinner before he arrived. (cook)",
+        "gu": "તેણીના આગમન પહેલાં તેણીએ ____ રાત્રિભોજન કર્યું. (રસોઈ)",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "cooked",
+          "gu": "રાંધેલ",
+          "guMT": true
+        },
+        {
+          "en": "had cooked",
+          "gu": "રાંધ્યું હતું",
+          "guMT": true
+        },
+        {
+          "en": "has cooked",
+          "gu": "રાંધ્યું છે",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "had cooked",
+        "gu": "રાંધ્યું હતું",
+        "guMT": true
+      },
+      "hint": {
+        "en": "Completed before another past event ('before he arrived') → Past Perfect.",
+        "gu": "ભૂતકાળની બીજી ઘટના પહેલાં પૂર્ણ ('તેના આગમન પહેલાં') → પાસ્ટ પરફેક્ટ.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-11-tenses/q-10",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "By next year, we ____ our new school. (complete)",
+        "gu": "આવતા વર્ષ સુધીમાં, અમે અમારી નવી શાળા ____ કરીશું. (સંપૂર્ણ)",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "complete",
+          "gu": "પૂર્ણ",
+          "guMT": true
+        },
+        {
+          "en": "will complete",
+          "gu": "પૂર્ણ કરશે",
+          "guMT": true
+        },
+        {
+          "en": "will have completed",
+          "gu": "પૂર્ણ કરી હશે",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "will have completed",
+        "gu": "પૂર્ણ કરી હશે",
+        "guMT": true
+      },
+      "hint": {
+        "en": "'By + future time' signals the Future Perfect tense.",
+        "gu": "'By + future time' ભવિષ્યના સંપૂર્ણ સમયનો સંકેત આપે છે.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-11-tenses/q-11",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "Listen! The birds ____. (sing)",
+        "gu": "સાંભળો! પક્ષીઓ ____. (ગાઓ)",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "sing",
+          "gu": "ગાઓ",
+          "guMT": true
+        },
+        {
+          "en": "are singing",
+          "gu": "ગાય છે",
+          "guMT": true
+        },
+        {
+          "en": "sang",
+          "gu": "ગાયું",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "are singing",
+        "gu": "ગાય છે",
+        "guMT": true
+      },
+      "hint": {
+        "en": "'Listen!' = action happening right now → Present Continuous.",
+        "gu": "'સાંભળો!' = ક્રિયા અત્યારે થઈ રહી છે → વર્તમાન સતત.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-11-tenses/q-12",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "He ____ in London for five years now. (live)",
+        "gu": "તે હવે પાંચ વર્ષથી લંડનમાં ____ છે. (જીવંત)",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "lived",
+          "gu": "રહેતા હતા",
+          "guMT": true
+        },
+        {
+          "en": "has been living",
+          "gu": "રહે છે",
+          "guMT": true
+        },
+        {
+          "en": "had been living",
+          "gu": "રહેતા હતા",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "has been living",
+        "gu": "રહે છે",
+        "guMT": true
+      },
+      "hint": {
+        "en": "'For five years' + still living there now → Present Perfect Continuous.",
+        "gu": "'પાંચ વર્ષથી' + હજુ પણ ત્યાં જ રહે છે → પ્રેઝન્ટ પરફેક્ટ કન્ટીન્યુઅસ.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-11-tenses/q-13",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "They ____ for two hours when I called. (sleep)",
+        "gu": "જ્યારે મેં ફોન કર્યો ત્યારે તેઓ બે કલાક માટે ____. (ઊંઘ)",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "were sleeping",
+          "gu": "સૂતા હતા",
+          "guMT": true
+        },
+        {
+          "en": "have been sleeping",
+          "gu": "સૂઈ ગયા છે",
+          "guMT": true
+        },
+        {
+          "en": "had been sleeping",
+          "gu": "સૂતો હતો",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "had been sleeping",
+        "gu": "સૂતો હતો",
+        "guMT": true
+      },
+      "hint": {
+        "en": "Ongoing action that preceded a past event → Past Perfect Continuous.",
+        "gu": "ચાલુ ક્રિયા કે જે ભૂતકાળની ઘટના પહેલાની છે → પાસ્ટ પરફેક્ટ સતત.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-11-tenses/q-14",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "At this time tomorrow, we ____ on a train to Ahmedabad. (travel)",
+        "gu": "આ સમયે આવતીકાલે, અમે ____ અમદાવાદ જતી ટ્રેનમાં. (મુસાફરી)",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "travel",
+          "gu": "મુસાફરી",
+          "guMT": true
+        },
+        {
+          "en": "will be travelling",
+          "gu": "મુસાફરી કરવામાં આવશે",
+          "guMT": true
+        },
+        {
+          "en": "will travel",
+          "gu": "પ્રવાસ કરશે",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "will be travelling",
+        "gu": "મુસાફરી કરવામાં આવશે",
+        "guMT": true
+      },
+      "hint": {
+        "en": "'At this time tomorrow' = action in progress at a future moment → Future Continuous.",
+        "gu": "'આ સમયે આવતીકાલે' = ભવિષ્યની ક્ષણે ક્રિયા ચાલુ છે → ભવિષ્ય સતત.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-11-tenses/q-15",
+      "type": "mcq",
+      "prompt": {
+        "en": "Which tense is: 'He had been studying for three hours before the exam'?",
+        "gu": "કયો સમય છે: 'તે પરીક્ષાના ત્રણ કલાક પહેલા અભ્યાસ કરતો હતો'?",
+        "guMT": true
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Present Perfect Continuous",
+            "gu": "પ્રેઝન્ટ પરફેક્ટ કન્ટિન્યુસ",
+            "guMT": true
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Past Continuous",
+            "gu": "ભૂતકાળ સતત",
+            "guMT": true
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Past Perfect Continuous",
+            "gu": "ભૂતકાળ પરફેક્ટ સતત",
+            "guMT": true
+          }
+        }
+      ],
+      "answer": "c",
+      "solution": {
+        "en": "had been + V-ing = Past Perfect Continuous — the studying was ongoing before a specific past event (the exam).",
+        "gu": "had been + V-ing = ભૂતકાળ પરફેક્ટ સતત — અભ્યાસ ભૂતકાળની ચોક્કસ ઘટના (પરીક્ષા) પહેલા ચાલુ હતો.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-11-tenses/q-16",
+      "type": "mcq",
+      "prompt": {
+        "en": "Which of these is a signal word for the Simple Past tense?",
+        "gu": "આમાંથી કયો સિમ્પલ પાસ્ટ ટેન્સ માટે સંકેત શબ્દ છે?",
+        "guMT": true
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "already",
+            "gu": "પહેલેથી",
+            "guMT": true
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "yesterday",
+            "gu": "ગઈકાલે",
+            "guMT": true
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "since",
+            "gu": "ત્યારથી",
+            "guMT": true
+          }
+        }
+      ],
+      "answer": "b",
+      "solution": {
+        "en": "'Yesterday' always signals Simple Past. 'Already' signals Present Perfect; 'since' signals Perfect Continuous.",
+        "gu": "'ગઈકાલ' હંમેશા સિમ્પલ પાસ્ટનો સંકેત આપે છે. 'પહેલેથી' સિગ્નલ પ્રેઝન્ટ પરફેક્ટ; 'થી' સિગ્નલ પરફેક્ટ કન્ટીન્યુઅસ.",
+        "guMT": true
+      }
+    }
+  ]
+}

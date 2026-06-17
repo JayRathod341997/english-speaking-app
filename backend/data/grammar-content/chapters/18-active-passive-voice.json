@@ -1,0 +1,646 @@
+{
+  "id": "ch-18-active-passive-voice",
+  "slug": "active-passive-voice",
+  "order": 19,
+  "title": {
+    "en": "Active and Passive Voice",
+    "gu": "સક્રિય અને નિષ્ક્રિય અવાજ",
+    "guMT": true
+  },
+  "summary": {
+    "en": "How to convert sentences between active voice (subject does the action) and passive voice (subject receives the action) across all tenses.",
+    "gu": "સક્રિય અવાજ (વિષય ક્રિયા કરે છે) અને નિષ્ક્રિય અવાજ (વિષય ક્રિયા મેળવે છે) વચ્ચેના તમામ સમયગાળામાં વાક્યોને કેવી રીતે કન્વર્ટ કરવા.",
+    "guMT": true
+  },
+  "sources": [
+    "motion"
+  ],
+  "explanations": [
+    {
+      "block": "prose",
+      "id": "ch-18-active-passive-voice/exp-1",
+      "text": {
+        "en": "In Active Voice, the subject performs the action. In Passive Voice, the subject receives the action. To change from active to passive: the object becomes the new subject; 'by' introduces the original subject (now called the agent); and the verb form becomes 'to be (appropriate form) + past participle (V3)'.",
+        "gu": "સક્રિય અવાજમાં, વિષય ક્રિયા કરે છે. નિષ્ક્રિય અવાજમાં, વિષય ક્રિયા મેળવે છે. સક્રિયથી નિષ્ક્રિયમાં બદલવા માટે: ઑબ્જેક્ટ નવો વિષય બને છે; 'by' મૂળ વિષયનો પરિચય આપે છે (હવે એજન્ટ કહેવાય છે); અને ક્રિયાપદનું સ્વરૂપ 'to be (યોગ્ય સ્વરૂપ) + past participle (V3)' બને ​​છે.",
+        "guMT": true
+      }
+    },
+    {
+      "block": "table",
+      "id": "ch-18-active-passive-voice/exp-2",
+      "caption": {
+        "en": "Active → Passive patterns by tense",
+        "gu": "તંગ દ્વારા સક્રિય → નિષ્ક્રિય પેટર્ન",
+        "guMT": true
+      },
+      "headers": [
+        {
+          "key": "tense",
+          "label": {
+            "en": "Tense",
+            "gu": "તંગ",
+            "guMT": true
+          }
+        },
+        {
+          "key": "active",
+          "label": {
+            "en": "Active pattern",
+            "gu": "સક્રિય પેટર્ન",
+            "guMT": true
+          }
+        },
+        {
+          "key": "passive",
+          "label": {
+            "en": "Passive pattern",
+            "gu": "નિષ્ક્રિય પેટર્ન",
+            "guMT": true
+          }
+        }
+      ],
+      "rows": [
+        {
+          "tense": "Simple Present",
+          "active": "Subject + V1(s/es) + object",
+          "passive": "Object + am/is/are + V3 + by + subject"
+        },
+        {
+          "tense": "Simple Past",
+          "active": "Subject + V2 + object",
+          "passive": "Object + was/were + V3 + by + subject"
+        },
+        {
+          "tense": "Simple Future",
+          "active": "Subject + will/shall + V1 + object",
+          "passive": "Object + will/shall + be + V3 + by + subject"
+        },
+        {
+          "tense": "Present Continuous",
+          "active": "Subject + is/are + V-ing + object",
+          "passive": "Object + is/are + being + V3 + by + subject"
+        },
+        {
+          "tense": "Past Continuous",
+          "active": "Subject + was/were + V-ing + object",
+          "passive": "Object + was/were + being + V3 + by + subject"
+        },
+        {
+          "tense": "Present Perfect",
+          "active": "Subject + have/has + V3 + object",
+          "passive": "Object + have/has + been + V3 + by + subject"
+        },
+        {
+          "tense": "Past Perfect",
+          "active": "Subject + had + V3 + object",
+          "passive": "Object + had + been + V3 + by + subject"
+        },
+        {
+          "tense": "Modal (can/may/must…)",
+          "active": "Subject + modal + V1 + object",
+          "passive": "Object + modal + be + V3 + by + subject"
+        }
+      ]
+    },
+    {
+      "block": "rules",
+      "id": "ch-18-active-passive-voice/exp-3",
+      "title": {
+        "en": "Important rules",
+        "gu": "મહત્વપૂર્ણ નિયમો",
+        "guMT": true
+      },
+      "items": [
+        {
+          "text": {
+            "en": "Change subject pronouns: I → me, we → us, he → him, she → her, they → them (for the 'by' phrase).",
+            "gu": "વિષયના સર્વનામ બદલો: I → me, we → us, he → he, she → તેણી, તેઓ → તેમને ('દ્વારા' શબ્દસમૂહ માટે).",
+            "guMT": true
+          }
+        },
+        {
+          "text": {
+            "en": "Questions: move the auxiliary to the front of the passive sentence.",
+            "gu": "પ્રશ્નો: નિષ્ક્રિય વાક્યના આગળના ભાગમાં સહાયકને ખસેડો.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "Are you taking tobacco? → Is tobacco being taken by you?",
+              "gu": "શું તમે તમાકુ લો છો? → શું તમારા દ્વારા તમાકુ લેવામાં આવે છે?",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "Imperatives: use 'Let + object + be + V3' for active commands.",
+            "gu": "આવશ્યકતાઓ: સક્રિય આદેશો માટે 'Let + object + be + V3' નો ઉપયોગ કરો.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "Open the door. → Let the door be opened.",
+              "gu": "દરવાજો ખોલો. → દરવાજો ખોલવા દો.",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "Polite requests with 'please': → 'You are requested to + V1'.",
+            "gu": "'કૃપા કરીને' સાથે નમ્ર વિનંતીઓ: → 'તમને + V1 માટે વિનંતી કરવામાં આવે છે'.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "Please help me. → You are requested to help me.",
+              "gu": "કૃપા કરીને મને મદદ કરો. → તમને મને મદદ કરવા વિનંતી છે.",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "When the agent is obvious or unknown, omit 'by + agent'.",
+            "gu": "જ્યારે એજન્ટ સ્પષ્ટ અથવા અજ્ઞાત હોય, ત્યારે 'બાય + એજન્ટ'ને છોડી દો.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "English is spoken all over the world.",
+              "gu": "સમગ્ર વિશ્વમાં અંગ્રેજી બોલાય છે.",
+              "guMT": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "block": "table",
+      "id": "ch-18-active-passive-voice/exp-4",
+      "caption": {
+        "en": "Pronoun changes when converting active to passive",
+        "gu": "સક્રિયમાં રૂપાંતરિત કરતી વખતે સર્વનામ બદલાય છે",
+        "guMT": true
+      },
+      "headers": [
+        {
+          "key": "active_subj",
+          "label": {
+            "en": "Active subject",
+            "gu": "સક્રિય વિષય",
+            "guMT": true
+          }
+        },
+        {
+          "key": "by_phrase",
+          "label": {
+            "en": "Passive 'by' phrase",
+            "gu": "નિષ્ક્રિય 'દ્વારા' શબ્દસમૂહ",
+            "guMT": true
+          }
+        },
+        {
+          "key": "example",
+          "label": {
+            "en": "Example",
+            "gu": "ઉદાહરણ",
+            "guMT": true
+          }
+        }
+      ],
+      "rows": [
+        {
+          "active_subj": "I",
+          "by_phrase": "by me",
+          "example": "I write → is written by me"
+        },
+        {
+          "active_subj": "We",
+          "by_phrase": "by us",
+          "example": "We play → is played by us"
+        },
+        {
+          "active_subj": "He",
+          "by_phrase": "by him",
+          "example": "He reads → is read by him"
+        },
+        {
+          "active_subj": "She",
+          "by_phrase": "by her",
+          "example": "She sings → is sung by her"
+        },
+        {
+          "active_subj": "They",
+          "by_phrase": "by them",
+          "example": "They build → is built by them"
+        },
+        {
+          "active_subj": "You",
+          "by_phrase": "by you",
+          "example": "You do → is done by you"
+        },
+        {
+          "active_subj": "It",
+          "by_phrase": "by it",
+          "example": "It breaks → is broken by it"
+        }
+      ]
+    },
+    {
+      "block": "rules",
+      "id": "ch-18-active-passive-voice/exp-5",
+      "title": {
+        "en": "When to omit 'by + agent' in passive sentences",
+        "gu": "નિષ્ક્રિય વાક્યોમાં 'બાય + એજન્ટ' ક્યારે છોડવું",
+        "guMT": true
+      },
+      "items": [
+        {
+          "text": {
+            "en": "When the agent is UNKNOWN — we do not know who performed the action.",
+            "gu": "જ્યારે એજન્ટ અજાણ્યો હોય ત્યારે — અમે જાણતા નથી કે ક્રિયા કોણે કરી.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "My bicycle was stolen. (We don't know who stole it.)",
+              "gu": "મારી સાયકલ ચોરાઈ ગઈ હતી. (તે કોણે ચોર્યું તે અમને ખબર નથી.)",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "When the agent is OBVIOUS — it is clear or expected who did the action.",
+            "gu": "જ્યારે એજન્ટ સ્પષ્ટ હોય છે - તે સ્પષ્ટ છે અથવા અપેક્ષિત છે કે ક્રિયા કોણે કરી.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "He was arrested. (Obviously by the police — no need to state it.)",
+              "gu": "તેની ધરપકડ કરવામાં આવી હતી. (પોલીસ દ્વારા દેખીતી રીતે - તે જણાવવાની જરૂર નથી.)",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "When the agent is GENERAL / IMPERSONAL — the action is done by people in general.",
+            "gu": "જ્યારે એજન્ટ સામાન્ય / અવ્યવસાયિક હોય છે - ક્રિયા સામાન્ય લોકો દ્વારા કરવામાં આવે છે.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "English is spoken all over the world.",
+              "gu": "સમગ્ર વિશ્વમાં અંગ્રેજી બોલાય છે.",
+              "guMT": true
+            },
+            {
+              "en": "Rice is grown in many parts of India.",
+              "gu": "ભારતના ઘણા ભાગોમાં ચોખા ઉગાડવામાં આવે છે.",
+              "guMT": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "ch-18-active-passive-voice/q-1",
+      "type": "transformation",
+      "transform": "voice",
+      "given": "active",
+      "ask": "passive",
+      "forms": {
+        "active": {
+          "en": "I speak English.",
+          "gu": "હું અંગ્રેજી બોલું છું.",
+          "guMT": true
+        },
+        "passive": {
+          "en": "English is spoken by me.",
+          "gu": "મારા દ્વારા અંગ્રેજી બોલાય છે.",
+          "guMT": true
+        }
+      },
+      "answer": {
+        "en": "English is spoken by me.",
+        "gu": "મારા દ્વારા અંગ્રેજી બોલાય છે.",
+        "guMT": true
+      },
+      "solution": {
+        "en": "Simple present: object + am/is/are + V3 + by + subject.",
+        "gu": "સાદું વર્તમાન: પદાર્થ + am/is/are + V3 + by + વિષય.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-18-active-passive-voice/q-2",
+      "type": "transformation",
+      "transform": "voice",
+      "given": "active",
+      "ask": "passive",
+      "forms": {
+        "active": {
+          "en": "A policeman caught the thief.",
+          "gu": "એક પોલીસવાળાએ ચોરને પકડી લીધો.",
+          "guMT": true
+        },
+        "passive": {
+          "en": "The thief was caught by a policeman.",
+          "gu": "ચોર પોલીસના હાથે ઝડપાઈ ગયો.",
+          "guMT": true
+        }
+      },
+      "answer": {
+        "en": "The thief was caught by a policeman.",
+        "gu": "ચોર પોલીસના હાથે ઝડપાઈ ગયો.",
+        "guMT": true
+      },
+      "solution": {
+        "en": "Simple past: object + was/were + V3 + by + subject.",
+        "gu": "સરળ ભૂતકાળ: ઑબ્જેક્ટ + was/were + V3 + by + subject.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-18-active-passive-voice/q-3",
+      "type": "transformation",
+      "transform": "voice",
+      "given": "active",
+      "ask": "passive",
+      "forms": {
+        "active": {
+          "en": "The peon is ringing the bell.",
+          "gu": "પટાવાળા બેલ વગાડે છે.",
+          "guMT": true
+        },
+        "passive": {
+          "en": "The bell is being rung by the peon.",
+          "gu": "પટાવાળા દ્વારા ઘંટ વગાડવામાં આવે છે.",
+          "guMT": true
+        }
+      },
+      "answer": {
+        "en": "The bell is being rung by the peon.",
+        "gu": "પટાવાળા દ્વારા ઘંટ વગાડવામાં આવે છે.",
+        "guMT": true
+      },
+      "solution": {
+        "en": "Present continuous passive: is/are + being + V3.",
+        "gu": "વર્તમાન સતત નિષ્ક્રિય: is/are + being + V3.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-18-active-passive-voice/q-4",
+      "type": "transformation",
+      "transform": "voice",
+      "given": "active",
+      "ask": "passive",
+      "forms": {
+        "active": {
+          "en": "Shah Jahan built the Taj Mahal.",
+          "gu": "શાહજહાંએ તાજમહેલ બનાવ્યો હતો.",
+          "guMT": true
+        },
+        "passive": {
+          "en": "The Taj Mahal was built by Shah Jahan.",
+          "gu": "તાજમહેલ શાહજહાં દ્વારા બનાવવામાં આવ્યો હતો.",
+          "guMT": true
+        }
+      },
+      "answer": {
+        "en": "The Taj Mahal was built by Shah Jahan.",
+        "gu": "તાજમહેલ શાહજહાં દ્વારા બનાવવામાં આવ્યો હતો.",
+        "guMT": true
+      },
+      "solution": {
+        "en": "Simple past passive: was + V3.",
+        "gu": "સરળ ભૂતકાળ નિષ્ક્રિય: was + V3.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-18-active-passive-voice/q-5",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "Please help me. → You are ____ to help me.",
+        "gu": "કૃપા કરીને મને મદદ કરો. → તમે મને મદદ કરવા માટે ____ છો.",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "asked",
+          "gu": "પૂછ્યું",
+          "guMT": true
+        },
+        {
+          "en": "requested",
+          "gu": "વિનંતી કરી",
+          "guMT": true
+        },
+        {
+          "en": "told",
+          "gu": "જણાવ્યું",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "requested",
+        "gu": "વિનંતી કરી",
+        "guMT": true
+      },
+      "hint": {
+        "en": "The passive of a polite request uses 'You are requested to'.",
+        "gu": "નમ્ર વિનંતીનો નિષ્ક્રિય ઉપયોગ 'તમને વિનંતી કરવામાં આવે છે'.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-18-active-passive-voice/q-6",
+      "type": "translation",
+      "direction": "en_to_gu",
+      "prompt": {
+        "en": "English is spoken all over the world.",
+        "gu": "સમગ્ર વિશ્વમાં અંગ્રેજી બોલાય છે.",
+        "guMT": true
+      },
+      "answer": {
+        "en": "English is spoken all over the world.",
+        "gu": "સમગ્ર વિશ્વમાં અંગ્રેજી બોલાય છે.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-18-active-passive-voice/q-7",
+      "type": "transformation",
+      "transform": "voice",
+      "given": "active",
+      "ask": "passive",
+      "forms": {
+        "active": {
+          "en": "She is writing a letter.",
+          "gu": "તેણી એક પત્ર લખી રહી છે.",
+          "guMT": true
+        },
+        "passive": {
+          "en": "A letter is being written by her.",
+          "gu": "તેના દ્વારા એક પત્ર લખવામાં આવી રહ્યો છે.",
+          "guMT": true
+        }
+      },
+      "answer": {
+        "en": "A letter is being written by her.",
+        "gu": "તેના દ્વારા એક પત્ર લખવામાં આવી રહ્યો છે.",
+        "guMT": true
+      },
+      "solution": {
+        "en": "Present continuous passive: is/are + being + V3. Subject pronoun 'she' → 'her' in by-phrase.",
+        "gu": "વર્તમાન સતત નિષ્ક્રિય: is/are + being + V3. બાય-ફ્રેઝમાં વિષય સર્વનામ 'she' → 'her'.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-18-active-passive-voice/q-8",
+      "type": "transformation",
+      "transform": "voice",
+      "given": "active",
+      "ask": "passive",
+      "forms": {
+        "active": {
+          "en": "He has read this book.",
+          "gu": "તેણે આ પુસ્તક વાંચ્યું છે.",
+          "guMT": true
+        },
+        "passive": {
+          "en": "This book has been read by him.",
+          "gu": "આ પુસ્તક તેમના દ્વારા વાંચવામાં આવ્યું છે.",
+          "guMT": true
+        }
+      },
+      "answer": {
+        "en": "This book has been read by him.",
+        "gu": "આ પુસ્તક તેમના દ્વારા વાંચવામાં આવ્યું છે.",
+        "guMT": true
+      },
+      "solution": {
+        "en": "Present perfect passive: have/has + been + V3. 'He' → 'by him'.",
+        "gu": "પ્રસ્તુત સંપૂર્ણ નિષ્ક્રિય: have/has + been + V3. 'તે' → 'તેના દ્વારા'.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-18-active-passive-voice/q-9",
+      "type": "transformation",
+      "transform": "voice",
+      "given": "active",
+      "ask": "passive",
+      "forms": {
+        "active": {
+          "en": "They will build a new school here.",
+          "gu": "તેઓ અહીં એક નવી શાળા બનાવશે.",
+          "guMT": true
+        },
+        "passive": {
+          "en": "A new school will be built here by them.",
+          "gu": "તેમના દ્વારા અહીં નવી શાળા બનાવવામાં આવશે.",
+          "guMT": true
+        }
+      },
+      "answer": {
+        "en": "A new school will be built here by them.",
+        "gu": "તેમના દ્વારા અહીં નવી શાળા બનાવવામાં આવશે.",
+        "guMT": true
+      },
+      "solution": {
+        "en": "Simple future passive: will + be + V3. 'They' → 'by them'.",
+        "gu": "સરળ ભાવિ નિષ્ક્રિય: will + be + V3. 'તેઓ' → 'તેમના દ્વારા'.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-18-active-passive-voice/q-10",
+      "type": "transformation",
+      "transform": "voice",
+      "given": "active",
+      "ask": "passive",
+      "forms": {
+        "active": {
+          "en": "You must complete this work today.",
+          "gu": "તમારે આજે આ કાર્ય પૂર્ણ કરવું જોઈએ.",
+          "guMT": true
+        },
+        "passive": {
+          "en": "This work must be completed by you today.",
+          "gu": "આ કાર્ય તમારે આજે જ પૂર્ણ કરવું જોઈએ.",
+          "guMT": true
+        }
+      },
+      "answer": {
+        "en": "This work must be completed by you today.",
+        "gu": "આ કાર્ય તમારે આજે જ પૂર્ણ કરવું જોઈએ.",
+        "guMT": true
+      },
+      "solution": {
+        "en": "Modal passive: modal + be + V3.",
+        "gu": "મોડલ નિષ્ક્રિય: મોડલ + બી + V3.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-18-active-passive-voice/q-11",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "The cake ____ by the children at the party. (eat)",
+        "gu": "પાર્ટીમાં બાળકો દ્વારા કેક ____. (ખાવું)",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "is eaten",
+          "gu": "ખવાય છે",
+          "guMT": true
+        },
+        {
+          "en": "was eaten",
+          "gu": "ખાધું હતું",
+          "guMT": true
+        },
+        {
+          "en": "has eaten",
+          "gu": "ખાધું છે",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "was eaten",
+        "gu": "ખાધું હતું",
+        "guMT": true
+      },
+      "hint": {
+        "en": "The event happened in the past — use simple past passive: was + V3.",
+        "gu": "ઘટના ભૂતકાળમાં બની હતી — સરળ ભૂતકાળ નિષ્ક્રિય વાપરો: was + V3.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-18-active-passive-voice/q-12",
+      "type": "translation",
+      "direction": "en_to_gu",
+      "prompt": {
+        "en": "The letter was written by Asha.",
+        "gu": "આ પત્ર આશાએ લખ્યો હતો.",
+        "guMT": true
+      },
+      "answer": {
+        "en": "The letter was written by Asha.",
+        "gu": "આ પત્ર આશાએ લખ્યો હતો.",
+        "guMT": true
+      }
+    }
+  ]
+}

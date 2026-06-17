@@ -10,7 +10,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "axios": "^1.16.1",
+    "@capacitor-community/speech-recognition": "^7.0.1",
+    "@capacitor-community/text-to-speech": "^8.0.1",
+    "@capacitor/android": "^8.4.0",
+    "@capacitor/cli": "^7.6.6",
+    "@capacitor/core": "^8.4.0",
     "lucide-react": "^1.16.0",
     "react": "^19.2.6",
     "react-dom": "^19.2.6",

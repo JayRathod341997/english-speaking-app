@@ -1,0 +1,703 @@
+{
+  "id": "ch-11b-relative-adverbs",
+  "slug": "relative-adverbs",
+  "order": 12,
+  "title": {
+    "en": "Relative Adverbs & Connectors",
+    "gu": "સંબંધિત ક્રિયાવિશેષણ અને કનેક્ટર્સ",
+    "guMT": true
+  },
+  "summary": {
+    "en": "Quantifiers (a little, a few, the rest) and time/manner connectors (as soon as / no sooner…than, hardly/scarcely…when, so…that, though/however/as, either…or, neither…nor).",
+    "gu": "ક્વોન્ટિફાયર (થોડા, થોડા, બાકીના) અને સમય/રીતે કનેક્ટર્સ (જલદી/જલ્દી નહીં...તેના કરતાં, ભાગ્યે જ/વિશિષ્ટ...ક્યારે, તેથી...તે, છતાં/જોકે/તેમ, ક્યાં તો...અથવા, ન તો...ન).",
+    "guMT": true
+  },
+  "sources": [
+    "motion"
+  ],
+  "explanations": [
+    {
+      "block": "rules",
+      "id": "ch-11b-relative-adverbs/exp-1",
+      "title": {
+        "en": "Quantifiers",
+        "gu": "ક્વોન્ટિફાયર",
+        "guMT": true
+      },
+      "items": [
+        {
+          "text": {
+            "en": "'A little' — a small amount (positive feeling); used with uncountable nouns.",
+            "gu": "'થોડું' - નાની રકમ (સકારાત્મક લાગણી); અસંખ્ય સંજ્ઞાઓ સાથે વપરાય છે.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "I shall only take a little tea.",
+              "gu": "હું માત્ર થોડી ચા લઈશ.",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "'Little' — not much; a negative quantity; almost none.",
+            "gu": "'થોડું' — વધારે નહીં; નકારાત્મક જથ્થો; લગભગ કોઈ નહીં.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "I have little money to help you.",
+              "gu": "મારી પાસે તમારી મદદ કરવા માટે થોડા પૈસા છે.",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "'A few' — a small number (positive feeling); used with countable nouns.",
+            "gu": "'થોડા' - નાની સંખ્યા (સકારાત્મક લાગણી); ગણતરીપાત્ર સંજ્ઞાઓ સાથે વપરાય છે.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "Only a few students can solve this problem.",
+              "gu": "માત્ર થોડા વિદ્યાર્થીઓ જ આ સમસ્યા હલ કરી શકે છે.",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "'Few' — not many; a negative sense.",
+            "gu": "'થોડા' — ઘણા નહીં; નકારાત્મક ભાવના.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "Few students in this class are clever.",
+              "gu": "આ વર્ગના થોડા વિદ્યાર્થીઓ હોંશિયાર છે.",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "'The rest' — the remaining part; use 'the rest of' + noun.",
+            "gu": "'બાકીનો' - બાકીનો ભાગ; 'બાકીના' + સંજ્ઞાનો ઉપયોગ કરો.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "I spent 250 Rs. and deposited the rest in the bank.",
+              "gu": "મેં 250 રૂ. અને બાકીની રકમ બેંકમાં જમા કરાવી હતી.",
+              "guMT": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "block": "rules",
+      "id": "ch-11b-relative-adverbs/exp-2",
+      "title": {
+        "en": "Time connectors — as soon as / no sooner…than",
+        "gu": "સમય કનેક્ટર્સ — જલદી / વહેલા નહીં... કરતાં",
+        "guMT": true
+      },
+      "items": [
+        {
+          "text": {
+            "en": "'As soon as' in a simple sentence can be changed to 'No sooner…than' (inverted).",
+            "gu": "સાદા વાક્યમાં 'જલદી જ'ને 'નો વહેલા...થી' (ઊંધી) માં બદલી શકાય છે.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "As soon as I finished my work, I went to play. → No sooner did I finish my work than I went to play.",
+              "gu": "મારું કામ પૂરું થતાં જ હું રમવા ગયો. → હું રમવા ગયો તેના કરતાં વહેલું મેં મારું કામ પૂરું કર્યું.",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "'Hardly/Scarcely had… when' — another way to express 'immediately after'.",
+            "gu": "'હાર્ડલી/ ભાગ્યે જ હતી... ક્યારે' — 'તત્કાલ પછી' વ્યક્ત કરવાની બીજી રીત.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "Hardly had the train left the station when I reached it.",
+              "gu": "જ્યારે હું સ્ટેશન પર પહોંચ્યો ત્યારે ટ્રેન ભાગ્યે જ ત્યાંથી નીકળી હતી.",
+              "guMT": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "block": "rules",
+      "id": "ch-11b-relative-adverbs/exp-3",
+      "title": {
+        "en": "Concession and manner connectors",
+        "gu": "કન્સેશન અને રીત કનેક્ટર્સ",
+        "guMT": true
+      },
+      "items": [
+        {
+          "text": {
+            "en": "'Though / However / As' — all express concession; used interchangeably in different patterns.",
+            "gu": "'જોકે / જો કે / તેમ' — બધી સ્પષ્ટ છૂટ; વિવિધ પેટર્નમાં એકબીજાના બદલે વાપરી શકાય છે.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "Though he is poor, he is honest. = However poor he is, he is honest. = Poor as he is, he is honest.",
+              "gu": "તે ગરીબ હોવા છતાં પ્રમાણિક છે. = તે ગમે તેટલો ગરીબ હોય, તે પ્રમાણિક છે. = તે જેટલો ગરીબ છે, તે પ્રમાણિક છે.",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "'So…that / Such…that' — result; 'So' before adjective/adverb; 'Such a/an' before noun.",
+            "gu": "'તેથી...તે/આવું...તે' — પરિણામ; વિશેષણ/ક્રિયાવિશેષણ પહેલાં 'તો'; સંજ્ઞા પહેલા 'આવો/આવો'.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "He walked so fast that he caught the bus. = He walked in such a way that he caught the bus.",
+              "gu": "તે એટલી ઝડપથી ચાલ્યો કે તેણે બસ પકડી. = તે એવી રીતે ચાલ્યો કે તેણે બસ પકડી.",
+              "guMT": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "block": "rules",
+      "id": "ch-11b-relative-adverbs/exp-4",
+      "title": {
+        "en": "As if / As though — and Yet / Still",
+        "gu": "જાણે / તેમ છતાં — અને તેમ છતાં / હજુ પણ",
+        "guMT": true
+      },
+      "items": [
+        {
+          "text": {
+            "en": "'As if' / 'as though' introduces an unreal or imaginary comparison. After as if/as though, use 'were' (not 'was') for ALL subjects (including I/he/she) in present/future unreal conditions.",
+            "gu": "'જેમ કે' / 'જેમ કે' એ અવાસ્તવિક અથવા કાલ્પનિક સરખામણી રજૂ કરે છે. જાણે/જાણે પછી, વર્તમાન/ભવિષ્યની અવાસ્તવિક પરિસ્થિતિઓમાં બધા વિષયો (હું/તે/તેણી સહિત) માટે 'were' (નહીં 'was') નો ઉપયોગ કરો.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "He speaks as if he were the boss. | She acts as though she were a queen. | He moves as if he were an actor.",
+              "gu": "તે જાણે બોસ હોય તેમ બોલે છે. | તે રાણીની જેમ વર્તે છે. | તે એવી રીતે ફરે છે જાણે તે કોઈ અભિનેતા હોય.",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "'Yet' — introduces a result that is surprising given the preceding clause.",
+            "gu": "'હજુ સુધી' — એક પરિણામ રજૂ કરે છે જે અગાઉની કલમને જોતાં આશ્ચર્યજનક છે.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "Bhairavi walked fast, yet she could not catch the bus. | He studied hard, yet he failed.",
+              "gu": "ભૈરવી ઝડપથી ચાલી, છતાં તે બસ પકડી શકી નહીં. | તેણે સખત અભ્યાસ કર્યો, છતાં તે નિષ્ફળ ગયો.",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "'Still' — shows that an action is continuing more than expected.",
+            "gu": "'સ્ટિલ' — બતાવે છે કે ક્રિયા અપેક્ષા કરતાં વધુ ચાલુ છે.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "It is already noon but she is still sleeping. | He has been working for ten hours and is still not tired.",
+              "gu": "બપોર થઈ ગઈ છે પણ તે હજી સૂઈ રહી છે. | તે દસ કલાકથી કામ કરે છે અને હજુ પણ થાકતો નથી.",
+              "guMT": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "block": "rules",
+      "id": "ch-11b-relative-adverbs/exp-5",
+      "title": {
+        "en": "Correlative conjunctions",
+        "gu": "સહસંબંધી જોડાણો",
+        "guMT": true
+      },
+      "items": [
+        {
+          "text": {
+            "en": "'Either...or' — one of two alternatives. Verb agrees with the subject closer to the verb.",
+            "gu": "'ક્યાં તો...અથવા' — બે વિકલ્પોમાંથી એક. ક્રિયાપદ ક્રિયાપદની નજીકના વિષય સાથે સંમત થાય છે.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "Either he or his friends are responsible. | Either you leave or I will call the police.",
+              "gu": "ક્યાં તો તે અથવા તેના મિત્રો જવાબદાર છે. | કાં તો તમે જાવ અથવા હું પોલીસને બોલાવીશ.",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "'Neither...nor' — none of two alternatives. Same agreement rule: verb agrees with the nearer subject.",
+            "gu": "'ન તો...ન તો' - બેમાંથી કોઈ પણ વિકલ્પ નથી. સમાન કરારનો નિયમ: ક્રિયાપદ નજીકના વિષય સાથે સંમત થાય છે.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "Neither Raju nor I know the answer. | Neither the students nor the teacher was present.",
+              "gu": "રાજુ કે મને જવાબ ખબર નથી. | વિદ્યાર્થીઓ કે શિક્ષકો પણ હાજર ન હતા.",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "'Not only...but also' — both things are true; emphasises the second.",
+            "gu": "'માત્ર નહીં...પણ' - બંને બાબતો સાચી છે; બીજા પર ભાર મૂકે છે.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "She is not only clever but also hardworking. | He not only sang but also danced.",
+              "gu": "તે માત્ર હોશિયાર જ નથી પરંતુ મહેનતુ પણ છે. | તેણે માત્ર ગાયું જ નહીં પરંતુ ડાન્સ પણ કર્યો.",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "'Both...and' — both things apply equally.",
+            "gu": "'બંને...અને' - બંને બાબતો સમાનરૂપે લાગુ પડે છે.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "Both she and her sister got prizes. | He is both honest and kind.",
+              "gu": "તેણી અને તેણીની બહેન બંનેને ઇનામ મળ્યા. | તે પ્રામાણિક અને દયાળુ બંને છે.",
+              "guMT": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "ch-11b-relative-adverbs/q-1",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "It was very cold last night so there were ____ people in the street.",
+        "gu": "ગઈ રાત્રે ખૂબ જ ઠંડી હતી તેથી શેરીમાં ____ લોકો હતા.",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "little",
+          "gu": "થોડું",
+          "guMT": true
+        },
+        {
+          "en": "few",
+          "gu": "થોડા",
+          "guMT": true
+        },
+        {
+          "en": "a few",
+          "gu": "થોડા",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "few",
+        "gu": "થોડા",
+        "guMT": true
+      },
+      "hint": {
+        "en": "'People' is countable. 'Few' = not many (negative sense).",
+        "gu": "'લોકો' ગણનાપાત્ર છે. 'થોડા' = ઘણા નહીં (નકારાત્મક અર્થમાં).",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-11b-relative-adverbs/q-2",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "Mr. Gohil has ____ knowledge but he makes show that he knows everything.",
+        "gu": "શ્રી ગોહિલ પાસે ____ જ્ઞાન છે પણ તેઓ બતાવે છે કે તેઓ બધું જ જાણે છે.",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "little",
+          "gu": "થોડું",
+          "guMT": true
+        },
+        {
+          "en": "a little",
+          "gu": "થોડું",
+          "guMT": true
+        },
+        {
+          "en": "few",
+          "gu": "થોડા",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "little",
+        "gu": "થોડું",
+        "guMT": true
+      },
+      "hint": {
+        "en": "'Knowledge' is uncountable. 'Little' = hardly any (negative).",
+        "gu": "'જ્ઞાન' અગણિત છે. 'લિટલ' = ભાગ્યે જ કોઈ (નકારાત્મક).",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-11b-relative-adverbs/q-3",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "Hardly had the lion seen the hunter ____ it roared loudly.",
+        "gu": "ભાગ્યે જ સિંહે શિકારીને જોયો હશે ____ તે જોરથી ગર્જના કરી.",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "than",
+          "gu": "કરતાં",
+          "guMT": true
+        },
+        {
+          "en": "then",
+          "gu": "પછી",
+          "guMT": true
+        },
+        {
+          "en": "when",
+          "gu": "જ્યારે",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "when",
+        "gu": "જ્યારે",
+        "guMT": true
+      },
+      "hint": {
+        "en": "'Hardly/Scarcely had…' is always completed with 'when'.",
+        "gu": "'Hardly/Scarcely had...' હંમેશા 'when' સાથે પૂર્ણ થાય છે.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-11b-relative-adverbs/q-4",
+      "type": "transformation",
+      "transform": "as_soon_as",
+      "given": "as_soon_as",
+      "ask": "no_sooner",
+      "forms": {
+        "as_soon_as": {
+          "en": "As soon as I finished my work, I went to play cricket.",
+          "gu": "મારું કામ પૂરું થતાં જ હું ક્રિકેટ રમવા ગયો.",
+          "guMT": true
+        },
+        "no_sooner": {
+          "en": "No sooner did I finish my work than I went to play cricket.",
+          "gu": "મેં મારું કામ પૂરું કર્યું કે હું ક્રિકેટ રમવા ગયો.",
+          "guMT": true
+        }
+      },
+      "answer": {
+        "en": "No sooner did I finish my work than I went to play cricket.",
+        "gu": "મેં મારું કામ પૂરું કર્યું કે હું ક્રિકેટ રમવા ગયો.",
+        "guMT": true
+      },
+      "solution": {
+        "en": "'No sooner' inverts subject and auxiliary; 'as soon as' → 'than'.",
+        "gu": "'કોઈ વહેલું' વિષય અને સહાયકને ઉલટાવે છે; 'જલદી' → 'થી'.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-11b-relative-adverbs/q-5",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "He is so tired ____ he is disinclined to continue to work.",
+        "gu": "તે ખૂબ થાકી ગયો છે ____ તે કામ કરવાનું ચાલુ રાખવા માટે અસંતુષ્ટ છે.",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "as",
+          "gu": "તરીકે",
+          "guMT": true
+        },
+        {
+          "en": "that",
+          "gu": "કે",
+          "guMT": true
+        },
+        {
+          "en": "therefore",
+          "gu": "તેથી",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "that",
+        "gu": "કે",
+        "guMT": true
+      },
+      "hint": {
+        "en": "'So + adjective + that' = result clause.",
+        "gu": "'તો + વિશેષણ + તે' = પરિણામ કલમ.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-11b-relative-adverbs/q-6",
+      "type": "translation",
+      "direction": "en_to_gu",
+      "prompt": {
+        "en": "Though he is poor, he is honest.",
+        "gu": "તે ગરીબ હોવા છતાં પ્રમાણિક છે.",
+        "guMT": true
+      },
+      "answer": {
+        "en": "Though he is poor, he is honest.",
+        "gu": "તે ગરીબ હોવા છતાં પ્રમાણિક છે.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-11b-relative-adverbs/q-7",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "I spent Rs. 200 and deposited ____ in the bank.",
+        "gu": "મેં રૂ. 200 અને બેંકમાં ____ જમા કરાવ્યા.",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "the rest",
+          "gu": "બાકીના",
+          "guMT": true
+        },
+        {
+          "en": "little",
+          "gu": "થોડું",
+          "guMT": true
+        },
+        {
+          "en": "a few",
+          "gu": "થોડા",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "the rest",
+        "gu": "બાકીના",
+        "guMT": true
+      },
+      "hint": {
+        "en": "'The rest' refers to the remaining portion.",
+        "gu": "'બાકી' બાકીના ભાગનો ઉલ્લેખ કરે છે.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-11b-relative-adverbs/q-8",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "____ Ram nor Shyam came to the party.",
+        "gu": "____ રામ કે શ્યામ પાર્ટીમાં આવ્યા ન હતા.",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "Either",
+          "gu": "ક્યાં તો",
+          "guMT": true
+        },
+        {
+          "en": "Neither",
+          "gu": "ન તો",
+          "guMT": true
+        },
+        {
+          "en": "Both",
+          "gu": "બંને",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "Neither",
+        "gu": "ન તો",
+        "guMT": true
+      },
+      "hint": {
+        "en": "'Neither...nor' means none of the two; the sentence is negative.",
+        "gu": "'Nether...Nor' નો અર્થ બેમાંથી કોઈ નથી; વાક્ય નકારાત્મક છે.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-11b-relative-adverbs/q-9",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "She spoke ____ if she knew everything.",
+        "gu": "તેણીએ ____ વાત કરી જો તેણીને બધું જ ખબર હોય.",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "though",
+          "gu": "જોકે",
+          "guMT": true
+        },
+        {
+          "en": "as",
+          "gu": "તરીકે",
+          "guMT": true
+        },
+        {
+          "en": "yet",
+          "gu": "હજુ સુધી",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "as",
+        "gu": "તરીકે",
+        "guMT": true
+      },
+      "hint": {
+        "en": "'as if' introduces an imaginary comparison.",
+        "gu": "'જેમ કે' કાલ્પનિક સરખામણી રજૂ કરે છે.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-11b-relative-adverbs/q-10",
+      "type": "mcq",
+      "prompt": {
+        "en": "He acts as if he ____ the principal.",
+        "gu": "તે ____ પ્રિન્સિપાલની જેમ વર્તે છે.",
+        "guMT": true
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "is",
+            "gu": "છે",
+            "guMT": true
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "was",
+            "gu": "હતી",
+            "guMT": true
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "were",
+            "gu": "હતા",
+            "guMT": true
+          }
+        }
+      ],
+      "answer": "c",
+      "solution": {
+        "en": "After 'as if' in an unreal condition, use 'were' for all subjects (including he/she/it).",
+        "gu": "અવાસ્તવિક સ્થિતિમાં 'જેમ કે' પછી, બધા વિષયો (તે/તેણી/તે સહિત) માટે 'were' નો ઉપયોગ કરો.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-11b-relative-adverbs/q-11",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "She is ____ only a dancer ____ also a singer.",
+        "gu": "તે ____ માત્ર એક નૃત્યાંગના ____ ગાયિકા પણ છે.",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "both / and",
+          "gu": "બંને / અને",
+          "guMT": true
+        },
+        {
+          "en": "not / but",
+          "gu": "નથી / પરંતુ",
+          "guMT": true
+        },
+        {
+          "en": "either / or",
+          "gu": "ક્યાં તો / અથવા",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "not / but",
+        "gu": "નથી / પરંતુ",
+        "guMT": true
+      },
+      "hint": {
+        "en": "'Not only ... but also' emphasises that both things are true.",
+        "gu": "'માત્ર જ નહીં... પણ' એ વાત પર ભાર મૂકે છે કે બંને બાબતો સાચી છે.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-11b-relative-adverbs/q-12",
+      "type": "transformation",
+      "transform": "concession",
+      "given": "though",
+      "ask": "adjective_as",
+      "forms": {
+        "though": {
+          "en": "Though she is weak, she is brave.",
+          "gu": "તેણી નબળી હોવા છતાં, તે બહાદુર છે.",
+          "guMT": true
+        },
+        "adjective_as": {
+          "en": "Weak as she is, she is brave.",
+          "gu": "તેણી જેટલી નબળી છે, તે બહાદુર છે.",
+          "guMT": true
+        }
+      },
+      "answer": {
+        "en": "Weak as she is, she is brave.",
+        "gu": "તેણી જેટલી નબળી છે, તે બહાદુર છે.",
+        "guMT": true
+      },
+      "solution": {
+        "en": "Move the adjective to the front: [Adjective] as [subject] [to-be], [main clause].",
+        "gu": "વિશેષણને આગળની તરફ ખસેડો: [વિશેષણ] [વિષય] [ટુ-બી], [મુખ્ય કલમ] તરીકે.",
+        "guMT": true
+      }
+    }
+  ]
+}

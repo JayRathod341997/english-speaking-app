@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Bolo English</string>
+    <string name="title_activity_main">Bolo English</string>
+    <string name="package_name">com.boloEnglish.app</string>
+    <string name="custom_url_scheme">com.boloEnglish.app</string>
+</resources>

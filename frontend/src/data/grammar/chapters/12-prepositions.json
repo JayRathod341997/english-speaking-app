@@ -1,0 +1,453 @@
+{
+  "id": "ch-12-prepositions",
+  "slug": "prepositions",
+  "order": 13,
+  "title": {
+    "en": "Prepositions",
+    "gu": "પૂર્વનિર્ધારણ",
+    "guMT": true
+  },
+  "summary": {
+    "en": "Words placed before a noun or pronoun to show its relationship with another word — covering position (on, over, under, in, beside), direction, time, and phrase prepositions.",
+    "gu": "અન્ય શબ્દ સાથેનો સંબંધ દર્શાવવા માટે સંજ્ઞા અથવા સર્વનામ પહેલાં મૂકવામાં આવેલા શબ્દો — કવરિંગ પોઝિશન (ચાલુ, ઉપર, નીચે, અંદર, બાજુમાં), દિશા, સમય અને શબ્દસમૂહ પૂર્વનિર્ધારણ.",
+    "guMT": true
+  },
+  "sources": [
+    "motion"
+  ],
+  "explanations": [
+    {
+      "block": "prose",
+      "id": "ch-12-prepositions/exp-1",
+      "text": {
+        "en": "A preposition is a word placed before a noun or pronoun to show its relationship (position, direction, time, manner, etc.) with another part of the sentence.",
+        "gu": "પૂર્વનિર્ધારણ એ વાક્યના અન્ય ભાગ સાથે તેનો સંબંધ (સ્થિતિ, દિશા, સમય, રીત, વગેરે) બતાવવા માટે સંજ્ઞા અથવા સર્વનામ પહેલાં મૂકવામાં આવેલો શબ્દ છે.",
+        "guMT": true
+      }
+    },
+    {
+      "block": "table",
+      "id": "ch-12-prepositions/exp-2",
+      "caption": {
+        "en": "Common prepositions and their meanings",
+        "gu": "સામાન્ય પૂર્વનિર્ધારણ અને તેમના અર્થો",
+        "guMT": true
+      },
+      "headers": [
+        {
+          "key": "prep",
+          "label": {
+            "en": "Preposition",
+            "gu": "પૂર્વનિર્ધારણ",
+            "guMT": true
+          }
+        },
+        {
+          "key": "meaning",
+          "label": {
+            "en": "Meaning / Use",
+            "gu": "અર્થ / ઉપયોગ",
+            "guMT": true
+          }
+        },
+        {
+          "key": "example",
+          "label": {
+            "en": "Example",
+            "gu": "ઉદાહરણ",
+            "guMT": true
+          }
+        }
+      ],
+      "rows": [
+        {
+          "prep": "On",
+          "meaning": "surface; specific day/date",
+          "example": "The coolie puts luggage on his head. On Sunday."
+        },
+        {
+          "prep": "Over",
+          "meaning": "above; across with movement",
+          "example": "The sky is over our heads. He hit the ball over mid wicket."
+        },
+        {
+          "prep": "Under",
+          "meaning": "below; directly beneath",
+          "example": "Your toys are under the cot."
+        },
+        {
+          "prep": "In",
+          "meaning": "enclosed space; months/years/times of day",
+          "example": "There are many animals in this zoo. In the morning."
+        },
+        {
+          "prep": "Beside",
+          "meaning": "next to / at the side of",
+          "example": "Dipti sits beside me in class."
+        },
+        {
+          "prep": "Near",
+          "meaning": "close to",
+          "example": "Our shop is near the bus station."
+        },
+        {
+          "prep": "Behind",
+          "meaning": "at the back of",
+          "example": "There is a cockroach behind the refrigerator."
+        },
+        {
+          "prep": "In front of",
+          "meaning": "facing; before",
+          "example": "Khyati sits in front of me."
+        },
+        {
+          "prep": "Between",
+          "meaning": "in the middle of two things/people",
+          "example": "I shall come between 5 and 6 o'clock."
+        },
+        {
+          "prep": "Among",
+          "meaning": "in the middle of more than two",
+          "example": "There is a small village among the mountains."
+        },
+        {
+          "prep": "Of",
+          "meaning": "belonging to; part of",
+          "example": "The Prime Minister of India."
+        },
+        {
+          "prep": "For",
+          "meaning": "duration; purpose; benefit",
+          "example": "Raju has been ill for eight days."
+        },
+        {
+          "prep": "From",
+          "meaning": "origin; starting point",
+          "example": "My brother came from Bharuch."
+        },
+        {
+          "prep": "To",
+          "meaning": "destination; receiver",
+          "example": "We sometimes go to Aji Dam."
+        },
+        {
+          "prep": "At",
+          "meaning": "exact time; precise place",
+          "example": "I got to school at 7 AM."
+        },
+        {
+          "prep": "By",
+          "meaning": "agent; mode of transport; deadline",
+          "example": "We shall reach by 6 PM. Travel by bus."
+        },
+        {
+          "prep": "With",
+          "meaning": "accompaniment; instrument",
+          "example": "I always write with a ball pen."
+        },
+        {
+          "prep": "Without",
+          "meaning": "absence/lack of",
+          "example": "My grandfather does not walk without a stick."
+        },
+        {
+          "prep": "Before",
+          "meaning": "earlier than; in front of",
+          "example": "We shall reach Junagadh before 5 o'clock."
+        },
+        {
+          "prep": "After",
+          "meaning": "later than; following",
+          "example": "Monday comes after Sunday."
+        }
+      ]
+    },
+    {
+      "block": "rules",
+      "id": "ch-12-prepositions/exp-3",
+      "title": {
+        "en": "Common prepositional phrases (collocations)",
+        "gu": "સામાન્ય પૂર્વનિર્ધારણ શબ્દસમૂહો (સંકલન)",
+        "guMT": true
+      },
+      "items": [
+        {
+          "text": {
+            "en": "Travel by (vehicle); get angry with; agree with; be afraid of; be famous for; wait for; trust in; be proud of; be interested in; be busy with; be good at; be fond of; suffer from; take care of.",
+            "gu": "(વાહન) દ્વારા મુસાફરી; ગુસ્સે થવું; સાથે સંમત થવું; ડરવું માટે પ્રખ્યાત બનો; રાહ જુઓ વિશ્વાસ ગર્વ હોવો; રસ ધરાવો; સાથે વ્યસ્ત રહો; સારા બનો શોખીન હોવું; પીડાય છે; કાળજી લો.",
+            "guMT": true
+          }
+        }
+      ]
+    },
+    {
+      "block": "rules",
+      "id": "ch-12-prepositions/exp-4",
+      "title": {
+        "en": "Phrase prepositions",
+        "gu": "શબ્દસમૂહ પૂર્વનિર્ધારણ",
+        "guMT": true
+      },
+      "items": [
+        {
+          "text": {
+            "en": "'According to' — following rules/information of.",
+            "gu": "'અનુસાર' — નીચેના નિયમો/માહિતી.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "I always work according to my father's advice.",
+              "gu": "હું હંમેશા મારા પિતાની સલાહ મુજબ કામ કરું છું.",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "'Because of / On account of / Owing to' — due to.",
+            "gu": "'કારણ કે/ના કારણે/ને કારણે' — કારણે.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "She left her job because of her family problem.",
+              "gu": "પારિવારિક સમસ્યાને કારણે તેણે નોકરી છોડી દીધી હતી.",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "'In spite of / Despite' — regardless of.",
+            "gu": "' હોવા છતાં / હોવા છતાં' — અનુલક્ષીને.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "In spite of all his efforts, he could not pass.",
+              "gu": "તેના તમામ પ્રયાસો છતાં તે પાસ ન થઈ શક્યો.",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "'In order to / With a view to (+ing)' — for the purpose of.",
+            "gu": "'(+ing) ની દૃષ્ટિએ / સાથે' — હેતુ માટે.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "Many people go abroad in order to earn money.",
+              "gu": "ઘણા લોકો પૈસા કમાવવા માટે વિદેશ જાય છે.",
+              "guMT": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "ch-12-prepositions/q-1",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "There is a map ____ the wall.",
+        "gu": "દિવાલ ____ નો નકશો છે.",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "in",
+          "gu": "માં",
+          "guMT": true
+        },
+        {
+          "en": "to",
+          "gu": "થી",
+          "guMT": true
+        },
+        {
+          "en": "on",
+          "gu": "ચાલુ",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "on",
+        "gu": "ચાલુ",
+        "guMT": true
+      },
+      "hint": {
+        "en": "A flat surface — use 'on'.",
+        "gu": "સપાટ સપાટી - 'ચાલુ' નો ઉપયોગ કરો.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-12-prepositions/q-2",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "I sat ____ Ram and Hari.",
+        "gu": "હું ____ રામ અને હરિ બેઠા.",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "among",
+          "gu": "વચ્ચે",
+          "guMT": true
+        },
+        {
+          "en": "between",
+          "gu": "વચ્ચે",
+          "guMT": true
+        },
+        {
+          "en": "after",
+          "gu": "પછી",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "between",
+        "gu": "વચ્ચે",
+        "guMT": true
+      },
+      "hint": {
+        "en": "'Between' is used for two people.",
+        "gu": "બે લોકો માટે 'બિટવીન' વપરાય છે.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-12-prepositions/q-3",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "The camel can live ____ water for days.",
+        "gu": "ઊંટ દિવસો સુધી ____ પાણીમાં જીવી શકે છે.",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "without",
+          "gu": "વગર",
+          "guMT": true
+        },
+        {
+          "en": "in",
+          "gu": "માં",
+          "guMT": true
+        },
+        {
+          "en": "among",
+          "gu": "વચ્ચે",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "without",
+        "gu": "વગર",
+        "guMT": true
+      },
+      "hint": {
+        "en": "'Without' means 'in the absence of'.",
+        "gu": "'વિના' એટલે 'ની ગેરહાજરીમાં'.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-12-prepositions/q-4",
+      "type": "mcq",
+      "prompt": {
+        "en": "She left her job ____ her family problem.",
+        "gu": "તેણીએ તેણીની નોકરી છોડી દીધી ____ તેણીની પારિવારિક સમસ્યા.",
+        "guMT": true
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "in spite of",
+            "gu": "હોવા છતાં",
+            "guMT": true
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "because of",
+            "gu": "કારણે",
+            "guMT": true
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "according to",
+            "gu": "અનુસાર",
+            "guMT": true
+          }
+        }
+      ],
+      "answer": "b",
+      "solution": {
+        "en": "'Because of' shows cause/reason.",
+        "gu": "'કારણ કે' કારણ/કારણ બતાવે છે.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-12-prepositions/q-5",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "We cut cloth ____ scissors.",
+        "gu": "અમે કાપડ ____ કાતર કાપી.",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "by",
+          "gu": "દ્વારા",
+          "guMT": true
+        },
+        {
+          "en": "with",
+          "gu": "સાથે",
+          "guMT": true
+        },
+        {
+          "en": "for",
+          "gu": "માટે",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "with",
+        "gu": "સાથે",
+        "guMT": true
+      },
+      "hint": {
+        "en": "'With' indicates the instrument used.",
+        "gu": "'સાથે' વપરાયેલ સાધન સૂચવે છે.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-12-prepositions/q-6",
+      "type": "translation",
+      "direction": "en_to_gu",
+      "prompt": {
+        "en": "There is a temple among the trees.",
+        "gu": "વૃક્ષોની વચ્ચે એક મંદિર છે.",
+        "guMT": true
+      },
+      "answer": {
+        "en": "There is a temple among the trees.",
+        "gu": "વૃક્ષોની વચ્ચે એક મંદિર છે.",
+        "guMT": true
+      }
+    }
+  ]
+}

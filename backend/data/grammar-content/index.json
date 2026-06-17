@@ -1,0 +1,249 @@
+{
+  "schemaVersion": "1.0",
+  "collection": {
+    "id": "eng-grammar-merged",
+    "title": {
+      "en": "English Grammar",
+      "gu": "અંગ્રેજી વ્યાકરણ",
+      "guMT": true
+    },
+    "languages": [
+      "en",
+      "gu"
+    ],
+    "sources": [
+      {
+        "id": "motion",
+        "title": "English Class 3 PDF Book By Motion Academy",
+        "pages": 83
+      },
+      {
+        "id": "anamika",
+        "title": "English Grammar With Exercise PDF By Anamika Academy",
+        "pages": 49
+      }
+    ]
+  },
+  "chapters": [
+    {
+      "id": "ch-01-parts-of-speech",
+      "slug": "parts-of-speech",
+      "order": 1,
+      "title": {
+        "en": "Parts of Speech",
+        "gu": "ભાષણના ભાગો",
+        "guMT": true
+      },
+      "file": "chapters/01-parts-of-speech.json"
+    },
+    {
+      "id": "ch-02-noun-types",
+      "slug": "noun-types",
+      "order": 2,
+      "title": {
+        "en": "Noun Types",
+        "gu": "સંજ્ઞાના પ્રકાર",
+        "guMT": true
+      },
+      "file": "chapters/02-noun-types.json"
+    },
+    {
+      "id": "ch-03-singular-plural",
+      "slug": "singular-plural",
+      "order": 3,
+      "title": {
+        "en": "Singular and Plural",
+        "gu": "એકવચન અને બહુવચન",
+        "guMT": true
+      },
+      "file": "chapters/03-singular-plural.json"
+    },
+    {
+      "id": "ch-04-gender",
+      "slug": "gender",
+      "order": 4,
+      "title": {
+        "en": "Gender",
+        "gu": "જાતિ",
+        "guMT": true
+      },
+      "file": "chapters/04-gender.json"
+    },
+    {
+      "id": "ch-05-articles",
+      "slug": "articles",
+      "order": 5,
+      "title": {
+        "en": "Articles",
+        "gu": "લેખો",
+        "guMT": true
+      },
+      "file": "chapters/05-articles.json"
+    },
+    {
+      "id": "ch-06-pronoun",
+      "slug": "pronoun",
+      "order": 6,
+      "title": {
+        "en": "Pronoun",
+        "gu": "સર્વનામ",
+        "guMT": true
+      },
+      "file": "chapters/06-pronoun.json"
+    },
+    {
+      "id": "ch-07-degrees-of-comparison",
+      "slug": "degrees-of-comparison",
+      "order": 7,
+      "title": {
+        "en": "Degrees of Comparison",
+        "gu": "સરખામણીની ડિગ્રી",
+        "guMT": true
+      },
+      "file": "chapters/07-degrees-of-comparison.json"
+    },
+    {
+      "id": "ch-08-to-be",
+      "slug": "to-be",
+      "order": 8,
+      "title": {
+        "en": "To Be",
+        "gu": "ટુ બી",
+        "guMT": true
+      },
+      "file": "chapters/08-to-be.json"
+    },
+    {
+      "id": "ch-09-to-have",
+      "slug": "to-have",
+      "order": 9,
+      "title": {
+        "en": "To Have",
+        "gu": "પાસે",
+        "guMT": true
+      },
+      "file": "chapters/09-to-have.json"
+    },
+    {
+      "id": "ch-10-question-words",
+      "slug": "question-words",
+      "order": 10,
+      "title": {
+        "en": "Question Words",
+        "gu": "પ્રશ્ન શબ્દો",
+        "guMT": true
+      },
+      "file": "chapters/10-question-words.json"
+    },
+    {
+      "id": "ch-11-tenses",
+      "slug": "tenses",
+      "order": 11,
+      "title": {
+        "en": "Tenses",
+        "gu": "કાળ",
+        "guMT": true
+      },
+      "file": "chapters/11-tenses.json"
+    },
+    {
+      "id": "ch-11b-relative-adverbs",
+      "slug": "relative-adverbs",
+      "order": 12,
+      "title": {
+        "en": "Relative Adverbs & Connectors",
+        "gu": "સંબંધિત ક્રિયાવિશેષણ અને કનેક્ટર્સ",
+        "guMT": true
+      },
+      "file": "chapters/11b-relative-adverbs.json"
+    },
+    {
+      "id": "ch-12-prepositions",
+      "slug": "prepositions",
+      "order": 13,
+      "title": {
+        "en": "Prepositions",
+        "gu": "પૂર્વનિર્ધારણ",
+        "guMT": true
+      },
+      "file": "chapters/12-prepositions.json"
+    },
+    {
+      "id": "ch-13-conjunctions",
+      "slug": "conjunctions",
+      "order": 14,
+      "title": {
+        "en": "Conjunctions",
+        "gu": "જોડાણો",
+        "guMT": true
+      },
+      "file": "chapters/13-conjunctions.json"
+    },
+    {
+      "id": "ch-14-indefinite-pronouns",
+      "slug": "indefinite-pronouns",
+      "order": 15,
+      "title": {
+        "en": "Indefinite Pronouns",
+        "gu": "અનિશ્ચિત સર્વનામ",
+        "guMT": true
+      },
+      "file": "chapters/14-indefinite-pronouns.json"
+    },
+    {
+      "id": "ch-15-verb-forms",
+      "slug": "verb-forms",
+      "order": 16,
+      "title": {
+        "en": "Verb Forms",
+        "gu": "ક્રિયાપદ સ્વરૂપો",
+        "guMT": true
+      },
+      "file": "chapters/15-verb-forms.json"
+    },
+    {
+      "id": "ch-16-modal-verbs",
+      "slug": "modal-verbs",
+      "order": 17,
+      "title": {
+        "en": "Modal Auxiliary Verbs",
+        "gu": "મોડલ સહાયક ક્રિયાપદો",
+        "guMT": true
+      },
+      "file": "chapters/16-modal-verbs.json"
+    },
+    {
+      "id": "ch-17-causal-verbs",
+      "slug": "causal-verbs",
+      "order": 18,
+      "title": {
+        "en": "Causal Verbs",
+        "gu": "કારણભૂત ક્રિયાપદો",
+        "guMT": true
+      },
+      "file": "chapters/17-causal-verbs.json"
+    },
+    {
+      "id": "ch-18-active-passive-voice",
+      "slug": "active-passive-voice",
+      "order": 19,
+      "title": {
+        "en": "Active and Passive Voice",
+        "gu": "સક્રિય અને નિષ્ક્રિય અવાજ",
+        "guMT": true
+      },
+      "file": "chapters/18-active-passive-voice.json"
+    },
+    {
+      "id": "ch-19-direct-indirect-speech",
+      "slug": "direct-indirect-speech",
+      "order": 20,
+      "title": {
+        "en": "Direct and Indirect Speech",
+        "gu": "પ્રત્યક્ષ અને પરોક્ષ ભાષણ",
+        "guMT": true
+      },
+      "file": "chapters/19-direct-indirect-speech.json"
+    }
+  ]
+}

@@ -35,6 +35,7 @@ export default function Conversation() {
   const [elapsed, setElapsed]         = useState(0);
   const [showType, setShowType]       = useState(false);
   const [typeValue, setTypeValue]     = useState('');
+  const [showEndModal, setShowEndModal] = useState(false);
 
   const bottomRef  = useRef<HTMLDivElement>(null);
   const timerRef   = useRef<ReturnType<typeof setInterval> | null>(null);
@@ -80,10 +81,13 @@ export default function Conversation() {
       speak(response.ai_reply);
     } catch (err) {
       console.error('[sendMessage]', err);
+      const offline = !navigator.onLine;
       const errMsg: Message = {
         id: Date.now(),
         role: 'ai',
-        content: '⚠️ Sorry, I had trouble responding. Please try again.',
+        content: offline
+          ? "📡 You're offline. AI conversation needs an internet connection — but lessons, vocabulary, idioms, grammar and flashcards all work offline. Reconnect and try again."
+          : '⚠️ Sorry, I had trouble responding. Please try again.',
         timestamp: new Date().toISOString(),
       };
       setMessages(prev => [...prev, errMsg]);
@@ -108,16 +112,22 @@ export default function Conversation() {
     setStarted(true);
     timerRef.current = setInterval(() => setElapsed(e => e + 1), 1000);
     const detail = await sessionsApi.get(s.id);
-    if (detail.messages.length > 0) {
+    if (detail && detail.messages.length > 0) {
       setMessages(detail.messages);
       speak(detail.messages[0].content);
     }
   };
 
-  const handleEndSession = async () => {
+  const handleEndSession = () => {
     const s = sessionRef.current;
     if (!s) return;
-    if (!window.confirm('End session and see your report?')) return;
+    setShowEndModal(true);
+  };
+
+  const confirmEndSession = async () => {
+    const s = sessionRef.current;
+    if (!s) return;
+    setShowEndModal(false);
     if (timerRef.current) clearInterval(timerRef.current);
     cancelSpeech();
     try {
@@ -132,6 +142,8 @@ export default function Conversation() {
 
   const formatTime = (s: number) =>
     `${String(Math.floor(s / 60)).padStart(2, '0')}:${String(s % 60).padStart(2, '0')}`;
+
+  const micDisabled = isProcessing || isSpeaking;
 
   const handleMicClick = () => {
     if (isProcessing || isSpeaking) return;
@@ -219,6 +231,7 @@ export default function Conversation() {
               </div>
             </div>
 
+<<<<<<< HEAD
             {/* Right column: Role cards & opener preview */}
             <div className="flex flex-col justify-between">
               <div className="space-y-4">
@@ -264,6 +277,40 @@ export default function Conversation() {
               </div>
             </div>
           </div>
+=======
+          <p className="text-xs mb-2" style={{ color: 'var(--ink-soft)' }}>Select your level:</p>
+          <div className="flex flex-wrap gap-2 justify-center mb-6">
+            {(['beginner', 'intermediate', 'advanced'] as const).map(d => (
+              <button
+                key={d}
+                onClick={() => setDifficulty(d)}
+                className="px-3 py-1.5 rounded-full text-xs font-semibold capitalize transition-all"
+                style={
+                  difficulty === d
+                    ? { background: 'var(--teal)', color: '#fff', border: '1.5px solid var(--teal)' }
+                    : { background: 'var(--paper)', color: 'var(--ink-soft)', border: '1.5px solid var(--line)' }
+                }
+              >
+                {d}
+              </button>
+            ))}
+          </div>
+
+          <button
+            onClick={startSession}
+            className="w-full py-3.5 rounded-[14px] font-bold text-sm text-white transition-transform active:scale-[.98]"
+            style={{ background: 'linear-gradient(135deg, var(--saffron), var(--saffron-deep))' }}
+          >
+            Start Conversation →
+          </button>
+          <button
+            onClick={() => navigate('/conversations')}
+            className="w-full mt-3 text-sm py-2"
+            style={{ color: 'var(--ink-soft)' }}
+          >
+            ← Back to scenarios
+          </button>
+>>>>>>> release1.0
         </div>
       </div>
     );
@@ -271,6 +318,7 @@ export default function Conversation() {
 
   /* ── Active conversation ── */
   return (
+<<<<<<< HEAD
     <div className="flex h-[100dvh] overflow-hidden" style={{ background: 'var(--paper)' }}>
       
       {/* LEFT PANE: Scenario Overview (Desktop only) */}
@@ -300,6 +348,53 @@ export default function Conversation() {
               📍 <strong>Scene context:</strong> {scenario.description}
             </p>
           </div>
+=======
+    <div className="flex flex-col h-[100dvh] overflow-x-hidden w-full" style={{ background: 'var(--paper)' }}>
+      {/* ... header ... */}
+      <div
+        className="flex items-center gap-3 px-4 py-3 flex-shrink-0"
+        style={{ background: 'var(--card)', borderBottom: '1px solid var(--line)' }}
+      >
+        <button
+          onClick={() => { cancelSpeech(); navigate('/conversations'); }}
+          className="text-2xl leading-none p-1"
+          style={{ background: 'none', border: 'none', color: 'var(--ink)', cursor: 'pointer' }}
+        >
+          ‹
+        </button>
+        <div
+          className="w-10 h-10 rounded-full grid place-items-center text-xl flex-shrink-0"
+          style={{ background: 'var(--saffron-deep)' }}
+        >
+          {scenario.icon}
+        </div>
+        <div className="flex-1 min-w-0">
+          <p className="text-sm font-bold leading-tight truncate" style={{ color: 'var(--ink)' }}>
+            {scenario.ai_role.split(' ').slice(0, 4).join(' ')}
+          </p>
+          <p className="text-[11px]" style={{ color: 'var(--ink-soft)' }}>
+            {scenario.category} · {formatTime(elapsed)}
+          </p>
+        </div>
+        <button
+          onClick={handleEndSession}
+          className="text-xs font-bold px-3 py-1.5 rounded-xl"
+          style={{ background: 'var(--rose-soft)', color: 'var(--rose)', border: '1px solid #e8a8b4' }}
+        >
+          End
+        </button>
+      </div>
+
+      {/* Chat messages */}
+      <div className="flex-1 overflow-y-auto overflow-x-hidden no-scrollbar px-4 pt-4">
+        {/* Scene card */}
+        <div
+          className="rounded-[13px] px-4 py-3 text-[12.5px] text-center mb-4 leading-relaxed"
+          style={{ background: 'var(--paper-2)', border: '1px dashed var(--line)', color: 'var(--ink-soft)' }}
+        >
+          <strong style={{ color: 'var(--ink)' }}>📍 The scene:</strong> {scenario.description}
+        </div>
+>>>>>>> release1.0
 
           {/* Role Box */}
           <div className="rounded-[14px] p-4 text-xs space-y-2.5 shadow-sm"
@@ -346,9 +441,24 @@ export default function Conversation() {
           <div className="flex items-center gap-3">
             {/* Back button (Mobile only) */}
             <button
+<<<<<<< HEAD
               onClick={() => { cancelSpeech(); navigate('/'); }}
               className="text-2xl leading-none p-1 lg:hidden cursor-pointer"
               style={{ background: 'none', border: 'none', color: 'var(--ink)' }}
+=======
+              onClick={handleMicClick}
+              disabled={micDisabled}
+              className={`w-[68px] h-[68px] rounded-full grid place-items-center border-none cursor-pointer transition-transform active:scale-[.93] ${isListening ? 'mic-pulse' : ''}`}
+              style={{
+                background: isListening
+                  ? 'linear-gradient(135deg, var(--rose), #9c2f45)'
+                  : micDisabled
+                    ? 'var(--paper-2)'
+                    : 'linear-gradient(135deg, var(--saffron), var(--saffron-deep))',
+                boxShadow: isListening ? 'none' : '0 8px 22px rgba(200,85,28,0.35)',
+                opacity: micDisabled ? 0.6 : 1,
+              }}
+>>>>>>> release1.0
             >
               ‹
             </button>
@@ -514,6 +624,43 @@ export default function Conversation() {
         </div>
 
       </div>
+
+      {/* End session confirmation modal */}
+      {showEndModal && (
+        <div
+          className="fixed inset-0 z-50 flex items-center justify-center"
+          style={{ background: 'rgba(0,0,0,0.45)', backdropFilter: 'blur(4px)' }}
+        >
+          <div
+            className="mx-4 w-full max-w-sm rounded-2xl px-6 py-6 flex flex-col gap-4"
+            style={{ background: 'var(--paper)', border: '1px solid var(--line)', boxShadow: '0 8px 32px rgba(0,0,0,0.18)' }}
+          >
+            <div className="flex flex-col gap-1.5 text-center">
+              <span className="text-2xl">🏁</span>
+              <p className="font-bold text-base" style={{ color: 'var(--ink)' }}>End this session?</p>
+              <p className="text-sm" style={{ color: 'var(--ink-soft)' }}>
+                Your conversation will be saved and you'll get a performance report.
+              </p>
+            </div>
+            <div className="flex gap-3 mt-1">
+              <button
+                onClick={() => setShowEndModal(false)}
+                className="flex-1 py-2.5 rounded-xl text-sm font-semibold"
+                style={{ background: 'var(--paper-2)', color: 'var(--ink)', border: '1px solid var(--line)' }}
+              >
+                Keep going
+              </button>
+              <button
+                onClick={confirmEndSession}
+                className="flex-1 py-2.5 rounded-xl text-sm font-bold text-white"
+                style={{ background: 'var(--rose)' }}
+              >
+                End &amp; see report
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }

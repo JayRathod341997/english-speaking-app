@@ -1,0 +1,767 @@
+{
+  "id": "ch-15-verb-forms",
+  "slug": "verb-forms",
+  "order": 16,
+  "title": {
+    "en": "Verb Forms",
+    "gu": "ક્રિયાપદ સ્વરૂપો",
+    "guMT": true
+  },
+  "summary": {
+    "en": "The four non-finite verb forms — infinitive (to + V1), present participle (-ing), past participle (V3), and perfect participle (having + V3) — and when to use each.",
+    "gu": "ચાર બિન-મર્યાદિત ક્રિયાપદ સ્વરૂપો - અનંત (થી + V1), વર્તમાન પાર્ટિસિપલ (-ing), પાસ્ટ પાર્ટિસિપલ (V3), અને સંપૂર્ણ પાર્ટિસિપલ (હોવિંગ + V3) — અને દરેકનો ક્યારે ઉપયોગ કરવો.",
+    "guMT": true
+  },
+  "sources": [
+    "motion"
+  ],
+  "explanations": [
+    {
+      "block": "table",
+      "id": "ch-15-verb-forms/exp-1",
+      "caption": {
+        "en": "The four non-finite verb forms",
+        "gu": "ચાર બિન-મર્યાદિત ક્રિયાપદ સ્વરૂપો",
+        "guMT": true
+      },
+      "headers": [
+        {
+          "key": "form",
+          "label": {
+            "en": "Form",
+            "gu": "ફોર્મ",
+            "guMT": true
+          }
+        },
+        {
+          "key": "structure",
+          "label": {
+            "en": "Structure",
+            "gu": "માળખું",
+            "guMT": true
+          }
+        },
+        {
+          "key": "uses",
+          "label": {
+            "en": "Typical uses",
+            "gu": "લાક્ષણિક ઉપયોગો",
+            "guMT": true
+          }
+        },
+        {
+          "key": "example",
+          "label": {
+            "en": "Example",
+            "gu": "ઉદાહરણ",
+            "guMT": true
+          }
+        }
+      ],
+      "rows": [
+        {
+          "form": "Infinitive",
+          "structure": "to + base verb",
+          "uses": "subject, object, after want/like/try",
+          "example": "To get up early is a good habit. I want to learn English."
+        },
+        {
+          "form": "Present Participle",
+          "structure": "base verb + -ing",
+          "uses": "continuous tenses; describing ongoing action; after see/hear",
+          "example": "I am writing. We see passengers sleeping at the station."
+        },
+        {
+          "form": "Past Participle",
+          "structure": "V3 (ed / irregular)",
+          "uses": "perfect tenses; passive voice; adjective",
+          "example": "I have done my homework. Look at the decorated temple."
+        },
+        {
+          "form": "Perfect Participle",
+          "structure": "having + V3",
+          "uses": "completed action before the main action",
+          "example": "Having done his homework, he went to school."
+        }
+      ]
+    },
+    {
+      "block": "rules",
+      "id": "ch-15-verb-forms/exp-2",
+      "title": {
+        "en": "Spelling rules for -ing (Present Participle)",
+        "gu": "-ing (વર્તમાન પાર્ટિસિપલ) માટે જોડણીના નિયમો",
+        "guMT": true
+      },
+      "items": [
+        {
+          "text": {
+            "en": "If the verb ends in -e, drop the -e before adding -ing.",
+            "gu": "જો ક્રિયાપદ -e માં સમાપ્ત થાય છે, તો -ing ઉમેરતા પહેલા -e છોડો.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "dance → dancing, write → writing",
+              "gu": "નૃત્ય → નૃત્ય, લખો → લેખન",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "Short vowel + single consonant: double the consonant.",
+            "gu": "લઘુ સ્વર + એક વ્યંજન: વ્યંજન બમણું.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "get → getting, sit → sitting, run → running",
+              "gu": "મેળવો → મેળવો, બેસો → બેઠક, દોડો → દોડો",
+              "guMT": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "block": "rules",
+      "id": "ch-15-verb-forms/exp-3",
+      "title": {
+        "en": "Infinitive without 'to'",
+        "gu": "'થી' વિના અનંત",
+        "guMT": true
+      },
+      "items": [
+        {
+          "text": {
+            "en": "After modal verbs (can, will, may, must, should, etc.), use the base form without 'to'.",
+            "gu": "મોડલ ક્રિયાપદો (can, will, may, must, should, વગેરે) પછી, 'to' વગર આધાર સ્વરૂપનો ઉપયોગ કરો.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "I can speak English. You must go.",
+              "gu": "હું અંગ્રેજી બોલી શકું છું. તમારે જવું જ જોઈએ.",
+              "guMT": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "block": "rules",
+      "id": "ch-15-verb-forms/exp-4",
+      "title": {
+        "en": "All four verb forms — examples in context",
+        "gu": "ચારેય ક્રિયાપદ સ્વરૂપો - સંદર્ભમાં ઉદાહરણો",
+        "guMT": true
+      },
+      "items": [
+        {
+          "text": {
+            "en": "Infinitive (to + V1) — as the subject of a sentence or to show purpose.",
+            "gu": "અનંત (+ V1) — વાક્યના વિષય તરીકે અથવા હેતુ બતાવવા માટે.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "To become a doctor is her aim.",
+              "gu": "ડૉક્ટર બનવું એ તેનું લક્ષ્ય છે.",
+              "guMT": true
+            },
+            {
+              "en": "He went to the market to buy vegetables.",
+              "gu": "તે શાકભાજી ખરીદવા બજારમાં ગયો હતો.",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "Present Participle (V-ing) — as an adjective before a noun, or after verbs like see, hear, find.",
+            "gu": "પ્રેઝન્ટ પાર્ટિસિપલ (V-ing) — સંજ્ઞા પહેલાં વિશેષણ તરીકે અથવા જુઓ, સાંભળો, શોધો જેવા ક્રિયાપદો પછી.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "A rolling stone gathers no moss.",
+              "gu": "રોલિંગ સ્ટોન કોઈ શેવાળ ભેગો કરતું નથી.",
+              "guMT": true
+            },
+            {
+              "en": "We saw the children playing in the garden.",
+              "gu": "અમે બાળકોને બગીચામાં રમતા જોયા.",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "Past Participle (V3) — in perfect tenses, passive voice, or as an adjective.",
+            "gu": "પાસ્ટ પાર્ટીસિપલ (V3) — સંપૂર્ણ સમય, નિષ્ક્રિય અવાજ અથવા વિશેષણ તરીકે.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "I have written two letters today.",
+              "gu": "મેં આજે બે પત્ર લખ્યા છે.",
+              "guMT": true
+            },
+            {
+              "en": "Look at the decorated temple.",
+              "gu": "સુશોભિત મંદિર જુઓ.",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "Perfect Participle (having + V3) — shows an action completed before the main verb's action.",
+            "gu": "પરફેક્ટ પાર્ટિસિપલ (+ V3 ધરાવતા) ​​— મુખ્ય ક્રિયાપદની ક્રિયા પહેલાં પૂર્ણ થયેલી ક્રિયા દર્શાવે છે.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "Having eaten his lunch, he took a short rest.",
+              "gu": "બપોરનું ભોજન પતાવીને તેણે થોડો આરામ કર્યો.",
+              "guMT": true
+            },
+            {
+              "en": "Having finished her work, she went home.",
+              "gu": "પોતાનું કામ પૂરું કરીને તે ઘરે ગયો.",
+              "guMT": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "block": "rules",
+      "id": "ch-15-verb-forms/exp-5",
+      "title": {
+        "en": "Gerund vs Infinitive — which verbs take which form",
+        "gu": "Gerund vs Infinitive — કયા ક્રિયાપદો કયું સ્વરૂપ લે છે",
+        "guMT": true
+      },
+      "items": [
+        {
+          "text": {
+            "en": "Verbs followed by GERUND (-ing) only: enjoy, stop, avoid, finish, mind, suggest, keep, practise.",
+            "gu": "ફક્ત GERUND (-ing) દ્વારા અનુસરવામાં આવતી ક્રિયાપદો: આનંદ કરો, રોકો, ટાળો, સમાપ્ત કરો, મન કરો, સૂચન કરો, રાખો, પ્રેક્ટિસ કરો.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "She enjoys dancing. He stopped talking. I avoid eating junk food.",
+              "gu": "તેણીને નૃત્ય કરવામાં આનંદ આવે છે. તેણે બોલવાનું બંધ કર્યું. હું જંક ફૂડ ખાવાનું ટાળું છું.",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "Verbs followed by INFINITIVE (to + V1) only: want, hope, plan, decide, promise, refuse, agree, expect.",
+            "gu": "ફક્ત INFINITIVE (to + V1) દ્વારા અનુસરતા ક્રિયાપદો: want, hope, plan, decision, વચન, infu, સંમત, અપેક્ષા.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "She wants to become a singer. He decided to leave early. They promised to return.",
+              "gu": "તે સિંગર બનવા માંગે છે. તેણે વહેલા જવાનું નક્કી કર્યું. તેઓએ પાછા ફરવાનું વચન આપ્યું.",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "Verbs that take BOTH forms (meaning stays similar): like, love, hate, begin, start, continue.",
+            "gu": "ક્રિયાપદો જે બંને સ્વરૂપો લે છે (અર્થ સમાન રહે છે): જેમ કે, પ્રેમ, ધિક્કાર, શરૂઆત, પ્રારંભ, ચાલુ રાખો.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "I love dancing. / I love to dance.   She began singing. / She began to sing.",
+              "gu": "મને નૃત્યનો શોખ છે. / મને નૃત્ય કરવું ગમે છે.   તેણીએ ગાવાનું શરૂ કર્યું. / તેણીએ ગાવાનું શરૂ કર્યું.",
+              "guMT": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "ch-15-verb-forms/q-1",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "____ dog seldom bites. (bark)",
+        "gu": "____ કૂતરો ભાગ્યે જ કરડે છે. (છાલ)",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "Bark",
+          "gu": "છાલ",
+          "guMT": true
+        },
+        {
+          "en": "Barking",
+          "gu": "ભસતા",
+          "guMT": true
+        },
+        {
+          "en": "To bark",
+          "gu": "ભસવું",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "Barking",
+        "gu": "ભસતા",
+        "guMT": true
+      },
+      "hint": {
+        "en": "The present participle acts as an adjective here: 'a barking dog'.",
+        "gu": "વર્તમાન પાર્ટિસિપલ અહીં વિશેષણ તરીકે કામ કરે છે: 'ભસતો કૂતરો'.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-15-verb-forms/q-2",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "The servant removed the ____ glass. (break)",
+        "gu": "નોકરે ____ કાચ કાઢી નાખ્યો. (વિરામ)",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "breaking",
+          "gu": "ભંગ",
+          "guMT": true
+        },
+        {
+          "en": "broke",
+          "gu": "તૂટી",
+          "guMT": true
+        },
+        {
+          "en": "broken",
+          "gu": "તૂટેલા",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "broken",
+        "gu": "તૂટેલા",
+        "guMT": true
+      },
+      "hint": {
+        "en": "A past participle used as an adjective.",
+        "gu": "વિશેષણ તરીકે વપરાયેલ ભૂતકાળનો પાર્ટિસિપલ.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-15-verb-forms/q-3",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "____ the H.S.C. exam, he joined a college. (have + pass)",
+        "gu": "____ H.S.C. પરીક્ષા આપી, તે કોલેજમાં જોડાયો. (હો + પાસ)",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "Passing",
+          "gu": "પસાર થાય છે",
+          "guMT": true
+        },
+        {
+          "en": "Having passed",
+          "gu": "પાસ કર્યા",
+          "guMT": true
+        },
+        {
+          "en": "To pass",
+          "gu": "પાસ કરવા માટે",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "Having passed",
+        "gu": "પાસ કર્યા",
+        "guMT": true
+      },
+      "hint": {
+        "en": "The action was completed before joining college — use perfect participle.",
+        "gu": "કૉલેજમાં જોડાતા પહેલા ક્રિયા પૂર્ણ થઈ ગઈ હતી — પરફેક્ટ પાર્ટીસિપલનો ઉપયોગ કરો.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-15-verb-forms/q-4",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "She is trying ____ her work. (finish)",
+        "gu": "તેણી ____ તેના કામનો પ્રયાસ કરી રહી છે. (સમાપ્ત)",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "finish",
+          "gu": "સમાપ્ત",
+          "guMT": true
+        },
+        {
+          "en": "finishing",
+          "gu": "સમાપ્ત",
+          "guMT": true
+        },
+        {
+          "en": "to finish",
+          "gu": "સમાપ્ત કરવા માટે",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "to finish",
+        "gu": "સમાપ્ત કરવા માટે",
+        "guMT": true
+      },
+      "hint": {
+        "en": "After 'try', use the infinitive with 'to'.",
+        "gu": "'પ્રયત્ન' પછી, 'to' સાથે infinitive નો ઉપયોગ કરો.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-15-verb-forms/q-5",
+      "type": "mcq",
+      "prompt": {
+        "en": "What is the present participle of 'dance'?",
+        "gu": "'નૃત્ય'નું વર્તમાન પાર્ટિસિપલ શું છે?",
+        "guMT": true
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "danceing",
+            "gu": "નૃત્ય",
+            "guMT": true
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "dancing",
+            "gu": "નૃત્ય",
+            "guMT": true
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "danced",
+            "gu": "નૃત્ય કર્યું",
+            "guMT": true
+          }
+        }
+      ],
+      "answer": "b",
+      "solution": {
+        "en": "Drop the final -e before adding -ing: dance → dancing.",
+        "gu": "-ing ઉમેરતા પહેલા અંતિમ -e છોડો: નૃત્ય → નૃત્ય.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-15-verb-forms/q-6",
+      "type": "translation",
+      "direction": "en_to_gu",
+      "prompt": {
+        "en": "Having done his homework, he went to school.",
+        "gu": "તેનું હોમવર્ક કરીને તે શાળાએ ગયો.",
+        "guMT": true
+      },
+      "answer": {
+        "en": "Having done his homework, he went to school.",
+        "gu": "તેનું હોમવર્ક કરીને તે શાળાએ ગયો.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-15-verb-forms/q-7",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "She enjoys ____ in the park every morning. (walk)",
+        "gu": "તે દરરોજ સવારે પાર્કમાં ____ માણે છે. (ચાલવું)",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "walk",
+          "gu": "ચાલવું",
+          "guMT": true
+        },
+        {
+          "en": "walking",
+          "gu": "ચાલવું",
+          "guMT": true
+        },
+        {
+          "en": "to walk",
+          "gu": "ચાલવા માટે",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "walking",
+        "gu": "ચાલવું",
+        "guMT": true
+      },
+      "hint": {
+        "en": "'Enjoy' is always followed by the gerund (-ing form).",
+        "gu": "'Enjoy' હંમેશા gerund (-ing સ્વરૂપ) દ્વારા અનુસરવામાં આવે છે.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-15-verb-forms/q-8",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "We decided ____ the plan immediately. (change)",
+        "gu": "અમે તરત જ ____ યોજના નક્કી કરી. (બદલો)",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "changing",
+          "gu": "બદલાતી",
+          "guMT": true
+        },
+        {
+          "en": "to change",
+          "gu": "બદલવા માટે",
+          "guMT": true
+        },
+        {
+          "en": "changed",
+          "gu": "બદલાયેલ",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "to change",
+        "gu": "બદલવા માટે",
+        "guMT": true
+      },
+      "hint": {
+        "en": "'Decide' is followed by the infinitive (to + V1).",
+        "gu": "'Decide' પછી infinitive (to + V1) આવે છે.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-15-verb-forms/q-9",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "He stopped ____ after the doctor's advice. (smoke)",
+        "gu": "ડૉક્ટરની સલાહ પછી તેણે ____ બંધ કરી દીધું. (ધુમાડો)",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "smoke",
+          "gu": "ધુમાડો",
+          "guMT": true
+        },
+        {
+          "en": "to smoke",
+          "gu": "ધૂમ્રપાન કરવું",
+          "guMT": true
+        },
+        {
+          "en": "smoking",
+          "gu": "ધૂમ્રપાન",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "smoking",
+        "gu": "ધૂમ્રપાન",
+        "guMT": true
+      },
+      "hint": {
+        "en": "'Stop' followed by -ing means to cease the activity.",
+        "gu": "'સ્ટોપ' પછી -ing એટલે પ્રવૃત્તિ બંધ કરવી.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-15-verb-forms/q-10",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "____ regularly keeps your body healthy. (exercise)",
+        "gu": "____ નિયમિતપણે તમારા શરીરને સ્વસ્થ રાખે છે. (વ્યાયામ)",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "Exercise",
+          "gu": "વ્યાયામ",
+          "guMT": true
+        },
+        {
+          "en": "To exercising",
+          "gu": "કસરત કરવા માટે",
+          "guMT": true
+        },
+        {
+          "en": "Exercising",
+          "gu": "વ્યાયામ",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "Exercising",
+        "gu": "વ્યાયામ",
+        "guMT": true
+      },
+      "hint": {
+        "en": "A gerund (-ing form) can act as the subject of a sentence.",
+        "gu": "એક gerund (-ing ફોર્મ) વાક્યના વિષય તરીકે કાર્ય કરી શકે છે.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-15-verb-forms/q-11",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "They plan ____ a new branch next year. (open)",
+        "gu": "તેઓ આવતા વર્ષે ____ નવી શાખાની યોજના ઘડી રહ્યા છે. (ખુલ્લું)",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "opening",
+          "gu": "ઉદઘાટન",
+          "guMT": true
+        },
+        {
+          "en": "to open",
+          "gu": "ખોલવા માટે",
+          "guMT": true
+        },
+        {
+          "en": "opened",
+          "gu": "ખોલ્યું",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "to open",
+        "gu": "ખોલવા માટે",
+        "guMT": true
+      },
+      "hint": {
+        "en": "'Plan' is followed by the infinitive (to + V1).",
+        "gu": "'પ્લાન' પછી અનંત (ટુ + V1) આવે છે.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-15-verb-forms/q-12",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "____ his meal, he watched the evening news. (have + finish)",
+        "gu": "____ તેનું ભોજન, તેણે સાંજના સમાચાર જોયા. (હો + સમાપ્ત)",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "Finishing",
+          "gu": "ફિનિશિંગ",
+          "guMT": true
+        },
+        {
+          "en": "Having finished",
+          "gu": "સમાપ્ત કર્યા",
+          "guMT": true
+        },
+        {
+          "en": "To finish",
+          "gu": "સમાપ્ત કરવા માટે",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "Having finished",
+        "gu": "સમાપ્ત કર્યા",
+        "guMT": true
+      },
+      "hint": {
+        "en": "The action was completed before watching the news — use perfect participle (having + V3).",
+        "gu": "સમાચાર જોતા પહેલા ક્રિયા પૂર્ણ કરવામાં આવી હતી — સંપૂર્ણ પાર્ટિસિપલનો ઉપયોગ કરો (+ V3 ધરાવો).",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-15-verb-forms/q-13",
+      "type": "mcq",
+      "prompt": {
+        "en": "Which verb is followed ONLY by the -ing form (gerund)?",
+        "gu": "કઈ ક્રિયાપદ માત્ર -ing સ્વરૂપ (gerund) દ્વારા અનુસરવામાં આવે છે?",
+        "guMT": true
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "want",
+            "gu": "જોઈએ",
+            "guMT": true
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "enjoy",
+            "gu": "આનંદ",
+            "guMT": true
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "decide",
+            "gu": "નક્કી કરો",
+            "guMT": true
+          }
+        }
+      ],
+      "answer": "b",
+      "solution": {
+        "en": "'Enjoy' only takes a gerund: enjoy dancing / enjoy singing. 'Want' and 'decide' take the infinitive: want to go / decide to stay.",
+        "gu": "'આનંદ કરો' માત્ર એક ગેરુન્ડ લે છે: નૃત્યનો આનંદ માણો / ગાવાનો આનંદ લો. 'ઇચ્છો' અને 'નિર્ણય કરો' અનંત લે છે: જવા માંગો છો / રહેવાનું નક્કી કરો.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-15-verb-forms/q-14",
+      "type": "translation",
+      "direction": "en_to_gu",
+      "prompt": {
+        "en": "To learn English is my aim.",
+        "gu": "અંગ્રેજી શીખવું એ મારું લક્ષ્ય છે.",
+        "guMT": true
+      },
+      "answer": {
+        "en": "To learn English is my aim.",
+        "gu": "અંગ્રેજી શીખવું એ મારું લક્ષ્ય છે.",
+        "guMT": true
+      }
+    }
+  ]
+}

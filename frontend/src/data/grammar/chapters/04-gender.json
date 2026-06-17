@@ -1,0 +1,358 @@
+{
+  "id": "ch-04-gender",
+  "slug": "gender",
+  "order": 4,
+  "title": {
+    "en": "Gender",
+    "gu": "જાતિ",
+    "guMT": true
+  },
+  "summary": {
+    "en": "How English nouns are classified as masculine, feminine, neutral or common gender, with animal names for male, female and young.",
+    "gu": "કેવી રીતે અંગ્રેજી સંજ્ઞાઓને પુરૂષવાચી, સ્ત્રીની, તટસ્થ અથવા સામાન્ય લિંગ તરીકે વર્ગીકૃત કરવામાં આવે છે, જેમાં નર, સ્ત્રી અને યુવાન માટે પ્રાણીઓના નામો છે.",
+    "guMT": true
+  },
+  "sources": [
+    "anamika"
+  ],
+  "explanations": [
+    {
+      "block": "rules",
+      "id": "ch-04-gender/exp-1",
+      "title": {
+        "en": "Four genders",
+        "gu": "ચાર જાતિ",
+        "guMT": true
+      },
+      "items": [
+        {
+          "text": {
+            "en": "Masculine — names a male person or animal.",
+            "gu": "પુરૂષવાચી - પુરૂષ વ્યક્તિ અથવા પ્રાણીના નામ.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "boy, tiger, poet, gentleman, horse, drake",
+              "gu": "છોકરો, વાઘ, કવિ, સજ્જન, ઘોડો, ડ્રેક",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "Feminine — names a female person or animal.",
+            "gu": "સ્ત્રીની - સ્ત્રી વ્યક્તિ અથવા પ્રાણીના નામ.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "girl, tigress, poetess, lady, mare, duck",
+              "gu": "છોકરી, વાઘણ, કવિતા, સ્ત્રી, ઘોડી, બતક",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "Neutral — names a thing that is neither male nor female.",
+            "gu": "તટસ્થ — એવી વસ્તુને નામ આપે છે જે ન તો પુરુષ હોય કે ન સ્ત્રી.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "book, table, bottle, computer, box",
+              "gu": "પુસ્તક, ટેબલ, બોટલ, કોમ્પ્યુટર, બોક્સ",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "Common — can refer to either gender.",
+            "gu": "સામાન્ય - કોઈપણ જાતિનો સંદર્ભ લઈ શકે છે.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "child, baby, student, pupil, person",
+              "gu": "બાળક, બાળક, વિદ્યાર્થી, વિદ્યાર્થી, વ્યક્તિ",
+              "guMT": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "block": "table",
+      "id": "ch-04-gender/exp-2",
+      "caption": {
+        "en": "Animal names — male, female and young",
+        "gu": "પ્રાણીઓના નામ - પુરુષ, સ્ત્રી અને યુવાન",
+        "guMT": true
+      },
+      "headers": [
+        {
+          "key": "animal",
+          "label": {
+            "en": "Animal",
+            "gu": "પ્રાણી",
+            "guMT": true
+          }
+        },
+        {
+          "key": "male",
+          "label": {
+            "en": "Male",
+            "gu": "પુરુષ",
+            "guMT": true
+          }
+        },
+        {
+          "key": "female",
+          "label": {
+            "en": "Female",
+            "gu": "સ્ત્રી",
+            "guMT": true
+          }
+        },
+        {
+          "key": "young",
+          "label": {
+            "en": "Young",
+            "gu": "યુવાન",
+            "guMT": true
+          }
+        }
+      ],
+      "rows": [
+        {
+          "animal": "Ass",
+          "male": "Jack",
+          "female": "Jenny",
+          "young": "Foal"
+        },
+        {
+          "animal": "Bear",
+          "male": "Boar",
+          "female": "Sow",
+          "young": "Cub"
+        },
+        {
+          "animal": "Cat",
+          "male": "Tom",
+          "female": "Queen",
+          "young": "Kitten"
+        },
+        {
+          "animal": "Cattle",
+          "male": "Bull / Bullock",
+          "female": "Cow",
+          "young": "Calf"
+        },
+        {
+          "animal": "Dog",
+          "male": "Dog",
+          "female": "Bitch",
+          "young": "Pup / Puppy"
+        },
+        {
+          "animal": "Horse",
+          "male": "Stallion",
+          "female": "Mare",
+          "young": "Colt / Filly"
+        },
+        {
+          "animal": "Tiger",
+          "male": "Tiger",
+          "female": "Tigress",
+          "young": "Cub"
+        },
+        {
+          "animal": "Lion",
+          "male": "Lion",
+          "female": "Lioness",
+          "young": "Cub"
+        },
+        {
+          "animal": "Deer",
+          "male": "Buck / Stag",
+          "female": "Doe",
+          "young": "Fawn"
+        },
+        {
+          "animal": "Duck",
+          "male": "Drake",
+          "female": "Duck",
+          "young": "Duckling"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "ch-04-gender/q-1",
+      "type": "mcq",
+      "prompt": {
+        "en": "What is the feminine form of 'tiger'?",
+        "gu": "'વાઘ'નું સ્ત્રીલિંગ સ્વરૂપ શું છે?",
+        "guMT": true
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "tigress",
+            "gu": "વાઘણ",
+            "guMT": true
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "doe",
+            "gu": "ડો",
+            "guMT": true
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "mare",
+            "gu": "ઘોડી",
+            "guMT": true
+          }
+        }
+      ],
+      "answer": "a",
+      "solution": {
+        "en": "The feminine of 'tiger' is 'tigress'.",
+        "gu": "'વાઘ'નું સ્ત્રીલિંગ 'વાઘણ' છે.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-04-gender/q-2",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "A young cat is called a ____.",
+        "gu": "એક યુવાન બિલાડીને ____ કહેવામાં આવે છે.",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "cub",
+          "gu": "બચ્ચા",
+          "guMT": true
+        },
+        {
+          "en": "kitten",
+          "gu": "બિલાડીનું બચ્ચું",
+          "guMT": true
+        },
+        {
+          "en": "puppy",
+          "gu": "કુરકુરિયું",
+          "guMT": true
+        },
+        {
+          "en": "foal",
+          "gu": "બચ્ચું",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "kitten",
+        "gu": "બિલાડીનું બચ્ચું",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-04-gender/q-3",
+      "type": "mcq",
+      "prompt": {
+        "en": "Which word is of common gender?",
+        "gu": "કયો શબ્દ સામાન્ય લિંગનો છે?",
+        "guMT": true
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "poet",
+            "gu": "કવિ",
+            "guMT": true
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "student",
+            "gu": "વિદ્યાર્થી",
+            "guMT": true
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "mare",
+            "gu": "ઘોડી",
+            "guMT": true
+          }
+        }
+      ],
+      "answer": "b",
+      "solution": {
+        "en": "'Student' can be either male or female — it is of common gender.",
+        "gu": "'વિદ્યાર્થી' કાં તો પુરુષ અથવા સ્ત્રી હોઈ શકે છે - તે સામાન્ય લિંગ છે.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-04-gender/q-4",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "The male of a duck is called a ____.",
+        "gu": "બતકના નરને ____ કહેવાય છે.",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "drake",
+          "gu": "ડ્રેક",
+          "guMT": true
+        },
+        {
+          "en": "colt",
+          "gu": "વછેરો",
+          "guMT": true
+        },
+        {
+          "en": "stag",
+          "gu": "હરણ",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "drake",
+        "gu": "ડ્રેક",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-04-gender/q-5",
+      "type": "translation",
+      "direction": "en_to_gu",
+      "prompt": {
+        "en": "The tigress is protecting her cubs.",
+        "gu": "વાઘણ તેના બચ્ચાનું રક્ષણ કરી રહી છે.",
+        "guMT": true
+      },
+      "answer": {
+        "en": "The tigress is protecting her cubs.",
+        "gu": "વાઘણ તેના બચ્ચાનું રક્ષણ કરી રહી છે.",
+        "guMT": true
+      }
+    }
+  ]
+}

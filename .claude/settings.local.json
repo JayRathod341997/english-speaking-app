@@ -19,7 +19,20 @@
       "Bash(uv pip *)",
       "Bash(.venv/Scripts/python.exe test_gemini.py)",
       "Bash(xargs grep *)",
+<<<<<<< HEAD
       "Bash(uv run *)"
+=======
+      "Bash(uv sync *)",
+      "Bash(python -c \"from app.main import app; from app.store import SCENARIOS; print\\(f'OK — {len\\(SCENARIOS\\)} scenarios loaded'\\)\")",
+      "Bash(uv run *)",
+      "Bash(rm -rf dist)",
+      "Bash(echo \"exit: $?\")",
+      "Bash(python -c \"import json,sys; print\\(json.load\\(sys.stdin\\).get\\('scripts'\\)\\)\")",
+      "Read(//tmp/**)",
+      "Bash(npx cap *)",
+      "Bash(.\\\\gradlew.bat assembleDebug)",
+      "PowerShell(Get-ChildItem \"$env:USERPROFILE\\\\.gradle\\\\wrapper\\\\dists\\\\gradle-8.11.1-all\" | Select-Object Name, LastWriteTime)"
+>>>>>>> release1.0
     ]
   }
 }

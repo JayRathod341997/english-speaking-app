@@ -1,0 +1,430 @@
+{
+  "id": "ch-01-parts-of-speech",
+  "slug": "parts-of-speech",
+  "order": 1,
+  "title": {
+    "en": "Parts of Speech",
+    "gu": "ભાષણના ભાગો",
+    "guMT": true
+  },
+  "summary": {
+    "en": "The eight categories of words in English grammar — noun, pronoun, verb, adjective, adverb, preposition, conjunction and interjection.",
+    "gu": "અંગ્રેજી વ્યાકરણમાં શબ્દોની આઠ શ્રેણીઓ છે - સંજ્ઞા, સર્વનામ, ક્રિયાપદ, વિશેષણ, ક્રિયાવિશેષણ, પૂર્વનિર્ધારણ, જોડાણ અને ઇન્ટરજેક્શન.",
+    "guMT": true
+  },
+  "sources": [
+    "motion"
+  ],
+  "explanations": [
+    {
+      "block": "prose",
+      "id": "ch-01-parts-of-speech/exp-1",
+      "text": {
+        "en": "Every word in an English sentence belongs to one of eight parts of speech. Knowing the part of speech of a word tells us how it functions in a sentence.",
+        "gu": "અંગ્રેજી વાક્યનો દરેક શબ્દ ભાષણના આઠ ભાગોમાંથી એકનો છે. શબ્દના ભાષણના ભાગને જાણવું એ આપણને કહે છે કે તે વાક્યમાં કેવી રીતે કાર્ય કરે છે.",
+        "guMT": true
+      }
+    },
+    {
+      "block": "table",
+      "id": "ch-01-parts-of-speech/exp-2",
+      "caption": {
+        "en": "The eight parts of speech",
+        "gu": "ભાષણના આઠ ભાગો",
+        "guMT": true
+      },
+      "headers": [
+        {
+          "key": "pos",
+          "label": {
+            "en": "Part of Speech",
+            "gu": "ભાષણનો ભાગ",
+            "guMT": true
+          }
+        },
+        {
+          "key": "def",
+          "label": {
+            "en": "What it does",
+            "gu": "તે શું કરે છે",
+            "guMT": true
+          }
+        },
+        {
+          "key": "examples",
+          "label": {
+            "en": "Examples",
+            "gu": "ઉદાહરણો",
+            "guMT": true
+          }
+        }
+      ],
+      "rows": [
+        {
+          "pos": "Noun",
+          "def": "Names a person, place, thing or idea",
+          "examples": "teacher, Rajesh, love, herd"
+        },
+        {
+          "pos": "Pronoun",
+          "def": "Replaces a noun",
+          "examples": "he, she, they, it, we"
+        },
+        {
+          "pos": "Verb",
+          "def": "Shows action or state of being",
+          "examples": "run, read, is, was"
+        },
+        {
+          "pos": "Adjective",
+          "def": "Describes or limits a noun",
+          "examples": "big, clever, beautiful"
+        },
+        {
+          "pos": "Adverb",
+          "def": "Modifies a verb, adjective or other adverb",
+          "examples": "quickly, very, often"
+        },
+        {
+          "pos": "Preposition",
+          "def": "Shows relationship between a noun and the rest of the sentence",
+          "examples": "in, on, at, for, by"
+        },
+        {
+          "pos": "Conjunction",
+          "def": "Joins words, phrases or clauses",
+          "examples": "and, but, or, because, if"
+        },
+        {
+          "pos": "Interjection",
+          "def": "Expresses strong emotion",
+          "examples": "Oh!, Wow!, Alas!"
+        }
+      ]
+    },
+    {
+      "block": "rules",
+      "id": "ch-01-parts-of-speech/exp-3",
+      "title": {
+        "en": "Kinds of Nouns",
+        "gu": "સંજ્ઞાઓના પ્રકાર",
+        "guMT": true
+      },
+      "items": [
+        {
+          "text": {
+            "en": "Common Noun — a general name for all persons, places or things of the same kind.",
+            "gu": "સામાન્ય સંજ્ઞા - તમામ વ્યક્તિઓ, સ્થાનો અથવા સમાન પ્રકારની વસ્તુઓ માટેનું સામાન્ય નામ.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "teacher, country, city",
+              "gu": "શિક્ષક, દેશ, શહેર",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "Proper Noun — the specific name of a particular person, place or thing. Always capitalised.",
+            "gu": "યોગ્ય સંજ્ઞા - કોઈ ચોક્કસ વ્યક્તિ, સ્થળ અથવા વસ્તુનું વિશિષ્ટ નામ. હંમેશા મૂડીકૃત.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "Maulik, Canada, Ahmedabad",
+              "gu": "મૌલિક, કેનેડા, અમદાવાદ",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "Abstract Noun — the name of a quality, feeling or idea that cannot be seen or touched.",
+            "gu": "અમૂર્ત સંજ્ઞા - એક ગુણવત્તા, લાગણી અથવા વિચારનું નામ જે જોઈ અથવા સ્પર્શી શકાતું નથી.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "love, care, anger, truth, happiness",
+              "gu": "પ્રેમ, કાળજી, ગુસ્સો, સત્ય, સુખ",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "Collective Noun — the name of a group of persons or things taken together.",
+            "gu": "સામૂહિક સંજ્ઞા - વ્યક્તિઓ અથવા વસ્તુઓના જૂથનું નામ.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "herd, bench, batch, panel, jury, army",
+              "gu": "ટોળું, બેન્ચ, બેચ, પેનલ, જ્યુરી, આર્મી",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "Mass (Material) Noun — the name of a substance or material.",
+            "gu": "સમૂહ (સામગ્રી) સંજ્ઞા - પદાર્થ અથવા સામગ્રીનું નામ.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "gold, silver, milk, coffee, rice",
+              "gu": "સોનું, ચાંદી, દૂધ, કોફી, ચોખા",
+              "guMT": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "block": "rules",
+      "id": "ch-01-parts-of-speech/exp-4",
+      "title": {
+        "en": "Kinds of Pronouns",
+        "gu": "સર્વનામના પ્રકારો",
+        "guMT": true
+      },
+      "items": [
+        {
+          "text": {
+            "en": "Personal — refers to persons or things: he, she, it, they, you.",
+            "gu": "વ્યક્તિગત - વ્યક્તિઓ અથવા વસ્તુઓનો સંદર્ભ આપે છે: તે, તેણી, તે, તેઓ, તમે.",
+            "guMT": true
+          }
+        },
+        {
+          "text": {
+            "en": "Demonstrative — points to something: this, that, these, those.",
+            "gu": "નિદર્શન - કંઈક તરફ નિર્દેશ કરે છે: આ, તે, આ, તે.",
+            "guMT": true
+          }
+        },
+        {
+          "text": {
+            "en": "Relative — links a clause to a noun: who, which, whose, as.",
+            "gu": "સાપેક્ષ — કલમને સંજ્ઞા સાથે જોડે છે: who, who, who, as.",
+            "guMT": true
+          }
+        },
+        {
+          "text": {
+            "en": "Interrogative — asks a question: who?, which?, what?",
+            "gu": "પ્રશ્નાર્થ — એક પ્રશ્ન પૂછે છે: કોણ?, કયું?, શું?",
+            "guMT": true
+          }
+        },
+        {
+          "text": {
+            "en": "Indefinite — refers to no specific person or thing: any, some, everyone, none.",
+            "gu": "અનિશ્ચિત - કોઈ ચોક્કસ વ્યક્તિ અથવા વસ્તુનો સંદર્ભ આપે છે: કોઈપણ, કેટલાક, દરેક, કોઈ નહીં.",
+            "guMT": true
+          }
+        }
+      ]
+    },
+    {
+      "block": "examples",
+      "id": "ch-01-parts-of-speech/exp-5",
+      "items": [
+        {
+          "en": "It is Sunday today. (pronoun + verb)",
+          "gu": "આજે રવિવાર છે. (સર્વનામ + ક્રિયાપદ)",
+          "guMT": true
+        },
+        {
+          "en": "They are going to Bombay. (pronoun + verb + preposition + noun)",
+          "gu": "તેઓ બોમ્બે જઈ રહ્યા છે. (સર્વનામ + ક્રિયાપદ + પૂર્વનિર્ધારણ + સંજ્ઞા)",
+          "guMT": true
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "ch-01-parts-of-speech/q-1",
+      "type": "mcq",
+      "prompt": {
+        "en": "Which part of speech is the word 'quickly'?",
+        "gu": "'ઝડપથી' શબ્દ વાણીનો કયો ભાગ છે?",
+        "guMT": true
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Adjective",
+            "gu": "વિશેષણ",
+            "guMT": true
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Adverb",
+            "gu": "ક્રિયાવિશેષણ",
+            "guMT": true
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Verb",
+            "gu": "ક્રિયાપદ",
+            "guMT": true
+          }
+        }
+      ],
+      "answer": "b",
+      "solution": {
+        "en": "'Quickly' modifies a verb (e.g., 'run quickly'), so it is an adverb.",
+        "gu": "'ઝડપથી' ક્રિયાપદને સુધારે છે (દા.ત., 'ઝડપથી દોડો'), તેથી તે ક્રિયાવિશેષણ છે.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-01-parts-of-speech/q-2",
+      "type": "mcq",
+      "prompt": {
+        "en": "What kind of noun is 'herd'?",
+        "gu": "'ટોળું' કેવા પ્રકારની સંજ્ઞા છે?",
+        "guMT": true
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Proper noun",
+            "gu": "યોગ્ય સંજ્ઞા",
+            "guMT": true
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Abstract noun",
+            "gu": "અમૂર્ત સંજ્ઞા",
+            "guMT": true
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Collective noun",
+            "gu": "સામૂહિક સંજ્ઞા",
+            "guMT": true
+          }
+        }
+      ],
+      "answer": "c",
+      "solution": {
+        "en": "'Herd' is the name for a group of animals — that is a collective noun.",
+        "gu": "'હર્ડ' એ પ્રાણીઓના જૂથનું નામ છે - તે એક સામૂહિક સંજ્ઞા છે.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-01-parts-of-speech/q-3",
+      "type": "mcq",
+      "prompt": {
+        "en": "Identify the part of speech of 'because' in: 'I am learning English because it is useful.'",
+        "gu": "'કારણ કે' ના ભાષણના ભાગને ઓળખો: 'હું અંગ્રેજી શીખી રહ્યો છું કારણ કે તે ઉપયોગી છે.'",
+        "guMT": true
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Preposition",
+            "gu": "પૂર્વનિર્ધારણ",
+            "guMT": true
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Conjunction",
+            "gu": "જોડાણ",
+            "guMT": true
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Adverb",
+            "gu": "ક્રિયાવિશેષણ",
+            "guMT": true
+          }
+        }
+      ],
+      "answer": "b",
+      "solution": {
+        "en": "'Because' joins two clauses, so it is a conjunction.",
+        "gu": "'કારણ કે' બે કલમો જોડે છે, તેથી તે જોડાણ છે.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-01-parts-of-speech/q-4",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "The word 'happiness' is a(n) ____ noun.",
+        "gu": "'સુખ' શબ્દ a(n) ____ સંજ્ઞા છે.",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "common",
+          "gu": "સામાન્ય",
+          "guMT": true
+        },
+        {
+          "en": "proper",
+          "gu": "યોગ્ય",
+          "guMT": true
+        },
+        {
+          "en": "abstract",
+          "gu": "અમૂર્ત",
+          "guMT": true
+        },
+        {
+          "en": "collective",
+          "gu": "સામૂહિક",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "abstract",
+        "gu": "અમૂર્ત",
+        "guMT": true
+      },
+      "hint": {
+        "en": "It names a feeling that cannot be seen or touched.",
+        "gu": "તે એવી અનુભૂતિનું નામ આપે છે જે જોઈ શકાતી નથી કે સ્પર્શી શકાતી નથી.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-01-parts-of-speech/q-5",
+      "type": "translation",
+      "direction": "en_to_gu",
+      "prompt": {
+        "en": "They are going to Bombay.",
+        "gu": "તેઓ બોમ્બે જઈ રહ્યા છે.",
+        "guMT": true
+      },
+      "answer": {
+        "en": "They are going to Bombay.",
+        "gu": "તેઓ બોમ્બે જઈ રહ્યા છે.",
+        "guMT": true
+      }
+    }
+  ]
+}

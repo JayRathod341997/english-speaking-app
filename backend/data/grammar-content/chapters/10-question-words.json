@@ -1,0 +1,699 @@
+{
+  "id": "ch-10-question-words",
+  "slug": "question-words",
+  "order": 10,
+  "title": {
+    "en": "Question Words",
+    "gu": "પ્રશ્ન શબ્દો",
+    "guMT": true
+  },
+  "summary": {
+    "en": "The Wh-question words — who, what, where, whose, how many, how much, how far, why, how, when, whom, which — and how to use them to form questions.",
+    "gu": "Wh-પ્રશ્ન શબ્દો — કોણ, શું, ક્યાં, કોનું, કેટલા, કેટલું, ક્યાં સુધી, શા માટે, કેવી રીતે, ક્યારે, કોને, કયા — અને પ્રશ્નો બનાવવા માટે તેનો ઉપયોગ કેવી રીતે કરવો.",
+    "guMT": true
+  },
+  "sources": [
+    "motion"
+  ],
+  "explanations": [
+    {
+      "block": "table",
+      "id": "ch-10-question-words/exp-1",
+      "caption": {
+        "en": "Question words and their use",
+        "gu": "પ્રશ્નાર્થ શબ્દો અને તેનો ઉપયોગ",
+        "guMT": true
+      },
+      "headers": [
+        {
+          "key": "word",
+          "label": {
+            "en": "Word",
+            "gu": "શબ્દ",
+            "guMT": true
+          }
+        },
+        {
+          "key": "asks_about",
+          "label": {
+            "en": "Asks about",
+            "gu": "વિશે પૂછે છે",
+            "guMT": true
+          }
+        },
+        {
+          "key": "example",
+          "label": {
+            "en": "Example",
+            "gu": "ઉદાહરણ",
+            "guMT": true
+          }
+        }
+      ],
+      "rows": [
+        {
+          "word": "Who",
+          "asks_about": "person (subject)",
+          "example": "Who is he?"
+        },
+        {
+          "word": "What",
+          "asks_about": "thing or action",
+          "example": "What is your name?"
+        },
+        {
+          "word": "Where",
+          "asks_about": "place",
+          "example": "Where is the Taj Mahal?"
+        },
+        {
+          "word": "Whose",
+          "asks_about": "possession",
+          "example": "Whose notebook is this?"
+        },
+        {
+          "word": "How many",
+          "asks_about": "countable quantity",
+          "example": "How many rupees are these?"
+        },
+        {
+          "word": "How much",
+          "asks_about": "uncountable quantity",
+          "example": "How much money have you?"
+        },
+        {
+          "word": "How far",
+          "asks_about": "distance",
+          "example": "How far is the railway station?"
+        },
+        {
+          "word": "Why",
+          "asks_about": "reason (answer: because)",
+          "example": "Why are you late?"
+        },
+        {
+          "word": "How",
+          "asks_about": "manner or condition",
+          "example": "How are you?"
+        },
+        {
+          "word": "When",
+          "asks_about": "time",
+          "example": "When is your birthday?"
+        },
+        {
+          "word": "Whom",
+          "asks_about": "person (object)",
+          "example": "Whom do you love?"
+        },
+        {
+          "word": "Which",
+          "asks_about": "choice from a specific set",
+          "example": "Which is our national bird?"
+        }
+      ]
+    },
+    {
+      "block": "rules",
+      "id": "ch-10-question-words/exp-2",
+      "title": {
+        "en": "Who vs Whom",
+        "gu": "કોણ વિ કોને",
+        "guMT": true
+      },
+      "items": [
+        {
+          "text": {
+            "en": "'Who' is the subject — it does the action.",
+            "gu": "'કોણ' વિષય છે - તે ક્રિયા કરે છે.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "Who broke the glass? (Who = subject)",
+              "gu": "કાચ કોણે તોડ્યો? (કોણ = વિષય)",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "'Whom' is the object — it receives the action.",
+            "gu": "'કોણ' પદાર્થ છે - તે ક્રિયા પ્રાપ્ત કરે છે.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "Whom do you love? (you = subject, whom = object)",
+              "gu": "તમે કોને પ્રેમ કરો છો? (તમે = વિષય, કોને = પદાર્થ)",
+              "guMT": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "block": "rules",
+      "id": "ch-10-question-words/exp-3",
+      "title": {
+        "en": "Why, How, When, Which — detailed usage",
+        "gu": "શા માટે, કેવી રીતે, ક્યારે, કયો — વિગતવાર ઉપયોગ",
+        "guMT": true
+      },
+      "items": [
+        {
+          "text": {
+            "en": "'Why' asks for a reason. The answer usually starts with 'because'.",
+            "gu": "'કેમ' કારણ પૂછે છે. જવાબ સામાન્ય રીતે 'કારણ' થી શરૂ થાય છે.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "Why are you crying? — Because I fell down. | Why did she leave early? | Why is this door locked?",
+              "gu": "કેમ રડે છે? - કારણ કે હું નીચે પડી ગયો. | તેણી શા માટે વહેલી નીકળી ગઈ? | આ દરવાજો કેમ બંધ છે?",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "'How' asks about manner, condition or method.",
+            "gu": "'કેવી રીતે' રીત, સ્થિતિ અથવા પદ્ધતિ વિશે પૂછે છે.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "How are you? | How did you travel to Mumbai? | How do you spell this word?",
+              "gu": "તમે કેમ છો? | તમે મુંબઈની મુસાફરી કેવી રીતે કરી? | તમે આ શબ્દની જોડણી કેવી રીતે કરશો?",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "'When' asks about time.",
+            "gu": "'જ્યારે' સમય વિશે પૂછે છે.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "When is your birthday? | When did the train arrive? | When will the results come?",
+              "gu": "તમારો જન્મદિવસ ક્યારે છે? | ટ્રેન ક્યારે આવી? | પરિણામો ક્યારે આવશે?",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "'Which' asks for a choice from a known, specific set.",
+            "gu": "'જે' જાણીતા, ચોક્કસ સમૂહમાંથી પસંદગી માટે પૂછે છે.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "Which is our national bird? | Which book did you buy? | Which team won the match?",
+              "gu": "આપણું રાષ્ટ્રીય પક્ષી કયું છે? | તમે કયું પુસ્તક ખરીદ્યું? | કઈ ટીમ મેચ જીતી?",
+              "guMT": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "block": "rules",
+      "id": "ch-10-question-words/exp-4",
+      "title": {
+        "en": "How + adjective / adverb compounds",
+        "gu": "કેવી રીતે + વિશેષણ / ક્રિયાવિશેષણ સંયોજનો",
+        "guMT": true
+      },
+      "items": [
+        {
+          "text": {
+            "en": "How many — asks about countable quantity.",
+            "gu": "કેટલા - ગણી શકાય તેવા જથ્થા વિશે પૂછે છે.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "How many students are there in your class? | How many rupees does this cost?",
+              "gu": "તમારા વર્ગમાં કેટલા વિદ્યાર્થીઓ છે? | આની કિંમત કેટલા રૂપિયા છે?",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "How much — asks about uncountable quantity.",
+            "gu": "કેટલું — અગણિત જથ્થા વિશે પૂછે છે.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "How much milk is left? | How much time do you need?",
+              "gu": "કેટલું દૂધ બાકી છે? | તમારે કેટલો સમય જોઈએ છે?",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "How far — asks about distance.",
+            "gu": "કેટલું દૂર — અંતર વિશે પૂછે છે.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "How far is the railway station? | How far can you run?",
+              "gu": "રેલ્વે સ્ટેશન કેટલું દૂર છે? | તમે ક્યાં સુધી દોડી શકો છો?",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "How old — asks about age.",
+            "gu": "કેટલી ઉંમર - ઉંમર વિશે પૂછે છે.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "How old are you? | How old is this building?",
+              "gu": "તમારી ઉંમર કેટલી છે? | આ ઇમારત કેટલી જૂની છે?",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "How often — asks about frequency.",
+            "gu": "કેટલી વાર — આવર્તન વિશે પૂછે છે.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "How often do you exercise? | How often does the bus run?",
+              "gu": "તમે કેટલી વાર કસરત કરો છો? | બસ કેટલી વાર ચાલે છે?",
+              "guMT": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "ch-10-question-words/q-1",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "____ is your father's name?",
+        "gu": "____ તમારા પિતાનું નામ છે?",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "Who",
+          "gu": "WHO",
+          "guMT": true
+        },
+        {
+          "en": "What",
+          "gu": "શું",
+          "guMT": true
+        },
+        {
+          "en": "Which",
+          "gu": "જે",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "What",
+        "gu": "શું",
+        "guMT": true
+      },
+      "hint": {
+        "en": "A name is a thing — use 'What' for things.",
+        "gu": "નામ એક વસ્તુ છે - વસ્તુઓ માટે 'શું' નો ઉપયોગ કરો.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-10-question-words/q-2",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "____ notebook is this?",
+        "gu": "____ નોટબુક આ છે?",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "Who",
+          "gu": "WHO",
+          "guMT": true
+        },
+        {
+          "en": "Whose",
+          "gu": "જેની",
+          "guMT": true
+        },
+        {
+          "en": "Whom",
+          "gu": "કોને",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "Whose",
+        "gu": "જેની",
+        "guMT": true
+      },
+      "hint": {
+        "en": "Possession — use 'Whose'.",
+        "gu": "કબજો - 'કોના' નો ઉપયોગ કરો.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-10-question-words/q-3",
+      "type": "mcq",
+      "prompt": {
+        "en": "Which question word fits: '____ do you love?'",
+        "gu": "કયો પ્રશ્ન શબ્દ બંધબેસે છે: '____ તમે પ્રેમ કરો છો?'",
+        "guMT": true
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Who",
+            "gu": "WHO",
+            "guMT": true
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Whom",
+            "gu": "કોને",
+            "guMT": true
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Whose",
+            "gu": "જેની",
+            "guMT": true
+          }
+        }
+      ],
+      "answer": "b",
+      "solution": {
+        "en": "The person is the object of 'love' — use 'Whom'.",
+        "gu": "વ્યક્તિ 'પ્રેમ' ની વસ્તુ છે - 'કોણ' નો ઉપયોગ કરો.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-10-question-words/q-4",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "____ money have you? (Asking about an uncountable amount)",
+        "gu": "____ તમારી પાસે પૈસા છે? (અગણિત રકમ વિશે પૂછવું)",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "How many",
+          "gu": "કેટલા",
+          "guMT": true
+        },
+        {
+          "en": "How much",
+          "gu": "કેટલી",
+          "guMT": true
+        },
+        {
+          "en": "How far",
+          "gu": "ક્યાં સુધી",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "How much",
+        "gu": "કેટલી",
+        "guMT": true
+      },
+      "hint": {
+        "en": "'Money' is uncountable — use 'How much'.",
+        "gu": "'પૈસા' અગણિત છે - 'કેટલું' વાપરો.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-10-question-words/q-5",
+      "type": "translation",
+      "direction": "en_to_gu",
+      "prompt": {
+        "en": "Why are you late?",
+        "gu": "કેમ મોડું થયું?",
+        "guMT": true
+      },
+      "answer": {
+        "en": "Why are you late?",
+        "gu": "કેમ મોડું થયું?",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-10-question-words/q-6",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "____ is your birthday?",
+        "gu": "____ તમારો જન્મદિવસ છે?",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "Where",
+          "gu": "જ્યાં",
+          "guMT": true
+        },
+        {
+          "en": "When",
+          "gu": "જ્યારે",
+          "guMT": true
+        },
+        {
+          "en": "Why",
+          "gu": "શા માટે",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "When",
+        "gu": "જ્યારે",
+        "guMT": true
+      },
+      "hint": {
+        "en": "A birthday is a point in time — 'When' asks about time.",
+        "gu": "જન્મદિવસ એ સમયનો એક મુદ્દો છે — 'ક્યારે' સમય વિશે પૂછે છે.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-10-question-words/q-7",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "____ books do you have in your bag?",
+        "gu": "____ પુસ્તકો તમારી બેગમાં છે?",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "How much",
+          "gu": "કેટલી",
+          "guMT": true
+        },
+        {
+          "en": "How many",
+          "gu": "કેટલા",
+          "guMT": true
+        },
+        {
+          "en": "How far",
+          "gu": "ક્યાં સુધી",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "How many",
+        "gu": "કેટલા",
+        "guMT": true
+      },
+      "hint": {
+        "en": "'Books' is countable — use 'How many'.",
+        "gu": "'પુસ્તકો' ગણતરીપાત્ર છે - 'કેટલા' નો ઉપયોગ કરો.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-10-question-words/q-8",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "____ old is your grandfather?",
+        "gu": "____ શું તમારા દાદા વૃદ્ધ છે?",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "What",
+          "gu": "શું",
+          "guMT": true
+        },
+        {
+          "en": "How",
+          "gu": "કેવી રીતે",
+          "guMT": true
+        },
+        {
+          "en": "Which",
+          "gu": "જે",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "How",
+        "gu": "કેવી રીતે",
+        "guMT": true
+      },
+      "hint": {
+        "en": "Age is asked with 'How old'.",
+        "gu": "'કેટલી ઉંમર' સાથે ઉંમર પૂછવામાં આવે છે.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-10-question-words/q-9",
+      "type": "mcq",
+      "prompt": {
+        "en": "Choose the correct question word: '____ team won the match?'",
+        "gu": "સાચો પ્રશ્ન શબ્દ પસંદ કરો: '____ ટીમ મેચ જીતી?'",
+        "guMT": true
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "What",
+            "gu": "શું",
+            "guMT": true
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Which",
+            "gu": "જે",
+            "guMT": true
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Who",
+            "gu": "WHO",
+            "guMT": true
+          }
+        }
+      ],
+      "answer": "b",
+      "solution": {
+        "en": "'Which' is used when choosing from a specific set (known teams). 'What team' is less precise; 'who' is for a person, not a team.",
+        "gu": "ચોક્કસ સમૂહ (જાણીતી ટીમો) માંથી પસંદ કરતી વખતે 'કયા' નો ઉપયોગ થાય છે. 'કઈ ટીમ' ઓછી ચોક્કસ છે; 'કોણ' વ્યક્તિ માટે છે, ટીમ માટે નહીં.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-10-question-words/q-10",
+      "type": "translation",
+      "direction": "en_to_gu",
+      "prompt": {
+        "en": "How far is the railway station?",
+        "gu": "રેલ્વે સ્ટેશન કેટલું દૂર છે?",
+        "guMT": true
+      },
+      "answer": {
+        "en": "How far is the railway station?",
+        "gu": "રેલ્વે સ્ટેશન કેટલું દૂર છે?",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-10-question-words/q-11",
+      "type": "transformation",
+      "transform": "statement_to_question",
+      "given": "statement",
+      "ask": "question",
+      "forms": {
+        "statement": {
+          "en": "He came late because of traffic.",
+          "gu": "ટ્રાફિકને કારણે તે મોડો આવ્યો.",
+          "guMT": true
+        },
+        "question": {
+          "en": "Why did he come late?",
+          "gu": "તે કેમ મોડો આવ્યો?",
+          "guMT": true
+        }
+      },
+      "answer": {
+        "en": "Why did he come late?",
+        "gu": "તે કેમ મોડો આવ્યો?",
+        "guMT": true
+      },
+      "solution": {
+        "en": "The statement gives a reason, so ask with 'Why'. Use did + base verb (come) in the past question.",
+        "gu": "નિવેદન કારણ આપે છે, તેથી 'શા માટે' સાથે પૂછો. ભૂતકાળના પ્રશ્નમાં did + આધાર ક્રિયાપદ (આવવું) નો ઉપયોગ કરો.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-10-question-words/q-12",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "____ often do you go to the library?",
+        "gu": "____ શું તમે વારંવાર પુસ્તકાલયમાં જાઓ છો?",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "How",
+          "gu": "કેવી રીતે",
+          "guMT": true
+        },
+        {
+          "en": "What",
+          "gu": "શું",
+          "guMT": true
+        },
+        {
+          "en": "When",
+          "gu": "જ્યારે",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "How",
+        "gu": "કેવી રીતે",
+        "guMT": true
+      },
+      "hint": {
+        "en": "Frequency is asked with 'How often'.",
+        "gu": "આવર્તનને 'કેટલી વાર' સાથે પૂછવામાં આવે છે.",
+        "guMT": true
+      }
+    }
+  ]
+}

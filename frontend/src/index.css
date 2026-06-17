@@ -1,5 +1,123 @@
 @import "tailwindcss";
 
+@theme {
+  --color-primary: #004635;
+  --color-on-primary: #ffffff;
+  --color-primary-container: #1b5e4b;
+  --color-on-primary-container: #94d5bd;
+  --color-inverse-primary: #93d4bb;
+  --color-primary-fixed: #aef0d7;
+  --color-primary-fixed-dim: #93d4bb;
+  --color-on-primary-fixed: #002117;
+  --color-on-primary-fixed-variant: #05513f;
+
+  --color-secondary: #a73a00;
+  --color-on-secondary: #ffffff;
+  --color-secondary-container: #ff7940;
+  --color-on-secondary-container: #662000;
+  --color-secondary-fixed: #ffdbce;
+  --color-secondary-fixed-dim: #ffb599;
+  --color-on-secondary-fixed: #370e00;
+  --color-on-secondary-fixed-variant: #7f2b00;
+
+  --color-tertiary: #622d26;
+  --color-on-tertiary: #ffffff;
+  --color-tertiary-container: #7e433b;
+  --color-on-tertiary-container: #ffb6ac;
+  --color-tertiary-fixed: #ffdad5;
+  --color-tertiary-fixed-dim: #ffb4a9;
+  --color-on-tertiary-fixed: #380c08;
+  --color-on-tertiary-fixed-variant: #6e372f;
+
+  --color-error: #ba1a1a;
+  --color-on-error: #ffffff;
+  --color-error-container: #ffdad6;
+  --color-on-error-container: #93000a;
+
+  --color-background: #fdf9ee;
+  --color-on-background: #1c1c15;
+
+  --color-surface: #fdf9ee;
+  --color-on-surface: #1c1c15;
+  --color-surface-dim: #dddacf;
+  --color-surface-bright: #fdf9ee;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-low: #f7f3e8;
+  --color-surface-container: #f2eee3;
+  --color-surface-container-high: #ece8dd;
+  --color-surface-container-highest: #e6e2d8;
+  --color-on-surface-variant: #404944;
+  --color-inverse-surface: #313129;
+  --color-inverse-on-surface: #f4f1e6;
+  
+  --color-outline: #707974;
+  --color-outline-variant: #bfc9c3;
+  --color-surface-tint: #286956;
+
+  /* Spacing */
+  --spacing-container-max: 1200px;
+  --spacing-margin-desktop: 64px;
+  --spacing-margin-mobile: 20px;
+  --spacing-stack-lg: 40px;
+  --spacing-stack-md: 24px;
+  --spacing-stack-sm: 12px;
+  --spacing-gutter: 24px;
+  --spacing-base: 8px;
+
+  /* Fonts */
+  --font-display-lg: "Literata", serif;
+  --font-headline-lg: "Literata", serif;
+  --font-headline-lg-mobile: "Literata", serif;
+  --font-title-md: "Literata", serif;
+  --font-body-lg: "Hanken Grotesk", sans-serif;
+  --font-body-md: "Hanken Grotesk", sans-serif;
+  --font-label-sm: "Hanken Grotesk", sans-serif;
+}
+
+/* Scoped Desktop Theme Overrides */
+.desktop-theme {
+  font-family: 'Hanken Grotesk', system-ui, sans-serif;
+  background-color: #fdf9ee;
+  color: #1c1c15;
+  --paper: #fdf9ee;
+  --paper-2: #e6e2d8;
+  --card: #ffffff;
+  --ink: #1c1c15;
+  --ink-soft: #404944;
+  --teal: #004635;
+  --teal-soft: #aef0d7;
+  --saffron: #a73a00;
+  --saffron-deep: #7f2b00;
+  --amber: #a73a00;
+  --amber-soft: #ffdbce;
+  --rose: #622d26;
+  --rose-soft: #ffdad5;
+  --line: rgba(0, 70, 53, 0.1);
+}
+
+.desktop-theme .font-serif {
+  font-family: 'Literata', Georgia, serif;
+}
+
+.desktop-theme details > summary {
+  list-style: none;
+}
+.desktop-theme details > summary::-webkit-details-marker {
+  display: none;
+}
+
+.desktop-theme .glass-card {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(0, 70, 53, 0.1);
+}
+
+.desktop-theme .progress-track {
+  background-color: rgba(0, 70, 53, 0.1);
+}
+
+
 :root {
   --ink: #1c1714;
   --ink-soft: #5a5048;

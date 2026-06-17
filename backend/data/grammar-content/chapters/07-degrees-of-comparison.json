@@ -1,0 +1,774 @@
+{
+  "id": "ch-07-degrees-of-comparison",
+  "slug": "degrees-of-comparison",
+  "order": 7,
+  "title": {
+    "en": "Degrees of Comparison",
+    "gu": "સરખામણીની ડિગ્રી",
+    "guMT": true
+  },
+  "summary": {
+    "en": "How adjectives change across the positive, comparative and superlative degrees, and how to rewrite a sentence from one degree to another.",
+    "gu": "સકારાત્મક, તુલનાત્મક અને સર્વોત્તમ ડિગ્રીમાં વિશેષણો કેવી રીતે બદલાય છે અને વાક્યને એક ડિગ્રીથી બીજી ડિગ્રીમાં કેવી રીતે ફરીથી લખવું.",
+    "guMT": true
+  },
+  "sources": [
+    "anamika"
+  ],
+  "explanations": [
+    {
+      "block": "prose",
+      "id": "ch-07-degrees-of-comparison/exp-1",
+      "text": {
+        "en": "An adjective has three degrees of comparison. The positive degree simply describes (no comparison). The comparative degree compares two things and usually adds '-er' or uses 'more ... than'. The superlative degree compares three or more and usually adds '-est' or uses 'the most'.",
+        "gu": "એક વિશેષણમાં સરખામણીની ત્રણ ડિગ્રી હોય છે. હકારાત્મક ડિગ્રી સરળ રીતે વર્ણવે છે (કોઈ સરખામણી નથી). તુલનાત્મક ડિગ્રી બે વસ્તુઓની તુલના કરે છે અને સામાન્ય રીતે '-er' ઉમેરે છે અથવા 'વધુ ... કરતાં' નો ઉપયોગ કરે છે. ઉત્કૃષ્ટ ડિગ્રી ત્રણ અથવા વધુની તુલના કરે છે અને સામાન્ય રીતે '-est' ઉમેરે છે અથવા 'સૌથી વધુ' વાપરે છે.",
+        "guMT": true
+      }
+    },
+    {
+      "block": "table",
+      "id": "ch-07-degrees-of-comparison/exp-2",
+      "caption": {
+        "en": "Positive, comparative and superlative forms",
+        "gu": "સકારાત્મક, તુલનાત્મક અને શ્રેષ્ઠ સ્વરૂપો",
+        "guMT": true
+      },
+      "headers": [
+        {
+          "key": "positive",
+          "label": {
+            "en": "Positive",
+            "gu": "સકારાત્મક",
+            "guMT": true
+          }
+        },
+        {
+          "key": "comparative",
+          "label": {
+            "en": "Comparative",
+            "gu": "તુલનાત્મક",
+            "guMT": true
+          }
+        },
+        {
+          "key": "superlative",
+          "label": {
+            "en": "Superlative",
+            "gu": "સર્વોત્તમ",
+            "guMT": true
+          }
+        }
+      ],
+      "rows": [
+        {
+          "positive": "long",
+          "comparative": "longer",
+          "superlative": "the longest"
+        },
+        {
+          "positive": "sweet",
+          "comparative": "sweeter",
+          "superlative": "the sweetest"
+        },
+        {
+          "positive": "beautiful",
+          "comparative": "more beautiful than",
+          "superlative": "the most beautiful"
+        },
+        {
+          "positive": "happy",
+          "comparative": "happier",
+          "superlative": "the happiest"
+        },
+        {
+          "positive": "good",
+          "comparative": "better",
+          "superlative": "the best"
+        },
+        {
+          "positive": "bad",
+          "comparative": "worse",
+          "superlative": "the worst"
+        },
+        {
+          "positive": "much",
+          "comparative": "more",
+          "superlative": "the most"
+        },
+        {
+          "positive": "hot",
+          "comparative": "hotter",
+          "superlative": "the hottest"
+        }
+      ]
+    },
+    {
+      "block": "rules",
+      "id": "ch-07-degrees-of-comparison/exp-3",
+      "title": {
+        "en": "Spelling rules when forming the degrees",
+        "gu": "ડિગ્રી બનાવતી વખતે જોડણીના નિયમો",
+        "guMT": true
+      },
+      "items": [
+        {
+          "text": {
+            "en": "For most short adjectives add '-er' / '-est'.",
+            "gu": "મોટાભાગના ટૂંકા વિશેષણો માટે '-er' / '-est' ઉમેરો.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "long → longer → longest",
+              "gu": "લાંબો → લાંબો → સૌથી લાંબો",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "For long adjectives use 'more' / 'most' instead of endings.",
+            "gu": "લાંબા વિશેષણો માટે અંતને બદલે 'વધુ' / 'મોસ્ટ'નો ઉપયોગ કરો.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "beautiful → more beautiful → most beautiful",
+              "gu": "સુંદર → વધુ સુંદર → સૌથી સુંદર",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "If the adjective ends in 'y' after a consonant, change 'y' to 'i' before '-er'/'-est'.",
+            "gu": "જો વિશેષણ વ્યંજન પછી 'y' માં સમાપ્ત થાય, તો '-er'/'-est' પહેલાં 'y' ને 'i' માં બદલો.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "happy → happier → happiest",
+              "gu": "ખુશ → ખુશ → સૌથી ખુશ",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "For a short adjective ending in a single consonant after a single vowel, double the consonant.",
+            "gu": "એક સ્વર પછી એક જ વ્યંજનમાં સમાપ્ત થતા ટૂંકા વિશેષણ માટે, વ્યંજનને બમણું કરો.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "hot → hotter → hottest",
+              "gu": "ગરમ → વધુ ગરમ → સૌથી ગરમ",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "Some adjectives are irregular and must be learned by heart.",
+            "gu": "કેટલાક વિશેષણો અનિયમિત છે અને તે હૃદયથી શીખવા જોઈએ.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "good → better → best",
+              "gu": "સારું → વધુ સારું → શ્રેષ્ઠ",
+              "guMT": true
+            },
+            {
+              "en": "bad → worse → worst",
+              "gu": "ખરાબ → ખરાબ → સૌથી ખરાબ",
+              "guMT": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "block": "rules",
+      "id": "ch-07-degrees-of-comparison/exp-4",
+      "title": {
+        "en": "Rewriting a sentence from one degree to another",
+        "gu": "વાક્યને એક ડિગ્રીથી બીજામાં ફરીથી લખવું",
+        "guMT": true
+      },
+      "items": [
+        {
+          "text": {
+            "en": "Superlative form: '... is the [superlative] ... in/of ...'.",
+            "gu": "સર્વોત્તમ સ્વરૂપ: '... એ [સુપરલેટીવ] ... માં/ઓફ...' છે.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "Maulik is the best teacher in the world.",
+              "gu": "મૌલિક વિશ્વના શ્રેષ્ઠ શિક્ષક છે.",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "Comparative form: '... is [comparative] than any other ...'.",
+            "gu": "તુલનાત્મક સ્વરૂપ: '... અન્ય કોઈપણ કરતાં [તુલનાત્મક] છે...'.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "Maulik is better than any other teacher in the world.",
+              "gu": "મૌલિક વિશ્વના કોઈપણ શિક્ષક કરતાં શ્રેષ્ઠ છે.",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "Positive form: 'No other ... is so [positive] as ...'.",
+            "gu": "સકારાત્મક સ્વરૂપ: 'બીજું કોઈ નથી... એટલું [હકારાત્મક] છે...'.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "No other teacher in the world is so good as Maulik.",
+              "gu": "દુનિયામાં મૌલિક જેટલો સારો બીજો કોઈ શિક્ષક નથી.",
+              "guMT": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "block": "rules",
+      "id": "ch-07-degrees-of-comparison/exp-5",
+      "title": {
+        "en": "Equality and negative equality patterns",
+        "gu": "સમાનતા અને નકારાત્મક સમાનતા પેટર્ન",
+        "guMT": true
+      },
+      "items": [
+        {
+          "text": {
+            "en": "Positive equality: as + positive + as (the two things are equal).",
+            "gu": "હકારાત્મક સમાનતા: તરીકે + હકારાત્મક + તરીકે (બે વસ્તુઓ સમાન છે).",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "You are as tall as your brother. | This coat is as warm as that one.",
+              "gu": "તમે તમારા ભાઈ જેટલા ઊંચા છો. | આ કોટ તેટલો જ ગરમ છે.",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "Negative equality: not so + positive + as (the two things are unequal).",
+            "gu": "નકારાત્મક સમાનતા: એટલું નહીં + હકારાત્મક + જેમ (બે વસ્તુઓ અસમાન છે).",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "The food today is not so good as yesterday. | Raju is not so tall as Mohan.",
+              "gu": "આજે ખોરાક ગઈકાલ જેટલો સારો નથી. | રાજુ મોહન જેટલો ઊંચો નથી.",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "Similarity: the same as (they are identical in this quality).",
+            "gu": "સમાનતા: સમાન (તેઓ આ ગુણવત્તામાં સમાન છે).",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "Your bag is the same as mine. | This result is the same as last year.",
+              "gu": "તમારી બેગ મારી જેવી જ છે. | આ પરિણામ ગયા વર્ષ જેટલું જ છે.",
+              "guMT": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "block": "rules",
+      "id": "ch-07-degrees-of-comparison/exp-6",
+      "title": {
+        "en": "Other degree patterns",
+        "gu": "અન્ય ડિગ્રી પેટર્ન",
+        "guMT": true
+      },
+      "items": [
+        {
+          "text": {
+            "en": "'One of the + superlative + plural noun' — the subject is among the best, not the single best.",
+            "gu": "'+ સર્વોત્તમ + બહુવચન સંજ્ઞામાંથી એક' — વિષય શ્રેષ્ઠમાંનો છે, એક શ્રેષ્ઠ નથી.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "Surat is one of the cleanest cities in Gujarat. | She is one of the best singers in India.",
+              "gu": "સુરત ગુજરાતના સૌથી સ્વચ્છ શહેરોમાંનું એક છે. | તે ભારતની શ્રેષ્ઠ ગાયિકાઓમાંની એક છે.",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "Use 'less' / 'least' for a decreasing comparison (opposite of more/most).",
+            "gu": "ઘટતી સરખામણી માટે 'ઓછા' / 'ઓછામાં ઓછા' નો ઉપયોગ કરો (વધુ/મોટા ભાગની વિરુદ્ધ).",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "This problem is less difficult than I thought. | This is the least interesting chapter.",
+              "gu": "મેં વિચાર્યું તે કરતાં આ સમસ્યા ઓછી મુશ્કેલ છે. | આ સૌથી ઓછું રસપ્રદ પ્રકરણ છે.",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "Double comparative: 'The more ... the more ...' — both qualities increase together.",
+            "gu": "ડબલ તુલનાત્મક: 'જેટલું વધુ... તેટલું વધુ...' — બંને ગુણો એકસાથે વધે છે.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "The more you read, the more you learn. | The harder you work, the better the results.",
+              "gu": "તમે જેટલું વધુ વાંચશો, તેટલું વધુ તમે શીખશો. | તમે જેટલી મહેનત કરો છો તેટલું સારું પરિણામ મળશે.",
+              "guMT": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "ch-07-degrees-of-comparison/q-1",
+      "type": "transformation",
+      "transform": "degrees_of_comparison",
+      "given": "superlative",
+      "ask": "comparative",
+      "forms": {
+        "positive": {
+          "en": "No other teacher in the world is so good as Maulik.",
+          "gu": "દુનિયામાં મૌલિક જેટલો સારો બીજો કોઈ શિક્ષક નથી.",
+          "guMT": true
+        },
+        "comparative": {
+          "en": "Maulik is better than any other teacher in the world.",
+          "gu": "મૌલિક વિશ્વના કોઈપણ શિક્ષક કરતાં શ્રેષ્ઠ છે.",
+          "guMT": true
+        },
+        "superlative": {
+          "en": "Maulik is the best teacher in the world.",
+          "gu": "મૌલિક વિશ્વના શ્રેષ્ઠ શિક્ષક છે.",
+          "guMT": true
+        }
+      },
+      "answer": {
+        "en": "Maulik is better than any other teacher in the world.",
+        "gu": "મૌલિક વિશ્વના કોઈપણ શિક્ષક કરતાં શ્રેષ્ઠ છે.",
+        "guMT": true
+      },
+      "solution": {
+        "en": "Change 'the best ... in' to 'better than any other ...'.",
+        "gu": "'શ્રેષ્ઠ...માં'ને 'બીજા કરતાં વધુ સારા...'માં બદલો.",
+        "guMT": true
+      },
+      "sourceRef": {
+        "book": "anamika",
+        "page": 10
+      }
+    },
+    {
+      "id": "ch-07-degrees-of-comparison/q-2",
+      "type": "transformation",
+      "transform": "degrees_of_comparison",
+      "given": "superlative",
+      "ask": "positive",
+      "forms": {
+        "positive": {
+          "en": "No other person in the whole city is so rich as Rohit.",
+          "gu": "આખા શહેરમાં બીજી કોઈ વ્યક્તિ રોહિત જેટલી અમીર નથી.",
+          "guMT": true
+        },
+        "comparative": {
+          "en": "Rohit is richer than any other person in the whole city.",
+          "gu": "રોહિત આખા શહેરની અન્ય વ્યક્તિ કરતાં વધુ અમીર છે.",
+          "guMT": true
+        },
+        "superlative": {
+          "en": "Rohit is the richest person in the whole city.",
+          "gu": "રોહિત આખા શહેરમાં સૌથી ધનિક વ્યક્તિ છે.",
+          "guMT": true
+        }
+      },
+      "answer": {
+        "en": "No other person in the whole city is so rich as Rohit.",
+        "gu": "આખા શહેરમાં બીજી કોઈ વ્યક્તિ રોહિત જેટલી અમીર નથી.",
+        "guMT": true
+      },
+      "solution": {
+        "en": "Positive uses 'No other ... is so [positive] as ...'.",
+        "gu": "સકારાત્મક ઉપયોગો 'કોઈ અન્ય નથી... તેથી [હકારાત્મક] જેમ...'.",
+        "guMT": true
+      },
+      "sourceRef": {
+        "book": "anamika",
+        "page": 10
+      }
+    },
+    {
+      "id": "ch-07-degrees-of-comparison/q-3",
+      "type": "transformation",
+      "transform": "degrees_of_comparison",
+      "given": "superlative",
+      "ask": "comparative",
+      "forms": {
+        "positive": {
+          "en": "No other city in Gujarat is so clean as Surat.",
+          "gu": "સુરત જેટલું સ્વચ્છ ગુજરાતનું બીજું કોઈ શહેર નથી.",
+          "guMT": true
+        },
+        "comparative": {
+          "en": "Surat is cleaner than any other city in Gujarat.",
+          "gu": "સુરત ગુજરાતના અન્ય શહેરો કરતાં સ્વચ્છ છે.",
+          "guMT": true
+        },
+        "superlative": {
+          "en": "Surat is the cleanest city in Gujarat.",
+          "gu": "સુરત ગુજરાતનું સૌથી સ્વચ્છ શહેર છે.",
+          "guMT": true
+        }
+      },
+      "answer": {
+        "en": "Surat is cleaner than any other city in Gujarat.",
+        "gu": "સુરત ગુજરાતના અન્ય શહેરો કરતાં સ્વચ્છ છે.",
+        "guMT": true
+      },
+      "solution": {
+        "en": "Comparative uses '[comparative] than any other ...'.",
+        "gu": "તુલનાત્મક ઉપયોગ '[તુલનાત્મક] અન્ય કોઈપણ કરતાં ...'.",
+        "guMT": true
+      },
+      "sourceRef": {
+        "book": "anamika",
+        "page": 11
+      }
+    },
+    {
+      "id": "ch-07-degrees-of-comparison/q-4",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "Diamond is ____ than any other stone. (hard)",
+        "gu": "હીરા અન્ય પથ્થર કરતાં ____ છે. (સખત)",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "hard",
+          "gu": "સખત",
+          "guMT": true
+        },
+        {
+          "en": "harder",
+          "gu": "સખત",
+          "guMT": true
+        },
+        {
+          "en": "hardest",
+          "gu": "સૌથી મુશ્કેલ",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "harder",
+        "gu": "સખત",
+        "guMT": true
+      },
+      "hint": {
+        "en": "The word 'than' signals the comparative degree.",
+        "gu": "' કરતાં' શબ્દ તુલનાત્મક ડિગ્રીનો સંકેત આપે છે.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-07-degrees-of-comparison/q-5",
+      "type": "mcq",
+      "prompt": {
+        "en": "What is the comparative form of 'bad'?",
+        "gu": "'ખરાબ'નું તુલનાત્મક સ્વરૂપ શું છે?",
+        "guMT": true
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "badder",
+            "gu": "ખરાબ",
+            "guMT": true
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "worse",
+            "gu": "ખરાબ",
+            "guMT": true
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "worst",
+            "gu": "સૌથી ખરાબ",
+            "guMT": true
+          }
+        }
+      ],
+      "answer": "b",
+      "solution": {
+        "en": "'bad' is irregular: bad → worse → worst.",
+        "gu": "'ખરાબ' અનિયમિત છે: ખરાબ → ખરાબ → સૌથી ખરાબ.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-07-degrees-of-comparison/q-6",
+      "type": "translation",
+      "direction": "en_to_gu",
+      "prompt": {
+        "en": "Surat is the cleanest city in Gujarat.",
+        "gu": "સુરત ગુજરાતનું સૌથી સ્વચ્છ શહેર છે.",
+        "guMT": true
+      },
+      "answer": {
+        "en": "Surat is the cleanest city in Gujarat.",
+        "gu": "સુરત ગુજરાતનું સૌથી સ્વચ્છ શહેર છે.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-07-degrees-of-comparison/q-7",
+      "type": "transformation",
+      "transform": "degrees_of_comparison",
+      "given": "superlative",
+      "ask": "comparative",
+      "forms": {
+        "positive": {
+          "en": "No other metal is so useful as iron.",
+          "gu": "બીજી કોઈ ધાતુ લોખંડ જેટલી ઉપયોગી નથી.",
+          "guMT": true
+        },
+        "comparative": {
+          "en": "Iron is more useful than any other metal.",
+          "gu": "આયર્ન અન્ય કોઈપણ ધાતુ કરતાં વધુ ઉપયોગી છે.",
+          "guMT": true
+        },
+        "superlative": {
+          "en": "Iron is the most useful metal in the world.",
+          "gu": "આયર્ન એ વિશ્વની સૌથી ઉપયોગી ધાતુ છે.",
+          "guMT": true
+        }
+      },
+      "answer": {
+        "en": "Iron is more useful than any other metal.",
+        "gu": "આયર્ન અન્ય કોઈપણ ધાતુ કરતાં વધુ ઉપયોગી છે.",
+        "guMT": true
+      },
+      "solution": {
+        "en": "Change 'the most useful ... in' to 'more useful than any other ...'.",
+        "gu": "'સૌથી વધુ ઉપયોગી...માં'ને 'અન્ય કોઈપણ કરતાં વધુ ઉપયોગી...'માં બદલો.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-07-degrees-of-comparison/q-8",
+      "type": "transformation",
+      "transform": "degrees_of_comparison",
+      "given": "superlative",
+      "ask": "positive",
+      "forms": {
+        "positive": {
+          "en": "No other river in India is so sacred as the Ganga.",
+          "gu": "ભારતની બીજી કોઈ નદી ગંગા જેટલી પવિત્ર નથી.",
+          "guMT": true
+        },
+        "comparative": {
+          "en": "The Ganga is more sacred than any other river in India.",
+          "gu": "ગંગા ભારતની અન્ય કોઈપણ નદી કરતાં વધુ પવિત્ર છે.",
+          "guMT": true
+        },
+        "superlative": {
+          "en": "The Ganga is the most sacred river in India.",
+          "gu": "ગંગા ભારતની સૌથી પવિત્ર નદી છે.",
+          "guMT": true
+        }
+      },
+      "answer": {
+        "en": "No other river in India is so sacred as the Ganga.",
+        "gu": "ભારતની બીજી કોઈ નદી ગંગા જેટલી પવિત્ર નથી.",
+        "guMT": true
+      },
+      "solution": {
+        "en": "Positive uses 'No other ... is so [adjective] as ...'.",
+        "gu": "હકારાત્મક ઉપયોગો 'No other... is so [વિશેષણ] as...'.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-07-degrees-of-comparison/q-9",
+      "type": "transformation",
+      "transform": "degrees_of_comparison",
+      "given": "comparative",
+      "ask": "superlative",
+      "forms": {
+        "positive": {
+          "en": "No other boy in the class is so clever as Ravi.",
+          "gu": "ક્લાસનો બીજો કોઈ છોકરો રવિ જેટલો હોંશિયાર નથી.",
+          "guMT": true
+        },
+        "comparative": {
+          "en": "Ravi is cleverer than any other boy in the class.",
+          "gu": "રવિ વર્ગના અન્ય છોકરાઓ કરતાં હોંશિયાર છે.",
+          "guMT": true
+        },
+        "superlative": {
+          "en": "Ravi is the cleverest boy in the class.",
+          "gu": "રવિ વર્ગનો સૌથી હોંશિયાર છોકરો છે.",
+          "guMT": true
+        }
+      },
+      "answer": {
+        "en": "Ravi is the cleverest boy in the class.",
+        "gu": "રવિ વર્ગનો સૌથી હોંશિયાર છોકરો છે.",
+        "guMT": true
+      },
+      "solution": {
+        "en": "Change 'cleverer than any other [noun]' to 'the cleverest [noun]'.",
+        "gu": "'અન્ય કોઈપણ [સંજ્ઞા] કરતાં હોંશિયાર' ને 'ચતુર [સંજ્ઞા]' માં બદલો.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-07-degrees-of-comparison/q-10",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "She is ____ as strong as her brother. (as / more)",
+        "gu": "તેણી ____ તેના ભાઈ જેટલી મજબૂત છે. (જેમ / વધુ)",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "as",
+          "gu": "તરીકે",
+          "guMT": true
+        },
+        {
+          "en": "more",
+          "gu": "વધુ",
+          "guMT": true
+        },
+        {
+          "en": "less",
+          "gu": "ઓછું",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "as",
+        "gu": "તરીકે",
+        "guMT": true
+      },
+      "hint": {
+        "en": "Equality pattern: as ... as.",
+        "gu": "સમાનતા પેટર્ન: જેમ ... તરીકે.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-07-degrees-of-comparison/q-11",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "____ harder you work, ____ better the results will be.",
+        "gu": "____ તમે વધુ મહેનત કરશો, ____ પરિણામો વધુ સારા આવશે.",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "As / as",
+          "gu": "તરીકે / તરીકે",
+          "guMT": true
+        },
+        {
+          "en": "The / the",
+          "gu": "આ / ધ",
+          "guMT": true
+        },
+        {
+          "en": "More / more",
+          "gu": "વધુ / વધુ",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "The / the",
+        "gu": "આ / ધ",
+        "guMT": true
+      },
+      "hint": {
+        "en": "Double comparative pattern: The more ... the more ...",
+        "gu": "ડબલ તુલનાત્મક પેટર્ન: વધુ ... વધુ ...",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-07-degrees-of-comparison/q-12",
+      "type": "mcq",
+      "prompt": {
+        "en": "What is the comparative form of 'far' (for distance)?",
+        "gu": "'દૂર' (અંતર માટે) નું તુલનાત્મક સ્વરૂપ શું છે?",
+        "guMT": true
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "farder",
+            "gu": "ફરદાર",
+            "guMT": true
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "further / farther",
+            "gu": "આગળ / દૂર",
+            "guMT": true
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "farest",
+            "gu": "સૌથી દૂર",
+            "guMT": true
+          }
+        }
+      ],
+      "answer": "b",
+      "solution": {
+        "en": "'far' is irregular: far → further/farther → furthest/farthest.",
+        "gu": "'દૂર' અનિયમિત છે: દૂર → આગળ/દૂર → સૌથી દૂર/દૂર.",
+        "guMT": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,551 @@
+{
+  "id": "ch-02-noun-types",
+  "slug": "noun-types",
+  "order": 2,
+  "title": {
+    "en": "Noun Types",
+    "gu": "સંજ્ઞાના પ્રકાર",
+    "guMT": true
+  },
+  "summary": {
+    "en": "The five types of nouns — common, proper, abstract, collective and material — and the distinction between countable and non-countable nouns.",
+    "gu": "પાંચ પ્રકારની સંજ્ઞાઓ — સામાન્ય, યોગ્ય, અમૂર્ત, સામૂહિક અને સામગ્રી — અને ગણવાપાત્ર અને બિન-ગણતરી સંજ્ઞાઓ વચ્ચેનો ભેદ.",
+    "guMT": true
+  },
+  "sources": [
+    "motion",
+    "anamika"
+  ],
+  "explanations": [
+    {
+      "block": "prose",
+      "id": "ch-02-noun-types/exp-1",
+      "text": {
+        "en": "A noun is the name of a person, place, thing or idea. Every noun belongs to one or more of the five types below.",
+        "gu": "સંજ્ઞા એ વ્યક્તિ, સ્થળ, વસ્તુ અથવા વિચારનું નામ છે. દરેક સંજ્ઞા નીચેના પાંચ પ્રકારોમાંથી એક અથવા વધુ સાથે સંબંધિત છે.",
+        "guMT": true
+      }
+    },
+    {
+      "block": "table",
+      "id": "ch-02-noun-types/exp-2",
+      "caption": {
+        "en": "The five types of nouns",
+        "gu": "સંજ્ઞાઓના પાંચ પ્રકાર",
+        "guMT": true
+      },
+      "headers": [
+        {
+          "key": "type",
+          "label": {
+            "en": "Type",
+            "gu": "પ્રકાર",
+            "guMT": true
+          }
+        },
+        {
+          "key": "def",
+          "label": {
+            "en": "Definition",
+            "gu": "વ્યાખ્યા",
+            "guMT": true
+          }
+        },
+        {
+          "key": "examples",
+          "label": {
+            "en": "Examples",
+            "gu": "ઉદાહરણો",
+            "guMT": true
+          }
+        }
+      ],
+      "rows": [
+        {
+          "type": "Common Noun",
+          "def": "General name shared by all of the same kind",
+          "examples": "teacher, country, city, boy, dog"
+        },
+        {
+          "type": "Proper Noun",
+          "def": "Specific name of one particular person/place/thing; always capitalised",
+          "examples": "Maulik, Canada, Ahmedabad, Monday, January"
+        },
+        {
+          "type": "Abstract Noun",
+          "def": "Name of a quality, feeling or idea that cannot be seen or touched",
+          "examples": "love, anger, truth, happiness, honesty, poverty"
+        },
+        {
+          "type": "Collective Noun",
+          "def": "Name of a group of persons or things taken together",
+          "examples": "herd, bench, batch, panel, jury, troop, army"
+        },
+        {
+          "type": "Material (Mass) Noun",
+          "def": "Name of a substance or material; usually uncountable",
+          "examples": "gold, silver, iron, milk, coffee, tea, sugar, rice"
+        }
+      ]
+    },
+    {
+      "block": "rules",
+      "id": "ch-02-noun-types/exp-3",
+      "title": {
+        "en": "Countable vs Non-countable nouns",
+        "gu": "ગણવાયોગ્ય વિ બિન-ગણતરી સંજ્ઞાઓ",
+        "guMT": true
+      },
+      "items": [
+        {
+          "text": {
+            "en": "Countable nouns can be counted (they have a singular and plural form). Common nouns and collective nouns are countable.",
+            "gu": "ગણી શકાય તેવી સંજ્ઞાઓ ગણી શકાય (તેઓ એકવચન અને બહુવચન સ્વરૂપ ધરાવે છે). સામાન્ય સંજ્ઞાઓ અને સામૂહિક સંજ્ઞાઓ ગણતરીપાત્ર છે.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "one teacher / two teachers; one team / two teams; one jury / two juries",
+              "gu": "એક શિક્ષક / બે શિક્ષકો; એક ટીમ / બે ટીમો; એક જ્યુરી / બે જ્યુરી",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "Non-countable nouns cannot be counted individually. Proper, material and abstract nouns are generally non-countable.",
+            "gu": "બિન-ગણતી સંજ્ઞાઓ વ્યક્તિગત રીતે ગણી શકાતી નથી. યોગ્ય, સામગ્રી અને અમૂર્ત સંજ્ઞાઓ સામાન્ય રીતે બિન-ગણતરીય હોય છે.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "water (not 'waters'), gold, honesty, milk, sugar",
+              "gu": "પાણી ('પાણી' નહીં), સોનું, પ્રામાણિકતા, દૂધ, ખાંડ",
+              "guMT": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "block": "examples",
+      "id": "ch-02-noun-types/exp-4",
+      "items": [
+        {
+          "en": "Common noun in a sentence: The teacher is reading in the library. (teacher = common noun)",
+          "gu": "વાક્યમાં સામાન્ય સંજ્ઞા: શિક્ષક પુસ્તકાલયમાં વાંચી રહ્યો છે. (શિક્ષક = સામાન્ય સંજ્ઞા)",
+          "guMT": true
+        },
+        {
+          "en": "Proper noun in a sentence: Maulik is a teacher in Canada. (Maulik, Canada = proper nouns)",
+          "gu": "વાક્યમાં યોગ્ય સંજ્ઞા: મૌલિક કેનેડામાં શિક્ષક છે. (મૌલિક, કેનેડા = યોગ્ય સંજ્ઞાઓ)",
+          "guMT": true
+        },
+        {
+          "en": "Abstract noun in a sentence: Honesty shown by Deval is praiseworthy. (honesty = abstract noun)",
+          "gu": "વાક્યમાં અમૂર્ત સંજ્ઞા: દેવલ દ્વારા દર્શાવેલ પ્રમાણિકતા વખાણવા યોગ્ય છે. (પ્રામાણિકતા = અમૂર્ત સંજ્ઞા)",
+          "guMT": true
+        },
+        {
+          "en": "Collective noun in a sentence: A herd of cattle is grazing in the field. (herd = collective noun)",
+          "gu": "વાક્યમાં સામૂહિક સંજ્ઞા: પશુઓનું ટોળું ખેતરમાં ચરાઈ રહ્યું છે. (ટોળું = સામૂહિક સંજ્ઞા)",
+          "guMT": true
+        },
+        {
+          "en": "Material noun in a sentence: The price of gold has gone up this year. (gold = material noun)",
+          "gu": "વાક્યમાં સામગ્રી સંજ્ઞા: આ વર્ષે સોનાના ભાવમાં વધારો થયો છે. (સોનું = સામગ્રી સંજ્ઞા)",
+          "guMT": true
+        }
+      ]
+    },
+    {
+      "block": "rules",
+      "id": "ch-02-noun-types/exp-5",
+      "title": {
+        "en": "Tips for identifying noun types",
+        "gu": "સંજ્ઞાના પ્રકારો ઓળખવા માટેની ટિપ્સ",
+        "guMT": true
+      },
+      "items": [
+        {
+          "text": {
+            "en": "Abstract nouns often name feelings (love, fear, anger), qualities (honesty, bravery, kindness) or ideas (freedom, truth, justice). You cannot point to them or touch them.",
+            "gu": "અમૂર્ત સંજ્ઞાઓ ઘણીવાર લાગણીઓ (પ્રેમ, ભય, ક્રોધ), ગુણો (પ્રામાણિકતા, બહાદુરી, દયા) અથવા વિચારો (સ્વતંત્રતા, સત્ય, ન્યાય) ને નામ આપે છે. તમે તેમને નિર્દેશ કરી શકતા નથી અથવા તેમને સ્પર્શ કરી શકતા નથી.",
+            "guMT": true
+          }
+        },
+        {
+          "text": {
+            "en": "Collective nouns group living things or objects: a herd of cows, a bench of students, a troop of soldiers, a panel of judges, a batch of candidates.",
+            "gu": "સામૂહિક સંજ્ઞાઓ જીવંત વસ્તુઓ અથવા વસ્તુઓનું જૂથ બનાવે છે: ગાયોનું ટોળું, વિદ્યાર્થીઓની બેંચ, સૈનિકોની ટુકડી, ન્યાયાધીશોની પેનલ, ઉમેદવારોની બેચ.",
+            "guMT": true
+          }
+        },
+        {
+          "text": {
+            "en": "Material nouns often appear after 'made of' or 'made from': a ring made of gold; a shirt made of cotton; a bottle made of glass.",
+            "gu": "ભૌતિક સંજ્ઞાઓ ઘણીવાર 'મેડ ઓફ' અથવા 'મેડ ઓફ' પછી દેખાય છે: સોનાની બનેલી વીંટી; કપાસનો બનેલો શર્ટ; કાચની બનેલી એક બોટલ.",
+            "guMT": true
+          }
+        },
+        {
+          "text": {
+            "en": "Proper nouns include names of people, cities, countries, rivers, months, days, languages and titles of books: Rajesh, Ahmedabad, India, Ganga, January, Sunday, English, Ramayana.",
+            "gu": "યોગ્ય સંજ્ઞાઓમાં લોકો, શહેરો, દેશો, નદીઓ, મહિનાઓ, દિવસો, ભાષાઓ અને પુસ્તકોના શીર્ષકોનો સમાવેશ થાય છે: રાજેશ, અમદાવાદ, ભારત, ગંગા, જાન્યુઆરી, રવિવાર, અંગ્રેજી, રામાયણ.",
+            "guMT": true
+          }
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "ch-02-noun-types/q-1",
+      "type": "mcq",
+      "prompt": {
+        "en": "What type of noun is 'jury'?",
+        "gu": "'જ્યુરી' કયા પ્રકારની સંજ્ઞા છે?",
+        "guMT": true
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Proper noun",
+            "gu": "યોગ્ય સંજ્ઞા",
+            "guMT": true
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Collective noun",
+            "gu": "સામૂહિક સંજ્ઞા",
+            "guMT": true
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Abstract noun",
+            "gu": "અમૂર્ત સંજ્ઞા",
+            "guMT": true
+          }
+        }
+      ],
+      "answer": "b",
+      "solution": {
+        "en": "'Jury' names a group of people — that is a collective noun.",
+        "gu": "'જ્યુરી' લોકોના જૂથને નામ આપે છે - તે એક સામૂહિક સંજ્ઞા છે.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-02-noun-types/q-2",
+      "type": "mcq",
+      "prompt": {
+        "en": "Which of the following is a proper noun?",
+        "gu": "નીચેનામાંથી કયું યોગ્ય સંજ્ઞા છે?",
+        "guMT": true
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "city",
+            "gu": "શહેર",
+            "guMT": true
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Ahmedabad",
+            "gu": "અમદાવાદ",
+            "guMT": true
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "love",
+            "gu": "પ્રેમ",
+            "guMT": true
+          }
+        }
+      ],
+      "answer": "b",
+      "solution": {
+        "en": "'Ahmedabad' is the specific name of a particular city — a proper noun.",
+        "gu": "'અમદાવાદ' એ ચોક્કસ શહેરનું વિશિષ્ટ નામ છે - એક યોગ્ય સંજ્ઞા.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-02-noun-types/q-3",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "'Gold' is a ____ noun because it names a substance.",
+        "gu": "'ગોલ્ડ' એ ____ નામ છે કારણ કે તે પદાર્થનું નામ આપે છે.",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "common",
+          "gu": "સામાન્ય",
+          "guMT": true
+        },
+        {
+          "en": "collective",
+          "gu": "સામૂહિક",
+          "guMT": true
+        },
+        {
+          "en": "material",
+          "gu": "સામગ્રી",
+          "guMT": true
+        },
+        {
+          "en": "abstract",
+          "gu": "અમૂર્ત",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "material",
+        "gu": "સામગ્રી",
+        "guMT": true
+      },
+      "hint": {
+        "en": "Material nouns name substances or materials.",
+        "gu": "સામગ્રી સંજ્ઞાઓ નામ પદાર્થો અથવા સામગ્રી.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-02-noun-types/q-4",
+      "type": "mcq",
+      "prompt": {
+        "en": "Which noun is non-countable?",
+        "gu": "કઈ સંજ્ઞા બિન-ગણતરી છે?",
+        "guMT": true
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "teacher",
+            "gu": "શિક્ષક",
+            "guMT": true
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "milk",
+            "gu": "દૂધ",
+            "guMT": true
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "army",
+            "gu": "લશ્કર",
+            "guMT": true
+          }
+        }
+      ],
+      "answer": "b",
+      "solution": {
+        "en": "'Milk' is a material noun and cannot be counted (we can't say 'two milks').",
+        "gu": "'દૂધ' એ ભૌતિક સંજ્ઞા છે અને તેની ગણતરી કરી શકાતી નથી (આપણે 'બે દૂધ' કહી શકતા નથી).",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-02-noun-types/q-5",
+      "type": "translation",
+      "direction": "en_to_gu",
+      "prompt": {
+        "en": "Maulik is a teacher in Canada.",
+        "gu": "મૌલિક કેનેડામાં શિક્ષક છે.",
+        "guMT": true
+      },
+      "answer": {
+        "en": "Maulik is a teacher in Canada.",
+        "gu": "મૌલિક કેનેડામાં શિક્ષક છે.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-02-noun-types/q-6",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "'Honesty is the best policy.' — The word 'honesty' is a(n) ____ noun.",
+        "gu": "'પ્રમાણિકતા શ્રેષ્ઠ નીતિ છે.' — 'પ્રામાણિકતા' શબ્દ એ (n) ____ સંજ્ઞા છે.",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "common",
+          "gu": "સામાન્ય",
+          "guMT": true
+        },
+        {
+          "en": "abstract",
+          "gu": "અમૂર્ત",
+          "guMT": true
+        },
+        {
+          "en": "collective",
+          "gu": "સામૂહિક",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "abstract",
+        "gu": "અમૂર્ત",
+        "guMT": true
+      },
+      "hint": {
+        "en": "'Honesty' is a quality — you cannot see or touch it.",
+        "gu": "'પ્રામાણિકતા' એક ગુણવત્તા છે - તમે તેને જોઈ અથવા સ્પર્શ કરી શકતા નથી.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-02-noun-types/q-7",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "'A ____ of soldiers is marching.' — The correct collective noun here is ____.",
+        "gu": "'સૈનિકોનો એક ____ કૂચ કરી રહ્યો છે.' — અહીં સાચી સામૂહિક સંજ્ઞા ____ છે.",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "troop",
+          "gu": "ટુકડી",
+          "guMT": true
+        },
+        {
+          "en": "herd",
+          "gu": "ટોળું",
+          "guMT": true
+        },
+        {
+          "en": "panel",
+          "gu": "પેનલ",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "troop",
+        "gu": "ટુકડી",
+        "guMT": true
+      },
+      "hint": {
+        "en": "A 'troop' is the collective noun for soldiers.",
+        "gu": "'સૈનિક' એ સૈનિકો માટે સામૂહિક સંજ્ઞા છે.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-02-noun-types/q-8",
+      "type": "mcq",
+      "prompt": {
+        "en": "Which of these is an abstract noun?",
+        "gu": "આમાંથી કઈ અમૂર્ત સંજ્ઞા છે?",
+        "guMT": true
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "river",
+            "gu": "નદી",
+            "guMT": true
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "freedom",
+            "gu": "સ્વતંત્રતા",
+            "guMT": true
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "iron",
+            "gu": "લોખંડ",
+            "guMT": true
+          }
+        }
+      ],
+      "answer": "b",
+      "solution": {
+        "en": "'Freedom' is a concept that cannot be seen or touched — it is an abstract noun.",
+        "gu": "'ફ્રીડમ' એક એવો ખ્યાલ છે જેને જોઈ કે સ્પર્શી શકાતો નથી - તે એક અમૂર્ત સંજ્ઞા છે.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-02-noun-types/q-9",
+      "type": "mcq",
+      "prompt": {
+        "en": "In the sentence 'The Ganga flows through India', which word is a proper noun?",
+        "gu": "'ભારતમાંથી ગંગા વહે છે' વાક્યમાં કયો શબ્દ યોગ્ય સંજ્ઞા છે?",
+        "guMT": true
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "flows",
+            "gu": "વહે છે",
+            "guMT": true
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Ganga",
+            "gu": "ગંગા",
+            "guMT": true
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "through",
+            "gu": "દ્વારા",
+            "guMT": true
+          }
+        }
+      ],
+      "answer": "b",
+      "solution": {
+        "en": "'Ganga' is the specific name of a river — a proper noun. Proper nouns are always capitalised.",
+        "gu": "'ગંગા' એ નદીનું વિશિષ્ટ નામ છે - એક યોગ્ય સંજ્ઞા. યોગ્ય સંજ્ઞાઓ હંમેશા કેપિટલાઇઝ્ડ હોય છે.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-02-noun-types/q-10",
+      "type": "translation",
+      "direction": "en_to_gu",
+      "prompt": {
+        "en": "The honesty shown by Deval is praiseworthy.",
+        "gu": "દેવલ દ્વારા દર્શાવેલ પ્રમાણિકતા પ્રશંસનીય છે.",
+        "guMT": true
+      },
+      "answer": {
+        "en": "The honesty shown by Deval is praiseworthy.",
+        "gu": "દેવલ દ્વારા દર્શાવેલ પ્રમાણિકતા પ્રશંસનીય છે.",
+        "guMT": true
+      }
+    }
+  ]
+}
