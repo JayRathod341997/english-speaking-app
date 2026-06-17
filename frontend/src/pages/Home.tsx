@@ -14,14 +14,11 @@ import {
   grammarApi,
   idiomsApi,
   progressApi,
-  scenariosApi,
   vocabularyApi,
 } from '../services/api';
 import type {
-  DailyChallenge,
   GrammarChapterSummary,
   Idiom,
-  Scenario,
   VocabWord,
 } from '../types';
 import { getOrPickDaily, hashSeed, pickDaily, todayKey } from '../utils/daily';
@@ -31,8 +28,6 @@ const WORDS_PER_DAY = 5;
 const GRAMMAR_PER_DAY = 2;
 
 export default function Home() {
-  const [scenarios, setScenarios] = useState<Scenario[]>([]);
-  const [challenge, setChallenge] = useState<DailyChallenge | null>(null);
   const [streak, setStreak] = useState(0);
   const [idioms, setIdioms] = useState<Idiom[]>([]);
   const [allWords, setAllWords] = useState<VocabWord[]>([]);
@@ -48,8 +43,6 @@ export default function Home() {
   useEffect(() => {
     let active = true;
     Promise.all([
-      scenariosApi.list(),
-      progressApi.dailyChallenge(),
       progressApi.get(),
       idiomsApi.list(),
       grammarApi.index(),
@@ -60,10 +53,8 @@ export default function Home() {
           .then(details => ({ map, words: details.flatMap(d => d.words) }));
       }),
     ])
-      .then(([s, c, p, lib, gram, vocab]) => {
+      .then(([p, lib, gram, vocab]) => {
         if (!active) return;
-        setScenarios(Array.isArray(s) ? s : []);
-        setChallenge(c);
         setStreak(p.current_streak);
         setIdioms(lib.idioms ?? []);
         setGrammarChapters(gram.chapters ?? []);
@@ -74,10 +65,6 @@ export default function Home() {
       .finally(() => { if (active) setLoading(false); });
     return () => { active = false; };
   }, []);
-
-  const challengeScenario = challenge
-    ? (scenarios.find(s => s.id === challenge.scenario_id) ?? null)
-    : null;
 
   const seed = useMemo(() => hashSeed(todayKey()), []);
   const learnedIdiomSet = useMemo(() => new Set(progress.learnedIdioms ?? []), [progress.learnedIdioms]);
@@ -144,7 +131,6 @@ export default function Home() {
   if (isDesktop) {
     return (
       <HomeDesktop
-        challenge={challenge}
         streak={streak}
         todaysIdioms={todaysIdioms}
         todaysWords={todaysWords}
@@ -156,7 +142,6 @@ export default function Home() {
         toggleGrammarComplete={toggleGrammarComplete}
         setWord={setWord}
         wordKey={wordKey}
-        challengeScenario={challengeScenario}
       />
     );
   }
@@ -216,38 +201,6 @@ export default function Home() {
           </p>
         </div>
 
-        {/* Daily Challenge */}
-        {challenge && (
-          <div
-            className="rounded-[18px] p-5 mb-6 relative overflow-hidden"
-            style={{ background: 'linear-gradient(135deg, var(--teal) 0%, #155f53 100%)' }}
-          >
-            <p className="text-[10.5px] font-bold uppercase tracking-widest mb-1 opacity-80 text-white">
-              Today's Challenge
-            </p>
-            <h3 className="font-serif text-xl font-semibold text-white mt-1 mb-1 leading-snug">
-              {challengeScenario?.title ?? 'Daily Practice'}
-            </h3>
-            <p className="text-[13px] text-white opacity-90 leading-relaxed mb-3">
-              {challenge.prompt}
-            </p>
-            <div className="flex flex-wrap gap-1.5 mb-4">
-              {challenge.target_phrases.map(p => (
-                <span key={p} className="text-[11px] px-2.5 py-1 rounded-full font-medium text-white"
-                  style={{ background: 'rgba(255,255,255,0.18)' }}>
-                  "{p}"
-                </span>
-              ))}
-            </div>
-            <button
-              onClick={() => challengeScenario && navigate(`/practice/${challengeScenario.id}`, { state: { scenario: challengeScenario } })}
-              className="relative z-10 text-sm font-bold px-4 py-2.5 rounded-xl transition-transform active:scale-95"
-              style={{ background: 'var(--card)', color: 'var(--teal)' }}
-            >
-              Start speaking →
-            </button>
-          </div>
-        )}
 
         {loading ? (
           <div className="text-center py-16 text-sm" style={{ color: 'var(--ink-soft)' }}>

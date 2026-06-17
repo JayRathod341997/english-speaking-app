@@ -3,10 +3,9 @@ import DesktopLayout from '../components/DesktopLayout';
 import Flashcard from '../components/Flashcard';
 import IdiomCard from '../components/IdiomCard';
 import type { LocalProgress } from '../hooks/useLocalProgress';
-import type { DailyChallenge, GrammarChapterSummary, Idiom, Scenario, VocabWord } from '../types';
+import type { GrammarChapterSummary, Idiom, VocabWord } from '../types';
 
 interface HomeDesktopProps {
-  challenge: DailyChallenge | null;
   streak: number;
   todaysIdioms: Idiom[];
   todaysWords: VocabWord[];
@@ -18,11 +17,9 @@ interface HomeDesktopProps {
   toggleGrammarComplete: (slug: string) => void;
   setWord: (key: string, data: Partial<{ learned: boolean; spoken: boolean; bookmarked: boolean }>) => void;
   wordKey: (w: VocabWord) => string;
-  challengeScenario: Scenario | null;
 }
 
 export default function HomeDesktop({
-  challenge,
   streak,
   todaysIdioms,
   todaysWords,
@@ -34,7 +31,6 @@ export default function HomeDesktop({
   toggleGrammarComplete,
   setWord,
   wordKey,
-  challengeScenario,
 }: HomeDesktopProps) {
   const navigate = useNavigate();
   const idiomBookmarkSet = new Set<number>(progress.idiomBookmarks ?? []);
@@ -52,48 +48,6 @@ export default function HomeDesktop({
   return (
     <DesktopLayout activeTab="home" streak={streak}>
       <div className="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop py-stack-lg flex flex-col gap-stack-lg">
-        {/* Hero Section: Today's Challenge */}
-        {challenge && (
-          <section className="bg-primary text-on-primary rounded-xl p-stack-md md:p-stack-lg flex flex-col-reverse md:flex-row gap-gutter overflow-hidden relative isolate">
-            <div className="absolute inset-0 opacity-10 pointer-events-none" style={{ backgroundImage: 'radial-gradient(circle at 100% 0%, #ffffff 0%, transparent 50%)' }}></div>
-            <div className="flex-1 flex flex-col justify-center relative z-10">
-              <div className="inline-flex items-center gap-2 bg-primary-fixed/20 text-primary-fixed px-3 py-1 rounded-full font-label-sm text-label-sm w-fit mb-stack-sm">
-                <span className="material-symbols-outlined text-sm">today</span>
-                Daily Lesson
-              </div>
-              <h1 className="font-display-lg text-display-lg mb-stack-sm leading-tight font-serif">
-                {challengeScenario?.title ?? 'Mastering Small Talk'}
-              </h1>
-              <p className="font-body-lg text-body-lg text-primary-fixed-dim mb-stack-md max-w-md leading-relaxed">
-                {challenge.prompt}
-              </p>
-              <div className="flex flex-wrap gap-2 mb-stack-md">
-                {challenge.target_phrases.map((phrase) => (
-                  <span 
-                    key={phrase} 
-                    className="text-[12px] px-3 py-1 rounded-full font-medium text-white bg-white/10 border border-white/10"
-                  >
-                    "{phrase}"
-                  </span>
-                ))}
-              </div>
-              <button 
-                onClick={() => challengeScenario && navigate(`/practice/${challengeScenario.id}`, { state: { scenario: challengeScenario } })}
-                className="bg-secondary text-on-secondary px-8 py-3.5 rounded-full font-label-sm text-label-sm w-fit uppercase tracking-wider hover:bg-secondary-container transition-all active:scale-95 shadow-sm cursor-pointer font-bold"
-              >
-                Begin Challenge
-              </button>
-            </div>
-            <div className="w-full md:w-5/12 h-64 md:h-auto rounded-lg overflow-hidden relative z-10 shadow-sm border border-white/10">
-              <img 
-                alt="Today's challenge graphic" 
-                className="w-full h-full object-cover" 
-                src="/meeting_new_colleague.png"
-              />
-            </div>
-          </section>
-        )}
-
         {/* Bento/Grid Layout for Content */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-start">
           {/* Main 8-column layout (Idioms and Words) */}
