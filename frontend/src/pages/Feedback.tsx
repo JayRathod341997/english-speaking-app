@@ -215,7 +215,7 @@ export default function Feedback() {
             </button>
           )}
           <button
-            onClick={() => navigate('/')}
+            onClick={() => navigate('/conversations')}
             className="w-full py-3 rounded-[14px] font-semibold text-sm"
             style={{ border: '1.5px solid var(--line)', color: 'var(--ink-soft)', background: 'var(--paper)' }}
           >

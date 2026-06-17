@@ -136,6 +136,248 @@
           ]
         }
       ]
+    },
+    {
+      "block": "rules",
+      "id": "ch-16-modal-verbs/exp-4",
+      "title": {
+        "en": "Can — ability and permission",
+        "gu": "કરી શકો છો - ક્ષમતા અને પરવાનગી",
+        "guMT": true
+      },
+      "items": [
+        {
+          "text": {
+            "en": "CAN for present ability — I am able to do something.",
+            "gu": "વર્તમાન ક્ષમતા માટે CAN - હું કંઈક કરવા સક્ષમ છું.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "She can speak three languages.",
+              "gu": "તે ત્રણ ભાષા બોલી શકે છે.",
+              "guMT": true
+            },
+            {
+              "en": "My brother can swim across the river.",
+              "gu": "મારો ભાઈ નદી પાર કરી શકે છે.",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "CAN for informal permission — asking or giving.",
+            "gu": "અનૌપચારિક પરવાનગી માટે CAN - પૂછવું અથવા આપવું.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "Can I use your pen?",
+              "gu": "શું હું તમારી પેનનો ઉપયોગ કરી શકું?",
+              "guMT": true
+            },
+            {
+              "en": "You can watch TV after finishing your homework.",
+              "gu": "તમારું હોમવર્ક પૂરું કર્યા પછી તમે ટીવી જોઈ શકો છો.",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "CANNOT / CAN'T for inability.",
+            "gu": "અસમર્થતા માટે કરી શકતા નથી / કરી શકતા નથી.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "I cannot solve this problem on my own.",
+              "gu": "હું મારા પોતાના પર આ સમસ્યા હલ કરી શકતો નથી.",
+              "guMT": true
+            },
+            {
+              "en": "He can't drive a car — he has no licence.",
+              "gu": "તે કાર ચલાવી શકતો નથી - તેની પાસે કોઈ લાઇસન્સ નથી.",
+              "guMT": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "block": "rules",
+      "id": "ch-16-modal-verbs/exp-5",
+      "title": {
+        "en": "May, Could, Might, Would — nuanced usage",
+        "gu": "May, Could, Might, Would — સૂક્ષ્મ ઉપયોગ",
+        "guMT": true
+      },
+      "items": [
+        {
+          "text": {
+            "en": "MAY — polite permission; probability (about 50% chance).",
+            "gu": "મે - નમ્ર પરવાનગી; સંભાવના (લગભગ 50% તક).",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "May I come in, sir? (polite permission)",
+              "gu": "શું હું અંદર આવી શકું, સર? (નમ્ર પરવાનગી)",
+              "guMT": true
+            },
+            {
+              "en": "It may rain this evening. (possibility)",
+              "gu": "આજે સાંજે વરસાદ પડી શકે છે. (શક્યતા)",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "COULD — past ability; polite request; remote possibility.",
+            "gu": "કરી શકે છે - ભૂતકાળની ક્ષમતા; નમ્ર વિનંતી; દૂરસ્થ શક્યતા.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "I could run very fast when I was young. (past ability)",
+              "gu": "હું નાનો હતો ત્યારે ખૂબ જ ઝડપથી દોડી શકતો હતો. (ભૂતકાળની ક્ષમતા)",
+              "guMT": true
+            },
+            {
+              "en": "Could you please hold this bag for a moment? (polite request)",
+              "gu": "શું તમે કૃપા કરીને આ બેગને થોડીવાર માટે પકડી શકશો? (નમ્ર વિનંતી)",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "MIGHT — weaker possibility than 'may' (less than 50% chance).",
+            "gu": "MIGHT — 'મે' કરતાં નબળી શક્યતા (50% કરતાં ઓછી તક).",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "He is ill today. He might not come to school.",
+              "gu": "તે આજે બીમાર છે. તે કદાચ શાળાએ ન આવે.",
+              "guMT": true
+            },
+            {
+              "en": "I might visit you on Sunday if I am free.",
+              "gu": "જો હું ફ્રી હોઉં તો હું રવિવારે તમારી મુલાકાત લઈ શકું છું.",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "WOULD — polite request; past habitual action; 'would like' expresses want.",
+            "gu": "કરશે — નમ્ર વિનંતી; ભૂતકાળની રીઢો ક્રિયા; 'ગમશે' ઈચ્છા વ્યક્ત કરે છે.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "Would you mind closing the window? (polite request)",
+              "gu": "શું તમને બારી બંધ કરવામાં વાંધો છે? (નમ્ર વિનંતી)",
+              "guMT": true
+            },
+            {
+              "en": "We would go to the temple every Friday. (past habit)",
+              "gu": "અમે દર શુક્રવારે મંદિરે જતા. (ભૂતકાળની આદત)",
+              "guMT": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "block": "rules",
+      "id": "ch-16-modal-verbs/exp-6",
+      "title": {
+        "en": "Should, Must, Ought to, Used to",
+        "gu": "જોઈએ, ફરજિયાત, જોઈએ, વપરાયેલ",
+        "guMT": true
+      },
+      "items": [
+        {
+          "text": {
+            "en": "SHOULD — advice or moral duty (softer than 'must').",
+            "gu": "જોઈએ - સલાહ અથવા નૈતિક ફરજ ('જરૂરી' કરતાં નરમ).",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "You should brush your teeth twice a day.",
+              "gu": "તમારે દિવસમાં બે વાર તમારા દાંત સાફ કરવા જોઈએ.",
+              "guMT": true
+            },
+            {
+              "en": "We should be kind to animals.",
+              "gu": "આપણે પ્રાણીઓ પ્રત્યે દયાળુ બનવું જોઈએ.",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "MUST — strong obligation or logical certainty.",
+            "gu": "આવશ્યક છે - મજબૂત જવાબદારી અથવા તાર્કિક નિશ્ચિતતા.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "You must submit your form before Friday. (obligation)",
+              "gu": "તમારે શુક્રવાર પહેલા તમારું ફોર્મ સબમિટ કરવું પડશે. (જવાબદારી)",
+              "guMT": true
+            },
+            {
+              "en": "He has been working all day — he must be tired. (logical certainty)",
+              "gu": "તે આખો દિવસ કામ કરે છે - તે થાકેલા હોવા જોઈએ. (તાર્કિક નિશ્ચિતતા)",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "OUGHT TO — duty or moral obligation, slightly stronger than 'should'.",
+            "gu": "જોઈએ - ફરજ અથવા નૈતિક જવાબદારી, 'જોઈએ' કરતાં સહેજ વધુ મજબૂત.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "We ought to help people who are in need.",
+              "gu": "આપણે જરૂરિયાતમંદ લોકોને મદદ કરવી જોઈએ.",
+              "guMT": true
+            },
+            {
+              "en": "Children ought to respect their elders.",
+              "gu": "બાળકોએ તેમના વડીલોનું સન્માન કરવું જોઈએ.",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "USED TO — a habit or state that was regular in the past but no longer continues.",
+            "gu": "વપરાયેલ - એક આદત અથવા સ્થિતિ જે ભૂતકાળમાં નિયમિત હતી પરંતુ હવે ચાલુ રહેતી નથી.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "She used to play hockey during school days.",
+              "gu": "તે શાળાના દિવસોમાં હોકી રમતી હતી.",
+              "guMT": true
+            },
+            {
+              "en": "There used to be a pond here — now it is a park.",
+              "gu": "અહીં એક તળાવ હતું - હવે તે પાર્ક છે.",
+              "guMT": true
+            }
+          ]
+        }
+      ]
     }
   ],
   "practice": [
@@ -336,6 +578,206 @@
       "answer": {
         "en": "May I use your phone, please?",
         "gu": "કૃપા કરી હું તમારો ફોન વાપરી શકું?",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-16-modal-verbs/q-7",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "It is getting dark. It ____ rain soon.",
+        "gu": "અંધારું થઈ રહ્યું છે. ટૂંક સમયમાં ____ વરસાદ પડશે.",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "must",
+          "gu": "જ જોઈએ",
+          "guMT": true
+        },
+        {
+          "en": "may",
+          "gu": "શકે છે",
+          "guMT": true
+        },
+        {
+          "en": "used to",
+          "gu": "માટે વપરાય છે",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "may",
+        "gu": "શકે છે",
+        "guMT": true
+      },
+      "hint": {
+        "en": "'May' expresses a 50% possibility about a future event.",
+        "gu": "'મે' ભવિષ્યની ઘટના વિશે 50% શક્યતા વ્યક્ત કરે છે.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-16-modal-verbs/q-8",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "He ____ play chess very well when he was in school.",
+        "gu": "જ્યારે તે શાળામાં હતો ત્યારે તે ____ ખૂબ સારી રીતે ચેસ રમે છે.",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "can",
+          "gu": "કરી શકો છો",
+          "guMT": true
+        },
+        {
+          "en": "could",
+          "gu": "શકે છે",
+          "guMT": true
+        },
+        {
+          "en": "may",
+          "gu": "શકે છે",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "could",
+        "gu": "શકે છે",
+        "guMT": true
+      },
+      "hint": {
+        "en": "'Could' is the past form of 'can' and is used for past ability.",
+        "gu": "'Could' એ 'can' નું ભૂતકાળનું સ્વરૂપ છે અને ભૂતકાળની ક્ષમતા માટે વપરાય છે.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-16-modal-verbs/q-9",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "You ____ visit your grandparents more often.",
+        "gu": "તમે ____ તમારા દાદા દાદીની વધુ વાર મુલાકાત લો છો.",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "must",
+          "gu": "જ જોઈએ",
+          "guMT": true
+        },
+        {
+          "en": "ought to",
+          "gu": "જોઈએ",
+          "guMT": true
+        },
+        {
+          "en": "could",
+          "gu": "શકે છે",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "ought to",
+        "gu": "જોઈએ",
+        "guMT": true
+      },
+      "hint": {
+        "en": "'Ought to' expresses moral duty or what is right to do.",
+        "gu": "'ઓફ ટુ' નૈતિક ફરજ અથવા શું કરવું યોગ્ય છે તે વ્યક્ત કરે છે.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-16-modal-verbs/q-10",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "I ____ go for a morning walk every day when I was young.",
+        "gu": "જ્યારે હું નાનો હતો ત્યારે હું દરરોજ મોર્નિંગ વોક માટે જઉં છું.",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "used to",
+          "gu": "માટે વપરાય છે",
+          "guMT": true
+        },
+        {
+          "en": "would",
+          "gu": "કરશે",
+          "guMT": true
+        },
+        {
+          "en": "should",
+          "gu": "જોઈએ",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "used to",
+        "gu": "માટે વપરાય છે",
+        "guMT": true
+      },
+      "hint": {
+        "en": "'Used to' describes a past habit that no longer continues.",
+        "gu": "'Used to' એ ભૂતકાળની આદતનું વર્ણન કરે છે જે હવે ચાલુ રહેતી નથી.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-16-modal-verbs/q-11",
+      "type": "mcq",
+      "prompt": {
+        "en": "Which modal expresses logical certainty about a present situation?",
+        "gu": "કયું મોડલ વર્તમાન પરિસ્થિતિ વિશે તાર્કિક નિશ્ચિતતા વ્યક્ત કરે છે?",
+        "guMT": true
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "should",
+            "gu": "જોઈએ",
+            "guMT": true
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "might",
+            "gu": "શકે છે",
+            "guMT": true
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "must",
+            "gu": "જ જોઈએ",
+            "guMT": true
+          }
+        }
+      ],
+      "answer": "c",
+      "solution": {
+        "en": "'Must' expresses logical certainty: 'He has worked all day — he must be tired.' 'Should' gives advice; 'might' gives weak possibility.",
+        "gu": "'મસ્ટ' તાર્કિક નિશ્ચિતતા વ્યક્ત કરે છે: 'તેણે આખો દિવસ કામ કર્યું છે - તે થાકેલા હોવા જોઈએ.' 'જોઈએ' સલાહ આપે છે; 'might' નબળી શક્યતા આપે છે.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-16-modal-verbs/q-12",
+      "type": "translation",
+      "direction": "en_to_gu",
+      "prompt": {
+        "en": "Could you please help me with this bag?",
+        "gu": "શું તમે કૃપા કરીને મને આ બેગમાં મદદ કરી શકશો?",
+        "guMT": true
+      },
+      "answer": {
+        "en": "Could you please help me with this bag?",
+        "gu": "શું તમે કૃપા કરીને મને આ બેગમાં મદદ કરી શકશો?",
         "guMT": true
       }
     }

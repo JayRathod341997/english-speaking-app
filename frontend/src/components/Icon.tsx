@@ -82,3 +82,6 @@ export const SearchIcon = base(<><circle cx="11" cy="11" r="7" /><line x1="21" y
 
 // "T" text-formatting glyph — reads as grammar/writing.
 export const GrammarIcon = base(<><path d="M4 7V5h16v2" /><path d="M9 19h6" /><path d="M12 5v14" /></>);
+
+export const PlusIcon = base(<><line x1="12" y1="5" x2="12" y2="19" /><line x1="5" y1="12" x2="19" y2="12" /></>);
+export const MinusIcon = base(<line x1="5" y1="12" x2="19" y2="12" />);

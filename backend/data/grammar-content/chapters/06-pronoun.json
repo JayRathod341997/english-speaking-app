@@ -261,6 +261,73 @@
           "guMT": true
         }
       ]
+    },
+    {
+      "block": "rules",
+      "id": "ch-06-pronoun/exp-6",
+      "title": {
+        "en": "Pronoun usage tips",
+        "gu": "સર્વનામ ઉપયોગ ટિપ્સ",
+        "guMT": true
+      },
+      "items": [
+        {
+          "text": {
+            "en": "Possessive adjective (my/your/his/her/its/our/their) always comes before a noun.",
+            "gu": "માલિકી વિશેષણ (મારું/તમારું/તેની/તેણી/તેનું/આપણું/તેર) હંમેશા સંજ્ઞા પહેલા આવે છે.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "My shirt is red. (adjective — comes before 'shirt') | Her book is on the table.",
+              "gu": "મારો શર્ટ લાલ છે. (વિશેષણ - 'શર્ટ' પહેલાં આવે છે) | તેણીનું પુસ્તક ટેબલ પર છે.",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "Possessive pronoun (mine/yours/his/hers/ours/theirs) stands alone — no noun follows it.",
+            "gu": "માલિકીનું સર્વનામ (મારું/તમારું/તેનું/તેનું/આપણું/તેમનું) એકલા રહે છે — કોઈ સંજ્ઞા તેને અનુસરતું નથી.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "His shirt is blue and mine is red. ('mine' stands alone, replaces 'my shirt')",
+              "gu": "તેનો શર્ટ વાદળી છે અને મારો લાલ છે. ('મારું' એકલું રહે છે, 'મારું શર્ટ' બદલે છે)",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "Reflexive pronoun used for emphasis: the subject performed the action without any help.",
+            "gu": "ભાર આપવા માટે વપરાયેલ પ્રતિબિંબિત સર્વનામ: વિષયે કોઈપણ મદદ વગર ક્રિયા કરી.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "She cooked the whole meal herself. | Boys, finish the task yourselves!",
+              "gu": "તેણીએ આખું ભોજન જાતે બનાવ્યું. | છોકરાઓ, કાર્ય જાતે પૂર્ણ કરો!",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "When a pronoun is linked by 'and', use the subject form (I/we/he/she/they) if the combined phrase is the subject, and the object form (me/us/him/her/them) if it is the object or comes after a preposition.",
+            "gu": "જ્યારે સર્વનામ 'અને' દ્વારા જોડવામાં આવે છે, તો વિષય સ્વરૂપ (I/we/he/she/they) નો ઉપયોગ કરો જો સંયુક્ત વાક્ય વિષય છે, અને જો તે પદાર્થ હોય અથવા પૂર્વનિર્ધારણ પછી આવે તો પદાર્થ સ્વરૂપ (me/us/hi/her/them) નો ઉપયોગ કરો.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "He and I went to school. (subject) | The gift is for you and me. (after preposition 'for')",
+              "gu": "તે અને હું શાળાએ ગયા. (વિષય) | ભેટ તમારા અને મારા માટે છે. ('માટે' ઉપસર્ગ પછી)",
+              "guMT": true
+            }
+          ]
+        }
+      ]
     }
   ],
   "practice": [
@@ -509,12 +576,196 @@
       "type": "translation",
       "direction": "gu_to_en",
       "prompt": {
-        "en": "",
-        "gu": ""
+        "en": "Translate into English: આપણું એક જીવંત રાજ્ય છે.",
+        "gu": "આ વાક્ય અંગ્રેજીમાં ભાષાંતર કરો: આપણું એક જીવંત રાજ્ય છે.",
+        "guMT": false
       },
       "answer": {
         "en": "Ours is a vibrant state.",
         "gu": "આપણું એક જીવંત રાજ્ય છે.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-06-pronoun/q-8",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "The red bag is ____. (mine/my)",
+        "gu": "લાલ બેગ ____ છે. (મારું/મારું)",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "mine",
+          "gu": "ખાણ",
+          "guMT": true
+        },
+        {
+          "en": "my",
+          "gu": "મારા",
+          "guMT": true
+        },
+        {
+          "en": "myself",
+          "gu": "મારી જાતને",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "mine",
+        "gu": "ખાણ",
+        "guMT": true
+      },
+      "hint": {
+        "en": "No noun follows — use the possessive pronoun (mine), not the adjective (my).",
+        "gu": "કોઈ સંજ્ઞા અનુસરતું નથી — સ્વત્વિક સર્વનામ (મારું) નો ઉપયોગ કરો, વિશેષણ (મારું) નહીં.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-06-pronoun/q-9",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "She painted the whole picture ____. (herself/himself)",
+        "gu": "તેણીએ આખું ચિત્ર ____ દોર્યું. (પોતે/પોતે)",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "himself",
+          "gu": "પોતે",
+          "guMT": true
+        },
+        {
+          "en": "herself",
+          "gu": "પોતે",
+          "guMT": true
+        },
+        {
+          "en": "yourselves",
+          "gu": "તમારી જાતને",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "herself",
+        "gu": "પોતે",
+        "guMT": true
+      },
+      "hint": {
+        "en": "Reflexive pronoun must match the subject: 'she' → 'herself'.",
+        "gu": "રીફ્લેક્સિવ સર્વનામ વિષય સાથે મેળ ખાતું હોવું જોઈએ: 'તેણી' → 'પોતે'.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-06-pronoun/q-10",
+      "type": "mcq",
+      "prompt": {
+        "en": "____ wrote this letter?",
+        "gu": "____આ પત્ર લખ્યો?",
+        "guMT": true
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Who",
+            "gu": "WHO",
+            "guMT": true
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Whom",
+            "gu": "કોને",
+            "guMT": true
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Whose",
+            "gu": "જેની",
+            "guMT": true
+          }
+        }
+      ],
+      "answer": "a",
+      "solution": {
+        "en": "'Who' is the subject of the verb 'wrote', so the subject form is needed.",
+        "gu": "'કોણ' ક્રિયાપદનો વિષય છે 'લખ્યું', તેથી વિષય સ્વરૂપની જરૂર છે.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-06-pronoun/q-11",
+      "type": "mcq",
+      "prompt": {
+        "en": "This book belongs to ____ . (he / him)",
+        "gu": "આ પુસ્તક ____ નું છે. (તે/તે)",
+        "guMT": true
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "he",
+            "gu": "તે",
+            "guMT": true
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "him",
+            "gu": "તેને",
+            "guMT": true
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "his",
+            "gu": "તેના",
+            "guMT": true
+          }
+        }
+      ],
+      "answer": "b",
+      "solution": {
+        "en": "After the preposition 'to', use the object form 'him'.",
+        "gu": "પૂર્વનિર્ધારણ 'to' પછી, પદાર્થ સ્વરૂપ 'hi' નો ઉપયોગ કરો.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-06-pronoun/q-12",
+      "type": "transformation",
+      "transform": "pronoun_subject_to_object",
+      "given": "subject",
+      "ask": "object",
+      "forms": {
+        "subject": {
+          "en": "The teacher praised [he].",
+          "gu": "શિક્ષકે [તેની] પ્રશંસા કરી.",
+          "guMT": true
+        },
+        "object": {
+          "en": "The teacher praised him.",
+          "gu": "શિક્ષકે તેની પ્રશંસા કરી.",
+          "guMT": true
+        }
+      },
+      "answer": {
+        "en": "The teacher praised him.",
+        "gu": "શિક્ષકે તેની પ્રશંસા કરી.",
+        "guMT": true
+      },
+      "solution": {
+        "en": "'He' is the object of 'praised', so it becomes 'him'.",
+        "gu": "'તે' એ 'વખાણ'નો પદાર્થ છે, તેથી તે 'તેમ' થઈ જાય છે.",
         "guMT": true
       }
     }

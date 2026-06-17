@@ -4,6 +4,7 @@ import BottomNav from '../components/BottomNav';
 import PageHeader from '../components/PageHeader';
 import PronounceButton from '../components/PronounceButton';
 import ScrollToTop from '../components/ScrollToTop';
+import { useAutoHide } from '../hooks/useAutoHide';
 import { vocabularyApi } from '../services/api';
 import type { MiniDialogue } from '../types';
 
@@ -15,6 +16,7 @@ export default function ConversationPractice() {
   const [loading, setLoading] = useState(valid);
   const [notFound, setNotFound] = useState(!valid);
   const scrollRef = useRef<HTMLDivElement>(null);
+  const { visible: uiVisible } = useAutoHide(scrollRef);
 
   useEffect(() => {
     if (!valid) return;
@@ -33,7 +35,7 @@ export default function ConversationPractice() {
 
   return (
     <div className="relative flex flex-col h-[100dvh] overflow-x-hidden w-full" style={{ background: 'var(--paper)' }}>
-      <PageHeader title={dialogue?.title ?? 'Practice'} subtitle={category} back="/conversations" />
+      <PageHeader title={dialogue?.title ?? 'Practice'} subtitle={category} back="/conversations" visible={uiVisible} />
 
       {loading ? (
         <div className="flex-1 flex items-center justify-center text-sm" style={{ color: 'var(--ink-soft)' }}>
@@ -90,7 +92,7 @@ export default function ConversationPractice() {
       )}
 
       {!loading && !notFound && dialogue && <ScrollToTop targetRef={scrollRef} />}
-      <BottomNav active="conversations" />
+      <BottomNav active="conversations" visible={uiVisible} />
     </div>
   );
 }

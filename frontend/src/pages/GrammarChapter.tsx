@@ -8,10 +8,14 @@ import { CheckIcon } from '../components/Icon';
 import PageHeader from '../components/PageHeader';
 import PracticeItem from '../components/PracticeItem';
 import ScrollToTop from '../components/ScrollToTop';
+import { useAutoHide } from '../hooks/useAutoHide';
 import { useLocalProgress } from '../hooks/useLocalProgress';
 import { usePersistentState } from '../hooks/usePersistentState';
 import { grammarApi } from '../services/api';
 import type { GrammarChapter as Chapter, GrammarChapterSummary, GrammarLevel } from '../types';
+import { useIsDesktop } from '../hooks/useIsDesktop';
+import GrammarChapterDesktop from './GrammarChapterDesktop';
+import DesktopLayout from '../components/DesktopLayout';
 
 function levelOf(order: number): GrammarLevel {
   if (order <= 7) return 'Beginner';
@@ -31,6 +35,7 @@ export default function GrammarChapter() {
   // Track auto-graded answers (mcq + fill_blank) for the live score.
   const [answered, setAnswered] = useState<Record<number, boolean>>({});
   const scrollRef = useRef<HTMLDivElement>(null);
+  const { visible: uiVisible } = useAutoHide(scrollRef);
 
   useEffect(() => {
     setLoading(true);
@@ -72,7 +77,18 @@ export default function GrammarChapter() {
     toggleGrammarComplete(slug);
   };
 
+  const isDesktop = useIsDesktop();
+
   if (loading || !chapter) {
+    if (isDesktop) {
+      return (
+        <DesktopLayout activeTab="grammar">
+          <div className="flex-grow flex items-center justify-center min-h-[300px] text-sm text-on-surface-variant font-bold font-serif">
+            {loading ? 'Loading chapter…' : 'Chapter not found.'}
+          </div>
+        </DesktopLayout>
+      );
+    }
     return (
       <div className="flex flex-col h-[100dvh]" style={{ background: 'var(--paper)' }}>
         <PageHeader title="Grammar" back="/grammar" />
@@ -86,9 +102,31 @@ export default function GrammarChapter() {
 
   const level = levelOf(chapter.order);
 
+  if (isDesktop) {
+    return (
+      <GrammarChapterDesktop
+        chapter={chapter}
+        chapterList={chapterList}
+        slug={slug}
+        loading={loading}
+        tab={tab}
+        setTab={setTab}
+        completed={completed}
+        gradedTotal={gradedTotal}
+        correctCount={correctCount}
+        scorePct={scorePct}
+        handleAnswered={handleAnswered}
+        markComplete={markComplete}
+        prevChapter={prevChapter}
+        nextChapter={nextChapter}
+        level={level}
+      />
+    );
+  }
+
   return (
     <div className="relative flex flex-col h-[100dvh] overflow-x-hidden w-full" style={{ background: 'var(--paper)' }}>
-      <PageHeader title={chapter.title.en} subtitle={chapter.title.gu} back="/grammar" />
+      <PageHeader title={chapter.title.en} subtitle={chapter.title.gu} back="/grammar" visible={uiVisible} />
 
       <div ref={scrollRef} className="flex-1 overflow-y-auto overflow-x-hidden no-scrollbar px-5 pt-4 pb-6">
         {/* Header strip */}
@@ -235,7 +273,7 @@ export default function GrammarChapter() {
       </div>
 
       <ScrollToTop targetRef={scrollRef} />
-      <BottomNav active="grammar" />
+      <BottomNav active="grammar" visible={uiVisible} />
     </div>
   );
 }

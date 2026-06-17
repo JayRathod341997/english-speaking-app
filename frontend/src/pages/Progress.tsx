@@ -2,9 +2,12 @@ import { useEffect, useRef, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import BottomNav from '../components/BottomNav';
 import ScrollToTop from '../components/ScrollToTop';
+import { useAutoHide } from '../hooks/useAutoHide';
+import { useIsDesktop } from '../hooks/useIsDesktop';
 import { useLocalProgress } from '../hooks/useLocalProgress';
 import { progressApi } from '../services/api';
 import type { Progress } from '../types';
+import ProgressDesktop from './ProgressDesktop';
 
 const LEVEL_STYLE: Record<string, { bg: string; color: string }> = {
   beginner:     { bg: 'var(--teal-soft)',  color: 'var(--teal)' },
@@ -34,6 +37,7 @@ export default function ProgressPage() {
   const navigate = useNavigate();
   const { progress: local } = useLocalProgress();
   const scrollRef = useRef<HTMLDivElement>(null);
+  const { visible: uiVisible } = useAutoHide(scrollRef);
 
   const wordsLearned = Object.values(local.vocab).filter(v => v.learned).length;
   const idiomsLearned = local.learnedIdioms?.length ?? 0;
@@ -54,12 +58,28 @@ export default function ProgressPage() {
   };
 
   const lvlStyle = LEVEL_STYLE[stats.level] ?? LEVEL_STYLE.beginner;
+  const isDesktop = useIsDesktop();
+
+  if (isDesktop) {
+    return (
+      <ProgressDesktop
+        loading={loading}
+        stats={stats}
+        wordsLearned={wordsLearned}
+        idiomsLearned={idiomsLearned}
+        idiomsSaved={idiomsSaved}
+        grammarDone={grammarDone}
+        bestQuiz={bestQuiz}
+      />
+    );
+  }
 
   return (
     <div className="relative flex flex-col h-[100dvh] overflow-x-hidden w-full" style={{ background: 'var(--paper)' }}>
       {/* Header */}
+      <div style={{ overflow: 'hidden', maxHeight: uiVisible ? '80px' : '0', transition: 'max-height 0.3s ease', flexShrink: 0 }}>
       <div
-        className="flex items-center gap-3 px-5 py-3.5 flex-shrink-0"
+        className="flex items-center gap-3 px-5 py-3.5"
         style={{ background: 'var(--card)', borderBottom: '1px solid var(--line)' }}
       >
         <button
@@ -75,6 +95,7 @@ export default function ProgressPage() {
           </h1>
           <p className="text-[11px] font-guj" style={{ color: 'var(--ink-soft)' }}>તમારી પ્રગતિ</p>
         </div>
+      </div>
       </div>
 
       {loading ? (
@@ -216,7 +237,7 @@ export default function ProgressPage() {
       )}
 
       {!loading && <ScrollToTop targetRef={scrollRef} />}
-      <BottomNav active="progress" />
+      <BottomNav active="progress" visible={uiVisible} />
     </div>
   );
 }

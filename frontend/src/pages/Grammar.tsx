@@ -4,22 +4,17 @@ import BottomNav from '../components/BottomNav';
 import ChapterCard from '../components/ChapterCard';
 import PageHeader from '../components/PageHeader';
 import ScrollToTop from '../components/ScrollToTop';
+import { useAutoHide } from '../hooks/useAutoHide';
 import { useLocalProgress } from '../hooks/useLocalProgress';
 import { usePersistentState } from '../hooks/usePersistentState';
 import { grammarApi } from '../services/api';
 import type { GrammarChapterSummary, GrammarIndex, GrammarLevel } from '../types';
+import { useIsDesktop } from '../hooks/useIsDesktop';
+import GrammarDesktop from './GrammarDesktop';
 
 type LevelFilter = 'All' | GrammarLevel;
 
 const LEVELS: GrammarLevel[] = ['Beginner', 'Intermediate', 'Advanced'];
-const FILTERS: LevelFilter[] = ['All', 'Beginner', 'Intermediate', 'Advanced'];
-
-const FILTER_ACTIVE: Record<LevelFilter, React.CSSProperties> = {
-  All: { background: 'var(--ink)', color: '#fff', border: '1.5px solid var(--ink)' },
-  Beginner: { background: 'var(--teal)', color: '#fff', border: '1.5px solid var(--teal)' },
-  Intermediate: { background: 'var(--amber)', color: '#fff', border: '1.5px solid var(--amber)' },
-  Advanced: { background: 'var(--rose)', color: '#fff', border: '1.5px solid var(--rose)' },
-};
 
 const LEVEL_HEADER: Record<GrammarLevel, string> = {
   Beginner: 'var(--teal)',
@@ -59,6 +54,7 @@ export default function Grammar() {
   const navigate = useNavigate();
   const { progress, toggleGrammarComplete } = useLocalProgress();
   const scrollRef = useRef<HTMLDivElement>(null);
+  const { visible: uiVisible } = useAutoHide(scrollRef);
 
   const toggleLevelCollapse = (lvl: GrammarLevel) => {
     setCollapsedList(prev =>
@@ -110,9 +106,28 @@ export default function Grammar() {
     return counts;
   }, [index, completedSet]);
 
+  const isDesktop = useIsDesktop();
+
+  if (isDesktop) {
+    return (
+      <GrammarDesktop
+        index={index}
+        loading={loading}
+        level={level}
+        setLevel={setLevel}
+        grammarCompletedSet={completedSet}
+        progress={progress}
+        toggleGrammarComplete={toggleGrammarComplete}
+        navigate={navigate}
+        groupedChapters={grouped}
+        levelCounts={levelCounts}
+      />
+    );
+  }
+
   return (
     <div className="relative flex flex-col h-[100dvh] overflow-x-hidden w-full" style={{ background: 'var(--paper)' }}>
-      <PageHeader title="Grammar" subtitle="વ્યાકરણ" back="/" />
+      <PageHeader title="Grammar" subtitle="વ્યાકરણ" back="/" visible={uiVisible} />
 
       {loading ? (
         <div className="flex-1 flex items-center justify-center text-sm" style={{ color: 'var(--ink-soft)' }}>
@@ -142,31 +157,6 @@ export default function Grammar() {
             </p>
           </div>
 
-          {/* Level filter pills */}
-          <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 mb-5">
-            {FILTERS.map(f => {
-              const isActive = level === f;
-              return (
-                <button
-                  key={f}
-                  onClick={() => {
-                    setLevel(f);
-                    if (f !== 'All') {
-                      setCollapsedList(prev => prev.filter(l => l !== (f as GrammarLevel)));
-                    }
-                  }}
-                  className="whitespace-nowrap px-3.5 py-2 rounded-xl text-xs font-bold transition-all active:scale-95 text-center cursor-pointer"
-                  style={
-                    isActive
-                      ? FILTER_ACTIVE[f]
-                      : { background: 'var(--card)', color: 'var(--ink-soft)', border: '1.5px solid var(--line)' }
-                  }
-                >
-                  {f}
-                </button>
-              );
-            })}
-          </div>
 
           {/* Chapters grouped by level */}
           {LEVELS.map(lvl => {
@@ -186,7 +176,7 @@ export default function Grammar() {
                     <h2 className="font-serif text-[16px] font-semibold transition-colors group-hover:opacity-80" style={{ color: LEVEL_HEADER[lvl] }}>
                       {lvl}
                     </h2>
-                    <ToggleIndicator expanded={!isCollapsed} className="opacity-60 group-hover:opacity-100" style={{ color: LEVEL_HEADER[lvl] }} />
+                    <ToggleIndicator expanded={!isCollapsed} className="w-[14px] h-[14px] opacity-60 group-hover:opacity-100" style={{ color: LEVEL_HEADER[lvl] }} />
                   </div>
                   <span
                     className="text-[11px] font-bold px-2 py-0.5 rounded-full transition-opacity group-hover:opacity-80"
@@ -219,7 +209,7 @@ export default function Grammar() {
       )}
 
       {!loading && <ScrollToTop targetRef={scrollRef} />}
-      <BottomNav active="grammar" />
+      <BottomNav active="grammar" visible={uiVisible} />
     </div>
   );
 }

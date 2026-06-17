@@ -284,6 +284,87 @@
           "guMT": true
         }
       ]
+    },
+    {
+      "block": "rules",
+      "id": "ch-05-articles/exp-6",
+      "title": {
+        "en": "Special cases for 'the'",
+        "gu": "'ધ' માટે ખાસ કેસો",
+        "guMT": true
+      },
+      "items": [
+        {
+          "text": {
+            "en": "Use 'the' before abbreviated names of countries and groups of islands.",
+            "gu": "દેશો અને ટાપુઓના જૂથોના સંક્ષિપ્ત નામો પહેલાં 'the' નો ઉપયોગ કરો.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "the USA, the UK, the USSR, the Netherlands, the Philippines",
+              "gu": "યુએસએ, યુકે, યુએસએસઆર, નેધરલેન્ડ, ફિલિપાઇન્સ",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "Use 'the' before the name of a nationality group when referring to all the people as a community.",
+            "gu": "તમામ લોકોને સમુદાય તરીકે ઉલ્લેખ કરતી વખતે રાષ્ટ્રીયતા જૂથના નામ પહેલાં 'the' નો ઉપયોગ કરો.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "The Gujaratis are known for their business skills. (the whole community) | A Gujarati came to our school. (one person)",
+              "gu": "ગુજરાતીઓ તેમના વ્યવસાય કૌશલ્ય માટે જાણીતા છે. (સમગ્ર સમુદાય) | અમારી શાળામાં એક ગુજરાતી આવ્યો. (એક વ્યક્તિ)",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "Use 'the' before names of newspapers and magazines.",
+            "gu": "અખબારો અને સામયિકોના નામ પહેલાં 'the' નો ઉપયોગ કરો.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "the Times of India, the Hindustan Times, the Gujarat Samachar",
+              "gu": "ટાઈમ્સ ઓફ ઈન્ડિયા, હિન્દુસ્તાન ટાઈમ્સ, ગુજરાત સમાચાર",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "Use 'the' before well-known monuments and buildings.",
+            "gu": "જાણીતા સ્મારકો અને ઇમારતો પહેલાં 'the' નો ઉપયોગ કરો.",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "the Taj Mahal, the Eiffel Tower, the Red Fort, the White House",
+              "gu": "તાજમહેલ, એફિલ ટાવર, લાલ કિલ્લો, વ્હાઇટ હાઉસ",
+              "guMT": true
+            }
+          ]
+        },
+        {
+          "text": {
+            "en": "Comparing someone to a famous person: use 'a' for the first mention (meaning 'a person like'); use 'the' when naming the class (meaning the most famous).",
+            "gu": "કોઈની તુલના પ્રખ્યાત વ્યક્તિ સાથે કરવી: પ્રથમ ઉલ્લેખ માટે 'a' નો ઉપયોગ કરો (જેનો અર્થ 'એક વ્યક્તિ ગમે છે'); વર્ગનું નામ આપતી વખતે 'the' નો ઉપયોગ કરો (જેનો અર્થ સૌથી પ્રખ્યાત).",
+            "guMT": true
+          },
+          "examples": [
+            {
+              "en": "Kalidas is the Shakespeare of India. (= the greatest poet of India, like Shakespeare was of England)",
+              "gu": "કાલિદાસ ભારતના શેક્સપિયર છે. (= ભારતના મહાન કવિ, જેમ કે શેક્સપિયર ઈંગ્લેન્ડના હતા)",
+              "guMT": true
+            }
+          ]
+        }
+      ]
     }
   ],
   "practice": [
@@ -589,12 +670,193 @@
       "type": "translation",
       "direction": "gu_to_en",
       "prompt": {
-        "en": "",
-        "gu": ""
+        "en": "Translate into English: આપણને રાત્રે આકાશમાં ચંદ્ર દેખાય છે.",
+        "gu": "આ વાક્ય અંગ્રેજીમાં ભાષાંતર કરો: આપણને રાત્રે આકાશમાં ચંદ્ર દેખાય છે.",
+        "guMT": false
       },
       "answer": {
         "en": "We see the moon in the sky at night.",
         "gu": "આપણને રાત્રે આકાશમાં ચંદ્ર દેખાય છે.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-05-articles/q-10",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "____ Amazon is the longest river in the world.",
+        "gu": "____ એમેઝોન એ વિશ્વની સૌથી લાંબી નદી છે.",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "A",
+          "gu": "એ",
+          "guMT": true
+        },
+        {
+          "en": "The",
+          "gu": "આ",
+          "guMT": true
+        },
+        {
+          "en": "X (none)",
+          "gu": "X (કોઈ નહીં)",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "The",
+        "gu": "આ",
+        "guMT": true
+      },
+      "hint": {
+        "en": "Names of rivers take 'the'.",
+        "gu": "નદીઓના નામ 'ધ' લે છે.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-05-articles/q-11",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "He plays ____ cricket every evening.",
+        "gu": "તે દરરોજ સાંજે ____ ક્રિકેટ રમે છે.",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "a",
+          "gu": "a",
+          "guMT": true
+        },
+        {
+          "en": "the",
+          "gu": "આ",
+          "guMT": true
+        },
+        {
+          "en": "X (none)",
+          "gu": "X (કોઈ નહીં)",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "X (none)",
+        "gu": "X (કોઈ નહીં)",
+        "guMT": true
+      },
+      "hint": {
+        "en": "Sports and games take no article.",
+        "gu": "રમતો અને રમતો કોઈ લેખ નથી.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-05-articles/q-12",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "____ United States is a powerful country.",
+        "gu": "____ યુનાઇટેડ સ્ટેટ્સ એક શક્તિશાળી દેશ છે.",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "A",
+          "gu": "એ",
+          "guMT": true
+        },
+        {
+          "en": "The",
+          "gu": "આ",
+          "guMT": true
+        },
+        {
+          "en": "X (none)",
+          "gu": "X (કોઈ નહીં)",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "The",
+        "gu": "આ",
+        "guMT": true
+      },
+      "hint": {
+        "en": "Abbreviated country names (USA, UK) take 'the'.",
+        "gu": "સંક્ષિપ્ત દેશના નામ (યુએસએ, યુકે) 'ધ' લે છે.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-05-articles/q-13",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "Aakash is ____ best student in the class.",
+        "gu": "આકાશ વર્ગમાં ____ શ્રેષ્ઠ વિદ્યાર્થી છે.",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "a",
+          "gu": "a",
+          "guMT": true
+        },
+        {
+          "en": "the",
+          "gu": "આ",
+          "guMT": true
+        },
+        {
+          "en": "an",
+          "gu": "એક",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "the",
+        "gu": "આ",
+        "guMT": true
+      },
+      "hint": {
+        "en": "Superlative degree always takes 'the'.",
+        "gu": "શ્રેષ્ઠ ડિગ્રી હંમેશા 'ધ' લે છે.",
+        "guMT": true
+      }
+    },
+    {
+      "id": "ch-05-articles/q-14",
+      "type": "fill_blank",
+      "prompt": {
+        "en": "Gujarati is ____ sweet language.",
+        "gu": "ગુજરાતી ____ મીઠી ભાષા છે.",
+        "guMT": true
+      },
+      "options": [
+        {
+          "en": "a",
+          "gu": "a",
+          "guMT": true
+        },
+        {
+          "en": "an",
+          "gu": "એક",
+          "guMT": true
+        },
+        {
+          "en": "the",
+          "gu": "આ",
+          "guMT": true
+        }
+      ],
+      "answer": {
+        "en": "a",
+        "gu": "a",
+        "guMT": true
+      },
+      "hint": {
+        "en": "'sweet' begins with a consonant sound, so use 'a'. Note: 'Gujarati' here names the language, not something specific or unique.",
+        "gu": "'મીઠી' વ્યંજન ધ્વનિથી શરૂ થાય છે, તેથી 'a' નો ઉપયોગ કરો. નોંધ: 'ગુજરાતી' અહીં ભાષાને નામ આપે છે, કોઈ વિશિષ્ટ અથવા વિશિષ્ટ નથી.",
         "guMT": true
       }
     }

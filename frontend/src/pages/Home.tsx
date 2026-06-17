@@ -5,7 +5,10 @@ import ChapterCard from '../components/ChapterCard';
 import DailyItemCard from '../components/DailyItemCard';
 import ScrollToTop from '../components/ScrollToTop';
 import { ProgressIcon } from '../components/Icon';
+import { useAutoHide } from '../hooks/useAutoHide';
 import { useLocalProgress } from '../hooks/useLocalProgress';
+import { useIsDesktop } from '../hooks/useIsDesktop';
+import HomeDesktop from './HomeDesktop';
 import {
   grammarApi,
   idiomsApi,
@@ -38,6 +41,7 @@ export default function Home() {
 
   const navigate = useNavigate();
   const scrollRef = useRef<HTMLDivElement>(null);
+  const { visible: uiVisible } = useAutoHide(scrollRef);
   const { progress, toggleIdiomLearned, setWord, toggleGrammarComplete } = useLocalProgress();
 
   useEffect(() => {
@@ -71,7 +75,7 @@ export default function Home() {
   }, []);
 
   const challengeScenario = challenge
-    ? scenarios.find(s => s.id === challenge.scenario_id)
+    ? (scenarios.find(s => s.id === challenge.scenario_id) ?? null)
     : null;
 
   const seed = useMemo(() => hashSeed(todayKey()), []);
@@ -133,12 +137,33 @@ export default function Home() {
   const idiomsDone = todaysIdioms.filter(i => learnedIdiomSet.has(i.id)).length;
   const wordsDone = todaysWords.filter(w => !!progress.vocab[wordKey(w)]?.learned).length;
   const grammarDone = todaysGrammar.filter(c => grammarCompletedSet.has(c.slug)).length;
+  const isDesktop = useIsDesktop();
+
+  if (isDesktop) {
+    return (
+      <HomeDesktop
+        challenge={challenge}
+        streak={streak}
+        todaysIdioms={todaysIdioms}
+        todaysWords={todaysWords}
+        todaysGrammar={todaysGrammar}
+        loading={loading}
+        progress={progress}
+        toggleIdiomLearned={toggleIdiomLearned}
+        toggleGrammarComplete={toggleGrammarComplete}
+        setWord={setWord}
+        wordKey={wordKey}
+        challengeScenario={challengeScenario}
+      />
+    );
+  }
 
   return (
     <div className="relative flex flex-col h-[100dvh] overflow-x-hidden w-full" style={{ background: 'var(--paper)' }}>
       {/* Header */}
+      <div style={{ overflow: 'hidden', maxHeight: uiVisible ? '80px' : '0', transition: 'max-height 0.3s ease', flexShrink: 0 }}>
       <header
-        className="flex items-center justify-between px-5 py-3 flex-shrink-0"
+        className="flex items-center justify-between px-5 py-3"
         style={{ background: 'var(--card)', borderBottom: '1px solid var(--line)' }}
       >
         <div className="flex items-center gap-3">
@@ -174,6 +199,7 @@ export default function Home() {
           </div>
         </div>
       </header>
+      </div>
 
       {/* Scrollable body */}
       <div ref={scrollRef} className="flex-1 overflow-y-auto overflow-x-hidden no-scrollbar px-5 pt-5 pb-2">
@@ -357,7 +383,7 @@ export default function Home() {
       </div>
 
       <ScrollToTop targetRef={scrollRef} />
-      <BottomNav active="home" />
+      <BottomNav active="home" visible={uiVisible} />
     </div>
   );
 }

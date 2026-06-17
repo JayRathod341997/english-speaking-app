@@ -4,8 +4,11 @@ import BottomNav from '../components/BottomNav';
 import PageHeader from '../components/PageHeader';
 import ScrollToTop from '../components/ScrollToTop';
 import { SearchIcon } from '../components/Icon';
+import { useAutoHide } from '../hooks/useAutoHide';
 import { scenariosApi, vocabularyApi } from '../services/api';
 import type { Scenario } from '../types';
+import { useIsDesktop } from '../hooks/useIsDesktop';
+import ConversationsDesktop from './ConversationsDesktop';
 
 interface DialogueCardData {
   key: string;          // `${categoryId}.${dialogueId}`
@@ -26,6 +29,7 @@ export default function Conversations() {
   const [search, setSearch] = useState('');
   const navigate = useNavigate();
   const scrollRef = useRef<HTMLDivElement>(null);
+  const { visible: uiVisible } = useAutoHide(scrollRef);
 
   useEffect(() => {
     Promise.all([scenariosApi.list(), vocabularyApi.index()])
@@ -55,9 +59,25 @@ export default function Conversations() {
     [dialogues, search]
   );
 
+  const isDesktop = useIsDesktop();
+
+  if (isDesktop) {
+    return (
+      <ConversationsDesktop
+        scenarios={scenarios}
+        dialogues={dialogues}
+        loading={loading}
+        search={search}
+        setSearch={setSearch}
+        filteredScenarios={filteredScenarios}
+        filteredDialogues={filteredDialogues}
+      />
+    );
+  }
+
   return (
     <div className="relative flex flex-col h-[100dvh] overflow-x-hidden w-full" style={{ background: 'var(--paper)' }}>
-      <PageHeader title="Conversations" subtitle="વાર્તાલાપ પ્રૅક્ટિસ" back="/" />
+      <PageHeader title="Conversations" subtitle="વાર્તાલાપ પ્રૅક્ટિસ" back="/" visible={uiVisible} />
 
       {loading ? (
         <div className="flex-1 flex items-center justify-center text-sm" style={{ color: 'var(--ink-soft)' }}>
@@ -136,7 +156,7 @@ export default function Conversations() {
       )}
 
       {!loading && <ScrollToTop targetRef={scrollRef} />}
-      <BottomNav active="conversations" />
+      <BottomNav active="conversations" visible={uiVisible} />
     </div>
   );
 }
